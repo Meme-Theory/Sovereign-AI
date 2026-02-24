@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Stellaris logs and saves
+logs/
+save games/
+*.sav
+
+# Paradox launcher cache
+launcher-v2.sqlite
+dlc_load.json
+game_data.json
+
+# Mod manager metadata
+.irony/
+
+# Build artifacts
+*.zip
+*.tar.gz

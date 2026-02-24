@@ -1,0 +1,429 @@
+# SOVEREIGN AI Overhaul — District Weights
+# Districts are the primary economic engine of planets.
+#
+# PHILOSOPHY:
+#   - AI should build districts based on planet designation and economic need
+#   - Mining/generator districts respond to resource deficits
+#   - Industrial districts respond to alloy/consumer goods needs
+#   - City districts respond to housing pressure
+#   - Avoid over-building any single type
+
+# ============================================================
+# SCRIPTED VARIABLES
+# ============================================================
+@district_base = 0
+@district_need = 100
+@district_surplus_penalty = 0.25
+@district_designation_bonus = 75
+
+# ============================================================
+# CITY DISTRICT
+# ============================================================
+district_city = {
+	base_buildtime = 480
+
+	is_capped_by_modifier = no
+
+	potential = {
+		exists = owner
+		owner = { is_regular_empire = yes }
+		NOT = { is_planet_class = pc_habitat }
+	}
+
+	planet_modifier = {
+		planet_housing_add = 5
+		planet_max_buildings_add = 1
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_clerk_add = 1
+		}
+	}
+
+	ai_weight = {
+		weight = @district_base
+
+		# Build when housing is critical
+		modifier = {
+			add = 200
+			free_housing < 0
+		}
+
+		# Build when housing is getting tight
+		modifier = {
+			add = @district_need
+			free_housing < 3
+			num_pops > 10
+		}
+
+		# Need more building slots
+		modifier = {
+			add = @district_need
+			free_building_slots < 1
+			num_pops > 15
+		}
+
+		# Don't over-build housing
+		modifier = {
+			factor = 0.01
+			free_housing > 15
+		}
+
+		# Urban worlds designation bonus
+		modifier = {
+			add = @district_designation_bonus
+			has_designation = col_city
+		}
+	}
+}
+
+# ============================================================
+# MINING DISTRICT
+# ============================================================
+district_mining = {
+	base_buildtime = 480
+
+	is_capped_by_modifier = yes
+
+	potential = {
+		NOT = { is_planet_class = pc_habitat }
+	}
+
+	planet_modifier = {
+		planet_housing_add = 2
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_miner_add = 2
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			job_mining_drone_add = 3
+		}
+	}
+
+	ai_weight = {
+		weight = @district_base
+
+		# Build when mineral income is low
+		modifier = {
+			add = @district_need
+			owner = {
+				has_monthly_income = {
+					resource = minerals
+					value < 20
+				}
+			}
+		}
+
+		# Urgent: negative mineral income
+		modifier = {
+			add = 200
+			owner = {
+				has_monthly_income = {
+					resource = minerals
+					value < 0
+				}
+			}
+		}
+
+		# Mining world designation
+		modifier = {
+			add = @district_designation_bonus
+			has_designation = col_mining
+		}
+
+		# Reduce if already mineral-rich
+		modifier = {
+			factor = @district_surplus_penalty
+			owner = {
+				has_monthly_income = {
+					resource = minerals
+					value > 100
+				}
+			}
+		}
+
+		# Don't build if no housing capacity
+		modifier = {
+			factor = 0.1
+			free_housing < 0
+		}
+	}
+}
+
+# ============================================================
+# GENERATOR DISTRICT
+# ============================================================
+district_generator = {
+	base_buildtime = 480
+
+	is_capped_by_modifier = yes
+
+	potential = {
+		NOT = { is_planet_class = pc_habitat }
+	}
+
+	planet_modifier = {
+		planet_housing_add = 2
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_technician_add = 2
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			job_technician_drone_add = 3
+		}
+	}
+
+	ai_weight = {
+		weight = @district_base
+
+		# Build when energy income is low
+		modifier = {
+			add = @district_need
+			owner = {
+				has_monthly_income = {
+					resource = energy
+					value < 20
+				}
+			}
+		}
+
+		# Urgent: negative energy
+		modifier = {
+			add = 200
+			owner = {
+				has_monthly_income = {
+					resource = energy
+					value < 0
+				}
+			}
+		}
+
+		# Generator world designation
+		modifier = {
+			add = @district_designation_bonus
+			has_designation = col_generator
+		}
+
+		# Reduce if energy-rich
+		modifier = {
+			factor = @district_surplus_penalty
+			owner = {
+				has_monthly_income = {
+					resource = energy
+					value > 100
+				}
+			}
+		}
+
+		modifier = {
+			factor = 0.1
+			free_housing < 0
+		}
+	}
+}
+
+# ============================================================
+# AGRICULTURE DISTRICT
+# ============================================================
+district_farming = {
+	base_buildtime = 480
+
+	is_capped_by_modifier = yes
+
+	potential = {
+		NOT = { is_planet_class = pc_habitat }
+		NOT = { is_planet_class = pc_machine }
+	}
+
+	planet_modifier = {
+		planet_housing_add = 2
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_farmer_add = 2
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		modifier = {
+			job_agri_drone_add = 3
+		}
+	}
+
+	ai_weight = {
+		weight = @district_base
+
+		# Build when food income is low
+		modifier = {
+			add = @district_need
+			owner = {
+				has_monthly_income = {
+					resource = food
+					value < 10
+				}
+			}
+		}
+
+		# Urgent: negative food
+		modifier = {
+			add = 200
+			owner = {
+				has_monthly_income = {
+					resource = food
+					value < 0
+				}
+			}
+		}
+
+		# Agriculture world designation
+		modifier = {
+			add = @district_designation_bonus
+			has_designation = col_farming
+		}
+
+		# Don't over-produce food
+		modifier = {
+			factor = @district_surplus_penalty
+			owner = {
+				has_monthly_income = {
+					resource = food
+					value > 50
+				}
+			}
+		}
+
+		# Machine empires don't need food
+		modifier = {
+			factor = 0
+			owner = { is_machine_empire = yes }
+		}
+
+		modifier = {
+			factor = 0.1
+			free_housing < 0
+		}
+	}
+}
+
+# ============================================================
+# INDUSTRIAL DISTRICT
+# ============================================================
+district_industrial = {
+	base_buildtime = 480
+
+	is_capped_by_modifier = no
+
+	potential = {
+		exists = owner
+		NOT = { is_planet_class = pc_habitat }
+	}
+
+	planet_modifier = {
+		planet_housing_add = 2
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_metallurgist_add = 1
+			job_artisan_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			job_alloy_drone_add = 2
+		}
+	}
+
+	ai_weight = {
+		weight = @district_base
+
+		# Build when alloy income is low
+		modifier = {
+			add = @district_need
+			owner = {
+				has_monthly_income = {
+					resource = alloys
+					value < 15
+				}
+			}
+		}
+
+		# Build when consumer goods income is low (regular empires)
+		modifier = {
+			add = @district_need
+			owner = {
+				is_regular_empire = yes
+				has_monthly_income = {
+					resource = consumer_goods
+					value < 10
+				}
+			}
+		}
+
+		# Industrial world designation
+		modifier = {
+			add = @district_designation_bonus
+			has_designation = col_industrial
+		}
+
+		# At war: alloys are critical
+		modifier = {
+			factor = 1.5
+			owner = { is_at_war = yes }
+		}
+
+		modifier = {
+			factor = 0.1
+			free_housing < 0
+		}
+	}
+}

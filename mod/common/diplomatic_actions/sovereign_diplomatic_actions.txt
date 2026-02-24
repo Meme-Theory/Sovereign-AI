@@ -1,0 +1,173 @@
+# SOVEREIGN AI Overhaul — Diplomatic Action AI Weights
+# Controls how AI evaluates diplomatic proposals (both giving and receiving).
+#
+# These weights determine how likely the AI is to propose or accept
+# diplomatic actions like alliances, pacts, and treaties.
+
+# ============================================================
+# DEFENSIVE PACT
+# ============================================================
+sovereign_defensive_pact_weight = {
+	ai_acceptance = {
+		base = -30
+
+		# Shared rival bonus
+		modifier = {
+			add = 50
+			FROM = {
+				any_rival_country = {
+					is_rival = ROOT
+				}
+			}
+		}
+
+		# Shared ethic bonus
+		modifier = {
+			add = 20
+			FROM = {
+				has_same_ethic = ROOT
+			}
+		}
+
+		# Adjacent border bonus
+		modifier = {
+			add = 15
+			has_communications = FROM
+		}
+
+		# Common threat
+		modifier = {
+			add = 30
+			highest_threat > 50
+		}
+
+		# Xenophobe penalty
+		modifier = {
+			add = -30
+			has_ethic = ethic_xenophobe
+		}
+
+		modifier = {
+			add = -75
+			has_ethic = ethic_fanatic_xenophobe
+		}
+
+		# Genocidal empires never accept
+		modifier = {
+			add = -1000
+			sovereign_is_genocidal = yes
+		}
+	}
+}
+
+# ============================================================
+# RESEARCH AGREEMENT
+# ============================================================
+sovereign_research_agreement_weight = {
+	ai_acceptance = {
+		base = -20
+
+		# Knowledge seekers love research agreements
+		modifier = {
+			add = 40
+			sovereign_is_materialist = yes
+		}
+
+		# Tech parity: both benefit equally
+		modifier = {
+			add = 20
+			relative_power = {
+				who = FROM
+				category = technology
+				value = equivalent
+			}
+		}
+
+		# Don't share tech with inferiors (arrogance)
+		modifier = {
+			add = -25
+			relative_power = {
+				who = FROM
+				category = technology
+				value = inferior
+			}
+		}
+
+		# Federation members should cooperate
+		modifier = {
+			add = 30
+			is_in_federation_with = FROM
+		}
+
+		# Xenophobe penalty
+		modifier = {
+			add = -20
+			has_ethic = ethic_xenophobe
+		}
+	}
+}
+
+# ============================================================
+# COMMERCIAL PACT
+# ============================================================
+sovereign_commercial_pact_weight = {
+	ai_acceptance = {
+		base = -10
+
+		# Megacorps love trade
+		modifier = {
+			add = 50
+			has_authority = auth_corporate
+		}
+
+		# Xenophile bonus
+		modifier = {
+			add = 20
+			sovereign_is_xenophile = yes
+		}
+
+		# Positive opinion helps
+		modifier = {
+			add = 15
+			opinion = { who = FROM value > 50 }
+		}
+
+		# Gestalt empires don't trade
+		modifier = {
+			add = -1000
+			is_gestalt = yes
+		}
+	}
+}
+
+# ============================================================
+# MIGRATION TREATY
+# ============================================================
+sovereign_migration_treaty_weight = {
+	ai_acceptance = {
+		base = -50
+
+		# Xenophiles embrace migration
+		modifier = {
+			add = 60
+			sovereign_is_xenophile = yes
+		}
+
+		modifier = {
+			add = 100
+			has_ethic = ethic_fanatic_xenophile
+		}
+
+		# Strong allies
+		modifier = {
+			add = 25
+			is_in_federation_with = FROM
+		}
+
+		# Xenophobe hard block
+		modifier = {
+			add = -200
+			sovereign_is_xenophobe = yes
+		}
+	}
+}

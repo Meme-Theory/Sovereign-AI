@@ -1,0 +1,49 @@
+# SOVEREIGN AI Overhaul — Game Rules
+# Overridable game rules that affect AI behavior.
+# These are evaluated by the engine for specific decision points.
+
+# ============================================================
+# AI COLONIZATION RULES
+# ============================================================
+
+# Can AI colonize this planet?
+# Vanilla allows very low habitability. We tighten the threshold.
+can_ai_colonize_planet = {
+	# Must have minimum habitability
+	habitability >= 0.40
+
+	# Must not already be owned
+	is_owned = no
+	has_owner = no
+
+	# Must not be a holy world (avoid opinion penalties)
+	NOT = { has_modifier = holy_world }
+
+	# Don't colonize if capital would be better off developing
+	owner = {
+		OR = {
+			num_owned_planets > 2
+			capital_scope = { num_pops > 15 }
+		}
+	}
+}
+
+# ============================================================
+# AI WAR DECLARATION RULES
+# ============================================================
+
+# Additional checks before AI declares war
+can_ai_declare_war = {
+	# Must not be in an existing war already
+	# (prevents multi-front wars for non-aggressive empires)
+	OR = {
+		is_at_war = no
+		sovereign_is_militaristic = yes
+	}
+
+	# Must have a minimum fleet
+	used_naval_capacity_percent > 0.5
+
+	# Must not be in economic crisis
+	NOT = { sovereign_economy_is_critical = yes }
+}

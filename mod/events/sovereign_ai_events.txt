@@ -1,0 +1,300 @@
+# SOVEREIGN AI Overhaul — AI Events
+# Event-based workarounds for hardcoded AI limitations.
+#
+# These events fire periodically to nudge AI empires into better decisions
+# that the weight system alone cannot accomplish.
+
+namespace = sovereign
+
+# ============================================================
+# EVENT sovereign.1 — Master AI Check (periodic)
+# ============================================================
+# Fires periodically to trigger per-empire AI evaluations.
+# Uses staggered scheduling to avoid performance spikes.
+
+event = {
+	id = sovereign.1
+	hide_window = yes
+	is_triggered_only = no
+
+	trigger = {
+		any_playable_country = {
+			is_ai = yes
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	immediate = {
+		every_playable_country = {
+			limit = { is_ai = yes }
+			# Stagger per-empire events to spread load
+			random_list = {
+				1 = {
+					country_event = { id = sovereign.2 days = 10 }
+				}
+				1 = {
+					country_event = { id = sovereign.2 days = 40 }
+				}
+				1 = {
+					country_event = { id = sovereign.2 days = 70 }
+				}
+				1 = {
+					country_event = { id = sovereign.2 days = 100 }
+				}
+			}
+		}
+	}
+}
+
+# ============================================================
+# EVENT sovereign.2 — Per-Empire AI Evaluation
+# ============================================================
+# Runs diagnostics on a single AI empire and applies corrections.
+
+country_event = {
+	id = sovereign.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = yes
+	}
+
+	immediate = {
+		# Force job re-evaluation on all owned planets
+		every_owned_planet = {
+			planet_event = { id = sovereign.3 days = 0 random = 90 }
+		}
+
+		# Check fleet status
+		if = {
+			limit = {
+				used_naval_capacity_percent < 0.5
+				sovereign_has_alloy_surplus = yes
+				NOT = { is_at_war = yes }
+			}
+			# AI should be building more ships
+			set_country_flag = sovereign_needs_more_ships
+		}
+		else = {
+			remove_country_flag = sovereign_needs_more_ships
+		}
+
+		# Check economic health
+		if = {
+			limit = {
+				sovereign_economy_is_critical = yes
+			}
+			set_country_flag = sovereign_economy_crisis
+			# Force economic re-evaluation
+			country_event = { id = sovereign.4 days = 5 }
+		}
+		else = {
+			remove_country_flag = sovereign_economy_crisis
+		}
+	}
+}
+
+# ============================================================
+# EVENT sovereign.3 — Per-Planet Job Re-evaluation
+# ============================================================
+# Forces the engine to recalculate pop job assignments on a planet.
+
+planet_event = {
+	id = sovereign.3
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		check_planet_employment = yes
+	}
+}
+
+# ============================================================
+# EVENT sovereign.4 — Economic Crisis Response
+# ============================================================
+# When AI is in economic crisis, force emergency measures.
+
+country_event = {
+	id = sovereign.4
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = yes
+		has_country_flag = sovereign_economy_crisis
+	}
+
+	immediate = {
+		# If energy is negative, try to sell surplus resources
+		if = {
+			limit = {
+				has_monthly_income = {
+					resource = energy
+					value < -10
+				}
+			}
+			# Disable expensive edicts
+			# (The AI sometimes doesn't realize edicts are bleeding it dry)
+			every_owned_planet = {
+				limit = {
+					has_modifier = resort_colony
+				}
+				# Flag for review — can't remove resort designation via event
+				set_planet_flag = sovereign_review_designation
+			}
+		}
+
+		# If minerals are negative, flag for building review
+		if = {
+			limit = {
+				has_monthly_income = {
+					resource = minerals
+					value < -10
+				}
+			}
+			set_country_flag = sovereign_mineral_crisis
+		}
+	}
+}
+
+# ============================================================
+# EVENT sovereign.5 — Expansion Nudge
+# ============================================================
+# Periodically checks if AI should be expanding more aggressively.
+
+country_event = {
+	id = sovereign.5
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = yes
+		num_owned_planets < 5
+		years_passed > 10
+		years_passed < 50
+		sovereign_has_stable_economy = yes
+		NOT = { is_at_war = yes }
+	}
+
+	immediate = {
+		# Flag that this empire should prioritize expansion
+		set_timed_country_flag = {
+			flag = sovereign_expand_now
+			days = 720
+		}
+	}
+}
+
+# ============================================================
+# EVENT sovereign.100 — Game Start Initialization
+# ============================================================
+# Sets up initial flags and variables when a new game starts.
+
+event = {
+	id = sovereign.100
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_playable_country = {
+			limit = { is_ai = yes }
+			# Initialize sovereign tracking variables
+			set_variable = {
+				which = sovereign_threat_level
+				value = 0
+			}
+			set_variable = {
+				which = sovereign_fleet_target
+				value = 50
+			}
+		}
+		# Set global flag indicating SOVEREIGN is active
+		set_global_flag = sovereign_ai_active
+	}
+}
+
+# ============================================================
+# EVENT sovereign.101 — Annual AI Review
+# ============================================================
+# Yearly check on all AI empires for strategic adjustments.
+
+country_event = {
+	id = sovereign.101
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = yes
+	}
+
+	immediate = {
+		# Update threat assessment
+		if = {
+			limit = { highest_threat > 75 }
+			set_variable = {
+				which = sovereign_threat_level
+				value = 3
+			}
+		}
+		else_if = {
+			limit = { highest_threat > 40 }
+			set_variable = {
+				which = sovereign_threat_level
+				value = 2
+			}
+		}
+		else_if = {
+			limit = { highest_threat > 15 }
+			set_variable = {
+				which = sovereign_threat_level
+				value = 1
+			}
+		}
+		else = {
+			set_variable = {
+				which = sovereign_threat_level
+				value = 0
+			}
+		}
+
+		# Force expansion check for small empires
+		if = {
+			limit = {
+				num_owned_planets < 5
+				years_passed > 10
+			}
+			country_event = { id = sovereign.5 days = 30 }
+		}
+	}
+}
+
+# ============================================================
+# EVENT sovereign.102 — Monthly Economic Pulse
+# ============================================================
+# Quick monthly check on AI economic health.
+
+country_event = {
+	id = sovereign.102
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = yes
+	}
+
+	immediate = {
+		# Clear crisis flag if economy has recovered
+		if = {
+			limit = {
+				has_country_flag = sovereign_economy_crisis
+				sovereign_has_stable_economy = yes
+			}
+			remove_country_flag = sovereign_economy_crisis
+			remove_country_flag = sovereign_mineral_crisis
+		}
+	}
+}

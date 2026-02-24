@@ -1,0 +1,260 @@
+# SOVEREIGN AI Overhaul — Physics Technology Weights
+# Controls which physics techs the AI prioritizes.
+
+# ============================================================
+# SCRIPTED VARIABLES
+# ============================================================
+@sovereign_phys_base = 1.0
+@sovereign_phys_high = 1.5
+@sovereign_phys_critical = 2.5
+
+# ============================================================
+# ENERGY TECHNOLOGIES
+# ============================================================
+
+tech_power_plant_1 = {
+	area = physics
+	cost = 500
+	tier = 1
+	category = { particles }
+
+	prerequisites = {}
+
+	weight = 100
+
+	ai_weight = {
+		factor = @sovereign_phys_high
+
+		# Energy is fundamental
+		modifier = {
+			factor = 1.5
+			has_monthly_income = {
+				resource = energy
+				value < 20
+			}
+		}
+	}
+}
+
+tech_power_plant_2 = {
+	area = physics
+	cost = 2000
+	tier = 2
+	category = { particles }
+
+	prerequisites = {
+		"tech_power_plant_1"
+	}
+
+	weight = 85
+
+	ai_weight = {
+		factor = @sovereign_phys_high
+
+		modifier = {
+			factor = 2.0
+			has_monthly_income = {
+				resource = energy
+				value < 10
+			}
+		}
+	}
+}
+
+# ============================================================
+# SHIELD TECHNOLOGIES
+# ============================================================
+
+tech_shields_1 = {
+	area = physics
+	cost = 750
+	tier = 1
+	category = { particles }
+
+	prerequisites = {}
+
+	weight = 90
+
+	ai_weight = {
+		factor = @sovereign_phys_high
+
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_militarist
+		}
+
+		modifier = {
+			factor = 2.0
+			is_at_war = yes
+		}
+	}
+}
+
+tech_shields_2 = {
+	area = physics
+	cost = 2500
+	tier = 2
+	category = { particles }
+
+	prerequisites = {
+		"tech_shields_1"
+	}
+
+	weight = 80
+
+	ai_weight = {
+		factor = @sovereign_phys_high
+
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_militarist
+		}
+
+		modifier = {
+			factor = 2.0
+			is_at_war = yes
+		}
+
+		modifier = {
+			factor = 1.25
+			years_passed > 20
+		}
+	}
+}
+
+tech_shields_3 = {
+	area = physics
+	cost = 5000
+	tier = 3
+	category = { particles }
+
+	prerequisites = {
+		"tech_shields_2"
+	}
+
+	weight = 70
+
+	ai_weight = {
+		factor = @sovereign_phys_high
+
+		modifier = {
+			factor = 2.0
+			has_ethic = ethic_militarist
+		}
+
+		modifier = {
+			factor = 2.5
+			is_at_war = yes
+		}
+	}
+}
+
+# ============================================================
+# COMPUTING TECHNOLOGIES
+# ============================================================
+
+tech_administrative_ai = {
+	area = physics
+	cost = 1500
+	tier = 2
+	category = { computing }
+
+	prerequisites = {}
+
+	weight = 80
+
+	ai_weight = {
+		factor = @sovereign_phys_base
+
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_materialist
+		}
+
+		# Machine empires naturally prioritize computing
+		modifier = {
+			factor = 2.0
+			is_machine_empire = yes
+		}
+	}
+}
+
+tech_self_aware_logic = {
+	area = physics
+	cost = 5000
+	tier = 3
+	category = { computing }
+
+	prerequisites = {
+		"tech_administrative_ai"
+	}
+
+	weight = 65
+
+	ai_weight = {
+		factor = @sovereign_phys_base
+
+		modifier = {
+			factor = 2.0
+			has_ethic = ethic_materialist
+		}
+
+		modifier = {
+			factor = 2.5
+			is_machine_empire = yes
+		}
+	}
+}
+
+# ============================================================
+# SENSOR TECHNOLOGIES
+# ============================================================
+
+tech_sensors_2 = {
+	area = physics
+	cost = 1000
+	tier = 1
+	category = { computing }
+
+	prerequisites = {}
+
+	weight = 75
+
+	ai_weight = {
+		factor = @sovereign_phys_base
+
+		# Sensors help detect threats
+		modifier = {
+			factor = 1.5
+			highest_threat > 25
+		}
+
+		# Espionage-focused empires want sensor range
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_xenophobe
+		}
+	}
+}
+
+tech_sensors_3 = {
+	area = physics
+	cost = 3000
+	tier = 2
+	category = { computing }
+
+	prerequisites = {
+		"tech_sensors_2"
+	}
+
+	weight = 65
+
+	ai_weight = {
+		factor = @sovereign_phys_base
+
+		modifier = {
+			factor = 1.5
+			highest_threat > 50
+		}
+	}
+}

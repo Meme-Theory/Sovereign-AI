@@ -1,0 +1,389 @@
+# SOVEREIGN AI Overhaul — Population & Resource Building Weights
+# These buildings produce resources, housing, and amenities.
+#
+# PHILOSOPHY:
+#   - AI should build resource buildings based on actual economic need
+#   - Use add-based weights so AI responds to deficit signals
+#   - factor = 0 only for hard empire-type blocks
+#   - Building slots are precious: penalize building when slots are scarce
+
+# ============================================================
+# SCRIPTED VARIABLES
+# ============================================================
+@resource_building_base = 0
+@resource_building_need = 100
+@resource_building_surplus_penalty = 0.25
+@low_slots_penalty = 0.01
+
+# ============================================================
+# RESEARCH LAB (Tier 1)
+# ============================================================
+building_research_lab_1 = {
+	base_buildtime = 360
+	category = research
+
+	potential = {
+		NOT = { has_modifier = resort_colony }
+		NOT = { has_modifier = penal_colony }
+	}
+
+	prerequisites = {
+		"tech_basic_science_lab_1"
+	}
+
+	planet_modifier = {
+		job_researcher_add = 2
+	}
+
+	upgrades = {
+		building_research_lab_2
+	}
+
+	ai_weight = {
+		weight = @resource_building_base
+
+		# Build when research output is low
+		modifier = {
+			add = @resource_building_need
+			owner = {
+				has_monthly_income = {
+					resource = physics_research
+					value < 30
+				}
+			}
+		}
+
+		# Materialists always want more research
+		modifier = {
+			factor = 2.0
+			owner = { has_ethic = ethic_materialist }
+		}
+
+		modifier = {
+			factor = 3.0
+			owner = { has_ethic = ethic_fanatic_materialist }
+		}
+
+		# Technocracies heavily prioritize research
+		modifier = {
+			factor = 2.5
+			owner = { has_civic = civic_technocracy }
+		}
+
+		# Reduce priority if already have surplus
+		modifier = {
+			factor = @resource_building_surplus_penalty
+			owner = {
+				has_monthly_income = {
+					resource = physics_research
+					value > 100
+				}
+			}
+		}
+
+		# Heavily penalize if few building slots remain
+		modifier = {
+			factor = @low_slots_penalty
+			free_building_slots < 2
+		}
+	}
+}
+
+# ============================================================
+# RESEARCH LAB (Tier 2)
+# ============================================================
+building_research_lab_2 = {
+	base_buildtime = 480
+	can_build = no
+	category = research
+
+	potential = {
+		NOT = { has_modifier = resort_colony }
+		NOT = { has_modifier = penal_colony }
+	}
+
+	prerequisites = {
+		"tech_basic_science_lab_2"
+	}
+
+	planet_modifier = {
+		job_researcher_add = 4
+	}
+
+	upgrades = {
+		building_research_lab_3
+	}
+
+	ai_weight = {
+		weight = @resource_building_base
+
+		# Always upgrade existing labs
+		modifier = {
+			add = 150
+			has_building = building_research_lab_1
+		}
+
+		modifier = {
+			factor = 2.0
+			owner = { has_ethic = ethic_materialist }
+		}
+
+		modifier = {
+			factor = 0.1
+			owner = {
+				has_resource = { type = minerals amount < 500 }
+			}
+		}
+	}
+}
+
+# ============================================================
+# ALLOY FOUNDRY
+# ============================================================
+building_foundry_1 = {
+	base_buildtime = 360
+	category = manufacturing
+
+	potential = {
+		NOT = { has_modifier = resort_colony }
+	}
+
+	prerequisites = {
+		"tech_basic_industry"
+	}
+
+	planet_modifier = {
+		job_metallurgist_add = 2
+	}
+
+	upgrades = {
+		building_foundry_2
+	}
+
+	ai_weight = {
+		weight = @resource_building_base
+
+		# Build when alloy income is low
+		modifier = {
+			add = @resource_building_need
+			owner = {
+				has_monthly_income = {
+					resource = alloys
+					value < 15
+				}
+			}
+		}
+
+		# Urgent: no alloy production at all
+		modifier = {
+			add = 200
+			owner = {
+				has_monthly_income = {
+					resource = alloys
+					value < 5
+				}
+			}
+		}
+
+		# Militarists need more alloys for ships
+		modifier = {
+			factor = 1.5
+			owner = { has_ethic = ethic_militarist }
+		}
+
+		# At war: alloys are critical
+		modifier = {
+			factor = 2.0
+			owner = { is_at_war = yes }
+		}
+
+		# Already have good alloy output — reduce priority
+		modifier = {
+			factor = @resource_building_surplus_penalty
+			owner = {
+				has_monthly_income = {
+					resource = alloys
+					value > 50
+				}
+			}
+		}
+
+		# Gestalt override — still needs alloys
+		modifier = {
+			add = @resource_building_need
+			owner = {
+				is_gestalt = yes
+				has_monthly_income = {
+					resource = alloys
+					value < 20
+				}
+			}
+		}
+
+		modifier = {
+			factor = @low_slots_penalty
+			free_building_slots < 2
+		}
+	}
+}
+
+# ============================================================
+# CIVILIAN INDUSTRIES (Consumer Goods)
+# ============================================================
+building_civilian_industries = {
+	base_buildtime = 360
+	category = manufacturing
+
+	potential = {
+		NOT = { has_modifier = resort_colony }
+		owner = {
+			is_regular_empire = yes
+			is_catalytic_empire = no
+		}
+	}
+
+	prerequisites = {
+		"tech_basic_industry"
+	}
+
+	planet_modifier = {
+		job_artisan_add = 2
+	}
+
+	upgrades = {
+		building_civilian_repli_complex
+	}
+
+	ai_weight = {
+		weight = @resource_building_base
+
+		# Build when consumer goods income is low
+		modifier = {
+			add = @resource_building_need
+			owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value < 10
+				}
+			}
+		}
+
+		# Urgent: negative consumer goods
+		modifier = {
+			add = 200
+			owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value < 0
+				}
+			}
+		}
+
+		# Hard block for gestalt empires
+		modifier = {
+			factor = 0
+			owner = { is_gestalt = yes }
+		}
+
+		modifier = {
+			factor = @low_slots_penalty
+			free_building_slots < 2
+		}
+	}
+}
+
+# ============================================================
+# HOUSING — LUXURY RESIDENCES
+# ============================================================
+building_luxury_residence = {
+	base_buildtime = 360
+	category = amenity
+
+	potential = {
+		NOT = { has_modifier = resort_colony }
+		owner = { is_regular_empire = yes }
+	}
+
+	planet_modifier = {
+		planet_housing_add = 3
+		planet_amenities_add = 5
+	}
+
+	ai_weight = {
+		weight = @resource_building_base
+
+		# Build when housing is tight
+		modifier = {
+			add = @resource_building_need
+			free_housing < 3
+			num_pops > 10
+		}
+
+		# Urgent housing crisis
+		modifier = {
+			add = 200
+			free_housing < 0
+		}
+
+		# Don't build if plenty of housing
+		modifier = {
+			factor = 0.01
+			free_housing > 10
+		}
+
+		modifier = {
+			factor = @low_slots_penalty
+			free_building_slots < 2
+		}
+	}
+}
+
+# ============================================================
+# GENE CLINIC
+# ============================================================
+building_clinic = {
+	base_buildtime = 360
+	category = amenity
+
+	potential = {
+		owner = { is_regular_empire = yes }
+		NOT = { has_modifier = resort_colony }
+	}
+
+	prerequisites = {
+		"tech_frontier_health"
+	}
+
+	planet_modifier = {
+		job_healthcare_add = 2
+		pop_growth_speed = 0.05
+	}
+
+	ai_weight = {
+		weight = @resource_building_base
+
+		# Build on colonies that need growth
+		modifier = {
+			add = 75
+			num_pops < 30
+			free_housing > 3
+		}
+
+		# Don't build on overcrowded planets
+		modifier = {
+			factor = 0.01
+			free_housing < 0
+		}
+
+		# Xenophiles and bio-focused empires value growth
+		modifier = {
+			factor = 1.5
+			owner = { has_ethic = ethic_xenophile }
+		}
+
+		modifier = {
+			factor = @low_slots_penalty
+			free_building_slots < 2
+		}
+	}
+}

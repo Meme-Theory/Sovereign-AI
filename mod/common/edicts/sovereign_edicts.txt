@@ -1,0 +1,225 @@
+# SOVEREIGN AI Overhaul — Edict AI Weights
+# Edicts are temporary or toggled empire-wide bonuses.
+# AI should activate edicts that match its current strategic needs.
+#
+# NOTE: This file contains ai_weight overrides for vanilla edicts
+# and any new edicts added by this mod.
+
+# ============================================================
+# SCRIPTED VARIABLES
+# ============================================================
+@edict_base_weight = 50
+@edict_situational_bonus = 100
+
+# ============================================================
+# PRODUCTION EDICTS
+# ============================================================
+
+# Encourage mineral production when minerals are scarce
+edict_mining_subsidies = {
+	length = 3600  # 10 years
+
+	resources = {
+		category = edicts
+		cost = {
+			influence = 20
+		}
+	}
+
+	modifier = {
+		planet_miners_minerals_produces_mult = 0.10
+	}
+
+	potential = {
+		is_regular_empire = yes
+	}
+
+	ai_weight = {
+		weight = @edict_base_weight
+
+		# Activate when mineral-starved
+		modifier = {
+			add = @edict_situational_bonus
+			has_monthly_income = {
+				resource = minerals
+				value < 20
+			}
+		}
+
+		# Urgent mineral crisis
+		modifier = {
+			factor = 3.0
+			has_monthly_income = {
+				resource = minerals
+				value < 0
+			}
+		}
+
+		# Don't waste influence if minerals are fine
+		modifier = {
+			factor = 0.1
+			has_monthly_income = {
+				resource = minerals
+				value > 100
+			}
+		}
+
+		# Low influence: conserve
+		modifier = {
+			factor = 0.1
+			has_resource = { type = influence amount < 50 }
+		}
+	}
+}
+
+# Encourage energy production
+edict_energy_subsidies = {
+	length = 3600
+
+	resources = {
+		category = edicts
+		cost = {
+			influence = 20
+		}
+	}
+
+	modifier = {
+		planet_technician_energy_produces_mult = 0.10
+	}
+
+	potential = {
+		is_regular_empire = yes
+	}
+
+	ai_weight = {
+		weight = @edict_base_weight
+
+		modifier = {
+			add = @edict_situational_bonus
+			has_monthly_income = {
+				resource = energy
+				value < 20
+			}
+		}
+
+		modifier = {
+			factor = 3.0
+			has_monthly_income = {
+				resource = energy
+				value < 0
+			}
+		}
+
+		modifier = {
+			factor = 0.1
+			has_monthly_income = {
+				resource = energy
+				value > 100
+			}
+		}
+
+		modifier = {
+			factor = 0.1
+			has_resource = { type = influence amount < 50 }
+		}
+	}
+}
+
+# ============================================================
+# MILITARY EDICTS
+# ============================================================
+
+edict_war_production = {
+	length = 3600
+
+	resources = {
+		category = edicts
+		cost = {
+			influence = 30
+		}
+	}
+
+	modifier = {
+		planet_metallurgists_alloys_produces_mult = 0.10
+		country_naval_cap_mult = 0.10
+	}
+
+	potential = {
+		is_regular_empire = yes
+	}
+
+	ai_weight = {
+		weight = 0
+
+		# Only activate when at war or about to be
+		modifier = {
+			add = 200
+			is_at_war = yes
+		}
+
+		modifier = {
+			add = @edict_situational_bonus
+			highest_threat > 75
+		}
+
+		# Militarists are more willing
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_militarist
+		}
+
+		modifier = {
+			factor = 0.1
+			has_resource = { type = influence amount < 50 }
+		}
+	}
+}
+
+# ============================================================
+# RESEARCH EDICTS
+# ============================================================
+
+edict_research_focus = {
+	length = 3600
+
+	resources = {
+		category = edicts
+		cost = {
+			influence = 25
+		}
+	}
+
+	modifier = {
+		all_technology_research_speed = 0.10
+	}
+
+	potential = {
+		is_regular_empire = yes
+	}
+
+	ai_weight = {
+		weight = @edict_base_weight
+
+		# Materialists and technocracies always want this
+		modifier = {
+			factor = 2.5
+			has_ethic = ethic_materialist
+		}
+
+		modifier = {
+			factor = 3.0
+			has_civic = civic_technocracy
+		}
+
+		# Don't waste influence in wartime
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+
+		modifier = {
+			factor = 0.1
+			has_resource = { type = influence amount < 50 }
+		}
+	}
+}

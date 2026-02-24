@@ -1,0 +1,316 @@
+# SOVEREIGN AI Overhaul — Ship Size AI Weights
+# Controls fleet composition preferences for the AI.
+#
+# NOTE: This file adds ai_weight modifiers to existing ship sizes.
+# Ship sizes themselves are defined in vanilla; we override the weight blocks.
+#
+# PHILOSOPHY:
+#   - Early game: corvette swarms
+#   - Mid game: balanced fleet with destroyers and cruisers
+#   - Late game: battleship-heavy with corvette screen
+#   - Adjust based on empire personality and current threat level
+
+# ============================================================
+# SCRIPTED VARIABLES
+# ============================================================
+@ship_base_weight = 100
+@ship_early_game_years = 30
+@ship_mid_game_years = 60
+@ship_late_game_years = 100
+
+# ============================================================
+# CORVETTE
+# ============================================================
+# Fast, cheap, expendable. Core of early fleets, screening role later.
+
+corvette = {
+	max_speed = 5.0
+	acceleration = 0.35
+	rotation_speed = 0.1
+	collision_radius = 2.0
+
+	modifier = {
+		ship_evasion_add = 60
+	}
+
+	max_hitpoints = 300
+	size_multiplier = 1
+	fleet_slot_size = 1
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 2
+	is_space_station = no
+	icon = ship_size_military_1
+	base_buildtime = 60
+	can_have_federation_design = yes
+	enable_default_design = yes
+	default_behavior = swarm
+
+	combat_disengage_chance = 1.5
+
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+	required_component_set = "combat_computers"
+
+	resources = {
+		category = ships
+		cost = {
+			alloys = 60
+		}
+		upkeep = {
+			energy = 0.4
+			alloys = 0.15
+		}
+	}
+
+	ai_weight = {
+		weight = @ship_base_weight
+
+		# Early game: corvettes are king
+		modifier = {
+			factor = 2.0
+			years_passed < @ship_early_game_years
+		}
+
+		# Late game: reduce corvette reliance
+		modifier = {
+			factor = 0.5
+			years_passed > @ship_late_game_years
+			owner = { has_technology = tech_battleships }
+		}
+
+		# Always maintain some screening corvettes
+		modifier = {
+			factor = 1.25
+			owner = { has_technology = tech_battleships }
+		}
+	}
+}
+
+# ============================================================
+# DESTROYER
+# ============================================================
+# Anti-corvette platform with point defense. Bridges early-to-mid.
+
+destroyer = {
+	max_speed = 4.5
+	acceleration = 0.3
+	rotation_speed = 0.2
+	collision_radius = 3.0
+
+	modifier = {
+		ship_evasion_add = 35
+	}
+
+	max_hitpoints = 800
+	size_multiplier = 2
+	fleet_slot_size = 2
+	section_slots = {
+		"bow" = { locator = "part1" }
+		"stern" = { locator = "part2" }
+	}
+	num_target_locators = 4
+	is_space_station = no
+	icon = ship_size_military_2
+	base_buildtime = 120
+	can_have_federation_design = yes
+	enable_default_design = yes
+	default_behavior = picket
+
+	combat_disengage_chance = 1.0
+
+	prerequisites = { "tech_destroyers" }
+
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+	required_component_set = "combat_computers"
+
+	resources = {
+		category = ships
+		cost = {
+			alloys = 120
+		}
+		upkeep = {
+			energy = 0.75
+			alloys = 0.30
+		}
+	}
+
+	ai_weight = {
+		weight = @ship_base_weight
+
+		# Good mid-game balance
+		modifier = {
+			factor = 1.5
+			years_passed > @ship_early_game_years
+			years_passed < @ship_late_game_years
+		}
+
+		# Reduce once cruisers are available
+		modifier = {
+			factor = 0.75
+			owner = { has_technology = tech_cruisers }
+		}
+	}
+}
+
+# ============================================================
+# CRUISER
+# ============================================================
+# Versatile mid-game ship. Can fill multiple roles.
+
+cruiser = {
+	max_speed = 3.75
+	acceleration = 0.25
+	rotation_speed = 0.175
+	collision_radius = 3.5
+
+	modifier = {
+		ship_evasion_add = 15
+	}
+
+	max_hitpoints = 1800
+	size_multiplier = 4
+	fleet_slot_size = 3
+	section_slots = {
+		"bow" = { locator = "part1" }
+		"mid" = { locator = "part2" }
+		"stern" = { locator = "part3" }
+	}
+	num_target_locators = 4
+	is_space_station = no
+	icon = ship_size_military_4
+	base_buildtime = 240
+	can_have_federation_design = yes
+	enable_default_design = yes
+	default_behavior = line
+
+	combat_disengage_chance = 0.75
+
+	prerequisites = { "tech_cruisers" }
+
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+	required_component_set = "combat_computers"
+
+	resources = {
+		category = ships
+		cost = {
+			alloys = 300
+		}
+		upkeep = {
+			energy = 1.50
+			alloys = 0.60
+		}
+	}
+
+	ai_weight = {
+		weight = @ship_base_weight
+
+		# Mid-to-late game workhorse
+		modifier = {
+			factor = 1.75
+			years_passed > @ship_mid_game_years
+		}
+
+		# Backbone of the fleet pre-battleships
+		modifier = {
+			factor = 2.0
+			NOT = { owner = { has_technology = tech_battleships } }
+			years_passed > @ship_early_game_years
+		}
+	}
+}
+
+# ============================================================
+# BATTLESHIP
+# ============================================================
+# Capital ship. Massive firepower. Backbone of late-game fleets.
+
+battleship = {
+	max_speed = 3.0
+	acceleration = 0.2
+	rotation_speed = 0.15
+	collision_radius = 5
+
+	modifier = {
+		ship_evasion_add = 5
+	}
+
+	max_hitpoints = 3000
+	size_multiplier = 8
+	fleet_slot_size = 4
+	section_slots = {
+		"bow" = { locator = "part1" }
+		"mid" = { locator = "part2" }
+		"stern" = { locator = "part3" }
+	}
+	num_target_locators = 4
+	is_space_station = no
+	icon = ship_size_military_8
+	base_buildtime = 480
+	can_have_federation_design = yes
+	enable_default_design = yes
+	default_behavior = line
+
+	combat_disengage_chance = 0.5
+
+	prerequisites = { "tech_battleships" }
+
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+	required_component_set = "combat_computers"
+
+	resources = {
+		category = ships
+		cost = {
+			alloys = 800
+		}
+		upkeep = {
+			energy = 3.20
+			alloys = 1.60
+		}
+	}
+
+	ai_weight = {
+		weight = @ship_base_weight
+
+		# Late game: battleships dominate
+		modifier = {
+			factor = 3.0
+			years_passed > @ship_late_game_years
+		}
+
+		# Militarists love big ships
+		modifier = {
+			factor = 1.5
+			owner = { has_ethic = ethic_militarist }
+		}
+
+		modifier = {
+			factor = 2.0
+			owner = { has_ethic = ethic_fanatic_militarist }
+		}
+
+		# At war: build as many as possible
+		modifier = {
+			factor = 1.5
+			owner = { is_at_war = yes }
+		}
+	}
+}

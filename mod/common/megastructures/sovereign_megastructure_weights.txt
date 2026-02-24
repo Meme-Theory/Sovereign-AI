@@ -1,0 +1,46 @@
+# SOVEREIGN AI Overhaul — Megastructure AI Weights
+# Controls which megastructures the AI prioritizes building.
+#
+# PHILOSOPHY:
+#   - AI should only build megastructures when economy supports it
+#   - Dyson Sphere and Matter Decompressor for economic empires
+#   - Strategic Coordination Center for military empires
+#   - Science Nexus for research-focused empires
+#   - Ring Worlds when expansion is blocked
+
+# ============================================================
+# SCRIPTED VARIABLES
+# ============================================================
+@mega_base = 100
+@mega_economy_threshold = 50
+@mega_alloy_threshold = 3000
+
+# ============================================================
+# NOTE ON MEGASTRUCTURE AI WEIGHTS
+# ============================================================
+# Megastructure definitions in vanilla include ai_weight blocks.
+# This file documents our weight adjustment strategy.
+# Actual overrides must match vanilla megastructure file names
+# since they use file-level replacement.
+#
+# Priority order for AI megastructure construction:
+# 1. Gateway Network (enables strategic mobility)
+# 2. Dyson Sphere (solves energy permanently)
+# 3. Matter Decompressor (solves minerals permanently)
+# 4. Science Nexus (research boost)
+# 5. Strategic Coordination Center (military command)
+# 6. Mega Shipyard (fleet construction)
+# 7. Ring World (late-game expansion)
+# 8. Sentry Array (intel)
+#
+# General conditions for all megastructures:
+# - Monthly alloy income > 50
+# - Alloy stockpile > 3000
+# - Not currently at war (except gateways and mega shipyard)
+# - Has required technologies
+#
+# Personality-specific adjustments:
+# - Militarists: Strategic Coordination Center + Mega Shipyard first
+# - Materialists: Science Nexus first
+# - Expansionists: Ring Worlds and Gateways first
+# - Isolationists: Sentry Array first

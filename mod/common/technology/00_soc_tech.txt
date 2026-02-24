@@ -1,0 +1,267 @@
+# SOVEREIGN AI Overhaul — Society Technology Weights
+# Controls which society techs the AI prioritizes.
+#
+# CONVENTION:
+#   factor = base priority multiplier (applied to vanilla base cost)
+#   Modifiers further adjust based on empire ethics, situation, etc.
+#   Higher factor = AI researches sooner relative to other options
+
+# ============================================================
+# SCRIPTED VARIABLES
+# ============================================================
+@sovereign_soc_base = 1.0
+@sovereign_soc_high = 1.5
+@sovereign_soc_critical = 2.5
+
+# ============================================================
+# GOVERNANCE TECHNOLOGIES
+# ============================================================
+
+tech_planetary_government = {
+	area = society
+	cost = 500
+	tier = 1
+	category = { statecraft }
+	is_rare = no
+
+	prerequisites = {}
+
+	weight = 100
+
+	ai_weight = {
+		factor = @sovereign_soc_critical
+
+		# Capital upgrade is always high priority
+		modifier = {
+			factor = 1.5
+			num_owned_planets >= 1
+		}
+	}
+}
+
+tech_colonial_centralization = {
+	area = society
+	cost = 1500
+	tier = 2
+	category = { statecraft }
+
+	prerequisites = {
+		"tech_planetary_government"
+	}
+
+	weight = 85
+
+	ai_weight = {
+		factor = @sovereign_soc_high
+
+		# Higher priority with more planets
+		modifier = {
+			factor = 1.5
+			num_owned_planets > 3
+		}
+
+		modifier = {
+			factor = 2.0
+			num_owned_planets > 8
+		}
+
+		# Authoritarian empires value centralization
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_authoritarian
+		}
+	}
+}
+
+tech_galactic_administration = {
+	area = society
+	cost = 5000
+	tier = 3
+	category = { statecraft }
+
+	prerequisites = {
+		"tech_colonial_centralization"
+	}
+
+	weight = 75
+
+	ai_weight = {
+		factor = @sovereign_soc_high
+
+		modifier = {
+			factor = 1.5
+			num_owned_planets > 10
+		}
+
+		modifier = {
+			factor = 2.0
+			num_owned_planets > 20
+		}
+	}
+}
+
+# ============================================================
+# BIOLOGY TECHNOLOGIES
+# ============================================================
+
+tech_frontier_health = {
+	area = society
+	cost = 750
+	tier = 1
+	category = { biology }
+
+	prerequisites = {}
+
+	weight = 80
+
+	ai_weight = {
+		factor = @sovereign_soc_base
+
+		# Xenophiles and growth-focused empires
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_xenophile
+		}
+
+		# Less important if already high pop growth
+		modifier = {
+			factor = 0.5
+			has_technology = tech_gene_tailoring
+		}
+	}
+}
+
+tech_gene_tailoring = {
+	area = society
+	cost = 3000
+	tier = 2
+	category = { biology }
+
+	prerequisites = {
+		"tech_frontier_health"
+		"tech_genome_mapping"
+	}
+
+	weight = 65
+
+	ai_weight = {
+		factor = @sovereign_soc_base
+
+		modifier = {
+			factor = 2.0
+			has_ethic = ethic_xenophile
+		}
+
+		# Not relevant for machine empires
+		modifier = {
+			factor = 0
+			is_machine_empire = yes
+		}
+	}
+}
+
+# ============================================================
+# MILITARY THEORY
+# ============================================================
+
+tech_centralized_command = {
+	area = society
+	cost = 2000
+	tier = 2
+	category = { military_theory }
+
+	prerequisites = {
+		"tech_planetary_government"
+	}
+
+	weight = 70
+
+	ai_weight = {
+		factor = @sovereign_soc_base
+
+		modifier = {
+			factor = 2.0
+			has_ethic = ethic_militarist
+		}
+
+		modifier = {
+			factor = 2.5
+			has_ethic = ethic_fanatic_militarist
+		}
+
+		# Important when at war
+		modifier = {
+			factor = 1.5
+			is_at_war = yes
+		}
+
+		# More valuable with larger fleets
+		modifier = {
+			factor = 1.25
+			used_naval_capacity_percent > 0.5
+		}
+	}
+}
+
+# ============================================================
+# PSIONICS (Spiritualist path)
+# ============================================================
+
+tech_psionic_theory = {
+	area = society
+	cost = 4000
+	tier = 3
+	category = { psionics }
+	is_rare = yes
+
+	prerequisites = {}
+
+	weight = 50
+
+	ai_weight = {
+		factor = @sovereign_soc_base
+
+		# Spiritualists love psionics
+		modifier = {
+			factor = 5.0
+			has_ethic = ethic_spiritualist
+		}
+
+		modifier = {
+			factor = 10.0
+			has_ethic = ethic_fanatic_spiritualist
+		}
+
+		# Materialists avoid psionics
+		modifier = {
+			factor = 0.1
+			has_ethic = ethic_materialist
+		}
+
+		modifier = {
+			factor = 0
+			has_ethic = ethic_fanatic_materialist
+		}
+
+		# Machine empires can't use psionics
+		modifier = {
+			factor = 0
+			is_machine_empire = yes
+		}
+
+		# Hive minds can't use psionics
+		modifier = {
+			factor = 0
+			is_hive_empire = yes
+		}
+
+		# Research leader expertise matters
+		modifier = {
+			factor = 1.5
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+}

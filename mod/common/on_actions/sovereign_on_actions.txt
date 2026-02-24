@@ -1,0 +1,26 @@
+# SOVEREIGN AI Overhaul — On-Action Hooks
+# These hook into game events to trigger SOVEREIGN AI logic.
+
+# ============================================================
+# GAME START
+# ============================================================
+on_game_start = {
+	events = {
+		sovereign.100    # Initialize AI parameters and flags
+	}
+}
+
+# ============================================================
+# PERIODIC PULSES
+# ============================================================
+on_yearly_pulse = {
+	events = {
+		sovereign.101    # Annual strategic review for each AI empire
+	}
+}
+
+on_monthly_pulse = {
+	events = {
+		sovereign.102    # Monthly economic health check
+	}
+}

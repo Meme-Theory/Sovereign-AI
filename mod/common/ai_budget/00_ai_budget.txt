@@ -1,0 +1,208 @@
+# SOVEREIGN AI Overhaul — AI Budget Priorities
+# Controls how AI allocates resources between competing economic demands.
+# The AI evaluates these budgets to decide how much to spend on each category.
+#
+# Convention: resource_budget blocks define spending fractions.
+# The AI distributes its income across these categories each month.
+
+# ============================================================
+# MILITARY BUDGET
+# ============================================================
+# Controls spending on ship construction, upgrades, and starbases.
+
+military_budget = {
+	resource = alloys
+	fraction = 0.40
+
+	# Increase military spending when at war
+	modifier = {
+		factor = 1.5
+		is_at_war = yes
+	}
+
+	# Increase when threatened
+	modifier = {
+		factor = 1.25
+		highest_threat > 50
+	}
+
+	# Militarists prioritize navy
+	modifier = {
+		factor = 1.25
+		has_ethic = ethic_militarist
+	}
+
+	modifier = {
+		factor = 1.5
+		has_ethic = ethic_fanatic_militarist
+	}
+
+	# Pacifists spend less on military
+	modifier = {
+		factor = 0.75
+		has_ethic = ethic_pacifist
+	}
+
+	modifier = {
+		factor = 0.5
+		has_ethic = ethic_fanatic_pacifist
+	}
+
+	# Reduce if well over naval cap
+	modifier = {
+		factor = 0.5
+		used_naval_capacity_percent > 1.1
+	}
+
+	# Reduce early game when no threats
+	modifier = {
+		factor = 0.5
+		years_passed < 20
+		highest_threat < 10
+		is_at_war = no
+	}
+}
+
+# ============================================================
+# ECONOMY BUDGET — MINERAL SPENDING
+# ============================================================
+# Controls spending minerals on buildings, districts, and consumer goods.
+
+economy_minerals_budget = {
+	resource = minerals
+	fraction = 0.50
+
+	# Increase economic spending when resource-starved
+	modifier = {
+		factor = 1.5
+		has_monthly_income = {
+			resource = consumer_goods
+			value < 5
+		}
+	}
+
+	# Reduce when saving for megastructures
+	modifier = {
+		factor = 0.75
+		has_technology = tech_mega_engineering
+		has_resource = { type = alloys amount < 5000 }
+	}
+}
+
+# ============================================================
+# RESEARCH BUDGET
+# ============================================================
+# Controls spending on research-producing buildings and labs.
+
+research_budget = {
+	resource = minerals
+	fraction = 0.25
+
+	# Materialists invest more in research
+	modifier = {
+		factor = 1.5
+		has_ethic = ethic_materialist
+	}
+
+	modifier = {
+		factor = 2.0
+		has_ethic = ethic_fanatic_materialist
+	}
+
+	# Technocracies invest heavily
+	modifier = {
+		factor = 1.5
+		has_civic = civic_technocracy
+	}
+
+	# Reduce research spending when at war and losing
+	modifier = {
+		factor = 0.5
+		is_at_war = yes
+		is_losing_war = yes
+	}
+}
+
+# ============================================================
+# EXPANSION BUDGET
+# ============================================================
+# Controls spending on colony ships, outposts, and claims.
+
+expansion_budget = {
+	resource = alloys
+	fraction = 0.30
+
+	# Increase expansion drive when many unclaimed systems nearby
+	modifier = {
+		factor = 1.5
+		num_owned_planets < 5
+	}
+
+	# Reduce expansion when already large
+	modifier = {
+		factor = 0.5
+		num_owned_planets > 20
+	}
+
+	# Xenophobes expand more aggressively
+	modifier = {
+		factor = 1.25
+		has_ethic = ethic_xenophobe
+	}
+
+	# Reduce if at war — focus on military
+	modifier = {
+		factor = 0.25
+		is_at_war = yes
+	}
+}
+
+# ============================================================
+# TRADE BUDGET
+# ============================================================
+# Controls spending on trade infrastructure and commercial zones.
+
+trade_budget = {
+	resource = minerals
+	fraction = 0.15
+
+	# Megacorps invest heavily in trade
+	modifier = {
+		factor = 2.0
+		has_authority = auth_corporate
+	}
+
+	# Gestalt empires don't trade
+	modifier = {
+		factor = 0
+		is_gestalt = yes
+	}
+}
+
+# ============================================================
+# UNITY BUDGET
+# ============================================================
+# Controls spending on unity-producing buildings and traditions.
+
+unity_budget = {
+	resource = minerals
+	fraction = 0.10
+
+	# Spiritualists prioritize unity
+	modifier = {
+		factor = 1.5
+		has_ethic = ethic_spiritualist
+	}
+
+	modifier = {
+		factor = 2.0
+		has_ethic = ethic_fanatic_spiritualist
+	}
+
+	# Increase when close to finishing a tradition tree
+	modifier = {
+		factor = 1.5
+		has_tradition = tr_expansion_adopt
+		NOT = { has_tradition = tr_expansion_finish }
+	}
+}

@@ -1,0 +1,239 @@
+# SOVEREIGN AI Overhaul — Tradition AI Weights
+# Controls which tradition trees the AI prioritizes adopting.
+#
+# PHILOSOPHY:
+#   - Expansion tree first for most empires (colony rush)
+#   - Militarists prioritize Supremacy
+#   - Materialists prioritize Discovery
+#   - Diplomats prioritize Diplomacy
+#   - Spiritualists prioritize Harmony
+
+# ============================================================
+# SCRIPTED VARIABLES
+# ============================================================
+@tradition_base_weight = 100
+@tradition_ethic_bonus = 1.5
+@tradition_ethic_strong_bonus = 2.5
+
+# ============================================================
+# EXPANSION TRADITION TREE
+# ============================================================
+tr_expansion_adopt = {
+	possible = {
+		has_tradition = tr_expansion_adopt
+	}
+
+	ai_weight = {
+		weight = @tradition_base_weight
+
+		# Almost every empire should open expansion early
+		modifier = {
+			factor = 3.0
+			num_owned_planets < 5
+		}
+
+		# Less important once expanded
+		modifier = {
+			factor = 0.5
+			num_owned_planets > 15
+		}
+	}
+}
+
+# ============================================================
+# SUPREMACY TRADITION TREE
+# ============================================================
+tr_supremacy_adopt = {
+	possible = {
+		has_tradition = tr_supremacy_adopt
+	}
+
+	ai_weight = {
+		weight = @tradition_base_weight
+
+		# Militarists rush supremacy
+		modifier = {
+			factor = @tradition_ethic_strong_bonus
+			has_ethic = ethic_militarist
+		}
+
+		modifier = {
+			factor = 3.0
+			has_ethic = ethic_fanatic_militarist
+		}
+
+		# At war: supremacy matters
+		modifier = {
+			factor = 2.0
+			is_at_war = yes
+		}
+
+		# Pacifists deprioritize
+		modifier = {
+			factor = 0.25
+			has_ethic = ethic_pacifist
+		}
+
+		modifier = {
+			factor = 0.1
+			has_ethic = ethic_fanatic_pacifist
+		}
+	}
+}
+
+# ============================================================
+# DISCOVERY TRADITION TREE
+# ============================================================
+tr_discovery_adopt = {
+	possible = {
+		has_tradition = tr_discovery_adopt
+	}
+
+	ai_weight = {
+		weight = @tradition_base_weight
+
+		# Materialists want discovery
+		modifier = {
+			factor = @tradition_ethic_strong_bonus
+			has_ethic = ethic_materialist
+		}
+
+		modifier = {
+			factor = 3.0
+			has_ethic = ethic_fanatic_materialist
+		}
+
+		# Technocracies
+		modifier = {
+			factor = 2.0
+			has_civic = civic_technocracy
+		}
+
+		# Low research output: discovery helps
+		modifier = {
+			factor = 1.5
+			has_monthly_income = {
+				resource = physics_research
+				value < 30
+			}
+		}
+	}
+}
+
+# ============================================================
+# HARMONY TRADITION TREE
+# ============================================================
+tr_harmony_adopt = {
+	possible = {
+		has_tradition = tr_harmony_adopt
+	}
+
+	ai_weight = {
+		weight = @tradition_base_weight
+
+		# Spiritualists love harmony
+		modifier = {
+			factor = @tradition_ethic_strong_bonus
+			has_ethic = ethic_spiritualist
+		}
+
+		modifier = {
+			factor = 3.0
+			has_ethic = ethic_fanatic_spiritualist
+		}
+
+		# Pacifists prefer harmony
+		modifier = {
+			factor = @tradition_ethic_bonus
+			has_ethic = ethic_pacifist
+		}
+
+		# Stability issues: harmony helps
+		modifier = {
+			factor = 1.5
+			any_owned_planet = {
+				planet_stability < 40
+			}
+		}
+	}
+}
+
+# ============================================================
+# DIPLOMACY TRADITION TREE
+# ============================================================
+tr_diplomacy_adopt = {
+	possible = {
+		has_tradition = tr_diplomacy_adopt
+	}
+
+	ai_weight = {
+		weight = @tradition_base_weight
+
+		# Xenophiles love diplomacy
+		modifier = {
+			factor = @tradition_ethic_strong_bonus
+			has_ethic = ethic_xenophile
+		}
+
+		modifier = {
+			factor = 3.0
+			has_ethic = ethic_fanatic_xenophile
+		}
+
+		# Diplomatic corps civic
+		modifier = {
+			factor = 2.0
+			has_civic = civic_diplomatic_corps
+		}
+
+		# Gestalt empires don't benefit as much
+		modifier = {
+			factor = 0.25
+			is_gestalt = yes
+		}
+
+		# Genocidal empires can't use diplomacy
+		modifier = {
+			factor = 0
+			OR = {
+				has_civic = civic_fanatic_purifiers
+				has_civic = civic_machine_terminator
+				has_civic = civic_hive_devouring_swarm
+			}
+		}
+	}
+}
+
+# ============================================================
+# PROSPERITY TRADITION TREE
+# ============================================================
+tr_prosperity_adopt = {
+	possible = {
+		has_tradition = tr_prosperity_adopt
+	}
+
+	ai_weight = {
+		weight = @tradition_base_weight
+
+		# Megacorps love prosperity
+		modifier = {
+			factor = 2.5
+			has_authority = auth_corporate
+		}
+
+		# Useful when economy is struggling
+		modifier = {
+			factor = 1.5
+			has_monthly_income = {
+				resource = energy
+				value < 10
+			}
+		}
+
+		# Egalitarians value prosperity
+		modifier = {
+			factor = @tradition_ethic_bonus
+			has_ethic = ethic_egalitarian
+		}
+	}
+}

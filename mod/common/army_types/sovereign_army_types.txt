@@ -1,0 +1,220 @@
+# SOVEREIGN AI Overhaul — Army Type AI Weights
+# Controls which ground armies the AI builds.
+#
+# PHILOSOPHY:
+#   - AI should build armies proportional to its empire size
+#   - Offense armies for conqueror personalities
+#   - Defense armies for isolationist personalities
+#   - Special armies when unlocked and appropriate
+
+# ============================================================
+# SCRIPTED VARIABLES
+# ============================================================
+@army_base_weight = 50
+@army_offense_bonus = 75
+@army_defense_bonus = 50
+
+# ============================================================
+# ASSAULT ARMY (basic infantry)
+# ============================================================
+assault_army = {
+	damage = 1.0
+	health = 1.0
+	morale = 1.0
+
+	has_morale = yes
+	is_pop_spawned = no
+	icon = GFX_army_type_assault
+
+	resources = {
+		category = armies
+		cost = {
+			minerals = 100
+		}
+		upkeep = {
+			energy = 0.5
+		}
+	}
+
+	potential = {
+		is_regular_empire = yes
+	}
+
+	ai_weight = {
+		weight = @army_base_weight
+
+		# Build more when planning to invade
+		modifier = {
+			add = @army_offense_bonus
+			owner = { is_at_war = yes }
+		}
+
+		# Conqueror personalities always build armies
+		modifier = {
+			factor = 2.0
+			owner = { has_ethic = ethic_militarist }
+		}
+
+		# Machine empires use their own army types
+		modifier = {
+			factor = 0
+			owner = { is_machine_empire = yes }
+		}
+	}
+}
+
+# ============================================================
+# CLONE ARMY
+# ============================================================
+clone_army = {
+	damage = 1.0
+	health = 1.0
+	morale = 1.0
+	has_morale = yes
+	is_pop_spawned = no
+	icon = GFX_army_type_clone
+
+	resources = {
+		category = armies
+		cost = {
+			minerals = 75
+			food = 50
+		}
+		upkeep = {
+			energy = 0.25
+			food = 0.25
+		}
+	}
+
+	prerequisites = {
+		"tech_gene_tailoring"
+	}
+
+	potential = {
+		is_regular_empire = yes
+	}
+
+	ai_weight = {
+		weight = @army_base_weight
+
+		# Cheap alternative — good when food surplus
+		modifier = {
+			add = @army_offense_bonus
+			owner = {
+				has_monthly_income = {
+					resource = food
+					value > 30
+				}
+			}
+		}
+
+		modifier = {
+			factor = 0.1
+			owner = {
+				has_monthly_income = {
+					resource = food
+					value < 5
+				}
+			}
+		}
+	}
+}
+
+# ============================================================
+# ROBOTIC ARMY
+# ============================================================
+robotic_army = {
+	damage = 1.0
+	health = 2.0
+	morale = 1.0
+	has_morale = no
+	is_pop_spawned = no
+	icon = GFX_army_type_robotic
+
+	resources = {
+		category = armies
+		cost = {
+			alloys = 100
+		}
+		upkeep = {
+			energy = 0.75
+		}
+	}
+
+	prerequisites = {
+		"tech_droid_workers"
+	}
+
+	potential = {
+		is_regular_empire = yes
+	}
+
+	ai_weight = {
+		weight = @army_base_weight
+
+		# Materialists prefer robotic armies
+		modifier = {
+			factor = 2.0
+			owner = { has_ethic = ethic_materialist }
+		}
+
+		# Good when mineral-poor but alloy-capable
+		modifier = {
+			add = @army_offense_bonus
+			owner = {
+				has_monthly_income = {
+					resource = alloys
+					value > 20
+				}
+			}
+		}
+
+		# Spiritualists avoid robots
+		modifier = {
+			factor = 0.25
+			owner = { has_ethic = ethic_spiritualist }
+		}
+	}
+}
+
+# ============================================================
+# MACHINE ARMY (Machine Intelligence only)
+# ============================================================
+machine_army = {
+	damage = 1.0
+	health = 1.5
+	morale = 1.0
+	has_morale = no
+	is_pop_spawned = no
+	icon = GFX_army_type_machine_assault
+
+	resources = {
+		category = armies
+		cost = {
+			alloys = 75
+		}
+		upkeep = {
+			energy = 0.5
+		}
+	}
+
+	potential = {
+		owner = { is_machine_empire = yes }
+	}
+
+	ai_weight = {
+		weight = @army_base_weight
+
+		# Machine empires always build these
+		modifier = {
+			add = @army_offense_bonus
+			owner = { is_at_war = yes }
+		}
+
+		# Terminators are aggressive
+		modifier = {
+			factor = 2.5
+			owner = { has_civic = civic_machine_terminator }
+		}
+	}
+}

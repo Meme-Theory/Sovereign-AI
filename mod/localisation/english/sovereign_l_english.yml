@@ -1,0 +1,67 @@
+l_english:
+ # ============================================================
+ # SOVEREIGN AI Overhaul — Localization (English)
+ # ============================================================
+ # NOTE: This file MUST be saved as UTF-8 with BOM.
+ # Each key requires a leading space and `:0` version suffix.
+
+ # Mod metadata
+ sovereign_mod_name:0 "Sovereign AI Overhaul"
+ sovereign_mod_desc:0 "A comprehensive, non-cheating AI behavior overhaul that makes AI empires smarter, more strategic, and more responsive to their circumstances."
+
+ # ============================================================
+ # PERSONALITY NAMES
+ # ============================================================
+ sovereign_ruthless_industrialist:0 "Ruthless Industrialist"
+ sovereign_ruthless_industrialist_desc:0 "An empire focused on economic dominance through sheer industrial capacity. They build, they produce, they outscale."
+
+ sovereign_diplomatic_hegemon:0 "Diplomatic Hegemon"
+ sovereign_diplomatic_hegemon_desc:0 "A master of alliances and federations, projecting power through diplomatic influence rather than raw military might."
+
+ sovereign_fortress_guardian:0 "Fortress Guardian"
+ sovereign_fortress_guardian_desc:0 "A defensive empire that builds impregnable borders and rarely ventures beyond them. Cross their border at your peril."
+
+ sovereign_knowledge_seeker:0 "Knowledge Seeker"
+ sovereign_knowledge_seeker_desc:0 "Obsessed with technological advancement, this empire values research above all else and sees the galaxy as a laboratory."
+
+ sovereign_evangelizing_zealot:0 "Evangelizing Zealot"
+ sovereign_evangelizing_zealot_desc:0 "A fervent empire that spreads its ideology through liberation wars, cultural pressure, and unwavering conviction."
+
+ sovereign_xenophobic_purifier:0 "Xenophobic Purifier"
+ sovereign_xenophobic_purifier_desc:0 "The galaxy belongs to one species alone. All others are vermin to be exterminated."
+
+ sovereign_devouring_swarm:0 "Devouring Swarm"
+ sovereign_devouring_swarm_desc:0 "A hive mind driven by an insatiable hunger. Every organic being is a potential meal."
+
+ sovereign_adaptive_optimizer:0 "Adaptive Optimizer"
+ sovereign_adaptive_optimizer_desc:0 "A machine intelligence that relentlessly optimizes every aspect of its empire for maximum efficiency."
+
+ # ============================================================
+ # POLICY NAMES
+ # ============================================================
+ policy_economic_civilian:0 "Civilian Economy"
+ policy_economic_civilian_desc:0 "Focus economic output on consumer goods and civilian industry."
+ policy_economic_mixed:0 "Mixed Economy"
+ policy_economic_mixed_desc:0 "Balance economic output between civilian and military production."
+ policy_economic_military:0 "Military Economy"
+ policy_economic_military_desc:0 "Redirect economic output toward alloy production and military buildup."
+
+ # ============================================================
+ # EDICT NAMES
+ # ============================================================
+ edict_mining_subsidies:0 "Mining Subsidies"
+ edict_mining_subsidies_desc:0 "Subsidize mining operations across the empire to boost mineral output."
+ edict_energy_subsidies:0 "Energy Subsidies"
+ edict_energy_subsidies_desc:0 "Subsidize energy production to stabilize the imperial power grid."
+ edict_war_production:0 "War Production"
+ edict_war_production_desc:0 "Redirect all possible resources toward military production."
+ edict_research_focus:0 "Research Focus"
+ edict_research_focus_desc:0 "Increase funding for imperial research institutions."
+
+ # ============================================================
+ # EVENT TEXT (hidden events — no visible text needed)
+ # ============================================================
+ # All sovereign events use hide_window = yes, so no localization needed.
+ # These keys are included as placeholders for potential future visible events.
+ sovereign.1.name:0 "Sovereign AI Check"
+ sovereign.1.desc:0 "The Sovereign AI system is evaluating empire performance."

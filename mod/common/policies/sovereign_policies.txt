@@ -1,0 +1,301 @@
+# SOVEREIGN AI Overhaul — Policy AI Weights
+# Policies are empire-wide settings the AI chooses between.
+# Each policy option has an ai_weight determining how likely the AI is to adopt it.
+#
+# PHILOSOPHY:
+#   - Policy weights should align with personality and ethics
+#   - AI should adapt policies to current strategic situation
+#   - Avoid factor = 0 unless the option is genuinely incompatible
+
+# ============================================================
+# ECONOMIC POLICY
+# ============================================================
+economic_policy = {
+	potential = {
+		is_regular_empire = yes
+	}
+
+	option = {
+		name = "policy_economic_civilian"
+
+		policy_flags = {
+			economic_policy_civilian
+		}
+
+		modifier = {
+			planet_artisans_consumer_goods_produces_mult = 0.15
+			planet_metallurgists_alloys_produces_mult = -0.25
+		}
+
+		ai_weight = {
+			weight = 10
+
+			# Pacifists prefer civilian economy
+			modifier = {
+				factor = 3.0
+				has_ethic = ethic_pacifist
+			}
+
+			modifier = {
+				factor = 5.0
+				has_ethic = ethic_fanatic_pacifist
+			}
+
+			# Don't go civilian during war
+			modifier = {
+				factor = 0.1
+				is_at_war = yes
+			}
+		}
+	}
+
+	option = {
+		name = "policy_economic_mixed"
+
+		policy_flags = {
+			economic_policy_mixed
+		}
+
+		ai_weight = {
+			weight = 50
+
+			# Default choice for most empires
+			modifier = {
+				factor = 1.5
+				NOR = {
+					has_ethic = ethic_militarist
+					has_ethic = ethic_fanatic_militarist
+					has_ethic = ethic_fanatic_pacifist
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "policy_economic_military"
+
+		policy_flags = {
+			economic_policy_military
+		}
+
+		modifier = {
+			planet_artisans_consumer_goods_produces_mult = -0.25
+			planet_metallurgists_alloys_produces_mult = 0.15
+		}
+
+		ai_weight = {
+			weight = 10
+
+			# Militarists prefer military economy
+			modifier = {
+				factor = 3.0
+				has_ethic = ethic_militarist
+			}
+
+			modifier = {
+				factor = 5.0
+				has_ethic = ethic_fanatic_militarist
+			}
+
+			# Switch to military economy during war
+			modifier = {
+				factor = 3.0
+				is_at_war = yes
+			}
+
+			# Switch if under threat
+			modifier = {
+				factor = 2.0
+				highest_threat > 50
+			}
+		}
+	}
+}
+
+# ============================================================
+# WAR PHILOSOPHY
+# ============================================================
+war_philosophy = {
+	potential = {
+		is_regular_empire = yes
+	}
+
+	option = {
+		name = "policy_unrestricted_wars"
+
+		policy_flags = {
+			unrestricted_wars
+		}
+
+		ai_weight = {
+			weight = 10
+
+			modifier = {
+				factor = 5.0
+				has_ethic = ethic_militarist
+			}
+
+			modifier = {
+				factor = 10.0
+				has_ethic = ethic_fanatic_militarist
+			}
+
+			modifier = {
+				factor = 3.0
+				has_ethic = ethic_xenophobe
+			}
+
+			# Block for pacifists
+			modifier = {
+				factor = 0
+				has_ethic = ethic_pacifist
+			}
+
+			modifier = {
+				factor = 0
+				has_ethic = ethic_fanatic_pacifist
+			}
+		}
+	}
+
+	option = {
+		name = "policy_liberation_wars"
+
+		policy_flags = {
+			liberation_wars
+		}
+
+		ai_weight = {
+			weight = 25
+
+			modifier = {
+				factor = 2.0
+				has_ethic = ethic_xenophile
+			}
+
+			modifier = {
+				factor = 0.5
+				has_ethic = ethic_xenophobe
+			}
+		}
+	}
+
+	option = {
+		name = "policy_no_wars"
+
+		policy_flags = {
+			no_wars
+		}
+
+		ai_weight = {
+			weight = 5
+
+			modifier = {
+				factor = 5.0
+				has_ethic = ethic_pacifist
+			}
+
+			modifier = {
+				factor = 10.0
+				has_ethic = ethic_fanatic_pacifist
+			}
+
+			modifier = {
+				factor = 0
+				has_ethic = ethic_militarist
+			}
+
+			modifier = {
+				factor = 0
+				has_ethic = ethic_fanatic_militarist
+			}
+		}
+	}
+}
+
+# ============================================================
+# ORBITAL BOMBARDMENT
+# ============================================================
+orbital_bombardment = {
+	option = {
+		name = "policy_orbital_bombardment_selective"
+
+		policy_flags = {
+			orbital_bombardment_selective
+		}
+
+		ai_weight = {
+			weight = 25
+
+			modifier = {
+				factor = 2.0
+				has_ethic = ethic_xenophile
+			}
+
+			modifier = {
+				factor = 2.0
+				has_ethic = ethic_pacifist
+			}
+		}
+	}
+
+	option = {
+		name = "policy_orbital_bombardment_indiscriminate"
+
+		policy_flags = {
+			orbital_bombardment_indiscriminate
+		}
+
+		ai_weight = {
+			weight = 15
+
+			modifier = {
+				factor = 3.0
+				has_ethic = ethic_militarist
+			}
+
+			modifier = {
+				factor = 3.0
+				has_ethic = ethic_xenophobe
+			}
+
+			# More likely during existential wars
+			modifier = {
+				factor = 2.0
+				is_at_war = yes
+				is_losing_war = yes
+			}
+
+			modifier = {
+				factor = 0
+				has_ethic = ethic_fanatic_xenophile
+			}
+		}
+	}
+
+	option = {
+		name = "policy_orbital_bombardment_armageddon"
+
+		policy_flags = {
+			orbital_bombardment_armageddon
+		}
+
+		potential = {
+			OR = {
+				has_civic = civic_fanatic_purifiers
+				has_civic = civic_machine_terminator
+				has_civic = civic_hive_devouring_swarm
+			}
+		}
+
+		ai_weight = {
+			weight = 100
+
+			# Genocidal empires always pick armageddon
+			modifier = {
+				factor = 10.0
+				always = yes
+			}
+		}
+	}
+}

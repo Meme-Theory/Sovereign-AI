@@ -1,0 +1,35 @@
+# SOVEREIGN AI Overhaul — Planetary Decision AI Weights
+# Controls AI preferences for planetary decisions.
+
+# ============================================================
+# SCRIPTED VARIABLES
+# ============================================================
+@decision_base = 50
+
+# ============================================================
+# PLANETARY SPECIALIZATION DECISIONS
+# ============================================================
+# AI should specialize planets based on their resources and location.
+
+# Placeholder for planet specialization decisions
+# These will be expanded as we study vanilla decision definitions
+# and identify which ones need weight adjustments.
+
+# NOTE: Planetary decisions vary significantly between Stellaris versions.
+# The actual decision definitions should be pulled from vanilla 4.x files
+# and weight-modified here.
+
+# Example pattern for a specialization decision:
+# decision_designate_mining_world = {
+#     ai_weight = {
+#         weight = @decision_base
+#         modifier = {
+#             factor = 3.0
+#             num_districts = { type = district_mining value > 3 }
+#         }
+#         modifier = {
+#             factor = 0.1
+#             has_designation = col_mining  # Already designated
+#         }
+#     }
+# }

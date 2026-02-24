@@ -1,0 +1,88 @@
+# SOVEREIGN AI Overhaul — Opinion Modifiers
+# These affect how AI empires perceive each other.
+# Opinion directly influences diplomatic acceptance and war likelihood.
+#
+# Positive opinion = more cooperative
+# Negative opinion = more hostile
+# decay = yes means the modifier fades over time
+# months = duration before full decay
+
+# ============================================================
+# DIPLOMATIC INTERACTIONS
+# ============================================================
+
+sovereign_opinion_research_partner = {
+	opinion = 25
+	decay = no
+	accumulative = no
+}
+
+sovereign_opinion_trade_partner = {
+	opinion = 15
+	decay = no
+	accumulative = no
+}
+
+sovereign_opinion_common_rival = {
+	opinion = 50
+	decay = no
+	accumulative = no
+}
+
+sovereign_opinion_common_enemy_at_war = {
+	opinion = 75
+	decay = yes
+	months = 60
+}
+
+# ============================================================
+# NEGATIVE INTERACTIONS
+# ============================================================
+
+sovereign_opinion_border_violation = {
+	opinion = -50
+	decay = yes
+	months = 120
+}
+
+sovereign_opinion_broken_treaty = {
+	opinion = -100
+	decay = yes
+	months = 240
+}
+
+sovereign_opinion_aggressive_expansion = {
+	opinion = -25
+	decay = yes
+	months = 60
+	accumulative = yes
+	max = -200
+}
+
+sovereign_opinion_threat_nearby = {
+	opinion = -75
+	decay = yes
+	months = 120
+}
+
+# ============================================================
+# ETHICAL ALIGNMENT
+# ============================================================
+
+sovereign_opinion_similar_ethics = {
+	opinion = 30
+	decay = no
+	accumulative = no
+}
+
+sovereign_opinion_opposing_ethics = {
+	opinion = -30
+	decay = no
+	accumulative = no
+}
+
+sovereign_opinion_genocidal_neighbor = {
+	opinion = -200
+	decay = no
+	accumulative = no
+}

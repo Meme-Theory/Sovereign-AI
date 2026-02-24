@@ -1,0 +1,101 @@
+# SOVEREIGN AI Overhaul — Espionage Operation Weights
+# Controls which espionage operations the AI prioritizes.
+#
+# PHILOSOPHY:
+#   - Infiltrator personalities use espionage aggressively
+#   - Non-infiltrators only use defensive espionage
+#   - Weight operations by diplomatic relationship and threat level
+
+# ============================================================
+# SCRIPTED VARIABLES
+# ============================================================
+@espionage_base = 50
+@espionage_hostile = 100
+
+# ============================================================
+# GATHER INTELLIGENCE (basic/safe operation)
+# ============================================================
+sovereign_gather_intelligence_weight = {
+	ai_weight = {
+		weight = @espionage_base
+
+		# Always useful against rivals
+		modifier = {
+			factor = 2.0
+			target = { is_rival = ROOT }
+		}
+
+		# More useful when threatened
+		modifier = {
+			factor = 1.5
+			highest_threat > 25
+		}
+
+		# Xenophobes want to know their enemies
+		modifier = {
+			factor = 1.5
+			sovereign_is_xenophobe = yes
+		}
+	}
+}
+
+# ============================================================
+# SABOTAGE STARBASE (aggressive operation)
+# ============================================================
+sovereign_sabotage_starbase_weight = {
+	ai_weight = {
+		weight = 0
+
+		# Only during pre-war or active war
+		modifier = {
+			add = @espionage_hostile
+			OR = {
+				is_at_war = yes
+				highest_threat > 75
+			}
+		}
+
+		# Infiltrator personalities do this
+		modifier = {
+			factor = 2.0
+			has_ethic = ethic_xenophobe
+		}
+
+		# Never against allies
+		modifier = {
+			factor = 0
+			is_in_federation_with = FROM
+		}
+	}
+}
+
+# ============================================================
+# STEAL TECHNOLOGY (moderate risk, high reward)
+# ============================================================
+sovereign_steal_technology_weight = {
+	ai_weight = {
+		weight = 25
+
+		# Materialists love stealing tech
+		modifier = {
+			factor = 3.0
+			sovereign_is_materialist = yes
+		}
+
+		# More valuable against tech-superior empires
+		modifier = {
+			factor = 2.0
+			relative_power = {
+				who = FROM
+				category = technology
+				value = superior
+			}
+		}
+
+		# Don't steal from friends
+		modifier = {
+			factor = 0.1
+			opinion = { who = FROM value > 50 }
+		}
+	}
+}

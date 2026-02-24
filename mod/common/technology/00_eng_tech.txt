@@ -1,0 +1,258 @@
+# SOVEREIGN AI Overhaul — Engineering Technology Weights
+# Controls which engineering techs the AI prioritizes.
+
+# ============================================================
+# SCRIPTED VARIABLES
+# ============================================================
+@sovereign_eng_base = 1.0
+@sovereign_eng_high = 1.5
+@sovereign_eng_critical = 2.5
+
+# ============================================================
+# SHIP TECHNOLOGIES
+# ============================================================
+
+tech_destroyers = {
+	area = engineering
+	cost = 1500
+	tier = 2
+	category = { voidcraft }
+
+	prerequisites = {
+		"tech_corvettes"
+	}
+
+	weight = 80
+
+	ai_weight = {
+		factor = @sovereign_eng_high
+
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_militarist
+		}
+
+		# Priority when at war
+		modifier = {
+			factor = 2.0
+			is_at_war = yes
+		}
+	}
+}
+
+tech_cruisers = {
+	area = engineering
+	cost = 4000
+	tier = 3
+	category = { voidcraft }
+
+	prerequisites = {
+		"tech_destroyers"
+	}
+
+	weight = 75
+
+	ai_weight = {
+		factor = @sovereign_eng_high
+
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_militarist
+		}
+
+		modifier = {
+			factor = 2.0
+			is_at_war = yes
+		}
+
+		modifier = {
+			factor = 1.25
+			years_passed > 30
+		}
+	}
+}
+
+tech_battleships = {
+	area = engineering
+	cost = 8000
+	tier = 4
+	category = { voidcraft }
+
+	prerequisites = {
+		"tech_cruisers"
+	}
+
+	weight = 70
+
+	ai_weight = {
+		factor = @sovereign_eng_critical
+
+		# Battleships are a game-changer
+		modifier = {
+			factor = 2.0
+			has_ethic = ethic_militarist
+		}
+
+		modifier = {
+			factor = 2.5
+			has_ethic = ethic_fanatic_militarist
+		}
+
+		# Rush battleships when at war
+		modifier = {
+			factor = 2.0
+			is_at_war = yes
+		}
+
+		# Late game: battleships are essential
+		modifier = {
+			factor = 1.5
+			years_passed > 50
+		}
+	}
+}
+
+# ============================================================
+# STARBASE TECHNOLOGIES
+# ============================================================
+
+tech_starbase_2 = {
+	area = engineering
+	cost = 1000
+	tier = 1
+	category = { voidcraft }
+
+	prerequisites = {}
+
+	weight = 90
+
+	ai_weight = {
+		factor = @sovereign_eng_high
+
+		# More starbases = more control
+		modifier = {
+			factor = 1.5
+			num_owned_planets > 3
+		}
+	}
+}
+
+tech_starbase_3 = {
+	area = engineering
+	cost = 3000
+	tier = 2
+	category = { voidcraft }
+
+	prerequisites = {
+		"tech_starbase_2"
+	}
+
+	weight = 80
+
+	ai_weight = {
+		factor = @sovereign_eng_high
+
+		modifier = {
+			factor = 1.5
+			num_owned_planets > 6
+		}
+	}
+}
+
+# ============================================================
+# MEGASTRUCTURE TECHNOLOGIES
+# ============================================================
+
+tech_mega_engineering = {
+	area = engineering
+	cost = 20000
+	tier = 5
+	category = { voidcraft }
+	is_rare = yes
+
+	prerequisites = {
+		"tech_battleships"
+		"tech_starbase_3"
+	}
+
+	weight = 50
+
+	ai_weight = {
+		factor = @sovereign_eng_critical
+
+		# Economy must be strong enough to build megastructures
+		modifier = {
+			factor = 0.1
+			has_monthly_income = {
+				resource = alloys
+				value < 30
+			}
+		}
+
+		# Late game push
+		modifier = {
+			factor = 2.0
+			years_passed > 100
+		}
+
+		# Materialists love megastructures
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_materialist
+		}
+	}
+}
+
+# ============================================================
+# INDUSTRY TECHNOLOGIES
+# ============================================================
+
+tech_basic_industry = {
+	area = engineering
+	cost = 500
+	tier = 1
+	category = { industry }
+
+	prerequisites = {}
+
+	weight = 100
+
+	ai_weight = {
+		factor = @sovereign_eng_critical
+
+		# Foundational tech — always high priority
+		modifier = {
+			factor = 1.5
+			always = yes
+		}
+	}
+}
+
+tech_alloys_1 = {
+	area = engineering
+	cost = 2000
+	tier = 2
+	category = { industry }
+
+	prerequisites = {
+		"tech_basic_industry"
+	}
+
+	weight = 85
+
+	ai_weight = {
+		factor = @sovereign_eng_high
+
+		# Militarists need more alloys
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_militarist
+		}
+
+		# At war: alloy production is critical
+		modifier = {
+			factor = 2.0
+			is_at_war = yes
+		}
+	}
+}

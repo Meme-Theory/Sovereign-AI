@@ -1,0 +1,221 @@
+# SOVEREIGN AI Overhaul — Capital Building Weights
+# Capital buildings are high-priority upgrades that the AI should pursue promptly.
+#
+# CONVENTION:
+#   Base weight 0 = don't build unless conditions met
+#   add = 100–200 for priority buildings
+#   factor 0 = hard block (empire type incompatible)
+
+# ============================================================
+# SCRIPTED VARIABLES
+# ============================================================
+@capital_accrual_weight = 150
+@capital_upgrade_urgency = 200
+
+# ============================================================
+# PLANETARY ADMINISTRATION (Tier 1 capital upgrade)
+# ============================================================
+building_planetary_administration = {
+	base_buildtime = 480
+	can_build = no
+	can_demolish = no
+
+	category = government
+
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+		}
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = penal_colony
+		}
+	}
+
+	allow = {
+		num_pops >= 10
+	}
+
+	prerequisites = {
+		"tech_planetary_government"
+	}
+
+	show_tech_unlock_if = {
+		is_regular_empire = yes
+	}
+
+	planet_modifier = {
+		planet_housing_add = 5
+		planet_amenities_add = 5
+		planet_max_buildings_add = 1
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_politician_add = 2
+		}
+	}
+
+	upgrades = {
+		building_planetary_capital
+	}
+
+	ai_weight = {
+		weight = @capital_accrual_weight
+
+		# Always upgrade capitals — this is a top priority
+		modifier = {
+			add = @capital_upgrade_urgency
+			num_pops >= 10
+		}
+
+		# Don't build if we can't afford it
+		modifier = {
+			factor = 0.1
+			owner = {
+				has_resource = { type = minerals amount < 200 }
+			}
+		}
+	}
+}
+
+# ============================================================
+# PLANETARY CAPITAL (Tier 2 capital upgrade)
+# ============================================================
+building_planetary_capital = {
+	base_buildtime = 720
+	can_build = no
+	can_demolish = no
+
+	category = government
+
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+		}
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = penal_colony
+		}
+	}
+
+	allow = {
+		num_pops >= 25
+	}
+
+	prerequisites = {
+		"tech_colonial_centralization"
+	}
+
+	show_tech_unlock_if = {
+		is_regular_empire = yes
+	}
+
+	planet_modifier = {
+		planet_housing_add = 8
+		planet_amenities_add = 8
+		planet_max_buildings_add = 2
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_politician_add = 3
+		}
+	}
+
+	upgrades = {
+		building_system_capital
+	}
+
+	ai_weight = {
+		weight = @capital_accrual_weight
+
+		modifier = {
+			add = @capital_upgrade_urgency
+			num_pops >= 25
+		}
+
+		modifier = {
+			factor = 0.1
+			owner = {
+				has_resource = { type = minerals amount < 400 }
+			}
+		}
+	}
+}
+
+# ============================================================
+# SYSTEM CAPITAL (Tier 3 capital upgrade)
+# ============================================================
+building_system_capital = {
+	base_buildtime = 900
+	can_build = no
+	can_demolish = no
+
+	category = government
+
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+		}
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = penal_colony
+		}
+	}
+
+	allow = {
+		num_pops >= 50
+	}
+
+	prerequisites = {
+		"tech_galactic_administration"
+	}
+
+	show_tech_unlock_if = {
+		is_regular_empire = yes
+	}
+
+	planet_modifier = {
+		planet_housing_add = 12
+		planet_amenities_add = 12
+		planet_max_buildings_add = 3
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_politician_add = 4
+		}
+	}
+
+	ai_weight = {
+		weight = @capital_accrual_weight
+
+		modifier = {
+			add = @capital_upgrade_urgency
+			num_pops >= 50
+		}
+
+		modifier = {
+			factor = 0.1
+			owner = {
+				has_resource = { type = minerals amount < 800 }
+			}
+		}
+	}
+}
