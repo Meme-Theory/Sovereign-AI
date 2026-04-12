@@ -1,0 +1,26 @@
+{
+  "name": "stellaris-wiki-mcp",
+  "version": "1.0.0",
+  "description": "MCP server providing interactive Stellaris Wiki crawling tools",
+  "type": "module",
+  "bin": {
+    "stellaris-wiki-mcp": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "private": true,
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "cheerio": "^1.2.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^6.0.2"
+  }
+}
