@@ -26,3 +26,10 @@ game_data.json
 # Build artifacts
 *.zip
 *.tar.gz
+
+# Development toolchain (published separately or local-only)
+tools/
+research/
+design/
+baseline/
+testing/
