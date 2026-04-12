@@ -1,0 +1,840 @@
+{
+  "category": "buildings",
+  "source": "Stellaris Wiki (4.x)",
+  "extracted": "2026-04-12",
+  "count": 84,
+  "items": [
+    {
+      "id": "Luxury Residences",
+      "section": "Housing buildings",
+      "data": {
+        "Effects": "+1500 Housing (Tier 1), +1500 Housing (Tier 2)",
+        "Requirements": "Not Gestalt"
+      }
+    },
+    {
+      "id": "Communal Housing",
+      "section": "Housing buildings",
+      "data": {
+        "Effects": "+2000 Housing (Tier 1), +2500 Housing (Tier 2)",
+        "Requirements": "Egalitarian"
+      }
+    },
+    {
+      "id": "Hive Warren",
+      "section": "Housing buildings",
+      "data": {
+        "Effects": "+1500 Housing (Tier 1), +1500 Housing (Tier 2)",
+        "Requirements": "Hive Mind"
+      }
+    },
+    {
+      "id": "Drone Storage",
+      "section": "Housing buildings",
+      "data": {
+        "Effects": "+1500 Housing (Tier 1), +1500 Housing (Tier 2)",
+        "Requirements": "Machine Intelligence"
+      }
+    },
+    {
+      "id": "Precinct Houses",
+      "section": "Law enforcement buildings",
+      "data": {
+        "Tier": "I",
+        "Effects": "+200 Enforcer jobs",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 360; Minerals 400",
+        "Building Sets": "Urban; Government",
+        "Requirements": "No Civil Education; No Gestalt; No Thrall-World"
+      }
+    },
+    {
+      "id": "Hall of Judgment",
+      "section": "Law enforcement buildings",
+      "data": {
+        "Tier": "II",
+        "Effects": "+500 Enforcer jobs",
+        "Upkeep": "Energy Credits -2; Volatile motes -1",
+        "Cost": "Time 480; Minerals 600; Volatile motes 50",
+        "Building Sets": "Urban; Government",
+        "Requirements": "Colonial Centralization; Tier II capital"
+      }
+    },
+    {
+      "id": "State Academy",
+      "section": "Law enforcement buildings",
+      "data": {
+        "Tier": "I",
+        "Effects": "+200 Educator jobs; +0.1 Research per 100 Civilians",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 360; Minerals 400",
+        "Building Sets": "Urban; Government",
+        "Requirements": "Civil Education; No Gestalt; No Thrall-World"
+      }
+    },
+    {
+      "id": "Center of Guidance",
+      "section": "Law enforcement buildings",
+      "data": {
+        "Tier": "II",
+        "Effects": "+500 Educator jobs; +0.2 Research per 100 Civilians",
+        "Upkeep": "Energy Credits -2; Volatile motes -1",
+        "Cost": "Time 480; Minerals 600; Volatile motes 50",
+        "Building Sets": "Urban; Government",
+        "Requirements": "Colonial Centralization; Tier II capital"
+      }
+    },
+    {
+      "id": "Sentinel Posts",
+      "section": "Law enforcement buildings",
+      "data": {
+        "Tier": "I",
+        "Effects": "+200 Hunter-Seeker Drone jobs",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 360; Minerals 400",
+        "Building Sets": "Urban; Government",
+        "Requirements": "Gestalt Consciousness"
+      }
+    },
+    {
+      "id": "Administrative Offices",
+      "section": "Unity buildings",
+      "data": {
+        "Effects": "+200 Bureaucrats/Managers",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 360; Minerals 400",
+        "Building Sets": "Unity",
+        "Requirements": "No Spiritualist; No Gestalt; No Thrall-World"
+      }
+    },
+    {
+      "id": "Temple",
+      "section": "Unity buildings",
+      "data": {
+        "Effects": "+200 Priests/Prosperity Preachers; +5% Spiritualist ethic attraction",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 360; Minerals 400",
+        "Requirements": "Spiritualist or A Union of Faith; No Gestalt; No Thrall-World"
+      }
+    },
+    {
+      "id": "Sacrificial Temple",
+      "section": "Unity buildings",
+      "data": {
+        "Effects": "+100 Death Priest; +100 Mortal Initiate; +5% Spiritualist ethic attraction",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 360; Minerals 400",
+        "Requirements": "Death Cult civic; No Thrall-World"
+      }
+    },
+    {
+      "id": "Synaptic Nodes",
+      "section": "Unity buildings",
+      "data": {
+        "Effects": "+200 Synapse Drones",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 360; Minerals 400",
+        "Requirements": "Hive Mind; No Wilderness"
+      }
+    },
+    {
+      "id": "Uplink Node",
+      "section": "Unity buildings",
+      "data": {
+        "Effects": "+200 Coordinators",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 360; Minerals 400",
+        "Requirements": "Machine Intelligence; No Rogue Servitor"
+      }
+    },
+    {
+      "id": "Organic Sanctuary",
+      "section": "Unity buildings",
+      "data": {
+        "Effects": "+1500 Bio-Trophies",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 360; Minerals 400",
+        "Building Sets": "Urban; Unity",
+        "Requirements": "Rogue Servitor"
+      }
+    },
+    {
+      "id": "Organic Paradise",
+      "section": "Unity buildings",
+      "data": {
+        "Effects": "+3000 Bio-Trophies",
+        "Upkeep": "Energy Credits -5; Exotic gases -1",
+        "Cost": "Time 480; Minerals 600; Exotic gases 50",
+        "Requirements": "Rogue Servitor; Idyllic Architecture tech"
+      }
+    },
+    {
+      "id": "Research Labs",
+      "section": "Research buildings",
+      "data": {
+        "Tier": "I",
+        "Effects": "+60 Biologists; +60 Engineers; +60 Physicists",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 360; Minerals 400",
+        "Requirements": "No Specialized planet; No Wilderness"
+      }
+    },
+    {
+      "id": "Research Complexes",
+      "section": "Research buildings",
+      "data": {
+        "Tier": "II",
+        "Effects": "+120 Biologists; +120 Engineers; +120 Physicists",
+        "Upkeep": "Energy Credits -5; Exotic gases -1",
+        "Cost": "Time 480; Minerals 600; Exotic gases 50",
+        "Requirements": "Exotic Materials Labs tech"
+      }
+    },
+    {
+      "id": "Advanced Research Complexes",
+      "section": "Research buildings",
+      "data": {
+        "Tier": "III",
+        "Effects": "+180 Biologists; +180 Engineers; +180 Physicists",
+        "Upkeep": "Energy Credits -8; Exotic gases -2",
+        "Cost": "Time 600; Minerals 800; Exotic gases 100",
+        "Requirements": "Multi-Dimensional Studies tech"
+      }
+    },
+    {
+      "id": "Alloy Foundries",
+      "section": "Foundry buildings",
+      "data": {
+        "Tier": "I",
+        "Jobs": "+200 Metallurgists",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 360; Minerals 400",
+        "Building Sets": "Industrial; Foundry",
+        "Requirements": "No Resort World; No Thrall-World; No Wilderness"
+      }
+    },
+    {
+      "id": "Alloy Mega-Forges",
+      "section": "Foundry buildings",
+      "data": {
+        "Tier": "II",
+        "Jobs": "+400 Metallurgists",
+        "Upkeep": "Energy Credits -5",
+        "Cost": "Time 480; Minerals 600",
+        "Building Sets": "Industrial; Foundry",
+        "Requirements": "Holographic Casts tech"
+      }
+    },
+    {
+      "id": "Alloy Nano-Plants",
+      "section": "Foundry buildings",
+      "data": {
+        "Tier": "III",
+        "Jobs": "+600 Metallurgists",
+        "Upkeep": "Energy Credits -8; Volatile motes -4",
+        "Cost": "Time 480; Minerals 600; Volatile motes 200",
+        "Building Sets": "Industrial; Foundry",
+        "Requirements": "Nano-Separators tech; No Penal Colony; No Gestation World"
+      }
+    },
+    {
+      "id": "Civilian Industries",
+      "section": "Factory buildings",
+      "data": {
+        "Tier": "I",
+        "Jobs": "+200 Artisans",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 360; Minerals 400",
+        "Building Sets": "Industrial; Factory",
+        "Requirements": "No Resort World; No Thrall-World; Empire uses Consumer Goods"
+      }
+    },
+    {
+      "id": "Civilian Fabricators",
+      "section": "Factory buildings",
+      "data": {
+        "Tier": "II",
+        "Jobs": "+400 Artisans",
+        "Upkeep": "Energy Credits -5; Rare crystals -2",
+        "Cost": "Time 480; Minerals 600; Rare crystals 100",
+        "Building Sets": "Industrial; Factory",
+        "Requirements": "Empire uses Consumer Goods; Nano-Circuit Assembly tech"
+      }
+    },
+    {
+      "id": "Civilian Repli-Complexes",
+      "section": "Factory buildings",
+      "data": {
+        "Tier": "III",
+        "Jobs": "+600 Artisans",
+        "Upkeep": "Energy Credits -8; Rare crystals -4",
+        "Cost": "Time 600; Minerals 800; Rare crystals 200",
+        "Building Sets": "Industrial; Factory",
+        "Requirements": "Replicator Kiosks tech"
+      }
+    },
+    {
+      "id": "Stronghold",
+      "section": "Military buildings",
+      "data": {
+        "Tier": "I",
+        "Effects": "+200 Soldiers; Cannot be destroyed by bombardment",
+        "Upkeep": "Energy Credits -1",
+        "Cost": "Time 240; Minerals 400",
+        "Building Sets": "Government; Fortress",
+        "Requirements": "No Resort World; No Wilderness"
+      }
+    },
+    {
+      "id": "Fortress",
+      "section": "Military buildings",
+      "data": {
+        "Tier": "II",
+        "Effects": "+400 Soldiers; FTL inhibitor",
+        "Upkeep": "Energy Credits -1; Volatile motes -1",
+        "Cost": "Time 360; Minerals 600; Volatile motes 50",
+        "Building Sets": "Government; Fortress",
+        "Requirements": "Global Defense Grid tech; Tier II capital"
+      }
+    },
+    {
+      "id": "Bone Garrison",
+      "section": "Military buildings",
+      "data": {
+        "Tier": "I",
+        "Effects": "+100 Tamersymbiont",
+        "Upkeep": "Minerals -5",
+        "Cost": "Time 240; Biomass 200; Minerals 600",
+        "Building Sets": "Government; Fortress",
+        "Requirements": "Wilderness origin"
+      }
+    },
+    {
+      "id": "Bone Fortress",
+      "section": "Military buildings",
+      "data": {
+        "Tier": "II",
+        "Effects": "+200 Tamersymbiont; FTL inhibitor",
+        "Upkeep": "Minerals -8; Volatile motes -1",
+        "Cost": "Time 360; Biomass 400; Minerals 800; Volatile motes 50",
+        "Building Sets": "Government; Fortress",
+        "Requirements": "Global Defense Grid tech; Tier II Capital; Wilderness origin"
+      }
+    },
+    {
+      "id": "Surface Quarry Depot",
+      "section": "Extraction buildings",
+      "data": {
+        "Effects": "+200 Miners",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 360; Minerals 400",
+        "Building Sets": "Urban; Mining",
+        "Requirements": "No Wilderness; No Resort World"
+      }
+    },
+    {
+      "id": "Voltaic Production Yard",
+      "section": "Extraction buildings",
+      "data": {
+        "Effects": "+200 Technicians",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 360; Minerals 400",
+        "Building Sets": "Urban; Generator",
+        "Requirements": "No Wilderness; No Resort World"
+      }
+    },
+    {
+      "id": "Hydroponics Farms",
+      "section": "Extraction buildings",
+      "data": {
+        "Effects": "+200 Farmers",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 360; Minerals 400",
+        "Building Sets": "Hydroponics",
+        "Requirements": "No Wilderness; No Resort World; No Machine World; Empire uses food"
+      }
+    },
+    {
+      "id": "Commercial Zones",
+      "section": "Other buildings",
+      "data": {
+        "Effects": "+200 Traders (+100 with Commercial Enterprise tradition)",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 360; Minerals 400",
+        "Building Sets": "Urban; Trade",
+        "Requirements": "No Gestalt; No Penal Colony; No Thrall-World"
+      }
+    },
+    {
+      "id": "Logistics Hub",
+      "section": "Other buildings",
+      "data": {
+        "Effects": "+200 Logistic Drones",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 240; Minerals 400",
+        "Building Sets": "Urban; Trade",
+        "Requirements": "Gestalt; No Wilderness"
+      }
+    },
+    {
+      "id": "Holo-Theatres",
+      "section": "Other buildings",
+      "data": {
+        "Effects": "+200 Entertainers (or Duelists with Warrior Culture)",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 360; Minerals 400",
+        "Building Sets": "Government; Urban; Entertainment",
+        "Requirements": "No Gestalt; No Oppressive Autocracy; No Penal Colony; No Thrall-World"
+      }
+    },
+    {
+      "id": "Resource Silos",
+      "section": "Other buildings",
+      "data": {
+        "Effects": "+5000 Resource Storage (+5000 with Construction Templates)",
+        "Upkeep": "Energy Credits -1",
+        "Cost": "Time 180; Minerals 200",
+        "Building Sets": "Urban; Generator; Mining; Farming",
+        "Requirements": "No Wilderness; No Resort World; No Thrall-World"
+      }
+    },
+    {
+      "id": "Overseer Residences",
+      "section": "Other buildings",
+      "data": {
+        "Effects": "+200 Slave Overseer jobs; +200 Housing",
+        "Upkeep": "Energy Credits -1",
+        "Cost": "Time 240; Minerals 200",
+        "Requirements": "Thrall-World"
+      }
+    },
+    {
+      "id": "Subterranean Cache",
+      "section": "Other buildings",
+      "data": {
+        "Effects": "+5000 Resource Storage (+5000 with Construction Templates)",
+        "Upkeep": "Minerals -2",
+        "Cost": "Time 180; Biomass 100; Minerals 400",
+        "Requirements": "Wilderness origin"
+      }
+    },
+    {
+      "id": "Nanite Transmuter",
+      "section": "Other buildings",
+      "data": {
+        "Effects": "+5 Exotic Gases; +5 Rare Crystals; +5 Volatile Motes",
+        "Upkeep": "Energy Credits -5; Nanites -2",
+        "Cost": "Time 600; Minerals 1000",
+        "Building Sets": "Industrial; Foundry; Factory",
+        "Requirements": "Nanite Transmutation tech; Nanites > 0; Tier II capital"
+      }
+    },
+    {
+      "id": "Nanotech Cauldron",
+      "section": "Other buildings",
+      "data": {
+        "Effects": "+15 Alloys",
+        "Upkeep": "Energy Credits -30; Nanites -3",
+        "Cost": "Time 480; Alloys 800",
+        "Building Sets": "Industrial; Foundry",
+        "Requirements": "Molecular Reconfiguration tradition"
+      }
+    },
+    {
+      "id": "Cradle of Rebirth",
+      "section": "Wilderness buildings",
+      "data": {
+        "Jobs": "+100 Broodsymbiont",
+        "Upkeep": "Food -2",
+        "Cost": "Time 360; Biomass 400; Food 400",
+        "Building Sets": "Government",
+        "Requirements": "Wilderness origin"
+      }
+    },
+    {
+      "id": "Chemical Digester",
+      "section": "Wilderness buildings",
+      "data": {
+        "Jobs": "+100 Motesymbiont",
+        "Upkeep": "Energy Credits -5",
+        "Cost": "Time 600; Biomass 400; Minerals 600",
+        "Building Sets": "Government; Foundry",
+        "Requirements": "Wilderness origin; Volatile Material Plants tech"
+      }
+    },
+    {
+      "id": "Crystal Bed",
+      "section": "Wilderness buildings",
+      "data": {
+        "Jobs": "+100 Crystalsymbiont",
+        "Upkeep": "Energy Credits -5",
+        "Cost": "Time 600; Biomass 400; Minerals 600",
+        "Building Sets": "Government; Foundry",
+        "Requirements": "Wilderness origin; Rare Crystal Manufacturing tech"
+      }
+    },
+    {
+      "id": "Exotic Gas Filters",
+      "section": "Wilderness buildings",
+      "data": {
+        "Jobs": "+100 Gaseosymbionte",
+        "Upkeep": "Energy Credits -5",
+        "Cost": "Time 600; Biomass 400; Minerals 600",
+        "Building Sets": "Government; Foundry",
+        "Requirements": "Wilderness origin; Exotic Gas Refining tech"
+      }
+    },
+    {
+      "id": "Experimentation Chambers",
+      "section": "Experimentation buildings",
+      "data": {
+        "Tier": "I",
+        "Effects": "+100 Experiment Engineers; +100 Test Subjects; +5% Materialist Ethics Attraction",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 360; Minerals 400",
+        "Requirements": "No Resort World; No Thrall-World"
+      }
+    },
+    {
+      "id": "Experimentation Complex",
+      "section": "Experimentation buildings",
+      "data": {
+        "Tier": "II",
+        "Effects": "+200 Experiment Engineers; +200 Test Subjects; +10% Materialist Ethics Attraction",
+        "Upkeep": "Energy Credits -2; Rare crystals -2",
+        "Cost": "Time 480; Minerals 600; Rare crystals 50",
+        "Requirements": "Exotic Materials Labs tech"
+      }
+    },
+    {
+      "id": "Experimentation Nexus",
+      "section": "Experimentation buildings",
+      "data": {
+        "Tier": "III",
+        "Effects": "+300 Experiment Engineers; +300 Test Subjects; +15% Materialist Ethics Attraction",
+        "Upkeep": "Energy Credits -2; Rare crystals -2; Volatile motes -1",
+        "Cost": "Time 600; Minerals 800; Rare crystals 100",
+        "Requirements": "Multi-Dimensional Studies tech"
+      }
+    },
+    {
+      "id": "Sky Dome",
+      "section": "Fallen empire buildings",
+      "data": {
+        "Effects": "+2500 Housing; +3750 Amenities",
+        "Upkeep": "Energy Credits -15; Alloys -3; Rare crystals -2",
+        "Cost": "Alloys 1500; Rare crystals 300"
+      }
+    },
+    {
+      "id": "Class-3 Singularity",
+      "section": "Fallen empire buildings",
+      "data": {
+        "Effects": "+600 Technicians; +75% Technician Automation; +75 Energy",
+        "Upkeep": "Alloys -3; Rare crystals -2",
+        "Cost": "Alloys 1500; Rare crystals 300"
+      }
+    },
+    {
+      "id": "Nourishment Complex",
+      "section": "Fallen empire buildings",
+      "data": {
+        "Effects": "+600 Farmers; +75% Farmer Automation; +40 Food",
+        "Upkeep": "Energy Credits -15; Alloys -3; Exotic gases -2",
+        "Cost": "Alloys 1500; Rare crystals 300"
+      }
+    },
+    {
+      "id": "Quantum Drilling Plant",
+      "section": "Fallen empire buildings",
+      "data": {
+        "Effects": "+600 Miners; +75% Miner Automation; +50 Minerals",
+        "Upkeep": "Energy Credits -15; Alloys -3; Volatile motes -2",
+        "Cost": "Alloys 1500; Volatile motes 300"
+      }
+    },
+    {
+      "id": "Affluence Emporium",
+      "section": "Fallen empire buildings",
+      "data": {
+        "Effects": "+600 Artisans; +25% Artisan Automation",
+        "Upkeep": "Energy Credits -15; Alloys -3; Living Metal -1",
+        "Cost": "Alloys 1500; Living Metal 50"
+      }
+    },
+    {
+      "id": "Hyper-Forge",
+      "section": "Fallen empire buildings",
+      "data": {
+        "Effects": "+600 Metallurgists; +25% Metallurgist Automation",
+        "Upkeep": "Energy Credits -15; Alloys -3; Living Metal -1",
+        "Cost": "Alloys 1500; Living Metal 50"
+      }
+    },
+    {
+      "id": "Dimensional Replicator",
+      "section": "Fallen empire buildings",
+      "data": {
+        "Effects": "+10 Exotic Gases; +10 Rare Crystals; +10 Volatile Motes",
+        "Upkeep": "Energy Credits -50; Alloys -5",
+        "Cost": "Alloys 1500"
+      }
+    },
+    {
+      "id": "Justice Complex",
+      "section": "Fallen empire buildings",
+      "data": {
+        "Effects": "+600 Enforcers",
+        "Upkeep": "Energy Credits -15; Alloys -3; Rare crystals -2",
+        "Cost": "Alloys 1500; Rare crystals 300"
+      }
+    },
+    {
+      "id": "Shrinkspace Depot",
+      "section": "Fallen empire buildings",
+      "data": {
+        "Effects": "+50000 Resource Storage; +500 Minor Artifacts Storage",
+        "Upkeep": "Energy Credits -15; Alloys -3",
+        "Cost": "Alloys 1000; Dark Matter 20"
+      }
+    },
+    {
+      "id": "Aspis Bastion",
+      "section": "Fallen empire buildings",
+      "data": {
+        "Effects": "+600 Soldiers; +25% Soldiers Automation",
+        "Upkeep": "Energy Credits -15; Alloys -5; Volatile motes -2",
+        "Cost": "Alloys 1500; Volatile motes 300"
+      }
+    },
+    {
+      "id": "Galactic Commerce Hub",
+      "section": "Fallen empire buildings",
+      "data": {
+        "Effects": "+600 Traders; +25% Trader Automation",
+        "Upkeep": "Energy Credits -15; Alloys -3; Rare crystals -2",
+        "Cost": "Alloys 1500; Rare crystals 300"
+      }
+    },
+    {
+      "id": "Molecular-Revitalization Institute",
+      "section": "Fallen empire buildings",
+      "data": {
+        "Effects": "+1 Leader Lifespan; +150 Medical Workers; +25% Medical Automation",
+        "Upkeep": "Energy Credits -15; Alloys -3; Dark Matter -1",
+        "Cost": "Alloys 1500; Dark Matter 50"
+      }
+    },
+    {
+      "id": "Robot Manufacturing Nexus",
+      "section": "Fallen empire buildings",
+      "data": {
+        "Effects": "+150 Roboticists; +25% Roboticist Automation",
+        "Upkeep": "Energy Credits -15; Alloys -5; Living Metal -1",
+        "Cost": "Alloys 1500; Living Metal 50"
+      }
+    },
+    {
+      "id": "Virtual Bliss Plaza",
+      "section": "Fallen empire buildings",
+      "data": {
+        "Effects": "+600 Entertainers; +25% Entertainer Automation",
+        "Upkeep": "Energy Credits -15; Alloys -3; Rare crystals -2",
+        "Cost": "Alloys 1500; Rare crystals 300"
+      }
+    },
+    {
+      "id": "Quantum Innovation Nexus",
+      "section": "Fallen empire buildings",
+      "data": {
+        "Effects": "+200 Physicists; +200 Biologists; +200 Engineers; +25% Researcher Automation",
+        "Upkeep": "Energy Credits -15; Alloys -3; Exotic gases -5",
+        "Cost": "Alloys 1500; Exotic gases 300"
+      }
+    },
+    {
+      "id": "Omnivident Administration",
+      "section": "Unity fallen empire buildings",
+      "data": {
+        "Effects": "+600 Bureaucrats; +25% Bureaucrat Automation",
+        "Upkeep": "Energy Credits -15; Alloys -3; Rare crystals -2",
+        "Cost": "Alloys 1500; Rare crystals 300"
+      }
+    },
+    {
+      "id": "Omniscient Administration",
+      "section": "Unity fallen empire buildings",
+      "data": {
+        "Tier": "II",
+        "Effects": "Upgraded Omnivident Administration",
+        "Cost": "Alloys 2500; Rare crystals 500"
+      }
+    },
+    {
+      "id": "Celestial Sanctum",
+      "section": "Unity fallen empire buildings",
+      "data": {
+        "Effects": "+600 Priests; +25% Priest Automation",
+        "Upkeep": "Energy Credits -15; Alloys -3; Rare crystals -2",
+        "Cost": "Alloys 1500; Rare crystals 300"
+      }
+    },
+    {
+      "id": "Celestial Cathedral",
+      "section": "Unity fallen empire buildings",
+      "data": {
+        "Tier": "II",
+        "Effects": "Upgraded Celestial Sanctum",
+        "Cost": "Alloys 2500; Rare crystals 500"
+      }
+    },
+    {
+      "id": "Ephaptic Cluster",
+      "section": "Unity fallen empire buildings",
+      "data": {
+        "Effects": "+600 Synapse Drones; +25% Synapse Drone Automation",
+        "Upkeep": "Energy Credits -15; Alloys -3; Rare crystals -2",
+        "Cost": "Alloys 1500; Rare crystals 300"
+      }
+    },
+    {
+      "id": "Ephaptic Axon",
+      "section": "Unity fallen empire buildings",
+      "data": {
+        "Tier": "II",
+        "Effects": "Upgraded Ephaptic Cluster",
+        "Cost": "Alloys 2500; Rare crystals 500"
+      }
+    },
+    {
+      "id": "Fractal Coordination Point",
+      "section": "Unity fallen empire buildings",
+      "data": {
+        "Effects": "+600 Coordinators; +25% Coordinator Automation",
+        "Upkeep": "Energy Credits -15; Alloys -3; Rare crystals -2",
+        "Cost": "Alloys 1500; Rare crystals 300"
+      }
+    },
+    {
+      "id": "Quantic Coordination Point",
+      "section": "Unity fallen empire buildings",
+      "data": {
+        "Tier": "II",
+        "Effects": "Upgraded Fractal Coordination Point",
+        "Cost": "Alloys 2500; Rare crystals 500"
+      }
+    },
+    {
+      "id": "Primitive Dwellings",
+      "section": "Pre-FTL buildings",
+      "data": {
+        "Effects": "+600 Housing",
+        "Requirements": "Bronze Age - Renaissance Age; Not Hive Mind"
+      }
+    },
+    {
+      "id": "Early Colony",
+      "section": "Pre-FTL buildings",
+      "data": {
+        "Effects": "+600 Housing",
+        "Requirements": "Bronze Age - Renaissance Age; Hive Mind"
+      }
+    },
+    {
+      "id": "Urban Dwellings",
+      "section": "Pre-FTL buildings",
+      "data": {
+        "Effects": "+2400 Housing",
+        "Requirements": "Steam Age+; Not Hive Mind"
+      }
+    },
+    {
+      "id": "Drone Storage (Pre-FTL)",
+      "section": "Pre-FTL buildings",
+      "data": {
+        "Effects": "+2400 Housing",
+        "Requirements": "Steam Age+; Hive Mind"
+      }
+    },
+    {
+      "id": "Primitive Factory",
+      "section": "Pre-FTL buildings",
+      "data": {
+        "Effects": "+200 Laborer/Factory Drone jobs",
+        "Requirements": "Steam Age+"
+      }
+    },
+    {
+      "id": "Primitive Mine",
+      "section": "Pre-FTL buildings",
+      "data": {
+        "Effects": "+200 Miner/Mining Drone jobs",
+        "Requirements": "Steam Age+"
+      }
+    },
+    {
+      "id": "Primitive Farms",
+      "section": "Pre-FTL buildings",
+      "data": {
+        "Effects": "+200 Farmer/Agri-Drone jobs",
+        "Requirements": "Steam Age+; Not Lithoid"
+      }
+    },
+    {
+      "id": "Primitive Power Plant",
+      "section": "Pre-FTL buildings",
+      "data": {
+        "Effects": "+200 Technician/Tech-Drone jobs",
+        "Requirements": "Industrial Age+"
+      }
+    },
+    {
+      "id": "Great Pyramid",
+      "section": "Pre-FTL buildings",
+      "data": {
+        "Effects": "+2 Food; +2 Society Research",
+        "Requirements": "Observation event"
+      }
+    },
+    {
+      "id": "Radio Telescope Array",
+      "section": "Pre-FTL buildings",
+      "data": {
+        "Effects": "+200 Researcher; Increased Awareness chance",
+        "Requirements": "Observation event"
+      }
+    },
+    {
+      "id": "Hanging Cities",
+      "section": "Pre-FTL buildings",
+      "data": {
+        "Effects": "+500 Content Terraformer jobs; +2000 Housing",
+        "Requirements": "Habinte Unified Worlds"
+      }
+    },
+    {
+      "id": "Grand Sapling",
+      "section": "Pre-FTL buildings",
+      "data": {
+        "Effects": "+500 Content Terraformer jobs; +2 Food per Farmer",
+        "Requirements": "Habinte Unified Worlds"
+      }
+    },
+    {
+      "id": "Gaia Seeders",
+      "section": "Pre-FTL buildings",
+      "data": {
+        "Effects": "+1000 Content Terraformer jobs",
+        "Requirements": "Habinte Unified Worlds"
+      }
+    },
+    {
+      "id": "Nature Preserve Lodge",
+      "section": "Pre-FTL buildings",
+      "data": {
+        "Effects": "+500 Content Terraformer jobs",
+        "Requirements": "Habinte Unified Worlds"
+      }
+    }
+  ]
+}

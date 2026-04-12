@@ -1,0 +1,134 @@
+{
+  "$schema": "sovereign-template-v1.json",
+  "id": "AI_evangelizing_zealot",
+  "name": "Evangelizing Zealot",
+  "description": "Spreads ideology through liberation wars and cultural pressure. High unity focus with authoritarian governance.",
+
+  "identity": {
+    "personality_key": "sovereign_evangelizing_zealot",
+    "archetype": "propagator",
+    "ethics_match": {
+      "required": ["spiritualist"],
+      "preferred": ["fanatic_spiritualist", "authoritarian"],
+      "forbidden": ["materialist", "fanatic_materialist"]
+    },
+    "authority_match": {
+      "preferred": ["auth_dictatorial", "auth_imperial"],
+      "forbidden": []
+    },
+    "civic_affinity": []
+  },
+
+  "origins": {
+    "default": "origin_default",
+    "preferred": [
+      {
+        "origin": "origin_imperial_fiefdom",
+        "reason": "Start as vassal, break free, then spread ideology through liberation wars"
+      },
+      {
+        "origin": "origin_teachers_of_the_shroud",
+        "reason": "Psionic origin perfectly matches spiritualist zealotry",
+        "economy_overrides": { "weight_factors": { "unity": 3.0 } }
+      }
+    ],
+    "compatible": ["origin_default", "origin_galactic_doorstep", "origin_fear_of_the_dark"],
+    "forbidden": ["origin_mechanists"]
+  },
+
+  "behavior": {
+    "aggressiveness": 1.0,
+    "trade_willingness": 0.4,
+    "bravery": 1.3,
+    "military_spending": 1.25,
+    "colony_spending": 1.0,
+    "threat_modifier": 1.0,
+    "friction_modifier": 1.0,
+    "alliance_acceptance": -25,
+    "federation_acceptance": -10,
+    "flags": {
+      "conqueror": false,
+      "subjugator": true,
+      "liberator": true,
+      "opportunist": false,
+      "slaver": false,
+      "uplifter": true,
+      "purger": false,
+      "dominator": true,
+      "infiltrator": true,
+      "robot_exploiter": false,
+      "robot_liberator": false,
+      "migrator": true
+    }
+  },
+
+  "economy": {
+    "weight_factors": {
+      "alloy": 1.25,
+      "research": 0.75,
+      "unity": 2.5,
+      "military": 1.0,
+      "expansion": 1.0,
+      "trade": 0.5
+    },
+    "deficit_thresholds": {
+      "minerals": 25,
+      "energy": 10,
+      "alloys": 10,
+      "consumer_goods": 5,
+      "food": 5,
+      "research": 25,
+      "unity": 10
+    },
+    "surplus_thresholds": {
+      "minerals": 100,
+      "energy": 50,
+      "food": 30,
+      "alloys": 50,
+      "consumer_goods": 25,
+      "research": 80,
+      "unity": 50
+    }
+  },
+
+  "gates": {
+    "G1_mineral": { "threshold": 15, "factor": 0.1 },
+    "G2_consumer_goods": { "threshold": 2, "factor": 0.1 },
+    "G3_mineral_strict": { "threshold": 25, "factor": 0.1 },
+    "G4_strategic": { "threshold": 1, "factor": 0.1 },
+    "G5_alloy_expansion": { "threshold": 5, "factor": 0.1 },
+    "G6_energy_high_upkeep": { "threshold": 5, "factor": 0.25 }
+  },
+
+  "starting_state": {
+    "template": "regular",
+    "stockpiles": {
+      "minerals": 200, "energy": 200, "food": 100,
+      "alloys": 100, "consumer_goods": 100
+    },
+    "pops": 52,
+    "districts": { "mining": 2, "generator": 2, "agriculture": 2, "city": 2 },
+    "planet_size": 20,
+    "max_buildings": 4,
+    "capital_tier": 0,
+    "starting_techs": 31
+  },
+
+  "build_priority": {
+    "early": ["mining_district", "temple", "generator_district", "alloy_foundry", "capital_upgrade", "temple"],
+    "mid": ["temple", "alloy_foundry", "city_district", "research_lab"],
+    "late": ["temple", "megastructure", "alloy_foundry"]
+  },
+
+  "phase_overrides": {
+    "early": {
+      "weight_factors": { "unity": 3.0 }
+    },
+    "mid": {
+      "weight_factors": { "unity": 2.5, "military": 1.5 }
+    },
+    "late": {
+      "gates": { "G1_mineral": { "threshold": 5, "factor": 0.25 } }
+    }
+  }
+}

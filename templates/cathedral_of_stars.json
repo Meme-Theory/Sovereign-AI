@@ -1,0 +1,97 @@
+{
+  "$schema": "sovereign-template-v1.json",
+  "id": "cathedral_of_stars",
+  "name": "Cathedral of Stars",
+  "description": "Psionic unity maximizer that turns starbases into cathedrals. Late-game unity production dwarfs all other empires through starbase buildings and megastructures. The galaxy is the church.",
+
+  "identity": {
+    "personality_key": "sovereign_evangelizing_zealot",
+    "archetype": "propagator",
+    "ethics_match": {
+      "required": ["spiritualist"],
+      "preferred": ["fanatic_spiritualist"],
+      "forbidden": ["materialist"]
+    },
+    "authority_match": {
+      "preferred": ["auth_imperial"],
+      "forbidden": []
+    },
+    "civic_affinity": ["civic_exalted_priesthood", "civic_imperial_cult"]
+  },
+
+  "origins": {
+    "default": "origin_teachers_of_the_shroud",
+    "preferred": [
+      {
+        "origin": "origin_teachers_of_the_shroud",
+        "reason": "Shroud access amplifies psionic unity generation and late-game ascension",
+        "economy_overrides": { "unity": 2.0 }
+      }
+    ],
+    "compatible": ["origin_default", "origin_fear_of_the_dark"],
+    "forbidden": ["origin_mechanists"]
+  },
+
+  "behavior": {
+    "aggressiveness": 1.0,
+    "trade_willingness": 0.4,
+    "bravery": 1.3,
+    "military_spending": 1.25,
+    "colony_spending": 1.0,
+    "threat_modifier": 1.0,
+    "friction_modifier": 1.0,
+    "alliance_acceptance": -25,
+    "federation_acceptance": -10,
+    "flags": {
+      "conqueror": false, "subjugator": true, "liberator": true,
+      "opportunist": false, "slaver": false, "uplifter": true,
+      "purger": false, "dominator": true, "infiltrator": true,
+      "robot_exploiter": false, "robot_liberator": false, "migrator": true
+    }
+  },
+
+  "economy": {
+    "weight_factors": {
+      "alloy": 1.0, "research": 1.5, "unity": 3.5,
+      "military": 1.0, "expansion": 1.25, "trade": 0.5
+    },
+    "deficit_thresholds": {
+      "minerals": 25, "energy": 10, "alloys": 10,
+      "consumer_goods": 5, "food": 5, "research": 20, "unity": 5
+    },
+    "surplus_thresholds": {
+      "minerals": 100, "energy": 50, "food": 30,
+      "alloys": 50, "consumer_goods": 25, "research": 80, "unity": 200
+    }
+  },
+
+  "gates": {
+    "G1_mineral": { "threshold": 15, "factor": 0.1 },
+    "G2_consumer_goods": { "threshold": 2, "factor": 0.1 },
+    "G3_mineral_strict": { "threshold": 25, "factor": 0.1 },
+    "G4_strategic": { "threshold": 1, "factor": 0.1 },
+    "G5_alloy_expansion": { "threshold": 5, "factor": 0.1 },
+    "G6_energy_high_upkeep": { "threshold": 5, "factor": 0.25 }
+  },
+
+  "starting_state": {
+    "template": "regular",
+    "stockpiles": { "minerals": 200, "energy": 200, "food": 100, "alloys": 100, "consumer_goods": 100 },
+    "pops": 52, "districts": { "mining": 2, "generator": 2, "agriculture": 2, "city": 2 },
+    "planet_size": 20, "max_buildings": 4, "capital_tier": 0, "starting_techs": 31
+  },
+
+  "build_priority": {
+    "early": ["temple", "mining_district", "capital_upgrade", "temple", "civilian_industries"],
+    "mid": ["temple", "starbase_unity_building", "research_lab", "city_district"],
+    "late": ["megastructure_unity", "hyper_relay", "starbase_unity_building"]
+  },
+
+  "phase_overrides": {
+    "early": { "weight_factors": { "unity": 3.0 } },
+    "mid": { "weight_factors": { "unity": 3.5 } },
+    "late": { "weight_factors": { "unity": 4.0, "research": 2.0 } }
+  },
+
+  "_source": { "save": "lishiankingdom5_-526767958", "year": 2663, "pops": 215663, "military_power": 198219, "economy_power": 76009, "tech_power": 112732, "notes": "Psionic culture. Starbase-based unity: 495/mo from starbase buildings alone. Megastructure unity: 806 + 229 hyper relay. Total unity production ~2,000/mo — highest of any playthrough. Empire size 1,760." }
+}

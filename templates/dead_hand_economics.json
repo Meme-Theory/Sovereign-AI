@@ -1,0 +1,97 @@
+{
+  "$schema": "sovereign-template-v1.json",
+  "id": "dead_hand_economics",
+  "name": "Dead Hand Economics",
+  "description": "Necrophage trade empire that converts conquered pops into economic fuel. The dead hand of the market guides all — production and commerce intertwined with death.",
+
+  "identity": {
+    "personality_key": "sovereign_ruthless_industrialist",
+    "archetype": "expansionist",
+    "ethics_match": {
+      "required": [],
+      "preferred": ["authoritarian", "xenophobe", "materialist"],
+      "forbidden": ["fanatic_egalitarian"]
+    },
+    "authority_match": {
+      "preferred": ["auth_imperial", "auth_dictatorial"],
+      "forbidden": []
+    },
+    "civic_affinity": ["civic_necrophage", "civic_merchant_guilds"]
+  },
+
+  "origins": {
+    "default": "origin_necrophage",
+    "preferred": [
+      {
+        "origin": "origin_necrophage",
+        "reason": "Core identity — necrophage conversion drives unique pop growth and unity generation",
+        "economy_overrides": { "unity": 1.5, "alloy": 1.25 }
+      }
+    ],
+    "compatible": ["origin_default"],
+    "forbidden": ["origin_common_ground", "origin_tree_of_life", "origin_primal_calling"]
+  },
+
+  "behavior": {
+    "aggressiveness": 0.75,
+    "trade_willingness": 0.9,
+    "bravery": 0.8,
+    "military_spending": 1.0,
+    "colony_spending": 1.8,
+    "threat_modifier": 0.75,
+    "friction_modifier": 0.5,
+    "alliance_acceptance": 0,
+    "federation_acceptance": 10,
+    "flags": {
+      "conqueror": true, "subjugator": true, "liberator": false,
+      "opportunist": true, "slaver": true, "uplifter": false,
+      "purger": false, "dominator": false, "infiltrator": false,
+      "robot_exploiter": true, "robot_liberator": false, "migrator": true
+    }
+  },
+
+  "economy": {
+    "weight_factors": {
+      "alloy": 2.0, "research": 1.0, "unity": 1.5,
+      "military": 1.0, "expansion": 1.5, "trade": 2.5
+    },
+    "deficit_thresholds": {
+      "minerals": 25, "energy": 10, "alloys": 8,
+      "consumer_goods": 5, "food": 5, "research": 20, "unity": 15
+    },
+    "surplus_thresholds": {
+      "minerals": 100, "energy": 60, "food": 30,
+      "alloys": 50, "consumer_goods": 25, "research": 80, "unity": 50
+    }
+  },
+
+  "gates": {
+    "G1_mineral": { "threshold": 15, "factor": 0.1 },
+    "G2_consumer_goods": { "threshold": 2, "factor": 0.1 },
+    "G3_mineral_strict": { "threshold": 25, "factor": 0.1 },
+    "G4_strategic": { "threshold": 1, "factor": 0.1 },
+    "G5_alloy_expansion": { "threshold": 5, "factor": 0.1 },
+    "G6_energy_high_upkeep": { "threshold": 5, "factor": 0.25 }
+  },
+
+  "starting_state": {
+    "template": "regular",
+    "stockpiles": { "minerals": 200, "energy": 200, "food": 100, "alloys": 100, "consumer_goods": 100 },
+    "pops": 52, "districts": { "mining": 2, "generator": 2, "agriculture": 2, "city": 2 },
+    "planet_size": 20, "max_buildings": 4, "capital_tier": 0, "starting_techs": 31
+  },
+
+  "build_priority": {
+    "early": ["mining_district", "alloy_foundry", "commercial_zone", "civilian_industries", "capital_upgrade", "alloy_foundry"],
+    "mid": ["commercial_zone", "alloy_foundry", "research_lab", "city_district", "admin_office"],
+    "late": ["megastructure", "commercial_zone", "alloy_foundry"]
+  },
+
+  "phase_overrides": {
+    "early": { "weight_factors": { "trade": 2.0 } },
+    "mid": { "weight_factors": { "trade": 2.5, "alloy": 2.0 } },
+    "late": { "weight_factors": { "alloy": 2.5 } }
+  },
+
+  "_source": { "save": "provisionersofsuulan2_-1760925053", "year": 2241, "pops": 7328, "military_power": 587, "economy_power": 754, "tech_power": 782, "notes": "Necroid culture. 31.4 alloys from metallurgists + 57.1 CG from artisans. 110.9 total mineral consumption by converters. Trade income: 20.2 from traders + 17.5 from trade policy. Necro apprentices producing 5.5 unity. 59 techs at year 2241." }
+}

@@ -1,0 +1,81 @@
+{
+  "category": "authority",
+  "source": "Stellaris Wiki (4.x)",
+  "extracted": "2026-04-12",
+  "count": 8,
+  "items": [
+    {
+      "id": "Democratic",
+      "section": "Individualist authorities",
+      "data": {
+        "Election": "Every 10 years",
+        "Effects": "+10% Faction Approval; +1 Recruitable Leaders per Class",
+        "Requirements": "No Authoritarian"
+      }
+    },
+    {
+      "id": "Oligarchic",
+      "section": "Individualist authorities",
+      "data": {
+        "Election": "Every 20 years",
+        "Effects": "Can have emergency elections; +2 Effective Councilor Skill",
+        "Requirements": "No Fanatic Authoritarian; No Fanatic Egalitarian"
+      }
+    },
+    {
+      "id": "Dictatorial",
+      "section": "Individualist authorities",
+      "data": {
+        "Election": "Upon ruler death",
+        "Effects": "+25% Ruler Experience Gain; -1 Recruitable Leaders per Class",
+        "Requirements": "No Egalitarian"
+      }
+    },
+    {
+      "id": "Imperial",
+      "section": "Individualist authorities",
+      "data": {
+        "Election": "Heir; Upon ruler death",
+        "Effects": "+10% Resources from Jobs in Capital System",
+        "Requirements": "No Egalitarian"
+      }
+    },
+    {
+      "id": "Corporate",
+      "section": "Individualist authorities",
+      "data": {
+        "Election": "Every 20 years",
+        "Effects": "Can have emergency elections; +1 Envoys; +10% Trade from Jobs; Can establish branch offices",
+        "Requirements": "No Fanatic Authoritarian; No Fanatic Egalitarian",
+        "DLC": "MegaCorp"
+      }
+    },
+    {
+      "id": "Machine Intelligence",
+      "section": "Gestalt authorities",
+      "data": {
+        "Effects": "+1 Nexus District when colonizing; +1 Monthly Mechanical Pop Assembly; +10% Resources from Mining Stations",
+        "Requirements": "Machine species",
+        "DLC": "Synthetic Dawn; The Machine Age"
+      }
+    },
+    {
+      "id": "Hive Mind",
+      "section": "Gestalt authorities",
+      "data": {
+        "Effects": "+25% Pop Growth Speed; -25% Empire Size Effect",
+        "Requirements": "No Wilderness origin; No Machine species",
+        "DLC": "Utopia; BioGenesis"
+      }
+    },
+    {
+      "id": "Mutualistic Intelligence",
+      "section": "Gestalt authorities",
+      "data": {
+        "Effects": "-25% Empire Size effect; +100% Empire Size from districts/planets; +100% Diplomatic Weight from economy",
+        "Requirements": "Wilderness origin",
+        "DLC": "BioGenesis"
+      }
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "$schema": "sovereign-template-v1.json",
+  "id": "AI_devouring_swarm",
+  "name": "Devouring Swarm",
+  "description": "Hive mind driven to consume everything. Total war with biological efficiency and no diplomacy.",
+
+  "identity": {
+    "personality_key": "sovereign_devouring_swarm",
+    "archetype": "devourer",
+    "ethics_match": {
+      "required": [],
+      "preferred": [],
+      "forbidden": []
+    },
+    "authority_match": {
+      "preferred": ["auth_hive_mind"],
+      "forbidden": []
+    },
+    "civic_affinity": ["civic_hive_devouring_swarm"]
+  },
+
+  "origins": {
+    "default": "origin_tree_of_life",
+    "preferred": [
+      {
+        "origin": "origin_tree_of_life",
+        "reason": "Tree of Life provides growth bonus that feeds the swarm's pop-hungry economy",
+        "economy_overrides": { "weight_factors": { "expansion": 2.0 } }
+      },
+      {
+        "origin": "origin_primal_calling",
+        "reason": "Wild hive mind with aggressive expansion"
+      }
+    ],
+    "compatible": ["origin_default"],
+    "forbidden": [
+      "origin_common_ground", "origin_hegemon", "origin_lost_colony",
+      "origin_mechanists", "origin_syncretic_evolution", "origin_clone_army",
+      "origin_void_dwellers", "origin_shattered_ring", "origin_ocean_paradise",
+      "origin_teachers_of_the_shroud", "origin_imperial_fiefdom",
+      "origin_resource_consolidation", "origin_fear_of_the_dark"
+    ]
+  },
+
+  "behavior": {
+    "aggressiveness": 2.0,
+    "trade_willingness": 0.0,
+    "bravery": 1.4,
+    "military_spending": 1.75,
+    "colony_spending": 1.5,
+    "threat_modifier": 2.0,
+    "friction_modifier": 2.0,
+    "alliance_acceptance": -1000,
+    "federation_acceptance": -1000,
+    "flags": {
+      "conqueror": true,
+      "subjugator": false,
+      "liberator": false,
+      "opportunist": true,
+      "slaver": false,
+      "uplifter": false,
+      "purger": true,
+      "dominator": true,
+      "infiltrator": false,
+      "robot_exploiter": false,
+      "robot_liberator": false,
+      "migrator": false
+    }
+  },
+
+  "economy": {
+    "weight_factors": {
+      "alloy": 1.5,
+      "research": 1.0,
+      "unity": 1.0,
+      "military": 1.0,
+      "expansion": 1.25,
+      "trade": 0.0
+    },
+    "deficit_thresholds": {
+      "minerals": 20,
+      "energy": 10,
+      "alloys": 10,
+      "consumer_goods": 0,
+      "food": 10,
+      "research": 15,
+      "unity": 15
+    },
+    "surplus_thresholds": {
+      "minerals": 100,
+      "energy": 50,
+      "food": 50,
+      "alloys": 50,
+      "consumer_goods": 0,
+      "research": 80,
+      "unity": 50
+    }
+  },
+
+  "gates": {
+    "G1_mineral": { "threshold": 15, "factor": 0.1 },
+    "G2_consumer_goods": { "threshold": 0, "factor": 0.1 },
+    "G3_mineral_strict": { "threshold": 25, "factor": 0.1 },
+    "G4_strategic": { "threshold": 1, "factor": 0.1 },
+    "G5_alloy_expansion": { "threshold": 5, "factor": 0.1 },
+    "G6_energy_high_upkeep": { "threshold": 5, "factor": 0.25 }
+  },
+
+  "starting_state": {
+    "template": "hive_mind",
+    "stockpiles": {
+      "minerals": 200, "energy": 200, "food": 200,
+      "alloys": 100, "consumer_goods": 0
+    },
+    "pops": 55,
+    "districts": { "mining": 2, "generator": 2, "agriculture": 3, "city": 2 },
+    "planet_size": 20,
+    "max_buildings": 4,
+    "capital_tier": 0,
+    "starting_techs": 31
+  },
+
+  "build_priority": {
+    "early": ["mining_district", "alloy_foundry", "agriculture_district", "mining_district", "capital_upgrade", "alloy_foundry"],
+    "mid": ["alloy_foundry", "research_lab", "city_district", "stronghold"],
+    "late": ["alloy_foundry", "megastructure", "research_lab"]
+  },
+
+  "phase_overrides": {
+    "early": {
+      "weight_factors": { "alloy": 2.0, "military": 1.5 }
+    },
+    "mid": {
+      "weight_factors": { "research": 1.5 }
+    },
+    "late": {
+      "gates": { "G1_mineral": { "threshold": 5, "factor": 0.25 } }
+    }
+  }
+}

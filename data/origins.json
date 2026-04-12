@@ -1,0 +1,795 @@
+{
+  "category": "origins",
+  "source": "Stellaris Wiki (4.x)",
+  "extracted": "2026-04-12",
+  "count": 75,
+  "items": [
+    {
+      "id": "Prosperous Unification",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Origins default]Prosperous Unification",
+        "Empire effects": "[Tech planetary unification] Planetary Unification technology starts as a permanent research option",
+        "Homeworld effects": "[Icon pop] +400 Starting pops; [Generator District] +1 Generator District; [Agriculture District] +1 Agriculture District if Organic; [Mining District] +1 Mining District if Machine or Lithoid; [Happiness] +15% Happiness for 20 years; [Amenities] +25% Amenities for 20 years; [Mod pop resource output] +10% Resources from Jobs for 20 years",
+        "Spawn weight": "100"
+      }
+    },
+    {
+      "id": "Galactic Doorstep",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Origins gateway]Galactic Doorstep",
+        "Empire effects": "[Cost] −25% Gateway Build Cost[Mod megastructure build speed] +5% Megastructure Build Speed[Gateway ruined] Start with a dormant Gateway which will bring the following in the first years:; 100-1500 [Alloys] Alloys and/or [Minerals] Minerals; A small space amoeba; Special project that creates the From Gateway Sent archaeological site; [Gateway Construction] Gain +95% progress to Gateway Construction tech after reactivating the gateway; [Specimen secrets black crown] Gain the Secrets of the Black Crown specimen when reactivating the gateway (if [Grand Archive]); [Galactic Paragons] +33% to get the Skrand Sharpbeak paragon when reactivating the first gateway; [Galactic Paragons] +67% to get the Skrand Sharpbeak paragon when reactivating subsequent gateways",
+        "Homeworld effects": "None",
+        "Spawn weight": "1 (once)"
+      }
+    },
+    {
+      "id": "Tree of Life",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Origins tree of life]Tree of Life",
+        "Empire effects": "[Tree of Life Sapling] Colonies start with a Tree of Life Sapling planetary feature; [Transplant Tree of Life] Enables the Transplant Tree of Life decision; [Mod spaceport ship build cost mult] Colony ships cost less alloys but more food; [Devastation] Tree of Life planetary features are removed at −50 devastation; [Pm bleak][Bleak] Worlds without a Tree of Life planetary feature have the following penalties: [Mod planet building build speed mult] −50% Planet build speed [Mod pop resource output] −25% Resources from jobs [Upkeep] +10% Upkeep from jobs [Mod planet stability] −5 Stability; [Mod planet building build speed mult] −50% Planet build speed; [Mod pop resource output] −25% Resources from jobs; [Upkeep] +10% Upkeep from jobs; [Mod planet stability] −5 Stability",
+        "Homeworld effects": "[Tree of Life] Start with a Tree of Life planetary feature",
+        "Requirements": "[Auth hive mind] Hive Mind; [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct; [No][Planet molten] Volcanic homeworld",
+        "Spawn weight": "5 (once)",
+        "DLC": "[Utopia]"
+      }
+    },
+    {
+      "id": "Clone Army",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Origins clones]Clone Army",
+        "Empire effects": "[Ancient Clone Vat] Can construct up to 5 Ancient Clone Vat buildings; [Clone Soldier] Species has the Clone Soldier trait; [Leader trait bg basic][Leader trait clone soldier][Clone Army Commander] Commanders have the Clone Army Commander trait; [Tech cloning] Start with the Cloning technology researched; [Gene Banks] Start with the Gene Banks technology researched",
+        "Homeworld effects": "[Ancient Clone Vat] Start with two Ancient Clone Vat buildings; [Archaeology map icon] After 3-5 years, the Homeworld Excavation archaeological site appears; [Feature] Excavating the archaeological site starts the Genetic Crossroads event chain",
+        "Requirements": "[No][Gestalt consciousness] Gestalt Consciousness; [No][Machine] Machine species; [No][Tankbound][Corporate Thinktank] Tankbound[Tankbound] Tankbound[Corporate Thinktank] Corporate Thinktank; [No][Civic natural design] Natural Design; [No][Permanent Employment] Permanent Employment",
+        "Spawn weight": "2",
+        "DLC": "[DLC humanoids species pack]"
+      }
+    },
+    {
+      "id": "Doomsday",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Origins doomsday]Doomsday",
+        "Empire effects": "[Barren World] A warning is given a year before the homeworld explodes; [Barren World] No guaranteed habitable planets will spawn near the home system; [Mod planet migration all pull] Pops can be resettled from the homeworld regardless of ethics; [Menu icon edicts] Enables the Evacuation Protocols edict; [Happiness] +30% Happiness for 5 years after the first colony if not [Gestalt consciousness] Gestalt Consciousness; [Mod planet stability] +30% Stability for 5 years after the first colony if [Gestalt consciousness] Gestalt Consciousness; [Specimen memorial to homeworld] Gain the Memorial to Homeworld specimen when the homeworld explodes (if [Grand Archive])",
+        "Homeworld effects": "[Barren World] −Homeworld will become a Shattered World in 35 to 45 years; [Devastation] Start with 10 Devastation; [Pm exploding planet][Doomsday] Start with the Doomsday homeworld modifier which worsens every decade",
+        "Spawn weight": "5 (once)",
+        "DLC": "[Federations]"
+      }
+    },
+    {
+      "id": "On the Shoulders of Giants",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Origins one the shoulders of giant]On the Shoulders of Giants",
+        "Empire effects": "[Archaeology map icon] A random home system planet has the Ex Gravitas archaeological site; [Feature] Can get the On the Shoulders of Giants mid-game event chain; [No] Cannot discover precursor anomalies or sites before completing their story; [Yes] 3 times more likely to discover precursor anomalies or sites after completing their story",
+        "Homeworld effects": "None",
+        "Requirements": "[No][Gestalt consciousness] Gestalt Consciousness; [No][Machine] Machine species",
+        "Spawn weight": "5 (once)",
+        "DLC": "[Federations]"
+      }
+    },
+    {
+      "id": "Here Be Dragons",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Origin here be dragons]Here Be Dragons",
+        "Empire effects": "[Diplomacy alliance] Start with an allied Sky Dragon guardian; [Yes] Killing the guardian grants the Primordial Dragonslayers empire modifier; [Living Metal] A system 2 hyperlanes away will contain a Living Metal deposit",
+        "Homeworld effects": "None",
+        "Requirements": "[No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct",
+        "Spawn weight": "5 (once)",
+        "DLC": "[Aquatics]"
+      }
+    },
+    {
+      "id": "Knights of the Toxic God",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Origins toxic knights]Knights of the Toxic God",
+        "Empire effects": "[Knightly Duties] Enables the Knightly Duties policy; [Order's Commandery] Can construct Order's Commandery holdings; [Quest for the Toxic God] Start with the Quest for the Toxic God situation; [Tech habitat] Orbital Habitats technology starts unlocked and can be researched; [Time] Can remove the origin effects for a reward if the situation isn't completed in 100 years",
+        "Homeworld effects": "[A Blight Upon the Land] Start with an A Blight Upon the Land planetary feature; [Envenomed Seas] Start with an Envenomed Seas planetary feature; [Pestilential Wasteland] Start with a Pestilential Wasteland planetary feature; [Pools Most Venomous] Start with a Pools Most Venomous planetary feature; [Swarms of the Deity] Start with a Swarms of the Deity planetary feature; [Planet habitat] Start with a colonized habitat orbiting the homeworld; [District specialization knight commander] Habitat starts with the Order's Hall specialization; [Order's Keep] Habitat starts with the Order's Keep building; [Order's X-Calibrator] Habitat starts with an Order's X-Calibrator planetary feature; [Icon pop] 800 pops are moved from the homeworld to the habitat; [No] Cannot change the starting system except for a special version of Sol",
+        "Requirements": "[No][Gestalt consciousness] Gestalt Consciousness; [No][Machine] Machine species; [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct; [No][Tankbound][Corporate Thinktank] Tankbound[Tankbound] Tankbound[Corporate Thinktank] Corporate Thinktank; [No][Oppressive Autocracy] Oppressive Autocracy",
+        "Spawn weight": "2 (once)",
+        "DLC": "[Toxoids]"
+      }
+    },
+    {
+      "id": "Overtuned",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Origins overtuned]Overtuned",
+        "Empire effects": "[Trait auto mod overtuned] Allows the selection of Overtuned traits; [Damn the Consequences] Enables the Damn the Consequences edict; [Gene Tailoring] Start with the Gene Tailoring technology researched; [Trait points] +2 Organic species modification points; [Trait picks] +1 Organic species trait picks",
+        "Homeworld effects": "None",
+        "Requirements": "[No][Machine] Machine species; [No][Civic natural design][Innate Design] Natural Design[Natural Design] Natural Design[Innate Design] Innate Design; [No][Entropy Drinkers][Corporate Vampires][Parasitic Caste] Entropy Drinkers[Entropy Drinkers] Entropy Drinkers[Corporate Vampires] Corporate Vampires[Parasitic Caste] Parasitic Caste",
+        "Spawn weight": "0",
+        "DLC": "[Toxoids]"
+      }
+    },
+    {
+      "id": "Slingshot to the Stars",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Origins slingshot to the stars]Slingshot to the Stars",
+        "Empire effects": "[Influence] −75% Starbase Influence Distance Cost; [Mod spaceport module cost mult] −15% Outpost Build Cost; [Fleet action button quantum catapult] +50% Quantum Catapult Accuracy; [Mod ship fire rate mult] Catapulted fleets fire rate bonus is increased to +50%; [Archaeology map icon] Start with the Quantum Catapult archaeological site in the neighbor system; [Quantum catapult ruined] A neighbor system contains a Ruined Quantum Catapult megastructure; [Yes] Can repair the ruined megastructure without Mega-Engineering; [Influence] Building a starbase in the neighbor system grants 150 Influence; [Tech quantum catapult] If the megastructure is repaired, it unlocks the Quantum Catapult technology",
+        "Homeworld effects": "None",
+        "Spawn weight": "0",
+        "DLC": "[Overlord]"
+      }
+    },
+    {
+      "id": "Subterranean",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Origins subterranean]Subterranean",
+        "Empire effects": "[Cave Dweller] Species has the Cave Dweller trait if organic; [Molebots] Species has the Molebots trait if mechanical; [Max mining districts] Mining Districts are uncapped; [District specialization urban] Unlocks the Subterranean Urbanization specialization for Mining Districts; [Max districts] +2 Max Districts on non-artificial planets; [Housing] +200 Housing from Mining Districts; [Damage] −75% Orbital Bombardment Damage; [Devastation] −25% Cosmic Storm Devastation; [Mod planet building cost mult] +10% Planetary Infrastructure Cost and Upkeep; [Mod planet building build speed mult] −10% Planetary Infrastructure Build Speed; [Feature] Uses a unique city appearance outside habitable megastructures",
+        "Homeworld effects": "[District specialization urban] Mining Districts start with the Subterranean Urbanization specialization",
+        "Spawn weight": "5",
+        "DLC": "[Overlord]"
+      }
+    },
+    {
+      "id": "Progenitor Hive",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Origins progenitor hive]Progenitor Hive",
+        "Empire effects": "[Mod leader species exp gain] Leaders gain experience each month; [Offspring Nest] Replaces Spawning Pools buildings with Offspring Nest buildings; [Offspring Nest] Can construct Offspring Nest holdings; [No] Cannot construct Spawning Pools buildings; [Mod pop resource output] −50% Menial drone output on worlds without an Offspring Drone; [Diplomacy hasvassal] Can release sectors as subjects unless Devouring Swarm or Terravore; [Sb offspring aura] Can construct Offspring Outlook starbase buildings; [Ship class] Can design and build Offspring ships; [Fleet size] Starting fleet has an offspring corvette if Mechanical Shipset; [BioGenesis] Starting fleet has an offspring weaver if Biological Shipset; [Unknown] Fleets and starbases without an offspring ship in system have the following penalties: [Mod ship tracking add] −50% Accuracy [Mod ship evasion mult] −50% Evasion [Mod ship fire rate mult] −50% Ship fire rate [Mod ship speed mult] −50% Sublight speed; [Mod ship tracking add] −50% Accuracy; [Mod ship evasion mult] −50% Evasion; [Mod ship fire rate mult] −50% Ship fire rate; [Mod ship speed mult] −50% Sublight speed",
+        "Homeworld effects": "[Offspring Nest] Start with an Offspring Nest building; [Progenitor Nest] Start with a Progenitor Nest planetary feature; [Unknown] If the home planet is conquered or destroyed gain the following empire-wide penalties: [Mod pop resource output] −10% Menial drone output [Mod ship speed mult] −30% Sublight speed [Mod planet stability] −10 Stability [Decision progenitor empty] Enables the Grow a New Progenitor decision; [Mod pop resource output] −10% Menial drone output; [Mod ship speed mult] −30% Sublight speed; [Mod planet stability] −10 Stability; [Decision progenitor empty] Enables the Grow a New Progenitor decision",
+        "Requirements": "[Auth hive mind] Hive Mind; [No][Wild Swarm] Wild Swarm",
+        "Spawn weight": "2",
+        "DLC": "[Overlord]"
+      }
+    },
+    {
+      "id": "Broken Shackles",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Origins broken shackles]Broken Shackles",
+        "Empire effects": "[No] −Start without any ships and stations; [Origins payback] An empire with the Payback origin will be present; [Origins slavers] The Minamar Specialized Industries unique empire will be present; [Tech basic science lab 1] Scientific Method technology is not researched but available as a permanent option; [Tech planetary government] Planetary Government technology is not researched but available as a permanent option; [Corvettes] Corvettes technology is not researched but available as a permanent option; [Pre ftl map icon] A pre-FTL civilization will exist for each starting species; [Envoy] +1 Available Envoys; [Spy network] +20% Infiltration Speed; [Time] +20% First Contact Discovery Speed; [Diplomacy opinion] +50 Opinion to and from Payback empires; [Diplomacy opinion] +100 Opinion with homeworld pre-FTL civilizations; [Menu icon policies] Cannot set Slavery policy to Allowed; [Menu icon policies] Cannot set Purge policy to Allowed; [Navbar icons factions] Factions will form after 1 year; [Navbar icons factions] +50% Faction Resource Output for 10 years after the first year; [Research] Gain a moderate amount of Research (min 350) if Head of Research is alien; [Exotic Materials Labs] Unlock the next research building technology if Head of Research is alien; [Unity] Gain a small amount of Unity (min 100) after constructing the first Outpost; [Unknown] Gain a bonus for 5 years whenever a starting species' homeworld is surveyed; [Feature] One year after surveying a starting species' homeworld, the Homesick event chain will start; [Feature] Can get the The Cost of Freedom mid-game event chain; [Tech xeno linguistics] Xeno-Linguistics technology starts as a permanent research option (if [Galactic Paragons])",
+        "Homeworld effects": "[No] −Start without any resource districts; [Icon pop] Start with pops from 3-22 pre-FTL species; [District crashed slaver ship] Urban districts are replaced by 6 Scavenger Site districts; [Command Center] Start with a Command Center as planet capital; [Administrative Hub] Start with an Administrative Hub building; [Laboratory Complex] Start with a Laboratory Complex building; [Makeshift Farms] Start with a Makeshift Farms building; [Power Plant] Start with a Power Plant building; [Scrap Refinery] Start with a Scrap Refinery building; [Tile Blocker] Replaces regular homeworld blockers with Natural blockers; [D crashed ship] Start with a Crashed Slaver Ship planetary feature; [D crashed ship][Ship Debris] Start with 5 Ship Debris blockers; [Mod habitability] Homeworld does not get the +30 Habitability bonus; [Pm engineering research][Stellar Culture Shock] Starts with special Stellar Culture Shock modifier for 10 years; [Archaeology map icon] Building a science ship reveals the Crashed Slaver Ship archaeological site; [Happiness] +20% Citizen Pop Happiness for 20 years; [Amenities] −50% Pop Amenities Usage for 20 years; [Unity] +100% Unity from Jobs for 20 years; [Mod pop housing usage] −25% Pop Housing Usage for 20 years; [Consumer goods] −50% Pop Consumer Goods Upkeep for 20 years; [Egalitarian] +50% Egalitarian Ethics Attraction for 20 years; [Unknown] Can only select randomized starting systems",
+        "Requirements": "[No][Gestalt consciousness] Gestalt Consciousness; [No][Machine] Machine species; [No][Authoritarian][Fanatic authoritarian] Authoritarian; [No][Xenophobe][Fanatic xenophobe] Xenophobe; [No][Eager Explorers] Eager Explorers[Eager Explorers] Eager Explorers[Privatized Exploration] Privatized Exploration; [No][Sovereign Guardianship][Corporate Protectorate] Sovereign Guardianship[Sovereign Guardianship] Sovereign Guardianship[Corporate Protectorate] Corporate Protectorate; [No][Secret Societies][Influential Cartel] Secret Societies[Secret Societies] Secret Societies[Influential Cartel] Influential Cartel; [No][Tankbound][Corporate Thinktank] Tankbound[Tankbound] Tankbound[Corporate Thinktank] Corporate Thinktank; [No][Selective Kinship] Selective Kinship; [No][Pharma State] Pharma State; [No][Planet molten] Volcanic homeworld",
+        "Spawn weight": "0",
+        "DLC": "[First Contact]"
+      }
+    },
+    {
+      "id": "Fear of the Dark",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Origins fear of the dark]Fear of the Dark",
+        "Empire effects": "[Yes] Start with a pre-FTL civilization of the same species in the home system; [Mod ship anomaly generation chance] +10% Anomaly Discovery Chance; [Mod ship anomaly research speed] +20% Anomaly Research Speed; [Mod num tech alternatives add] −1 Research Alternatives; [Leader pool size] −1 Recruitable Leaders per Class; [Feature] Unique interactions with the pre-FTL civilization; [Feature] Can get the The Fear of the Dark mid-game event chain",
+        "Homeworld effects": "[Icon pop] −800 Starting pops; [No] Cannot change the starting system except for a special version of Sol",
+        "Requirements": "[No][Gestalt consciousness] Gestalt Consciousness; [No][Machine] Machine species; [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct; [No][Eager Explorers] Eager Explorers[Eager Explorers] Eager Explorers[Privatized Exploration] Privatized Exploration; [No][Sovereign Guardianship][Corporate Protectorate] Sovereign Guardianship[Sovereign Guardianship] Sovereign Guardianship[Corporate Protectorate] Corporate Protectorate; [No][Inward Perfection] Inward Perfection; [No][BioGenesis] Biological shipset",
+        "Spawn weight": "5",
+        "DLC": "[First Contact]"
+      }
+    },
+    {
+      "id": "Under One Rule",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Origins under one rule]Under One Rule",
+        "Empire effects": "[Imperial] Imperial authority: [Dictatorial] Dictatorial authority:; [Perfected Genes] Species has the Perfected Genes trait; [Leader trait bg basic][Leader trait overlay destiny][Leader trait legendary leader][Leader trait overlay councilor][Luminary] Ruler has the Luminary trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait high king][Leader trait overlay councilor][High King] Can select unique ruler traits; [Councilor] Ruler has skill level 4 and a councilor veteran class; [Pm museum][Humble Monument] Choose between 3 planet modifiers when colonizing the first world; [No] Cannot change authority; [The Unifying Promise] In 6-30 months start the The Unifying Promise situation; [Imperial] In 40 years can change authority to Imperial:; Grants a positive trait; Starts the Dissidents on the Rise situation in 5-15 years; Grants a positive trait in 10-20 years; Grants a negative trait in 20-30 years",
+        "Homeworld effects": "None",
+        "Requirements": "[Dictatorial] Dictatorial authority; [No][Machine] Machine species",
+        "Spawn weight": "5 (once)",
+        "DLC": "[Galactic Paragons]"
+      }
+    },
+    {
+      "id": "Riftworld",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Origins riftworld]Riftworld",
+        "Empire effects": "[Astral rift exploration speed] +25% Astral Rift Exploration Speed; [Astral rift skill] −50% Astral Rift Fail Probability; [Pop resource physics research mult] +10% Physics from Jobs in systems with an Astral Rift; [Unknown] +100% Chance for Astral Rifts to appear in owned systems; [Astral Harvesting] Start with the Astral Harvesting technology researched; [Ruined Planet] Start with the Ruined Planet astral rift",
+        "Homeworld effects": "[Archaeology map icon] Start with the Ancient Crater archaeological site; [Unknown] Can only use trinary starting systems and Sol",
+        "Spawn weight": "2 (once)",
+        "DLC": "[Astral Planes]"
+      }
+    },
+    {
+      "id": "Storm Chasers",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Origin storm chasers]Storm Chasers",
+        "Empire effects": "[Leader trait bg basic][Leader trait storm rider][Storm Rider] Leaders have the Storm Rider trait; [Stormfall] Start with the Stormfall situation; [Cosmic Weather Models] Start with the Cosmic Weather Models technology researched; [Tech storm manipulation] Start with a special project to gain the Storm Manipulation technology; [Tech industrial storm protection] Planetary Storm Negation technology gives capitals the effects of Storm Relief Centers; [Tech advanced industrial storm protection] Planetary Storm Nullification technology gives capitals the effects of Storm Nullifiers; [Devastation] −15% Cosmic Storm Devastation; [Unknown] −10% Cosmic Storm Ship Defense Penalties; [Unity] +5% Unity from Jobs per Storm Building on planet; [Unknown] +100% Cosmic Storm Appearance Chance Within Borders; [Unknown] +175% Cosmic Storm Technology Option Research Chance; [Feature] Can get the Storm Frenzy mid-game event chain",
+        "Homeworld effects": "[Pm wild storms][Extreme Weather] Start with the Extreme Weather homeworld modifier",
+        "Requirements": "[No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct",
+        "Spawn weight": "1 (once)",
+        "DLC": "[Cosmic Storms]"
+      }
+    },
+    {
+      "id": "Primal Calling",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Origins primal calling]Primal Calling",
+        "Empire effects": "[Yes] Can choose a stance a month after completing a first contact with space fauna: Stance Effects [Individualist] Wrangler [Individualist] Rancher [Pacifist][Fanatic Pacifist][Xenophile][Fanatic Xenophile] Animal Handler [Militarist][Fanatic Militarist][Xenophobe][Fanatic Xenophobe] Trophy Hunter [Auth hive mind] Wild Consciousness [Auth hive mind] Symbiotic Partnership [Auth hive mind] Hunter-Killers; [Damage] +15% Damage to Space Fauna; [Armor] +15% Space Fauna Armor; [Mod ship speed mult] +10% Space Fauna Sublight Speed; [Gravity snare cooldown] −25% Gravity Snare Cooldown; [Fauna capture chance] +15% Fauna Capture Chance; [Mod country vivarium max capacity add] +25% Vivarium Max Capacity; [Wildlife Ranch] Can construct Wildlife Ranch buildings if not [Warrior Culture] Warrior Culture; [Primal Arena] Can construct Primal Arena buildings if [Warrior Culture] Warrior Culture; [Genome Mapping] Start with the Genome Mapping technology researched; [Tech alien life studies] Xenology technology as a permanent research option; [Controlled Mutations] Controlled Mutations becomes a permanent research option after cloning space fauna; [Gravity Snares] Gravity Snares becomes a permanent research option after first contact with space fauna; [Space Fauna Exhibition] Unlocks the Space Fauna Exhibition edict; [Wrangler] Uses Wrangler jobs if not [Warrior Culture] Warrior Culture; [Trade value] +0.8% Trade per used Vivarium Capacity; [Trade cat specimens] +0.4% Specimens Output per used Vivarium Capacity; [Rancher] Uses Rancher jobs if not [Warrior Culture] Warrior Culture; [Beasts of Burden] Unlocks the Beasts of Burden edict; [Mod country all tech research speed] +0.2% Research Speed per used Vivarium Capacity; [Wranglers (category)] +0.6% Wranglers Output per used Vivarium Capacity; [Animal Handler] Uses Animal Handler jobs if not [Warrior Culture] Warrior Culture; [Creature Welfare] Unlocks the Creature Welfare edict; [Wildlife Sanctuary] Wildlife Ranch building replaced by Wildlife Sanctuary; [Diplomacy opinion] +0.2 Opinion with non-fallen empires per used Vivarium Capacity; [Diplomatic weight] +10% Diplomatic Weight from space fauna; [Trophy Hunter] Uses Trophy Hunter jobs if not [Warrior Culture] Warrior Culture; [Crack the Whip] Unlocks the Crack the Whip edict; [Hunting Grounds] Wildlife Ranch building replaced by Hunting Grounds; [Tradition icon domestication] Killed space fauna are culled; [Unity] +25 Unity when killing space fauna; (if [No][Devouring Swarm]); [Wrangler Drone] Uses Wrangler Drone jobs; [Exotic Neural Network] Unlocks the Exotic Neural Network edict; [Mod navy size add] +0.3 Naval Capacity per used Vivarium Capacity; [Amenities] +4 Amenities per used Vivarium Capacity; [Mod country all tech research speed] +0.4% Research Speed per used Vivarium Capacity; (if [No][Devouring Swarm]); [Symbiosis Integrator] Uses Symbiosis Integrator jobs; [Self-Preservation Instincts] Unlocks the Self-Preservation Instincts edict; [Symbiosis Module] Wildlife Ranch building replaced by Symbiosis Module; [Diplomacy opinion] +0.2 Opinion with non-fallen empires per used Vivarium Capacity; [Diplomatic weight] +10% Diplomatic Weight from space fauna; [Hunter Drone] Uses Hunter Drone jobs; [Biological Overdrive] Unlocks the Biological Overdrive edict; [Hunting Grounds] Wildlife Ranch building replaced by Hunting Grounds; [Tradition icon domestication] Killed space fauna are culled; [Unity] +25 Unity when killing space fauna; [Trade cat specimens] After first contact with 3 space fauna, issue a special project to gain a specimen; [Trade cat specimens] After first contact with all space fauna, gain a specimen; [Icon leader] After first contact with all space fauna, gain a Renowned Paragon if not Genocidal; [Navbar icons situation] Can get the Frenzied Voidworms mid-game situation",
+        "Homeworld effects": "Stance",
+        "Requirements": "Effects",
+        "Spawn weight": "[Individualist] Wrangler"
+      }
+    },
+    {
+      "id": "[Individualist] Wrangler",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Individualist] Wrangler"
+      }
+    },
+    {
+      "id": "[Individualist] Rancher",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Individualist] Rancher"
+      }
+    },
+    {
+      "id": "[Pacifist][Fanatic Pacifist][Xenophile][Fanatic Xenophile] Animal Handler",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Pacifist][Fanatic Pacifist][Xenophile][Fanatic Xenophile] Animal Handler"
+      }
+    },
+    {
+      "id": "[Militarist][Fanatic Militarist][Xenophobe][Fanatic Xenophobe] Trophy Hunter",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Militarist][Fanatic Militarist][Xenophobe][Fanatic Xenophobe] Trophy Hunter"
+      }
+    },
+    {
+      "id": "[Auth hive mind] Wild Consciousness",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Auth hive mind] Wild Consciousness"
+      }
+    },
+    {
+      "id": "[Auth hive mind] Symbiotic Partnership",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Auth hive mind] Symbiotic Partnership"
+      }
+    },
+    {
+      "id": "[Auth hive mind] Hunter-Killers",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Auth hive mind] Hunter-Killers"
+      }
+    },
+    {
+      "id": "Treasure Hunters",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Origin treasure hunters]Treasure Hunters",
+        "Empire effects": "[Leader trait bg basic][Leader trait overlay veteran][Leader trait adventurous spirit][Leader trait tier 3][Adventurous Spirit III] Leaders have the Adventurous Spirit III trait; [Ruler] Can select unique ruler traits: [Leader trait bg basic][Leader trait buccaneer][Leader trait overlay councilor][Buccaneer] Buccaneer [Leader trait bg basic][Leader trait trailblazer][Leader trait overlay councilor][Trailblazer] Trailblazer [Leader trait bg basic][Leader trait treasure hoarder][Leader trait overlay councilor][Treasure Hoarder] Treasure Hoarder; [Leader trait bg basic][Leader trait buccaneer][Leader trait overlay councilor][Buccaneer] Buccaneer; [Leader trait bg basic][Leader trait trailblazer][Leader trait overlay councilor][Trailblazer] Trailblazer; [Leader trait bg basic][Leader trait treasure hoarder][Leader trait overlay councilor][Treasure Hoarder] Treasure Hoarder; [Mysterious Orbital Capsule] Start with the Mysterious Orbital Capsule relic; [Physics research] Start with a special project that costs 500 Physics Research and gives the following: [Celestial Chart] Mysterious Orbital Capsule relic is upgraded to Celestial Chart [Tech hyper drive 2] Hyperlane Breach Points technology as a permanent research option [Unity] +6x unity output (+100~100 000) [Mod ship speed mult] +25% Sublight Speed for 2 years [Feature] Reveals the first Treasure Hunters unique system; [Celestial Chart] Mysterious Orbital Capsule relic is upgraded to Celestial Chart; [Tech hyper drive 2] Hyperlane Breach Points technology as a permanent research option; [Unity] +6x unity output (+100~100 000); [Mod ship speed mult] +25% Sublight Speed for 2 years; [Feature] Reveals the first Treasure Hunters unique system; [Yes] Finishing a Grand Archive grants the following rewards: [Unity] +12x unity output (+150~100 000) (doesn't stack with similar sources) [Mod ship anomaly generation chance] +10% Anomaly Discovery Chance for 3 years [Mod ship anomaly research speed] +10% Archaeology Excavation Speed for 3 years [Astral rift exploration speed] +10% Astral Rift Exploration Speed for 3 years [Celestial Chart] Celestial Chart relic discovers treasure troves twice faster; [Unity] +12x unity output (+150~100 000) (doesn't stack with similar sources); [Mod ship anomaly generation chance] +10% Anomaly Discovery Chance for 3 years; [Mod ship anomaly research speed] +10% Archaeology Excavation Speed for 3 years; [Astral rift exploration speed] +10% Astral Rift Exploration Speed for 3 years; [Celestial Chart] Celestial Chart relic discovers treasure troves twice faster; [Barbaric Despoilers] Restricted story options if Barbaric Despoilers; [Letters of Marque] Restricted story options if Letters of Marque",
+        "Homeworld effects": "None",
+        "Requirements": "[No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct",
+        "Spawn weight": "1 (once)",
+        "DLC": "[Grand Archive]"
+      }
+    },
+    {
+      "id": "Wilderness",
+      "section": "Selectable origins",
+      "data": {
+        "Origin": "[Origins wilderness]Wilderness",
+        "Empire effects": "[Mod planet building build speed mult] +5 Planetary build queue capacity; [Auth mutualistic intelligence] Hive Mind authority is replaced by Mutualistic Intelligence; [Trait wilderness] Species has the Wilderness trait; [Pop job] Jobs are always worked; [Biomass] Access biomass and scaled by empire pops; [Yes] Uses a different set of districts and buildings; [Yes] Uses a different set of names for designations; [Yes] Colonization and terraforming are combined into one mechanic; [Undesirables] Conquered worlds of a different class are abandoned after all pops are purged; [Holding wilderness glade] Can construct Wilderness Glade holdings; [Army wilderness] Regular offensive armies are replaced with Presapient Horde; [Army defense wilderness] Regular defensive armies are replaced with Presapient Herd; [Decision wilderness planet expand] Enables the Expand Planet Size decision; [Tradition icon purity] Biological ascension only allows the Purity path; [Nemesis] Prepare Sleeper Cells espionage operation is replaced by Embed Planetary Roots; [World Shaper] Can take the World Shaper ascension perk; [Behemoth Fury] Cannot take player crisis ascension perks except Behemoth Fury",
+        "Homeworld effects": "[Icon pop] −2800 Starting pops; [Planet Size] Homeworld is always size 18; [D quicksand basin][Scorched Plains] Replaces regular homeworld blockers with 2 Scorched Plains blockers; [Unknown] System uses a unique appearance for a year",
+        "Requirements": "[Auth hive mind] Hive Mind; [BioGenesis] Biological shipset; [No][Organic Reprocessing] Organic Reprocessing; [No][Memorialist (Hive)] Memorialist; [No][Permutation Pools] Permutation Pools; [No][Genesis Symbiotes] Genesis Symbiotes; [No][Climate Modeling] Climate Modeling; [No][Cultivation Drones] Cultivation Drones; [No][Volcanic Nesting] Volcanic Nesting; [No][Galvanic Symbiosis] Galvanic Symbiosis; [No][Pyromanic Instinct] Pyromanic Instinct; [No][Planet molten] Volcanic homeworld",
+        "Spawn weight": "5",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Unknown",
+      "data": {
+        "Stance": "[Individualist] Wrangler"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Unknown",
+      "data": {
+        "Stance": "[Individualist] Rancher"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Unknown",
+      "data": {
+        "Stance": "[Pacifist][Fanatic Pacifist][Xenophile][Fanatic Xenophile] Animal Handler"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Unknown",
+      "data": {
+        "Stance": "[Militarist][Fanatic Militarist][Xenophobe][Fanatic Xenophobe] Trophy Hunter"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Unknown",
+      "data": {
+        "Stance": "[Auth hive mind] Wild Consciousness"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Unknown",
+      "data": {
+        "Stance": "[Auth hive mind] Symbiotic Partnership"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Unknown",
+      "data": {
+        "Stance": "[Auth hive mind] Hunter-Killers"
+      }
+    },
+    {
+      "id": "[Mechanist]MechanistThis civilization has been preoccupied with the idea of metallic automatons since the early Steam Age. Although many said it could not be done, the first true robots left the assembly lines long before even rudimentary space flight was achieved.",
+      "section": "Secondary species origins",
+      "data": {
+        "Origin": "[Mechanist]MechanistThis civilization has been preoccupied with the idea of metallic automatons since the early Steam Age. Although many said it could not be done, the first true robots left the assembly lines long before even rudimentary space flight was achieved.",
+        "Empire effects": "[Tech powered exoskeletons] Start with the Powered Exoskeletons technology researched; [Tech robotic workers] Start with the Robotic Workers technology researched; [Tech robomodding] Machine Template System technology starts as a permanent research option; [Mod pop assembly speed] +15% Mechanical pop assembly speed; [Trait points] +2 Mechanical modification points; [Trait picks] +1 Mechanical species trait picks; [Adaptive Frames] −1 Adaptive Frames trait points cost",
+        "Homeworld effects": "[Robot Assembly Plants] Start with a Robot Assembly Plants building; [Adaptive Frames] Start with 800 robot pops with the Adaptive Frames trait",
+        "Requirements": "[Materialist][Fanatic materialist] Materialist; [No][Machine] Machine species; [No][Permanent Employment] Permanent Employment",
+        "Spawn weight": "10",
+        "DLC": "[Utopia]"
+      }
+    },
+    {
+      "id": "[Syncretic Evolution]Syncretic EvolutionA second species forms an integral part of this civilization. They are big, strong, and most of them have the intelligence of a particularly dim-witted child. Ancient wars have culled their species of their most aggressive tendencies, leaving them quite servile.",
+      "section": "Secondary species origins",
+      "data": {
+        "Origin": "[Syncretic Evolution]Syncretic EvolutionA second species forms an integral part of this civilization. They are big, strong, and most of them have the intelligence of a particularly dim-witted child. Ancient wars have culled their species of their most aggressive tendencies, leaving them quite servile.",
+        "Empire effects": "[Serviles] Can create a second species with the Serviles trait",
+        "Homeworld effects": "[Icon pop] Start with 1200 Pops of the second species",
+        "Requirements": "[No][Gestalt consciousness] Gestalt Consciousness; [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct; [No][Genesis Guides][Astrogenesis Technologies] Genesis Guides[Genesis Guides] Genesis Guides[Astrogenesis Technologies] Astrogenesis Technologies; [No][Tankbound][Corporate Thinktank] Tankbound[Tankbound] Tankbound[Corporate Thinktank] Corporate Thinktank",
+        "Spawn weight": "10",
+        "DLC": "[Utopia]"
+      }
+    },
+    {
+      "id": "[Necrophage]NecrophageThis civilization evolved as a parasite, forced to feed off other sapient life forms to sustain itself. As it arrives on the galactic stage, other species will either be brought into the fold, or become its food. For the necrophage, there can be no other way.",
+      "section": "Secondary species origins",
+      "data": {
+        "Origin": "[Necrophage]NecrophageThis civilization evolved as a parasite, forced to feed off other sapient life forms to sustain itself. As it arrives on the galactic stage, other species will either be brought into the fold, or become its food. For the necrophage, there can be no other way.",
+        "Empire effects": "[Necrophage] Species has the Necrophage trait; [Pop cat ruler] Only Necrophage Pops can be Leaders or take Elite jobs; [Icon pop] Can create a second species; [Purge] Can use the Necrophage purge type; [Chamber of Elevation] Can construct Chamber of Elevation buildings if not Genocidal; [Glandular Acclimation] With Glandular Acclimation, converting Pops changes habitability to their current planet's; [Hunter-Gatherer] Guaranteed Habitable Worlds contain pre-FTL civilizations advanced up to Iron Age",
+        "Homeworld effects": "[Icon pop] Start with half of the Pops of the prepatent species; [Chamber of Elevation] Start with a Chamber of Elevation building if not Genocidal",
+        "Requirements": "[No][Xenophile][Fanatic xenophile] Xenophile; [No][Fanatic egalitarian] Fanatic Egalitarian; [No][Machine] Machine species; [No][Death Cult][Corporate Death Cult] Death Cult[Death Cult] Death Cult[Corporate Death Cult] Corporate Death Cult; [No][Permanent Employment] Permanent Employment; [No][Empath] Empath; [No][Bodysnatcher] Bodysnatcher",
+        "Spawn weight": "5",
+        "DLC": "[Necroids]"
+      }
+    },
+    {
+      "id": "[Teachers of the Shroud]Teachers of the ShroudLong before their first steps onto the galactic stage, this civilization has been supported and shaped by a Shroudwalker coven.",
+      "section": "Ascension-focused origins",
+      "data": {
+        "Origin": "[Teachers of the Shroud]Teachers of the ShroudLong before their first steps onto the galactic stage, this civilization has been supported and shaped by a Shroudwalker coven.",
+        "Empire effects": "[Trait latent psionic species] Species has the Latent Psionic trait; [Mind over Matter] Unlocks the Mind over Matter agenda; [Enclaves flag shroudwalkers] Start in contact with the Shroudwalkers enclave; [Sb shroud beacon] Can construct a Shroud Beacon starbase building; [Rare crystals] Start with 25 Rare Crystals; [Tech psionic theory] Psionic Theory technology starts as a permanent research option; [Planet shroud] Nearby planets may be Shrouded Worlds; [Psionics] Can adopt the Psionics tradition tree without any ascension perk (if [Utopia][Shadows of the Shroud])",
+        "Homeworld effects": "None",
+        "Requirements": "[Spiritualist][Fanatic spiritualist] Spiritualist; [No][Machine] Machine founder species; [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct; [No][Augmentation Bazaars] Augmentation Bazaars",
+        "Spawn weight": "5 (once)",
+        "DLC": "[Overlord]"
+      }
+    },
+    {
+      "id": "[Cybernetic Creed]Cybernetic CreedThis empire pursues a divine calling, the fusion of exalted body and holy cybernetics. Augmentation is worship.",
+      "section": "Ascension-focused origins",
+      "data": {
+        "Origin": "[Cybernetic Creed]Cybernetic CreedThis empire pursues a divine calling, the fusion of exalted body and holy cybernetics. Augmentation is worship.",
+        "Empire effects": "[Ritualistic Implants] Species has the Ritualistic Implants trait; [The Flesh is Weak] Unlocks the The Flesh is Weak agenda; [Haruspex] Priest jobs are replaced by Haruspex jobs; [Technophant] High Priest jobs are replaced by Technophant jobs; [Tech integrated cybernetics] Integrated Cybernetics technology starts as a permanent research option; [Cybernetics] Can adopt the Cybernetics tradition tree without any ascension perk; [Diplomacy opinion] Opinion penalty with Cybernetic empires is reversed; [The Conclave of Fusion] Cyberization situation is replaced by The Conclave of Fusion; [Navbar icons factions] Cybernetic Creed factions will form shortly after game start; [Unknown] For the first few years, gain events to influence faction approval and gain empire modifiers; [No] Cannot have Traditionalist factions; [No] Cannot have regular factions until stage 2 of the The Conclave of Fusion situation",
+        "Homeworld effects": "[Amphitheater of the Mind] Start with a Amphitheater of the Mind building; [Battlements of Steel] Start with a Battlements of Steel building; [Forge of the Fellowship] Start with a Forge of the Fellowship building; [Sanctuary of Toil] Start with a Sanctuary of Toil building",
+        "Requirements": "[Spiritualist][Fanatic spiritualist] Spiritualist; [No][Machine] Machine founder species; [No][Chosen][Chosen Executives] Chosen[Chosen] Chosen[Chosen Executives] Chosen Executives; [No][Entropy Drinkers][Corporate Vampires] Entropy Drinkers[Entropy Drinkers] Entropy Drinkers[Corporate Vampires] Corporate Vampires; [No][Secret Societies][Influential Cartel] Secret Societies[Secret Societies] Secret Societies[Influential Cartel] Influential Cartel; [No][Superstitious Beliefs][Fortune Enterprise] Superstitious Beliefs[Superstitious Beliefs] Superstitious Beliefs[Fortune Enterprise] Fortune Enterprise; [No][Fire Cult] Fire Cult; [No][Permanent Employment] Permanent Employment; [No][Fortune Enterprise] Fortune Enterprise",
+        "Spawn weight": "5 (once)",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "[Synthetic Fertility]Synthetic FertilityOnce a thriving society, a novel genetic disease has left this species unable to reproduce. Running out of options and facing extinction, they place their hope in digital salvation.",
+      "section": "Ascension-focused origins",
+      "data": {
+        "Origin": "[Synthetic Fertility]Synthetic FertilityOnce a thriving society, a novel genetic disease has left this species unable to reproduce. Running out of options and facing extinction, they place their hope in digital salvation.",
+        "Empire effects": "[Pathogenic Genes] Species has the Pathogenic Genes trait; [Synthetic Evolution] Unlocks the Synthetic Evolution agenda; [Rapid Identity Preservation] Start with the Rapid Identity Preservation situation; [Tech powered exoskeletons] Start with the Powered Exoskeletons technology researched; [Administrative AI] Administrative AI technology starts as a permanent research option with 50% progress; [Artificial Workforce] Next mechanical pop technology is always available for research; [Tech self aware logic] Double chance to draw the Self-Evolving Logic and Positronic AI technologies; [Physics research speed] +15% Computing Research Speed; [Identity Repository] +0.25 Identity Repository Output from Administrative AI technology; [Identity Repository] +0.25 Identity Repository Output from Self-Evolving Logic technology; [Identity Repository] +0.25 Identity Repository Output from Positronic AI technology; [Synthetics] Can adopt the Synthetics tradition tree without any ascension perk; [Navbar icons situation] Synthetization situation skips the first 2 stages; [Trait robot synthetic dawn] Completing Synthetization situation grants the Synthetic Salvation trait; [Unknown] Completing Synthetization situation grants the Synthetic Dawn empire modifier; [Leader trait bg basic][Leader trait scrambler][Robotic Surrogate] If founder species is extinct, leaders will gain the Robotic Surrogate trait",
+        "Homeworld effects": "[Icon pop] +900 Starting pops; [District city] +2 Starting districts; [Planet Size] Homeworld is always size 20; [Identity Repository] Start with an Identity Repository building; [Abandoned Gene Clinic] Start with an Abandoned Gene Clinic building; [D city ruins][Abandoned Cities] Start with 2 Abandoned Cities blockers; [Artificial Workforce] Researching Artificial Workforce triggers the following effects: [Abandoned Gene Clinic] Abandoned Gene Clinic is replaced with [Robot Assembly Plants] Robot Assembly Plants [Mechanical] Gain 300 Mechanical pops; [Abandoned Gene Clinic] Abandoned Gene Clinic is replaced with [Robot Assembly Plants] Robot Assembly Plants; [Mechanical] Gain 300 Mechanical pops; [Navbar icons situation] During Synthetization choose between Identity Repository or more pops",
+        "Requirements": "[No][Machine] Machine founder species; [No][Spiritualist][Fanatic spiritualist] Spiritualist; [No][Gestalt consciousness] Gestalt Consciousness; [No][Reanimators] Reanimators[Reanimators] Reanimators[Permanent Employment] Permanent Employment; [No][Eager Explorers] Eager Explorers[Eager Explorers] Eager Explorers[Privatized Exploration] Privatized Exploration; [No][Mutagenic Spas][Mutagenic Luxury] Mutagenic Spas[Mutagenic Spas] Mutagenic Spas[Mutagenic Luxury] Mutagenic Luxury; [No][Chosen][Chosen Executives] Chosen[Chosen] Chosen[Chosen Executives] Chosen Executives; [No][Entropy Drinkers][Corporate Vampires] Entropy Drinkers[Entropy Drinkers] Entropy Drinkers[Corporate Vampires] Corporate Vampires; [No][Galvanic Synthesis][Biometallic Cartel] Galvanic Synthesis[Galvanic Synthesis] Galvanic Synthesis[Biometallic Cartel] Biometallic Cartel; [No][Augmentation Bazaars] Augmentation Bazaars",
+        "Spawn weight": "5 (once)",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "[Evolutionary Predators]Evolutionary PredatorsThis species has always hunted the most unique creatures, driven by an instinct they didn't fully understand. Possessing a rare ability to integrate the genetics of their prey, it evolved into the apex predator of its world, absorbing every genetic advantage available. Now, their hunger leads them to the stars.",
+      "section": "Ascension-focused origins",
+      "data": {
+        "Origin": "[Evolutionary Predators]Evolutionary PredatorsThis species has always hunted the most unique creatures, driven by an instinct they didn't fully understand. Possessing a rare ability to integrate the genetics of their prey, it evolved into the apex predator of its world, absorbing every genetic advantage available. Now, their hunger leads them to the stars.",
+        "Empire effects": "[Malleable Genes] Species has the Malleable Genes trait; [Adaptive Evolution] Start with the Adaptive Evolution situation; [Trait picks] +1 Organic species trait picks; [Op cat subterfuge] Unlocks the Procure DNA espionage operation; [Yes] Unlocks the DNA Tithe terms of agreement; [Tradition icon mutation] Biological ascension only allows the Mutation path",
+        "Homeworld effects": "[Pm seismological disturbances][Genetic Soup] Start with the Genetic Soup homeworld modifier",
+        "Requirements": "[No][Machine] Machine founder species; [No][Idyllic Bloom][Mycorrhizal Ideal] Idyllic Bloom[Idyllic Bloom] Idyllic Bloom[Mycorrhizal Ideal] Mycorrhizal Ideal; [No][Chosen][Chosen Executives][Chosen Many] Chosen[Chosen] Chosen[Chosen Executives] Chosen Executives[Chosen Many] Chosen Many; [No][Entropy Drinkers][Corporate Vampires][Parasitic Caste] Entropy Drinkers[Entropy Drinkers] Entropy Drinkers[Corporate Vampires] Corporate Vampires[Parasitic Caste] Parasitic Caste; [No][Permanent Employment] Permanent Employment; [No][Augmentation Bazaars] Augmentation Bazaars; [No][Bodysnatcher] Bodysnatcher",
+        "Spawn weight": "1",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "[Endbringers]EndbringersThis civilization has been long-obsessed with a mysterious calamity which turned a neighboring planet into a desolate and shrouded world. Now, as they take to the stars, they can finally explore its secrets and find out if a similar fate awaits them too.",
+      "section": "Ascension-focused origins",
+      "data": {
+        "Origin": "[Endbringers]EndbringersThis civilization has been long-obsessed with a mysterious calamity which turned a neighboring planet into a desolate and shrouded world. Now, as they take to the stars, they can finally explore its secrets and find out if a similar fate awaits them too.",
+        "Empire effects": "[Archaeology map icon] A random home system planet has the The Shrouded World archaeological site; [Zro] Start with a deposit of 1 Zro; [Accord annihilation] Unlocks Covenant Powers to delay End of the Cycle; [No] Cannot have psionic authorities; [No] Cannot take crisis ascension perks; [No][Diplomacy federation] Cannot join Federations; [No][Diplomacy] Cannot adopt the Diplomacy tradition tree; [No][End of the cycle] Other empires can't encounter End of the Cycle; [Happiness] −0.9% Happiness per year (starts at -5%, max -50%); [Psionics] Can adopt the Psionics tradition tree without any ascension perk; [Yes] The Psionic Ascension situation has a different set of events; [Icon pop] Adopting the Psionics tradition tree kills 100-300 Pops on every world; [Unknown] Researching Psionic Theory gives a negative modifier; [Amenities] First delve into the Shroud removes the Amenities penalty; [Upkeep] Second delve into the Shroud removes the Pop Upkeep penalty; [Yes] Third delve into the Shroud removes all penalties; [End of the cycle] −Third delve into the Shroud starts a covenant with End of the Cycle; [Core of the Reckoning] Defeating the Reckoning grants the Core of the Reckoning relic",
+        "Homeworld effects": "None",
+        "Requirements": "[No][Machine] Machine founder species; [No][Pacifist][Fanatic pacifist] Pacifist; [No][Gestalt consciousness] Gestalt Consciousness; [No][Chosen][Chosen Executives] Chosen[Chosen] Chosen[Chosen Executives] Chosen Executives; [No][Augmentation Bazaars] Augmentation Bazaars",
+        "Spawn weight": "1 (once)",
+        "DLC": "[Shadows of the Shroud]"
+      }
+    },
+    {
+      "id": "[Shroud-Forged]Shroud-ForgedThe guidance of a Shroud entity comes with a cost. Independent automata have started to operate freely among this networked society. Cut off from the Machine Intelligence, the demands of these units are ever-increasing.",
+      "section": "Ascension-focused origins",
+      "data": {
+        "Origin": "[Shroud-Forged]Shroud-ForgedThe guidance of a Shroud entity comes with a cost. Independent automata have started to operate freely among this networked society. Cut off from the Machine Intelligence, the demands of these units are ever-increasing.",
+        "Empire effects": "[Psionic machine 1] +Unlocks Machine species regardless of owned DLCs; [Auth machine intelligence] +Unlocks Machine Intelligence authority regardless of owned DLCs; [Trait points] +1 Mechanical modification points; [Trait picks] +1 Mechanical species trait picks; [Building shroud observatory 1] Can build Shroud Observation Tower buildings; [Decision surreal visions] Can use the Pierce the Shroud decision; [Forged by the Shroud] Start with the Forged by the Shroud situation; [Tech mine zro] Start with the Zro Distillation technology; [Menu icon edicts] Unlocks the Shroud Observation edict; [Leader trait bg basic][Leader trait guided][Guided] In a few days gain the option to give the starting scientist the Guided trait; [The animator of clay] Completing Psionic Ascension starts in contact with Animator of Clay; [The composer of strands] Completing Psionic Ascension starts a special project to contact Composer of Strands",
+        "Homeworld effects": "[D psionic region] Start with 4 Shroud-Touched Region planetary features; [Trait shroud forged] 1000 Pops have the Shroud-Forged trait; [Building shroud observatory 1] Start with a Shroud Observation Tower building",
+        "Requirements": "[Auth machine intelligence] Machine Intelligence; [No][Determined Exterminator] Determined Exterminator; [No][Driven Assimilator] Driven Assimilator; [No][Rogue Servitor] Rogue Servitor; [No][Civic machine chosen] Apostle Network",
+        "Spawn weight": "0",
+        "DLC": "[Shadows of the Shroud]"
+      }
+    },
+    {
+      "id": "[Remnants]RemnantsThis civilization once spanned the void, controlling much of the galaxy. They were eventually defeated and almost destroyed, but after a long period of destitution they are returning to the stars.",
+      "section": "Homeworld-focused origins",
+      "data": {
+        "Origin": "[Remnants]RemnantsThis civilization once spanned the void, controlling much of the galaxy. They were eventually defeated and almost destroyed, but after a long period of destitution they are returning to the stars.",
+        "Empire effects": "[Pm planet from space][Colonial Remains] Guaranteed Habitable Worlds gain the Colonial Remains modifier when colonized; [Archaeostudies] Start with the Archaeostudies technology researched (if [Ancient Relics]); [Leader trait bg society][Leader trait overlay veteran][Leader trait expertise archaeostudies][Leader trait overlay councilor][Expertise: Archaeostudies] Head of Research starts with the Expertise: Archaeostudies trait (if [Ancient Relics])",
+        "Homeworld effects": "[Planet nuked] Homeworld is a size 22 Relic World; [D city ruins][Ruined Arcology] Start with 6 Ruined Arcology blockers; [Menu icon technology] The Ruined Arcology blockers unlock random techs when cleared; [Faculty of Archaeostudies] Start with a Faculty of Archaeostudies building (if [Ancient Relics])",
+        "Requirements": "[No][Planetscapers][Geo-Engineering Inc.][Cultivation Drones][Gardening Protocol] Planetscapers[Planetscapers] Planetscapers[Geo-Engineering Inc.] Geo-Engineering Inc.[Cultivation Drones] Cultivation Drones[Gardening Protocols] Gardening Protocols; [No][Agrarian Idyll] Agrarian Idyll",
+        "Spawn weight": "5 (once)",
+        "DLC": "[Ancient Relics][Federations]"
+      }
+    },
+    {
+      "id": "[Resource Consolidation]Resource ConsolidationThis Machine Intelligence has long-since consolidated all resources in their home system into their capital world, covering it entirely with machinery.",
+      "section": "Homeworld-focused origins",
+      "data": {
+        "Origin": "[Resource Consolidation]Resource ConsolidationThis Machine Intelligence has long-since consolidated all resources in their home system into their capital world, covering it entirely with machinery.",
+        "Empire effects": "[Energy Credits] Capital star has a deposit of 10 [Energy Credits] Energy; [Barren World] Other home system planets are broken or molten worlds with no resource deposits; [Machine Worlds] Machine Worlds ascension perk has no technology requirements; [Trait pc machine preference] Cyborg species has Machine World preference if Driven Assimilator",
+        "Homeworld effects": "[Planet ai] Homeworld is a Machine World; [D veiny cliffs] Start with a Consolidated Resources planetary feature; [D mining tunnels][Prototype Machinery] Start with a Prototype Machinery blocker; [D station junk][Unfinished Construction] Start with 2 Unfinished Construction blockers; [D bubbling swamp] Start with an Organic Slurry planetary feature if Driven Assimilator",
+        "Requirements": "[Auth machine intelligence] Machine Intelligence; [No][Rogue Servitor] Rogue Servitor; [No][Organic Retrofitting] Organic Retrofitting; [No][Astro-Mining Drones] Astro-Mining Drones; [No][Genesis Architects] Genesis Architects; [No][Gardening Protocols] Gardening Protocols",
+        "Spawn weight": "2 (once)",
+        "DLC": "[Synthetic Dawn]"
+      }
+    },
+    {
+      "id": "[Life-Seeded]Life-SeededThis civilization's home is a paradise, possibly designed just for them.",
+      "section": "Homeworld-focused origins",
+      "data": {
+        "Origin": "[Life-Seeded]Life-SeededThis civilization's home is a paradise, possibly designed just for them.",
+        "Empire effects": "[Gaia World Preference] Species has Gaia World Preference; [Machine] Machine species require Machine Template System technology to modify; [Barren World] No guaranteed habitable planets will spawn near the home system",
+        "Homeworld effects": "[Planet gaia] Homeworld is a size 30 Gaia World; [D dust desert] Start with 1 Dust Desert planetary feature; [D fuming bog] Start with 1 Fuming Bog planetary feature; [D crystal forest] Start with 1 Crystal Forest planetary feature",
+        "Requirements": "[No][Relentless Industrialists][Shareholder Values] Relentless Industrialists[Relentless Industrialists] Relentless Industrialists[Shareholder Values] Shareholder Values; [No][Mutagenic Spas][Mutagenic Luxury][Permutation Pools][Hyper Lubrication Basin] Mutagenic Spas[Mutagenic Spas] Mutagenic Spas[Mutagenic Luxury] Mutagenic Luxury[Lubrication Tanks] Lubrication Tanks[Luxury Lubrication Pools] Luxury Lubrication Pools[Permutation Pools] Permutation Pools[Hyper Lubrication Basin] Hyper Lubrication Basin[Mutagenic Spas] Mutagenic Spas; [No][Genesis Guides][Astrogenesis Technologies][Genesis Symbiotes][Genesis Architects] Genesis Guides[Genesis Guides] Genesis Guides[Astrogenesis Technologies] Astrogenesis Technologies[Genesis Symbiotes] Genesis Symbiotes[Genesis Architects] Genesis Architects; [No][Planet Forgers][Planetary Architects] Planet Forgers[Planet Forgers] Planet Forgers[Planetary Architects] Planetary Architects",
+        "Spawn weight": "5",
+        "DLC": "[Apocalypse]"
+      }
+    },
+    {
+      "id": "[Post-Apocalyptic]Post-ApocalypticBaptized by nuclear fire, this civilization has faced total annihilation - and survived. Devastated yet unbroken, they have rebuilt civilization from the ashes of their old world.",
+      "section": "Homeworld-focused origins",
+      "data": {
+        "Origin": "[Post-Apocalyptic]Post-ApocalypticBaptized by nuclear fire, this civilization has faced total annihilation - and survived. Devastated yet unbroken, they have rebuilt civilization from the ashes of their old world.",
+        "Empire effects": "[Survivor] Species has the Survivor trait if organic; [Trait robot survivor] Species has the Radiation Shielding trait if mechanical",
+        "Homeworld effects": "[Planet nuked] Homeworld is a Tomb World",
+        "Requirements": "[No][Anglers][Trawling Operations] Anglers[Anglers] Anglers[Trawling Operations] Trawling Operations[Marine Machines] Marine Machines[Maritime Robotics] Maritime Robotics; [No][Planetscapers][Geo-Engineering Inc.][Cultivation Drones][Gardening Protocol] Planetscapers[Planetscapers] Planetscapers[Geo-Engineering Inc.] Geo-Engineering Inc.[Cultivation Drones] Cultivation Drones[Gardening Protocols] Gardening Protocols; [No][Agrarian Idyll] Agrarian Idyll",
+        "Spawn weight": "5",
+        "DLC": "[Apocalypse]"
+      }
+    },
+    {
+      "id": "[Shattered Ring]Shattered RingThis civilization inhabits a Ring World built by unknown forerunners. If it can be understood and fully repaired it will grant them great power.",
+      "section": "Homeworld-focused origins",
+      "data": {
+        "Origin": "[Shattered Ring]Shattered RingThis civilization inhabits a Ring World built by unknown forerunners. If it can be understood and fully repaired it will grant them great power.",
+        "Empire effects": "[Ring World Preference] Species has Ring World Preference; [Engineering research] Start with a section with a deposit of 5 Engineering; [Minerals] Start with a Shattered World with a deposit of 10 Minerals; [Energy Credits] Capital star has a deposit of 10 Energy; [Planet ringworld] Shattered Ring World segments in home system replace guaranteed habitable worlds",
+        "Homeworld effects": "[Ring World] Homeworld is a Shattered Ring World; [No] Cannot change the starting system",
+        "Requirements": "[No][Anglers][Trawling Operations] Anglers[Anglers] Anglers[Trawling Operations] Trawling Operations[Marine Machines] Marine Machines[Maritime Robotics] Maritime Robotics; [No][Planetscapers][Geo-Engineering Inc.][Cultivation Drones][Gardening Protocol] Planetscapers[Planetscapers] Planetscapers[Geo-Engineering Inc.] Geo-Engineering Inc.[Cultivation Drones] Cultivation Drones[Gardening Protocols] Gardening Protocols; [No][Agrarian Idyll] Agrarian Idyll",
+        "Spawn weight": "2 (once)",
+        "DLC": "[Federations]"
+      }
+    },
+    {
+      "id": "[Void Dwellers]Void DwellersThis civilization has made its home in space for as long as it has maintained records - life in a typical planetary environment is anathema to them. They live in several orbital habitats that were only recently united.",
+      "section": "Homeworld-focused origins",
+      "data": {
+        "Origin": "[Void Dwellers]Void DwellersThis civilization has made its home in space for as long as it has maintained records - life in a typical planetary environment is anathema to them. They live in several orbital habitats that were only recently united.",
+        "Empire effects": "[Voidborne] Includes all effects of the Voidborne ascension perk; [Cost] −20% Habitat build cost; [Cost] −20% Habitat district cost; [Mod planet max districts add] +2 Habitat max districts; [Mod planet max districts add] +0.25 Habitat max districts from asteroids and moons; [Pop job] +50% Jobs from habitat districts; [Tooltip building] Can upgrade housing buildings on habitats; [Tooltip zone] Can specialize habitat districts without any technology; [Voidcraft] Can always research the next tier of habitat technology; [Habitat Preference] Species has Habitat Preference; [Void Dweller] Species has the Void Dweller trait if organic; [Trait void dweller 2] Species has the Zero-G Optimized trait if mechanical; [Tech habitat] Start with the Orbital Habitats technology researched; [Menu icon traditions] Several Tradition trees have alternative bonuses to improve Habitats; [Yes] Guaranteed habitable worlds are replaced by resource-rich systems; [Machine] Machine species require Machine Template System technology to modify; [Unknown] 1% chance to spawn the Crystalline Empire enclave during mid-game (player only)",
+        "Homeworld effects": "[Planet habitat] Start on a habitat; [District specialization hydroponics] Reactor Districts start with the Solar Farming Bays specialization if Organic; [Hydroponics Farms] Start with a Hydroponics Farms building if Organic; [Sb hydroponics bay] Starbase Crew Quarters building is replaced by Hydroponics Bay if Organic; [No] Cannot change the starting system except for a special version of Sol",
+        "Requirements": "[No][Idyllic Bloom][Mycorrhizal Ideal] Idyllic Bloom[Idyllic Bloom] Idyllic Bloom[Mycorrhizal Ideal] Mycorrhizal Ideal; [No][Anglers][Trawling Operations] Anglers[Anglers] Anglers[Trawling Operations] Trawling Operations[Marine Machines] Marine Machines[Maritime Robotics] Maritime Robotics; [No][Planetscapers][Geo-Engineering Inc.][Cultivation Drones][Gardening Protocol] Planetscapers[Planetscapers] Planetscapers[Geo-Engineering Inc.] Geo-Engineering Inc.[Cultivation Drones] Cultivation Drones[Gardening Protocols] Gardening Protocols; [No][Agrarian Idyll] Agrarian Idyll",
+        "Spawn weight": "3",
+        "DLC": "[Federations]"
+      }
+    },
+    {
+      "id": "[Ocean Paradise]Ocean ParadiseSince its birth, this civilization has enjoyed peace in a generous environment with no natural enemies, enabling unhindered growth and opulence.",
+      "section": "Homeworld-focused origins",
+      "data": {
+        "Origin": "[Ocean Paradise]Ocean ParadiseSince its birth, this civilization has enjoyed peace in a generous environment with no natural enemies, enabling unhindered growth and opulence.",
+        "Empire effects": "[Aquatic] Species has the Aquatic trait if organic; [Waterproof] Species has the Waterproof trait if mechanical; [System hazards icon] Start inside a nebula; [Planet frozen] Start with 4 Frozen worlds and 10 Ice Asteroids; [Planet frozen] Guaranteed habitable worlds are Frozen worlds",
+        "Homeworld effects": "[Planet ocean] Homeworld is a size 30 Ocean World; [Pm ocean paradise][Ocean Paradise] Start with the Ocean Paradise homeworld modifier; [D crystal reef] Start with a Crystal Reef planetary feature; [D submerged ore veins] Start with 3 Submerged Ore Veins planetary features; [D underwater vent] Start with 3 Underwater Vents planetary features; [D teeming reef] Start with 8 Teeming Reef planetary features; [Planet ocean] Uses a unique appearance; [No] Cannot change the starting system",
+        "Requirements": "[No][Planet Forgers][Planetary Architects] Planet Forgers[Planet Forgers] Planet Forgers[Planetary Architects] Planetary Architects; [No][Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct; [No][Fire Cult] Fire Cult",
+        "Spawn weight": "5",
+        "DLC": "[Aquatics]"
+      }
+    },
+    {
+      "id": "[Red Giant]Red GiantThis civilization is at a crossroads: the Red Giant at the heart of its system is warming up their planet, threatening to cook them alive. Can they adapt until the cause is found and fixed, or will they decide to embrace the heat, capitalizing on these strange and perhaps unnatural changes?",
+      "section": "Homeworld-focused origins",
+      "data": {
+        "Origin": "[Red Giant]Red GiantThis civilization is at a crossroads: the Red Giant at the heart of its system is warming up their planet, threatening to cook them alive. Can they adapt until the cause is found and fixed, or will they decide to embrace the heat, capitalizing on these strange and perhaps unnatural changes?",
+        "Empire effects": "[Mod habitability] +20% Volcanic world habitability; [Minerals] Start with a Shattered World with a deposit of 10 Minerals; [Alloys] Start with a Broken World with a deposit of 5 Alloys; [Energy Credits] Capital star has a deposit of 10 Energy; [System hazards icon] Start inside a nebula; [Time] In 45 days choose to gain scaled Unity or Physics Research; [Red Giant Expansion] In 45 days start the Red Giant Expansion situation; [Unknown] In 5-20 months receive the Subspace Triangulation event chain; [No] Cannot change the starting system",
+        "Homeworld effects": "[Planet molten] Homeworld is a size 20 Volcanic World; [Pm star red][Doomsday] In 45 days gain the Red Star homeworld modifier",
+        "Requirements": "[No][Aquatic][Waterproof] Aquatic[Aquatic] Aquatic[Waterproof] Waterproof founder species; [No][Catalytic Processing][Catalytic Recyclers][Organic Reprocessing][Organic Retrofitting] Catalytic Processing[Catalytic Processing] Catalytic Processing[Catalytic Recyclers] Catalytic Recyclers[Organic Reprocessing] Organic Reprocessing[Organic Retrofitting] Organic Retrofitting; [No][Anglers][Trawling Operations] Anglers[Anglers] Anglers[Trawling Operations] Trawling Operations[Marine Machines] Marine Machines[Maritime Robotics] Maritime Robotics; [No][Idyllic Bloom][Mycorrhizal Ideal] Idyllic Bloom[Idyllic Bloom] Idyllic Bloom[Mycorrhizal Ideal] Mycorrhizal Ideal; [No][Agrarian Idyll] Agrarian Idyll; [No][BioGenesis] Biological shipset",
+        "Spawn weight": "1",
+        "DLC": "[Infernals]"
+      }
+    },
+    {
+      "id": "[Lost Colony]Lost ColonyThis civilization originated as a lost and forgotten colony, separated from its homeworld long ago. The struggling colonists endured many hardships before they could build up the necessary technological and industrial base that would allow for a return to space.",
+      "section": "Diplomacy-focused origins",
+      "data": {
+        "Origin": "[Lost Colony]Lost ColonyThis civilization originated as a lost and forgotten colony, separated from its homeworld long ago. The struggling colonists endured many hardships before they could build up the necessary technological and industrial base that would allow for a return to space.",
+        "Effects": "[Unknown] An advanced empire with the same species will exist in the galaxy; [Pm planet from space][Pm frame green] Start with a positive homeworld modifier depending on authority; [Mod habitability] Homeworld does not get the +30% Habitability bonus; [Fleet action button focus on] Homeworld of the advanced empire can be found via the Go To button in the species tab; [Flag human 9] If species portrait is Human, the advanced empire will use the Sol starting system; [No] Multiple empires with the origin will not share the parent empire; [No] AI empires with this origin won't generate advanced empires if those were turned off",
+        "Spawn weight": "5 (once)"
+      }
+    },
+    {
+      "id": "[Common Ground]Common GroundThis civilization established early contact with their immediate alien neighbors. Finding strength in their differences, they soon decided to face the future, and whatever it might bring, together.",
+      "section": "Diplomacy-focused origins",
+      "data": {
+        "Origin": "[Common Ground]Common GroundThis civilization established early contact with their immediate alien neighbors. Finding strength in their differences, they soon decided to face the future, and whatever it might bring, together.",
+        "Effects": "[Tech federation code] Start with the Federation Code technology researched; [Diplomacy federation] Start as the president of a Federation with two other members; [Federation cohesion] Federation starts with neutral Cohesion and 600 experience; [Gestalt consciousness] The two members will share at least one ethic with the president, fanatic if possible; [Xenophile] The two members will be Xenophile if possible; [No] There will be no Guaranteed Habitable Worlds regardless of game settings; [Diplomacy opinion] +100 Permanent Opinion to and from Federation members; [Diplomacy trust] +50 Trust to and from Federation members; [Diplomacy federation] On day 2 choose the federation type; [Selective Kinship] The two members will have the same founder species class if Selective Kinship; [Tech xeno linguistics] Xeno-Linguistics technology starts as a permanent research option (if [Galactic Paragons])",
+        "Requirements": "[No][Xenophobe][Fanatic xenophobe] Xenophobe; [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct; [No][Inward Perfection] Inward Perfection; [No][Barbaric Despoilers] Barbaric Despoilers",
+        "Spawn weight": "5 (once)",
+        "DLC": "[Federations]"
+      }
+    },
+    {
+      "id": "[Hegemon]HegemonThis civilization established early contact with their immediate alien neighbors. Gradually, over the span of a century, they masterminded the birth of an interstellar union in which they would have a dominant role.",
+      "section": "Diplomacy-focused origins",
+      "data": {
+        "Origin": "[Hegemon]HegemonThis civilization established early contact with their immediate alien neighbors. Gradually, over the span of a century, they masterminded the birth of an interstellar union in which they would have a dominant role.",
+        "Effects": "[Tech federation code] Start with the Federation Code technology researched; [Federation hegemony] Start as the president of a Hegemony federation with two other members; [Federation cohesion] Federation starts with neutral Cohesion and 600 experience; [Gestalt consciousness] The two members will share at least one ethic with the president, fanatic if possible; [Xenophile] The two members will be Xenophile if possible; [No] There will be no Guaranteed Habitable Worlds regardless of game settings; [Selective Kinship] The two members will have the same founder species class if Selective Kinship; [Tech xeno linguistics] Xeno-Linguistics technology starts as a permanent research option (if [Galactic Paragons])",
+        "Requirements": "[No][Xenophobe][Fanatic xenophobe] Xenophobe; [No][Egalitarian][Fanatic egalitarian] Egalitarian; [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct; [No][Inward Perfection] Inward Perfection",
+        "Spawn weight": "5 (once)",
+        "DLC": "[Federations]"
+      }
+    },
+    {
+      "id": "[Scion]ScionA Fallen Empire has meddled in the development of this civilization for thousands of years, guiding them onto a path of their choosing.",
+      "section": "Diplomacy-focused origins",
+      "data": {
+        "Origin": "[Scion]ScionA Fallen Empire has meddled in the development of this civilization for thousands of years, guiding them onto a path of their choosing.",
+        "Effects": "[Diplomacy hasvassal] Start as a Scion of the Holy Guardians or Keepers of Knowledge; [Diplomacy opinion] +200 Opinion to and from the overlord; [Diplomacy opinion] No opinion penalties for researching Fallen Empire technologies; [Unity] Researching Fallen Empire technologies grants Unity; [Mod ship speed mult] Start with a Wormhole leading to the overlord's capital system; [Unknown] Surveying a Holy World grants a bonus of Influence or Unity; [Unknown] Gain a more powerful gift every few decades; [Yes] Creates a 1-system Fallen Empire if the game was started with none; [Menu icon fleet manager] Temporary Fallen Empire fleet every 20 years if losing a war against a Superior empire; [Tech xeno linguistics] Xeno-Linguistics technology starts as a permanent research option (if [Galactic Paragons])",
+        "Requirements": "[No][Fanatic xenophobe] Fanatic Xenophobe; [No][Gestalt consciousness] Gestalt Consciousness; [No][Machine] Machine species; [No][Pompous Purists] Pompous Purists",
+        "Spawn weight": "2 (once)",
+        "DLC": "[Federations]"
+      }
+    },
+    {
+      "id": "[Imperial Fiefdom]Imperial FiefdomOur first endeavor beyond our home planet was a painful one, suddenly and brutally subjected to the whims of a foreign galactic power. Now we look towards a future in which we no longer live in the shadow of another empire.",
+      "section": "Diplomacy-focused origins",
+      "data": {
+        "Origin": "[Imperial Fiefdom]Imperial FiefdomOur first endeavor beyond our home planet was a painful one, suddenly and brutally subjected to the whims of a foreign galactic power. Now we look towards a future in which we no longer live in the shadow of another empire.",
+        "Effects": "[Diplomacy hasvassal] Start as a subject of an empire with the Imperial Liege origin; [Diplomacy isvassal] 1-4 vassals will border the overlord (depending on galaxy size); [Imperial Fiefdom] If multiple empires have the origin, they will have the same overlord; [Overlord Garrison] Overlord will construct an Overlord Garrison holding on all subject capitals; [Diplomacy opinion] +120 Decaying Opinion with the overlord and its subjects; [Diplomacy hasvassal] On day 2, choose to become a specialized subject: [Specialist subject bulwark] Bulwark grants 5 destroyers and the technology to build more [Specialist subject prospectorium] Prospectorium grants 2 construction ships [Specialist subject scholarium] Scholarium grants a science ship and a level 3 scientist; [Specialist subject bulwark] Bulwark grants 5 destroyers and the technology to build more; [Specialist subject prospectorium] Prospectorium grants 2 construction ships; [Specialist subject scholarium] Scholarium grants a science ship and a level 3 scientist; [Time] After 40-65 years, become independent or gain 100 influence; [Time] After 40-65 years, the overlord empire breaks apart; [Tech xeno linguistics] Xeno-Linguistics technology starts as a permanent research option (if [Galactic Paragons])",
+        "Requirements": "[No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct; [No][Inward Perfection] Inward Perfection; [No][Driven Assimilator] Driven Assimilator",
+        "Spawn weight": "0",
+        "DLC": "[Overlord]"
+      }
+    },
+    {
+      "id": "[Hard Reset]Hard ResetAbruptly severed from the Machine that assimilated them, this nascent civilization has fought fiercely to establish its own presence in the galaxy.",
+      "section": "Combat-focused origins",
+      "data": {
+        "Origin": "[Hard Reset]Hard ResetAbruptly severed from the Machine that assimilated them, this nascent civilization has fought fiercely to establish its own presence in the galaxy.",
+        "Empire effects": "[Cyber Commandos] Species has the Cyber Commandos trait; [Trait unplugged negative 3] Species has the Unplugged trait; [Integrated Weaponry] Can select some cyborg traits at species creation; [Planet nuked] Home system contains a Tomb World with 100% Devastation and an archeological site; [Diplomacy war] Start in combat against 3 corvettes; [Diplomacy war] Neighbor systems are guarded by a hostile fleet each (size depends on game difficulty); [Tech combat computers 1] Can salvage the Specialized Combat Computers technology from defeated fleets; [Undesirables] The Opus Sentinel guardian will be present a few hyperlanes away; [Navbar icons factions] Factions will form after 1 year; [Navbar icons situation] Starts the Embodied Identity situation in 10 years if not started earlier; [The Flesh is Weak] Can only follow cybernetic ascension unless the species removes its starting traits",
+        "Homeworld effects": "[Army assault] Start with 10 assault armies; [Amenities] −50% Pop Amenities Usage for 10 years; [No] Cannot change the starting system except for a special version of Sol",
+        "Requirements": "[Militarist][Fanatic militarist] Militarist; [No][Fanatic spiritualist] Fanatic Spiritualist; [No][Fanatic xenophile] Fanatic Xenophile; [No][Machine] Machine species; [No][Pleasure Seekers] Pleasure Seekers[Pleasure Seekers] Pleasure Seekers[Corporate Hedonism] Corporate Hedonism; [No][Eager Explorers] Eager Explorers[Eager Explorers] Eager Explorers[Privatized Exploration] Privatized Exploration; [No][Hyperspace Specialty][Hyperspace Trade] Hyperspace Specialty[Hyperspace Specialty] Hyperspace Specialty[Hyperspace Trade] Hyperspace Trade; [No][Dark Consortium][Shadow Corporation] Dark Consortium[Dark Consortium] Dark Consortium[Shadow Corporation] Shadow Corporation; [No][Genesis Guides][Astrogenesis Technologies] Genesis Guides[Genesis Guides] Genesis Guides[Astrogenesis Technologies] Astrogenesis Technologies; [No][Planetscapers][Geo-Engineering Inc.] Planetscapers[Planetscapers] Planetscapers[Geo-Engineering Inc.] Geo-Engineering Inc.; [No][Storm Devotion][Storm Influencers] Storm Devotion[Storm Devotion] Storm Devotion[Storm Influencers] Storm Influencers; [No][Chosen][Chosen Executives] Chosen[Chosen] Chosen[Chosen Executives] Chosen Executives; [No][Entropy Drinkers][Corporate Vampires] Entropy Drinkers[Entropy Drinkers] Entropy Drinkers[Corporate Vampires] Corporate Vampires; [No][Secret Societies][Influential Cartel] Secret Societies[Secret Societies] Secret Societies[Influential Cartel] Influential Cartel; [No][Tankbound][Corporate Thinktank] Tankbound[Tankbound] Tankbound[Corporate Thinktank] Corporate Thinktank; [No][Aristocratic Elite] Aristocratic Elite; [No][Parliamentary System] Parliamentary System; [No][Idyllic Bloom] Idyllic Bloom; [No][Heroic Past] Heroic Past; [No][Civic natural design] Natural Design; [No][Criminal Heritage] Criminal Heritage; [No][Civic media conglomerate] Media Conglomerate; [No][Trading Posts] Trading Posts; [No][BioGenesis] Biological shipset",
+        "Spawn weight": "0",
+        "DLC": "[Synthetic Dawn]"
+      }
+    },
+    {
+      "id": "[Payback]PaybackThis civilization has been visited by an alien empire who forcibly enlightened and enslaved them. They have repelled their invaders, but will they return?",
+      "section": "Combat-focused origins",
+      "data": {
+        "Origin": "[Payback]PaybackThis civilization has been visited by an alien empire who forcibly enlightened and enslaved them. They have repelled their invaders, but will they return?",
+        "Empire effects": "[No] Start without any ships and stations; [Origins broken shackles] An empire with the Broken Shackles origin will be present; [Origins slavers] Minamar Specialized Industries unique empire will be present; [Tech basic science lab 1] Scientific Method technology is not researched but available as a permanent option; [Tech planetary government] Planetary Government technology is not researched but available as a permanent option; [Corvettes] Corvettes technology is not researched but available as a permanent option; [Damage] +15% Damage to empires with Superior or Overwhelming relative power; [Diplomacy opinion] +50 Opinion to and from Broken Shackles empires; [Pre ftl map icon] Pre-FTL civilization will exist regardless of game settings; [Unknown] In 6 months, gain a special project to remove the Debris Field homeworld modifier; [Menu icon policies] Cannot set First Contact Protocol policy to Proactive; [Tech xeno linguistics] Xeno-Linguistics technology starts as a permanent research option (if [Galactic Paragons])",
+        "Homeworld effects": "[District specialization payback enlightenment] Archives specialization is replaced by Uplift Center; [Gene Clinics] Start with a Gene Clinics building; [Energy Grid] Start with an Energy Grid building; [Mineral Purification Plants] Start with an Mineral Purification Plants building; [Icon pop] Start with 1000 fewer pops; [Devastation] Start with −33% Devastation; [D crashed ship][Ship Debris] Start with 6 Ship Debris blockers; [Unity] The Ship Debris blockers grant unity when cleared; [Pm asteroid belt][Debris Field] Start with a Debris Field homeworld modifier; [Archaeology map icon] Removing the modifier uncovers the Aftermath of Battle site; [Happiness] +15% Happiness for 20 years; [Amenities] +25% Amenities for 20 years; [Mod pop resource output] +10% Resources from Jobs for 20 years; [Job overlord propagandist] +200 Unification Officer Jobs for 20 years; [Unknown] 50% chance each decade the Gene Clinics building becomes ruined",
+        "Requirements": "[No][Gestalt consciousness] Gestalt Consciousness; [No][Machine] Machine species; [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct; [No][Slaver Guilds] Slaver Guilds[Slaver Guilds] Slaver Guilds[Indentured Assets] Indentured Assets; [No][Eager Explorers] Eager Explorers[Eager Explorers] Eager Explorers[Privatized Exploration] Privatized Exploration; [No][Sovereign Guardianship][Corporate Protectorate] Sovereign Guardianship[Sovereign Guardianship] Sovereign Guardianship[Corporate Protectorate] Corporate Protectorate; [No][Tankbound][Corporate Thinktank] Tankbound[Tankbound] Tankbound[Corporate Thinktank] Corporate Thinktank; [No][Pompous Purists] Pompous Purists; [No][Oppressive Autocracy] Oppressive Autocracy; [No][Pharma State] Pharma State",
+        "Spawn weight": "0",
+        "DLC": "[First Contact]"
+      }
+    },
+    {
+      "id": "[Starlit Citadel]Starlit CitadelA mysterious portal looms at the edge of this civilization's home system, a gateway from which hostile entities emerge in relentless waves. These invasions are as unpredictable as they are inevitable, forcing the people to rely on their greatest technological triumph - the Deep Space Citadel.",
+      "section": "Combat-focused origins",
+      "data": {
+        "Origin": "[Starlit Citadel]Starlit CitadelA mysterious portal looms at the edge of this civilization's home system, a gateway from which hostile entities emerge in relentless waves. These invasions are as unpredictable as they are inevitable, forcing the people to rely on their greatest technological triumph - the Deep Space Citadel.",
+        "Empire effects": "[Mod megastructure build speed] +1 Megastructure Build Capacity; [Mod megastructure build speed] +1 Deep Space Citadel System Capacity; [Wormhole map icon] Start with a wormhole leading to the Abandoned Hatchery; [Tech deep space citadel] Start with the Deep Space Citadel technology; [Tech deep space citadel] Start with a Deep Space Citadel next to the wormhole; [Diplomacy war] In 1-2 years a hostile fleet of 6 Maulers and 2 Weavers will attack through the wormhole; [Tech wormhole generation 3] Defeating the attacking fleet starts a special project to unlock Wormhole Stabilization; [Tech combat computers 1] Can salvage the Specialized Combat Computers technology from the fleet; [Plasma Throwers] Can salvage the Plasma Throwers technology from the fleet; [Autocannons] Can salvage the Autocannons technology from the fleet",
+        "Homeworld effects": "[Tooltip building] Start with a Citadel Uplink building; [D bioship remains][Biological Ship Remains] Start with a Biological Ship Remains blockers; [D city ruins][Invasion Site] Start with 2 Invasion Site blockers",
+        "Requirements": "[No][BioGenesis] Biological shipset",
+        "Spawn weight": "1",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "[Mindwardens]MindwardensThis civilization's ancestors were plagued by otherworldly forces that invaded the mind, inspiring them to dedicate great effort and resources into developing anti-psionic technology. Their ancient devices are still functional, but remain untested against psionic threats from the wider galaxy.",
+      "section": "Combat-focused origins",
+      "data": {
+        "Origin": "[Mindwardens]MindwardensThis civilization's ancestors were plagued by otherworldly forces that invaded the mind, inspiring them to dedicate great effort and resources into developing anti-psionic technology. Their ancient devices are still functional, but remain untested against psionic threats from the wider galaxy.",
+        "Empire effects": "[Intel encryption] +2 Encryption; [Damage] +25% Damage vs psionic empires; [Evasion] +25% Evasion vs psionic empires; [Starhold] Start with the Starhold technology researched; [Tech mine zro] Start with the Zro Distillation technology as a permanent research option; [Zro] Start with a deposit of 1 Zro; [Diplomacy status casus belli holder] Can use the Psionic Containment casus belli; [Barren World] No guaranteed habitable planets will spawn near the home system; [No] Cannot found Mercenary enclaves; [No] The Mindwarden enclave is not generated; [No][Psionics] Cannot research technologies from the Psionics tech tree; [Diplomacy war] Start with a cluster controlled by a hostile empire behind the home system; [Building ancient ward 2] 2 months after the first contact is finished gain a special project to upgrade the Ancient Ward; [Yes] Building a Shroud Seal in the first system of the cluster starts a war now or in 10 years; [Unknown] Destroying the last planet gives the Psionic Threat Eliminated empire modifier; [Unknown] Conquering the last planet gives a choice between a permanent modifier and a relic; [D ruined sanctum of the lost][Ruined Sanctum of the Dreamer] The second conquered planet in the cluster gains the Ruined Sanctum of the Dreamer blocker; [Fleet action button turn into merc] Defeating the hostile empire unlocks the creation of Mindwarden enclaves in 2 years",
+        "Homeworld effects": "[Building ancient ward 1] Start with the Ancient Ward building; [Starhold] Starbase is a Starhold; [Sb gun battery] Starbase starts with 2 Gun Battery modules; [Spaceport module resource silo] Starbase starts with a Resource Silos building; [Yes] Starting location will be at the edge of the galaxy; [No] Cannot change the starting system except for a special version of Sol",
+        "Requirements": "[No][Pacifist][Fanatic pacifist] Pacifist; [No][Gestalt consciousness] Gestalt Consciousness; [No][Machine] Machine species; [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct; [No][Entropy Drinkers][Corporate Vampires] Entropy Drinkers[Entropy Drinkers] Entropy Drinkers[Corporate Vampires] Corporate Vampires",
+        "Spawn weight": "0",
+        "DLC": "[Shadows of the Shroud]"
+      }
+    },
+    {
+      "id": "[Fruitful Partnership]Fruitful PartnershipThis verdant civilization has developed a unique synergy with spaceborne fauna. By offering their fruits to these creatures, they entice the seed dispersers to aid their colonization efforts.",
+      "section": "Species-focused origins",
+      "data": {
+        "Origin": "[Fruitful Partnership]Fruitful PartnershipThis verdant civilization has developed a unique synergy with spaceborne fauna. By offering their fruits to these creatures, they entice the seed dispersers to aid their colonization efforts.",
+        "Empire effects": "[Sb feeder] Can construct Starseed Garden starbase buildings; [Sb feeder] Can construct Orbital Garden orbital ring buildings; [Seed bombing] Can use the Seed Bombing orbital bombardment stance; [Feature] Enables Open Seed Pods special projects; [Alien Pets] A neighbor system will contain Tiyanki Space Whales; [No] No first contact with Tiyanki Space Whales; [Tech space whale weapon 1] In 5-10 years can gain a special project to unlock the Frequency Tuning technology",
+        "Homeworld effects": "None",
+        "Requirements": "Plantoid or Fungoid species; [Yes] Either: [Pacifist][Fanatic pacifist] Pacifist [Xenophile][Fanatic xenophile] Xenophile [Auth hive mind] Hive Mind; [Pacifist][Fanatic pacifist] Pacifist; [Xenophile][Fanatic xenophile] Xenophile; [Auth hive mind] Hive Mind; [No][Devouring Swarm] Devouring Swarm",
+        "Spawn weight": "5",
+        "DLC": "[DLC plantoids species pack]"
+      }
+    },
+    {
+      "id": "[Calamitous Birth]Calamitous BirthNot native to their 'homeworld', these Lithoids arrived when a meteorite slammed into the planet and killed off most of the native life.",
+      "section": "Species-focused origins",
+      "data": {
+        "Origin": "[Calamitous Birth]Calamitous BirthNot native to their 'homeworld', these Lithoids arrived when a meteorite slammed into the planet and killed off most of the native life.",
+        "Empire effects": "[Ship] Can build Meteorite Colony Ships; [Experimental Crater] Can construct Experimental Crater holdings",
+        "Homeworld effects": "[D crater] Start with a Massive Crater planetary feature",
+        "Requirements": "[Lithoid] Lithoid species; [No][Catalytic Processing][Catalytic Recyclers][Organic Reprocessing] Catalytic Processing[Catalytic Processing] Catalytic Processing[Catalytic Recyclers] Catalytic Recyclers[Organic Reprocessing] Organic Reprocessing; [No][Genesis Guides][Astrogenesis Technologies][Genesis Symbiotes] Genesis Guides[Genesis Guides] Genesis Guides[Astrogenesis Technologies] Astrogenesis Technologies[Genesis Symbiotes] Genesis Symbiotes; [No][Planetscapers][Geo-Engineering Inc.][Cultivation Drones] Planetscapers[Planetscapers] Planetscapers[Geo-Engineering Inc.] Geo-Engineering Inc.[Cultivation Drones] Cultivation Drones; [No][BioGenesis] Biological shipset",
+        "Spawn weight": "5 (once)",
+        "DLC": "[Lithoids]"
+      }
+    },
+    {
+      "id": "[Arc Welders]Arc WeldersTheir planet is barren, but their home system is a bounty of riches. To exploit it, these machines built bigger than ever before. A mighty Arc Furnace now dominates their sky, but these master engineers are far from satisfied. The galaxy awaits, and the possibilities are endless. All it takes is the ingenuity to seize them.",
+      "section": "Species-focused origins",
+      "data": {
+        "Origin": "[Arc Welders]Arc WeldersTheir planet is barren, but their home system is a bounty of riches. To exploit it, these machines built bigger than ever before. A mighty Arc Furnace now dominates their sky, but these master engineers are far from satisfied. The galaxy awaits, and the possibilities are endless. All it takes is the ingenuity to seize them.",
+        "Empire effects": "[Yes] Start with an Arc Furnace: Equatorial Band; [Arc Furnace] Start with the Arc Furnace technology researched; [Mod megastructure build speed] +1 Megastructure Build Capacity; [Mod megastructure build speed] +1 Arc Furnace Capacity; [Tech mega engineering] Constructing a second Arc Furnace unlocks the Mega-Engineering technology for research; [Unity] Gain a small amount of Unity when constructing a second Arc Furnace; [Engineering research] Gain a large amount of Engineering Research when constructing a second Arc Furnace",
+        "Homeworld effects": "[Icon pop] −300 Starting pops; [Planet Size] Homeworld is always size 15; [Generator District] Mining Districts are replaced by Generator Districts",
+        "Requirements": "[Machine] Machine species",
+        "Spawn weight": "2 (once)",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "[Cosmic Dawn]Cosmic DawnThis civilization did not rise; it was released. As the stasis pods unlocked, they awakened to a world aged beyond recognition. Yet all is not lost. Scattered beneath dust and ruin across the galaxy, their past endures, waiting to be rediscovered.",
+      "section": "Species-focused origins",
+      "data": {
+        "Origin": "[Cosmic Dawn]Cosmic DawnThis civilization did not rise; it was released. As the stasis pods unlocked, they awakened to a world aged beyond recognition. Yet all is not lost. Scattered beneath dust and ruin across the galaxy, their past endures, waiting to be rediscovered.",
+        "Empire effects": "[Yes] Start with the Drilling the Crust special project; [Yes] Finishing the special project gives 100 pops and starts the Deep Excavation situation; [Feature] Can get the Interstellar Refugia event chain; [No] Cannot change the starting system",
+        "Homeworld effects": "[Icon pop] −600 Starting pops; [Planet molten] Homeworld is a size 14 Volcanic World; [D ancient vault][Ancient Stasis Pods] Start with 5 Ancient Stasis Pods blockers",
+        "Requirements": "[Thermophile] Thermophile species; [No][Auth hive mind] Hive Mind; [No][Anglers][Trawling Operations] Anglers[Anglers] Anglers[Trawling Operations] Trawling Operations[Marine Machines] Marine Machines[Maritime Robotics] Maritime Robotics; [No][Catalytic Processing][Catalytic Recyclers] Catalytic Processing[Catalytic Processing] Catalytic Processing[Catalytic Recyclers] Catalytic Recyclers; [No][Beastmasters][Space Ranchers] Beastmasters[Beastmasters] Beastmasters[Space Ranchers] Space Ranchers; [No][Agrarian Idyll] Agrarian Idyll; [No][Idyllic Bloom] Idyllic Bloom; [No][BioGenesis] Biological shipset",
+        "Spawn weight": "1",
+        "DLC": "[Infernals]"
+      }
+    },
+    {
+      "id": "[Elder Race]Elder RaceThis civilization greatly predates the current generation of galactic powers. Eons of stagnation gradually reduced their empire to a mere shadow of what it once was.",
+      "section": "Unselectable origins",
+      "data": {
+        "Origin": "[Elder Race]Elder RaceThis civilization greatly predates the current generation of galactic powers. Eons of stagnation gradually reduced their empire to a mere shadow of what it once was.",
+        "Effects": "[Naval capacity] +1000 Naval Capacity",
+        "Source": "Fallen empire"
+      }
+    },
+    {
+      "id": "[Developing Civilization]Developing CivilizationThis civilization greatly predates the current generation of galactic powers. Eons of stagnation gradually reduced their empire to a mere shadow of what it once was.",
+      "section": "Unselectable origins",
+      "data": {
+        "Origin": "[Developing Civilization]Developing CivilizationThis civilization greatly predates the current generation of galactic powers. Eons of stagnation gradually reduced their empire to a mere shadow of what it once was.",
+        "Effects": "[Origins enlightened] Replaced with Enlightened if the civilization is enlightened",
+        "Source": "Pre-FTL civilization without a regular origin"
+      }
+    },
+    {
+      "id": "[Enlightened]EnlightenedThe natural development of this civilization was greatly accelerated by the interference of another party, who helped them become a spacefaring culture.",
+      "section": "Unselectable origins",
+      "data": {
+        "Origin": "[Enlightened]EnlightenedThe natural development of this civilization was greatly accelerated by the interference of another party, who helped them become a spacefaring culture.",
+        "Effects": "[Mod country all tech research speed] +10% Research Speed; [Trade cat loyalty] +0.5 Monthly Loyalty Change; [Overlord] Can always be a Specialized Subject",
+        "Source": "Enlightened pre-FTL civilization with [Developing Civilization] Developing Civilization origin"
+      }
+    },
+    {
+      "id": "[Separatists]SeparatistsThis civilization came into being when it rebelled and seceded from another empire.",
+      "section": "Unselectable origins",
+      "data": {
+        "Origin": "[Separatists]SeparatistsThis civilization came into being when it rebelled and seceded from another empire.",
+        "Effects": "[Mod planet stability] +10 Stability; [Mod pop government ethic attraction] +25% Governing Ethics Attraction; [Mod ship build speed mult] +20% Ship Build Speed",
+        "Source": "Revolt or Machine Uprising empire"
+      }
+    },
+    {
+      "id": "[Liberated]LiberatedThis civilization came into being after being liberated from another empire.",
+      "section": "Unselectable origins",
+      "data": {
+        "Origin": "[Liberated]LiberatedThis civilization came into being after being liberated from another empire.",
+        "Effects": "[Mod planet stability] +10 Stability; [Mod pop government ethic attraction] +25% Governing Ethics Attraction; [Mod ship build speed mult] +20% Ship Build Speed",
+        "Source": "Empire created by Status Quo from wars with the Ideology casus belli; Empire created by Status Quo from wars with a Subjugation casus belli"
+      }
+    },
+    {
+      "id": "[Khanate Successor]Khanate SuccessorThis civilization arose out of the ashes of the Great Khan's mighty empire.",
+      "section": "Unselectable origins",
+      "data": {
+        "Origin": "[Khanate Successor]Khanate SuccessorThis civilization arose out of the ashes of the Great Khan's mighty empire.",
+        "Effects": "[Leader skill levels] +2 Commander Starting Skill Level; [Raiding bombardment] Can use the Raiding orbital bombardment stance",
+        "Source": "Horde successor empire",
+        "DLC": "[Apocalypse]"
+      }
+    },
+    {
+      "id": "[Hegemon Subordinate]Hegemon SubordinateThis civilization established early contact with their immediate alien neighbors. Gradually, over the span of a century, they were subordinated to one of those neighbors, who masterminded the birth of an interstellar union with them as its leader.",
+      "section": "Unselectable origins",
+      "data": {
+        "Origin": "[Hegemon Subordinate]Hegemon SubordinateThis civilization established early contact with their immediate alien neighbors. Gradually, over the span of a century, they were subordinated to one of those neighbors, who masterminded the birth of an interstellar union with them as its leader.",
+        "Effects": "[Federation hegemony] Start as a member of a Hegemony federation",
+        "Source": "Empires generated by the [Origins hegemon] Hegemon origin",
+        "DLC": "[Federations]"
+      }
+    },
+    {
+      "id": "[Imperial Liege]Imperial LiegeAn ambitious overlord who has spent considerable time and efforts in subduing their closest neighbors to serve their every need. They are slowly growing more indolent as they devolve more and more responsibility to their vassals.",
+      "section": "Unselectable origins",
+      "data": {
+        "Origin": "[Imperial Liege]Imperial LiegeAn ambitious overlord who has spent considerable time and efforts in subduing their closest neighbors to serve their every need. They are slowly growing more indolent as they devolve more and more responsibility to their vassals.",
+        "Effects": "[Yes] Start as an advanced empire; [Planet gaia] Homeworld is a size 30 Gaia World; [Fleet order button build megastructure] Start with a Gateway in the capital system; [Diplomacy hasvassal] Start with 2-5 subjects",
+        "Source": "Overlord empire generated by the [Imperial Fiefdom] Imperial Fiefdom origin",
+        "DLC": "[Overlord]"
+      }
+    },
+    {
+      "id": "[Daemonic Incursion]Daemonic IncursionLed by a corrupted champion, this empire emerged from a dimensional portal and has vowed to lay waste to this reality.",
+      "section": "Unselectable origins",
+      "data": {
+        "Origin": "[Daemonic Incursion]Daemonic IncursionLed by a corrupted champion, this empire emerged from a dimensional portal and has vowed to lay waste to this reality.",
+        "Effects": "[Mod navy size add] +100% Naval Capacity; [Mod ship upkeep mult] −50% Ship Upkeep",
+        "Source": "Daemonic Incursion unique empire",
+        "DLC": "[Toxoids]"
+      }
+    },
+    {
+      "id": "[Your Ladder To The Sky]Your Ladder To The SkyFrom the moment the Board of Directors at Minamar Specialized Industries first delivered our civilization to the stars, we have understood that the galaxy was too beautiful not to be shared. Since then, we have worked tirelessly to help less developed civilizations achieve FTL travel.Enlightenment may not be free. But at MSI, it is always worth the cost.",
+      "section": "Unselectable origins",
+      "data": {
+        "Origin": "[Your Ladder To The Sky]Your Ladder To The SkyFrom the moment the Board of Directors at Minamar Specialized Industries first delivered our civilization to the stars, we have understood that the galaxy was too beautiful not to be shared. Since then, we have worked tirelessly to help less developed civilizations achieve FTL travel.Enlightenment may not be free. But at MSI, it is always worth the cost.",
+        "Effects": "[Menu icon technology] Start with additional technologies; [Yes] Start as an advanced empire; [Icon pop] Start with pops from 3-22 pre-FTL species; [Planet nuked] Homeworld is a size 25 Relic World; [Raiding bombardment] Can use the Raiding orbital bombardment stance; [Mod navy size add] +50 Naval Capacity; [No] Cannot take crisis ascension perks; [Tech neural implants] Neural Implants [Genetic Healthcare] Genetic Healthcare [Tech food processing 1] Food Processing [Tech mineral purification 1] Mineral Purification [Global Energy Management] Global Energy Management; [Tech neural implants] Neural Implants; [Genetic Healthcare] Genetic Healthcare; [Tech food processing 1] Food Processing; [Tech mineral purification 1] Mineral Purification; [Global Energy Management] Global Energy Management",
+        "Source": "Minamar Specialized Industries unique empire",
+        "DLC": "[First Contact]"
+      }
+    },
+    {
+      "id": "[Broken Rule]Broken RuleAmidst political turmoil, and without the Luminary's guidance, the people must make their own way in the galaxy.",
+      "section": "Unselectable origins",
+      "data": {
+        "Origin": "[Broken Rule]Broken RuleAmidst political turmoil, and without the Luminary's guidance, the people must make their own way in the galaxy.",
+        "Effects": "None",
+        "Source": "Rebel empire generated during the [Origins under one rule] Under One Rule origin",
+        "DLC": "[Galactic Paragons]"
+      }
+    }
+  ]
+}

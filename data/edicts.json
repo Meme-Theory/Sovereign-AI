@@ -1,0 +1,1500 @@
+{
+  "category": "edicts",
+  "source": "Stellaris Wiki (4.x)",
+  "extracted": "2026-04-12",
+  "count": 141,
+  "items": [
+    {
+      "id": "Fortify the Border",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Fortify the Border",
+        "Base upkeep": "[Unity] 10",
+        "Effects": "[Mod starbase upgrade time mult] +50% Starbase upgrade speed; [Mod country starbase capacity mult] +2 Starbase capacity",
+        "Description": "Defense of our systems is paramount. This Edict will divert additional resources to these ends."
+      }
+    },
+    {
+      "id": "Nutritional Plenitude (Individualist)",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Nutritional Plenitude (Individualist)",
+        "Base upkeep": "[Unity] 10",
+        "Effects": "[Mod pop growth speed] +10% Pop growth speed; [Pop resource food mult] +25% Organic pop upkeep; [Pop resource minerals mult] +25% Lithoid pop upkeep; [Alloys] +25% Thermophile pop upkeep; [Happiness] +5% Biological pop happiness; [Happiness] +5% Lithoid pop happiness; [Happiness] +5% Thermophile pop happiness",
+        "Requirements": "[Gene Crops] Gene Crops technology; [No][Gestalt consciousness] Gestalt Consciousness",
+        "Description": "It is the fundamental right of each of our citizens to enter hibernation with a full digestive organ. Easy access to plentiful, nutritional fare will be the fuel that spurs our growth among the stars."
+      }
+    },
+    {
+      "id": "Nutritional Plenitude (Hive Mind)",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Nutritional Plenitude (Hive Mind)",
+        "Base upkeep": "[Unity] 10",
+        "Effects": "[Mod pop growth speed] +10% Pop growth speed; [Pop resource food mult] +25% Organic pop upkeep; [Pop resource minerals mult] +25% Lithoid pop upkeep; [Alloys] +25% Thermophile pop upkeep",
+        "Requirements": "[Gene Crops] Gene Crops technology; [Auth hive mind] Hive Mind authority",
+        "Description": "This Edict provides additional resources to the spawning pools."
+      }
+    },
+    {
+      "id": "Expanded Breeding Program",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Expanded Breeding Program",
+        "Base upkeep": "[Unity] 10",
+        "Effects": "[Mod pop growth speed] +10% Pop growth speed; [Pop resource food mult] +25% Organic pop upkeep; [Pop resource minerals mult] +25% Lithoid pop upkeep; [Alloys] +25% Thermophile pop upkeep; [Happiness] +5% Biological pop happiness; [Happiness] +5% Lithoid pop happiness; [Happiness] +5% Thermophile pop happiness",
+        "Requirements": "[Gene Crops] Gene Crops technology; [Rogue Servitor] Rogue Servitor civic",
+        "Description": "Using gamification and point-based reward schemes, we will subtly encourage our Bio-Trophies to fill our Organic Sanctuaries."
+      }
+    },
+    {
+      "id": "Fleet Supremacy",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Fleet Supremacy",
+        "Base upkeep": "[Unity] 10",
+        "Effects": "[Mod leader species exp gain] +100 Ship starting experience; [Mod ship build speed mult] +10% Ship build speed; [Diplomatic weight from fleet power] +10% Diplomatic weight from fleet power",
+        "Requirements": "[Doctrine: Space Combat] Doctrine: Space Combat technology",
+        "Description": "Our navy is the best means to project power. This Edict will prioritize them above lesser needs."
+      }
+    },
+    {
+      "id": "Capacity Subsidies",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Capacity Subsidies",
+        "Base upkeep": "[Unity] 30",
+        "Effects": "[Technician] +20% Technician job efficiency; [Trade value] +0.5 Trade upkeep per 100 Technicians",
+        "Requirements": "[Global Energy Management] Global Energy Management technology",
+        "Description": "This Edict allows short-term overloading of energy grids, letting power plants across our empire run at increased capacity."
+      }
+    },
+    {
+      "id": "Mining Subsidies",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Mining Subsidies",
+        "Base upkeep": "[Unity] 30",
+        "Effects": "[Miner] +20% Miner job efficiency; [Trade value] +0.5 Trade upkeep per 100 Miners",
+        "Requirements": "[Tech mineral purification 1] Mineral Purification technology",
+        "Description": "This Edict is a focused administrative effort to reprioritize and re-evaluate production goals, yielding a boost to mining output."
+      }
+    },
+    {
+      "id": "Farming Subsidies",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Farming Subsidies",
+        "Base upkeep": "[Unity] 30",
+        "Effects": "[Farmer] +20% Farmer job efficiency; [Trade value] +0.5 Trade upkeep per 100 Farmers",
+        "Requirements": "[Tech food processing 1] Food Processing technology",
+        "Description": "This Edict provides aggressive economic stimulus for positive, quantifiable impacts on food production."
+      }
+    },
+    {
+      "id": "Forge Subsidies",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Forge Subsidies",
+        "Base upkeep": "[Unity] 30",
+        "Effects": "[Metallurgist] +10% Metallurgist job efficiency; [Trade value] +1 Trade upkeep per 100 Metallurgists",
+        "Requirements": "[Global Production Strategy] Global Production Strategy technology",
+        "Description": "Our empire thirsts for more specialized alloys and precious metals. This Edict provides our foundries with additional resources so production can be increased."
+      }
+    },
+    {
+      "id": "Industrial Subsidies",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Industrial Subsidies",
+        "Base upkeep": "[Unity] 30",
+        "Effects": "[Artisan] +10% Artisan job efficiency; [Trade value] +1 Trade upkeep per 100 Artisans",
+        "Requirements": "[Global Production Strategy] Global Production Strategy technology; [Consumer goods upkeep] Empire uses consumer goods",
+        "Description": "Success can be measured the acquisition of things. This Edict provides our factories with additional resources so production can be increased."
+      }
+    },
+    {
+      "id": "Synaptic Reinforcement",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Synaptic Reinforcement",
+        "Base upkeep": "[Unity] 10",
+        "Effects": "[Trade value] +1 Trade per 100 [Maintenance Drone] Maintenance Drones",
+        "Requirements": "[Clustered Synapses] Clustered Synapses technology; [Auth hive mind] Hive Mind authority",
+        "Description": "Reinforces our Synaptic Nodes as central foci in our colonies, increasing their ability to provide for nearby drones."
+      }
+    },
+    {
+      "id": "Tracking Implants",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Tracking Implants",
+        "Base upkeep": "[Unity] 30",
+        "Effects": "[Intel encryption] +1 Encryption; [Mod planet crime add] −10 Crime on all planets; [Authoritarian] +25% Authoritarian ethics attraction; [Happiness] −10% Happiness",
+        "Requirements": "[Tech tracking implants] Tracking Implants technology; [Communications] Communications with another empire; [No][Gestalt consciousness] Gestalt Consciousness",
+        "Description": "Mandatory subdermal implants record movement and actions, greatly enhancing our empire's internal security. Loyal citizens have nothing to hide from the government."
+      }
+    },
+    {
+      "id": "Thought Enforcement",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Thought Enforcement",
+        "Base upkeep": "[Unity] 30",
+        "Effects": "[Intel encryption] +1 Encryption; [Job criminal] −0.3 Crime per Telepath; [Mod pop government ethic attraction] +25% Governing ethics attraction; [Happiness] −10% Happiness",
+        "Requirements": "[Tech thought enforcement] Thought Enforcement technology; [Communications] Communications with another empire; [No][Gestalt consciousness] Gestalt Consciousness",
+        "Description": "Telepaths monitoring the citizenry for incorrect thoughts will make corrections as they find them."
+      }
+    },
+    {
+      "id": "Thought Pre-Emption",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Thought Pre-Emption",
+        "Base upkeep": "[Unity] 30",
+        "Effects": "[Intel encryption] +1 Encryption; [Job criminal] −0.3 Deviancy per Telepath; [Upkeep] −10% Upkeep from jobs; [Mod planet stability] −5 Stability",
+        "Requirements": "[Tech thought enforcement] Thought Pre-Emption technology; [Communications] Communications with another empire; [Gestalt consciousness] Gestalt Consciousness",
+        "Description": "With additional study, our telepath drones could identify deviant impulses before they emerge as conscious thought, and correct these aberrations as necessary."
+      }
+    },
+    {
+      "id": "Bureau of Espionage",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Bureau of Espionage",
+        "Base upkeep": "[Unity] 20",
+        "Effects": "[Available envoys] +1 Available envoys; [Intel decryption] +2 Codebreaking; [Mod add base country intel] +10 Base intel level; [Spy network] +10 Maximum infiltration level",
+        "Requirements": "[Tech decryption 1] Quantum Hacking technology; [No][Gestalt consciousness] Gestalt Consciousness",
+        "Description": "Expanding our intelligence operations and prioritising decryption technologies is critical for the well-being of the empire."
+      }
+    },
+    {
+      "id": "Observation Instinct",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Observation Instinct",
+        "Base upkeep": "[Unity] 10",
+        "Effects": "[Available envoys] +1 Available envoys; [Intel decryption] +2 Codebreaking; [Mod add base country intel] +10 Base intel level; [Spy network] +10 Maximum infiltration level",
+        "Requirements": "[Tech decryption 1] Quantum Hacking technology; [Auth hive mind] Hive Mind authority; [Communications] Communications with another empire",
+        "Description": "Additional resources will be directed to nurturing and expanding our observation capabilities."
+      }
+    },
+    {
+      "id": "Covert Analysis Algorithm",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Covert Analysis Algorithm",
+        "Base upkeep": "[Unity] 20",
+        "Effects": "[Available envoys] +1 Available envoys; [Intel decryption] +2 Codebreaking; [Mod add base country intel] +10 Base intel level; [Spy network] +10 Maximum infiltration level",
+        "Requirements": "[Tech decryption 1] Quantum Hacking technology; [Auth machine intelligence] Machine Intelligence authority; [Communications] Communications with another empire",
+        "Description": "A substantial portion of processing will be diverted to investigative analysis."
+      }
+    },
+    {
+      "id": "Storm Attraction Field",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Storm Attraction Field",
+        "Base upkeep": "[Unity] 15",
+        "Effects": "[Feature] +15% Cosmic storm attraction effect",
+        "Requirements": "[Tech storm manipulation] Storm Manipulation technology; [No][Menu icon edicts] Storm Repulsion Field activated",
+        "Description": "Increases the efficiency of our storm attraction tech."
+      }
+    },
+    {
+      "id": "Storm Repulsion Field",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Storm Repulsion Field",
+        "Base upkeep": "[Unity] 15",
+        "Effects": "[Feature] +15% Cosmic storm repulsion effect",
+        "Requirements": "[Tech storm manipulation] Storm Manipulation technology; [No][Menu icon edicts] Storm Attraction Field activated",
+        "Description": "Increases the efficiency of our storm repulsion tech."
+      }
+    },
+    {
+      "id": "Hunker Down Protocols",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Hunker Down Protocols",
+        "Base upkeep": "[Unity] 15",
+        "Effects": "[Decision exploding planet] Automates the Hunker Down decision",
+        "Requirements": "[Tech advanced industrial storm protection] Planetary Storm Nullification technology",
+        "Description": "Any planet affected by a Cosmic Storm will initiate the Hunker Down planetary decision until the danger has passed."
+      }
+    },
+    {
+      "id": "Map the Stars",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Map the Stars",
+        "Base upkeep": "[Unity] 10",
+        "Effects": "[Mod ship science survey speed] +25% Survey speed; [Mod ship anomaly generation chance] +10% Anomaly discovery chance; [Mod planet sensor range mult] +1 Ship hyperlane detection range",
+        "Requirements": "[Discovery] Adopted the Discovery tradition tree",
+        "Description": "This Edict pushes for further galactic exploration, to bring light to the darkness and find what wonders lie beyond."
+      }
+    },
+    {
+      "id": "Diplomatic Grants",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Diplomatic Grants",
+        "Base upkeep": "[Unity] 10",
+        "Effects": "[Available envoys] +1 Available envoys; [Mod diplo weight mult] +10% Diplomatic weight",
+        "Requirements": "[Diplomacy] Adopted the Diplomacy tradition tree; [Communications] Communications with another empire",
+        "Description": "This Edict initiates a diplomatic offensive in a concentrated effort to improve the image of our empire in the eyes of others."
+      }
+    },
+    {
+      "id": "Industrial Maintenance",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Industrial Maintenance",
+        "Base upkeep": "[Unity] 10",
+        "Effects": "[Trade value] +1 Trade per 100 [Maintenance Drone] Maintenance Drones",
+        "Requirements": "[Synchronicity] Finished the Synchronicity tradition tree; [Auth machine intelligence] Machine Intelligence authority",
+        "Description": "Industrial maintenance drones are empowered to act as caretakers for the areas surrounding each district."
+      }
+    },
+    {
+      "id": "Research Subsidies",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Research Subsidies",
+        "Base upkeep": "[Unity] 30",
+        "Effects": "[Biologist] +10% Biologist job efficiency; [Engineer] +10% Engineer job efficiency; [Physicist] +10% Physicist job efficiency; [Trade value] +1 Trade upkeep per 100 Biologists; [Trade value] +1 Trade upkeep per 100 Engineers; [Trade value] +1 Trade upkeep per 100 Physicists",
+        "Requirements": "[Databank Uplinks] Databank Uplinks tradition",
+        "Description": "Knowledge is power. This Edict focuses our efforts on advancing technology."
+      }
+    },
+    {
+      "id": "Extended Shifts",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Extended Shifts",
+        "Base upkeep": "[Unity] 10",
+        "Effects": "[Mod pop bonus workforce mult] +10% Worker and Slave job efficiency; [Happiness] −10% Worker and Slave happiness",
+        "Requirements": "[Workplace Motivators] Workplace Motivators tradition",
+        "Description": "We must ask our workers to toil harder. Some blood, sweat and tears may be necessary for the Greater Good."
+      }
+    },
+    {
+      "id": "Drone Overdrive",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Drone Overdrive",
+        "Base upkeep": "[Unity] 10",
+        "Effects": "[Pop cat simple drone] +10% Menial drone job efficiency; [Mod pop amenities usage mult] +15% Pop amenities usage",
+        "Requirements": "[Drone Network] Drone Network tradition; [Gestalt consciousness] Gestalt Consciousness; [No][Origins wilderness] Wilderness",
+        "Description": "Our drones will be worked harder, as more resources are required."
+      }
+    },
+    {
+      "id": "Symbiont Overdrive",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Symbiont Overdrive",
+        "Base upkeep": "[Unity] 10",
+        "Effects": "[Pop cat simple drone] +10% Menial drone job efficiency; [Mod pop amenities usage mult] +15% Pop amenities usage",
+        "Requirements": "[Drone Network] Drone Network tradition; [Origins wilderness] Wilderness",
+        "Description": "Our biomes will be made more competitive, as more resources are required."
+      }
+    },
+    {
+      "id": "Enhanced Surveillance",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Enhanced Surveillance",
+        "Base upkeep": "[Unity] 20",
+        "Effects": "[Mod planet stability] +5 Stability; [Intel encryption] +1 Encryption; [Happiness] −10% Happiness; [Authoritarian] +25% Authoritarian ethics attraction",
+        "Requirements": "[Tradition domination judgment corps] Public Trust Officers tradition; [Communications] Communications with another empire; [No][Gestalt consciousness] Gestalt Consciousness",
+        "Description": "Terrible threats probe our defenses, waiting for us to lower our guard. Increased resources must be sent to internal covert security departments to protect ourselves."
+      }
+    },
+    {
+      "id": "Greater Than Ourselves",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Greater Than Ourselves",
+        "Base upkeep": "[Unity] 20",
+        "Effects": "[Mod planet resettlement unemployed mult] +200% Automatic resettlement chance",
+        "Requirements": "[The Greater Good] The Greater Good resolution 3; [Diplomacy restore community] Member of the Galactic Community",
+        "Description": "Encourages unemployed worker and simple drone pops to voluntarily resettle themselves to suitable planets with jobs and housing within our empire."
+      }
+    },
+    {
+      "id": "Evacuation Protocols",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Evacuation Protocols",
+        "Base upkeep": "[Unity] 10",
+        "Effects": "[Mod planet colony development speed] +100% Colony development speed; [Mod pop resettlement cost mult] −50% Resettlement cost",
+        "Requirements": "[Origins doomsday] Doomsday origin; [Pm exploding planet][Pm frame yellow] Homeworld hasn't exploded yet; [Colonist] Any colony",
+        "Description": "We must establish a new home and prepare to evacuate our homeworld."
+      }
+    },
+    {
+      "id": "Centrifugal Siphoning",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Centrifugal Siphoning",
+        "Base upkeep": "[Unity] 5",
+        "Effects": "[Living Metal] +0.25 Living metal per 100 Metallurgists; [Alloys] −1 Alloys per 100 Metallurgists",
+        "Requirements": "[Galvanic Synthesis][Biometallic Cartel][Galvanic Symbiosis][Galvanic Retrofitting] Galvanic Synthesis[Galvanic Synthesis] Galvanic Synthesis[Biometallic Cartel] Biometallic Cartel[Galvanic Symbiosis] Galvanic Symbiosis[Galvanic Retrofitting] Galvanic Retrofitting civic",
+        "Description": "Powerful centrifuges help partition liquid alloys such that they can be recomposed into Living Metal."
+      }
+    },
+    {
+      "id": "Subsidized Identity Backups",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Subsidized Identity Backups",
+        "Base upkeep": "[Unity] 25",
+        "Effects": "[Mod leader age] +20 Years leader lifespan; [Mod leader species exp gain] +10% Leader experience gain",
+        "Requirements": "[Navbar icons situation] Unlocked during stage 3 of Synthetization situation",
+        "Description": "The government provides the immense amount of server space required for continuous identity backups."
+      }
+    },
+    {
+      "id": "Optimized Identity Creation",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Optimized Identity Creation",
+        "Base upkeep": "[Unity] 25",
+        "Effects": "[Mod pop assembly speed] +10% Mechanical pop assembly speed",
+        "Requirements": "[Navbar icons situation] Unlocked during stage 4 of Synthetization situation",
+        "Description": "Advanced personality algorithms and core memory compression techniques improve our identity generation velocity."
+      }
+    },
+    {
+      "id": "Numistic Visualization",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Numistic Visualization",
+        "Base upkeep": "[Unity] 25",
+        "Effects": "[Mod consumer goods upkeep mult] −5% Pop consumer goods upkeep; [Statecraft research speed] +5% Statecraft research speed; [Trade value] +10% Monthly trade",
+        "Requirements": "[MegaCorp] Numistic Order caravan deal",
+        "Description": "The active use of Numistic visualization techniques will refocus our people's attention from personal gain to cosmic energy production. To achieve something, you must first visualize it."
+      }
+    },
+    {
+      "id": "Entropy Harnessing",
+      "section": "Unity edicts",
+      "data": {
+        "Edict": "Entropy Harnessing",
+        "Base upkeep": "[Unity] 5",
+        "Effects": "[Entropy crystals] +0.4 Crystallized entropy per 100 Technicians; [Energy Credits] −2.5 Energy per 100 Technicians",
+        "Requirements": "[Hyperthermia level 1] Galactic Hyperthermia crisis level 1",
+        "Description": "Integrating $entropy_crystals$ production into our infrastructure allows us to fully harness our technical prowess, and exploit this volatile new resource to its fullest potential."
+      }
+    },
+    {
+      "id": "Encourage Political Thought",
+      "section": "Ethic edicts",
+      "data": {
+        "Edict": "Encourage Political Thought",
+        "Base upkeep": "[Unity] 10",
+        "Effects": "[Mod pop ethics shift speed] +100% Ethics shift chance",
+        "Ethic": "[Egalitarian][Fanatic egalitarian] Egalitarian",
+        "Description": "This Edict encourages the populace to openly discuss political matters, even if the path taken may lead them astray."
+      }
+    },
+    {
+      "id": "Information Quarantine",
+      "section": "Ethic edicts",
+      "data": {
+        "Edict": "Information Quarantine",
+        "Base upkeep": "[Unity] 10",
+        "Effects": "[Mod planet stability add] +5 Stability; [Mod pop government ethic attraction] +25% Governing ethics attraction",
+        "Ethic": "[Authoritarian][Fanatic authoritarian] Authoritarian",
+        "Description": "This Edict puts strict checks on the flow of information, better preserving local cultural identities."
+      }
+    },
+    {
+      "id": "Peace Festivals",
+      "section": "Ethic edicts",
+      "data": {
+        "Edict": "Peace Festivals",
+        "Base upkeep": "[Unity] 10",
+        "Effects": "[Happiness] +5% Happiness; [Pacifist] +25% Pacifist ethic attraction",
+        "Ethic": "[Pacifist][Fanatic pacifist] Pacifist",
+        "Description": "This Pacifist Edict fosters a spirit of unity and good cheer through whole seasons filled with special events and festivals."
+      }
+    },
+    {
+      "id": "Veneration of Saints",
+      "section": "Ethic edicts",
+      "data": {
+        "Edict": "Veneration of Saints",
+        "Base upkeep": "[Unity] 10",
+        "Effects": "[Priest] +5% Priest job efficiency; [Spiritualist] +25% Spiritualist ethic attraction",
+        "Ethic": "[Spiritualist][Fanatic spiritualist] Spiritualist",
+        "Description": "Rather than focusing exclusively on this temporal world, we should provide our spiritual guides with whatever they need to prepare us for the next."
+      }
+    },
+    {
+      "id": "Land of Opportunity",
+      "section": "Ethic edicts",
+      "data": {
+        "Edict": "Land of Opportunity",
+        "Base upkeep": "[Unity] 20",
+        "Effects": "[Mod planet migration all pull] +50% Automatic resettlement destination chance",
+        "Ethic": "[Xenophile][Fanatic xenophile] Xenophile",
+        "Description": "This Edict creates targeted PR campaigns that frame our empire as being on the cutting edge, a new social frontier - a place where anyone can thrive, a fresh start."
+      }
+    },
+    {
+      "id": "Decentralized Research",
+      "section": "Civic edicts",
+      "data": {
+        "Edict": "Decentralized Research",
+        "Base upkeep": "[Unity] 10",
+        "Effects": "[Research] +100% Research station output; [Mod pop bonus workforce mult] −10% Researchers job efficiency",
+        "Civic": "[Galactic Curators][Antiquarian Expertise][Caretaker Network][Caretaker Network] Galactic Curators[Galactic Curators] Galactic Curators[Antiquarian Expertise] Antiquarian Expertise[Caretaker Network] Caretaker Network[Caretaker Network] Caretaker Network",
+        "Description": "The greatest knowledge lies external to our own civilization. By focusing on the greater whole of the galaxy, we can come to a more complete understanding of ourselves."
+      }
+    },
+    {
+      "id": "Galactic Dowsing",
+      "section": "Civic edicts",
+      "data": {
+        "Edict": "Galactic Dowsing",
+        "Base upkeep": "[Unity] 15",
+        "Effects": "[Unity] +0.25 Unity per 100 Spirit Mediums; [Unknown] +10% Chance to increase deposit size on survey",
+        "Civic": "[Superstitious Beliefs][Fortune Enterprise] Superstitious Beliefs[Superstitious Beliefs] Superstitious Beliefs[Fortune Enterprise] Fortune Enterprise",
+        "Description": "When prospectors add divinatory practices to their conventional geological analyses, they will discover richer veins of resources."
+      }
+    },
+    {
+      "id": "Energy Drain",
+      "section": "Civic edicts",
+      "data": {
+        "Edict": "Energy Drain",
+        "Base upkeep": "[Unity] 20",
+        "Effects": "[Mod leader age] Leaders never die of old age; [Mod pop growth speed] −40% Pop growth or assembly speed[Organic] [Mod pop growth speed] Pop growth speed[Machine] [Mod pop assembly speed] Mechanical pop assembly speed",
+        "Civic": "[Entropy Drinkers][Corporate Vampires][Parasitic Caste][Energy Extractors] Entropy Drinkers[Entropy Drinkers] Entropy Drinkers[Corporate Vampires] Corporate Vampires[Parasitic Caste] Parasitic Caste[Energy Extractors] Energy Extractors",
+        "Description": "The population is required to have essence harvesting implants installed and inspected on a regular basis. They must be capable of being activated at a moment's notice."
+      }
+    },
+    {
+      "id": "Convergence of Will",
+      "section": "Civic edicts",
+      "data": {
+        "Edict": "Convergence of Will",
+        "Base upkeep": "[Unity] 20",
+        "Effects": "[Leader skill levels] +2 Effective councilor skill; [Mod pop growth speed] −60% Pop growth or assembly speed[Organic] [Mod pop growth speed] Pop growth speed[Machine] [Mod pop assembly speed] Mechanical pop assembly speed",
+        "Civic": "[Entropy Drinkers][Corporate Vampires][Parasitic Caste][Energy Extractors] Entropy Drinkers[Entropy Drinkers] Entropy Drinkers[Corporate Vampires] Corporate Vampires[Parasitic Caste] Parasitic Caste[Energy Extractors] Energy Extractors",
+        "Description": "With significant mental effort, we can awaken even greater power within our leaders."
+      }
+    },
+    {
+      "id": "Sanguine Council",
+      "section": "Civic edicts",
+      "data": {
+        "Edict": "Sanguine Council",
+        "Base upkeep": "[Unity] 10",
+        "Effects": "[Mod council agenda progress speed] +25% Council agenda speed; [Mod pop growth speed] −20% Pop growth or assembly speed[Organic] [Mod pop growth speed] Pop growth speed[Machine] [Mod pop assembly speed] Mechanical pop assembly speed",
+        "Civic": "[Entropy Drinkers][Corporate Vampires][Parasitic Caste][Energy Extractors] Entropy Drinkers[Entropy Drinkers] Entropy Drinkers[Corporate Vampires] Corporate Vampires[Parasitic Caste] Parasitic Caste[Energy Extractors] Energy Extractors",
+        "Description": "Regular fluid tests are mandated for the whole population, through which vital energy is extracted for the benefit of the empire's governing council."
+      }
+    },
+    {
+      "id": "Nexus Charge",
+      "section": "Civic edicts",
+      "data": {
+        "Edict": "Nexus Charge",
+        "Base upkeep": "[Unity] 10",
+        "Effects": "[Mod council agenda progress speed] +25% Council agenda speed; [Mod pop assembly speed] −20% Mechanical pop assembly speed",
+        "Civic": "[Civic machine entropy drinkers] Energy Extractors",
+        "Description": "Regular fluid tests are mandated for the whole population, through which vital energy is extracted for the benefit of the empire's governing council."
+      }
+    },
+    {
+      "id": "A Grand Fleet",
+      "section": "Ambitions",
+      "data": {
+        "Edict": "A Grand Fleet",
+        "Effects": "[Mod navy size add] +20% Naval capacity; [Influence] +0.25 Max influence from power projection",
+        "Description": "Our galactic ambitions require that the construction of A Grand Fleet must be our primary goal."
+      }
+    },
+    {
+      "id": "Desperate Measures",
+      "section": "Ambitions",
+      "data": {
+        "Edict": "Desperate Measures",
+        "Effects": "[Mod ship build speed mult] +100% Ship build speed during a defensive war; [Mod ship fire rate mult] +40% Home territory fire rate",
+        "Description": "The cornered animal is indeed the most dangerous, as our enemies will soon find out. No effort must be spared to ensure our continued survival."
+      }
+    },
+    {
+      "id": "Fortress Proclamation",
+      "section": "Ambitions",
+      "data": {
+        "Edict": "Fortress Proclamation",
+        "Effects": "[Mod starbase upgrade time mult] +100% Starbase upgrade speed; [Mod starbase upgrade time mult] +100% Defense Platform build speed",
+        "Description": "Our frontiers shall be an unassailable line, and they will convey a clear message to our most ambitious neighbors - this far, no further!"
+      }
+    },
+    {
+      "id": "Omnifarious Acquisition",
+      "section": "Ambitions",
+      "data": {
+        "Edict": "Omnifarious Acquisition",
+        "Effects": "[Minerals] +25% Monthly minerals",
+        "Description": "Everything that can be spared will be recycled and used. Our ambitions require all the resources we can possibly find."
+      }
+    },
+    {
+      "id": "Scientific Revolution",
+      "section": "Ambitions",
+      "data": {
+        "Edict": "Scientific Revolution",
+        "Effects": "[Mod num tech alternatives add] +1 Research alternatives; [Mod pop bonus workforce mult] +10% Researcher job efficiency",
+        "Description": "A brief yet highly productive golden age of scientific discovery. The combination of fearlessness, ingenuity and unbridled optimism can take you far."
+      }
+    },
+    {
+      "id": "Will to Power",
+      "section": "Ambitions",
+      "data": {
+        "Edict": "Will to Power",
+        "Effects": "[Monthly influence] +5 Monthly influence",
+        "Description": "As power is simply the ability to impose one's will on others, the will to power is a self-fulfilling prophecy."
+      }
+    },
+    {
+      "id": "Hearts and Minds",
+      "section": "Ambitions",
+      "data": {
+        "Edict": "Hearts and Minds",
+        "Effects": "[Mod pop government ethic attraction] +100% Governing ethics attraction; [Mod pop ethics shift speed] +100% Ethics shift chance",
+        "Requirements": "[No][Gestalt consciousness] Gestalt Consciousness",
+        "Description": "A concentrated propaganda effort to make the populace understand the merits of the government's position. Ultimately, it is for their own good."
+      }
+    },
+    {
+      "id": "Architectural Renaissance",
+      "section": "Ambitions",
+      "data": {
+        "Edict": "Architectural Renaissance",
+        "Effects": "[Mod megastructure build speed] +1 Megastructure build capacity; [Mod megastructure build speed] +50% Megastructure build speed; [Mod planet building build speed mult] +100% Planetary infrastructure build speed",
+        "Requirements": "[Tech mega engineering] Mega Engineering technology",
+        "Description": "It is construction on a scale that previous generations could only dream of. Megastructures may well become the true legacy of our civilization."
+      }
+    },
+    {
+      "id": "Extensive Sensor Searches",
+      "section": "Anomaly edicts",
+      "data": {
+        "Edict": "Extensive Sensor Searches",
+        "Base upkeep": "[Unity] 25",
+        "Effects": "[Mod planet sensor range mult] +1 Sensor range; [Mod planet sensor range mult] +2 Ship hyperlane detection range",
+        "Anomaly": "Arid and Abandoned",
+        "Description": "After having researched advanced sensor technology we have enough information to pour extra resources into enhancing our own search scans. Our technicians would have an easier time finding objects of interest at the edge of our systems with this initiative."
+      }
+    },
+    {
+      "id": "Improved Energy Initiative",
+      "section": "Anomaly edicts",
+      "data": {
+        "Edict": "Improved Energy Initiative",
+        "Base upkeep": "[Unity] 25",
+        "Effects": "[Mod consumer goods upkeep mult] −5% Pop consumer goods upkeep; [Industry research speed] +5% Industry research speed; [Materials research speed] +5% Materials research speed",
+        "Anomaly": "Toxicity",
+        "Description": "We can further limit the use of toxic fuels and non-renewable resources in order to promote research into new methods of energy production. This could help us come closer to a perfect energy cycle and improve the environment for our people to enjoy."
+      }
+    },
+    {
+      "id": "Improved Working Environment",
+      "section": "Anomaly edicts",
+      "data": {
+        "Edict": "Improved Working Environment",
+        "Base upkeep": "[Unity] 25",
+        "Effects": "[Happiness] +5% Happiness; [Biology research speed] +5% Biology research speed; [Statecraft research speed] +5% Statecraft research speed",
+        "Anomaly": "Drops in the Ocean",
+        "Description": "Spending time and resources to improve the working conditions of our people will surely result in better results and happier workers."
+      }
+    },
+    {
+      "id": "Master's Teachings: Diplomatic Trust",
+      "section": "Anomaly edicts",
+      "data": {
+        "Edict": "Master's Teachings: Diplomatic Trust",
+        "Base upkeep": "[Unity] 20",
+        "Effects": "[Trust growth] +100% Trust growth",
+        "Anomaly": "Continental Findings",
+        "Description": "Translations of an alien philosopher's teachings. Her anecdotes from diplomatic negotiations could act as a good base for diplomatic negotiations."
+      }
+    },
+    {
+      "id": "Master's Teachings: Philosophical Mindset",
+      "section": "Anomaly edicts",
+      "data": {
+        "Edict": "Master's Teachings: Philosophical Mindset",
+        "Base upkeep": "[Unity] 20",
+        "Effects": "[Leader pool size] +1 Recruitable leaders per class; [Society research speed] +5% Society research speed",
+        "Anomaly": "Cold Hard Potential",
+        "Description": "Translations of an alien philosopher's teachings. It contains several analysis and ponderings on the meaning of life and the purpose of the cosmos. By having our rulers follow these advice we can make more informed decisions."
+      }
+    },
+    {
+      "id": "Master's Teachings: The Greater Good",
+      "section": "Anomaly edicts",
+      "data": {
+        "Edict": "Master's Teachings: The Greater Good",
+        "Base upkeep": "[Unity] 20",
+        "Effects": "[Mod planet building cost mult] −10% Planetary infrastructure cost; [Mod planet building build speed mult] +10% Planetary infrastructure build speed",
+        "Anomaly": "Buried in the Sand",
+        "Description": "Translations of an alien philosopher's teachings. By following her advice on how to unify the people via self-sacrifice we could make great strides in infrastructure."
+      }
+    },
+    {
+      "id": "Master's Teachings: Warring States",
+      "section": "Anomaly edicts",
+      "data": {
+        "Edict": "Master's Teachings: Warring States",
+        "Base upkeep": "[Unity] 20",
+        "Effects": "[Mod navy size add] +10% Naval capacity; [Mod army upkeep mult] −15% Army upkeep",
+        "Anomaly": "A Feel for Steel",
+        "Description": "Translations of an alien philosopher's teachings. Her depictions of war and ideas on combat strategy could make for excellent training material for our military."
+      }
+    },
+    {
+      "id": "Networked Dominance",
+      "section": "Network edicts",
+      "data": {
+        "Edict": "Networked Dominance",
+        "Hyper Relay upkeep": "[Exotic gases] +0.1 Exotic Gases",
+        "Hyper Relay network bonus": "[Mod planet stability add] +2 Stability",
+        "Required technology": "[Galactic Bureaucracy] Galactic Bureaucracy",
+        "Description": "The Relay Network can be used to more effectively impose our will over our colonies."
+      }
+    },
+    {
+      "id": "Networked Movement",
+      "section": "Network edicts",
+      "data": {
+        "Edict": "Networked Movement",
+        "Hyper Relay upkeep": "[Volatile motes] +0.1 Volatile Motes",
+        "Hyper Relay network bonus": "[Mod pop resettlement cost mult] −25% Resettlement cost; [Mod planet resettlement unemployed mult] +50% Automatic resettlement chance",
+        "Required technology": "[Galactic Bureaucracy] Galactic Bureaucracy",
+        "Description": "The Relay Network can be enhanced with regular shuttle flights to encourage the internal migration of pops."
+      }
+    },
+    {
+      "id": "Networked Amenities",
+      "section": "Network edicts",
+      "data": {
+        "Edict": "Networked Amenities",
+        "Hyper Relay upkeep": "[Rare crystals] +0.1 Rare Crystals",
+        "Hyper Relay network bonus": "[Mod pop amenities usage mult] −10% Pop amenities usage",
+        "Required technology": "[Artificial Moral Codes] Artificial Moral Codes or [Tech unity of purpose] Unity of Purpose",
+        "Description": "Connecting the Relay Network to our logistics and supply chains improves the efficiency of maintenance operations."
+      }
+    },
+    {
+      "id": "Beasts of Burden",
+      "section": "Primal stance edicts",
+      "data": {
+        "Edict": "Beasts of Burden",
+        "Effects": "[Farmer] +10% Farmer job efficiency; [Pop cat slave] +5% Slave job efficiency; [Pop cat worker] +5% Worker pop resource output",
+        "Stance": "Rancher",
+        "Description": "Our hardiest livestock should do their part in some of our most labor-intensive duties."
+      }
+    },
+    {
+      "id": "Crack the Whip",
+      "section": "Primal stance edicts",
+      "data": {
+        "Edict": "Crack the Whip",
+        "Effects": "[Mod ship fire rate mult] +15% Space fauna fire rate",
+        "Stance": "Trophy Hunter",
+        "Description": "No matter the species, every organism has a similar response to pain. The trick is learning how to inflict it correctly."
+      }
+    },
+    {
+      "id": "Creature Welfare",
+      "section": "Primal stance edicts",
+      "data": {
+        "Edict": "Creature Welfare",
+        "Effects": "[Health] +15% Space fauna hull",
+        "Stance": "Animal Handler",
+        "Description": "It is our responsibility to ensure the highest quality of life for the creatures within our care."
+      }
+    },
+    {
+      "id": "Space Fauna Exhibition",
+      "section": "Primal stance edicts",
+      "data": {
+        "Edict": "Space Fauna Exhibition",
+        "Effects": "[Amenities] +10% Amenities",
+        "Stance": "Wrangler",
+        "Description": "Ranchers from across the galaxy exhibit their prized livestock and compete for the coveted \"Best in Show\"."
+      }
+    },
+    {
+      "id": "Biological Overdrive",
+      "section": "Primal stance edicts",
+      "data": {
+        "Edict": "Biological Overdrive",
+        "Effects": "[Mod ship fire rate mult] +15% Space fauna fire rate",
+        "Stance": "Hunter Killers",
+        "Description": "Our lesser creatures can be pushed to their absolute limits with the proper neural receptors installed."
+      }
+    },
+    {
+      "id": "Exotic Neural Network",
+      "section": "Primal stance edicts",
+      "data": {
+        "Edict": "Exotic Neural Network",
+        "Effects": "[Mod country all tech research speed] +5% Research speed",
+        "Stance": "Wild Consciousness",
+        "Description": "The minds on the lesser organisms in our care are of sufficient capacity to lend bandwidth in more demanding calculations."
+      }
+    },
+    {
+      "id": "Self-Preservation Instincts",
+      "section": "Primal stance edicts",
+      "data": {
+        "Edict": "Self-Preservation Instincts",
+        "Effects": "[Health] +15% Space fauna hull",
+        "Stance": "Symbiotic Partnership",
+        "Description": "We are as one. Let our instincts entwins in the cold of deep space."
+      }
+    },
+    {
+      "id": "Legislative Chorus",
+      "section": "Cybernetic authority edicts",
+      "data": {
+        "Edict": "Legislative Chorus",
+        "Effects": "[Mod council agenda progress speed] +25% Council agenda speed; [Time] +25% Council agenda effect duration; [Time] Can't be canceled for 15 years",
+        "Cybernetic authority": "[Democratic Concurrency] Democratic Concurrency",
+        "Description": "The cacophony of the individualized voting streams is divided into manageable data chunks, significantly improving response speed."
+      }
+    },
+    {
+      "id": "Self-Preservation Override",
+      "section": "Cybernetic authority edicts",
+      "data": {
+        "Edict": "Self-Preservation Override",
+        "Effects": "[Mod pop bonus workforce mult] +20% Job efficiency for cybernetic pops; [Mod pop growth speed] −10% Pop growth speed",
+        "Cybernetic authority": "[Democratic Interlink] Democratic Interlink",
+        "Description": "By remotely disabling the threat response mechanisms of the brain, enhanced citizens accept riskier work assignments."
+      }
+    },
+    {
+      "id": "Battle Royale",
+      "section": "Cybernetic authority edicts",
+      "data": {
+        "Edict": "Battle Royale",
+        "Effects": "[Mod pop bonus workforce mult] +15% Specialist and Worker job efficiency; [Happiness] −15% Specialist and Worker happiness",
+        "Cybernetic authority": "[Oligarchic Overclocking] Oligarchic Overclocking",
+        "Description": "Activate a gamified quota interface to entice specialists and workers to compete for promotions and performance badges. The nature of the endless grind partially offsets the increase in productivity."
+      }
+    },
+    {
+      "id": "Stately Acclaim",
+      "section": "Cybernetic authority edicts",
+      "data": {
+        "Edict": "Stately Acclaim",
+        "Effects": "[Mod pop ethics shift speed] +50% Extorted faction ethics attraction; [Mod faction approval] +30% Extorted faction approval",
+        "Cybernetic authority": "[Oligarchic Sleepwork] Oligarchic Sleepwork",
+        "Description": "The oligarchy highlights the incredible efforts of the currently exploited faction, increasing their approval and attraction. This fleeting fame can also lead to increased social mobility."
+      }
+    },
+    {
+      "id": "Self-Indictment Protocol",
+      "section": "Cybernetic authority edicts",
+      "data": {
+        "Edict": "Self-Indictment Protocol",
+        "Effects": "[Job criminal] −30 Crime; [Mod planet stability] +4 Stability; [Happiness] +15% Cybernetic happiness",
+        "Cybernetic authority": "[Dictatorial Cybervision] Dictatorial Cybervision",
+        "Description": "Enables a hidden personal implant feature which uses heuristic live feed analysis to detect and report crimes without requiring the owner's consent."
+      }
+    },
+    {
+      "id": "Love Letter Virus",
+      "section": "Cybernetic authority edicts",
+      "data": {
+        "Edict": "Love Letter Virus",
+        "Effects": "[Mod planet resettlement unemployed mult] +100% Automatic resettlement chance; [Mod pop resettlement cost mult] −15% Resettlement cost; [Happiness] +15% Cybernetic happiness",
+        "Cybernetic authority": "[Dictatorial Alignment] Dictatorial Alignment",
+        "Description": "Triggers implants to produce more pheromones and other chemicals in order to coax more \"amorous\" behavior towards other people in different parts of the empire."
+      }
+    },
+    {
+      "id": "Levied Experience",
+      "section": "Cybernetic authority edicts",
+      "data": {
+        "Edict": "Levied Experience",
+        "Effects": "[Mod leader negative traits add] −1 Leader maximum negative traits; [Galactic Paragons] +1 Additional leader trait options",
+        "Cybernetic authority": "[Imperial Chipset] Imperial Chipset",
+        "Description": "By extracting our population's knowledge using cybernetics, we can improve our leader's experience without wasting their time with menial tasks."
+      }
+    },
+    {
+      "id": "Neurocasted Spectacles",
+      "section": "Cybernetic authority edicts",
+      "data": {
+        "Edict": "Neurocasted Spectacles",
+        "Effects": "[Happiness] +10% Happiness outside the empire capital; [Housing] +5000 Housing from Cyberdome buildings; [Mod planet migration all pull] +25% Automatic resettlement destination chance from Cyberdome buildings; [Upkeep] −10% Pop upkeep from Cyberdome buildings; [Grid Amalgamated] +1 Spectator jobs per 10 pops from Cyberdome buildings; [Duelist] +1 Hyper-Gladiator jobs per 20 pops from Cyberdome buildings; [Time] Can't be canceled for a year; [cyberdome] Requires a Cyberdome building on the capital world",
+        "Cybernetic authority": "[Imperial Network] Imperial Network",
+        "Description": "By neurocasting the brutal sport spectacles of the capital's Cyberdome directly to the cyberbrain, people flock to the capital. With their bodies safe in pods, spectators share the gladiators' experiences in first-person. A year of games!"
+      }
+    },
+    {
+      "id": "Customer Insights",
+      "section": "Cybernetic authority edicts",
+      "data": {
+        "Edict": "Customer Insights",
+        "Effects": "[Trade value] +10% Branch office value; [Trade value] −25% Branch office cost",
+        "Cybernetic authority": "[Corporate Neurocommerce] Corporate Neurocommerce",
+        "Description": "Extensively networked surveys and real-time data analysis enable us to gauge and react to market shifts faster than ever before. Resources are diverted to features and products with the highest profit potential."
+      }
+    },
+    {
+      "id": "Rolling Updates",
+      "section": "Cybernetic authority edicts",
+      "data": {
+        "Edict": "Rolling Updates",
+        "Effects": "[Intel encryption] +1 Encryption; [Intel decryption] +1 Codebreaking; [Mod consumer goods upkeep mult] −15% Pop consumer goods upkeep",
+        "Cybernetic authority": "[Corporate Kaizen] Corporate Kaizen",
+        "Description": "Automated and user-independent deployment of implant updates removes the need for monolithic infrastructure. This also keeps us one step ahead of hostile cyber-incursions."
+      }
+    },
+    {
+      "id": "Hive Mind Outreach",
+      "section": "Cybernetic authority edicts",
+      "data": {
+        "Edict": "Hive Mind Outreach",
+        "Effects": "[Mod ship speed mult] +15% Sublight speed; [Influence] −50% Diplomatic agreements influence upkeep",
+        "Cybernetic authority": "[Volitional Hive] Volitional Hive",
+        "Description": "The will of a determined mind moves faster than the speed of light."
+      }
+    },
+    {
+      "id": "Hyper-Stimulants",
+      "section": "Cybernetic authority edicts",
+      "data": {
+        "Edict": "Hyper-Stimulants",
+        "Effects": "[Mod ship evasion mult] +10% Evasion; [Pop cat simple drone] +25% Menial drone job efficiency; [Pop cat complex drone] −10% Complex drone job efficiency",
+        "Cybernetic authority": "[Integrated Hive] Integrated Hive",
+        "Description": "Cybernetic implants automatically administer boosting drugs to our drones, increasing performance."
+      }
+    },
+    {
+      "id": "Integrated Mega-Construction",
+      "section": "Cybernetic authority edicts",
+      "data": {
+        "Edict": "Integrated Mega-Construction",
+        "Effects": "[Mod megastructure build speed] +50% Megastructure build speed; [Time] Can't be canceled for 15 years",
+        "Cybernetic authority": "[Integrated Hive] Integrated Hive; [Volitional Hive] Volitional Hive",
+        "Description": "This Edict allocates additional resources to our Mega-Engineering program, speeding up the construction of new galactic structures"
+      }
+    },
+    {
+      "id": "Aggregated Memory",
+      "section": "Cybernetic authority edicts",
+      "data": {
+        "Edict": "Aggregated Memory",
+        "Effects": "[Mod council agenda progress speed] +15% Council agenda speed; [Mod leader species exp gain] +10% Councilor experience gain",
+        "Cybernetic authority": "[Memory Aggregator] Memory Aggregator",
+        "Description": "The memories of our assimilated population cascade like a rushing torrent. Their collective experience is ours to wield."
+      }
+    },
+    {
+      "id": "Choral Harmony",
+      "section": "Cybernetic authority edicts",
+      "data": {
+        "Edict": "Choral Harmony",
+        "Effects": "[Mod pop bonus workforce mult] +10% Job efficiency from Cybernetic pops",
+        "Cybernetic authority": "[Neural Chorus] Neural Chorus",
+        "Description": "To compose a song, there must be harmony; let the minds of our assimilated population be unified."
+      }
+    },
+    {
+      "id": "A Virtuous Hammering",
+      "section": "Conclave of Fusion edicts",
+      "data": {
+        "Edict": "A Virtuous Hammering",
+        "Effects": "[Mod planet building build speed mult] +25% Planetary Infrastructure Build Speed; [Metallurgist] +10% Metallurgist Job Efficiency; [Artisan] +10% Artisan Job Efficiency",
+        "Faction": "[Mod cyber creed construction] The Fellowship of the Hammer",
+        "Description": "For a divine society, we must fully back the Fellowship of the Hammer, whose work is key to building a future that merits the divine."
+      }
+    },
+    {
+      "id": "The Crusade of Steel",
+      "section": "Conclave of Fusion edicts",
+      "data": {
+        "Edict": "The Crusade of Steel",
+        "Effects": "[Mod navy size add] +10% Naval capacity; [Mod ship fire rate mult] +10% Ship Fire Rate; [Mod army damage mult] +10% Assault Army Damage",
+        "Faction": "[Mod cyber creed war] The Templars of Steel",
+        "Description": "To guard against fiends attacking our divine flesh, we must fully support the Templars of Steel, ensuring our warriors are always prepared."
+      }
+    },
+    {
+      "id": "The Labored Masses",
+      "section": "Conclave of Fusion edicts",
+      "data": {
+        "Edict": "The Labored Masses",
+        "Effects": "[Pop cat worker] +20% Worker Pop Resource Output; [Upkeep] −10% Upkeep from Jobs",
+        "Faction": "[Mod cyber creed labor] The Commune of Toil",
+        "Description": "Our true strength lies in our laborers. If we do not have the strength to lift them up, then they will not have the strength to carry us to the future."
+      }
+    },
+    {
+      "id": "The Song of Knowledge",
+      "section": "Conclave of Fusion edicts",
+      "data": {
+        "Edict": "The Song of Knowledge",
+        "Effects": "[Mod num tech alternatives add] +1 Research Alternatives; [Mod pop bonus workforce mult] +10% Researchers job efficiency",
+        "Faction": "[Mod cyber creed research] The Choir of the Mind",
+        "Description": "Only through a vibrant song of knowledge shall our people ever truly know the divine. We must support our wise Choir of the Mind in all their endeavors."
+      }
+    },
+    {
+      "id": "Lessons of Harmony",
+      "section": "Conclave of Fusion edicts",
+      "data": {
+        "Edict": "Lessons of Harmony",
+        "Effects": "[Mod pop bonus workforce mult] +10% Job Efficiency for Cybernetic pops; [Happiness] +10% Happiness; [Mod planet stability] +2 Stability",
+        "Faction": "[Mod cyber creed creedless] The United Creeds",
+        "Description": "Unifying the Church brought many lessons. It's made our faith stronger and more contemplative than ever."
+      }
+    },
+    {
+      "id": "Animatus",
+      "section": "Minor patron edicts",
+      "data": {
+        "Edict": "Animatus",
+        "Effects": "[Mod ship hull regen] +0.5% Daily Hull Regen; [Mod ship hull regen] +0.5% Daily Armor Regen; [Evasion] +10% Evasion Chance; [Mod ship fire rate mult] +10% Ship Fire Rate",
+        "Base upkeep": "[Zro] 5",
+        "Minor patron": "[The animator of clay] Animator of Clay",
+        "Description": "The Animator of Clay sparks new life within our fleets; it is as if they have wills of their own."
+      }
+    },
+    {
+      "id": "Will of Rebirth",
+      "section": "Minor patron edicts",
+      "data": {
+        "Edict": "Will of Rebirth",
+        "Effects": "[Mod ship hull regen] +5% Daily Hull Regen; [Mod ship hull regen] +5% Daily Armor Regen; [Mod ship hitpoints add] +5% Ship Hull Points; [Mod ship armor mult] +5% Ship Armor Points",
+        "Base upkeep": "[Zro] 5",
+        "Minor patron": "[The pale mountain] Pale Mountain",
+        "Description": "The Pale Mountain makes, so that it may unmake."
+      }
+    },
+    {
+      "id": "Will of Distraction",
+      "section": "Minor patron edicts",
+      "data": {
+        "Edict": "Will of Distraction",
+        "Effects": "[Mod planet stability] +2 Stability; [Happiness] +5% Happiness",
+        "Base upkeep": "[Zro] 1",
+        "Minor patron": "[The golden dream] Golden Dream",
+        "Description": "The Golden Dream reveals to us ascended forms of leisure."
+      }
+    },
+    {
+      "id": "Will of Endless",
+      "section": "Minor patron edicts",
+      "data": {
+        "Edict": "Will of Endless",
+        "Effects": "[Mod leader age] +25% Leader Lifespan",
+        "Base upkeep": "[Zro] 5",
+        "Minor patron": "[The endless tide] Endless Tide",
+        "Description": "The Endless Tide enhances our perspectives on time itself."
+      }
+    },
+    {
+      "id": "Will of Motion",
+      "section": "Minor patron edicts",
+      "data": {
+        "Edict": "Will of Motion",
+        "Effects": "[Mod ship speed mult] +25% Sublight Speed",
+        "Base upkeep": "[Zro] 5",
+        "Minor patron": "[The black river] Black River",
+        "Description": "The velocity of the Black River sweeps us along the void."
+      }
+    },
+    {
+      "id": "Will of Temperance",
+      "section": "Minor patron edicts",
+      "data": {
+        "Edict": "Will of Temperance",
+        "Effects": "[Mod planet sensor range mult] +2 Sensor Range",
+        "Base upkeep": "[Zro] 1",
+        "Minor patron": "[The outsider] Outsider",
+        "Description": "The will of the Outsider alerts us to the dangers lurking ahead."
+      }
+    },
+    {
+      "id": "Will of Order",
+      "section": "Minor patron edicts",
+      "data": {
+        "Edict": "Will of Order",
+        "Effects": "[Mod pop government ethic attraction] +50% Governing Ethics Attraction if individualist; [Job criminal] −30 Deviancy if Gestalt Consciousness",
+        "Base upkeep": "[Zro] 1",
+        "Minor patron": "[The vacant throne] Vacant Throne",
+        "Description": "The Vacant Throne knows the order of all things."
+      }
+    },
+    {
+      "id": "Terraforming Gases",
+      "section": "Strategic resources edicts",
+      "data": {
+        "Edict": "Terraforming Gases",
+        "Base cost": "[Exotic gases] 0.5 Exotic Gases",
+        "Effects": "[Mod country terraforming speed] +50% Terraforming speed",
+        "Requirements": "[Tech terrestrial sculpting] Terrestrial Sculpting technology",
+        "Description": "By employing exotic gases to the terraforming process, we are able to achieve progress at a much faster rate."
+      }
+    },
+    {
+      "id": "Crystalline Sensors",
+      "section": "Strategic resources edicts",
+      "data": {
+        "Edict": "Crystalline Sensors",
+        "Base cost": "[Rare crystals] 0.5 Rare Crystals",
+        "Effects": "[Mod planet sensor range mult] +1 Sensor range",
+        "Description": "By employing rare crystals to boost our sensors, we are able to gain a crystal clear picture of our surroundings."
+      }
+    },
+    {
+      "id": "Volatile Land Clearance",
+      "section": "Strategic resources edicts",
+      "data": {
+        "Edict": "Volatile Land Clearance",
+        "Base cost": "[Volatile motes] 0.5 Volatile Motes",
+        "Effects": "[Mod planet clear blocker cost mult] −25% Clear blocker cost; [Mod planet clear blocker speed mult] +25% Clear blocker speed",
+        "Description": "By using volatile motes for their explosive capabilities, we are able to clear difficult terrain at a much faster rate."
+      }
+    },
+    {
+      "id": "Exotic Gases as Fuel",
+      "section": "Strategic resources edicts",
+      "data": {
+        "Edict": "Exotic Gases as Fuel",
+        "Base cost": "[Exotic gases] 1 Exotic Gases",
+        "Effects": "[Mod ship speed mult] +15% Sublight speed",
+        "Description": "Various exotic gases also function as excellent fuel for sublight travel, although perhaps not the most economical alternative."
+      }
+    },
+    {
+      "id": "Exotic Gases for Shield Boost",
+      "section": "Strategic resources edicts",
+      "data": {
+        "Edict": "Exotic Gases for Shield Boost",
+        "Base cost": "[Exotic gases] 1 Exotic Gases",
+        "Effects": "[Shield] +25% Shield hit points; [Shield] +10% Shield hardening",
+        "Description": "Some exotic gases can be utilized for boosting ships' shield capabilities. They can create complex dampening fields to repel and soften enemy attacks."
+      }
+    },
+    {
+      "id": "Focusing Crystals",
+      "section": "Strategic resources edicts",
+      "data": {
+        "Edict": "Focusing Crystals",
+        "Base cost": "[Rare crystals] 1 Rare Crystals",
+        "Effects": "[Combat stat damage energy] +25% Energy weapon damage",
+        "Description": "By increasing our ships' access to rare crystals, we are able to increase the damage of their energy weapons."
+      }
+    },
+    {
+      "id": "Volatile Ammunition",
+      "section": "Strategic resources edicts",
+      "data": {
+        "Edict": "Volatile Ammunition",
+        "Base cost": "[Volatile motes] 1 Volatile Motes",
+        "Effects": "[Combat stat damage kinetic] +25% Kinetic weapon damage",
+        "Description": "We are able to deploy volatile motes as an explosive in our ships' ammunition."
+      }
+    },
+    {
+      "id": "Volatile Explosives",
+      "section": "Strategic resources edicts",
+      "data": {
+        "Edict": "Volatile Explosives",
+        "Base cost": "[Volatile motes] 1 Volatile Motes",
+        "Effects": "[Combat stat damage explosive] +25% Explosive weapon damage",
+        "Description": "By using volatile motes to construct specialized missiles, our ships will have greater destructive capabilities."
+      }
+    },
+    {
+      "id": "Volatile Reactive Armor",
+      "section": "Strategic resources edicts",
+      "data": {
+        "Edict": "Volatile Reactive Armor",
+        "Base cost": "[Volatile motes] 1 Volatile Motes",
+        "Effects": "[Armor] +10% Armor hit points; [Armor] +25% Armor hardening",
+        "Description": "By enhancing our ships' armor with a reactive component, our ships are able to absorb more damage by reducing incoming damage in a controlled counter-explosion."
+      }
+    },
+    {
+      "id": "Living Metal Mega-Construction",
+      "section": "Strategic resources edicts",
+      "data": {
+        "Edict": "Living Metal Mega-Construction",
+        "Base cost": "[Living Metal] 0.5 Living Metal",
+        "Effects": "[Mod megastructure build speed] +50% Megastructure build speed",
+        "Requirements": "[Living Metal] Living Metal technology; [Yes] Own or can build any megastructure",
+        "Description": "The inherent properties of living metal makes it perfect for improving megastructure construction."
+      }
+    },
+    {
+      "id": "Nanite Actuators",
+      "section": "Strategic resources edicts",
+      "data": {
+        "Edict": "Nanite Actuators",
+        "Base cost": "[Nanites] 2 Nanites",
+        "Effects": "[Mod country all tech research speed] +10% Research speed; [Upkeep] +10% Researchers upkeep",
+        "Description": "Simple but powerful nanoactuators, allowing for complex manipulations and experiments at mesoscopic scales."
+      }
+    },
+    {
+      "id": "Sight Beyond Sight",
+      "section": "Strategic resources edicts",
+      "data": {
+        "Edict": "Sight Beyond Sight",
+        "Base cost": "[Zro] 0.5 Zro",
+        "Effects": "[Mod planet sensor range mult] +1 Sensor range; [Time] −15% Hyper jump charge time; [Time] −15% Hyper jump cooldown; [Time] −15% Jump drive cooldown; [Overlord] +15% Quantum Catapult accuracy",
+        "Requirements": "[Tradition psionics mind readers] Mind Readers tradition",
+        "Description": "Microdosing Zro allows our navigators to sense objects beyond the reach of our scanners."
+      }
+    },
+    {
+      "id": "Zro Addatives",
+      "section": "Strategic resources edicts",
+      "data": {
+        "Edict": "Zro Additives",
+        "Base cost": "[Zro] 0.25 Zro; [Unity] 15 Unity",
+        "Effects": "[Mod leader species exp gain] +25% Leader experience gain; [Mod leader age] +30 Years leader lifespan if biological",
+        "Requirements": "[R zro crystal] Psionic Archive relic",
+        "Description": "The properties of Zro are mysterious. Yet if given to our leaders, it seems they obtain slight precognitive abilities, allowing them to learn faster and avoid dangers that could have ended their lives early."
+      }
+    },
+    {
+      "id": "Zro Catalysis",
+      "section": "Strategic resources edicts",
+      "data": {
+        "Edict": "Zro Catalysis",
+        "Base cost": "[Zro] 0.5 Zro",
+        "Effects": "[Mod pop bonus workforce mult] +10% Job efficiency for Psionic pops",
+        "Requirements": "[Federation spiritualist] Holy Covenant federation level 5",
+        "Description": "Among the many mysterious properties of Zro is the ability to significantly increase the capabilities of psionic beings imbibing it."
+      }
+    },
+    {
+      "id": "Inner Focus",
+      "section": "Strategic resources edicts",
+      "data": {
+        "Edict": "Inner Focus",
+        "Base cost": "[Influence] 3 Influence",
+        "Effects": "[Unity] +10% Monthly unity",
+        "Requirements": "[Sovereign Guardianship][Corporate Protectorate][Guardian Cluster][Guardian Matrix] Sovereign Guardianship[Sovereign Guardianship] Sovereign Guardianship[Corporate Protectorate] Corporate Protectorate[Guardian Cluster] Guardian Cluster[Guardian Matrix] Guardian Matrix",
+        "Description": "Overextension of one's boundaries introduces a variety of risks. Understanding oneself is a more reliable and productive endeavor."
+      }
+    },
+    {
+      "id": "Modular Growth Compounds",
+      "section": "Strategic resources edicts",
+      "data": {
+        "Edict": "Modular Growth Compounds",
+        "Base cost": "[Living Metal] 5 Living Metal",
+        "Effects": "[Mod pop growth speed] +10% Pop growth or assembly speed[Organic] [Mod pop growth speed] Pop growth speed[Machine] [Mod pop assembly speed] Mechanical pop assembly speed",
+        "Requirements": "[Galvanic Synthesis][Biometallic Cartel][Galvanic Symbiosis][Galvanic Retrofitting] Galvanic Synthesis[Galvanic Synthesis] Galvanic Synthesis[Biometallic Cartel] Biometallic Cartel[Galvanic Symbiosis] Galvanic Symbiosis[Galvanic Retrofitting] Galvanic Retrofitting",
+        "Description": "Molecular use of Living Metal allows for effective modular compounds that promote stronger growth."
+      }
+    },
+    {
+      "id": "Shroud Observation",
+      "section": "Strategic resources edicts",
+      "data": {
+        "Edict": "Shroud Observation",
+        "Base cost": "[Zro] 0.5 Zro",
+        "Effects": "[Job observator drone] +10% Job efficiency from Observator Drones",
+        "Requirements": "[Origins shroud forged] Shroud-Forged origin",
+        "Description": "Zro is a difficult material to work with. Maintaining a small surplus can be beneficial."
+      }
+    },
+    {
+      "id": "Shroud-Bonded",
+      "section": "Strategic resources edicts",
+      "data": {
+        "Edict": "Shroud-Bonded",
+        "Base cost": "[Zro] 0.5 Zro",
+        "Effects": "[Unity] +10% Monthly unity",
+        "Requirements": "[Navbar icons situation] Forged by the Shroud situation choice",
+        "Description": "Bonded by our connections enabled by the Shroud, we are closer than ever before."
+      }
+    },
+    {
+      "id": "Shadow Matrix",
+      "section": "Dark matter edicts",
+      "data": {
+        "Edict": "Shadow Matrix",
+        "Base upkeep": "[Dark Matter] 1",
+        "Effects": "[Intel encryption] +1 Encryption; [Intel decryption] +1 Codebreaking; [Spy network] +10 Maximum Infiltration Level",
+        "Description": "The electronic obscurity provided by dark matter processing units generates software that even the best codebreakers must struggle with."
+      }
+    },
+    {
+      "id": "Baryonic Insight",
+      "section": "Dark matter edicts",
+      "data": {
+        "Edict": "Baryonic Insight",
+        "Base upkeep": "[Dark Matter] 1",
+        "Effects": "[Physics research] +10% Monthly Physics Research",
+        "Description": "For a deeper understanding of the weave of the universe, we must look beyond the notion of the atom."
+      }
+    },
+    {
+      "id": "Obsidian Veil",
+      "section": "Dark matter edicts",
+      "data": {
+        "Edict": "Obsidian Veil",
+        "Base upkeep": "[Dark Matter] 2",
+        "Effects": "[Fleet cloaked] +1 Cloaking strength; [Cloaking detection] +1 Detection strength",
+        "Description": "To hide in a forest, one should wear the earth. To hide in space, one should wear the void."
+      }
+    },
+    {
+      "id": "Dark Matter Forging",
+      "section": "Dark matter edicts",
+      "data": {
+        "Edict": "Dark Matter Forging",
+        "Base upkeep": "[Dark Matter] 3",
+        "Effects": "[Alloys] +5% Monthly Alloys",
+        "Description": "The unique binding properties of dark matter as a flux in our foundries increases the yield by appreciable amounts."
+      }
+    },
+    {
+      "id": "Dark Matter Unraveling",
+      "section": "Dark matter edicts",
+      "data": {
+        "Edict": "Dark Matter Unraveling",
+        "Base upkeep": "[Dark Matter] 4",
+        "Effects": "[Energy Credits] +10% Monthly Energy Credits",
+        "Description": "The energy contained within bonds formed by dark matter can be unravelled into a valuable output."
+      }
+    },
+    {
+      "id": "Coordinated Nanocomplexes",
+      "section": "Nanite edicts",
+      "data": {
+        "Edict": "Coordinated Nanocomplexes",
+        "Base cost": "[Nanites] 2500",
+        "Base upkeep": "[Nanites] 5",
+        "Effects": "[Alloys] +15% Monthly Alloys",
+        "Description": "Infusing alloy lattices with nanites enables faster, better, and more precise alloy production along new baseline regenerative metallic properties."
+      }
+    },
+    {
+      "id": "Nano-Operated Supply Chains",
+      "section": "Nanite edicts",
+      "data": {
+        "Edict": "Nano-Operated Supply Chains",
+        "Base cost": "[Nanites] 2500",
+        "Base upkeep": "[Nanites] 5",
+        "Effects": "[Mod navy size add] +25% Naval Capacity",
+        "Description": "The flexibility of nanite based supplies that can morph into standardized ammunition or ship components will extend our supply reach to the confines of the galaxy."
+      }
+    },
+    {
+      "id": "Nanoconnected Generators",
+      "section": "Nanite edicts",
+      "data": {
+        "Edict": "Nanoconnected Generators",
+        "Base cost": "[Nanites] 2500",
+        "Base upkeep": "[Nanites] 5",
+        "Effects": "[Energy Credits] +25% Monthly Energy Credits",
+        "Description": "Nanite maintained connectors and power lines can be restored in real time without interruption."
+      }
+    },
+    {
+      "id": "Behemoth Augmentation: Alloys",
+      "section": "Behemoth augmentation edicts",
+      "data": {
+        "Edict": "Behemoth Augmentation: Alloys",
+        "Base cost": "[Alloys] 5000",
+        "Base upkeep": "[Alloys] 25",
+        "Effects": "[Armor] +15% Behemoth Armor Hit Points",
+        "Description": "Bolting alloy plates on carapaces is crude but efficient."
+      }
+    },
+    {
+      "id": "Behemoth Augmentation: Living Metal",
+      "section": "Behemoth augmentation edicts",
+      "data": {
+        "Edict": "Behemoth Augmentation: Living Metal",
+        "Base cost": "[Living Metal] 500",
+        "Base upkeep": "[Living Metal] 2",
+        "Effects": "[Armor] +40% Behemoth Armor Hardening",
+        "Description": "Layering living metal between chitin layers creates reactive armor with enhanced ablative properties."
+      }
+    },
+    {
+      "id": "Behemoth Augmentation: Nanites",
+      "section": "Behemoth augmentation edicts",
+      "data": {
+        "Edict": "Behemoth Augmentation: Nanites",
+        "Base cost": "[Nanites] 2500",
+        "Base upkeep": "[Nanites] 5",
+        "Effects": "[Mod ship hull regen] +15% Behemoth Daily Armor Regen",
+        "Description": "Nanite infused behemoth shells can regenerate even the worst damage in record time."
+      }
+    },
+    {
+      "id": "Education Campaign",
+      "section": "Campaigns",
+      "data": {
+        "Edict": "Education Campaign",
+        "Base upkeep": "[Energy Credits] 15",
+        "Effects": "[Mod leader species exp gain] +10% Leader experience gain",
+        "Requirements": "[Individualist] Individualist",
+        "Description": "Back to school! By momentarily spending resources to promote higher education programs among our leaders, their skills will improve at a faster rate."
+      }
+    },
+    {
+      "id": "Recycling Campaign",
+      "section": "Campaigns",
+      "data": {
+        "Edict": "Recycling Campaign",
+        "Base upkeep": "[Energy Credits] 15",
+        "Effects": "[Mod consumer goods upkeep mult] −10% Pop consumer goods upkeep",
+        "Requirements": "[Individualist] Individualist",
+        "Description": "The populace must be taught to limit wasteful consumption of resources. A public awareness campaign to promote recycling will momentarily lower our consumer goods cost."
+      }
+    },
+    {
+      "id": "Fear Campaign",
+      "section": "Campaigns",
+      "data": {
+        "Edict": "Fear Campaign",
+        "Base upkeep": "[Energy Credits] 15",
+        "Effects": "[Monthly unity] +10% Monthly unity; [Xenophobe] +25% Xenophobe ethics attraction",
+        "Requirements": "[Contact] Communications with another empire; [Xenophobe][Fanatic xenophobe] Xenophobe",
+        "Description": "The vile and beastly nature of the xeno must be communicated to our people. They must accept the truth that we stand alone in a sea of alien filth."
+      }
+    },
+    {
+      "id": "Machine Learning Campaign",
+      "section": "Campaigns",
+      "data": {
+        "Edict": "Machine Learning Campaign",
+        "Base upkeep": "[Energy Credits] 15",
+        "Effects": "[Mod leader species exp gain] +10% Leader experience gain",
+        "Requirements": "[Auth machine intelligence] Machine Intelligence",
+        "Description": "By allocating additional resources to our autonomous drones, they are able to increase the rate at which their self-learning algorithms improve their overall productivity."
+      }
+    },
+    {
+      "id": "Learning Campaign",
+      "section": "Campaigns",
+      "data": {
+        "Edict": "Learning Campaign",
+        "Base upkeep": "[Food] 15 if organic; [Minerals] 15 if lithoid; [Alloys] 4 if thermophile",
+        "Effects": "[Mod leader species exp gain] +10% Leader experience gain",
+        "Requirements": "[Auth hive mind] Hive Mind",
+        "Description": "By providing our autonomous drones with additional nutrients, we are able to increase their productivity."
+      }
+    },
+    {
+      "id": "War Drone Campaign",
+      "section": "Campaigns",
+      "data": {
+        "Edict": "War Drone Campaign",
+        "Base upkeep": "[Food] 15 if organic; [Minerals] 15 if lithoid; [Alloys] 4 if thermophile",
+        "Effects": "[Mod army damage mult] +15% Army damage",
+        "Requirements": "[Auth hive mind] Hive Mind",
+        "Description": "By allocating our war drones additional nutrients, we are able to increase their strength and combat readiness."
+      }
+    },
+    {
+      "id": "Harmony",
+      "section": "Sacrifices",
+      "data": {
+        "Edict": "Harmony",
+        "Cost": "[Unity] 3 months unity",
+        "Bonus": "[Happiness] Happiness +(10 + 50*Multiplier)%",
+        "Description": "The most devout amongst us are prepared to meet their fate. Their final sacrifice is a time for joyous celebration of purpose. Let every day be spent in honor of a good life!"
+      }
+    },
+    {
+      "id": "Togetherness",
+      "section": "Sacrifices",
+      "data": {
+        "Edict": "Togetherness",
+        "Cost": "[Unity] 3 months unity",
+        "Bonus": "[Unity] Unity +(10 + 30*Multiplier)%",
+        "Description": "The most devout amongst us are prepared to meet their fate, ensuring that our society is brought closer together. Let our unity shine out into the lonely dark of space!"
+      }
+    },
+    {
+      "id": "Bounty",
+      "section": "Sacrifices",
+      "data": {
+        "Edict": "Bounty",
+        "Cost": "[Unity] 6 months unity",
+        "Bonus": "[Energy Credits] Energy +(5 + 30*Multiplier)%; [Minerals] Minerals +(5 + 30*Multiplier)%",
+        "Description": "The most devout amongst us are prepared to meet their fate, keen that our society should be enriched by their final sacrifice. Let death cleanse the way for vibrant life, glorious in its essence!"
+      }
+    },
+    {
+      "id": "Astral Binding",
+      "section": "Astral edicts",
+      "data": {
+        "Edict": "Astral Binding",
+        "Base upkeep": "[Astral threads] 25",
+        "Effects": "[Mod pop bonus workforce mult] +5% Job efficiency",
+        "Requirements": "[Planar Mastery] Planar Mastery astral action",
+        "Description": "We have learned how to weave Astral Thread into any other material in the universe. It is the very fabric of dimension."
+      }
+    },
+    {
+      "id": "Astral Shielding",
+      "section": "Astral edicts",
+      "data": {
+        "Edict": "Astral Shielding",
+        "Base upkeep": "[Astral threads] 10",
+        "Effects": "[Shield] +10% Shield hit points; [Shield] +25% Shield hardening",
+        "Requirements": "[Planar Mastery] Planar Mastery astral action",
+        "Description": "There is no stronger barrier than a tightly knit lattice of Astral Threads."
+      }
+    },
+    {
+      "id": "Dimensional Artificing",
+      "section": "Astral edicts",
+      "data": {
+        "Edict": "Dimensional Artificing",
+        "Base upkeep": "[Astral threads] 10",
+        "Effects": "[Minor artifacts] +5 Minor artifacts per month",
+        "Requirements": "[Planar Mastery] Planar Mastery astral action",
+        "Description": "Manifesting objects of cultural significance from other dimensions can be done under the right circumstances. Whether or not our actions will be noticed in the other planes, we cannot say."
+      }
+    },
+    {
+      "id": "Astral Cloaking",
+      "section": "Astral edicts",
+      "data": {
+        "Edict": "Astral Cloaking",
+        "Base upkeep": "[Astral threads] 5",
+        "Effects": "[Fleet cloaked] +1 Cloaking strength",
+        "Requirements": "[Astral rift map icon] Siege of Paradise astral rift outcome",
+        "Description": "Astral threads used in cloaking field generators partially 'reflect' our ships into other dimensions, making them even more difficult to detect in this one."
+      }
+    },
+    {
+      "id": "Automated Disinfection",
+      "section": "Astral edicts",
+      "data": {
+        "Edict": "Automated Disinfection",
+        "Base upkeep": "[Energy Credits]15",
+        "Effects": "[Mod pop amenities usage mult] −5% Pop Amenities Usage [Mod pop growth speed] +5% Pop Growth Speed [Mod pop growth speed] +5% Monthly Organic Growth Multiplier +5% Habitability",
+        "Requirements": "[Astral rift map icon] Chemical Wasteland astral rift outcome",
+        "Description": "The cleaning drones we discovered in one of our visits beyond an Astral Rift have enlightened us on more efficient methods of sanitation involving fleets of autonomous robots."
+      }
+    }
+  ]
+}

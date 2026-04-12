@@ -1,0 +1,3553 @@
+{
+  "_meta": {
+    "source": "Parsed from data/origins.json (Stellaris Wiki 4.x)",
+    "parsed_date": "2026-04-12",
+    "origin_count": 61,
+    "schema_version": "1.0",
+    "personality_names": [
+      "aggressive_expansionist",
+      "sovereign_ruthless_industrialist",
+      "sovereign_diplomatic_hegemon",
+      "sovereign_fortress_guardian",
+      "sovereign_knowledge_seeker",
+      "sovereign_evangelizing_zealot",
+      "sovereign_xenophobic_purifier",
+      "sovereign_devouring_swarm",
+      "sovereign_adaptive_optimizer"
+    ],
+    "notes": "economy_impact values are directional estimates (positive = beneficial). personality_affinity is interpretive based on origin/personality alignment. Values of 0/null/[] indicate no data or not applicable."
+  },
+  "origins": [
+    {
+      "id": "origin_default",
+      "name": "Prosperous Unification",
+      "spawn_weight": 100,
+      "spawn_once": false,
+      "dlc": null,
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 400,
+        "extra_districts": {
+          "generator": 1,
+          "agriculture": 1,
+          "mining": 1
+        },
+        "extra_buildings": [],
+        "extra_techs": [
+          "Planetary Unification (permanent option)"
+        ],
+        "resource_modifiers": {
+          "job_output": 10,
+          "amenities": 25
+        },
+        "happiness_modifier": 15,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 5,
+        "energy_modifier": 5,
+        "food_modifier": 5,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [],
+        "compatible": [
+          "aggressive_expansionist",
+          "sovereign_ruthless_industrialist",
+          "sovereign_diplomatic_hegemon",
+          "sovereign_fortress_guardian",
+          "sovereign_knowledge_seeker",
+          "sovereign_evangelizing_zealot",
+          "sovereign_adaptive_optimizer"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "research",
+        "economic"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_galactic_doorstep",
+      "name": "Galactic Doorstep",
+      "spawn_weight": 1,
+      "spawn_once": true,
+      "dlc": null,
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {
+          "megastructure_build_speed": 5
+        },
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_knowledge_seeker"
+        ],
+        "compatible": [
+          "sovereign_adaptive_optimizer",
+          "sovereign_ruthless_industrialist"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "megastructure",
+        "research"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_tree_of_life",
+      "name": "Tree of Life",
+      "spawn_weight": 5,
+      "spawn_once": true,
+      "dlc": "Utopia",
+      "requirements": {
+        "authority": [
+          "auth_hive_mind"
+        ],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [
+          "civic_fanatic_purifiers",
+          "civic_devouring_swarm",
+          "civic_determined_exterminator"
+        ],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": "Cannot have Volcanic homeworld"
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {
+          "job_output_penalty": -25,
+          "planet_build_speed_penalty": -50,
+          "stability_penalty": -5
+        },
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": [
+          "Tree of Life planetary feature"
+        ]
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_devouring_swarm",
+          "sovereign_adaptive_optimizer"
+        ],
+        "compatible": [],
+        "incompatible": [
+          "sovereign_evangelizing_zealot",
+          "sovereign_diplomatic_hegemon"
+        ]
+      },
+      "tags": [
+        "hive"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_clone_army",
+      "name": "Clone Army",
+      "spawn_weight": 2,
+      "spawn_once": false,
+      "dlc": "DLC humanoids species pack",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [
+          "civic_permanent_employment",
+          "civic_natural_design"
+        ],
+        "is_gestalt": false,
+        "is_machine": false,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [
+          "Cloning",
+          "Gene Banks"
+        ],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "aggressive_expansionist"
+        ],
+        "compatible": [
+          "sovereign_fortress_guardian",
+          "sovereign_knowledge_seeker"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "genetic",
+        "research"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_doomsday",
+      "name": "Doomsday",
+      "spawn_weight": 5,
+      "spawn_once": true,
+      "dlc": "Federations",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {
+          "stability": 30
+        },
+        "happiness_modifier": 30,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "aggressive_expansionist"
+        ],
+        "compatible": [
+          "sovereign_ruthless_industrialist"
+        ],
+        "incompatible": [
+          "sovereign_fortress_guardian"
+        ]
+      },
+      "tags": [
+        "survival"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_shoulders_of_giants",
+      "name": "On the Shoulders of Giants",
+      "spawn_weight": 5,
+      "spawn_once": true,
+      "dlc": "Federations",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": false,
+        "is_machine": false,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_knowledge_seeker"
+        ],
+        "compatible": [
+          "sovereign_adaptive_optimizer"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "research"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_here_be_dragons",
+      "name": "Here Be Dragons",
+      "spawn_weight": 5,
+      "spawn_once": true,
+      "dlc": "Aquatics",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [
+          "civic_fanatic_purifiers",
+          "civic_devouring_swarm",
+          "civic_determined_exterminator"
+        ],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [],
+        "compatible": [
+          "sovereign_fortress_guardian",
+          "sovereign_diplomatic_hegemon",
+          "sovereign_knowledge_seeker"
+        ],
+        "incompatible": []
+      },
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "origin_toxic_knights",
+      "name": "Knights of the Toxic God",
+      "spawn_weight": 2,
+      "spawn_once": true,
+      "dlc": "Toxoids",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [
+          "civic_fanatic_purifiers",
+          "civic_devouring_swarm",
+          "civic_determined_exterminator"
+        ],
+        "is_gestalt": false,
+        "is_machine": false,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": [
+          "A Blight Upon the Land planetary feature",
+          "Envenomed Seas planetary feature",
+          "Pestilential Wasteland planetary feature",
+          "Pools Most Venomous planetary feature",
+          "Swarms of the Deity planetary feature"
+        ]
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_evangelizing_zealot"
+        ],
+        "compatible": [
+          "sovereign_fortress_guardian",
+          "sovereign_knowledge_seeker"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "habitat",
+        "research"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_overtuned",
+      "name": "Overtuned",
+      "spawn_weight": 0,
+      "spawn_once": false,
+      "dlc": "Toxoids",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": false,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [
+          "Gene Tailoring"
+        ],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_knowledge_seeker"
+        ],
+        "compatible": [
+          "sovereign_adaptive_optimizer",
+          "sovereign_ruthless_industrialist"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "genetic",
+        "research"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_slingshot",
+      "name": "Slingshot to the Stars",
+      "spawn_weight": 0,
+      "spawn_once": false,
+      "dlc": "Overlord",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "aggressive_expansionist"
+        ],
+        "compatible": [
+          "sovereign_knowledge_seeker",
+          "sovereign_adaptive_optimizer"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "megastructure",
+        "research"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_subterranean",
+      "name": "Subterranean",
+      "spawn_weight": 5,
+      "spawn_once": false,
+      "dlc": "Overlord",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {
+          "bombardment_damage_reduction": 75
+        },
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 5,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_fortress_guardian"
+        ],
+        "compatible": [
+          "sovereign_ruthless_industrialist",
+          "sovereign_adaptive_optimizer"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "megastructure"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_progenitor_hive",
+      "name": "Progenitor Hive",
+      "spawn_weight": 2,
+      "spawn_once": false,
+      "dlc": "Overlord",
+      "requirements": {
+        "authority": [
+          "auth_hive_mind"
+        ],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [
+          "civic_wild_swarm"
+        ],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [
+          "Offspring Nest"
+        ],
+        "extra_techs": [],
+        "resource_modifiers": {
+          "stability_penalty": -10
+        },
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": [
+          "Progenitor Nest planetary feature"
+        ]
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_devouring_swarm",
+          "sovereign_adaptive_optimizer"
+        ],
+        "compatible": [],
+        "incompatible": [
+          "sovereign_evangelizing_zealot",
+          "sovereign_diplomatic_hegemon"
+        ]
+      },
+      "tags": [
+        "hive",
+        "vassal"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_broken_shackles",
+      "name": "Broken Shackles",
+      "spawn_weight": 0,
+      "spawn_once": false,
+      "dlc": "First Contact",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [
+          "ethic_xenophobe",
+          "ethic_authoritarian"
+        ],
+        "forbidden_civics": [],
+        "is_gestalt": false,
+        "is_machine": false,
+        "notes": "Cannot have Volcanic homeworld"
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [
+          "Administrative Hub",
+          "Laboratory Complex",
+          "Makeshift Farms",
+          "Power Plant",
+          "Scrap Refinery"
+        ],
+        "extra_techs": [
+          "Xeno-Linguistics (permanent option)"
+        ],
+        "resource_modifiers": {
+          "amenities_usage_reduction": 50,
+          "consumer_goods_upkeep_reduction": 50,
+          "unity_from_jobs": 100,
+          "infiltration_speed": 20
+        },
+        "happiness_modifier": 20,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": [
+          "Crashed Slaver Ship planetary feature"
+        ]
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 20,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_diplomatic_hegemon"
+        ],
+        "compatible": [
+          "sovereign_knowledge_seeker",
+          "sovereign_adaptive_optimizer"
+        ],
+        "incompatible": [
+          "sovereign_xenophobic_purifier",
+          "aggressive_expansionist"
+        ]
+      },
+      "tags": [
+        "research",
+        "survival"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_fear_of_the_dark",
+      "name": "Fear of the Dark",
+      "spawn_weight": 5,
+      "spawn_once": false,
+      "dlc": "First Contact",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [
+          "civic_fanatic_purifiers",
+          "civic_devouring_swarm",
+          "civic_determined_exterminator",
+          "civic_inward_perfection"
+        ],
+        "is_gestalt": false,
+        "is_machine": false,
+        "notes": "Cannot use Biological shipset"
+      },
+      "starting_modifiers": {
+        "extra_pops": 800,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {
+          "anomaly_chance": 10,
+          "research_alternatives": -1
+        },
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 10,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_knowledge_seeker"
+        ],
+        "compatible": [
+          "sovereign_fortress_guardian"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "research"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_under_one_rule",
+      "name": "Under One Rule",
+      "spawn_weight": 5,
+      "spawn_once": true,
+      "dlc": "Galactic Paragons",
+      "requirements": {
+        "authority": [
+          "auth_dictatorial"
+        ],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": false,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "aggressive_expansionist",
+          "sovereign_diplomatic_hegemon"
+        ],
+        "compatible": [
+          "sovereign_fortress_guardian"
+        ],
+        "incompatible": []
+      },
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "origin_riftworld",
+      "name": "Riftworld",
+      "spawn_weight": 2,
+      "spawn_once": true,
+      "dlc": "Astral Planes",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [
+          "Astral Harvesting"
+        ],
+        "resource_modifiers": {
+          "astral_rift_speed": 25,
+          "physics_from_jobs": 10
+        },
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 5,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_knowledge_seeker"
+        ],
+        "compatible": [
+          "sovereign_adaptive_optimizer"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "research"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_storm_chasers",
+      "name": "Storm Chasers",
+      "spawn_weight": 1,
+      "spawn_once": true,
+      "dlc": "Cosmic Storms",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [
+          "civic_fanatic_purifiers",
+          "civic_devouring_swarm",
+          "civic_determined_exterminator"
+        ],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [
+          "Cosmic Weather Models"
+        ],
+        "resource_modifiers": {
+          "unity_from_jobs": 5
+        },
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 15,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_knowledge_seeker",
+          "sovereign_adaptive_optimizer"
+        ],
+        "compatible": [
+          "sovereign_fortress_guardian"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "research",
+        "storm"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_primal_calling",
+      "name": "Primal Calling",
+      "spawn_weight": 0,
+      "spawn_once": false,
+      "dlc": null,
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [
+          "Genome Mapping"
+        ],
+        "resource_modifiers": {
+          "amenities": 4
+        },
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 10,
+        "unity_modifier": 0,
+        "trade_modifier": 15
+      },
+      "personality_affinity": {
+        "strong": [],
+        "compatible": [
+          "sovereign_knowledge_seeker",
+          "sovereign_adaptive_optimizer",
+          "aggressive_expansionist"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "research",
+        "trade",
+        "fauna"
+      ],
+      "notes": "Complex origin with stance selection after first contact with space fauna. Effects vary by stance chosen."
+    },
+    {
+      "id": "origin_treasure_hunters",
+      "name": "Treasure Hunters",
+      "spawn_weight": 1,
+      "spawn_once": true,
+      "dlc": "Grand Archive",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [
+          "civic_fanatic_purifiers",
+          "civic_devouring_swarm",
+          "civic_determined_exterminator"
+        ],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {
+          "anomaly_chance": 10,
+          "astral_rift_speed": 10
+        },
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 15,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_knowledge_seeker"
+        ],
+        "compatible": [
+          "sovereign_adaptive_optimizer",
+          "sovereign_diplomatic_hegemon"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "research"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_wilderness",
+      "name": "Wilderness",
+      "spawn_weight": 5,
+      "spawn_once": false,
+      "dlc": "BioGenesis",
+      "requirements": {
+        "authority": [
+          "auth_hive_mind"
+        ],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": "Requires Biological shipset; Cannot have Volcanic homeworld"
+      },
+      "starting_modifiers": {
+        "extra_pops": 2800,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": [
+          "Homeworld size 18"
+        ]
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_devouring_swarm",
+          "sovereign_adaptive_optimizer"
+        ],
+        "compatible": [],
+        "incompatible": [
+          "sovereign_evangelizing_zealot",
+          "sovereign_diplomatic_hegemon"
+        ]
+      },
+      "tags": [
+        "hive"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_mechanists",
+      "name": "Mechanist",
+      "spawn_weight": 10,
+      "spawn_once": false,
+      "dlc": "Utopia",
+      "requirements": {
+        "authority": [],
+        "ethics": [
+          "ethic_materialist"
+        ],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [
+          "civic_permanent_employment"
+        ],
+        "is_gestalt": null,
+        "is_machine": false,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [
+          "Robot Assembly Plants"
+        ],
+        "extra_techs": [
+          "Powered Exoskeletons",
+          "Robotic Workers",
+          "Machine Template System (permanent option)"
+        ],
+        "resource_modifiers": {
+          "mechanical_assembly": 15
+        },
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": [
+          "Start with 800 robot pops"
+        ]
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_knowledge_seeker",
+          "sovereign_ruthless_industrialist"
+        ],
+        "compatible": [
+          "sovereign_adaptive_optimizer"
+        ],
+        "incompatible": [
+          "sovereign_evangelizing_zealot"
+        ]
+      },
+      "tags": [
+        "synthetic",
+        "research",
+        "economic"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_syncretic_evolution",
+      "name": "Syncretic Evolution",
+      "spawn_weight": 10,
+      "spawn_once": false,
+      "dlc": "Utopia",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [
+          "civic_fanatic_purifiers",
+          "civic_devouring_swarm",
+          "civic_determined_exterminator"
+        ],
+        "is_gestalt": false,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": [
+          "Start with 1200 pops of secondary species"
+        ]
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_ruthless_industrialist"
+        ],
+        "compatible": [
+          "aggressive_expansionist",
+          "sovereign_adaptive_optimizer"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "economic"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_necrophage",
+      "name": "Necrophage",
+      "spawn_weight": 5,
+      "spawn_once": false,
+      "dlc": "Necroids",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [
+          "ethic_xenophile",
+          "ethic_fanatic_egalitarian"
+        ],
+        "forbidden_civics": [
+          "civic_permanent_employment"
+        ],
+        "is_gestalt": null,
+        "is_machine": false,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [
+          "Chamber of Elevation"
+        ],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "aggressive_expansionist",
+          "sovereign_xenophobic_purifier"
+        ],
+        "compatible": [
+          "sovereign_ruthless_industrialist"
+        ],
+        "incompatible": [
+          "sovereign_diplomatic_hegemon"
+        ]
+      },
+      "tags": [
+        "genetic"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_teachers_of_the_shroud",
+      "name": "Teachers of the Shroud",
+      "spawn_weight": 5,
+      "spawn_once": true,
+      "dlc": "Overlord",
+      "requirements": {
+        "authority": [],
+        "ethics": [
+          "ethic_spiritualist"
+        ],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [
+          "civic_fanatic_purifiers",
+          "civic_devouring_swarm",
+          "civic_determined_exterminator"
+        ],
+        "is_gestalt": null,
+        "is_machine": false,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [
+          "Psionic Theory (permanent option)"
+        ],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 5,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_evangelizing_zealot"
+        ],
+        "compatible": [
+          "sovereign_knowledge_seeker"
+        ],
+        "incompatible": [
+          "sovereign_ruthless_industrialist"
+        ]
+      },
+      "tags": [
+        "ascension",
+        "psionic",
+        "research"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_cybernetic_creed",
+      "name": "Cybernetic Creed",
+      "spawn_weight": 5,
+      "spawn_once": true,
+      "dlc": "The Machine Age",
+      "requirements": {
+        "authority": [],
+        "ethics": [
+          "ethic_spiritualist"
+        ],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [
+          "civic_permanent_employment"
+        ],
+        "is_gestalt": null,
+        "is_machine": false,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [
+          "Amphitheater of the Mind",
+          "Battlements of Steel",
+          "Forge of the Fellowship",
+          "Sanctuary of Toil"
+        ],
+        "extra_techs": [
+          "Integrated Cybernetics (permanent option)"
+        ],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_evangelizing_zealot"
+        ],
+        "compatible": [
+          "sovereign_fortress_guardian",
+          "sovereign_knowledge_seeker"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "ascension",
+        "cybernetic",
+        "research"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_synthetic_fertility",
+      "name": "Synthetic Fertility",
+      "spawn_weight": 5,
+      "spawn_once": true,
+      "dlc": "The Machine Age",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [
+          "ethic_spiritualist"
+        ],
+        "forbidden_civics": [],
+        "is_gestalt": false,
+        "is_machine": false,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 900,
+        "extra_districts": {
+          "city": 2
+        },
+        "extra_buildings": [
+          "Identity Repository",
+          "Abandoned Gene Clinic"
+        ],
+        "extra_techs": [
+          "Powered Exoskeletons",
+          "Administrative AI (permanent option)"
+        ],
+        "resource_modifiers": {
+          "computing_research_speed": 15
+        },
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": [
+          "Homeworld size 20"
+        ]
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 15,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_knowledge_seeker",
+          "sovereign_adaptive_optimizer"
+        ],
+        "compatible": [
+          "sovereign_ruthless_industrialist"
+        ],
+        "incompatible": [
+          "sovereign_evangelizing_zealot"
+        ]
+      },
+      "tags": [
+        "ascension",
+        "synthetic",
+        "research"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_evolutionary_predators",
+      "name": "Evolutionary Predators",
+      "spawn_weight": 1,
+      "spawn_once": false,
+      "dlc": "BioGenesis",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [
+          "civic_permanent_employment"
+        ],
+        "is_gestalt": null,
+        "is_machine": false,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_knowledge_seeker"
+        ],
+        "compatible": [
+          "aggressive_expansionist",
+          "sovereign_adaptive_optimizer"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "ascension",
+        "genetic"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_endbringers",
+      "name": "Endbringers",
+      "spawn_weight": 1,
+      "spawn_once": true,
+      "dlc": "Shadows of the Shroud",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [
+          "ethic_pacifist"
+        ],
+        "forbidden_civics": [],
+        "is_gestalt": false,
+        "is_machine": false,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": -1,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 5,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_evangelizing_zealot",
+          "aggressive_expansionist"
+        ],
+        "compatible": [
+          "sovereign_fortress_guardian"
+        ],
+        "incompatible": [
+          "sovereign_diplomatic_hegemon"
+        ]
+      },
+      "tags": [
+        "ascension",
+        "psionic",
+        "research"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_shroud_forged",
+      "name": "Shroud-Forged",
+      "spawn_weight": 0,
+      "spawn_once": false,
+      "dlc": "Shadows of the Shroud",
+      "requirements": {
+        "authority": [
+          "auth_machine_intelligence"
+        ],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [
+          "civic_rogue_servitor",
+          "civic_determined_exterminator",
+          "civic_driven_assimilator"
+        ],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [
+          "Shroud Observation Tower"
+        ],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_adaptive_optimizer"
+        ],
+        "compatible": [],
+        "incompatible": [
+          "sovereign_evangelizing_zealot",
+          "sovereign_diplomatic_hegemon"
+        ]
+      },
+      "tags": [
+        "ascension",
+        "machine",
+        "psionic"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_remnants",
+      "name": "Remnants",
+      "spawn_weight": 5,
+      "spawn_once": true,
+      "dlc": "Ancient Relics, Federations",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [
+          "civic_agrarian_idyll"
+        ],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [
+          "Faculty of Archaeostudies"
+        ],
+        "extra_techs": [
+          "Archaeostudies"
+        ],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": "pc_relic",
+        "special_features": [
+          "Homeworld size 22"
+        ]
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_knowledge_seeker"
+        ],
+        "compatible": [
+          "sovereign_adaptive_optimizer",
+          "sovereign_ruthless_industrialist"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "homeworld",
+        "research"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_machine",
+      "name": "Resource Consolidation",
+      "spawn_weight": 2,
+      "spawn_once": true,
+      "dlc": "Synthetic Dawn",
+      "requirements": {
+        "authority": [
+          "auth_machine_intelligence"
+        ],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [
+          "civic_rogue_servitor"
+        ],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": "pc_machine",
+        "special_features": [
+          "Consolidated Resources planetary feature",
+          "Organic Slurry planetary feature"
+        ]
+      },
+      "economy_impact": {
+        "mineral_modifier": 10,
+        "energy_modifier": 5,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_adaptive_optimizer"
+        ],
+        "compatible": [],
+        "incompatible": [
+          "sovereign_evangelizing_zealot",
+          "sovereign_diplomatic_hegemon"
+        ]
+      },
+      "tags": [
+        "homeworld",
+        "machine",
+        "economic"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_life_seeded",
+      "name": "Life-Seeded",
+      "spawn_weight": 5,
+      "spawn_once": false,
+      "dlc": "Apocalypse",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": "pc_gaia",
+        "special_features": [
+          "Homeworld size 30"
+        ]
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_knowledge_seeker",
+          "sovereign_fortress_guardian"
+        ],
+        "compatible": [
+          "sovereign_adaptive_optimizer"
+        ],
+        "incompatible": [
+          "aggressive_expansionist"
+        ]
+      },
+      "tags": [
+        "homeworld"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_post_apocalyptic",
+      "name": "Post-Apocalyptic",
+      "spawn_weight": 5,
+      "spawn_once": false,
+      "dlc": "Apocalypse",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [
+          "civic_agrarian_idyll"
+        ],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": "pc_nuked",
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_fortress_guardian",
+          "sovereign_ruthless_industrialist"
+        ],
+        "compatible": [
+          "aggressive_expansionist"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "homeworld",
+        "survival"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_shattered_ring",
+      "name": "Shattered Ring",
+      "spawn_weight": 2,
+      "spawn_once": true,
+      "dlc": "Federations",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [
+          "civic_agrarian_idyll"
+        ],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": "pc_ringworld_habitable",
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 5,
+        "energy_modifier": 5,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 5,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_knowledge_seeker",
+          "sovereign_ruthless_industrialist"
+        ],
+        "compatible": [
+          "sovereign_adaptive_optimizer"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "homeworld",
+        "megastructure",
+        "research"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_void_dwellers",
+      "name": "Void Dwellers",
+      "spawn_weight": 3,
+      "spawn_once": false,
+      "dlc": "Federations",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [
+          "civic_agrarian_idyll"
+        ],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [
+          "Hydroponics Farms"
+        ],
+        "extra_techs": [
+          "Orbital Habitats"
+        ],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": "pc_habitat",
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 5,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_adaptive_optimizer",
+          "sovereign_knowledge_seeker"
+        ],
+        "compatible": [
+          "sovereign_diplomatic_hegemon",
+          "sovereign_ruthless_industrialist"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "homeworld",
+        "habitat",
+        "research"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_ocean_paradise",
+      "name": "Ocean Paradise",
+      "spawn_weight": 5,
+      "spawn_once": false,
+      "dlc": "Aquatics",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": "pc_ocean",
+        "special_features": [
+          "Crystal Reef planetary feature",
+          "Homeworld size 30"
+        ]
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_knowledge_seeker",
+          "sovereign_fortress_guardian"
+        ],
+        "compatible": [
+          "sovereign_adaptive_optimizer"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "homeworld",
+        "aquatic"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_red_giant",
+      "name": "Red Giant",
+      "spawn_weight": 1,
+      "spawn_once": false,
+      "dlc": "Infernals",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [
+          "civic_agrarian_idyll"
+        ],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": "Cannot use Biological shipset"
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": "pc_molten",
+        "special_features": [
+          "Homeworld size 20"
+        ]
+      },
+      "economy_impact": {
+        "mineral_modifier": 5,
+        "energy_modifier": 5,
+        "food_modifier": 0,
+        "alloy_modifier": 5,
+        "research_modifier": 0,
+        "unity_modifier": 5,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_fortress_guardian",
+          "sovereign_knowledge_seeker"
+        ],
+        "compatible": [
+          "sovereign_ruthless_industrialist"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "homeworld",
+        "research",
+        "survival",
+        "volcanic"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_lost_colony",
+      "name": "Lost Colony",
+      "spawn_weight": 5,
+      "spawn_once": true,
+      "dlc": null,
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [],
+        "compatible": [
+          "sovereign_diplomatic_hegemon",
+          "sovereign_adaptive_optimizer",
+          "sovereign_knowledge_seeker"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "diplomatic"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_common_ground",
+      "name": "Common Ground",
+      "spawn_weight": 5,
+      "spawn_once": true,
+      "dlc": "Federations",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [
+          "ethic_xenophobe"
+        ],
+        "forbidden_civics": [
+          "civic_fanatic_purifiers",
+          "civic_devouring_swarm",
+          "civic_determined_exterminator",
+          "civic_inward_perfection",
+          "civic_barbaric_despoilers"
+        ],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [
+          "Federation Code",
+          "Xeno-Linguistics (permanent option)"
+        ],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_diplomatic_hegemon"
+        ],
+        "compatible": [
+          "sovereign_knowledge_seeker",
+          "sovereign_fortress_guardian"
+        ],
+        "incompatible": [
+          "aggressive_expansionist",
+          "sovereign_xenophobic_purifier"
+        ]
+      },
+      "tags": [
+        "diplomatic",
+        "research",
+        "federation"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_hegemon",
+      "name": "Hegemon",
+      "spawn_weight": 5,
+      "spawn_once": true,
+      "dlc": "Federations",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [
+          "ethic_xenophobe",
+          "ethic_egalitarian"
+        ],
+        "forbidden_civics": [
+          "civic_fanatic_purifiers",
+          "civic_devouring_swarm",
+          "civic_determined_exterminator",
+          "civic_inward_perfection"
+        ],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [
+          "Federation Code",
+          "Xeno-Linguistics (permanent option)"
+        ],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_diplomatic_hegemon",
+          "aggressive_expansionist"
+        ],
+        "compatible": [],
+        "incompatible": [
+          "sovereign_xenophobic_purifier"
+        ]
+      },
+      "tags": [
+        "diplomatic",
+        "research",
+        "federation"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_scion",
+      "name": "Scion",
+      "spawn_weight": 2,
+      "spawn_once": true,
+      "dlc": "Federations",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [
+          "ethic_fanatic_xenophobe"
+        ],
+        "forbidden_civics": [
+          "civic_pompous_purists"
+        ],
+        "is_gestalt": false,
+        "is_machine": false,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [
+          "Xeno-Linguistics (permanent option)"
+        ],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_diplomatic_hegemon"
+        ],
+        "compatible": [
+          "sovereign_fortress_guardian",
+          "sovereign_knowledge_seeker"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "diplomatic",
+        "research",
+        "vassal"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_imperial_fiefdom",
+      "name": "Imperial Fiefdom",
+      "spawn_weight": 0,
+      "spawn_once": false,
+      "dlc": "Overlord",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [
+          "civic_fanatic_purifiers",
+          "civic_devouring_swarm",
+          "civic_determined_exterminator",
+          "civic_inward_perfection",
+          "civic_driven_assimilator"
+        ],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [
+          "Xeno-Linguistics (permanent option)"
+        ],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_fortress_guardian"
+        ],
+        "compatible": [
+          "sovereign_diplomatic_hegemon",
+          "sovereign_adaptive_optimizer"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "diplomatic",
+        "research",
+        "vassal"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_hard_reset",
+      "name": "Hard Reset",
+      "spawn_weight": 0,
+      "spawn_once": false,
+      "dlc": "Synthetic Dawn",
+      "requirements": {
+        "authority": [],
+        "ethics": [
+          "ethic_militarist"
+        ],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [
+          "ethic_fanatic_spiritualist",
+          "ethic_fanatic_xenophile"
+        ],
+        "forbidden_civics": [
+          "civic_natural_design"
+        ],
+        "is_gestalt": null,
+        "is_machine": false,
+        "notes": "Cannot use Biological shipset"
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {
+          "amenities_usage_reduction": 50
+        },
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "aggressive_expansionist",
+          "sovereign_fortress_guardian"
+        ],
+        "compatible": [
+          "sovereign_ruthless_industrialist"
+        ],
+        "incompatible": [
+          "sovereign_diplomatic_hegemon"
+        ]
+      },
+      "tags": [
+        "military",
+        "cybernetic",
+        "survival"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_payback",
+      "name": "Payback",
+      "spawn_weight": 0,
+      "spawn_once": false,
+      "dlc": "First Contact",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [
+          "civic_fanatic_purifiers",
+          "civic_devouring_swarm",
+          "civic_determined_exterminator",
+          "civic_pompous_purists"
+        ],
+        "is_gestalt": false,
+        "is_machine": false,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [
+          "Gene Clinics",
+          "Energy Grid",
+          "Mineral Purification Plants"
+        ],
+        "extra_techs": [
+          "Xeno-Linguistics (permanent option)"
+        ],
+        "resource_modifiers": {
+          "job_output": 10,
+          "amenities": 25
+        },
+        "happiness_modifier": 15,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 5,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "aggressive_expansionist",
+          "sovereign_fortress_guardian"
+        ],
+        "compatible": [
+          "sovereign_diplomatic_hegemon"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "military",
+        "research",
+        "vassal",
+        "survival"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_starlit_citadel",
+      "name": "Starlit Citadel",
+      "spawn_weight": 1,
+      "spawn_once": false,
+      "dlc": "BioGenesis",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": "Cannot use Biological shipset"
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [
+          "Citadel Uplink"
+        ],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_fortress_guardian"
+        ],
+        "compatible": [
+          "sovereign_ruthless_industrialist",
+          "sovereign_knowledge_seeker"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "military",
+        "megastructure"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_mindwardens",
+      "name": "Mindwardens",
+      "spawn_weight": 0,
+      "spawn_once": false,
+      "dlc": "Shadows of the Shroud",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [
+          "ethic_pacifist"
+        ],
+        "forbidden_civics": [
+          "civic_fanatic_purifiers",
+          "civic_devouring_swarm",
+          "civic_determined_exterminator"
+        ],
+        "is_gestalt": false,
+        "is_machine": false,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [
+          "Starhold"
+        ],
+        "resource_modifiers": {
+          "encryption": 2
+        },
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 5,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_fortress_guardian",
+          "aggressive_expansionist"
+        ],
+        "compatible": [
+          "sovereign_knowledge_seeker"
+        ],
+        "incompatible": [
+          "sovereign_diplomatic_hegemon"
+        ]
+      },
+      "tags": [
+        "military",
+        "psionic",
+        "research"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_fruitful_partnership",
+      "name": "Fruitful Partnership",
+      "spawn_weight": 5,
+      "spawn_once": false,
+      "dlc": "DLC plantoids species pack",
+      "requirements": {
+        "authority": [
+          "auth_hive_mind"
+        ],
+        "ethics": [
+          "ethic_pacifist"
+        ],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": "Requires Plantoid or Fungoid species"
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_devouring_swarm",
+          "sovereign_adaptive_optimizer"
+        ],
+        "compatible": [],
+        "incompatible": [
+          "sovereign_evangelizing_zealot",
+          "sovereign_diplomatic_hegemon"
+        ]
+      },
+      "tags": [
+        "species"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_calamitous_birth",
+      "name": "Calamitous Birth",
+      "spawn_weight": 5,
+      "spawn_once": true,
+      "dlc": "Lithoids",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": "Requires Lithoid species; Cannot use Biological shipset"
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": [
+          "Massive Crater planetary feature"
+        ]
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "aggressive_expansionist"
+        ],
+        "compatible": [
+          "sovereign_ruthless_industrialist",
+          "sovereign_fortress_guardian"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "species",
+        "lithoid"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_arc_welders",
+      "name": "Arc Welders",
+      "spawn_weight": 2,
+      "spawn_once": true,
+      "dlc": "The Machine Age",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": true,
+        "notes": "Requires Machine species"
+      },
+      "starting_modifiers": {
+        "extra_pops": 300,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [
+          "Arc Furnace"
+        ],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": [
+          "Homeworld size 15"
+        ]
+      },
+      "economy_impact": {
+        "mineral_modifier": 5,
+        "energy_modifier": 5,
+        "food_modifier": 0,
+        "alloy_modifier": 15,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_adaptive_optimizer"
+        ],
+        "compatible": [],
+        "incompatible": [
+          "sovereign_evangelizing_zealot",
+          "sovereign_diplomatic_hegemon"
+        ]
+      },
+      "tags": [
+        "species",
+        "machine",
+        "megastructure",
+        "research",
+        "economic"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_cosmic_dawn",
+      "name": "Cosmic Dawn",
+      "spawn_weight": 1,
+      "spawn_once": false,
+      "dlc": "Infernals",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [
+          "auth_hive_mind"
+        ],
+        "forbidden_ethics": [],
+        "forbidden_civics": [
+          "civic_agrarian_idyll"
+        ],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": "Requires Thermophile species; Cannot use Biological shipset"
+      },
+      "starting_modifiers": {
+        "extra_pops": 600,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": "pc_molten",
+        "special_features": [
+          "Homeworld size 14"
+        ]
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [
+          "sovereign_fortress_guardian"
+        ],
+        "compatible": [
+          "sovereign_knowledge_seeker",
+          "sovereign_adaptive_optimizer"
+        ],
+        "incompatible": []
+      },
+      "tags": [
+        "species",
+        "survival",
+        "volcanic"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "origin_fallen_empire",
+      "name": "Elder Race",
+      "spawn_weight": 0,
+      "spawn_once": false,
+      "dlc": null,
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [],
+        "compatible": [],
+        "incompatible": [],
+        "notes": "Unselectable origin - personality affinity not applicable"
+      },
+      "tags": [
+        "unselectable"
+      ],
+      "notes": "Unselectable. Source: Fallen empire"
+    },
+    {
+      "id": "origin_developing_civilization",
+      "name": "Developing Civilization",
+      "spawn_weight": 0,
+      "spawn_once": false,
+      "dlc": null,
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [],
+        "compatible": [],
+        "incompatible": [],
+        "notes": "Unselectable origin - personality affinity not applicable"
+      },
+      "tags": [
+        "unselectable"
+      ],
+      "notes": "Unselectable. Source: Pre-FTL civilization without a regular origin"
+    },
+    {
+      "id": "origin_enlightened",
+      "name": "Enlightened",
+      "spawn_weight": 0,
+      "spawn_once": false,
+      "dlc": null,
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {
+          "research_speed": 10
+        },
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 10,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [],
+        "compatible": [],
+        "incompatible": [],
+        "notes": "Unselectable origin - personality affinity not applicable"
+      },
+      "tags": [
+        "unselectable",
+        "research",
+        "vassal"
+      ],
+      "notes": "Unselectable. Source: Enlightened pre-FTL civilization with [Developing Civilization] Developing Civilization origin"
+    },
+    {
+      "id": "origin_separatists",
+      "name": "Separatists",
+      "spawn_weight": 0,
+      "spawn_once": false,
+      "dlc": null,
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {
+          "stability": 10
+        },
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [],
+        "compatible": [],
+        "incompatible": [],
+        "notes": "Unselectable origin - personality affinity not applicable"
+      },
+      "tags": [
+        "unselectable"
+      ],
+      "notes": "Unselectable. Source: Revolt or Machine Uprising empire"
+    },
+    {
+      "id": "origin_liberated",
+      "name": "Liberated",
+      "spawn_weight": 0,
+      "spawn_once": false,
+      "dlc": null,
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {
+          "stability": 10
+        },
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [],
+        "compatible": [],
+        "incompatible": [],
+        "notes": "Unselectable origin - personality affinity not applicable"
+      },
+      "tags": [
+        "unselectable"
+      ],
+      "notes": "Unselectable. Source: Empire created by Status Quo from wars with the Ideology casus belli; Empire created by Status Quo from wars with a Subjugation casus belli"
+    },
+    {
+      "id": "origin_khan_successor",
+      "name": "Khanate Successor",
+      "spawn_weight": 0,
+      "spawn_once": false,
+      "dlc": "Apocalypse",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [],
+        "compatible": [],
+        "incompatible": [],
+        "notes": "Unselectable origin - personality affinity not applicable"
+      },
+      "tags": [
+        "unselectable"
+      ],
+      "notes": "Unselectable. Source: Horde successor empire"
+    },
+    {
+      "id": "origin_hegemon_subordinate",
+      "name": "Hegemon Subordinate",
+      "spawn_weight": 0,
+      "spawn_once": false,
+      "dlc": "Federations",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [],
+        "compatible": [],
+        "incompatible": [],
+        "notes": "Unselectable origin - personality affinity not applicable"
+      },
+      "tags": [
+        "unselectable",
+        "federation"
+      ],
+      "notes": "Unselectable. Source: Empires generated by the [Origins hegemon] Hegemon origin"
+    },
+    {
+      "id": "origin_imperial_liege",
+      "name": "Imperial Liege",
+      "spawn_weight": 0,
+      "spawn_once": false,
+      "dlc": "Overlord",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": "pc_gaia",
+        "special_features": [
+          "Homeworld size 30"
+        ]
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [],
+        "compatible": [],
+        "incompatible": [],
+        "notes": "Unselectable origin - personality affinity not applicable"
+      },
+      "tags": [
+        "unselectable",
+        "megastructure",
+        "vassal"
+      ],
+      "notes": "Unselectable. Source: Overlord empire generated by the [Imperial Fiefdom] Imperial Fiefdom origin"
+    },
+    {
+      "id": "origin_daemonic_incursion",
+      "name": "Daemonic Incursion",
+      "spawn_weight": 0,
+      "spawn_once": false,
+      "dlc": "Toxoids",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [],
+        "compatible": [],
+        "incompatible": [],
+        "notes": "Unselectable origin - personality affinity not applicable"
+      },
+      "tags": [
+        "unselectable"
+      ],
+      "notes": "Unselectable. Source: Daemonic Incursion unique empire"
+    },
+    {
+      "id": "origin_slavers",
+      "name": "Your Ladder To The Sky",
+      "spawn_weight": 0,
+      "spawn_once": false,
+      "dlc": "First Contact",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": "pc_relic",
+        "special_features": [
+          "Homeworld size 25"
+        ]
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [],
+        "compatible": [],
+        "incompatible": [],
+        "notes": "Unselectable origin - personality affinity not applicable"
+      },
+      "tags": [
+        "unselectable",
+        "genetic"
+      ],
+      "notes": "Unselectable. Source: Minamar Specialized Industries unique empire"
+    },
+    {
+      "id": "origin_broken_rule",
+      "name": "Broken Rule",
+      "spawn_weight": 0,
+      "spawn_once": false,
+      "dlc": "Galactic Paragons",
+      "requirements": {
+        "authority": [],
+        "ethics": [],
+        "civics": [],
+        "forbidden_authority": [],
+        "forbidden_ethics": [],
+        "forbidden_civics": [],
+        "is_gestalt": null,
+        "is_machine": null,
+        "notes": ""
+      },
+      "starting_modifiers": {
+        "extra_pops": 0,
+        "extra_districts": {},
+        "extra_buildings": [],
+        "extra_techs": [],
+        "resource_modifiers": {},
+        "happiness_modifier": 0,
+        "growth_modifier": 0,
+        "homeworld_class": null,
+        "special_features": []
+      },
+      "economy_impact": {
+        "mineral_modifier": 0,
+        "energy_modifier": 0,
+        "food_modifier": 0,
+        "alloy_modifier": 0,
+        "research_modifier": 0,
+        "unity_modifier": 0,
+        "trade_modifier": 0
+      },
+      "personality_affinity": {
+        "strong": [],
+        "compatible": [],
+        "incompatible": [],
+        "notes": "Unselectable origin - personality affinity not applicable"
+      },
+      "tags": [
+        "unselectable"
+      ],
+      "notes": "Unselectable. Source: Rebel empire generated during the [Origins under one rule] Under One Rule origin"
+    }
+  ]
+}

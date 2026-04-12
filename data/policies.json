@@ -1,0 +1,1590 @@
+{
+  "category": "policies",
+  "source": "Stellaris Wiki (4.x)",
+  "extracted": "2026-04-12",
+  "count": 155,
+  "items": [
+    {
+      "id": "Cooperative",
+      "section": "Diplomatic Stance",
+      "data": {
+        "Stance": "[Cooperative]CooperativeThis empire will attempt to find common ground and negotiate with other empires in the name of friendship.",
+        "Effects": "[Leader pool size] +1 External recruitable leaders per class; [Mod diplo weight mult] +25% Diplomatic weight; [Mod country border friction mult] −50% Border friction; [Envoy improve relations] +50% Envoy improve relations; [Unknown] +25% Operation cost; [Unknown] +25% Operation upkeep; [Influence] −0.25 Influence cost to harm relations",
+        "Faction approval": "[Faction icons xenoists] Xenoist +10; [Faction icons progressives] Progressive +5; [Faction icons technologists] Technologist +5; [Faction icons imperialists] Imperialist −10; [Isolationist] Isolationist −10; [Supremacist] Supremacist −10",
+        "Requirements": "[No][Inward Perfection] Inward Perfection; [No][Barbaric Despoilers] Barbaric Despoilers",
+        "AI weight": "Modifiers; .00+×3 Federation Builders AI personality; .00+×2 [Fanatic xenophile] Fanatic Xenophile; 0+×1.5 [Xenophile] Xenophile; 0+×1.3 [Fanatic egalitarian] Fanatic Egalitarian; 0+×1.3 [Fanatic pacifist] Fanatic Pacifist; 0+×1.3 [Exploration Protocols] Exploration Protocols; +×1.25 [Yes] AI personality likes aliens; +×1.15 [Egalitarian] Egalitarian; +×1.15 [Pacifist] Pacifist; 0+×1.1 [Fanatic materialist] Fanatic Materialist; ×1.05 [Materialist] Materialist; −×0.75 [Authoritarian] Authoritarian; 0−×0.5 [Fanatic authoritarian] Fanatic Authoritarian; 0−×0.1 [Xenophobe] Xenophobe; −×0.01 [Galactic Nemesis] Galactic Nemesis; .00−×0 [Fanatic xenophobe] Fanatic Xenophobe; .00−×0 Hasn't encountered another empire"
+      }
+    },
+    {
+      "id": "Expansionist",
+      "section": "Diplomatic Stance",
+      "data": {
+        "Stance": "[Expansionist]ExpansionistThis empire seeks to grow peacefully, but has no specific diplomatic focus.",
+        "Effects": "[Mod country spaceport cost mult] −10% Outpost build cost; [Mod planet colony development speed] +15% Colony development speed; [Mod country border friction mult] +100% Border friction",
+        "Faction approval": "[Isolationist] Isolationist −10",
+        "AI weight": "Modifiers; .00+×2 Hasn't encountered another empire; −×0.01 [Galactic Nemesis] Galactic Nemesis"
+      }
+    },
+    {
+      "id": "Isolationist",
+      "section": "Diplomatic Stance",
+      "data": {
+        "Stance": "[Isolationist]IsolationistThis empire wishes to be left alone to their own affairs.",
+        "Effects": "[Monthly unity] +10% Monthly unity; [Mod pop government ethic attraction] +25% Governing ethics attraction; [Mod diplo weight mult] −25% Diplomatic weight; [Mod country diplomacy influence cost] +100% Diplomatic influence cost; [Mod country border friction mult] +200% Border friction; [Leader pool size] −2 External recruitable leaders per class; [Influence] −0.25 Influence cost to improve or harm relations",
+        "Faction approval": "[Isolationist] Isolationist +10",
+        "Requirements": "[No][Corporate] Corporate",
+        "AI weight": "Modifiers; .+×100 [Inward Perfection] Inward Perfection; .00+×3 AI personality is isolationist; .00+×2 [Xenophobe] Xenophobe; −×0.25 Hasn't encountered another empire; −×0.01 [Galactic Nemesis] Galactic Nemesis; .00−×0 Federation Builders AI personality; .00−×0 Fanatic Befrienders AI personality"
+      }
+    },
+    {
+      "id": "Belligerent",
+      "section": "Diplomatic Stance",
+      "data": {
+        "Stance": "[Belligerent]BelligerentThis empire will attempt to bully weaker empires into submission to their will.",
+        "Effects": "[Mod country war exhaustion] −10% War exhaustion gain; [Naval capacity] +10% Naval capacity; [Mod country claim influence cost] −10% Claim influence cost; [Leader pool size] −1 External recruitable leaders per class; [Influence] −0.25 Influence cost to improve relations",
+        "Faction approval": "[Faction icons imperialists] Imperialist +10; [Supremacist] Supremacist +10; [Isolationist] Isolationist −10; [Prosperity] Prosperity −10",
+        "Requirements": "[No][Inward Perfection] Inward Perfection",
+        "AI weight": "Modifiers; .00+×5 [Barbaric Despoilers] Barbaric Despoilers; .00+×5 [Nihilistic Acquisition] Nihilistic Acquisition; .00+×3 [Auth hive mind] Hive Mind and can't expand; .00+×3 [Driven Assimilator] Driven Assimilator and can't expand; .00+×2 [Fanatic militarist] Fanatic Militarist; 0+×1.5 [Militarist] Militarist; 0+×1.5 [Fanatic authoritarian] Fanatic Authoritarian; +×1.25 [Authoritarian] Authoritarian; 0+×1.5 [Nationalistic Zeal] Nationalistic Zeal; 0+×1.5 [Warrior Culture] Warrior Culture; 0+×1.5 [Private Military Companies] Private Military Companies; 0+×1.5 [Strength of Legions] Strength of Legions; 0+×1.5 [Warbots] Warbots; 0+×1.5 [Yes] AI personality likes conquest; 0−×0.5 [Pacifist] Pacifist or [Fanatic pacifist] Fanatic Pacifist; 0−×0.5 [Pacifist] Pacifist and not rivaled by a neighbor empire; .00−×0 [Fanatic pacifist] Fanatic Pacifist and not rivaled by a neighbor empire; .00−×0 Hasn't encountered another empire"
+      }
+    },
+    {
+      "id": "Mercantile",
+      "section": "Diplomatic Stance",
+      "data": {
+        "Stance": "[Mercantile]MercantileThis empire desires the facilitation of trade above all else.",
+        "Effects": "[Leader pool size] +1 External recruitable leaders per class; [Diplomatic weight from economy] +25% Diplomatic weight from economy; [Trade value] +10% Monthly trade; [Influence] +0.25 Influence cost to close borders against non-rivals",
+        "Faction approval": "[Prosperity] Prosperity +10; [Isolationist] Isolationist −10",
+        "Requirements": "[No][Gestalt consciousness] Gestalt Consciousness; [No][Inward Perfection] Inward Perfection; [Yes] One must be true: [Corporate] Corporate [Merchant Guilds] Merchant Guilds [Corporate Dominion] Corporate Dominion; [Corporate] Corporate; [Merchant Guilds] Merchant Guilds; [Corporate Dominion] Corporate Dominion",
+        "AI weight": "Modifiers; .00+×3 [Corporate] Corporate; +×1.25 [Free Traders] Free Traders; −×0.65 [Private Military Companies] Private Military Companies; −×0.65 [Private Prospectors] Private Prospectors; −×0.01 [Galactic Nemesis] Galactic Nemesis"
+      }
+    },
+    {
+      "id": "Supremacist",
+      "section": "Diplomatic Stance",
+      "data": {
+        "Stance": "[Supremacist]SupremacistThis empire demands that all will bow before them.",
+        "Effects": "[Mod country war exhaustion] −20% War exhaustion gain; [Naval capacity] +20% Naval capacity; [Influence] −10% Claim influence cost; [Diplomatic weight] +100% Diplomatic weight from fleet power; [Diplomatic weight] −50% Diplomatic weight from economy; [Diplomatic weight] −50% Diplomatic weight from tech; [Influence] −0.25 Influence cost to improve relations; [Diplomacy opinion] −100 Opinion to and from all empires with the same policy; [Diplomacy rivalry] Rivalry does not require negative relations or harming relations",
+        "Faction approval": "[Faction icons imperialists] Imperialist +10; [Supremacist] Supremacist +10; [Prosperity] Prosperity −10",
+        "Requirements": "[Supremacy] Finished the Supremacy tradition tree; [No][Inward Perfection] Inward Perfection; [No][Diplomacy isvassal] Subject; [No] Humiliated",
+        "AI weight": "Modifiers; .0+×10 Awakened Empire; .0+×10 [Apocalypse] The Horde; .00+×3 [Warrior Culture] Warrior Culture; .00+×3 [Private Military Companies] Private Military Companies; .00+×3 [Strength of Legions] Strength of Legions; .00+×3 [Warbots] Warbots; .00+×2 [Nationalistic Zeal] Nationalistic Zeal; .00+×2 [Fanatic militarist] Fanatic Militarist; 0+×1.5 [Militarist] Militarist; 0+×1.5 [Fanatic authoritarian] Fanatic Authoritarian; 0+×1.5 AI personality likes conquest or subjugating other empires; +×1.25 [Authoritarian] Authoritarian; +×1.25 [Barbaric Despoilers] Barbaric Despoilers; +×1.25 [Nihilistic Acquisition] Nihilistic Acquisition; −×0.25 Another known, neighboring independent regular empire has at least −Superior relative power; .00−×0 Another known independent regular empire with the same stance has −Overwhelming relative power; .00−×0 [Pacifist][Fanatic pacifist] Pacifist; .00−×0 Hasn't encountered another empire"
+      }
+    },
+    {
+      "id": "Antagonistic",
+      "section": "Diplomatic Stance",
+      "data": {
+        "Stance": "[Antagonistic]AntagonisticThis empire wants to compete against all possible rivals.",
+        "Effects": "[Diplomacy rivalry] +2 Maximum rivalries; [Unity] +10 Unity from rivals; [Diplomatic weight] +5% Diplomatic weight per rival; [Mod country border friction mult] +100% Border friction; [Diplomacy opinion] −100 Rival opinion; [Diplomacy rivalry] Rivalry does not require negative relations or harming relations",
+        "Faction approval": "[Faction icons imperialists] Imperialist +10; [Supremacist] Supremacist +10; [Isolationist] Isolationist −10",
+        "Requirements": "[Enmity] Finished the Enmity tradition tree; [No][Diplomacy isvassal] Subject",
+        "AI weight": "Modifiers; .0+×20 Metalheads AI personality; .00+×3 [Warrior Culture] Warrior Culture; .00+×3 [Private Military Companies] Private Military Companies; .00+×3 [Strength of Legions] Strength of Legions; .00+×3 [Warbots] Warbots; .00+×3 [Origins payback] Payback; .00+×2 Any fanatic ethic; .00+×2 [Nationalistic Zeal] Nationalistic Zeal; .00+×2 [Pompous Purists] Pompous Purists; 0+×1.5 [Militarist] Militarist; +×1.25 [Authoritarian] Authoritarian; .00−×0 [Fanatic xenophile] Fanatic Xenophile; .00−×0 [Empath] Empath; .00−×0 [No] Hasn't encountered another empire; .00−×0 [No] No rivals"
+      }
+    },
+    {
+      "id": "Dormant",
+      "section": "Diplomatic Stance",
+      "data": {
+        "Stance": "[Dormant]DormantThis empire fell into a dark age long ago, and largely isolates itself from the rest of the galaxy.",
+        "Requirements": "[Origins elder race] Fallen Empire (Dormant)",
+        "AI weight": "Always"
+      }
+    },
+    {
+      "id": "Purification",
+      "section": "Genocidal diplomatic stances",
+      "data": {
+        "Stance": "[Purification]PurificationThis empire believes that enemies exist solely to be destroyed, and that they are the ones chosen to do so.",
+        "Faction approval": "[Isolationist] Isolationist −10",
+        "Requirements": "[Fanatic Purifiers] Fanatic Purifiers"
+      }
+    },
+    {
+      "id": "Hunger",
+      "section": "Genocidal diplomatic stances",
+      "data": {
+        "Stance": "[Hunger]HungerThis empire hungers and consumes.",
+        "Requirements": "[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness"
+      }
+    },
+    {
+      "id": "Extermination",
+      "section": "Genocidal diplomatic stances",
+      "data": {
+        "Stance": "[Extermination]ExterminationThis empire's purpose is to destroy all biological life.",
+        "Requirements": "[Determined Exterminator] Determined Exterminator"
+      }
+    },
+    {
+      "id": "Devastators",
+      "section": "Genocidal diplomatic stances",
+      "data": {
+        "Stance": "[Devastators]DevastatorsThis empire seeks to thoroughly devastate alien planets.",
+        "Requirements": "[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct"
+      }
+    },
+    {
+      "id": "Ignorant",
+      "section": "Pre-FTL diplomatic stances",
+      "data": {
+        "Stance": "[Ignorant]IgnorantThis pre-FTL civilization is ignorant of the reality that exists beyond its gravity well.",
+        "Requirements": "[Diplomacy awareness] Completely Unaware or Low Awareness"
+      }
+    },
+    {
+      "id": "Questioning",
+      "section": "Pre-FTL diplomatic stances",
+      "data": {
+        "Stance": "[Questioning]QuestioningThis pre-FTL civilization is beginning to question what might exist beyond their star system.",
+        "Requirements": "[Diplomacy awareness] Partially Aware"
+      }
+    },
+    {
+      "id": "Uncertain",
+      "section": "Pre-FTL diplomatic stances",
+      "data": {
+        "Stance": "[Uncertain]UncertainThis pre-FTL civilization is uncertain as to how to approach alien societies.",
+        "Requirements": "[Diplomacy awareness] High Awareness or Fully Aware; [No][Xenophile][Fanatic xenophile] Xenophile; [No][Xenophobe][Fanatic xenophobe] Xenophobe"
+      }
+    },
+    {
+      "id": "Eager",
+      "section": "Pre-FTL diplomatic stances",
+      "data": {
+        "Stance": "[Eager]EagerThis pre-FTL civilization is eager to set out to the stars and meet the rest of the galaxy.",
+        "Requirements": "[Diplomacy awareness] High Awareness or Fully Aware; [Xenophile][Fanatic xenophile] Xenophile"
+      }
+    },
+    {
+      "id": "Fearful",
+      "section": "Pre-FTL diplomatic stances",
+      "data": {
+        "Stance": "[Fearful]FearfulThis pre-FTL civilization is afraid of the alien dangers that exist in the galaxy.",
+        "Requirements": "[Diplomacy awareness] High Awareness or Fully Aware; [Xenophobe][Fanatic xenophobe] Xenophobe"
+      }
+    },
+    {
+      "id": "Stellar Culture Shock",
+      "section": "Pre-FTL diplomatic stances",
+      "data": {
+        "Stance": "[Stellar Culture Shock]Stellar Culture ShockThis pre-FTL civilization is still adjusting to the knowledge that they are not alone in the galaxy.",
+        "Effects": "[Diplomacy alliance] −100 Diplomatic Acceptance",
+        "Requirements": "[Diplomacy awareness] Fully Aware; [Pm stellar culture shock][Pre-FTL species#Diplomacy] Stellar Culture Shock"
+      }
+    },
+    {
+      "id": "Proactive",
+      "section": "First Contact Protocol",
+      "data": {
+        "Protocol": "[Contact friendly]Proactive",
+        "Effects": "[No] Cannot attack neutral fleets; [Yes] Other empires will find it easier to establish communications; [Influence] +50% Influence from successful first contact; [Time] +10% First contact discovery speed",
+        "Faction approval": "[Faction icons xenoists] Xenoist +10; [Supremacist] Supremacist −5; [Isolationist] Isolationist −10",
+        "Requirements": "[No][Origins payback] Payback; [No][Xenophobe][Fanatic xenophobe] Xenophobe; [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct",
+        "AI weight": "Modifiers; +×2 [Pacifist][Fanatic pacifist] Pacifist; +×2 [Xenophile][Fanatic xenophile] Xenophile; +×2 [Rogue Servitor] Rogue Servitor",
+        "Description": "Meeting alien civilizations presents an exciting opportunity to make new friends and fresh discoveries. We shall do our utmost to ensure that first contact happens smoothly, hailing unknown ships with a cordially-phrased greeting and a copy of our Official Standard Encyclopedia, along with its audio-visual companion dossier."
+      }
+    },
+    {
+      "id": "Cautious",
+      "section": "First Contact Protocol",
+      "data": {
+        "Protocol": "[Contact isolationist]Cautious",
+        "Effects": "[No] Cannot attack neutral fleets; [Unknown] Negative first contact events are less likely; [Yes] Other empires will find it harder to establish communications; [Yes]+2 First contact target difficulty",
+        "Faction approval": "[Supremacist] Supremacist −5",
+        "Requirements": "[No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct",
+        "AI weight": "Modifiers; +×1.5 Always; +×3 [Origins wilderness] Wilderness",
+        "Description": "We will take every measure to prevent information about ourselves from falling into alien hands before we have decided whether they will be friend or foe."
+      }
+    },
+    {
+      "id": "Aggressive",
+      "section": "First Contact Protocol",
+      "data": {
+        "Protocol": "[Contact hostile]Aggressive",
+        "Effects": "[Yes] Can attack neutral fleets; [First contact saucericon] Enables hostile first contact actions",
+        "Faction approval": "[Supremacist] Supremacist +10; [Faction icons xenoists] Xenoist −10",
+        "Requirements": "[No][Pacifist][Fanatic pacifist] Pacifist; [No][Xenophile][Fanatic xenophile] Xenophile",
+        "AI weight": "Modifiers; +×2 [Militarist][Fanatic militarist] Militarist; +×2 [Xenophobe][Fanatic xenophobe] Xenophobe; +×2 [Gestalt consciousness] Gestalt Consciousness",
+        "Description": "Unknown dangers may hide among the stars. To ensure our continued survival we must be ready to strike without hesitation."
+      }
+    },
+    {
+      "id": "Unrestricted Wars",
+      "section": "War Philosophy",
+      "data": {
+        "War Philosophy": "Unrestricted Wars",
+        "Effects": "No restriction on system claims",
+        "Faction approval": "[Prosperity] Prosperity −10; [Isolationist] Isolationist −25",
+        "Requirements": "Forced if Genocidal; [No][Pacifist][Fanatic Pacifist] Pacifist",
+        "AI weight": "Modifiers; +×10 [No] Doesn't have a valid AI personality; +×10 [Yes] AI personality likes conquest, subjugating other empires, or purging aliens; +×10 [Galactic Nemesis] Galactic Nemesis; −×0.1 [Diplomacy restore community] Banned by [Rules of War] Rules of War resolution 4 or 5",
+        "Description": "War is a dish best served frequently, and to those who will not cook for themselves."
+      }
+    },
+    {
+      "id": "Liberation Wars",
+      "section": "War Philosophy",
+      "data": {
+        "War Philosophy": "Liberation Wars",
+        "Effects": "Claims can only be made during defensive wars; Animosity casus belli against rivals is replaced with the Ideology casus belli",
+        "Faction approval": "[Prosperity] Prosperity −10",
+        "Requirements": "Forced if [Crusader Spirit] Crusader Spirit civic; [No][Fanatic pacifist] Fanatic Pacifist; [No][Gestalt consciousness] Gestalt Consciousness",
+        "AI weight": "Modifiers; +×2 [Pacifist] Pacifist and doesn't have a valid AI personality; +×2 AI personality likes conquest, subjugating or liberating other empires",
+        "Description": "We must further our own interests, even when they run contrary to the interests of others."
+      }
+    },
+    {
+      "id": "No Wars",
+      "section": "War Philosophy",
+      "data": {
+        "War Philosophy": "Defensive Wars",
+        "Effects": "Cannot declare war except for independence wars against the overlord; Claims can only be made during defensive wars",
+        "Faction approval": "[Prosperity] Prosperity +10; [Faction icons imperialists] Imperialist −30",
+        "Requirements": "[No][Fanatic militarist] Fanatic Militarist",
+        "AI weight": "Modifiers; −×0 [No][Pacifist][Fanatic pacifist] Pacifist",
+        "Description": "Violence is a last resort to ensure the integrity of our nation."
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Subjugation War Terms",
+      "data": {
+        "Subjugation War Terms": "Oppressive",
+        "Subject integration": "−Integration Permitted",
+        "Diplomatic freedom": "−Limited Diplomacy",
+        "Expansion": "−Expansion Prohibited",
+        "Overlord conflicts": "−All",
+        "Faction approval": "[Faction icons totalitarians] Totalitarian +10; [Faction icons imperialists] Imperialist +5; [Supremacist] Supremacist +5; [Faction icons xenoists] Xenoist −10",
+        "Authority": "[No][Corporate]",
+        "AI weight": "Modifiers; 0+×1.3 [Fanatic authoritarian] Fanatic Authoritarian; 0+×1.3 [Fanatic xenophobe] Fanatic Xenophobe; +×1.15 [Authoritarian] Authoritarian; +×1.15 [Xenophobe] Xenophobe; 0−×0.5 [Pacifist] Pacifist; −×0.5 0[Xenophile] Xenophile; 0−×0.1 [Fanatic pacifist] Fanatic Pacifist; 0−×0.1 [Fanatic xenophile] Fanatic Xenophile",
+        "Description": "Those we subjugate are inferior to us, we tolerate them only because they remain silent and shower us with their pathetic gifts."
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Subjugation War Terms",
+      "data": {
+        "Subjugation War Terms": "Balanced",
+        "Subject integration": "+Integration Prohibited",
+        "Diplomatic freedom": "Restricted Voting",
+        "Expansion": "Expansion Regulated",
+        "Overlord conflicts": "Defensive",
+        "Faction approval": "[Supremacist] Supremacist −5",
+        "Authority": "[No][Corporate]",
+        "AI weight": "Modifiers; 0+×1.3 [Fanatic egalitarian] Fanatic Egalitarian; 0+×1.3 [Fanatic materialist] Fanatic Materialist; +×1.15 [Egalitarian] Egalitarian; +×1.15 [Materialist] Materialist",
+        "Description": "We believe in treating our subjects fairly. Perhaps in time, they will see the wisdom of our ways and the errors of theirs."
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Subjugation War Terms",
+      "data": {
+        "Subjugation War Terms": "Benevolent",
+        "Subject integration": "+Integration Prohibited",
+        "Diplomatic freedom": "+Independent Diplomacy",
+        "Expansion": "+Expansion Permitted",
+        "Overlord conflicts": "Defensive",
+        "Faction approval": "[Faction icons xenoists] Xenoist +10; [Faction icons progressives] Progressive +5; [Faction icons imperialists] Imperialist −5; [Supremacist] Supremacist −5; [Faction icons totalitarians] Totalitarian −10",
+        "Authority": "[No][Corporate]",
+        "AI weight": "Modifiers; 0+×1.3 [Fanatic pacifist] Fanatic Pacifist; 0+×1.3 [Fanatic xenophile] Fanatic Xenophile; +×1.15 [Pacifist] Pacifist; +×1.15 [Xenophile] Xenophile; 0−×0.5 [Authoritarian] Authoritarian; 0−×0.5 [Xenophobe] Xenophobe; 0−×0.1 [Fanatic authoritarian] Fanatic Authoritarian; 0−×0.1 [Fanatic xenophobe] Fanatic Xenophobe",
+        "Description": "Our subjects are as much part of us as we are of them, their success is our victory, and we shall move forward as one."
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Subjugation War Terms",
+      "data": {
+        "Subjugation War Terms": "Hostile Takeover",
+        "Subject integration": "+Integration Prohibited",
+        "Diplomatic freedom": "Restricted Voting",
+        "Expansion": "Expansion Regulated",
+        "Overlord conflicts": "−All",
+        "Contribution": "[Energy Credits][Minerals][Food] +45%[Alloys][Consumer goods] +15%",
+        "Faction approval": "[Faction icons imperialists] Imperialist +5; [Supremacist] Supremacist +5; [Faction icons totalitarians] Totalitarian +5; [Faction icons xenoists] Xenoist −10",
+        "Authority": "[Corporate]",
+        "AI weight": "Modifiers; 0+×1.3 [Fanatic authoritarian] Fanatic Authoritarian; 0+×1.3 [Fanatic xenophobe] Fanatic Xenophobe; +×1.15 [Authoritarian] Authoritarian; +×1.15 [Xenophobe] Xenophobe; 0−×0.5 [Pacifist] Pacifist; −×0.5 0[Xenophile] Xenophile; 0−×0.1 [Fanatic pacifist] Fanatic Pacifist; 0−×0.1 [Fanatic xenophile] Fanatic Xenophile",
+        "Description": "The pathetic attempt to block this acquisition has failed; no matter their convictions, in the end, everyone has a price."
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Subjugation War Terms",
+      "data": {
+        "Subjugation War Terms": "Standard Acquisition",
+        "Subject integration": "+Integration Prohibited",
+        "Diplomatic freedom": "Restricted Voting",
+        "Expansion": "Expansion Regulated",
+        "Overlord conflicts": "Defensive",
+        "Contribution": "[Energy Credits][Minerals][Food] +30%",
+        "Faction approval": "[Supremacist] Supremacist −5",
+        "Authority": "[Corporate]",
+        "AI weight": "Modifiers; 0+×1.3 [Fanatic egalitarian] Fanatic Egalitarian; 0+×1.3 [Fanatic materialist] Fanatic Materialist; +×1.15 [Egalitarian] Egalitarian; +×1.15 [Materialist] Materialist",
+        "Description": "With a satisfactory deal in place, both parties can now get back to work."
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Subjugation War Terms",
+      "data": {
+        "Subjugation War Terms": "Negotiated Synergy",
+        "Subject integration": "+Integration Prohibited",
+        "Diplomatic freedom": "+Independent Diplomacy",
+        "Expansion": "+Expansion Permitted",
+        "Overlord conflicts": "Defensive",
+        "Contribution": "[Energy Credits][Minerals][Food] +30%",
+        "Faction approval": "[Faction icons xenoists] Xenoist +10; [Faction icons progressives] Progressive +5; [Faction icons imperialists] Imperialist −5; [Supremacist] Supremacist −5; [Faction icons totalitarians] Totalitarian −5",
+        "Authority": "[Corporate]",
+        "AI weight": "Modifiers; 0+×1.3 [Fanatic pacifist] Fanatic Pacifist; 0+×1.3 [Fanatic xenophile] Fanatic Xenophile; +×1.15 [Pacifist] Pacifist; +×1.15 [Xenophile] Xenophile; 0−×0.5 [Authoritarian] Authoritarian; 0−×0.5 [Xenophobe] Xenophobe; 0−×0.1 [Fanatic authoritarian] Fanatic Authoritarian; 0−×0.1 [Fanatic xenophobe] Fanatic Xenophobe",
+        "Description": "The best deals benefit both parties; like life itself, business flourishes in harmony."
+      }
+    },
+    {
+      "id": "Defense in Depth",
+      "section": "War Doctrine",
+      "data": {
+        "War Doctrine": "Defense in Depth",
+        "Effects": "[Mod ship fire rate mult] +10% Home territory fire rate",
+        "Requirements": "Finished the [Supremacy] Supremacy tradition tree",
+        "AI weight": "Modifiers; −×0.1 [Yes] Always",
+        "Description": "Let the enemy come to us. We shall fight them for every planet, every moon, every asteroid that lies within our space. We shall never surrender."
+      }
+    },
+    {
+      "id": "Hit and Run",
+      "section": "War Doctrine",
+      "data": {
+        "War Doctrine": "Hit and Run",
+        "Effects": "[Mod ship disengagement] +2 Disengagement opportunities; [Mod ship disengagement] +33% Combat disengagement chance; [Mod ship disengagement] −25% Emergency FTL damage risk",
+        "Requirements": "Finished the [Supremacy] Supremacy tradition tree",
+        "AI weight": "Modifiers; −×0 [Pacifist][Fanatic pacifist] Pacifist",
+        "Description": "A superior foe can be gradually whittled down by repeated hit and run attacks. The killing blow is delivered only when the odds are favorable."
+      }
+    },
+    {
+      "id": "Rapid Deployment",
+      "section": "War Doctrine",
+      "data": {
+        "War Doctrine": "Rapid Deployment",
+        "Effects": "[Mod ship speed mult] +25% Sublight speed; [Mod ship damage mult] +10% Ship weapons range",
+        "Requirements": "Finished the [Supremacy] Supremacy tradition tree",
+        "AI weight": "Modifiers; +×100 [Yes] Mercenary enclave",
+        "Description": "We must move quickly to strike where the enemy is weakest, and defend where the enemy means to attack. Maneuver is the key to success."
+      }
+    },
+    {
+      "id": "No Retreat",
+      "section": "War Doctrine",
+      "data": {
+        "War Doctrine": "No Retreat",
+        "Effects": "[Mod ship disengagement] +100% Disengagement chance reduction; [Mod ship speed mult] +50% Emergency FTL jump cooldown; [Mod ship fire rate mult] +33% Ship fire rate",
+        "Requirements": "Finished the [Supremacy] Supremacy tradition tree; [Yes] One must be true: [Militarist][Fanatic militarist] Militarist [Gestalt consciousness] Gestalt Consciousness [Fanatic Purifiers] Fanatic Purifiers; [Militarist][Fanatic militarist] Militarist; [Gestalt consciousness] Gestalt Consciousness; [Fanatic Purifiers] Fanatic Purifiers",
+        "AI weight": "Modifiers; +×10 [Yes] Always; 0−×0 [Yes] Honorbound Warriors AI personality; 0−×0 [Yes] Devouring Swarm AI personality",
+        "Description": "Our ships are expected to fight to the bitter end. We will tolerate no withdraws, no retreats, no routs. For our fleet there is only victory or death. Not one step back!"
+      }
+    },
+    {
+      "id": "Rip and Tear",
+      "section": "War Doctrine",
+      "data": {
+        "War Doctrine": "Rip and Tear",
+        "Effects": "[Mod ship fire rate mult] +7% Ship fire rate; [Mod ship damage mult] +7% Ship weapons damage; [Mod ship hitpoints add] −15% Ship hull points; [No] Enemy ships do not leave debris",
+        "Requirements": "[Shadows of the Shroud] 600 Attunement with Eater of Worlds",
+        "AI weight": "Modifiers; −×0.1 [Yes] Always",
+        "Description": "The presence of the Eater of Worlds can be manifested into fleet weaponry itself, with no regard for the safety of the rest of the ship."
+      }
+    },
+    {
+      "id": "Ravenous Onslaught",
+      "section": "War Doctrine",
+      "data": {
+        "War Doctrine": "Ravenous Onslaught",
+        "Effects": "[Unknown] +5% Enemy ship stealing chance; [Mod ship disengagement] +33% Combat disengagement chance; [Mod ship damage mult] −25% Ship weapons range",
+        "Requirements": "[Shadows of the Shroud] 600 Attunement with Eater of Worlds",
+        "AI weight": "Modifiers; −×0.1 [Yes] Always",
+        "Description": "The hunger of the Eater of Worlds drives our fleets into frenzied close quarter engagements. Whatever vessels remain functional in the aftermath of the carnage we claim as our own."
+      }
+    },
+    {
+      "id": "Selective Orbital Bombardment",
+      "section": "Orbital Bombardment",
+      "data": {
+        "Type": "Selective",
+        "Max orbital bombardment stance": "[Bombardment light] Selective",
+        "Description": "Allows only the bombardment of identified military targets, while keeping civilian casualties to a minimum."
+      }
+    },
+    {
+      "id": "Indiscriminate Orbital Bombardment",
+      "section": "Orbital Bombardment",
+      "data": {
+        "Type": "Indiscriminate",
+        "Max orbital bombardment stance": "[Bombardment limited] Indiscriminate",
+        "Requirements": "[No][Pacifist][Fanatic pacifist] Pacifist",
+        "Description": "Allows the full use of all orbital weaponry, with no regards to life on the surface"
+      }
+    },
+    {
+      "id": "Armageddon Orbital Bombardment",
+      "section": "Orbital Bombardment",
+      "data": {
+        "Type": "Armageddon",
+        "Max orbital bombardment stance": "[Bombardment armageddon] Armageddon",
+        "Requirements": "[Yes] Either: [Fanatic Purifiers] Fanatic Purifiers civic [Determined Exterminator] Determined Exterminator civic [Death From Above] Death From Above crisis perk; [Fanatic Purifiers] Fanatic Purifiers civic; [Determined Exterminator] Determined Exterminator civic; [Death From Above] Death From Above crisis perk",
+        "Description": "Allows the full use of all orbital weaponry, with no regards to life on the planet itself. Utter annihilation is the goal."
+      }
+    },
+    {
+      "id": "Devastation Orbital Bombardment",
+      "section": "Orbital Bombardment",
+      "data": {
+        "Type": "Devastation",
+        "Max orbital bombardment stance": "[Bombardment firestorm] Firestorm",
+        "Requirements": "[Yes] Either: [Scorched World Heralds] Scorched World Heralds civic [Pyromanic Instinct] Pyromanic Instinct civic; [Scorched World Heralds] Scorched World Heralds civic; [Pyromanic Instinct] Pyromanic Instinct civic",
+        "Description": "Allows the full use of all orbital weaponry, with the express aim of devastating the landscape."
+      }
+    },
+    {
+      "id": "Orbital Surrender Prohibited",
+      "section": "Orbital Surrender Acceptance",
+      "data": {
+        "Type": "Prohibited",
+        "Effects": "[No] Surrenders are not accepted",
+        "Description": "There will be no surrender. Orbital Bombardment will continue indefinitely."
+      }
+    },
+    {
+      "id": "Orbital Surrender Allowed",
+      "section": "Orbital Surrender Acceptance",
+      "data": {
+        "Type": "Allowed",
+        "Effects": "[Yes] Surrenders are accepted",
+        "Description": "Foreign citizens have the right to surrender."
+      }
+    },
+    {
+      "id": "Non-Interference",
+      "section": "Pre-FTL Interference",
+      "data": {
+        "Type": "Non-Interference",
+        "Available observations": "[Fleet task passive study action] Passive Observation",
+        "Can reveal presence": "[No]",
+        "Can invade": "[No]",
+        "Faction approval": "[Faction icons xenoists] Xenoist +10; [Supremacist] Supremacist −10",
+        "Requirements": "Unless [Diplomacy hasvassal] Signatory: [No][Fanatic xenophobe] Fanatic Xenophobe [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct; [No][Fanatic xenophobe] Fanatic Xenophobe; [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct",
+        "Description": "It is not our place to influence the development of another society. Watch, but do not interfere."
+      }
+    },
+    {
+      "id": "Subtle Interference",
+      "section": "Pre-FTL Interference",
+      "data": {
+        "Type": "Subtle Interference",
+        "Available observations": "[Fleet task passive study action] Passive Observation",
+        "Espionage operations": "Spread Disinformation; Increase Awareness; Plant Advanced Knowledge; Indoctrinate Society",
+        "Can reveal presence": "[Diplomacy awareness] High Awareness",
+        "Can invade": "[No]",
+        "Faction approval": "[Faction icons xenoists] Xenoist +10; [Supremacist] Supremacist −10",
+        "Requirements": "Unless [Diplomacy hasvassal] Signatory: [No][Fanatic xenophobe] Fanatic Xenophobe [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct; [No][Fanatic xenophobe] Fanatic Xenophobe; [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct",
+        "Description": "We can nudge their development in the right direction, but our touch must remain subtle."
+      }
+    },
+    {
+      "id": "Active Interference",
+      "section": "Pre-FTL Interference",
+      "data": {
+        "Type": "Active Interference",
+        "Available observations": "[Fleet task passive study action] Passive Observation; [Fleet task active study action] Aggressive Observation",
+        "Espionage operations": "Spread Disinformation; Increase Awareness; Plant Advanced Knowledge; Infiltrate Government; Infiltrate Hive; Indoctrinate Society",
+        "Can reveal presence": "[Yes]",
+        "Can invade": "[No]",
+        "Faction approval": "[Supremacist] Supremacist +5; [Faction icons xenoists] Xenoist −5",
+        "Requirements": "[No][Diplomacy hasvassal] Signatory; [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct",
+        "Description": "To unlock the secrets of the universe, any subject of interest must be made freely available for study."
+      }
+    },
+    {
+      "id": "Aggressive Interference",
+      "section": "Pre-FTL Interference",
+      "data": {
+        "Type": "Aggressive Interference",
+        "Available observations": "[Fleet task active study action] Aggressive Observation",
+        "Espionage operations": "Spread Disinformation; Infiltrate Government; Infiltrate Hive; Indoctrinate Society",
+        "Can reveal presence": "[Yes]",
+        "Can invade": "[Yes]",
+        "Faction approval": "[Supremacist] Supremacist +5; [Faction icons xenoists] Xenoist −5",
+        "Requirements": "[No][Diplomacy hasvassal] Signatory; [No][Pacifist][Fanatic pacifist] Pacifist; [No][Xenophile][Fanatic xenophile] Xenophile; [No][Exploration Protocols] Exploration Protocols",
+        "Description": "The strong hold dominion over the weak. The fate of less developed societies is ours to command."
+      }
+    },
+    {
+      "id": "Native Enlightenment Prohibited",
+      "section": "Pre-FTL Enlightenment",
+      "data": {
+        "Type": "Prohibited",
+        "Effects": "[No] Cannot enlighten pre-FTL civilizations",
+        "Description": "This society is not ready to grasp the wonders we have discovered. Exposing the truth too quickly can entail enormous risks for everyone involved."
+      }
+    },
+    {
+      "id": "Native Enlightenment Covert Only",
+      "section": "Pre-FTL Enlightenment",
+      "data": {
+        "Type": "Covert Only",
+        "Effects": "[Yes] Enables the Plant Advanced Knowledge operation",
+        "Requirements": "[No][Fanatic xenophobe] Fanatic Xenophobe; [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct; [No][Menu icon policies] Non-Interference Pre-FTL Interference",
+        "Description": "Revealing our existence to pre-FTL civilizations would alter the natural course of their development. We should help them, but without revealing our presence."
+      }
+    },
+    {
+      "id": "Native Enlightenment Allowed",
+      "section": "Pre-FTL Enlightenment",
+      "data": {
+        "Type": "Allowed",
+        "Effects": "[Yes] Enables the Plant Advanced Knowledge operation; [Diplomacy open technological enlightenment] Enables the Provide Technology diplomacy interaction",
+        "Requirements": "[No][Fanatic xenophobe] Fanatic Xenophobe; [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct; [No][Menu icon policies] Non-Interference Pre-FTL Interference",
+        "Description": "By sharing our knowledge, we can actively encourage less advanced societies to take their rightful place in the galactic community."
+      }
+    },
+    {
+      "id": "Resettlement Prohibited",
+      "section": "Resettlement",
+      "data": {
+        "Type": "Prohibited",
+        "Effects": "[Mod planet resettlement unemployed mult] +100% Automatic Resettlement Chance",
+        "Faction approval": "[Faction icons progressives] Progressive +10",
+        "Description": "Free pops cannot be forcibly resettled between planets."
+      }
+    },
+    {
+      "id": "Resettlement Allowed",
+      "section": "Resettlement",
+      "data": {
+        "Type": "Allowed",
+        "Effects": "[Yes] Pops can be forcefully resettled unless they are non-sapient robots",
+        "Faction approval": "[Faction icons progressives] Progressive −10",
+        "Description": "Pops can be forcibly resettled between planets."
+      }
+    },
+    {
+      "id": "Land Appropriation Prohibited",
+      "section": "Land Appropriation",
+      "data": {
+        "Type": "Prohibited",
+        "Effects": "Conquered planets will have their population preserved as is",
+        "AI weight": "Modifiers; +×10 [Yes] AI personality likes aliens",
+        "Description": "The land that our empire controls belongs to all of its inhabitants."
+      }
+    },
+    {
+      "id": "Land Appropriation Allowed",
+      "section": "Land Appropriation",
+      "data": {
+        "Type": "Allowed",
+        "Effects": "Planets conquered from non-citizen species will have up to 5 pops displaced",
+        "AI weight": "Modifiers; +×10 [Gestalt consciousness] Gestalt Consciousness; +×10 [No]AI personality does not like aliens",
+        "Description": "The land that the lesser species are not properly utilizing can be put to greater use by their betters."
+      }
+    },
+    {
+      "id": "Natural Selection",
+      "section": "Leader Enhancement",
+      "data": {
+        "Type": "Natural Selection",
+        "Faction approval": "[Faction icons progressives] Progressive +5[Faction icons totalitarians] Totalitarian −5",
+        "Description": "Let nature take its course - it is in the crucible of experience that genius is forged."
+      }
+    },
+    {
+      "id": "Selected Lineages",
+      "section": "Leader Enhancement",
+      "data": {
+        "Type": "Selected Lineages",
+        "Starting level": "+1",
+        "Lifespan": "+10",
+        "Cost": "+100%",
+        "Upkeep": "+50%",
+        "Faction approval": "[Faction icons totalitarians] Totalitarian +5; [Faction icons progressives] Progressive −5",
+        "Requirements": "[Selected Lineages] Selected Lineages technology; [No][Fanatic egalitarian] Fanatic Egalitarian",
+        "Description": "Careful reproductive planning should be incentivized, lest we waste valuable genetic legacies."
+      }
+    },
+    {
+      "id": "Capacity Boosters",
+      "section": "Leader Enhancement",
+      "data": {
+        "Type": "Capacity Boosters",
+        "Starting level": "+2",
+        "Lifespan": "+20",
+        "Cost": "+200%",
+        "Upkeep": "+100%",
+        "Faction approval": "[Faction icons totalitarians] Totalitarian +5; [Faction icons progressives] Progressive −5",
+        "Requirements": "[Capacity Boosters] Capacity Boosters technology; [No][Egalitarian][Fanatic egalitarian] Egalitarian",
+        "Description": "We leave nothing to chance, no matter the cost. Through exacting curation of DNA banks do we build the leaders of tomorrow."
+      }
+    },
+    {
+      "id": "Initial Border Open",
+      "section": "Initial Border Status",
+      "data": {
+        "Type": "Open",
+        "Effects": "[Diplomacy open borders] Borders will be open to other empires by default",
+        "Requirements": "[No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct",
+        "Description": "Isolation invites suspicion, and suspicion invites conflict. Let us show our neighbors that we have nothing to hide."
+      }
+    },
+    {
+      "id": "Initial Border closed",
+      "section": "Initial Border Status",
+      "data": {
+        "Type": "Closed",
+        "Effects": "[Diplomacy closed borders] Borders will be closed to other empires by default",
+        "AI weight": "Modifiers; +×5 [Crisis Lvl5 btn] Existential Threat; −×0 [Corporate] Corporate; −×0 [No] AI personality is not isolationist and does not like attacking neutrals; −×0 [No][Xenophobe][Fanatic xenophobe] Xenophobe",
+        "Description": "The borders of our empire must be well guarded, lest we fall victim to insidious influences. Only those who have proven themselves worthy may enter our space."
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Research Restrictions",
+      "data": {
+        "Type": "Restrictions Imposed",
+        "Effects": "[No] Cannot discover Dangerous technologies; [Unknown] −20% Rare Technology Research Option Chance",
+        "Description": "Dangerous technologies should be avoided at all costs. There are laws of the universe we should never break."
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Research Restrictions",
+      "data": {
+        "Type": "No Restrictions",
+        "Faction approval": "[Faction icons progressives] Progressive +5",
+        "Description": "The galaxy is vast and full of wonders; to stifle our researchers from opportunity would be a mistake."
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Research Restrictions",
+      "data": {
+        "Type": "Refactored Restrictions",
+        "Effects": "[Unknown] +5% Rare Technology Research Option Chance; [Unknown] +25% Dangerous Technology Research Option Chance; [Upkeep] +10% Researchers Upkeep",
+        "Faction approval": "[Faction icons progressives] Progressive +10",
+        "Description": "Our researchers should be restricted from wasting their time with the mundane, to pursue more esoteric studies."
+      }
+    },
+    {
+      "id": "Civilian Economy",
+      "section": "Economic Policy",
+      "data": {
+        "Type": "Civilian Economy",
+        "Effects": "[Consumer goods from jobs] +25% Consumer goods from jobs; [Alloys from jobs] −25% Alloys from jobs",
+        "Description": "The needs of the populace must come before the business of war. Economic might, not military prowess, is what our empire will be founded on."
+      }
+    },
+    {
+      "id": "Mixed Economy",
+      "section": "Economic Policy",
+      "data": {
+        "Type": "Mixed Economy",
+        "Effects": "No bonuses or penalties to resource production",
+        "Description": "To commit ourselves fully to either war or peace is to restrict ourselves to a narrow view. We must be ready for whatever the future may hold."
+      }
+    },
+    {
+      "id": "Militarized Economy",
+      "section": "Economic Policy",
+      "data": {
+        "Type": "Militarized Economy",
+        "Effects": "[Consumer goods from jobs] −25% Consumer goods from jobs; [Alloys from jobs] +25% Alloys from jobs",
+        "Description": "To neglect our defense is to neglect our survival. Trinkets and baubles are scarce comfort when the enemy is battering down the gates."
+      }
+    },
+    {
+      "id": "Wealth Creation",
+      "section": "Trade Policy",
+      "data": {
+        "Type": "Wealth Creation",
+        "Exchange Rate": "[Trade value] +50% Trade; [Energy Credits] +50% Energy",
+        "Requirements": "[No][Gestalt consciousness] Gestalt Consciousness",
+        "Description": "The purpose of trade is to generate profits for individuals and revenue for the state. We should focus our trade efforts fully on this creation of wealth."
+      }
+    },
+    {
+      "id": "Logistics Policy",
+      "section": "Trade Policy",
+      "data": {
+        "Type": "Logistics Policy",
+        "Exchange Rate": "[Trade value] +100% Trade",
+        "Requirements": "[Gestalt consciousness] Gestalt Consciousness",
+        "Description": "Drones will diligently carry supplies and other resources wherever we need them."
+      }
+    },
+    {
+      "id": "Consumer Benefits",
+      "section": "Trade Policy",
+      "data": {
+        "Type": "Consumer Benefits",
+        "Exchange Rate": "[Trade value] +50% Trade; [Consumer goods] +25% Consumer Goods",
+        "Requirements": "[Adaptive Economic Policies] Adaptive Economic Policies tradition; [No][Federation trade] Trade League federation",
+        "Description": "Profits and taxes must take second place to improving the lives of our citizens. We should focus our trade efforts towards the manufacture and distribution of everyday necessities."
+      }
+    },
+    {
+      "id": "Marketplace of Ideas",
+      "section": "Trade Policy",
+      "data": {
+        "Type": "Marketplace of Ideas",
+        "Exchange Rate": "[Trade value] +50% Trade; [Unity] +12.5% Unity",
+        "Requirements": "[Adaptive Economic Policies] Adaptive Economic Policies tradition; [No][Federation trade] Trade League federation; [No][Federation spiritualist] Holy Covenant federation level 3",
+        "Description": "Trade can be used not only to move goods around, but also to facilitate the spread of ideas. We should focus our trade efforts towards ensuring that the message of our government is heard on all planets where we do business."
+      }
+    },
+    {
+      "id": "Mutual Aid",
+      "section": "Trade Policy",
+      "data": {
+        "Type": "Mutual Aid",
+        "Exchange Rate": "[Trade value] +25% Trade; [Energy Credits] +20% Energy; [Minerals] +20% Minerals; [Food] +20% Food; [Unity] +7.5% Unity",
+        "Requirements": "[Worker Cooperative] Worker Cooperative",
+        "Description": "By reinvesting our surplus back into the cooperative, we ensure that all our members may thrive according to their needs and shared aspirations."
+      }
+    },
+    {
+      "id": "Trade League",
+      "section": "Trade Policy",
+      "data": {
+        "Type": "Trade League",
+        "Exchange Rate": "[Trade value] +50% Trade; [Energy Credits] +15% Energy; [Consumer goods] +15% Consumer Goods; [Unity] +7.5% Unity",
+        "Requirements": "[Federation trade] Trade League federation; [No][Gestalt consciousness] Gestalt Consciousness",
+        "Description": "By banding together in a trade league, we are able to prosper and secure profits on a whole new level."
+      }
+    },
+    {
+      "id": "Holy Covenant trade",
+      "section": "Trade Policy",
+      "data": {
+        "Type": "Holy Covenant",
+        "Exchange Rate": "[Trade value] +50% Trade; [Unity] +18.75% Unity",
+        "Requirements": "[Federation spiritualist] Holy Covenant federation level 3; [No][Gestalt consciousness] Gestalt Consciousness",
+        "Description": "By banding together in a holy covenant, we may bask in the collective glory of our divine purpose."
+      }
+    },
+    {
+      "id": "Balanced Production",
+      "section": "Production Policy",
+      "data": {
+        "Type": "Balanced Production",
+        "Effects": "No bonuses or penalties to resource production",
+        "Description": "The Mind dedicates itself equally to the production of raw resources and finished goods."
+      }
+    },
+    {
+      "id": "Extraction Focus",
+      "section": "Production Policy",
+      "data": {
+        "Type": "Extraction Focus",
+        "Effects": "[Mod pop resource output] +20% Menial Drone Output; [Mod pop resource output] −20% Complex Drone Output",
+        "Description": "The Menial Drones that extract raw resources are given priority by the Mind, becoming more productive at the expense of the Complex Drones."
+      }
+    },
+    {
+      "id": "Manufacturing Focus",
+      "section": "Production Policy",
+      "data": {
+        "Type": "Manufacturing Focus",
+        "Effects": "[Mod pop resource output] −20% Menial Drone Output; [Mod pop resource output] +20% Complex Drone Output",
+        "Description": "The Complex Drones that manufacture finished goods are given priority by the Mind, becoming more productive at the expense of the Menial Drones."
+      }
+    },
+    {
+      "id": "Synthetic Citizen Rights",
+      "section": "Artificial Intelligence",
+      "data": {
+        "Type": "Citizen Rights",
+        "Machine pops": "[Navbar icons factions] Can join factions; [Species right citizenship] Full Citizenship",
+        "Mechanical pops": "[Navbar icons factions] Can join factions if sapient; [Species right citizenship] Full Citizenship or Residence; [Mod consumer goods upkeep mult] Use consumer goods upkeep if sapient",
+        "Faction approval": "[Faction icons technologists] Technologist: +10; [Faction icons traditionalists] Traditionalist: −20",
+        "Requirements": "[No][Spiritualist][Fanatic spiritualist] Spiritualist",
+        "Description": "Any self-aware machine that fulfills the criteria of possessing true artificial intelligence is to be regarded as an individual, with all the rights and obligations that entails."
+      }
+    },
+    {
+      "id": "AI Servitude",
+      "section": "Artificial Intelligence",
+      "data": {
+        "Type": "Servitude",
+        "Machine pops": "[Navbar icons factions] Cannot join factions; [Species right citizenship] Servitude citizenship",
+        "Mechanical pops": "[Navbar icons factions] Cannot join factions; [Species right citizenship] Servitude citizenship; [Pop cat ruler] Cannot fill Elite jobs",
+        "Other effects": "[Synthetic Dawn] The AI-Related Incidents situation can take place",
+        "Faction approval": "[Faction icons technologists] Technologist: +10; [Faction icons traditionalists] Traditionalist: −10",
+        "Requirements": "[No][Mechanical] Mechanical founder species; [No][Origin synthetic fertility] Synthetic Fertility",
+        "Description": "The overriding purpose of any machine must be to serve its masters and perform whatever tasks it was designed for, regardless of how intelligent it may be."
+      }
+    },
+    {
+      "id": "AI Outlawed",
+      "section": "Artificial Intelligence",
+      "data": {
+        "Type": "Outlawed",
+        "Machine pops": "[Navbar icons factions] Cannot join factions; [Species right citizenship] Servitude citizenship",
+        "Mechanical pops": "[Navbar icons factions] Cannot join factions; [Happiness] Not affected by happiness; [Job criminal] Does not produce crime; [Species right citizenship] Servitude citizenship; [Researchers (category)] Cannot fill Researcher category jobs; [Administrators (category)] Cannot fill Administrator category jobs",
+        "Other effects": "[Leader trait bg basic][Leader trait sapient ai assistant][Sapient AI Assistant] Scientists lose the Sapient AI Assistant trait; [Tech combat computers 3] Cannot research Sapient Combat Computers (can still be used if already researched)",
+        "Faction approval": "[Faction icons technologists] Technologist: −30",
+        "Requirements": "[No][Materialist][Fanatic materialist] Materialist; [No][Mechanical] Mechanical founder species; [No][Origin synthetic fertility] Synthetic Fertility",
+        "Description": "Intelligent, self-aware machines are an incalculable threat to all living things. The creation of an artificial intelligence is an offense punishable by death."
+      }
+    },
+    {
+      "id": "Robots Allowed",
+      "section": "Robotic Workers",
+      "data": {
+        "Type": "Allowed",
+        "Effects": "Mechanical pops can be built and exist in the empire",
+        "Faction approval": "[Faction icons technologists] Technologist +10; [Faction icons traditionalists] Traditionalist −5",
+        "AI weight": "+×10 always; −×0 if [Fanatic spiritualist] Fanatic Spiritualist",
+        "Description": "The benefits of automation are obvious and immense. For the future of our people, we cannot afford to ignore the opportunities presented to us by technology."
+      }
+    },
+    {
+      "id": "Robots Outlawed",
+      "section": "Robotic Workers",
+      "data": {
+        "Type": "Outlawed",
+        "Effects": "Mechanical pops cannot be assembled; All Mechanical pops are disassembled; Robotic armies are disassembled; Cannot research technologies related to robots or artificial intelligence",
+        "Faction approval": "[Faction icons technologists] Technologist −30",
+        "Requirements": "[No][Materialist][Fanatic materialist] Materialist; [No][Origin synthetic fertility] Synthetic Fertility; [No][Artificial Intelligence] Citizen Rights AI policy",
+        "AI weight": "+×10 if [Fanatic spiritualist] Fanatic Spiritualist; +×10 if neither: AI personality exploits robots AI personality liberates robots; AI personality exploits robots; AI personality liberates robots",
+        "Description": "Robotic automatons are a threat to not only our people's livelihoods but to the very fabric of society itself. We must not allow ourselves to be made obsolete."
+      }
+    },
+    {
+      "id": "Pre-Sapients Protected",
+      "section": "Pre-Sapients",
+      "data": {
+        "Type": "Protected",
+        "Pre-sapient pops": "[No] Cannot be purged",
+        "Planets with pre-sapient pops": "[No] Cannot be terraformed; [Alien Zoo] Can construct Alien Zoos",
+        "Requirements": "Forced if [Genesis Guides][Astrogenesis Technologies][Genesis Symbiotes][Genesis Architects] Genesis Guides[Genesis Guides] Genesis Guides[Astrogenesis Technologies] Astrogenesis Technologies[Genesis Symbiotes] Genesis Symbiotes[Genesis Architects] Genesis Architects",
+        "AI weight": "−×0 if does not value others[Xenophile][Fanatic xenophile] Xenophile[Empath] Empath[Familiar Face] Familiar Face[Rogue Servitor] Rogue Servitor[Exploration Protocols] Exploration Protocols[Origins gardeners] Fruitful Partnership[Origins primal calling] [Animal Handler] Animal Handler stance[Origins primal calling] [Symbiosis Integrator] Symbiotic Partnership stance",
+        "Description": "Though still only simple animals, these beings are no less than what we ourselves once were. They should be allowed the chance at a future."
+      }
+    },
+    {
+      "id": "Pre-Sapients Tolerated",
+      "section": "Pre-Sapients",
+      "data": {
+        "Type": "Tolerated",
+        "Pre-sapient pops": "[Yes] Can be purged",
+        "Planets with pre-sapient pops": "[Yes] Can be terraformed",
+        "Description": "Intelligent animals are still just animals. They can be safely ignored."
+      }
+    },
+    {
+      "id": "Pre-Sapients Hunted",
+      "section": "Pre-Sapients",
+      "data": {
+        "Type": "Hunted",
+        "Pre-sapient pops": "[Mod pop decline speed] Hunted for food, slowly depleting them",
+        "Planets with pre-sapient pops": "[Yes] Can be terraformed",
+        "Faction approval": "[Faction icons xenoists] Xenoist: −10",
+        "Requirements": "[Utopia] Utopia DLC; [No][Xenophile][Fanatic Xenophile] Xenophile; [No][Machine][Mechanical] Robotic founder species",
+        "AI weight": "−×0 if not [Devouring Swarm] Devouring Swarm",
+        "Description": "An animal without sapience can hardly be considered to be part of our empire, but perhaps they can help our growth in other ways..."
+      }
+    },
+    {
+      "id": "Pre-Sapients Exterminated",
+      "section": "Pre-Sapients",
+      "data": {
+        "Type": "Extermination",
+        "Pre-sapient pops": "[Mod pop decline speed] Purged automatically",
+        "Planets with pre-sapient pops": "[Yes] Can be terraformed",
+        "Faction approval": "[Faction icons xenoists] Xenoist: −10",
+        "Requirements": "[No][Xenophile][Fanatic Xenophile] Xenophile; Forced if either: [Fanatic Purifiers] Fanatic Purifiers [Determined Exterminator] Determined Exterminator; [Fanatic Purifiers] Fanatic Purifiers; [Determined Exterminator] Determined Exterminator",
+        "AI weight": "−×0 if neither: [Fanatic Purifiers] Fanatic Purifiers [Determined Exterminator] Determined Exterminator; [Fanatic Purifiers] Fanatic Purifiers; [Determined Exterminator] Determined Exterminator",
+        "Description": "All rights spring from the capacity for reason. An animal is just an animal, and an animal that stands in our way is just a pest."
+      }
+    },
+    {
+      "id": "Research Debris",
+      "section": "Debris",
+      "data": {
+        "Type": "Research Debris",
+        "Effects": "Investigating debris grants 10% progress towards used component technologies",
+        "Requirements": "[No][Scavengers][Refurbishment Division] Scavengers civic",
+        "Description": "We will research our enemies' technologies from the remains of their ships."
+      }
+    },
+    {
+      "id": "Scavenge Debris",
+      "section": "Debris",
+      "data": {
+        "Type": "Scavenge Debris",
+        "Effects": "Investigating debris grants 10% of the ships' cost",
+        "Requirements": "We will scavenge resources from the remains of our enemies' ships."
+      }
+    },
+    {
+      "id": "Research & Salvage Debris",
+      "section": "Debris",
+      "data": {
+        "Type": "Research & Salvage Debris",
+        "Effects": "Investigating debris grants 10% progress towards used component technologies and 10% of the ships' cost",
+        "Requirements": "[Scavengers][Refurbishment Division] Scavengers civic",
+        "Description": "As Scavengers we will strip debris for both research and resources."
+      }
+    },
+    {
+      "id": "Refugees not allowed",
+      "section": "Refugees",
+      "data": {
+        "Type": "No Refugees",
+        "Effects": "Refugees may not arrive",
+        "Faction approval": "[Faction icons xenoists] Xenoist −10",
+        "Requirements": "[No][Xenophile][Fanatic xenophile] Xenophile",
+        "Description": "To open our borders to the dregs of other societies would only serve to undermine the state."
+      }
+    },
+    {
+      "id": "Only citizens",
+      "section": "Refugees",
+      "data": {
+        "Type": "Citizen Species Only",
+        "Effects": "Refugees may arrive if their species has Full Citizenship rights",
+        "Faction approval": "[Faction icons xenoists] Xenoist −10",
+        "Requirements": "[No][Gestalt consciousness] Gestalt Consciousness",
+        "AI weight": "Base: 5",
+        "Description": "We cannot allow compassion to overpower good sense. Only those who would be worthwhile additions to society should be brought into our borders."
+      }
+    },
+    {
+      "id": "Refugees allowed",
+      "section": "Refugees",
+      "data": {
+        "Type": "Refugees Welcome",
+        "Effects": "Refugees may arrive if their species does not have Undesirables rights",
+        "Faction approval": "[Faction icons xenoists] Xenoist +10; [Isolationist] Isolationist −10",
+        "Requirements": "[No][Xenophobe][Fanatic xenophobe] Xenophobe",
+        "AI weight": "Base: 10; −×0 if neither: [Xenophile][Fanatic xenophile] Xenophile [Rogue Servitor] Rogue Servitor AI personality gives aliens full citizenship; [Xenophile][Fanatic xenophile] Xenophile; [Rogue Servitor] Rogue Servitor; AI personality gives aliens full citizenship",
+        "Description": "Those fleeing death and persecution at the hands of tyrants will be welcome within our borders."
+      }
+    },
+    {
+      "id": "Prohibited",
+      "section": "Population Controls",
+      "data": {
+        "Type": "Prohibited",
+        "Effects": "[Decision politics] Can use the Discourage Planetary Growth decision; [No] Cannot enable population control in species rights; [No] Cannot manually decline enslaved pops",
+        "Faction approval": "[Faction icons progressives] Progressive +5",
+        "Description": "To reproduce and propagate their species is the inalienable right of all our citizens."
+      }
+    },
+    {
+      "id": "Allowed",
+      "section": "Population Controls",
+      "data": {
+        "Type": "Allowed",
+        "Effects": "[Decision politics] Can use the Declare Population Controls decision; [Yes] Can enable population control in species rights; [Yes] Can manually decline enslaved pops; [Mod planet migration all pull] −10% Refugee Attraction",
+        "Faction approval": "[Faction icons progressives] Progressive −20",
+        "AI weight": "−×0 if [Egalitarian][Fanatic egalitarian] Egalitarian; −×0 if [Xenophile][Fanatic xenophile] Xenophile",
+        "Description": "Long-term demographics is too important a matter to be left solely in the hands of individual actors."
+      }
+    },
+    {
+      "id": "Prohibited",
+      "section": "Slavery",
+      "data": {
+        "Type": "Prohibited",
+        "Effects": "[No] Cannot use Slaves species rights; [Mod country slave market cost mult] +100% Slave Market Cost",
+        "Requirements": "[No][Slaver Guilds] Slaver Guilds; [No][Indentured Assets] Indentured Assets",
+        "Description": "The enslavement of sentient beings is an abomination and will not be tolerated within our Empire."
+      }
+    },
+    {
+      "id": "Slavery Allowed",
+      "section": "Slavery",
+      "data": {
+        "Type": "Allowed",
+        "Effects": "[Yes] Can use Slaves species rights; [Mod planet migration all pull] −40% Refugee Attraction",
+        "Faction approval": "[Faction icons xenoists] Xenoist −25",
+        "Requirements": "[Authoritarian][Fanatic authoritarian] Authoritarian or [Xenophobe][Fanatic xenophobe] Xenophobe; [No][Origins broken shackles] Broken Shackles; [No][Diplomacy hasvassal] Signatory",
+        "AI weight": "−×0 if AI personality does not enslave aliens; −×0 if Harmonious Collective and not [Decadent] Decadent founder species",
+        "Description": "Allows the enslavement of pops within our Empire."
+      }
+    },
+    {
+      "id": "Purging Prohibited",
+      "section": "Purge",
+      "data": {
+        "Type": "Prohibited",
+        "Effects": "[No] Cannot use Undesirables species rights",
+        "Requirements": "[No][Gestalt consciousness] Gestalt Consciousness; [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct",
+        "Description": "The purge is an atrocity and should always be treated as such."
+      }
+    },
+    {
+      "id": "Displacement Only",
+      "section": "Purge",
+      "data": {
+        "Type": "Displacement Only",
+        "Effects": "[Yes] Can use Undesirables species rights; [Yes] Can use Displacement purge type",
+        "Refugee attraction": "−25%",
+        "Faction approval": "[Faction icons xenoists] Xenoist −25",
+        "Requirements": "[No][Xenophile][Fanatic xenophile] Xenophile; [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Devouring Swarm] Devouring Swarm[Devouring Swarm] Devouring Swarm[Terravore] Terravore[Devouring Wilderness] Devouring Wilderness[Determined Exterminator] Determined Exterminator[Scorched World Heralds][Pyromanic Instinct] Scorched World Heralds[Scorched World Heralds] Scorched World Heralds[Pyromanic Instinct] Pyromanic Instinct",
+        "AI weight": "Base: 5; −×0 if AI personality gives aliens full citizenship",
+        "Description": "It is not our responsibility to see to the needs of those who would undermine the foundations of our society. Let them find their homes outside our borders."
+      }
+    },
+    {
+      "id": "Purging Allowed",
+      "section": "Purge",
+      "data": {
+        "Type": "Allowed",
+        "Effects": "[Yes] Can use Undesirables species rights; [Yes] Can use all purge types",
+        "Refugee attraction": "−90%",
+        "Faction approval": "[Faction icons xenoists] Xenoist −25",
+        "Requirements": "[Yes] Either: [Gestalt consciousness] Gestalt Consciousness [Xenophobe][Fanatic xenophobe] Xenophobe [Undertaker] Undertaker crisis perk [Imperfection Remediation] Imperfection Remediation tradition (unless [Xenophile][Fanatic xenophile]); [Gestalt consciousness] Gestalt Consciousness; [Xenophobe][Fanatic xenophobe] Xenophobe; [Undertaker] Undertaker crisis perk; [Imperfection Remediation] Imperfection Remediation tradition (unless [Xenophile][Fanatic xenophile]); [No][Origins broken shackles] Broken Shackles; [No][Diplomacy hasvassal] Signatory",
+        "AI weight": "Base: 10; +×1000 if [Necrophage] Necrophage and [Xenophobe][Fanatic xenophobe] Xenophobe; +×40 if [Gestalt consciousness] Gestalt Consciousness (unless [Empath] Empath); +×10 if [Galactic Nemesis] Galactic Nemesis; −×0 if [Pacifist][Fanatic pacifist] Pacifist; −×0 if neither: AI personality purges aliens [Gestalt consciousness] Gestalt Consciousness [Necrophage] Necrophage and [Xenophobe][Fanatic xenophobe] Xenophobe; AI personality purges aliens; [Gestalt consciousness] Gestalt Consciousness; [Necrophage] Necrophage and [Xenophobe][Fanatic xenophobe] Xenophobe; −×0.1 if Galactic Community member and [Rules of War] Reverence for Life (2) was passed",
+        "Description": "The troublesome and corrupt elements within our Empire must be cleansed, lest their rot take root in us all."
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Engineering Research Focus",
+      "data": {
+        "Type": "General Studies",
+        "Effect": "[Engineering research speed] +10% Engineering Research Speed",
+        "Description": "By not focusing on any particular branch, our researchers will have more freedom to pursue their own experiments."
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Engineering Research Focus",
+      "data": {
+        "Type": "Materials",
+        "Effect": "[Materials] +10% Materials Research Speed; [Materials] +25% Materials Research Option Chance",
+        "Description": "Focusing on Materials technologies will give us an advantage in the given field of research."
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Engineering Research Focus",
+      "data": {
+        "Type": "Propulsion",
+        "Effect": "[Propulsion] +10% Propulsion Research Speed; [Propulsion] +25% Propulsion Research Option Chance",
+        "Description": "Focusing on Propulsion technologies will give us an advantage in the given field of research."
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Engineering Research Focus",
+      "data": {
+        "Type": "Voidcraft",
+        "Effect": "[Voidcraft] +10% Voidcraft Research Speed; [Voidcraft] +25% Voidcraft Research Option Chance",
+        "Description": "Focusing on Voidcraft technologies will give us an advantage in the given field of research."
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Engineering Research Focus",
+      "data": {
+        "Type": "Industry",
+        "Effect": "[Industry] +10% Industry Research Speed; [Industry] +25% Industry Research Option Chance",
+        "Description": "Focusing on Industry technologies will give us an advantage in the given field of research."
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Physics Research Focus",
+      "data": {
+        "Type": "General Studies",
+        "Effect": "[Physics research speed] +10% Physics Research Speed",
+        "Description": "By not focusing on any particular branch, our researchers will have more freedom to pursue their own experiments."
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Physics Research Focus",
+      "data": {
+        "Type": "Field Manipulation",
+        "Effect": "[Field Manipulation] +10% Field Manipulation Research Speed; [Field Manipulation] +25% Field Manipulation Research Option Chance",
+        "Description": "Focusing on Field Manipulation technologies will give us an advantage in the given field of research."
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Physics Research Focus",
+      "data": {
+        "Type": "Particles",
+        "Effect": "[Particles] +10% Particles Research Speed; [Particles] +25% Particles Research Option Chance",
+        "Description": "Focusing on Particles technologies will give us an advantage in the given field of research."
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Physics Research Focus",
+      "data": {
+        "Type": "Computing",
+        "Effect": "[Computing] +10% Computing Research Speed; [Computing] +25% Computing Research Option Chance",
+        "Description": "Focusing on Computing technologies will give us an advantage in the given field of research."
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Society Research Focus",
+      "data": {
+        "Type": "General Studies",
+        "Effect": "[Society research speed] +10% Society Research Speed",
+        "Description": "By not focusing on any particular branch, our researchers will have more freedom to pursue their own experiments."
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Society Research Focus",
+      "data": {
+        "Type": "New Worlds",
+        "Effect": "[New Worlds] +10% New Worlds Research Speed; [New Worlds] +25% New Worlds Research Option Chance",
+        "Description": "Focusing on New Worlds technologies will give us an advantage in the given field of research."
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Society Research Focus",
+      "data": {
+        "Type": "Statecraft",
+        "Effect": "[Statecraft] +10% Statecraft Research Speed; [Statecraft] +25% Statecraft Research Option Chance",
+        "Description": "Focusing on Statecraft technologies will give us an advantage in the given field of research."
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Society Research Focus",
+      "data": {
+        "Type": "Biology",
+        "Effect": "[Biology] +10% Biology Research Speed; [Biology] +25% Biology Research Option Chance",
+        "Description": "Focusing on Biology technologies will give us an advantage in the given field of research."
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Society Research Focus",
+      "data": {
+        "Type": "Military Theory",
+        "Effect": "[Military Theory] +10% Military Theory Research Speed; [Military Theory] +25% Military Theory Research Option Chance",
+        "Description": "Focusing on Military Theory technologies will give us an advantage in the given field of research."
+      }
+    },
+    {
+      "id": "Controlled",
+      "section": "Space Fauna Growth",
+      "data": {
+        "Type": "Controlled",
+        "Effect": "Space fauna can −not grow to exceed the [Naval capacity] naval capacity"
+      }
+    },
+    {
+      "id": "Excessive",
+      "section": "Space Fauna Growth",
+      "data": {
+        "Type": "Excessive",
+        "Effect": "Space fauna can +grow to exceed the [Naval capacity] naval capacity"
+      }
+    },
+    {
+      "id": "No Regulation",
+      "section": "Metabolic Regulation",
+      "data": {
+        "Type": "No Regulation",
+        "Space fauna growth": "Regular",
+        "Space fauna upkeep": "Regular",
+        "Description": "We shall not manipulate the natural metabolisms of our Space Fauna."
+      }
+    },
+    {
+      "id": "Nutrient Rationing",
+      "section": "Metabolic Regulation",
+      "data": {
+        "Type": "Nutrient Rationing",
+        "Space fauna growth": "−No growth",
+        "Space fauna upkeep": "+Reduced by 30%",
+        "Description": "Restricting the diets of Space Fauna under our control will limit their growth rate and allow us to devote those resources elsewhere."
+      }
+    },
+    {
+      "id": "Growth Accelerant",
+      "section": "Metabolic Regulation",
+      "data": {
+        "Type": "Growth Accelerant",
+        "Space fauna growth": "+Increased by 50%",
+        "Space fauna upkeep": "−Increased by 30%",
+        "Description": "Synthesizing the growth hormones that each variety of Space Fauna naturally produces invokes a voracious appetite for nutrients."
+      }
+    },
+    {
+      "id": "Equal Focus",
+      "section": "Exhibition Focus",
+      "data": {
+        "Type": "Equal Focus",
+        "Specimen output": "No effect",
+        "Description": "We shall put no emphasis on any category of specimens."
+      }
+    },
+    {
+      "id": "Aesthetic Wonders Focus",
+      "section": "Exhibition Focus",
+      "data": {
+        "Type": "Aesthetic Wonders Focus",
+        "Specimen output": "[Trade subcat wonders] +50% [Trade subcat history] −25% [Trade subcat xenogeology] −25%",
+        "Description": "There is no galactic standard for beauty, but all are encouraged to engage in its debate."
+      }
+    },
+    {
+      "id": "Galactic History Focus",
+      "section": "Exhibition Focus",
+      "data": {
+        "Type": "Galactic History Focus",
+        "Specimen output": "[Trade subcat history] +50% [Trade subcat wonders] −25% [Trade subcat xenogeology] −25%",
+        "Description": "Lessons from the past inspire wisdom in the present."
+      }
+    },
+    {
+      "id": "Xeno Geology Focus",
+      "section": "Exhibition Focus",
+      "data": {
+        "Type": "Xeno Geology Focus",
+        "Specimen output": "[Trade subcat xenogeology] +50% [Trade subcat wonders] −25% [Trade subcat history] −25%",
+        "Description": "This is no mere rock collection - it is a display of exquisite minerals."
+      }
+    },
+    {
+      "id": "Questing Knights",
+      "section": "Knightly Duties",
+      "data": {
+        "Type": "Questing Knights",
+        "Effects": "[Mod ship science survey speed] +15% Survey Speed; [Mod ship anomaly generation chance] +15% Anomaly Discovery Chance",
+        "Description": "Our Knights will focus on the Quest and nothing else. We will seek out the Toxic God wherever it lies."
+      }
+    },
+    {
+      "id": "Knight Commanders",
+      "section": "Knightly Duties",
+      "data": {
+        "Type": "Knight Commanders",
+        "Effects": "[Mod ship fire rate mult] +10% Ship Fire Rate; [Mod ship fire rate mult] +20% Home Territory Fire Rate; [Mod army damage mult] +10% Army Damage; [Unknown] −0.2 Monthly Progress in the Quest for the Toxic God situation",
+        "Description": "Our Knights are required to serve on the battlefield. We cannot spare our best fighters any longer."
+      }
+    },
+    {
+      "id": "Courtly Knights",
+      "section": "Knightly Duties",
+      "data": {
+        "Type": "Courtly Knights",
+        "Effects": "[Diplomatic weight] +10% Diplomatic Weight",
+        "Description": "Our Knights will be sent as ambassadors to help in our diplomatic efforts."
+      }
+    },
+    {
+      "id": "Courtly Knights",
+      "section": "Knightly Duties",
+      "data": {
+        "Type": "Herald Knights",
+        "Effects": "[Mod country edict cost] −15% Edict Cost and Upkeep; [Unknown] −0.2 Monthly Progress in the Quest for the Toxic God situation",
+        "Description": "Throughout our domain, the Knights are sent to proclaim our edicts, and inspire our people."
+      }
+    },
+    {
+      "id": "Full Steam Ahead",
+      "section": "Industrialism",
+      "data": {
+        "Type": "Full Steam Ahead",
+        "Effects": "[Coordinated Fulfillment Center] Increases industrialist building effects by +50%",
+        "Description": "Our industries shall not suffer any constraints."
+      }
+    },
+    {
+      "id": "For Science!",
+      "section": "Industrialism",
+      "data": {
+        "Type": "For Science!",
+        "Effects": "[Planet nuked] Can terraform planets to Tomb Worlds; [Yes] If did not use this policy before, it unlocks the The Secret to a Safer Radiation special project; [Coordinated Fulfillment Center] Reduced industrialist building penalties after completing special project",
+        "Description": "There is much to learn from the process of irradiating a planet."
+      }
+    },
+    {
+      "id": "Cleanup",
+      "section": "Industrialism",
+      "data": {
+        "Type": "Cleanup",
+        "Effects": "[Coordinated Fulfillment Center] Planets with industrialist buildings no longer turn into Tomb Worlds; [Unity] −10 Unity upkeep from [Coordinated Fulfillment Center] Coordinated Fulfillment Center buildings; [Unity] −20 Unity upkeep from [Universal Productivity Alignment Facility] Universal Productivity Alignment Facility buildings",
+        "Description": "We shall take steps to mitigate our environmental footprint."
+      }
+    },
+    {
+      "id": "Full Cyberization",
+      "section": "Cyberization Standards",
+      "data": {
+        "Type": "Full Cyberization",
+        "Spiritualist pops": "[Cybernetic] Cybernetic species trait",
+        "Spiritualist leaders": "[Leader trait bg basic][Leader trait cyborg][Cyborg] Cyborg leader trait",
+        "Description": "All individuals are expected to undergo the installation of a complete set of cybernetic implants."
+      }
+    },
+    {
+      "id": "Limited Cyberization",
+      "section": "Cyberization Standards",
+      "data": {
+        "Type": "Limited Cyberization",
+        "Spiritualist pops": "[Limited Cybernetic] Limited Cybernetic species trait",
+        "Spiritualist leaders": "[Leader trait bg basic][Leader trait limited cyborg][Limited Cyborg] Limited Cyborg leader trait",
+        "Description": "Individuals against full augmentation can install a limited set of cybernetic implants."
+      }
+    },
+    {
+      "id": "Identity Copies",
+      "section": "Synthetic Identities",
+      "data": {
+        "Type": "Identity Copies",
+        "Mechanical pop effects": "[Happiness] −5% Happiness",
+        "Description": "We will be able to copy the identity and memories of a Synthetic into a new mechanical body. The copies have predictable skill sets but make for stale conversation."
+      }
+    },
+    {
+      "id": "Identity Fusion",
+      "section": "Synthetic Identities",
+      "data": {
+        "Type": "Identity Fusion",
+        "Mechanical pop effects": "[Cost] +10% Pop Assembly Cost",
+        "Required technology": "[Tech identity fusion] Identity Fusion",
+        "Description": "Merging the identities and memories of two or more Synthetics into a mechanical body will create new, somewhat unique individuals."
+      }
+    },
+    {
+      "id": "Identity Initialization",
+      "section": "Synthetic Identities",
+      "data": {
+        "Type": "Identity Initialization",
+        "Mechanical pop effects": "[Cost] +20% Pop Assembly Cost; [Happiness] +5% Happiness; [Mod pop resource output] +5% Resources from Jobs",
+        "Required technology": "[Tech identity initialization] Identity Initialization",
+        "Description": "We will be able to initialize an identity kernel and provide it with a virtual childhood. While expensive, we can simulate the optimal experiences to generate productive personalities."
+      }
+    },
+    {
+      "id": "Virtual Research Focus",
+      "section": "Virtual Focus",
+      "data": {
+        "Type": "Virtual Research Focus",
+        "Effect on jobs": "[Research] +80% Research from jobs; [Unity] −50% Unity from jobs",
+        "Effect on leaders": "[Mod leader species exp gain] −50% Leader experience gain; [Leader skill levels] −1 Effective councilor skill",
+        "Description": "A virtual mind can perceive and solve problems that might seem impossible for less advanced intelligences."
+      }
+    },
+    {
+      "id": "Virtual Unity Focus",
+      "section": "Virtual Focus",
+      "data": {
+        "Type": "Virtual Unity Focus",
+        "Effect on jobs": "[Unity] +80% Unity from jobs; [Research] −50% Research from jobs",
+        "Effect on leaders": "[Mod leader species exp gain] −50% Leader experience gain; [Leader skill levels] −1 Effective councilor skill",
+        "Description": "All data is beautiful, all servers are capable."
+      }
+    },
+    {
+      "id": "Virtual Leader Focus",
+      "section": "Virtual Focus",
+      "data": {
+        "Type": "Virtual Leader Focus",
+        "Effect on jobs": "[Research] −50% Research from jobs; [Unity] −50% Unity from jobs",
+        "Effect on leaders": "[Mod leader species exp gain] +25% Leader experience gain; [Leader skill levels] +2 Effective councilor skill; [Mod council agenda progress speed] +25% Council agenda speed",
+        "Description": "Algorithm driven self improvement through deep learning subroutines."
+      }
+    },
+    {
+      "id": "Production Streamlining",
+      "section": "Computation Core Focus",
+      "data": {
+        "Type": "Production Streamlining",
+        "Effects per 100 Roboticists and Identity Designers": "[Alloys] +0.5% Alloys job efficiency; [Consumer goods] +0.5% Consumer Goods job efficiency",
+        "Description": "Utilize spare processing cycles to streamline production processes."
+      }
+    },
+    {
+      "id": "Stability Analysis",
+      "section": "Computation Core Focus",
+      "data": {
+        "Type": "Stability Analysis",
+        "Effects per 100 Roboticists and Identity Designers": "[Unity] +0.5% Unity job efficiency",
+        "Description": "Allocate resources for monitoring societal information flow for irregularities."
+      }
+    },
+    {
+      "id": "Research Processes",
+      "section": "Computation Core Focus",
+      "data": {
+        "Type": "Research Processes",
+        "Effects per 100 Roboticists and Identity Designers": "[Research] +0.5% Research job efficiency",
+        "Description": "Designate additional processing cycles to performance intensive research servers."
+      }
+    },
+    {
+      "id": "Sustain",
+      "section": "Disconnected Drones",
+      "data": {
+        "Type": "Sustain",
+        "Available citizenships": "Exploited Drones; Protected Drones; Symbiotic Drones",
+        "Requirements": "[No][Fanatic Purifiers] Fanatic Purifiers",
+        "AI weight": "−×0 if does not value others[Xenophile][Fanatic xenophile] Xenophile[Empath] Empath[Familiar Face] Familiar Face[Rogue Servitor] Rogue Servitor[Exploration Protocols] Exploration Protocols[Origins gardeners] Fruitful Partnership[Origins primal calling] [Animal Handler] Animal Handler stance[Origins primal calling] [Symbiosis Integrator] Symbiotic Partnership stance",
+        "Description": "Though severed from a collective consciousness, these drones can be kept alive."
+      }
+    },
+    {
+      "id": "Extermination",
+      "section": "Disconnected Drones",
+      "data": {
+        "Type": "Extermination",
+        "Available citizenships": "Undesirables",
+        "Requirements": "[No][Xenophile][Fanatic xenophile] Xenophile",
+        "AI weight": "−×0 if not [Fanatic Purifiers][Scorched World Heralds] Genocidal",
+        "Description": "The rights of a sapient being do not extend to those without reason. Without a central consciousness to guide them, these drones are little more than animals, and an animal that gets in the way is a pest."
+      }
+    },
+    {
+      "id": "Administrative Records",
+      "section": "Genome Tailoring",
+      "data": {
+        "Type": "Administrative Records",
+        "Effects": "[Mod leader species exp gain] +15% Official Experience Gain; [Leader trait bg negative][Leader trait backup clone][Backup Clone] −50% Clone Official Penalties; [Society research] +2 Society Upkeep for Officials with the Backup Clone trait"
+      }
+    },
+    {
+      "id": "Martial Protocol",
+      "section": "Genome Tailoring",
+      "data": {
+        "Type": "Martial Protocol",
+        "Effects": "[Mod leader species exp gain] +15% Commander Experience Gain; [Leader trait bg negative][Leader trait backup clone][Backup Clone] −50% Clone Commander Penalties; [Society research] +2 Society Upkeep for Commanders with the Backup Clone trait"
+      }
+    },
+    {
+      "id": "Scientific Codex",
+      "section": "Genome Tailoring",
+      "data": {
+        "Type": "Scientific Codex",
+        "Effects": "[Mod leader species exp gain] +15% Scientist Experience Gain; [Leader trait bg negative][Leader trait backup clone][Backup Clone] −50% Clone Scientist Penalties; [Society research] +2 Society Upkeep for Scientists with the Backup Clone trait"
+      }
+    },
+    {
+      "id": "Stellar Insurance",
+      "section": "Replicant Insurance",
+      "data": {
+        "Type": "Stellar Insurance",
+        "Effects": "[Leader trait bg negative][Leader trait backup clone][Clone Leader] −50% Clone Leader Penalties; [Energy Credits] +2 Leader Energy Upkeep per Skill Level"
+      }
+    },
+    {
+      "id": "Platinum Insurance",
+      "section": "Replicant Insurance",
+      "data": {
+        "Type": "Platinum Insurance",
+        "Effects": "[Leader trait bg negative][Leader trait backup clone][Clone Leader] −50% Clone Councilor Penalties; [Energy Credits] +2 Councilor Energy Upkeep per Skill Level"
+      }
+    },
+    {
+      "id": "Basic Insurance",
+      "section": "Replicant Insurance",
+      "data": {
+        "Type": "Basic Insurance",
+        "Effects": "[Leader trait bg negative][Leader trait backup clone][Clone Leader] −50% Clone Ruler Penalties; [Energy Credits] +2 Ruler Energy Upkeep per Skill Level"
+      }
+    },
+    {
+      "id": "Mixed Development",
+      "section": "Egg Development",
+      "data": {
+        "Type": "Mixed Development",
+        "Rapid egg hatchlings": "1 Juvenile Stinger; 2 Juvenile Harbingers; 4 Juvenile Weavers; 8 Juvenile Maulers",
+        "Large egg hatchlings": "3 Juvenile Stinger; 6 Juvenile Harbingers; 12 Juvenile Weavers; 24 Juvenile Maulers"
+      }
+    },
+    {
+      "id": "Mauler Development",
+      "section": "Egg Development",
+      "data": {
+        "Type": "Mauler Development",
+        "Rapid egg hatchlings": "32 Juvenile Maulers",
+        "Large egg hatchlings": "96 Juvenile Maulers"
+      }
+    },
+    {
+      "id": "Weaver Development",
+      "section": "Egg Development",
+      "data": {
+        "Type": "Weaver Development",
+        "Rapid egg hatchlings": "16 Juvenile Weavers",
+        "Large egg hatchlings": "48 Juvenile Weavers"
+      }
+    },
+    {
+      "id": "Harbinger Development",
+      "section": "Egg Development",
+      "data": {
+        "Type": "Harbinger Development",
+        "Rapid egg hatchlings": "8 Juvenile Harbingers",
+        "Large egg hatchlings": "24 Juvenile Harbingers"
+      }
+    },
+    {
+      "id": "Stinger Development",
+      "section": "Egg Development",
+      "data": {
+        "Type": "Stinger Development",
+        "Rapid egg hatchlings": "4 Juvenile Stingers",
+        "Large egg hatchlings": "12 Juvenile Stingers"
+      }
+    },
+    {
+      "id": "Song of Calming",
+      "section": "Psionic Choir",
+      "data": {
+        "Type": "Song of Calming",
+        "Empire effect": "[Amenities] −25% Pop Amenities Usage",
+        "Patron": "[The cradle of souls] Cradle of Souls",
+        "Description": "A psionic ballad that stills the mind."
+      }
+    },
+    {
+      "id": "Song of Plenty",
+      "section": "Psionic Choir",
+      "data": {
+        "Type": "Song of Plenty",
+        "Empire effect": "[Pop resource food mult] +50% Resources from Farmers",
+        "Patron": "[The composer of strands] Composer of Strands",
+        "Description": "A psionic ode to nature's abundance."
+      }
+    },
+    {
+      "id": "Song of Steel",
+      "section": "Psionic Choir",
+      "data": {
+        "Type": "Song of Steel",
+        "Empire effect": "[Alloys] +25% Alloys from Jobs",
+        "Patron": "[The eater of worlds] Eater of Worlds",
+        "Description": "A psionic hymn in praise of industry."
+      }
+    },
+    {
+      "id": "Song of Luxury",
+      "section": "Psionic Choir",
+      "data": {
+        "Type": "Song of Luxury",
+        "Empire effect": "[Consumer goods] +25% Consumer Goods from Jobs",
+        "Patron": "[The instrument of desire] Instrument of Desire",
+        "Description": "A psionic lay of blissful indulgence."
+      }
+    },
+    {
+      "id": "Song of Knowing",
+      "section": "Psionic Choir",
+      "data": {
+        "Type": "Song of Knowing",
+        "Empire effect": "[Research] +15% Research from Jobs; [Upkeep] +15% Researchers Upkeep",
+        "Patron": "[Whisperers in the void] Whisperers in the Void",
+        "Description": "A psionic resonance of complex patterns and rhythms."
+      }
+    }
+  ]
+}

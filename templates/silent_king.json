@@ -1,0 +1,101 @@
+{
+  "$schema": "sovereign-template-v1.json",
+  "id": "silent_king",
+  "name": "Silent King",
+  "description": "Psionic generalist that builds quietly through the mid-game, investing in military and research equally. No flash, no rush — just steady accumulation until the galaxy notices too late.",
+
+  "identity": {
+    "personality_key": "sovereign_fortress_guardian",
+    "archetype": "isolationist",
+    "ethics_match": {
+      "required": [],
+      "preferred": ["spiritualist", "pacifist", "xenophobe"],
+      "forbidden": ["fanatic_militarist"]
+    },
+    "authority_match": {
+      "preferred": ["auth_imperial", "auth_dictatorial"],
+      "forbidden": []
+    },
+    "civic_affinity": ["civic_warrior_culture", "civic_shadow_council"]
+  },
+
+  "origins": {
+    "default": "origin_default",
+    "preferred": [
+      {
+        "origin": "origin_subterranean",
+        "reason": "Underground empire matches the silent king's hidden power theme",
+        "economy_overrides": { "military": 1.5 }
+      },
+      {
+        "origin": "origin_fear_of_the_dark",
+        "reason": "Archaeological secrets for a king who watches from the shadows"
+      }
+    ],
+    "compatible": ["origin_default", "origin_galactic_doorstep"],
+    "forbidden": ["origin_common_ground", "origin_hegemon"]
+  },
+
+  "behavior": {
+    "aggressiveness": 0.4,
+    "trade_willingness": 0.5,
+    "bravery": 1.2,
+    "military_spending": 1.25,
+    "colony_spending": 1.0,
+    "threat_modifier": 1.25,
+    "friction_modifier": 0.75,
+    "alliance_acceptance": -10,
+    "federation_acceptance": -25,
+    "flags": {
+      "conqueror": false, "subjugator": true, "liberator": false,
+      "opportunist": true, "slaver": false, "uplifter": false,
+      "purger": false, "dominator": false, "infiltrator": true,
+      "robot_exploiter": true, "robot_liberator": false, "migrator": false
+    }
+  },
+
+  "economy": {
+    "weight_factors": {
+      "alloy": 1.5, "research": 1.5, "unity": 1.0,
+      "military": 1.5, "expansion": 1.0, "trade": 1.0
+    },
+    "deficit_thresholds": {
+      "minerals": 25, "energy": 10, "alloys": 10,
+      "consumer_goods": 5, "food": 5, "research": 15, "unity": 15
+    },
+    "surplus_thresholds": {
+      "minerals": 100, "energy": 50, "food": 30,
+      "alloys": 50, "consumer_goods": 25, "research": 80, "unity": 50
+    }
+  },
+
+  "gates": {
+    "G1_mineral": { "threshold": 15, "factor": 0.1 },
+    "G2_consumer_goods": { "threshold": 2, "factor": 0.1 },
+    "G3_mineral_strict": { "threshold": 25, "factor": 0.1 },
+    "G4_strategic": { "threshold": 1, "factor": 0.1 },
+    "G5_alloy_expansion": { "threshold": 5, "factor": 0.1 },
+    "G6_energy_high_upkeep": { "threshold": 5, "factor": 0.25 }
+  },
+
+  "starting_state": {
+    "template": "regular",
+    "stockpiles": { "minerals": 200, "energy": 200, "food": 100, "alloys": 100, "consumer_goods": 100 },
+    "pops": 52, "districts": { "mining": 2, "generator": 2, "agriculture": 2, "city": 2 },
+    "planet_size": 20, "max_buildings": 4, "capital_tier": 0, "starting_techs": 31
+  },
+
+  "build_priority": {
+    "early": ["mining_district", "alloy_foundry", "capital_upgrade", "civilian_industries", "research_lab", "stronghold"],
+    "mid": ["research_lab", "alloy_foundry", "city_district", "stronghold", "admin_office"],
+    "late": ["megastructure", "alloy_foundry", "research_lab"]
+  },
+
+  "phase_overrides": {
+    "early": {},
+    "mid": { "weight_factors": { "military": 1.75, "research": 2.0 } },
+    "late": { "weight_factors": { "military": 2.0, "research": 2.5 } }
+  },
+
+  "_source": { "save": "kingdomofvartivar6_-1229864122", "year": 2301, "pops": 16387, "military_power": 11625, "economy_power": 2857, "tech_power": 3900, "notes": "Psionic culture. Mid-game balanced empire: 130 fleet, 244 empire size. Neither dominant nor weak — the quintessential patient builder who peaks in the mid-to-late transition." }
+}

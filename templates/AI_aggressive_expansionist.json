@@ -1,0 +1,136 @@
+{
+  "$schema": "sovereign-template-v1.json",
+  "id": "AI_aggressive_expansionist",
+  "name": "Aggressive Expansionist",
+  "description": "Classic warmonger: conquers, subjugates, and dominates through military force and relentless expansion.",
+
+  "identity": {
+    "personality_key": "aggressive_expansionist",
+    "archetype": "expansionist",
+    "ethics_match": {
+      "required": [],
+      "preferred": ["militarist", "fanatic_militarist", "xenophobe"],
+      "forbidden": ["pacifist", "fanatic_pacifist"]
+    },
+    "authority_match": {
+      "preferred": [],
+      "forbidden": []
+    },
+    "civic_affinity": []
+  },
+
+  "origins": {
+    "default": "origin_default",
+    "preferred": [
+      {
+        "origin": "origin_doomsday",
+        "reason": "Homeworld explosion forces urgent expansion; perfectly matches aggressive early expansion",
+        "economy_overrides": { "weight_factors": { "expansion": 3.0 } }
+      },
+      {
+        "origin": "origin_clone_army",
+        "reason": "Clone soldiers provide early military advantage without alloy cost for armies"
+      },
+      {
+        "origin": "origin_hegemon",
+        "reason": "Starts as federation president with 2 subjects; immediate diplomatic leverage for vassalization"
+      }
+    ],
+    "compatible": ["origin_default", "origin_galactic_doorstep", "origin_lost_colony", "origin_fear_of_the_dark"],
+    "forbidden": ["origin_tree_of_life", "origin_primal_calling"]
+  },
+
+  "behavior": {
+    "aggressiveness": 1.5,
+    "trade_willingness": 0.5,
+    "bravery": 1.2,
+    "military_spending": 1.5,
+    "colony_spending": 1.2,
+    "threat_modifier": 1.25,
+    "friction_modifier": 1.5,
+    "alliance_acceptance": -50,
+    "federation_acceptance": -50,
+    "flags": {
+      "conqueror": true,
+      "subjugator": true,
+      "liberator": false,
+      "opportunist": true,
+      "slaver": false,
+      "uplifter": false,
+      "purger": false,
+      "dominator": true,
+      "infiltrator": true,
+      "robot_exploiter": true,
+      "robot_liberator": false,
+      "migrator": false
+    }
+  },
+
+  "economy": {
+    "weight_factors": {
+      "alloy": 2.0,
+      "research": 1.0,
+      "unity": 1.0,
+      "military": 1.5,
+      "expansion": 1.25,
+      "trade": 0.5
+    },
+    "deficit_thresholds": {
+      "minerals": 25,
+      "energy": 10,
+      "alloys": 5,
+      "consumer_goods": 5,
+      "food": 5,
+      "research": 20,
+      "unity": 15
+    },
+    "surplus_thresholds": {
+      "minerals": 100,
+      "energy": 50,
+      "food": 30,
+      "alloys": 50,
+      "consumer_goods": 25,
+      "research": 80,
+      "unity": 50
+    }
+  },
+
+  "gates": {
+    "G1_mineral": { "threshold": 15, "factor": 0.1 },
+    "G2_consumer_goods": { "threshold": 2, "factor": 0.1 },
+    "G3_mineral_strict": { "threshold": 25, "factor": 0.1 },
+    "G4_strategic": { "threshold": 1, "factor": 0.1 },
+    "G5_alloy_expansion": { "threshold": 5, "factor": 0.1 },
+    "G6_energy_high_upkeep": { "threshold": 5, "factor": 0.25 }
+  },
+
+  "starting_state": {
+    "template": "regular",
+    "stockpiles": {
+      "minerals": 200, "energy": 200, "food": 100,
+      "alloys": 100, "consumer_goods": 100
+    },
+    "pops": 52,
+    "districts": { "mining": 2, "generator": 2, "agriculture": 2, "city": 2 },
+    "planet_size": 20,
+    "max_buildings": 4,
+    "capital_tier": 0,
+    "starting_techs": 31
+  },
+
+  "build_priority": {
+    "early": ["mining_district", "alloy_foundry", "mining_district", "generator_district", "alloy_foundry", "capital_upgrade"],
+    "mid": ["alloy_foundry", "research_lab", "city_district", "stronghold"],
+    "late": ["alloy_foundry", "research_lab", "megastructure"]
+  },
+
+  "phase_overrides": {
+    "early": {},
+    "mid": {
+      "weight_factors": { "research": 1.5 }
+    },
+    "late": {
+      "gates": { "G1_mineral": { "threshold": 5, "factor": 0.25 } }
+    }
+  }
+}

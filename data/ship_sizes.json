@@ -1,0 +1,163 @@
+{
+  "category": "ship_sizes",
+  "source": "Stellaris Wiki (4.x)",
+  "extracted": "2026-04-12",
+  "count": 71,
+  "items": [
+    {
+      "id": "Corvette",
+      "section": "Military ships",
+      "data": {
+        "Description": "Smallest military ship class"
+      }
+    },
+    {
+      "id": "Frigate",
+      "section": "Military ships",
+      "data": {
+        "Description": "Light military ship between Corvette and Destroyer (4.x BioGenesis)"
+      }
+    },
+    {
+      "id": "Destroyer",
+      "section": "Military ships",
+      "data": {
+        "Description": "Anti-corvette screening ship"
+      }
+    },
+    {
+      "id": "Cruiser",
+      "section": "Military ships",
+      "data": {
+        "Description": "Versatile medium warship"
+      }
+    },
+    {
+      "id": "Battleship",
+      "section": "Military ships",
+      "data": {
+        "Description": "Heavy warship with XL weapon slots"
+      }
+    },
+    {
+      "id": "Titan",
+      "section": "Military ships",
+      "data": {
+        "Description": "Super-capital ship with Titan weapon slot",
+        "DLC": "Apocalypse"
+      }
+    },
+    {
+      "id": "Juggernaut",
+      "section": "Special ships",
+      "data": {
+        "Description": "Mobile starbase/shipyard",
+        "DLC": "Federations"
+      }
+    },
+    {
+      "id": "Colossus",
+      "section": "Special ships",
+      "data": {
+        "Description": "Planet-killing superweapon ship",
+        "DLC": "Apocalypse"
+      }
+    },
+    {
+      "id": "Star-Eater",
+      "section": "Special ships",
+      "data": {
+        "Description": "Star-destroying crisis ship",
+        "DLC": "Nemesis"
+      }
+    },
+    {
+      "id": "Science Ship",
+      "section": "Civilian ships",
+      "data": {
+        "Description": "Exploration and research vessel"
+      }
+    },
+    {
+      "id": "Construction Ship",
+      "section": "Civilian ships",
+      "data": {
+        "Description": "Builds starbases, stations, megastructures"
+      }
+    },
+    {
+      "id": "Colony Ship",
+      "section": "Civilian ships",
+      "data": {
+        "Description": "Colonizes habitable worlds"
+      }
+    },
+    {
+      "id": "Transport",
+      "section": "Civilian ships",
+      "data": {
+        "Description": "Carries armies for ground combat"
+      }
+    },
+    {
+      "id": "Global Pacifier",
+      "section": "Colossus weapons",
+      "data": {
+        "Effects": "Turns planet into Shielded World"
+      }
+    },
+    {
+      "id": "World Cracker",
+      "section": "Colossus weapons",
+      "data": {
+        "Effects": "Destroys planet; leaves mineral deposits"
+      }
+    },
+    {
+      "id": "Neutron Sweep",
+      "section": "Colossus weapons",
+      "data": {
+        "Effects": "Kills all pops; -30% Habitability for 10 years"
+      }
+    },
+    {
+      "id": "Divine Enforcer",
+      "section": "Colossus weapons",
+      "data": {
+        "Effects": "Changes pops to Spiritualist"
+      }
+    },
+    {
+      "id": "Nanobot Diffuser",
+      "section": "Colossus weapons",
+      "data": {
+        "Effects": "Assimilates biological pops",
+        "Requirements": "Driven Assimilator"
+      }
+    },
+    {
+      "id": "Devolving Beam",
+      "section": "Colossus weapons",
+      "data": {
+        "Effects": "Devolves biological pops to pre-sapient",
+        "DLC": "Ancient Relics"
+      }
+    },
+    {
+      "id": "Planet Smelter",
+      "section": "Colossus weapons",
+      "data": {
+        "Effects": "Turns planet into Volcanic/Molten World",
+        "DLC": "Infernals"
+      }
+    },
+    {
+      "id": "Deluge Machine",
+      "section": "Colossus weapons",
+      "data": {
+        "Effects": "Turns planet into Ocean World",
+        "DLC": "Aquatics"
+      }
+    }
+  ]
+}

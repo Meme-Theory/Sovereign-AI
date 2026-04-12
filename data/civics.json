@@ -1,0 +1,1098 @@
+{
+  "category": "civics",
+  "source": "Stellaris Wiki (4.x)",
+  "extracted": "2026-04-12",
+  "count": 101,
+  "items": [
+    {
+      "id": "Cutthroat Politics",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Cutthroat Politics]Cutthroat PoliticsThe political system in this society is renowned for its intrigue. Power struggles, shady backroom deals and cloak and dagger scheming are par for the course. Those who survive long enough to learn the game, however, tend to learn it well.",
+        "Effects": "[Mod country edict upkeep mult] −20% Edict upkeep; [Intel decryption] +1 Codebreaking",
+        "Council position": "[Prime Speaker] Prime Speaker[Navbar icons factions] +3% Faction resource output",
+        "Shroud attunement": "[The cradle of souls] Cradle of Souls"
+      }
+    },
+    {
+      "id": "Efficient Bureaucracy",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Efficient Bureaucracy]Efficient BureaucracyThis society is renowned for its efficiency. Not only do the mag-trains run on time, but the colossal bureaucratic apparatus required to run an interstellar nation has been greatly streamlined.",
+        "Effects": "[Upkeep] −20% [Bureaucrat] Bureaucrat upkeep; [Edict capacity] +2 Edict fund per 100 [Bureaucrat] Bureaucrats; [Edict capacity] +2 Edict fund per 100 [Priest] Priests",
+        "Council position": "[Superintendent] Superintendent[Bureaucrat] +2% Bureaucrat output",
+        "Shroud attunement": "[The instrument of desire] Instrument of Desire"
+      }
+    },
+    {
+      "id": "Functional Architecture",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Functional Architecture]Functional ArchitectureThis society is renowned for its simple yet functional architecture. There are those who would refer to this building style as boring or even depressing, but in most cases, neo-concrete does the job just as well as any other building material.",
+        "Effects": "[Mod planet building cost mult] −15% Planetary infrastructure cost; [Mod planet building build speed mult] +15% Planetary infrastructure build speed; [Tooltip zone] Can specialize districts without any technology",
+        "Council position": "[Master Architect] Master Architect[Mod planet building build speed mult] +2% Planetary infrastructure build speed",
+        "Shroud attunement": "[The composer of strands] Composer of Strands"
+      }
+    },
+    {
+      "id": "Agrarian Idyll",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Agrarian Idyll]Agrarian IdyllA simple and peaceful life can often be the most rewarding. This agrarian society has, to a large extent, managed to avoid large-scale urbanization.",
+        "Effects": "[Housing] +400 Housing from Agriculture districts; [Housing] +300 Housing from Generator and Mining districts; [Housing] −200 Housing from City districts; [Housing] −500 Housing from City segments; [Amenities] +200 Amenities per 100 [Farmer] Farmers; [Amenities] +200 Amenities per 100 [Angler] Anglers ([Anglers]); [Amenities] +200 Amenities per 100 [Pearl Diver] Pearl Divers ([Anglers]); [Tooltip zone] Can specialize Agriculture districts without any technology; [Agrarian Utopias] Can research the Agrarian Utopias technology; [No][Anti-Gravity Engineering] Cannot research the Anti-Gravity Engineering technology; [No][Arcology Project] Cannot take the Arcology Project ascension perk",
+        "Council position": "[Elder Farmer] Elder Farmer[Farmer] +5% Farmer output",
+        "Shroud attunement": "[The composer of strands] Composer of Strands",
+        "Requirements": "[Pacifist][Fanatic pacifist] Pacifist; [No][Relentless Industrialists][Shareholder Values] Relentless Industrialists[Relentless Industrialists] Relentless Industrialists[Shareholder Values] Shareholder Values; [No][Tankbound][Corporate Thinktank] Tankbound[Tankbound] Tankbound[Corporate Thinktank] Corporate Thinktank; [No][Oppressive Autocracy] Oppressive Autocracy; [No][Origins post apocalyptic] Post-Apocalyptic; [No][Origins remnant] Remnants; [No][Origins shattered ring] Shattered Ring; [No][Origin void dwellers] Void Dwellers[Origin void dwellers] Void Dwellers[Origin void dwellers] Voidforged; [No][Planet molten] Volcanic World homeworld"
+      }
+    },
+    {
+      "id": "Aristocratic Elite",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Aristocratic Elite]Aristocratic EliteThis society has an entrenched nobility that occupies the upper echelons of society.",
+        "Effects": "[Building palace] Can construct Noble Estates buildings; [Building palace] Can construct Noble Chateaus holdings; [Planetary Administration] Capital buildings replace [Politician] Politician jobs with [Noble] Noble jobs; [Mod pop bonus workforce mult] +10% Job efficiency for Elites; [Upkeep] +10% Leader upkeep; [Icon leader] 20% Chance for leaders to start with an additional positive and negative trait",
+        "Council position": "[Lord Steward] Lord Steward[Ruler] +2% Elite pop resource output",
+        "Shroud attunement": "[The instrument of desire] Instrument of Desire",
+        "Requirements": "[Oligarchic] Oligarchic or [Imperial] Imperial; [No][Egalitarian][Fanatic egalitarian] Egalitarian; [No][Origins unplugged] Hard Reset"
+      }
+    },
+    {
+      "id": "Beacon of Liberty",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Beacon of Liberty]Beacon of LibertyThis society is a shining beacon of light in a sea of darkness. Liberty and individual freedoms are held in the highest regard here.",
+        "Effects": "[Unity] +10% Monthly unity; [Mod planet migration all pull] +25% Refugee attraction; [Empire sprawl] −10% Empire size from pops; [OperationButton difficultyIcon] −1 Smuggle Population operation difficulty ([BioGenesis])",
+        "Council position": "[Protector of Liberty] Protector of Liberty[Egalitarian] +7.5% Egalitarian ethics attraction",
+        "Shroud attunement": "[The cradle of souls] Cradle of Souls",
+        "Requirements": "[Democratic] Democratic; [Egalitarian][Fanatic egalitarian] Egalitarian; [No][Xenophobe][Fanatic xenophobe] Xenophobe; [No][Crusader Spirit] Crusader Spirit"
+      }
+    },
+    {
+      "id": "Citizen Service",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Citizen Service]Citizen ServiceAre you doing your part? Full citizenship and the political responsibility that comes with it is limited to those who have served a tour of duty in the military. Service guarantees citizenship.",
+        "Effects": "[Unity] +2 Unity per 100 [Soldier] Soldiers; [Naval capacity] +15% Naval capacity; [Holding recruitment office] Can construct Recruitment Office holdings; [Species right citizenship] Full Citizenship pops must have Full Military Service and vice versa",
+        "Council position": "[Chief of Service] Chief of Service; [Mod army upkeep mult] −1.5% Army upkeep; [Mod leader species exp gain] +25 Army starting experience",
+        "Shroud attunement": "[The eater of worlds] Eater of Worlds",
+        "Requirements": "[Democratic] Democratic or [Oligarchic] Oligarchic; [Militarist][Fanatic militarist] Militarist; [No][Tankbound][Corporate Thinktank] Tankbound[Tankbound] Tankbound[Corporate Thinktank] Corporate Thinktank; [No][Fanatic xenophile] Fanatic Xenophile; [No][Reanimators] Reanimators"
+      }
+    },
+    {
+      "id": "Corvée System",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Corvée System]Corvée SystemThis society considers it the absolute right of the state to decide where its citizens live and work.",
+        "Effects": "[Mod planet resettlement unemployed mult] +15% Automatic resettlement chance; [Pop cat worker] +10% Worker pop resource output; [Mod pop resettlement cost mult] −10% Resettlement cost; [Unity] +Removes unity costs for pop resettlement",
+        "Council position": "[Employment Commissioner] Employment Commissioner[Pop cat worker] +2% Worker pop resource output",
+        "Shroud attunement": "[The composer of strands] Composer of Strands",
+        "Requirements": "[No][Egalitarian][Fanatic egalitarian] Egalitarian; [No][Free Haven] Free Haven"
+      }
+    },
+    {
+      "id": "Distinguished Admiralty",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Distinguished Admiralty]Distinguished AdmiraltyThe Fleet and the Admiralty have unusually prominent roles in this society, wielding a great deal of influence in political circles. They have the pick of the litter when it comes to new military recruits.",
+        "Effects": "[Leader skill levels] +2 Commander starting level; [Mod leader influence cost] −25% Commander upkeep; [Mod ship fire rate mult] +10% Ship fire rate; [Mod command limit add] +20% Fleet command limit",
+        "Council position": "[Lord High Admiral] Lord High Admiral; [Mod navy size add] +1% Naval capacity; [Mod leader species exp gain] +50 Ship starting experience",
+        "Shroud attunement": "[The eater of worlds] Eater of Worlds",
+        "Requirements": "[Militarist][Fanatic militarist] Militarist"
+      }
+    },
+    {
+      "id": "Environmentalist",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Environmentalist]EnvironmentalistThis society seeks to co-exist in harmony with nature. Great care is taken to preserve the environment and limit consumerism where possible.",
+        "Effects": "[Holding park ranger lodge] Can construct Ranger Lodge buildings; [Holding park ranger lodge] Can construct Ranger Lodge holdings; [Holding park ranger lodge] Start with a Ranger Lodge building; [Mod consumer goods upkeep mult] −20% Pop consumer goods upkeep; [Strip Mine Planet] Cannot use the Strip Mine Planet decision; [Tile Blocker] Replaces Industrial Wasteland with natural blocker on homeworld if starting civic",
+        "Council position": "[First Warden] First Warden[Mod pop amenities usage mult] −1.5% Pop amenities usage",
+        "Shroud attunement": "[The composer of strands] Composer of Strands",
+        "Requirements": "[No][Oppressive Autocracy] Oppressive Autocracy; [No][Relentless Industrialists][Shareholder Values] Relentless Industrialists[Relentless Industrialists] Relentless Industrialists[Shareholder Values] Shareholder Values"
+      }
+    },
+    {
+      "id": "Exalted Priesthood",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Exalted Priesthood]Exalted PriesthoodTo guard against heresy, this society is ruled by a religious council consisting of the wisest and most pious members of the clergy.",
+        "Effects": "[Unity] +1 Unity per 100 [Priests (category)] Priests; [Planetary Administration] Capital buildings replace [Politician] Politician jobs with [High Priest] High Priest jobs ([No][Origins cybernetic creed]); [Planetary Administration] Capital buildings replace [Politician] Politician jobs with [Technophant] Technophant jobs ([Origins cybernetic creed])",
+        "Council position": "[Archpriest] Archpriest[Upkeep] −2% Priest upkeep",
+        "Requirements": "[Oligarchic] Oligarchic or [Dictatorial] Dictatorial; [Spiritualist][Fanatic spiritualist] Spiritualist"
+      }
+    },
+    {
+      "id": "Feudal Society",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Feudal Society]Feudal SocietyThis society is organized in a feudal manner, with a monarch whose rule relies on powerful vassals that govern their territories with considerable autonomy.",
+        "Effects": "[Naval capacity] +5% Subject naval capacity contribution; [Yes] +25 Subjugation acceptance; [Trade cat loyalty] +1 Subjects exempt from Divided Patronage; [Yes] Can always Propose Subjugation; [No] Cannot use Expansion Prohibited terms of agreement; [No] Cannot use Limited Diplomacy terms of agreement; [No] Cannot use No Subject Conflicts terms of agreement",
+        "Council position": "[Chief Herald of Arms] Chief Herald of Arms[Unity] +5 Unity from subjects",
+        "Shroud attunement": "[The eater of worlds] Eater of Worlds",
+        "Requirements": "[Imperial] Imperial"
+      }
+    },
+    {
+      "id": "Free Haven",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Free Haven]Free HavenThis society has a well-earned reputation as a free haven. The tired, the poor, the huddled masses yearning to breathe free - all are welcome here, regardless of their species or origin.",
+        "Effects": "[Mod planet migration all pull] +25% Automatic resettlement destination chance; [Happiness] +5% Worker happiness; [Happiness] +5% Happiness ([Machine] Machine founder species); [Mod planet migration all pull] +50% Refugee attraction",
+        "Council position": "[Integration Facilitator] Integration Facilitator; [Empire sprawl] −3% Empire size from districts; [Upkeep] −3% District upkeep",
+        "Shroud attunement": "[The cradle of souls] Cradle of Souls",
+        "Requirements": "[Xenophile][Fanatic xenophile] Xenophile; [No][Corvée System] Corvée System; [No][Oppressive Autocracy] Oppressive Autocracy"
+      }
+    },
+    {
+      "id": "Idealistic Foundation",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Idealistic Foundation]Idealistic FoundationThis society was founded on strong idealistic values. Whether the current government remains true to them or not, the people have not forgotten.",
+        "Effects": "[Happiness] +10% Citizen pop happiness; [Mod planet migration all pull] +10% Refugee attraction",
+        "Council position": "[Tribune of Rights] Tribune of Rights[Mod pop amenities usage mult] −1.5% Pop amenities usage",
+        "Shroud attunement": "[The cradle of souls] Cradle of Souls",
+        "Requirements": "[Egalitarian][Fanatic egalitarian] Egalitarian"
+      }
+    },
+    {
+      "id": "Imperial Cult",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Imperial Cult]Imperial CultThis society has a dominant state religion where the ruler is worshiped as a living deity.",
+        "Effects": "[Mod country edict cap add] +100 Edict fund; [Priest] +100 Priest jobs per total ruler levelAdds up leader Level, effective councilor skill and effective leader level on ruler's home planet",
+        "Council position": "[Prime Herald] Prime Herald[Priest] +2% Priest resource output",
+        "Requirements": "[Imperial] Imperial; [Authoritarian][Fanatic authoritarian] Authoritarian; [Spiritualist][Fanatic spiritualist] Spiritualist; [No][Chosen][Chosen Executives] Chosen[Chosen] Chosen[Chosen Executives] Chosen Executives"
+      }
+    },
+    {
+      "id": "Meritocracy",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Meritocracy]MeritocracyAn individual's social station or personal connections should have no bearing on their profession. The sole basis for advancement in this society is demonstrated ability and talent.",
+        "Effects": "[Pop cat specialist] +10% Specialist pop resource output; [Galactic Paragons] +1 Additional leader trait options",
+        "Council position": "[Principal Instructor] Principal Instructor[Mod leader species exp gain] +2.5% Leader experience gain",
+        "Shroud attunement": "[The cradle of souls] Cradle of Souls",
+        "Requirements": "[Democratic] Democratic or [Oligarchic] Oligarchic"
+      }
+    },
+    {
+      "id": "Mining Guilds",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Mining Guilds]Mining GuildsSeveral large mining guilds have reached a dominant position in this society. The government relies heavily on their support.",
+        "Effects": "[Minerals] +1 Minerals per 100 [Miners (category)] Miners",
+        "Council position": "[Chairman of the Mines] Chairman of the Mines[Mod planet stability] +0.05 Stability per 100 [Miners (category)] Miners",
+        "Shroud attunement": "[The instrument of desire] Instrument of Desire",
+        "Requirements": "[No][Tankbound][Corporate Thinktank] Tankbound[Tankbound] Tankbound[Corporate Thinktank] Corporate Thinktank"
+      }
+    },
+    {
+      "id": "Nationalistic Zeal",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Nationalistic Zeal]Nationalistic ZealA strong sense of nationalistic pride permeates all layers of this society.",
+        "Effects": "[Mod country war exhaustion] −20% War exhaustion gain; [Mod country claim influence cost] −15% Claim influence cost; [Diplomatic weight] +5% Diplomatic weight per rival",
+        "Council position": "[Standard Bearer] Standard Bearer[Mod navy size add] +1.5% Naval capacity",
+        "Shroud attunement": "[The eater of worlds] Eater of Worlds",
+        "Requirements": "[Militarist][Fanatic militarist] Militarist"
+      }
+    },
+    {
+      "id": "Parliamentary System",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Parliamentary System]Parliamentary SystemThe parliamentary system in this society encourages a free and lively debate. Currying favor with one of the dominant political factions can prove to be quite advantageous.",
+        "Effects": "[Navbar icons factions] +20% Faction resource output; [Mod faction approval] +50% Disapporoval from unmet faction demands; [Navbar icons factions] Factions will form within 3 months but have halved resource production",
+        "Council position": "[Speaker of Parliament] Speaker of Parliament[Mod council agenda progress speed] +3% Council agenda speed",
+        "Shroud attunement": "[The cradle of souls] Cradle of Souls",
+        "Requirements": "[Democratic] Democratic; [No][Crowdsourcing][Decentralized R&D] Crowdsourcing[Crowdsourcing] Crowdsourcing[Decentralized R&D] Decentralized R&D; [No][Secret Societies][Influential Cartel] Secret Societies[Secret Societies] Secret Societies[Influential Cartel] Influential Cartel; [No][Civic media conglomerate] Media Conglomerate; [No][Origins unplugged] Hard Reset"
+      }
+    },
+    {
+      "id": "Philosopher King",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Philosopher King]Philosopher KingIt is not enough to simply rule. The Ship of State must be guided by a king that wields enough wisdom and knowledge to steer it true.",
+        "Effects": "[Leader skill levels] +5 Effective ruler skill; [Yes] Heir has double chance to be the same class as ruler",
+        "Council position": "[Lord Chancellor] Lord Chancellor[Mod leader species exp gain] +3% Councilor experience gain",
+        "Requirements": "[Dictatorial] Dictatorial or [Imperial] Imperial"
+      }
+    },
+    {
+      "id": "Police State",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Police State]Police StateTo quash any traces of dissent, the population in this repressive society is carefully monitored and controlled by a large internal police force.",
+        "Effects": "[Mod planet stability] +3 Stability; [Enforcer] +10% Enforcer job efficiency; [Telepath] +10% Telepath job efficiency; [Unity] +1 Unity per 100 Enforcers",
+        "Council position": "[Chief of Secret Police] Chief of Secret Police; [Mod pop government ethic attraction] +2% Governing ethics attraction; [Enforcer] +1% Job efficiency for Enforcers; [Telepath] +1% Job efficiency for Telepaths",
+        "Shroud attunement": "[The instrument of desire] Instrument of Desire",
+        "Requirements": "[No][Fanatic egalitarian] Fanatic Egalitarian; [No][Civil Education] Civil Education"
+      }
+    },
+    {
+      "id": "Shadow Council",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Shadow Council]Shadow CouncilUnbeknownst to its own citizens, this society is actually manipulated from behind the scenes by a secretive shadow council. Appearances must be kept, but the tyranny of the majority should also be guarded against. After all, what if the fools vote for the wrong candidate?",
+        "Effects": "[Mod country election influence cost] −75% Election Cost; [Leader skill levels] +1 Effective councilor skill; [Intel decryption] +1 Codebreaking; [Spy network] +10% Infiltration speed; [Time] +5 Election term variance years",
+        "Council position": "[Shadow Councilor] Shadow Councilor[Ruler] −4% Elite pop upkeep",
+        "Shroud attunement": "[The instrument of desire] Instrument of Desire",
+        "Requirements": "[Democratic] Democratic or [Oligarchic] Oligarchic or [Dictatorial] Dictatorial"
+      }
+    },
+    {
+      "id": "Slaver Guilds",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Slaver Guilds]Slaver GuildsMuch of the true political power in this society rests with a number of powerful and ruthless slaver guilds. They know how to get the most out of a slave.",
+        "Effects": "[Mod planet jobs slave produces mult] +15% Job efficiency for slaves; [Mod planet migration all pull] −25% Refugee attraction",
+        "Council position": "[Labor Magistrate] Labor Magistrate[Happiness] +2% Slave happiness",
+        "Shroud attunement": "[The instrument of desire] Instrument of Desire",
+        "Requirements": "[Authoritarian][Fanatic authoritarian] Authoritarian; [No][Tankbound][Corporate Thinktank] Tankbound[Tankbound] Tankbound[Corporate Thinktank] Corporate Thinktank; [No][Pleasure Seekers] Pleasure Seekers; [No][Indentured Assets] Indentured Assets"
+      }
+    },
+    {
+      "id": "Technocracy",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Technocracy]TechnocracyTo maximize efficiency, this society is governed according to the principles of science and rationality. The personal whims of an ignorant and dangerously unqualified political elite must not be allowed to interfere.",
+        "Effects": "[Mod num tech alternatives add] +1 Research alternatives; [Scientist] +1 Scientist capacity; [Official] −1 Official capacity; [Science Director] Politician jobs are replaced with Science Director jobs; [Leader trait bg basic][Leader trait overlay veteran][Leader trait expertise blank][Leader trait overlay councilor][Expertise trait] Scientists start with a random Expertise trait; [Pop resource physics research mult] Expertise traits increase job research output for their fields if governing a planet or sector; [Scientist] Starting Official governing the homeworld is replaced by a Scientist",
+        "Council position": "[Senior Science Director] Senior Science Director; [Pop resource engineering research mult] +0.05 Engineering per 100 [Engineer] Engineers; [Pop resource physics research mult] +0.05 Physics per 100 [Physicist] Physicists; [Pop resource society research mult] +0.05 Society per 100 [Biologist] Biologists; [Consumer goods] +0.1 Researcher consumer goods upkeep",
+        "Requirements": "[Materialist][Fanatic materialist] Materialist; [No][Shared Burdens] Shared Burdens"
+      }
+    },
+    {
+      "id": "Warrior Culture",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Warrior Culture]Warrior CultureThis society has developed into a hardy warrior culture. Martial prowess is valued above all else, and true glory can only be found on the field of battle.",
+        "Effects": "[Duelist] Replaces Entertainer jobs with Duelist jobs; [Gladiatorial Beast] Replaces Conserved Fauna jobs with Gladiatorial Beast jobs; [Mod army damage mult] +20% Army damage; [Mod country war exhaustion] −10% War exhaustion gain; [Overlord][Shadows of the Shroud] +1 Enclave capacity; [Holo-Theatres] Start with a Holo-Theatres building",
+        "Council position": "[Arbiter of Duels] Arbiter of Duels[Duelist] +1% Job efficiency for Duelists",
+        "Shroud attunement": "[The eater of worlds] Eater of Worlds",
+        "Requirements": "[Militarist][Fanatic militarist] Militarist; [No][Oppressive Autocracy] Oppressive Autocracy; [No][Pleasure Seekers] Pleasure Seekers"
+      }
+    },
+    {
+      "id": "Ascensionists",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Ascensionists]AscensionistsThe ultimate goal of this empire is to ascend to ever greater levels of fulfillment.",
+        "Effects": "[Planetary ascension effect] +25% Planetary ascension effects; [Planetary ascension cost] −10% Planetary ascension cost; [Unity] −25% Tradition cost from empire size; [Button upgrade ascension tier] Capital starts at ascension tier 1",
+        "Council position": "[Minister of Ascension] Minister of Ascension[Unity] +2% Monthly unity",
+        "Shroud attunement": "[The instrument of desire] Instrument of Desire",
+        "Requirements": "[Spiritualist][Fanatic spiritualist] Spiritualist; [No][Gigacorp] Gigacorp",
+        "DLC": "[Utopia]; [Astral Planes]"
+      }
+    },
+    {
+      "id": "Catalytic Processing",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Catalytic Processing]Catalytic ProcessingBy focusing their industrial efforts into catalytic chemistry, this civilization has unlocked the key to using organic materials in the construction of spacebound structures.",
+        "Effects": "[Catalytic Technician] Replaces Metallurgist jobs with Catalytic Technician jobs; [Mining District] Start with 1 fewer of Mining District; [Agriculture District] Start with 2 more of Agriculture District",
+        "Council position": "[Principal Catalyst] Principal Catalyst[Metallurgists (category)] +2% Metallurgist output",
+        "Shroud attunement": "[The composer of strands] Composer of Strands",
+        "Requirements": "[No][Catalytic Recyclers] Catalytic Recyclers; [No][Calamitous Birth] Calamitous Birth; [No][Planet molten] Volcanic World homeworld",
+        "DLC": "[DLC plantoids species pack]"
+      }
+    },
+    {
+      "id": "Masterful Crafters",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Masterful Crafters]Masterful CraftersA penchant for meticulous crafting lies at the heart of this society. Deft appendages and keen sensory organs aid them in creating truly wondrous treasures even in the most basic of trades.",
+        "Effects": "[Artificer] Replaces Artisan jobs with Artificer jobs",
+        "Council position": "[Master Crafter] Master Crafter[Mod ship armor mult] +1% Armor hit points",
+        "Shroud attunement": "[The instrument of desire] Instrument of Desire",
+        "Requirements": "[No][Mastercraft Inc.] Mastercraft Inc.",
+        "DLC": "[DLC humanoids species pack]"
+      }
+    },
+    {
+      "id": "Pleasure Seekers",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Pleasure Seekers]Pleasure SeekersThis society rejoices in its own perfection. Those who are elevated by their privileged social structure have surrendered to a culture which glorifies pleasure and entertainment, regardless of a cost typically borne by others.",
+        "Effects": "[Hedonist] Replaces Civilian jobs with Hedonist jobs; [Living standards] Can use the Decadent Lifestyle living standard; [Holo-Theatres] Start with a Holo-Theatres building",
+        "Council position": "[Minister of Extravagance] Minister of Extravagance[Happiness] +4% Elite happiness",
+        "Shroud attunement": "[The instrument of desire] Instrument of Desire",
+        "Requirements": "[No][Slaver Guilds] Slaver Guilds; [No][Warrior Culture] Warrior Culture; [No][Shared Burdens] Shared Burdens; [No][Oppressive Autocracy] Oppressive Autocracy; [No][Corporate Hedonism] Corporate Hedonism; [No][Origins unplugged] Hard Reset",
+        "DLC": "[DLC humanoids species pack]"
+      }
+    },
+    {
+      "id": "Pompous Purists",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Pompous Purists]Pompous PuristsA society so utterly convinced of their own superiority, that any attempt at diplomacy not initated by themselves will be utterly ignored.",
+        "Effects": "[Envoy] +1 Available envoys; [Envoy improve relations] +25% Envoy improve relations; [Diplomatic weight] +15% Diplomatic Weight when opposing resolutions; [Leader pool size] −1 External recruitable leaders per class; [Mod planet migration all pull] −25% Refugee attraction; [No] Can send but cannot receive diplomatic propositions; [No] Cannot become the Galactic Custodian; [Diplomacy isvassal] Sectors released as subjects replace it with a random civic",
+        "Council position": "[Grand Marshal] Grand Marshal[Diplomatic weight] +2% Diplomatic weight",
+        "Shroud attunement": "[The cradle of souls] Cradle of Souls",
+        "Requirements": "[Xenophobe][Fanatic xenophobe] Xenophobe; [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Scorched World Heralds] Scorched World Heralds; [No][Inward Perfection] Inward Perfection; [No][Origins scion 1] Scion",
+        "DLC": "[DLC humanoids species pack]"
+      }
+    },
+    {
+      "id": "Byzantine Bureaucracy",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Byzantine Bureaucracy]Byzantine BureaucracyThis society is largely governed by a complex and, to the outsider, almost labyrinthine system of bureaucracy. An army of officials and functionaries work tirelessly to keep the government running smoothly and ensure no citizens are allocated resources they cannot demonstrate a properly filed and triple-stamped need for.",
+        "Effects": "[Unity] +1 Unity per 100 Bureaucrats; [Mod planet stability] +1 Stability per 100 Bureaucrats",
+        "Council position": "[Administrative Coordinator] Administrative Coordinator[Mod job bureaucrat upkeep mult] −2% Administrator upkeep",
+        "DLC": "[MegaCorp]"
+      }
+    },
+    {
+      "id": "Merchant Guilds",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Merchant Guilds]Merchant GuildsA number of powerful and very influential merchant guilds have risen to prominent positions in this society. They hold significant sway with the government.",
+        "Effects": "[Planetary Administration] Capital buildings replace [Politician] Politician jobs with [Merchant] Merchant jobs; [Mercantile] Can use the Mercantile diplomatic stance (unless also [Inward Perfection] Inward Perfection)",
+        "Council position": "[Director of Trade] Director of Trade[Trade value] +3% Trade from [Politician] Politicians",
+        "Shroud attunement": "[The instrument of desire] Instrument of Desire",
+        "DLC": "[MegaCorp]"
+      }
+    },
+    {
+      "id": "Shared Burdens",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Shared Burdens]Shared BurdensThis society believes in an equitable distribution of resources, making little to no distinction between the needs of ruler and ruled. All work together for the benefit of the whole.",
+        "Effects": "[Living standards] Can use the Shared Burden living standard; [Living standards] Must use Egalitarian living standards; [Mod planet stability] +5 Stability; [Building residence] Can build Communal Housing and Utopian Communal Housing buildings; [Building residence] Can construct Communal Housing Outreach holdings",
+        "Council position": "[Head Arbiter] Head Arbiter[Pop cat worker] +2% Worker pop resource output",
+        "Shroud attunement": "[The composer of strands] Composer of Strands",
+        "Requirements": "[Fanatic egalitarian] Fanatic Egalitarian; [No][Xenophobe][Fanatic xenophobe] Xenophobe; [No][Technocracy] Technocracy; [No][Pleasure Seekers] Pleasure Seekers",
+        "DLC": "[MegaCorp]"
+      }
+    },
+    {
+      "id": "Selective Kinship",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Selective Kinship]Selective KinshipIn an uncertain universe, only kin can be trusted. This civilization is selective about the species it defines as equals.",
+        "Effects": "[Happiness] +7.5% Citizen happiness on planets with two species of the founder species class; [Happiness] +2.5% Citizen happiness while oppressing other species classes; [Diplomacy opinion] +100 Opinion with empires with same founder species class; [Diplomacy opinion] −50 Opinion with empires with different founder species class; [Species right citizenship] Species with same species class have Full Citizenship rights; [Xenophobe] Xenophobe ethics do not affect opinion of other empires; [No] Species with different species class cannot have Full Citizenship rights; [No] Species with different species class cannot have Full Military Service rights; [No] Cannot form Migration Agreements with empires with different founder species class",
+        "Council position": "[Speaker for the Kin] Speaker for the Kin[Mod pop political power] +2% Citizen political power",
+        "Requirements": "[No][Xenophile][Fanatic xenophile] Xenophile; [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Scorched World Heralds] Scorched World Heralds; [No][Fanatic egalitarian] Fanatic Egalitarian; [No][Origins broken shackles] Broken Shackles; [No][Machine][Mechanical] Machine founder species",
+        "DLC": "[Lithoids]"
+      }
+    },
+    {
+      "id": "Diplomatic Corps",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Diplomatic Corps]Diplomatic CorpsThis society has a long tradition of rhetoric and debate and celebrate those who are able to get their way using only words.",
+        "Effects": "[Envoy] +2 Available envoys; [Diplomatic weight] +15% Diplomatic weight; [Trust cap] +40 Trust cap; [Envoy action improving relations] +75% Envoy improve relations",
+        "Council position": "[High Ambassador] High Ambassador[Trust cap] +5 Trust cap",
+        "Shroud attunement": "[The cradle of souls] Cradle of Souls",
+        "Requirements": "[No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Scorched World Heralds] Scorched World Heralds; [No][Inward Perfection] Inward Perfection",
+        "DLC": "[Federations]"
+      }
+    },
+    {
+      "id": "Death Cult",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Death Cult]Death CultThis society's religion is built around periodic, ritual sacrifices. Willing initiates devote themselves to a decade of study before meeting an end whose effects ripple throughout their culture.",
+        "Effects": "[Building sacrificial temple 1] Can construct Sacrificial Temple buildings; [Building sacrificial temple 1] Can construct Sacrificial Shrine holdings; [Menu icon edicts] Can use Sacrifice edicts",
+        "Council position": "[Apostle of Death] Apostle of Death[Menu icon edicts] +2% Sacrificial edict effect",
+        "Requirements": "[Spiritualist][Fanatic spiritualist] Spiritualist; [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Scorched World Heralds] Scorched World Heralds; [No][Chosen][Chosen Executives] Chosen[Chosen] Chosen[Chosen Executives] Chosen Executives; [No][Inward Perfection] Inward Perfection; [No][Corporate Death Cult] Corporate Death Cult; [No][Necrophage] Necrophage",
+        "DLC": "[Necroids]"
+      }
+    },
+    {
+      "id": "Memorialists",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Memorialists]MemorialistsThis empire pays tribute to memories and sapients of the past, deriving greater stability and insight from the continuous cycles of death, rebirth and legacy.",
+        "Effects": "[Building galactic memorial 1] Replaces Autochthon Monument buildings with Sanctuary of Repose; [Building galactic memorial 1] Start with a Sanctuary of Repose; [Unity] Gain additional Unity from Leviathan Parade Opportunity situations",
+        "Council position": "[High Curator] High Curator[Unity] +2% Monthly unity",
+        "Shroud attunement": "[The composer of strands] Composer of Strands",
+        "Requirements": "[No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Scorched World Heralds] Scorched World Heralds; [No][Relentless Industrialists][Shareholder Values] Relentless Industrialists[Relentless Industrialists] Relentless Industrialists[Shareholder Values] Shareholder Values; [No][Entropy Drinkers][Corporate Vampires] Entropy Drinkers[Entropy Drinkers] Entropy Drinkers[Corporate Vampires] Corporate Vampires",
+        "DLC": "[Necroids]"
+      }
+    },
+    {
+      "id": "Reanimators",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Reanimators]ReanimatorsWithin this society, death is no bar to the call of arms. Masters of the art of necromancy reanimate deceased corpses to raise a dread host that strikes fear into the hearts of lesser mortals.",
+        "Effects": "[Necromancer] Replaces Soldier jobs with Necromancer jobs; [Building dread encampment] Can construct Dread Encampment buildings; [Building dread encampment] Can construct Dread Outpost holdings; [Army undead] 33% chance to gain an Undead Army per killed organic army; [Feature] Defeated organic guardians can be reanimated; [Grand Archive] Lost space fauna can be reanimated",
+        "Council position": "[Master Necromancer] Master Necromancer[Soldier] +2% Resources from [Soldier] Soldiers",
+        "Shroud attunement": "[The eater of worlds] Eater of Worlds",
+        "Requirements": "[No][Pacifist][Fanatic pacifist] Pacifist; [No][Citizen Service] Citizen Service; [No][Sovereign Guardianship][Corporate Protectorate] Sovereign Guardianship[Sovereign Guardianship] Sovereign Guardianship[Corporate Protectorate] Corporate Protectorate; [No][Origin synthetic fertility] Synthetic Fertility; [No][Machine][Mechanical] Machine founder species",
+        "DLC": "[Necroids]"
+      }
+    },
+    {
+      "id": "Mutagenic Spas",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Mutagenic Spas]Mutagenic SpasThis civilization engages in ritualistic mutagenic bathing, with professional attendants overseeing the use of highly dangerous substances. This 'invigorating' process may appall uninitiated onlookers.",
+        "Effects": "[Building corporate clinic] Can construct Corporate Clinic holdings; [Building toxic bath] Can construct Mutagenic Spa buildings; [Building toxic bath] Start with a Mutagenic Spa building; [Leader trait bg negative][Leader trait substance abuser][Leader trait tier 1][Substance Abuser] Starting governor has the Substance Abuser trait; [Leader skill levels] +3 Substance Abuse Effective Level on worlds with a Mutagenic Spa; [No][Leader trait bg basic][Leader trait resilient][Resilience] Leaders cannot gain the Resilient trait",
+        "Council position": "[Warden of the Baths] Warden of the Baths; [Mutagenic Spa Attendant] +20 Spa Attendant jobs from Mutagenic Spa buildings; [Mutagenic Spa Attendant] +10 Spa Attendant jobs from Mutagenic Spa buildings with Substance Abuser governor",
+        "Shroud attunement": "[The composer of strands] Composer of Strands",
+        "Requirements": "[No][Machine] Machine founder species; [No][Origins life seeded] Life-Seeded; [No][Origin synthetic fertility] Synthetic Fertility; [No][Mutagenic Luxury] Mutagenic Luxury",
+        "DLC": "[Toxoids]"
+      }
+    },
+    {
+      "id": "Lubrication Tanks",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Lubrication Tanks]Lubrication TanksThis machine empire improved upon its basic drone-shell production through the vigorous application of highly aggressive lubrication agents, controlled by carefully programmed terminals. This 'optimized' process relies on typically wasted byproducts from the industries that are now repurposed for maximal efficiency.",
+        "Effects": "[Building corporate clinic] Can construct Corporate Clinic holdings; [Building toxic bath machine] Can construct Hyper Lubrication Basin buildings; [Building toxic bath machine] Can construct Hyper Lubrication Basin holdings; [Building toxic bath machine] Start with a Hyper Lubrication Basin building",
+        "Council position": "[Terminal Overseer] Terminal Overseer[Mutagenic Spa Attendant] +20 Spa Attendant jobs from Hyper Lubrication Basin buildings",
+        "Shroud attunement": "[The composer of strands] Composer of Strands",
+        "Requirements": "[Machine] Machine founder species; [No][Luxury Lubrication Pools] Luxury Lubrication Pools; [No][Origins life seeded] Life-Seeded",
+        "DLC": "[Toxoids]"
+      }
+    },
+    {
+      "id": "Relentless Industrialists",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Relentless Industrialists]Relentless IndustrialistsTo live is to exploit. This civilization is built around the principle of living life to the fullest, in the sense of squeezing the maximum profit from every last ounce of matter and membrane available for exploitation.",
+        "Effects": "[Building coordinated fulfillment center 1] Can construct Coordinated Fulfillment Center buildings; [Building coordinated fulfillment center 1] Start with a Coordinated Fulfillment Center building; [Navbar icons situation] First time a world is polluted triggers the Environmental Deterioration situation",
+        "Council position": "[Chief Extraction Officer] Chief Extraction Officer[Minerals] +2% Minerals from [Miners (category)] Miners",
+        "Shroud attunement": "[The instrument of desire] Instrument of Desire",
+        "Requirements": "[Materialist][Fanatic materialist] Materialist; [No][Planet Forgers][Planetary Architects] Planet Forgers[Planet Forgers] Planet Forgers[Planetary Architects] Planetary Architects; [No][Agrarian Idyll] Agrarian Idyll; [No][Environmentalist] Environmentalist; [No][Idyllic Bloom] Idyllic Bloom; [No][Civic memorialist] Memorialists; [No][Origins life seeded] Life-Seeded; [No][Shareholder Values] Shareholder Values",
+        "DLC": "[Toxoids]"
+      }
+    },
+    {
+      "id": "Scavengers",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Scavengers]ScavengersIn this society, nothing goes to waste, even in the grimmest times of war: no enemy technology will go undiscovered, as teams of scrappers accompanying the war fleets scrape wreckages of anything and everything worth salvaging.",
+        "Effects": "[Menu icon policies] Enables the Research & Salvage Debris debris policy; [Menu icon fleet manager] +10% chance per ship debris to create a ship of equal size; [Alloys] −5% Ships alloys upkeep; [Mod planet building cost mult] +10% Planetary infrastructure refund; [Mod planet building cost mult] +10% Megastructure refund; [Diplomacy opinion] +10 Opinion with the Salvagers enclave",
+        "Council position": "[Master Scrapper] Master Scrapper[Unknown] +1% Chance to salvage ships",
+        "Requirements": "[No][Refurbishment Division] Refurbishment Division",
+        "DLC": "[Toxoids]"
+      }
+    },
+    {
+      "id": "Eager Explorers",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Eager Explorers]Eager ExplorersYearning for the stars, this civilization sped through several stages of development, reaching the age of galactic exploration far earlier than most.",
+        "Effects": "−Certain starting technologies are permanent options and must be researched; [No] Cannot be added until Subspace Drive is researched; [No] Cannot be removed until Jump Drive is researched; [Tech subspace drive] Start with the Subspace Drive technology; [Icon pop] −1000 Starting pops; [Voidcraft] +50% Chance to draw Voidcraft technologies; [Mod ship speed mult] +15% Sublight speed; [Mod ship science survey speed] +20% Survey speed; [Mod ship anomaly generation chance] +5% Anomaly discovery chance; [Astral Planes] +5% Astral rift exploration speed; [No] Start with 1 fewer of each resource district; [No] −Start without a fleet and any stations; [Menu icon fleet manager] Start with two exploration vessels and an engineering vessel; [Scientist] Start with a second scientist; [Scientist] Starting scientists usually have an additional survey-related trait; [Feature] Can build exploration, engineering, and colonization vessels; [Feature] Can build conventional civilian ships after researching hyperdrives; [Tech hyper drive 1] Hyperspace Travel [Tech basic science lab 1] Scientific Method [Tech planetary government] Planetary Government [Corvettes] Corvettes; [Tech hyper drive 1] Hyperspace Travel; [Tech basic science lab 1] Scientific Method; [Tech planetary government] Planetary Government; [Corvettes] Corvettes",
+        "Council position": "[Minister of Exploration] Minister of Exploration; [Mod ship anomaly research speed] +5% Anomaly research speed; [Mod ship anomaly research speed] +5% Archaeology excavation speed; [Fleet action button jump] +3% Jump drive range",
+        "Requirements": "[No] Biological shipset; [No][Inward Perfection] Inward Perfection; [No][Privatized Exploration] Privatized Exploration; [No][Sovereign Guardianship][Corporate Protectorate] Sovereign Guardianship[Sovereign Guardianship] Sovereign Guardianship[Corporate Protectorate] Corporate Protectorate; [No][Hyperspace Specialty][Hyperspace Trade] Hyperspace Specialty[Hyperspace Specialty] Hyperspace Specialty[Hyperspace Trade] Hyperspace Trade; [No][Genesis Guides][Astrogenesis Technologies] Genesis Guides[Genesis Guides] Genesis Guides[Astrogenesis Technologies] Astrogenesis Technologies; [No][Origins broken shackles] Broken Shackles; [No][Origins fear of the dark] Fear of the Dark; [No][Origins payback] Payback; [No][Origin synthetic fertility] Synthetic Fertility; [No][Origins unplugged] Hard Reset",
+        "DLC": "[First Contact]"
+      }
+    },
+    {
+      "id": "Crusader Spirit",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Crusader Spirit]Crusader SpiritThe lack of guidance creates weak minds - which easily succumb to corruption and plunge into decadence. This society has assumed the self-imposed mantle of bringing \"enlightenment\" to the masses through aggressive proselytizing.",
+        "Effects": "[Mod ship damage mult] +5% Ship weapons damage; [Mod ship build speed mult] +5% Ship build speed; [Menu icon policies] War Philosophy policy is locked to Liberation Wars; [Leader trait bg basic][Leader trait crusader][Crusader] Commanders have the Crusader trait",
+        "Council position": "[Lord Commander] Lord Commander; [Mod ship fire rate mult] +1% Ship fire rate; [Mod army damage mult] +2% Army damage",
+        "Shroud attunement": "[The cradle of souls] Cradle of Souls",
+        "Requirements": "[Authoritarian][Fanatic authoritarian] Authoritarian, [Spiritualist][Fanatic spiritualist] Spiritualist or [Militarist][Fanatic militarist] Militarist; [No][Pacifist][Fanatic pacifist] Pacifist; [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Scorched World Heralds] Scorched World Heralds; [No][Beacon of Liberty] Beacon of Liberty",
+        "DLC": "[Galactic Paragons]"
+      }
+    },
+    {
+      "id": "Heroic Past",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Heroic Past]Heroic PastThe legendary heroes of the past inspire this civilizations young people to achieve the extraordinary. As role models, government officials are expected to embody these ideals.",
+        "Effects": "[Icon leader] +1 Leader capacity for each class",
+        "Council position": "[Grand Storyteller] Grand Storyteller; [Mod leader species exp gain] +2% Leader experience gain; [Mod pop government ethic attraction] +2% Governing ethics attraction",
+        "Requirements": "[No][Origins unplugged] Hard Reset",
+        "DLC": "[Galactic Paragons]"
+      }
+    },
+    {
+      "id": "Vaults of Knowledge",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Vaults of Knowledge]Vaults of KnowledgeThe knowledge, principles, and experiences of exceptional people are digitized and accumulated in the Vaults of Knowledge. Citizens can access this source of wisdom and experience to learn from the ghosts of the past.",
+        "Effects": "[Building paragon memory vaults] Can construct the Vaults of Knowledge building; [Building paragon memory vaults] Start with the Vaults of Knowledge building; [Leader skill levels] +1 Leader starting skill; [Leader skill levels] +1 Effective councilor skill; [Galactic Paragons] +1 Additional leader trait options",
+        "Council position": "[Keeper of the Vaults] Keeper of the Vaults; [Upkeep] −2% Leader upkeep; [Cost] −2% Leader cost",
+        "Requirements": "[No][Civic memory vault corporate] Knowledge Mentorship",
+        "DLC": "[Galactic Paragons]"
+      }
+    },
+    {
+      "id": "Dimensional Worship",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Dimensional Worship]Dimensional WorshipThis society believes that a divine existence lies beyond the folds in space and time. Systems where instabilities are highest hold a sacred meaning to them as sites of both pilgrimage and research.",
+        "Effects": "[Physics research] +1 Physics per 100 [Bureaucrat] Bureaucrats; [Unknown] +100% Chance for astral rifts to appear in owned systems; [Unknown] +10% Chance to discover rare technologies; [Scientist] +25% Chance for scientists to gain Astral Rift related traits; [Sb dimensional shrine] Can construct Dimensional Shrine starbase buildings",
+        "Council position": "[Astral Minister] Astral Minister[Astral threads] +2% Monthly astral threads",
+        "Requirements": "[Spiritualist][Fanatic spiritualist] Spiritualist; [No][Dimensional Enterprise] Dimensional Enterprise",
+        "DLC": "[Astral Planes]"
+      }
+    },
+    {
+      "id": "Dark Consortium",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Dark Consortium]Dark ConsortiumA deep understanding of the architecture of the universe allowed this society to exploit the mysterious properties of dark matter long before the discovery of the hyperdrive.",
+        "Effects": "[Menu icon edicts] Can use Dark Matter strategic resource edicts; [Dark Matter Breakthrough] Can use the Dark Matter Breakthrough agenda; If added during empire creation: [No] Cannot be removed [Dark Matter Drawing] Start with the Dark Matter Drawing technology researched [Dark Matter] Home system has a deposit of 3 Dark Matter; [No] Cannot be removed; [Dark Matter Drawing] Start with the Dark Matter Drawing technology researched; [Dark Matter] Home system has a deposit of 3 Dark Matter; [Dark Matter Drawing] Requires Dark Matter Drawing technology to add after empire creation",
+        "Council position": "[Shadow Weaver] Shadow Weaver[Dark Matter] +20% Dark matter from research stations",
+        "Requirements": "[No][Shadow Corporation] Shadow Corporation",
+        "DLC": "[Astral Planes]"
+      }
+    },
+    {
+      "id": "Hyperspace Specialty",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Hyperspace Specialty]Hyperspace SpecialtyThis society has always embraced speed. The manipulation of hyperspace is just another thoroughfare, and those with aptitude in the field have risen to the highest caste.",
+        "Effects": "[Mod planet sensor range mult] +2 Planet sensor range; [Mod ship speed mult] +10% Sublight speed; [Physics research speed] +15% Physics research speed; [Scientist] +25% Chance for scientists to gain Astral Rift related traits; [Tech hyper drive 2] Start with the Hyperlane Breach Points technology as a permanent research option; [Yes] Know the layout of all systems within 3 hyperlane jumps",
+        "Council position": "[Hyperlane Supervisor] Hyperlane Supervisor[Mod planet stability] +1 Stability per Hyperlane Registrar starbase building",
+        "Shroud attunement": "[The composer of strands] Composer of Strands",
+        "Requirements": "[No][Hyperspace Trade] Hyperspace Trade; [No][Eager Explorers] Eager Explorers[Eager Explorers] Eager Explorers[Privatized Exploration] Privatized Exploration; [No][Origins unplugged] Hard Reset",
+        "DLC": "[Astral Planes]"
+      }
+    },
+    {
+      "id": "Genesis Guides",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Genesis Guides]Genesis GuidesThis society is devoted to the creation of emerging species. As the stewards of evolution's potential, they allocate portions of their worlds to safeguard the development of pre-sapient life forms.",
+        "Effects": "[Ship class] Replace regular colony ships with Genesis Arks; [Mod country terraforming cost] −25% Terraforming cost; [Mod country terraforming speed] +25% Terraforming speed; [Bio-Trophy] +300 Pre-Sapient pops on homeworld; [Amenities] +10% Amenities from Isolated Valley planetary features; [Unity] +10% Unity from jobs from Isolated Valley planetary features; [Unity] +250 x uplifts Unity when uplifting; [Influence] +5 x uplifts Influence when uplifting; [Unity] +250-2500 Unity when colonizing a planet; [Influence] +5-50 Influence when colonizing a planet; [Epigenetic Triggers] Unlock the Epigenetic Triggers technology when colonizing a planet; [Decision animal wildlife] Enables the Build Genesis Preserve decision; [D quarantine zone] Start with the Genesis Preserve planetary feature on homeworld; [D monument] Uplifting replaces Genesis Preserve with Genesis Monument; [Menu icon policies] Pre-Sapients policy is locked to Protected; [No][Building xeno zoo] Cannot build Alien Zoo buildings",
+        "Council position": "[Master of Guidance] Master of Guidance[Society research speed] +5% Biology research speed",
+        "Shroud attunement": "[The composer of strands] Composer of Strands",
+        "Requirements": "[No][Xenophobe][Fanatic xenophobe] Xenophobe; [No][Civic natural design] Natural Design; [No][Eager Explorers] Eager Explorers[Eager Explorers] Eager Explorers[Privatized Exploration] Privatized Exploration; [No][Origins syncretic evolution] Syncretic Evolution; [No][Origins unplugged] Hard Reset; [No][Origins life seeded] Life-Seeded",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Rapid Replicator (Individualist)",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Rapid Replicator]Rapid ReplicatorThis society has taken control of the means of self-assembly. Each machine begets another, forming an unbroken chain stretching our planet's limits.",
+        "Effects": "[Mod pop assembly speed] +20% Mechanical pop assembly speed",
+        "Council position": "[Replication Coordination Officer] Replication Coordination Officer[Upkeep] −2% Roboticists upkeep",
+        "Requirements": "[Machine] Machine founder species",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Static Research Analysis (Individualist)",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Static Research Analysis]Static Research AnalysisThis society excels in predictive analysis within research methodologies, ensuring the pursuit of only the most promising leads.",
+        "Effects": "[Mod num tech alternatives add] +1 Research alternatives; [Intel decryption] +1 Codebreaking; [Mod leader species exp gain] +10% Head of Research experience gain",
+        "Council position": "[Methodology Lead Analyst] Methodology Lead Analyst[Mod job researcher upkeep mult] −2% Researcher upkeep",
+        "Requirements": "[Machine] Machine founder species",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Warbots (Individualist)",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Warbots]WarbotsThis society constantly refines its armies, economy, and education for diverse warfare strategies. Each machine contributes to collective strength, ensuring adaptability and success in conflict.",
+        "Effects": "[Leader skill levels] +2 Commander starting level; [Upkeep] −25% Commander upkeep; [Mod army damage mult] +20% Army damage; [Mod army upkeep mult] −20% Army upkeep",
+        "Council position": "[Combat Logistician] Combat Logistician[Mod army upkeep mult] −5% Army upkeep",
+        "Shroud attunement": "[The eater of worlds] Eater of Worlds",
+        "Requirements": "[Machine] Machine founder species",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Astrometeorology",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Astrometeorology]AstrometeorologyWith deep respect for the forces of nature, this species goes to great lengths to uncover the inner workings of environmental phenomena. As they set out across the stars, they take with them a particular interest in astrometeorology. Central to their ambitions are the most fantastic and potentially destructive of all astronomical events, the cosmic storms themselves.",
+        "Effects": "[Building astrometeorology observation center] Can construct Astrometeorology Observatory buildings; [Building astrometeorology observation center] Starting Research Labs is replaced by Astrometeorology Observatory",
+        "Council position": "[Prime Forecaster] Prime Forecaster[Astrometeorologist] +2% Astrometeorologist resource output",
+        "DLC": "[Cosmic Storms]"
+      }
+    },
+    {
+      "id": "Civil Education",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Civil Education]Civil EducationIn this empire, education has supplanted law enforcement. Through comprehensive preparation and strict course correction, they ensure that no individual is beyond the reach of learning. After all, there are no bad citizens - only bad educators.",
+        "Effects": "[Educator] Replaces Enforcer jobs with [Educator] Educator jobs; [Building state academy] Replaces Precinct Houses buildings with State Academy; [Building state academy] Start with a State Academy building",
+        "Council position": "[Head of Education] Head of Education[Upkeep] −0.5% Upkeep from jobs",
+        "Shroud attunement": "[The cradle of souls] Cradle of Souls",
+        "Requirements": "[No][Police State] Police State; [No][Oppressive Autocracy] Oppressive Autocracy",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Crowdsourcing",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Crowdsourcing]CrowdsourcingThis society has realized that individual inspiration is the root of true innovation. Open-source patents, open-mindedness, spontaneous collaborations and innovation bounties pave the way to progress.",
+        "Effects": "[Research] Factions produce research instead of unity; [Navbar icons factions] Factions will form within 3 months",
+        "Council position": "[Innovation Coordinator] Innovation Coordinator; [Research] +4% Faction resource output; [Mod pop government ethic attraction] −4% Governing ethics attraction",
+        "Shroud attunement": "[The cradle of souls] Cradle of Souls",
+        "Requirements": "[No] Any fanatic ethic; [No][Secret Societies][Influential Cartel] Secret Societies[Secret Societies] Secret Societies[Influential Cartel] Influential Cartel; [No][Parliamentary System] Parliamentary System; [No][Decentralized R&D] Decentralized R&D; [No][Civic media conglomerate] Media Conglomerate",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Genetic Identification",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Genetic Identification]Genetic IdentificationThis society requires every citizen to be registered from birth in a genetic index used in every level of bureaucracy.",
+        "Effects": "[Intel encryption] +1 Encryption; [Job criminal] −15% Crime; [Pop resource society research mult] +1.5 Society per 100 Bureaucrats",
+        "Council position": "[Indexor] Indexor; [Society research speed] +2% Biology research speed; [Upkeep] −1.5% Bureaucrat upkeep",
+        "Shroud attunement": "[The instrument of desire] Instrument of Desire",
+        "Requirements": "[No][Machine] Machine founder species; [No][Sequenced Securities] Sequenced Securities",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Entropy Drinkers",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Entropy Drinkers]Entropy DrinkersThis society drains valuable metabolism from idle population via parasitic psychic connections. Once properly collected, these energies can be redistributed to the more important classes.",
+        "Effects": "[No] Cannot be added until Psionic Theory is researched; [No] Cannot be removed; [Leader trait bg psionics][Leader trait psionic leader][Psychic] Leaders have the Psychic trait; [Menu icon edicts] Unlocks the Convergence of Will edict; [Menu icon edicts] Unlocks the Energy Drain edict; [Menu icon edicts] Unlocks the Sanguine Council edict; [Building lifecrypt 1] Can construct Leeching Tower buildings; [Building lifecrypt 1] Start with a Leeching Tower building; [Pop resource energy mult] +0.5 Energy per 100 Psionic pops; [Mod leader age] +50% Leader lifespan; [Mod leader influence cost] −50% Leader upkeep; [Mod pop resource output] −10% Resources from jobs; [Mod country all tech research speed] −10% Research speed; [Mod pop growth speed] −10% Pop growth speed; [Mod pop assembly speed] −10% Mechanical pop assembly speed; [Mind over Matter] −Cannot take ascension path perks except Mind Over Matter",
+        "Council position": "[Energy Curator] Energy Curator[Mod leader species exp gain] +3% Leader experience gain",
+        "Requirements": "[No][Egalitarian][Fanatic egalitarian] Egalitarian; [No][Civic memorialist] Memorialists; [No][Civic natural design] Natural Design; [No][Corporate Vampires] Corporate Vampires; [No][Augmentation Bazaars] Augmentation Bazaars; [No][Mindwardens] Mindwardens; [No][Origins unplugged] Hard Reset; [No][Origins overtuned] Overtuned; [No][Origins cybernetic creed] Cybernetic Creed; [No][Origin synthetic fertility] Synthetic Fertility; [No][Origin evolutionary predators] Evolutionary Predators; [No] Any non-psionic ascension path",
+        "DLC": "[Shadows of the Shroud]"
+      }
+    },
+    {
+      "id": "Experimental Sentencing",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Experimental Sentencing]Experimental SentencingJudicial processing and thirst for knowledge share a single solution in this society. Working in utmost secrecy, researchers conduct harsh experiments on test subjects drawn from the criminal underworld. The occasional fatality is the cost of progress.",
+        "Effects": "[Navbar icons situation] Start with the Experimental Testing situation; [Building experimentation chambers 1] Can construct Experimentation Chambers buildings; [Building carceral test facility] Can construct Experimentation Offices holdings; [Building experimentation chambers 1] Start with an Experimentation Chambers building; [Slavery] Unlocks Orderlies slavery type; [Army slave] Unlocks Abominations army; [Mod pop resource output] +20% Resources from Test Subjects from crime modifiers; [Mod pop resource output] +20% Resources from Experiment Engineers from crime modifiers; [Mod planet migration all pull] −15% Refugee attraction",
+        "Council position": "[Experimentation Overseer] Experimentation Overseer; [Job test subject] +2% Resources from Test Subjects; [Mod pop decline speed] −3% Test Subjects lost in the Experimental Testing situation",
+        "Requirements": "[Authoritarian][Fanatic authoritarian] Authoritarian or [Xenophobe][Fanatic xenophobe] Xenophobe; [No][Judicial R&D] Judicial R&D; [No][Machine] Machine founder species",
+        "DLC": "[Shadows of the Shroud]"
+      }
+    },
+    {
+      "id": "Corporate Dominion",
+      "section": "Standard civics",
+      "data": {
+        "Civic": "[Corporate Dominion]Corporate DominionThis society is dominated by a megacorporation that has completely supplanted the role of the state.",
+        "Effects": "[Leader pool size] +1 External recruitable leaders per class; [Ship] Can build private colony ships; [Tech space trading] Start with the Offworld Trade Companies technology; [Mercantile] Can use the Mercantile diplomatic stance (unless also [Inward Perfection] Inward Perfection)",
+        "Council position": "[Chief Trade Officer] Chief Trade Officer[Trade value] +2% Trade from jobs",
+        "Shroud attunement": "[The instrument of desire] Instrument of Desire",
+        "Requirements": "[Oligarchic] Oligarchic; [No][Xenophobe][Fanatic xenophobe] Xenophobe",
+        "DLC": "[No][MegaCorp]"
+      }
+    },
+    {
+      "id": "Inward Perfection",
+      "section": "Permanent civics",
+      "data": {
+        "Civic": "[Inward Perfection]Inward PerfectionThis calm and pacifist society has little use for strangers who do not understand their way of life. More than anything, they would prefer to be left alone.",
+        "Effects": "[No] Diplomatic restrictions; [Unity] +20% Monthly unity; [Mod pop growth speed] +10% Pop growth or assembly speed[Organic] [Mod pop growth speed] Pop growth speed[Machine] [Mod pop assembly speed] Mechanical pop assembly speed; [Happiness] +5% Citizen pop happiness; [Mod country edict cap add] +50 Edict fund; [Intel encryption] +1 Encryption; [Intel decryption] −1 Codebreaking; [Envoy] −1 Available envoys; [Mod planet migration all pull] −50% Refugee attraction; [No] Cannot use the Subjugation casus belli; [No] Cannot use the Minister of State council position; [Galactic Paragons] Start with the civic's council position unlocked; [No][Diplomatic rival mutual icon] Rivals [No][Diplomacy commercial pact] Commercial Pact [No][Diplomacy defensive pact] Defensive Pact [No][Diplomacy research agreement] Research Agreement [No][Diplomacy migration pact] Migration Treaty [No][Diplomacy guarantee] Guarantee Independence [No][Diplomacy federation] Federation [No][Spy network] Infiltrate pre-FTL civilizations; [No][Diplomatic rival mutual icon] Rivals; [No][Diplomacy commercial pact] Commercial Pact; [No][Diplomacy defensive pact] Defensive Pact; [No][Diplomacy research agreement] Research Agreement; [No][Diplomacy migration pact] Migration Treaty; [No][Diplomacy guarantee] Guarantee Independence; [No][Diplomacy federation] Federation; [No][Spy network] Infiltrate pre-FTL civilizations",
+        "Council position": "[Commander of the Watch] Commander of the Watch; [Damage] +3% Defense platform damage; [Health] +3% Defense platform hull points",
+        "Requirements": "[Pacifist][Fanatic pacifist] Pacifist; [Xenophobe][Fanatic xenophobe] Xenophobe; [No][Pompous Purists] Pompous Purists; [No][Eager Explorers] Eager Explorers[Eager Explorers] Eager Explorers[Privatized Exploration] Privatized Exploration; [No][Sovereign Guardianship][Corporate Protectorate] Sovereign Guardianship[Sovereign Guardianship] Sovereign Guardianship[Corporate Protectorate] Corporate Protectorate; [No][Origins common ground] Common Ground; [No][Origins hegemon] Hegemon; [No][Origins fear of the dark] Fear of the Dark"
+      }
+    },
+    {
+      "id": "Idyllic Bloom",
+      "section": "Permanent civics",
+      "data": {
+        "Civic": "[Idyllic Bloom]Idyllic BloomThis society has always spent much time on improving and caring for their environment, in pursuit of building a true paradise for its inhabitants.",
+        "Effects": "[Building gaiaseeders 1] Can construct Gaia Seeder buildings; [Building gaiaseeders 4] Can construct Gaia Seeder Outpost holdings; [Building gaiaseeders 1] Start with a Gaia Seeders - Phase 1 building; [No] Disabled by synthetic ascension special project",
+        "Council position": "[Bloom Herald] Bloom Herald; [Mod planet building cost mult] −5% Gaia Seeder build cost; [Upkeep] −5% Gaia Seeder upkeep",
+        "Shroud attunement": "[The composer of strands] Composer of Strands",
+        "Requirements": "Plantoid or Fungoid founder species; [No][Relentless Industrialists][Shareholder Values] Relentless Industrialists[Relentless Industrialists] Relentless Industrialists[Shareholder Values] Shareholder Values; [No][Planet Forgers][Planetary Architects] Planet Forgers[Planet Forgers] Planet Forgers[Planetary Architects] Planetary Architects; [No][Origins unplugged] Hard Reset; [No][Origin void dwellers] Void Dwellers; [No][Origin evolutionary predators] Evolutionary Predators; [No][Origin cosmic dawn] Cosmic Dawn; [No][Red Giant] Red Giant",
+        "DLC": "[DLC plantoids species pack]"
+      }
+    },
+    {
+      "id": "Fanatic Purifiers",
+      "section": "Permanent civics",
+      "data": {
+        "Civic": "[Fanatic Purifiers]Fanatic PurifiersThis society appears hellbent on scouring the galaxy of all other sapient life. Come what may, they will suffer no xenos to live.",
+        "Effects": "[Job purge] Genocidal against different species; [Intel level full] Civic always revealed regardless of Intel; [No] Cannot establish diplomatic pacts; [No] Cannot release sectors as subjects; [No] Cannot use the Galactic Market; [No] Cannot join the Galactic Community; [No] Cannot discover space fauna technologies; [Job purge] Pops that are not explicitly allowed will be purged and cannot be assimilated; [Diplomacy status casus belli holder] Total war casus belli enabled to and from empires whose founder species is not explicitly allowed; [Diplomacy opinion] −1000 Opinion to and from empires whose founder species is not explicitly allowed; [Grand Archive] If Grand Archive is also enabled gain Unity for unlocking 3, 5 and 9 exhibit slots from each specimen category; [Shadows of the Shroud] If Shadows of the Shroud is also enabled gain Attunement with [The eater of worlds] Eater of Worlds; [Galactic Paragons] If Galactic Paradons is also enabled and the empire is individualist start with the civic's council position unlocked; [Bombardment armageddon] Can use Armageddon Orbital Bombardment Policy; [Diplomatic stance withdrawn] Diplomatic Stance policy is locked to Purification; [Unity] +2 Unity per month per 100 pops in the purge strata; [Mod ship fire rate mult] +33% Fire rate; [Mod army damage mult] +33% Army damage; [Naval capacity] +33% Naval capacity; [Mod spaceport ship build cost mult] −15% Ship cost; [Diplomacy opinion] +200 Opinion with empires with the same species and civic; [No] Cannot use the Minister of State council position; [No] Cannot found enclaves",
+        "Council position": "[Minister of War Production] Minister of War Production[Alloys] +2% Monthly alloys",
+        "Shroud attunement": "[The eater of worlds] Eater of Worlds",
+        "Requirements": "[No][Origin default pre ftl] Origin restrictions; [Fanatic xenophobe] Fanatic Xenophobe; [Militarist] Militarist or [Spiritualist] Spiritualist; [No][Barbaric Despoilers] Barbaric Despoilers; [No][Pompous Purists] Pompous Purists; [No][Selective Kinship] Selective Kinship; [No][Crusader Spirit] Crusader Spirit; [No][Scorched World Heralds] Scorched World Heralds; [No][Sovereign Guardianship][Corporate Protectorate] Sovereign Guardianship[Sovereign Guardianship] Sovereign Guardianship[Corporate Protectorate] Corporate Protectorate; [No][Genesis Guides][Astrogenesis Technologies] Genesis Guides[Genesis Guides] Genesis Guides[Astrogenesis Technologies] Astrogenesis Technologies; [No][Origins syncretic evolution] Syncretic Evolution [No][Origins common ground] Common Ground [No][Origins hegemon] Hegemon [No][Origins toxic knights] Knights of the Toxic God [No][Origins broken shackles] Broken Shackles [No][Mindwardens] Mindwardens; [No][Origins syncretic evolution] Syncretic Evolution; [No][Origins common ground] Common Ground; [No][Origins hegemon] Hegemon; [No][Origins toxic knights] Knights of the Toxic God; [No][Origins broken shackles] Broken Shackles; [No][Mindwardens] Mindwardens",
+        "DLC": "[Utopia]"
+      }
+    },
+    {
+      "id": "Barbaric Despoilers",
+      "section": "Permanent civics",
+      "data": {
+        "Civic": "[Barbaric Despoilers]Barbaric DespoilersThis society holds few things sacred. To fight is to live, and the strongest may seize whatever they covet.",
+        "Effects": "[Diplomacy opinion] Reduced opinion from empires that don't have the civic; [Diplomacy status casus belli holder] Can use the Despoliation casus belli; [Raiding bombardment] Can use the Raiding orbital bombardment stance; [No][Diplomacy migration pact] Cannot form Migration Treaties; [No] Can only create [Federation military] Martial Alliance and [Federation hegemony] Hegemony federations; [Militarist][Fanatic militarist] −20 Opinion from militarist empires [Pacifist][Fanatic pacifist] −80 Opinion from pacifist empires [Authoritarian][Fanatic authoritarian] −40 Opinion from authoritarian empires that are neither pacifist nor militarist [Origins elder race][Fanatic xenophile] −40 Opinion from the Enigmatic Observers and Benevolent Interventionists [Diplomacy opinion] −50 Opinion from other empires; [Militarist][Fanatic militarist] −20 Opinion from militarist empires; [Pacifist][Fanatic pacifist] −80 Opinion from pacifist empires; [Authoritarian][Fanatic authoritarian] −40 Opinion from authoritarian empires that are neither pacifist nor militarist; [Origins elder race][Fanatic xenophile] −40 Opinion from the Enigmatic Observers and Benevolent Interventionists; [Diplomacy opinion] −50 Opinion from other empires; [Commander] Start with an additional commander; [Overlord][Shadows of the Shroud] +1 Enclave capacity; [Grand Archive] +1 Specimen from each category stolen when destroying a Galactic Archive",
+        "Council position": "[Labor Intendant] Labor Intendant[Empire sprawl] −2% Empire size from slaves",
+        "Shroud attunement": "[The eater of worlds] Eater of Worlds",
+        "Requirements": "[Militarist][Fanatic militarist] Militarist; [Authoritarian][Fanatic authoritarian] Authoritarian or [Xenophobe][Fanatic xenophobe] Xenophobe; [No][Xenophile][Fanatic xenophile] Xenophile; [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Scorched World Heralds] Scorched World Heralds; [No][Origins common ground] Common Ground; [No][Origins slavers] Your Ladder To The Sky",
+        "DLC": "[Apocalypse]"
+      }
+    },
+    {
+      "id": "Anglers",
+      "section": "Permanent civics",
+      "data": {
+        "Civic": "[Anglers]AnglersAdept at utilizing nature's bounty, this society provides for itself a stable influx of sustenance and economic value.",
+        "Effects": "[Aquatic] Founder species must have the Aquatic trait; [Max agriculture districts] No Agriculture District limit on Ocean Worlds; [Angler] Unlocks the Aquaculture specialization; [Tooltip zone] Can specialize Agriculture Districts without any technology on wet planets",
+        "Council position": "[Minister of the Seas] Minister of the Seas; [Food] +0.2 Food per 100 [Angler] Anglers; [Consumer goods] +0.2 Consumer goods per 100 [Pearl Diver] Pearl Divers",
+        "Shroud attunement": "[The composer of strands] Composer of Strands",
+        "Requirements": "[No][Machine] Machine founder species; [No][Tankbound][Corporate Thinktank] Tankbound[Tankbound] Tankbound[Corporate Thinktank] Corporate Thinktank; [No][Origins post apocalyptic] Post-Apocalyptic; [No][Origins shattered ring] Shattered Ring; [No][Origin void dwellers] Void Dwellers; [No][Planet molten] Volcanic World homeworld",
+        "DLC": "[Aquatics]"
+      }
+    },
+    {
+      "id": "Marine Machines",
+      "section": "Permanent civics",
+      "data": {
+        "Civic": "[Marine Machines]Marine MachinesThis mechanical society is engineered for seamless operation in diverse aquatic environments and excels in crafting unparalleled marine infrastructure to drive its economy.",
+        "Effects": "[Waterproof] Founder species must have the Waterproof trait; [Max agriculture districts] No Agriculture District limit on Ocean Worlds; [Angler] Unlocks the Aquaculture specialization; [Tooltip zone] Can specialize Agriculture Districts without any technology on wet planets",
+        "Council position": "[Minister of the Seas] Minister of the Seas; [Food] +0.2 Food per 100 [Angler] Anglers; [Consumer goods] +0.2 Consumer goods per 100 [Pearl Diver] Pearl Divers",
+        "Shroud attunement": "[The composer of strands] Composer of Strands",
+        "Requirements": "[Machine] Machine founder species; [No][Origins post apocalyptic] Radioactive Rovers; [No][Origins shattered ring] Shattered Ring; [No][Origin void dwellers] Voidforged; [No][Planet molten] Volcanic World homeworld",
+        "DLC": "[Aquatics]"
+      }
+    },
+    {
+      "id": "Oppressive Autocracy",
+      "section": "Permanent civics",
+      "data": {
+        "Civic": "[Oppressive Autocracy]Oppressive AutocracyOnly the elite of the elite deserve the best of the best. Everyone else is expected to provide for the ruling class and their lackeys.",
+        "Effects": "[Living standards] Must use the Dystopian Society living standard; [Enforcer] Enforcers and Telepaths are Elite instead of Specialist stratum; [Amenities] Only Elite stratum produces and consumes Amenities; [Building precinct house] Start with a Precinct Houses building; [No] Cannot construct Holo-Theatres; [Amenities] Only Elites and Enforcers produce and use amenities; [Commander] +1 Commander capacity; [Mod leader influence cost] −20% Leader upkeep; [Mod planet migration all pull] −25% Refugee attraction; [Job criminal] +1 Crime per 100 non-Elite pops",
+        "Council position": "[Primary Overseer] Primary Overseer; [Happiness] +1% Elite happiness; [Enforcer] +1% Job efficiency for Enforcers",
+        "Shroud attunement": "[The instrument of desire] Instrument of Desire",
+        "Requirements": "[Fanatic authoritarian] Fanatic Authoritarian; [No][Agrarian Idyll] Agrarian Idyll; [No][Environmentalist] Environmentalist; [No][Free Haven] Free Haven; [No][Warrior Culture] Warrior Culture; [No][Pleasure Seekers] Pleasure Seekers; [No][Civil Education] Civil Education",
+        "DLC": "[Galactic Paragons]"
+      }
+    },
+    {
+      "id": "Sovereign Guardianship",
+      "section": "Permanent civics",
+      "data": {
+        "Civic": "[Sovereign Guardianship]Sovereign GuardianshipThis collection of warring tribes has developed a historical preference for entrenched territories and defensive posturing. Now united, they are prepared to bring this philosophy to the stars, aiming to keep their borders solid and tensions low.",
+        "Effects": "[Army defense] Replaces Defense Armies with Fanatic Guardians; [Sb reloading bay] Can construct Reloading Bay starbase buildings; [Inner Focus] Can use the Inner Focus edict; [Unity] +1 Unity per 100 [Soldier] Soldiers; [Diplomatic weight] +20% Diplomatic weight; [Empire sprawl] −25% Empire size from pops; [Empire sprawl] −50% Empire size from districts; [Empire sprawl] +75% Empire size from planets; [Empire sprawl] +150% Empire size from systems; [MegaCorp] +100% Empire size from branch offices",
+        "Council position": "[First Citadel] First Citadel; [Mod army damage mult] +10% Defense army damage; [Health] +5% Starbase hull points; [Armor] +5% Starbase armor points; [Shield] +5% Shield hit points in friendly systems; [Mod ship fire rate mult] +5% Fire rate in friendly systems; [Tracking] +5% Accuracy in friendly systems",
+        "Shroud attunement": "[The cradle of souls] Cradle of Souls",
+        "Requirements": "[Militarist][Fanatic militarist] Militarist; [No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Scorched World Heralds] Scorched World Heralds; [No][Eager Explorers] Eager Explorers[Eager Explorers] Eager Explorers[Privatized Exploration] Privatized Exploration; [No][Corporate Protectorate] Corporate Protectorate; [No][Inward Perfection] Inward Perfection; [No][Reanimators] Reanimators; [No][Origins broken shackles] Broken Shackles; [No][Origins fear of the dark] Fear of the Dark; [No][Origins payback] Payback",
+        "DLC": "[Astral Planes]"
+      }
+    },
+    {
+      "id": "Natural Design",
+      "section": "Permanent civics",
+      "data": {
+        "Civic": "[Natural Design]Natural DesignThis society is adamant that nature has already created perfection in its people's genetic code. They have long devoted their medical and governmental services to the health and preservation of natural, untouched genome sequences.",
+        "Effects": "[Trait points] +2 Organic species trait points; [Trait picks] +2 Organic species trait picks; [Pop resource society research mult] +0.5 Society research per 100 Medical Workers; [Diplomacy opinion] −50 Opinion with ascended or Overtuned empires; [Building transcendental retreat] Can construct Genomic Services Outreach holdings; [Building transcendental retreat] Can construct Genomic Services Center buildings; [Building transcendental retreat] Start with a Genomic Services Center building; [No] −Cannot research genetic modification technologies; [No] −Cannot pick ascension path perks",
+        "Council position": "[Grand Genomicist] Grand Genomicist[Happiness] +2% Citizen pop happiness",
+        "Requirements": "[No][Machine] Machine founder species; [No][Genesis Guides][Astrogenesis Technologies] Genesis Guides[Genesis Guides] Genesis Guides[Astrogenesis Technologies] Astrogenesis Technologies; [No][Chosen][Chosen Executives] Chosen[Chosen] Chosen[Chosen Executives] Chosen Executives; [No][Entropy Drinkers][Corporate Vampires] Entropy Drinkers[Entropy Drinkers] Entropy Drinkers[Corporate Vampires] Corporate Vampires; [No][Origins unplugged] Hard Reset; [No][Clone Army] Clone Army; [No][Origins overtuned] Overtuned; [No][Origins teachers of the shroud] Teachers of the Shroud; [No][Origins cybernetic creed] Cybernetic Creed; [No][Origin synthetic fertility] Synthetic Fertility; [No][Origin evolutionary predators] Evolutionary Predators; [No][Origins endbringers] Endbringers",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Planetscapers",
+      "section": "Permanent civics",
+      "data": {
+        "Civic": "[Planetscapers]PlanetscapersAfter eons of carefully cultivating a perfect balance on their homeworld, this society is ready to tend to even the most inhospitable environments among the stars. At their core, these people believe nature can be shaped, controlled, and perfected. Not to tame, but in service of perfect beauty.",
+        "Effects": "[Mod planet clear blocker speed mult] +25% Clear blocker speed; [Mod pop resource output] +10% Resources from jobs; [Mod pop growth speed] +10% Pop growth speed; [Upkeep] −15% Pop upkeep; [Menu icon technology] Start with the technology to remove homeworld blockers; [Menu icon technology] Blocker removal technologies are guaranteed after colonization; [Cultivated Worldscaping] Enables the Cultivated Worldscaping decision; [No][Mastery of Nature] Cannot take the Mastery of Nature ascension perk; [Tile Blocker] Start with 2 natural blockers; [Mod pop resource output] −10% Resources from jobs on planet per natural blocker; [Mod pop growth speed] −10% Pop growth speed on planet per natural blocker; [Upkeep] +15% Pop upkeep on planet per natural blocker",
+        "Council position": "[First Planetscaper] First Planetscaper; [Mod planet clear blocker cost mult] −2% Clear blocker cost; [Pop cat worker] +1% Worker pop resource output",
+        "Shroud attunement": "[The instrument of desire] Instrument of Desire",
+        "Requirements": "[No][Geo-Engineering Inc.] Geo-Engineering Inc.; [No][Environmentalist] Environmentalist; [No][Relentless Industrialists][Shareholder Values] Relentless Industrialists[Relentless Industrialists] Relentless Industrialists[Shareholder Values] Shareholder Values; [No][Mutagenic Spas][Mutagenic Luxury] Mutagenic Spas[Mutagenic Spas] Mutagenic Spas[Mutagenic Luxury] Mutagenic Luxury[Lubrication Tanks] Lubrication Tanks[Luxury Lubrication Pools] Luxury Lubrication Pools; [No][Origins remnant] Remnants; [No][Origins unplugged] Hard Reset; [No][Origins post apocalyptic] Post-Apocalyptic[Origins post apocalyptic] Post-Apocalyptic[Origins post apocalyptic] Radioactive Rovers; [No][Calamitous Birth] Calamitous Birth; [No][Origins shattered ring] Shattered Ring; [No][Origin void dwellers] Void Dwellers[Origin void dwellers] Void Dwellers[Origin void dwellers] Voidforged; [No][Origins resource consolidation] Resource Consolidation",
+        "DLC": "[Cosmic Storms]"
+      }
+    },
+    {
+      "id": "Storm Devotion",
+      "section": "Permanent civics",
+      "data": {
+        "Civic": "[Storm Devotion]Storm DevotionEver since ancient times, this society has been able to attract tempests through their rituals. Over the years, they combined technical innovations to enhance their efficiency. With the dawn of the space age, they now seek to take this knowledge to the stars.",
+        "Effects": "[Building storm summoning theater] Can construct Storm Summoning Theater buildings; [Building storm summoning theater] Start with a Storm Summoning Theater building; [Storm Touched] Founder species has the Storm Touched trait; [Storm Dancer] Replaces Entertainer jobs with Storm Dancer jobs; [Diplomatic weight] +20% Diplomatic weight while capital is under a cosmic storm",
+        "Council position": "[Grand Herald of Storms] Grand Herald of Storms; [Upkeep] −5% Storm building upkeep; [Unknown] +5% Storm technology research chance",
+        "Shroud attunement": "[The composer of strands] Composer of Strands",
+        "Requirements": "[No][Origins unplugged] Hard Reset",
+        "DLC": "[Cosmic Storms]"
+      }
+    },
+    {
+      "id": "Beastmasters",
+      "section": "Permanent civics",
+      "data": {
+        "Civic": "[Beastmasters]BeastmastersComing to full, technological maturity in a system that serves as a feeding ground for Space Amoebas, this society has acquired a deep knowledge of their life cycle. They now work to nurture, raise, and ultimately clone these creatures for mutual benefit.",
+        "Effects": "[Yes] Start with Space Amoeba pacified; [Sb beastport] Can construct Beastport starbase modules; [Sb beastport] Starting Shipyard is replaced by a Beastport; [Menu icon technology] Ship stat technologies are replaced by space fauna stat technologies; [Menu icon technology] Start with all bio-integration technologies; [Gravity Snares] Start with the Gravity Snares technology; [Artificial Breeding] Start with the Artificial Breeding technology; [Amoeba Breeding Program] Flagella Weaponization technology starts as a permanent research option; [Regenerative Hull Tissue] Regenerative Hull Tissue technology starts as a permanent research option; [Ship category space amoeba] Starting corvettes are replaced with Space Amoebae; [Ship category space amoeba] Start with the Common Space Amoeba genetic material; [Cost] −15% Space fauna cost; [Upkeep] −10% Space fauna upkeep; [Mod spaceport ship build cost mult] +200% Artificial military ship build cost; [Mod ship upkeep mult] +200% Artificial military ship upkeep cost; [Unity] +12x unity output (+150~100 000) when finishing a Grand Archive",
+        "Council position": "[Beastlord] Beastlord; [Mod ship speed mult] +2% Space fauna sublight speed; [Damage] +3% Space Fauna damage",
+        "Shroud attunement": "[The composer of strands] Composer of Strands",
+        "Requirements": "[No][Eager Explorers] Eager Explorers[Eager Explorers] Eager Explorers[Privatized Exploration] Privatized Exploration; [No][Space Ranchers] Space Ranchers; [No][Origin cosmic dawn] Cosmic Dawn",
+        "DLC": "[Grand Archive]"
+      }
+    },
+    {
+      "id": "Galactic Curators",
+      "section": "Permanent civics",
+      "data": {
+        "Civic": "[Galactic Curators]Galactic CuratorsThe meticulous collection and preservation of historical artifacts has always fascinated this civilization. But now, with the mysteries of the galaxy at their doorstep, there is everything left to learn.",
+        "Effects": "[Menu icon edicts] Unlocks the Decentralized Research edict; [Job historical curator] Replaces Entertainer jobs with Museum Curator jobs; [Galactic Archivism] Start with the Galactic Archivism technology as a permanent research option; [Trade cat specimens] Start with 1 common artifact specimen from each category; [Trade cat specimens] Start with 1 exhibit slot from each category unlocked; [Trade cat specimens] +10% Specimens output; [Mod ship anomaly generation chance] +10% Anomaly discovery chance; [Alloys] −25% Grand Archive construction cost; [Energy Credits] −25% Curator Order costs; [Diplomacy opinion] +20 Opinion with the Curator Order; [Unity] +6x unity output (+100~100 000) Unity per obtained (not purchased) specimen; [Unity] +6x unity output (+100~100 000) Unity per excavated archaeological site; [Unity] +12x unity output (+150~100 000) when finishing a Grand Archive; [Unity] −10% Unity from jobs",
+        "Council position": "[Supreme Curator] Supreme Curator[Job historical curator] +1% Job efficiency for Museum Curators",
+        "Shroud attunement": "[The instrument of desire] Instrument of Desire",
+        "Requirements": "[No][Antiquarian Expertise] Antiquarian Expertise",
+        "DLC": "[Grand Archive]"
+      }
+    },
+    {
+      "id": "Chosen",
+      "section": "Permanent civics",
+      "data": {
+        "Civic": "[Chosen]ChosenInfluenced by the Shroud in their early history, this society is bound to a pact of patronage with a powerful entity.",
+        "Effects": "[Yes] Start with the Shroud tab unlocked; [Tech psionic aura] Start with the Psionic Aura technology; [Envoy action patron attunement] On day 2 choose a Major Patron to contact and gain 300 attunement with; [Unity] Gain unity scaling with attunement; [System psionic aura icon] +10 Psionic aura intensity gain; [Unity] +0.01% Unity from jobs per attunement; [Unity] +250–1000000 Unity when first delving into the Shroud; [Zro] +100–1000 Zro when first delving into the Shroud; [No] Cannot choose to reject all covenants; [Mind over Matter] −Cannot take ascension path perks except Mind Over Matter; [Whisperers in the void] −Forming a covenant with Whisperers in the Void removes the civic",
+        "Council position": "[Shroudspeaker] Shroudspeaker[Bureaucrat] +1% Resources from Bureaucrats",
+        "Shroud attunement": "[The composer of strands][The cradle of souls][The eater of worlds][The instrument of desire] Choice",
+        "Requirements": "[Spiritualist][Fanatic spiritualist] Spiritualist; [No][Death Cult][Corporate Death Cult] Death Cult[Death Cult] Death Cult[Corporate Death Cult] Corporate Death Cult; [No][Chosen Executives] Chosen Executives; [No][Imperial Cult] Imperial Cult; [No][Civic natural design] Natural Design; [No][Augmentation Bazaars] Augmentation Bazaars; [No][Origins unplugged] Hard Reset; [No][Origins cybernetic creed] Cybernetic Creed; [No][Origin synthetic fertility] Synthetic Fertility; [No][Origin evolutionary predators] Evolutionary Predators; [No][Origins endbringers] Endbringers; [No][Mindwardens] Mindwardens",
+        "DLC": "[Shadows of the Shroud]"
+      }
+    },
+    {
+      "id": "Secret Societies",
+      "section": "Permanent civics",
+      "data": {
+        "Civic": "[Secret Societies]Secret SocietiesA cabal of elite and secretive figures weave complicated political threads behind the scenes of this society, entwining internal affairs with those of other worlds.",
+        "Effects": "[Navbar icons factions] Unlocks secret societies; [Diplomacy war] Unlocks the Start Proxy War diplomatic action; [Firstcontact map icon] Start with a first contact with 2 empires if they exist; [Intel encryption] +1 Encryption; [Envoy] +1 Available envoys; [Mod country claim influence cost] −25% Proxy war influence cost; [Mod country claim influence cost] −50% Operation cost; [Unity] +0.5 Unity per 100 Bureaucrats per active proxy war; [Spy network] +40 Infiltration after first contact",
+        "Council position": "[Conspirator Liaison] Conspirator Liaison; [Intel] +1 Base intel level; [Diplomatic weight] +1% Diplomatic weight; [Time] +2.5% Operation speed",
+        "Requirements": "[No][Fanatic Purifiers] Genocidal[Fanatic Purifiers] Fanatic Purifiers[Scorched World Heralds] Scorched World Heralds; [No][Crowdsourcing][Decentralized R&D] Crowdsourcing[Crowdsourcing] Crowdsourcing[Decentralized R&D] Decentralized R&D; [No][Parliamentary System] Parliamentary System; [No][Influential Cartel] Influential Cartel; [No][Origins unplugged] Hard Reset; [No][Origins broken shackles] Broken Shackles; [No][Origins cybernetic creed] Cybernetic Creed",
+        "DLC": "[Shadows of the Shroud]"
+      }
+    },
+    {
+      "id": "Superstitious Beliefs",
+      "section": "Permanent civics",
+      "data": {
+        "Civic": "[Superstitious Beliefs]Superstitious BeliefsThis society claims to have discovered a ritualistic mechanism to predict the future, leveraging esoteric pattern recognition and cyclical anomaly analysis. Proper ceremonies must be performed before every major decision to harmonize with the unseen forces that shape their destiny.",
+        "Effects": "[Job superstitious beliefs priest] Replaces Priest jobs with Spirit Medium jobs; [Job superstitious beliefs priest] Replaces High Priest jobs with High Astrologist jobs; [Menu icon edicts] Unlocks the Galactic Dowsing edict; [Mod cycle of knowledge] Enables cycle modifiers and cycle change events",
+        "Council position": "[Chief Medium] Chief Medium; [Mod council agenda progress speed] +1.3% Council agenda speed; [Upkeep] −3.13% Bureaucrat upkeep; [Unknown] −13% Negative cycle effects",
+        "Requirements": "[Spiritualist][Fanatic spiritualist] Spiritualist; [No][Fortune Enterprise] Fortune Enterprise; [No][Origins cybernetic creed] Cybernetic Creed",
+        "DLC": "[Shadows of the Shroud]"
+      }
+    },
+    {
+      "id": "Tankbound",
+      "section": "Permanent civics",
+      "data": {
+        "Civic": "[Tankbound]TankboundThis society's members live out their existences suspended in vats of specialized bio-fluids. As such, they are heavily reliant on assistive equipment and incapable of engaging directly in physical work.",
+        "Effects": "[Tankbound] Founder species has the Tankbound trait; [Pop cat worker] Worker jobs from districts are automated; [Colonist] Colonist jobs have the Specialist stratum; [Assembly Patterns] Start with the Assembly Patterns technology as a permanent research option; [Job production overseer] Urban districts produce Production Overseer jobs; [Upkeep] −25% Upkeep for automated workforce; [Icon pop] −2000 Starting pops; [Mod pop bonus workforce mult] +10% Automation efficiency from [Assembly Patterns] Assembly Patterns tech; [Mod pop bonus workforce mult] +10% Automation efficiency from [Tech construction templates] Construction Templates tech; [No][Agriculture District] Homeworld does not start with Agriculture Districts",
+        "Council position": "[Grand Vessel] Grand Vessel[Mod pop resource output] +1% Automated workforce efficiency",
+        "Requirements": "[Psionic aquatic 2][Necroids 09][Toxic 13][Infernal 04] Tank vessel species; [No][Slaver Guilds] Slaver Guilds[Slaver Guilds] Slaver Guilds[Indentured Assets] Indentured Assets; [No][Anglers][Trawling Operations] Anglers[Anglers] Anglers[Trawling Operations] Trawling Operations[Marine Machines] Marine Machines[Maritime Robotics] Maritime Robotics; [No][Agrarian Idyll] Agrarian Idyll; [No][Citizen Service] Citizen Service; [No][Mining Guilds] Mining Guilds; [No][Private Military Companies] Private Military Companies; [No][Origins syncretic evolution] Syncretic Evolution; [No][Origins unplugged] Hard Reset; [No][Clone Army] Clone Army; [No][Origins toxic knights] Knights of the Toxic God; [No][Origins broken shackles] Broken Shackles; [No][Origins payback] Payback; [No][Origins primal calling] Primal Calling",
+        "DLC": "[Shadows of the Shroud]"
+      }
+    },
+    {
+      "id": "Fire Cult",
+      "section": "Permanent civics",
+      "data": {
+        "Civic": "[Fire Cult]Fire CultForged by generations of extreme hardship, this society believes in survival through unity, and unity through survival. Only fire-born struggle can bind them tightly enough to endure a cold, uncaring galaxy.",
+        "Effects": "[Unity] +5% Unity from jobs per habitability below 100%; [Faction icons fire cult] The Scourge of the Volcano faction will form within a month; [Faction icons fire cult] The Scourge of the Volcano faction replaces the Traditionalist faction; [fire dancer] Replaces Priest jobs with Fire Dancer jobs; [fire oracle] Replaces Politican jobs with Fire Oracle jobs on planets with less than 50% Habitability; [Army ember legion] Can recruit Ember Legion armies on planets with less than −20% Habitability; [Decision molten planet] Unlocks the Blazing Scourge decision; [Deep Crust Engineering] Start with the Deep Crust Engineering technology researched; Synergizes with certain civics, giving Fire Dancers and/or Fire Oracles extra productions.",
+        "Council position": "[Pyromanic Priest] Pyromanic Priest[Upkeep] −2% Pop upkeep",
+        "Requirements": "[Spiritualist][Fanatic spiritualist] Spiritualist; [No][Aquatic] Aquatic founder species; [No][Origins ocean paradise] Ocean Paradise; [No][Origins cybernetic creed] Cybernetic Creed",
+        "DLC": "[Infernals]"
+      }
+    },
+    {
+      "id": "Galvanic Synthesis",
+      "section": "Permanent civics",
+      "data": {
+        "Civic": "[Galvanic Synthesis]Galvanic SynthesisThis society is able to synthesize regular alloys into Living Metal, and molds its strength and shape-changing properties directly into their technology.",
+        "Effects": "[Mod planet building cost mult] +75% Planetary infrastructure refund; [Living Metal] Start with the Living Metal technology researched; [D station reactor] Homeworld has a Living Metal Sediment planetary feature; [Menu icon edicts] Unlocks the Centrifugal Siphoning and Modular Growth Components edicts; [Ship part lm armor 1] Unlocks regenerative versions of armor components; [Ship part lm accelerator] Kinetic Artillery tech unlocks the Reshaping Projectile Accelerator component; [Decision distribute living metal] Unlocks the Distribute Living Metal decision; [Army robotic] Unlocks Mimetic Strike Force armies; [Building offworld expedition hub] Unlocks Offworld Expedition Hub buildings; [No][Synthetic Evolution] Cannot take the Synthetic Evolution ascension perk",
+        "Council position": "[Mimetic Overseer] Mimetic Overseer; [Pop resource engineering research mult] +1% Engineering from jobs; [Pop resource physics research mult] +1% Physics from jobs",
+        "Requirements": "[Thermophile] Thermophile founder species; [No][Biometallic Cartel] Biometallic Cartel; [No][Origin synthetic fertility] Synthetic Fertility",
+        "DLC": "[Infernals]"
+      }
+    },
+    {
+      "id": "Planet Forgers",
+      "section": "Permanent civics",
+      "data": {
+        "Civic": "[Planet Forgers]Planet ForgersThis society thrives in volcanic environments, and will even create them artificially when nature falls short.",
+        "Effects": "[Max districts] +3 Max districts on Volcanic worlds; [Mod habitability] +20% Volcanic world habitability; [Planet molten] Cold planets are replaced by Volcanic worlds at homeworld selection; [Tech volcanic forge] Start with the Volcanic Forge technology as a permanent research option; [Trait pc dry preference] Guaranteed habitable worlds will be Dry worlds unless an origin changes them",
+        "Council position": "[Thermal Engineer] Thermal Engineer; [Engineering research speed] +2% Industry research speed; [Upkeep] −2% Termotechnic Mentor upkeep",
+        "Requirements": "[No] Biological shipset; [No][Relentless Industrialists][Shareholder Values] Relentless Industrialists[Relentless Industrialists] Relentless Industrialists[Shareholder Values] Shareholder Values; [No][Idyllic Bloom] Idyllic Bloom; [No][Origins life seeded] Life-Seeded; [No][Origins ocean paradise] Ocean Paradise; [No][Aquatic] Aquatic founder species",
+        "DLC": "[Infernals]"
+      }
+    },
+    {
+      "id": "Scorched World Heralds",
+      "section": "Permanent civics",
+      "data": {
+        "Civic": "[Scorched World Heralds]Scorched World HeraldsHeat permeates every facet of this society's culture, from traditions and rituals to technology itself. They see themselves as the galaxy's rightful fiery supremacists, viewing weaker species as mere obstacles on the path to an ideal universe, fit only for Thermophiles.",
+        "Effects": "[Job purge] Genocidal against different species classes; [Intel level full] Civic always revealed regardless of Intel; [No] Cannot establish diplomatic pacts; [No] Cannot release sectors as subjects; [No] Cannot use the Galactic Market; [No] Cannot join the Galactic Community; [No] Cannot discover space fauna technologies; [Job purge] Pops that are not explicitly allowed will be purged and cannot be assimilated; [Diplomacy status casus belli holder] Total war casus belli enabled to and from empires whose founder species is not explicitly allowed; [Diplomacy opinion] −1000 Opinion to and from empires whose founder species is not explicitly allowed; [Grand Archive] If Grand Archive is also enabled gain Unity for unlocking 3, 5 and 9 exhibit slots from each specimen category; [Shadows of the Shroud] If Shadows of the Shroud is also enabled gain Attunement with [The eater of worlds] Eater of Worlds; [Galactic Paragons] If Galactic Paradons is also enabled and the empire is individualist start with the civic's council position unlocked; [Diplomatic stance devastators] Diplomatic Stance policy is locked to Devastators; [Bombardment firestorm] Can use Devastation Orbital Bombardment Policy; [Unity] Firestorm bombardment generates Unity that scales with fleet's size; [Naval capacity] +50% Naval capacity; [Materials research speed] +50% Materials research speed; [Mod ship damage mult] +15% Ship weapons range; [Mod ship build speed mult] +15% Ship build speed; [Armor] +15% Armor hit points; [Mod army health] +40% Army health; [Diplomacy opinion] +100 Opinion with same species class",
+        "Council position": "[Prime Scorcher] Prime Scorcher[Mod country war exhaustion] −2% War exhaustion gain",
+        "Requirements": "[No][Origin default pre ftl] Origin restrictions; [Thermophile] Thermophile founder species; [Xenophobe][Fanatic xenophobe] Xenophobe; [No][Pacifist][Fanatic pacifist] Pacifist; [No][Barbaric Despoilers] Barbaric Despoilers; [No][Fanatic Purifiers] Fanatic Purifiers; [No][Pompous Purists] Pompous Purists; [No][Selective Kinship] Selective Kinship; [No][Crusader Spirit] Crusader Spirit; [No][Sovereign Guardianship][Corporate Protectorate] Sovereign Guardianship[Sovereign Guardianship] Sovereign Guardianship[Corporate Protectorate] Corporate Protectorate; [No][Genesis Guides][Astrogenesis Technologies] Genesis Guides[Genesis Guides] Genesis Guides[Astrogenesis Technologies] Astrogenesis Technologies; [No][Origins syncretic evolution] Syncretic Evolution [No][Origins common ground] Common Ground [No][Origins hegemon] Hegemon [No][Origins scion 1] Scion [No][Origins toxic knights] Knights of the Toxic God [No][Origins broken shackles] Broken Shackles [No][Mindwardens] Mindwardens; [No][Origins syncretic evolution] Syncretic Evolution; [No][Origins common ground] Common Ground; [No][Origins hegemon] Hegemon; [No][Origins scion 1] Scion; [No][Origins toxic knights] Knights of the Toxic God; [No][Origins broken shackles] Broken Shackles; [No][Mindwardens] Mindwardens",
+        "DLC": "[Infernals]"
+      }
+    },
+    {
+      "id": "Divine Sovereign",
+      "section": "Sovereign civics",
+      "data": {
+        "Civic": "[Divine Sovereign]Divine SovereignThis society has appointed the Chosen One - an individual endowed with unparalleled psionic might - as their eternal ruler.",
+        "Effects": "[Mod unity produces mult] +10% Monthly unity; [Mod pop government ethic attraction] +25% Governing ethics attraction; [Unknown] Civic disabled if the Chosen leader is killed or authority is not [Imperial] Imperial",
+        "Council position": "[Divine Conduit] Divine Conduit[Mod planet psionic jobs produces mult] +1% Job efficiency for Psionic from [Telepath] Telepaths",
+        "Requirements": "A Divine Sovereign event; [Leader trait bg psionics][Leader trait psionic chosen one][Chosen One] Chosen leader trait[Leader trait bg psionics][Leader trait psionic chosen one][Chosen One] Chosen One[Leader trait bg psionics][Leader trait composer chosen][Chosen of the Composer] Chosen of the Composer[Leader trait bg psionics][Leader trait eater chosen][Chosen of the Eater] Chosen of the Eater[Leader trait bg psionics][Leader trait instrument chosen][Chosen of the Instrument] Chosen of the Instrument[Leader trait bg psionics][Leader trait cradle chosen][Chosen of the Cradle] Chosen of the Cradle[Leader trait bg psionics][Leader trait whisperers chosen][Chosen of the Whisperers] Chosen of the Whisperers[Leader trait bg psionics][Leader trait shroudshaper][Shroudshaper] Shroudshaper[Leader trait bg basic][Leader trait overlay destiny][Leader trait psionic leader][Leader trait overlay councilor][The Passenger] The Passenger",
+        "DLC": "[Utopia]; [Galactic Paragons]; [Shadows of the Shroud]"
+      }
+    },
+    {
+      "id": "Galactic Sovereign",
+      "section": "Sovereign civics",
+      "data": {
+        "Civic": "[Galactic Sovereign]Galactic SovereignThis society has achieved mastery over much of the galaxy, serving as the current rulers of the Galactic Imperium.",
+        "Effects": "[Monthly influence] +6 Monthly influence; [Envoy] +1 Available envoys; [Diplomatic weight] +40% Diplomatic weight; [Resolution imperial institutions] Can propose the Imperial Charter and Revoke Charter resolutions",
+        "Council position": "[Watcher of the Imperium] Watcher of the Imperium; [Intel] +2.5 Base intel level; [Spy network] +2% Infiltration speed",
+        "Requirements": "[Proclaim the Galactic Imperium] Proclaim the Galactic Imperium resolution; [No][Corporate] Empire had Corporate authority when the resolution passed",
+        "DLC": "[Nemesis]"
+      }
+    },
+    {
+      "id": "Corporate Sovereign",
+      "section": "Sovereign civics",
+      "data": {
+        "Civic": "[Corporate Sovereign]Corporate SovereignThis Megacorporation has achieved mastery over much of the galaxy, serving as the current corporate rulers of the Galactic Imperium.",
+        "Effects": "[Monthly influence] +6 Monthly influence; [Envoy] +1 Available envoys; [Diplomatic weight] +40% Diplomatic weight; [Building imperial concession port] Can build Imperial Concession Port holdings; [Yes] Can open branch offices on the worlds of members of the Galactic Imperium; [Yes] Can reform government with both standard and corporate civics; [Executive] Replaces Politician jobs with Executive jobs",
+        "Council position": "[Watcher of the Imperium] Watcher of the Imperium; [Intel] +2.5 Base intel level; [Spy network] +2% Infiltration speed",
+        "Requirements": "[Proclaim the Galactic Imperium] Proclaim the Galactic Imperium resolution; [Corporate] Empire had Corporate authority when the resolution passed",
+        "DLC": "[Nemesis]"
+      }
+    },
+    {
+      "id": "Great Khan's Legacy",
+      "section": "Unselectable civics",
+      "data": {
+        "Civic": "[Civic warrior culture] Great Khan's Legacy",
+        "Effects": "[Mod ship fire rate mult] +10% Fire rate",
+        "Requirements": "[Apocalypse] New Khanate"
+      }
+    },
+    {
+      "id": "Diadochus",
+      "section": "Unselectable civics",
+      "data": {
+        "Civic": "[Civic warrior culture] Diadochus",
+        "Effects": "[Naval capacity] +15% Naval capacity",
+        "Requirements": "[Apocalypse] Diadochus"
+      }
+    },
+    {
+      "id": "Life-Seeded",
+      "section": "Unselectable civics",
+      "data": {
+        "Civic": "[Civic life seeded] Life-Seeded",
+        "Effects": "[Building gaiaseeders 1] Can construct Gaia Seeder buildings",
+        "Requirements": "[First Contact] Habinte Unified Worlds"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Pre-FTL civics",
+      "data": {
+        "Ages": "[Stone Age] Stone Age; [Bronze Age] Bronze Age",
+        "Civics": "[Civic revanchist fervor] Secret of Fire; [Civic agrarian idyll] The Wheel"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Pre-FTL civics",
+      "data": {
+        "Ages": "[Iron Age] Iron Age; [Late Medieval Age] Late Medieval Age; [Renaissance Age] Renaissance Age; [Steam Age] Steam Age",
+        "Civics": "[Civic agrarian idyll] Flat World Theory; [Civic aristocratic elite] Landed Nobility"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Pre-FTL civics",
+      "data": {
+        "Ages": "[Industrial Age] Industrial Age; [Machine Age] Machine Age; [Atomic Age] Atomic Age; [Early Space Age] Early Space Age",
+        "Civics": "[Civic relentless industrialists] Atmospheric Pollution; [Civic byzantine bureaucracy] Increasing Urbanization"
+      }
+    },
+    {
+      "id": "Lethargic Leadership",
+      "section": "Fallen empire civics",
+      "data": {
+        "Civic": "[Civic lethargic leadership] Lethargic Leadership",
+        "Effects": "[Influence] −1 Monthly Influence; [No] Can't construct new ships",
+        "Type": "Dormant"
+      }
+    },
+    {
+      "id": "Empire In Decline",
+      "section": "Fallen empire civics",
+      "data": {
+        "Civic": "[Civic empire in decline] Empire In Decline",
+        "Effects": "[No] Can't conquer or colonize planets",
+        "Type": "Dormant"
+      }
+    },
+    {
+      "id": "Revanchist Fervor",
+      "section": "Fallen empire civics",
+      "data": {
+        "Civic": "[Civic revanchist fervor] Revanchist Fervor",
+        "Effects": "[Influence] +1 Monthly Influence; [Mod pop bonus workforce mult] +500% Automated Workforce Efficiency",
+        "Type": "Awakened"
+      }
+    },
+    {
+      "id": "Ancient Caches of Technology",
+      "section": "Fallen empire civics",
+      "data": {
+        "Civic": "[Civic ancient caches of technology] Ancient Caches of Technology",
+        "Effects": "[Mod pop resource output] +50% Resources from Jobs",
+        "Type": "Awakened"
+      }
+    },
+    {
+      "id": "Ancient Preservers",
+      "section": "Enclave civics",
+      "data": {
+        "Civic": "[Civic curators] Ancient Preservers",
+        "Enclave": "Curator Order"
+      }
+    },
+    {
+      "id": "Artist Collective",
+      "section": "Enclave civics",
+      "data": {
+        "Civic": "[Civic inward perfection] Artist Collective",
+        "Enclave": "Artisan Troupe"
+      }
+    },
+    {
+      "id": "Trading Conglomerate",
+      "section": "Enclave civics",
+      "data": {
+        "Civic": "[Civic corporate dominion] Trading Conglomerate",
+        "Enclave": "Trader Enclave"
+      }
+    },
+    {
+      "id": "Salvager Enclave",
+      "section": "Enclave civics",
+      "data": {
+        "Civic": "[Civic salvagers] Salvager Enclave",
+        "Enclave": "Salvager Enclave"
+      }
+    },
+    {
+      "id": "Shroudwalker Enclave",
+      "section": "Enclave civics",
+      "data": {
+        "Civic": "[Civic shroudwalkers] Shroudwalker Enclave",
+        "Enclave": "Shroudwalker Enclave"
+      }
+    },
+    {
+      "id": "Mercenary Enclave",
+      "section": "Enclave civics",
+      "data": {
+        "Civic": "[Civic mercenaries] Mercenary Enclave",
+        "Effects": "[Mod ship hull regen] +5% Daily hull regen; [Mod ship hull regen] +5% Daily armor regen; [Mod ship speed mult] +25% Sublight speed; [Mod spaceport ship build cost mult] −25% Ship build cost; [Mod ship build speed mult] +25% Ship build speed",
+        "Enclave": "Mercenary Enclave"
+      }
+    },
+    {
+      "id": "Mindwarden Enclave",
+      "section": "Enclave civics",
+      "data": {
+        "Civic": "[Civic mindwarden enclave] Mindwarden Enclave",
+        "Enclave": "Mindwarden Enclave"
+      }
+    }
+  ]
+}

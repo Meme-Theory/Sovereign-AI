@@ -1,0 +1,403 @@
+{
+  "category": "armies",
+  "source": "Stellaris Wiki (4.x)",
+  "extracted": "2026-04-12",
+  "count": 37,
+  "items": [
+    {
+      "id": "Defense Army",
+      "section": "Defense armies",
+      "data": {
+        "Damage": "2.25-4.50",
+        "Health": 250,
+        "Morale": 250,
+        "Requirements": "Biological pops; No Wilderness"
+      }
+    },
+    {
+      "id": "Presapient Herd",
+      "section": "Defense armies",
+      "data": {
+        "Damage": "2.25-4.50",
+        "Health": 250,
+        "Morale": 250,
+        "Requirements": "Wilderness origin"
+      }
+    },
+    {
+      "id": "Robotic Defense Army",
+      "section": "Defense armies",
+      "data": {
+        "Damage": "1.50-3.00",
+        "Health": 250,
+        "Morale": "Immune",
+        "Requirements": "Mechanical pops"
+      }
+    },
+    {
+      "id": "Defense Android Army",
+      "section": "Defense armies",
+      "data": {
+        "Damage": "1.65-3.30",
+        "Health": 250,
+        "Morale": "Immune",
+        "Requirements": "Individualist Machine pops"
+      }
+    },
+    {
+      "id": "Drone Grid",
+      "section": "Defense armies",
+      "data": {
+        "Damage": "1.65-3.30",
+        "Health": 220,
+        "Morale": "Immune",
+        "Requirements": "Machine Intelligence"
+      }
+    },
+    {
+      "id": "Undead Defense Army",
+      "section": "Defense armies",
+      "data": {
+        "Damage": "2.25-4.50",
+        "Health": 350,
+        "Morale": "Immune",
+        "Requirements": "Necromancer jobs present"
+      }
+    },
+    {
+      "id": "Offspring-Led Army",
+      "section": "Defense armies",
+      "data": {
+        "Damage": "2.62-5.25",
+        "Health": 400,
+        "Morale": "Immune",
+        "Requirements": "Offspring Drone jobs present"
+      }
+    },
+    {
+      "id": "Fanatic Guardians",
+      "section": "Defense armies",
+      "data": {
+        "Damage": "4.50-9.00",
+        "Health": 500,
+        "Morale": 500,
+        "Requirements": "Sovereign Guardianship civic"
+      }
+    },
+    {
+      "id": "Matrix Unit",
+      "section": "Defense armies",
+      "data": {
+        "Damage": "3.30-6.60",
+        "Health": 440,
+        "Morale": "Immune",
+        "Requirements": "Gestalt Sovereign Guardianship"
+      }
+    },
+    {
+      "id": "Sentinels",
+      "section": "Defense armies",
+      "data": {
+        "Damage": "6.00-12.00",
+        "Health": 1400,
+        "Morale": "Immune",
+        "Requirements": "Archaeological site"
+      }
+    },
+    {
+      "id": "Titanic Guardian",
+      "section": "Defense armies",
+      "data": {
+        "Damage": "3.00-6.00",
+        "Health": 1000,
+        "Morale": 600,
+        "Requirements": "Titanic Lifeforms event"
+      }
+    },
+    {
+      "id": "Assault Army",
+      "section": "Assault armies",
+      "data": {
+        "Cost": "Minerals 100",
+        "Time": 90,
+        "Upkeep": "Energy 1",
+        "Damage": "1.50-3.00",
+        "Species": "Biological"
+      }
+    },
+    {
+      "id": "Slave Army",
+      "section": "Assault armies",
+      "data": {
+        "Cost": "Minerals 50",
+        "Time": 60,
+        "Upkeep": "Energy 0.5",
+        "Damage": "1.50-3.00",
+        "Species": "Biological (enslaved)"
+      }
+    },
+    {
+      "id": "Clone Army",
+      "section": "Assault armies",
+      "data": {
+        "Cost": "Minerals 75",
+        "Time": 30,
+        "Upkeep": "Energy 0.75",
+        "Damage": "1.50-3.00",
+        "Species": "Biological",
+        "Requirements": "Gene Banks"
+      }
+    },
+    {
+      "id": "Robotic Assault Army",
+      "section": "Assault armies",
+      "data": {
+        "Cost": "Minerals 150",
+        "Time": 90,
+        "Upkeep": "Energy 1.5",
+        "Damage": "1.50-3.00",
+        "Species": "Mechanical"
+      }
+    },
+    {
+      "id": "Psionic Army",
+      "section": "Assault armies",
+      "data": {
+        "Cost": "Minerals 250",
+        "Time": 120,
+        "Upkeep": "Energy 2.5",
+        "Damage": "3.00-6.00",
+        "Species": "Biological (Psionic)",
+        "Requirements": "Telepathy tech"
+      }
+    },
+    {
+      "id": "Xenomorph Army",
+      "section": "Assault armies",
+      "data": {
+        "Cost": "Minerals 200",
+        "Time": 100,
+        "Upkeep": "Energy 2",
+        "Damage": "3.00-6.00",
+        "Species": "None",
+        "Requirements": "Morphogenetic Field Mastery"
+      }
+    },
+    {
+      "id": "Gene Warrior Army",
+      "section": "Assault armies",
+      "data": {
+        "Cost": "Minerals 300",
+        "Time": 150,
+        "Upkeep": "Energy 3",
+        "Damage": "3.00-6.00",
+        "Species": "Biological",
+        "Requirements": "Gene Seed Purification"
+      }
+    },
+    {
+      "id": "Titanic Beast",
+      "section": "Assault armies",
+      "data": {
+        "Cost": "Minerals 300",
+        "Time": 90,
+        "Upkeep": "Energy 1",
+        "Damage": "4.50-9.00",
+        "Species": "None",
+        "Requirements": "Titanic Lifeforms; Max 3"
+      }
+    },
+    {
+      "id": "Azizian Army",
+      "section": "Assault armies",
+      "data": {
+        "Cost": "Minerals 250; Energy 50",
+        "Time": 90,
+        "Upkeep": "Energy 1",
+        "Damage": "4.50-9.00",
+        "Species": "None",
+        "DLC": "Distant Stars"
+      }
+    },
+    {
+      "id": "Cybrex Warform",
+      "section": "Assault armies",
+      "data": {
+        "Cost": "Alloys 250",
+        "Time": 500,
+        "Upkeep": "Energy 8",
+        "Damage": "7.50-15.00",
+        "Species": "None",
+        "DLC": "Ancient Relics"
+      }
+    },
+    {
+      "id": "Undead Army",
+      "section": "Assault armies",
+      "data": {
+        "Cost": "Energy 100",
+        "Time": 60,
+        "Upkeep": "Energy 0.75",
+        "Damage": "1.50-3.00",
+        "Species": "Biological",
+        "DLC": "Necroids"
+      }
+    },
+    {
+      "id": "Imperial Legion",
+      "section": "Assault armies",
+      "data": {
+        "Cost": "Minerals 300",
+        "Time": 150,
+        "Upkeep": "Energy 3",
+        "Damage": "3.75-7.50",
+        "Requirements": "Galactic Emperor",
+        "DLC": "Nemesis"
+      }
+    },
+    {
+      "id": "Flamestorm Troopers",
+      "section": "Assault armies",
+      "data": {
+        "Cost": "Astral threads 100",
+        "Time": 150,
+        "Upkeep": "Energy 3",
+        "Damage": "3.00-6.00",
+        "DLC": "Astral Planes"
+      }
+    },
+    {
+      "id": "Warplings",
+      "section": "Assault armies",
+      "data": {
+        "Cost": "Astral threads 100",
+        "Time": 100,
+        "Upkeep": "Energy 1; Astral threads 0.1",
+        "Damage": "7.50-15.00",
+        "DLC": "Astral Planes"
+      }
+    },
+    {
+      "id": "Perfected Clone Army",
+      "section": "Assault armies",
+      "data": {
+        "Cost": "Minerals 75",
+        "Time": 30,
+        "Upkeep": "Energy 1",
+        "Damage": "2.25-4.50",
+        "DLC": "BioGenesis"
+      }
+    },
+    {
+      "id": "Presapient Horde",
+      "section": "Assault armies",
+      "data": {
+        "Cost": "Food 200",
+        "Time": 90,
+        "Upkeep": "Energy 1; Food 1",
+        "Damage": "2.25-4.50",
+        "DLC": "BioGenesis"
+      }
+    },
+    {
+      "id": "Combat Android/Hunter-Killer",
+      "section": "Machine armies",
+      "data": {
+        "Cost": "Minerals 100",
+        "Time": 90,
+        "Upkeep": "Energy 1",
+        "Damage": "1.50-3.00"
+      }
+    },
+    {
+      "id": "Advanced War Android/Battle Frame",
+      "section": "Machine armies",
+      "data": {
+        "Cost": "Minerals 200",
+        "Time": 120,
+        "Upkeep": "Energy 2",
+        "Damage": "2.25-4.50",
+        "Requirements": "Adaptive Combat Algorithms"
+      }
+    },
+    {
+      "id": "Mega War Android/Mega-Warform",
+      "section": "Machine armies",
+      "data": {
+        "Cost": "Minerals 800",
+        "Time": 500,
+        "Upkeep": "Energy 8",
+        "Damage": "6.00-12.00",
+        "Requirements": "Biomechanics"
+      }
+    },
+    {
+      "id": "Abominations",
+      "section": "Civic armies",
+      "data": {
+        "Cost": "Minerals 50",
+        "Time": 100,
+        "Upkeep": "Energy 0.5",
+        "Damage": "2.00-4.00",
+        "DLC": "Shadows of the Shroud"
+      }
+    },
+    {
+      "id": "Mimetic Strike Force",
+      "section": "Civic armies",
+      "data": {
+        "Cost": "Living Metal 150",
+        "Time": 180,
+        "Upkeep": "Energy 2; Minerals 1",
+        "Damage": "3.00-6.00",
+        "DLC": "Infernals"
+      }
+    },
+    {
+      "id": "Ember Legion",
+      "section": "Civic armies",
+      "data": {
+        "Cost": "Minerals 250",
+        "Time": 180,
+        "Upkeep": "Energy 2",
+        "Damage": "3.00-6.00",
+        "DLC": "Infernals"
+      }
+    },
+    {
+      "id": "Mercenary Army",
+      "section": "Enclave armies",
+      "data": {
+        "Upkeep": "Energy 2",
+        "Damage": "1.65-3.30",
+        "DLC": "Overlord"
+      }
+    },
+    {
+      "id": "Mechanized Mercenary Army",
+      "section": "Enclave armies",
+      "data": {
+        "Upkeep": "Energy 5",
+        "Damage": "3.30-6.60",
+        "DLC": "Overlord"
+      }
+    },
+    {
+      "id": "Assault Wardens",
+      "section": "Enclave armies",
+      "data": {
+        "Upkeep": "Energy 2",
+        "Damage": "1.65-3.30",
+        "DLC": "Shadows of the Shroud"
+      }
+    },
+    {
+      "id": "Psionic Avatar",
+      "section": "Other armies",
+      "data": {
+        "Damage": "7.50-15.00",
+        "Requirements": "Shroud event"
+      }
+    }
+  ]
+}

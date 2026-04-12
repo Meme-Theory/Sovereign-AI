@@ -1,0 +1,150 @@
+{
+  "$schema": "sovereign-template-v1.json",
+  "id": "cooked_well_done",
+  "name": "Cooked Well Done",
+  "description": "Infernal tech-dense empire that burns small but bright. Quality over quantity — fewer systems, higher tech power per capita. The galaxy's research volcano.",
+
+  "identity": {
+    "personality_key": "sovereign_knowledge_seeker",
+    "archetype": "technologist",
+    "ethics_match": {
+      "required": ["materialist"],
+      "preferred": ["fanatic_materialist"],
+      "forbidden": ["spiritualist"]
+    },
+    "authority_match": {
+      "preferred": ["auth_oligarchic", "auth_dictatorial"],
+      "forbidden": []
+    },
+    "civic_affinity": ["civic_technocracy", "civic_meritocracy"]
+  },
+
+  "origins": {
+    "default": "origin_default",
+    "preferred": [
+      {
+        "origin": "origin_volcanic",
+        "reason": "Volcanic homeworld matches infernal theme; volcanic forge bonuses feed alloy production",
+        "starting_state_overrides": { "districts": { "mining": 3 } },
+        "economy_overrides": { "alloy": 1.5 }
+      },
+      {
+        "origin": "origin_remnants",
+        "reason": "Relic world research bonuses compound with tech-rush strategy",
+        "economy_overrides": { "research": 2.0 }
+      },
+      {
+        "origin": "origin_shattered_ring",
+        "reason": "Ring world research segment gives massive early research output on a single world",
+        "starting_state_overrides": { "planet_size": 10 },
+        "economy_overrides": { "research": 2.5, "expansion": 0.5 }
+      }
+    ],
+    "compatible": ["origin_default", "origin_galactic_doorstep", "origin_mechanists"],
+    "forbidden": ["origin_tree_of_life", "origin_primal_calling"]
+  },
+
+  "behavior": {
+    "aggressiveness": 0.3,
+    "trade_willingness": 0.8,
+    "bravery": 0.7,
+    "military_spending": 0.75,
+    "colony_spending": 0.6,
+    "threat_modifier": 1.0,
+    "friction_modifier": 0.5,
+    "alliance_acceptance": 10,
+    "federation_acceptance": 20,
+    "flags": {
+      "conqueror": false,
+      "subjugator": false,
+      "liberator": false,
+      "opportunist": true,
+      "slaver": false,
+      "uplifter": true,
+      "purger": false,
+      "dominator": false,
+      "infiltrator": true,
+      "robot_exploiter": true,
+      "robot_liberator": true,
+      "migrator": true
+    }
+  },
+
+  "economy": {
+    "weight_factors": {
+      "alloy": 1.0,
+      "research": 3.0,
+      "unity": 1.5,
+      "military": 0.75,
+      "expansion": 0.5,
+      "trade": 1.0
+    },
+    "deficit_thresholds": {
+      "minerals": 25,
+      "energy": 10,
+      "alloys": 10,
+      "consumer_goods": 5,
+      "food": 5,
+      "research": 8,
+      "unity": 15
+    },
+    "surplus_thresholds": {
+      "minerals": 80,
+      "energy": 50,
+      "food": 25,
+      "alloys": 40,
+      "consumer_goods": 20,
+      "research": 120,
+      "unity": 50
+    }
+  },
+
+  "gates": {
+    "G1_mineral": { "threshold": 15, "factor": 0.1 },
+    "G2_consumer_goods": { "threshold": 2, "factor": 0.1 },
+    "G3_mineral_strict": { "threshold": 25, "factor": 0.1 },
+    "G4_strategic": { "threshold": 1, "factor": 0.1 },
+    "G5_alloy_expansion": { "threshold": 5, "factor": 0.1 },
+    "G6_energy_high_upkeep": { "threshold": 5, "factor": 0.25 }
+  },
+
+  "starting_state": {
+    "template": "regular",
+    "stockpiles": { "minerals": 200, "energy": 200, "food": 100, "alloys": 100, "consumer_goods": 100 },
+    "pops": 52,
+    "districts": { "mining": 2, "generator": 2, "agriculture": 2, "city": 2 },
+    "planet_size": 20,
+    "max_buildings": 4,
+    "capital_tier": 0,
+    "starting_techs": 31
+  },
+
+  "build_priority": {
+    "early": ["mining_district", "research_lab", "capital_upgrade", "research_lab", "civilian_industries", "research_lab"],
+    "mid": ["research_lab", "alloy_foundry", "city_district", "research_complex_t2", "megastructure_site"],
+    "late": ["science_nexus", "research_lab", "megastructure", "dyson_sphere"]
+  },
+
+  "phase_overrides": {
+    "early": {
+      "weight_factors": { "research": 2.5 }
+    },
+    "mid": {
+      "weight_factors": { "research": 3.0, "expansion": 0.75 }
+    },
+    "late": {
+      "weight_factors": { "research": 3.5 },
+      "gates": { "G1_mineral": { "threshold": 5, "factor": 0.25 } }
+    }
+  },
+
+  "_source": {
+    "save": "thernyxorder_681625069",
+    "year": 2611,
+    "pops": 71088,
+    "military_power": 471756,
+    "economy_power": 42419,
+    "tech_power": 52207,
+    "notes": "Infernal graphical culture. Smallest empire size (688) but highest tech-per-capita. Megastructures produce 3,400 energy + 1,155 research. Planet unity: 132/mo from buildings. Quality-over-quantity strategy — 2,194 fleet size is adequate, not dominant."
+  }
+}

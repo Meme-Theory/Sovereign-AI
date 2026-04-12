@@ -1,0 +1,137 @@
+{
+  "$schema": "sovereign-template-v1.json",
+  "id": "AI_adaptive_optimizer",
+  "name": "Adaptive Optimizer",
+  "description": "Efficient, calculating machine empire. Optimizes everything with cold precision and expands methodically.",
+
+  "identity": {
+    "personality_key": "sovereign_adaptive_optimizer",
+    "archetype": "technologist",
+    "ethics_match": {
+      "required": [],
+      "preferred": [],
+      "forbidden": []
+    },
+    "authority_match": {
+      "preferred": ["auth_machine_intelligence"],
+      "forbidden": []
+    },
+    "civic_affinity": []
+  },
+
+  "origins": {
+    "default": "origin_default",
+    "preferred": [
+      {
+        "origin": "origin_resource_consolidation",
+        "reason": "Machine intelligence origin; homeworld becomes a Machine World with consolidated resources"
+      },
+      {
+        "origin": "origin_riftworld",
+        "reason": "Astral rift bonuses provide research and exploration advantages compatible with machine intelligence"
+      }
+    ],
+    "compatible": ["origin_default"],
+    "forbidden": [
+      "origin_tree_of_life", "origin_primal_calling", "origin_clone_army",
+      "origin_common_ground", "origin_hegemon", "origin_lost_colony",
+      "origin_mechanists", "origin_syncretic_evolution", "origin_teachers_of_the_shroud",
+      "origin_void_dwellers", "origin_ocean_paradise", "origin_life_seeded",
+      "origin_imperial_fiefdom", "origin_fear_of_the_dark", "origin_doomsday"
+    ]
+  },
+
+  "behavior": {
+    "aggressiveness": 0.5,
+    "trade_willingness": 0.6,
+    "bravery": 1.0,
+    "military_spending": 1.0,
+    "colony_spending": 1.5,
+    "threat_modifier": 1.0,
+    "friction_modifier": 0.75,
+    "alliance_acceptance": -25,
+    "federation_acceptance": -50,
+    "flags": {
+      "conqueror": false,
+      "subjugator": true,
+      "liberator": false,
+      "opportunist": true,
+      "slaver": false,
+      "uplifter": false,
+      "purger": false,
+      "dominator": false,
+      "infiltrator": true,
+      "robot_exploiter": false,
+      "robot_liberator": false,
+      "migrator": false
+    }
+  },
+
+  "economy": {
+    "weight_factors": {
+      "alloy": 1.5,
+      "research": 1.0,
+      "unity": 1.0,
+      "military": 1.0,
+      "expansion": 1.25,
+      "trade": 0.5
+    },
+    "deficit_thresholds": {
+      "minerals": 20,
+      "energy": 15,
+      "alloys": 10,
+      "consumer_goods": 0,
+      "food": 0,
+      "research": 15,
+      "unity": 15
+    },
+    "surplus_thresholds": {
+      "minerals": 100,
+      "energy": 75,
+      "food": 0,
+      "alloys": 50,
+      "consumer_goods": 0,
+      "research": 80,
+      "unity": 50
+    }
+  },
+
+  "gates": {
+    "G1_mineral": { "threshold": 15, "factor": 0.1 },
+    "G2_consumer_goods": { "threshold": 0, "factor": 0.1 },
+    "G3_mineral_strict": { "threshold": 25, "factor": 0.1 },
+    "G4_strategic": { "threshold": 1, "factor": 0.1 },
+    "G5_alloy_expansion": { "threshold": 5, "factor": 0.1 },
+    "G6_energy_high_upkeep": { "threshold": 5, "factor": 0.25 }
+  },
+
+  "starting_state": {
+    "template": "machine",
+    "stockpiles": {
+      "minerals": 200, "energy": 300, "food": 0,
+      "alloys": 100, "consumer_goods": 0
+    },
+    "pops": 50,
+    "districts": { "mining": 2, "generator": 3, "agriculture": 0, "city": 2 },
+    "planet_size": 20,
+    "max_buildings": 4,
+    "capital_tier": 0,
+    "starting_techs": 31
+  },
+
+  "build_priority": {
+    "early": ["mining_district", "generator_district", "alloy_foundry", "mining_district", "capital_upgrade", "research_lab"],
+    "mid": ["research_lab", "alloy_foundry", "city_district", "generator_district"],
+    "late": ["research_lab", "megastructure", "alloy_foundry"]
+  },
+
+  "phase_overrides": {
+    "early": {},
+    "mid": {
+      "weight_factors": { "research": 1.5 }
+    },
+    "late": {
+      "gates": { "G1_mineral": { "threshold": 5, "factor": 0.25 } }
+    }
+  }
+}

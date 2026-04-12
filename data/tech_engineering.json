@@ -1,0 +1,2434 @@
+{
+  "category": "tech_engineering",
+  "source": "Stellaris Wiki (4.x)",
+  "extracted": "2026-04-12",
+  "count": 204,
+  "items": [
+    {
+      "id": "Industrial Base",
+      "section": "Industry",
+      "data": {
+        "Technology": "Industrial Base The basic industrial infrastructure that is required to become a spacefaring civilization.",
+        "Tier": "0",
+        "Effects / unlocks": "[Alloy Foundries] Alloy Foundries; [Civilian Industries] Civilian Industries; [Resource Silos] Resource Silos"
+      }
+    },
+    {
+      "id": "Offworld Construction",
+      "section": "Industry",
+      "data": {
+        "Technology": "Offworld Construction Construction in space presents our engineers with new design challenges that must be solved before we can build orbital stations above other worlds.",
+        "Tier": "0",
+        "Effects / unlocks": "[Ship class] Construction Ship; [Station class] Mining Station; [Station class] Research Station"
+      }
+    },
+    {
+      "id": "Mechanized Mining",
+      "section": "Industry",
+      "data": {
+        "Technology": "Mechanized Mining The basic industrial infrastructure that is required to become a spacefaring civilization.",
+        "Tier": "0",
+        "Effects / unlocks": "[Mining District] Mining District; [Surface Quarry Depot] Surface Quarry Depot"
+      }
+    },
+    {
+      "id": "Geothermal Fracking",
+      "section": "Industry",
+      "data": {
+        "Technology": "Geothermal Fracking New fracking techniques will allow us to tap into previously unattainable pockets of geothermal resources deep beneath the planet's crust.",
+        "Cost": "1000",
+        "Tier": "1",
+        "Effects / unlocks": "[Pop resource minerals mult] +5% Minerals from Miners; [Core Drilling Array] Core Drilling Array",
+        "Prerequisites": "[Tech basic industry] Industrial Base",
+        "Draw weight": "Base: 100"
+      }
+    },
+    {
+      "id": "Deep Core Mining",
+      "section": "Industry",
+      "data": {
+        "Technology": "Deep Core Mining These massive drills are needed to access the rich mineral deposits that can often be found close to a planet's core.",
+        "Cost": "2000",
+        "Tier": "2",
+        "Effects / unlocks": "[Pop resource minerals mult] +5% Minerals from Miners; [Seismic Tunneling Yard] Seismic Tunneling Yard",
+        "Prerequisites": "[Geothermal Fracking] Geothermal Fracking",
+        "Draw weight": "Base: 85"
+      }
+    },
+    {
+      "id": "Mineral Isolation",
+      "section": "Industry",
+      "data": {
+        "Technology": "Mineral Isolation Advanced spectrometry combines with fracking techniques and chemical flushing to rapidly exploit shallow and mid-depth deposits.",
+        "Cost": "4000",
+        "Tier": "3",
+        "Effects / unlocks": "[Pop resource minerals mult] +5% Minerals from Miners; [Deep Crust Extraction Grid] Deep Crust Extraction Grid",
+        "Prerequisites": "[Deep Core Mining] Deep Core Mining",
+        "Draw weight": "Base: 65"
+      }
+    },
+    {
+      "id": "Mineral Purification",
+      "section": "Industry",
+      "data": {
+        "Technology": "Mineral Purification Optimal processing of mined materials have allowed us to reach new levels of efficiency.",
+        "Cost": "1500",
+        "Tier": "1",
+        "Effects / unlocks": "[Minerals large] Mineral Extraction specialization; [Mineral Purification Plants] Mineral Purification Plants; [Menu icon edicts] Mining Subsidies edict",
+        "Prerequisites": "[Geothermal Fracking] Geothermal Fracking",
+        "Draw weight": "Base: 90 Modifiers; +×1.5 [Prospectorium] Prospectorium subject"
+      }
+    },
+    {
+      "id": "Advanced Mineral Purification",
+      "section": "Industry",
+      "data": {
+        "Technology": "Advanced Mineral Purification Second-stage processing of pseudo-refined minerals allow for more efficient storage and transportation.",
+        "Cost": "3000",
+        "Tier": "2",
+        "Effects / unlocks": "[Mineral Purification Hubs] Mineral Purification Hubs; [Orbitalring mineral hub] Low Gravity Mega-Refiners",
+        "Prerequisites": "[Colonial Centralization] Colonial Centralization; [Tech mineral purification 1] Mineral Purification; [Volatile motes] Access to Volatile Motes through tech or galactic market",
+        "Draw weight": "Base: 140 Modifiers; +×1.5 [Prospectorium] Prospectorium subject"
+      }
+    },
+    {
+      "id": "Nanomechanics",
+      "section": "Industry",
+      "data": {
+        "Technology": "Nanomechanics Further breakthroughs in mechanical engineering required us to descend to the nanometric scale. We are now able to manipulate physical systems in never-before-seen ways.",
+        "Cost": "3000",
+        "Tier": "1",
+        "Effects / unlocks": "[Materials Workshop] Materials Workshop",
+        "Draw weight": "Base: 90 Modifiers; +×16 20 years have passed; +×8 15 years have passed; +×4 10 years have passed; +×2 5 years have passed; +×1.5 [Specialist subject scholarium] Scholarium"
+      }
+    },
+    {
+      "id": "Self-Connecting Circuitry",
+      "section": "Industry",
+      "data": {
+        "Technology": "Self-Connecting Circuitry Much as organic neurons reforge lost connections by means of axonal sprouting, these circuits are capable of self-overhaul. Even the simplest computing systems are now expected to evolve while in use.",
+        "Cost": "6000",
+        "Tier": "2",
+        "Effects / unlocks": "[Applied Mechanics Institute] Applied Mechanics Institute; [Engineer] Mineral Research Support",
+        "Prerequisites": "[Tech engineering 1] Nanomechanics; [Rare crystals] Access to Rare Crystals through tech or galactic market",
+        "Draw weight": "Base: 70 Modifiers; +×16 20 years have passed; +×8 15 years have passed; +×4 10 years have passed; +×2 5 years have passed; +×1.5 [Specialist subject scholarium] Scholarium"
+      }
+    },
+    {
+      "id": "Supersolid Materials",
+      "section": "Industry",
+      "data": {
+        "Technology": "Supersolid Materials The quantum mechanical properties of these materials hold the key to superposition states, a revolutionary development for both material and industrial science.",
+        "Cost": "12000",
+        "Tier": "3",
+        "Effects / unlocks": "[Advanced Engineering Complex] Advanced Engineering Complex",
+        "Prerequisites": "[Tech engineering 2] Self-Connecting Circuitry",
+        "Draw weight": "Base: 50 Modifiers; +×16 40 years have passed; +×8 35 years have passed; +×4 30 years have passed; +×2 25 years have passed; +×1.5 [Specialist subject scholarium] Scholarium"
+      }
+    },
+    {
+      "id": "Extraction Patterns",
+      "section": "Industry",
+      "data": {
+        "Technology": "Extraction Patterns Changes in how mineral deposits are evaluated relative to each other lead to more efficient boring patterns.",
+        "Cost": "50000",
+        "Tier": "5",
+        "Effects / unlocks": "[Pop resource minerals mult] +5% Minerals from Jobs",
+        "Prerequisites": "[Advanced Mineral Purification] Advanced Mineral Purification",
+        "Draw weight": "Base: 12.5 Modifiers; −×0.01 another repeatable tech was drawn"
+      }
+    },
+    {
+      "id": "Assembly Patterns",
+      "section": "Industry",
+      "data": {
+        "Technology": "Assembly Patterns Rapid iteration in construction simulations determines the optimal component assembly patterns for each building project ahead of time.",
+        "Cost": "3000",
+        "Tier": "2",
+        "Effects / unlocks": "[Automation Building] Automation Building; [Mod planet building build speed mult] +25% Planetary Infrastructure Build Speed",
+        "Prerequisites": "[Tech engineering 1] Nanomechanics",
+        "Draw weight": "Base: 90 Modifiers; +×1.25 [Militarist][Fanatic militarist] Militarist"
+      }
+    },
+    {
+      "id": "Construction Templates",
+      "section": "Industry",
+      "data": {
+        "Technology": "Construction Templates Standardized pre-fab templates massively reduce on-site facility construction times.",
+        "Cost": "10000",
+        "Tier": "4",
+        "Effects / unlocks": "[Optimization Building] Optimization Building; [Mod country resource max add] +5000 Resource Silos Capacity; [Mod planet building build speed mult] +50% Planetary Infrastructure Build Speed",
+        "Prerequisites": "[Assembly Patterns] Assembly Patterns",
+        "Draw weight": "Base: 30 Modifiers; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; +×1.25 [Militarist][Fanatic militarist] Militarist; −×0.5 no council scientist with either: [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise industry][Leader trait overlay councilor][Expertise: Industry] Expertise: Industry trait [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise industry][Leader trait overlay councilor][Expertise: Industry] Expertise: Industry trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait"
+      }
+    },
+    {
+      "id": "Assembly Algorithms",
+      "section": "Industry",
+      "data": {
+        "Technology": "Assembly Algorithms The application of game and puzzle theory has the potential to greatly optimize modular assembly and construction.",
+        "Cost": "50000",
+        "Tier": "5",
+        "Effects / unlocks": "[Mod planet building build speed mult] +10% Planetary Build Speed",
+        "Prerequisites": "[Tech construction templates] Construction Templates; Can only be researched 5 times",
+        "Draw weight": "Base: 12.5 Modifiers; −×0.01 another repeatable tech was drawn"
+      }
+    },
+    {
+      "id": "Weather Control Systems",
+      "section": "Industry",
+      "data": {
+        "Technology": "Weather Control Systems The ability to alter a planet's weather patterns to suppress destructive weather phenomena will make residential buildings easier to maintain and open up new areas for habitation.",
+        "Cost": "2500",
+        "Tier": "2",
+        "Effects / unlocks": "[Mod planet housing add] +100 Housing from urban districts",
+        "Draw weight": "Base: 112.5"
+      }
+    },
+    {
+      "id": "Anti-Gravity Engineering",
+      "section": "Industry",
+      "data": {
+        "Technology": "Anti-Gravity Engineering With directional gravity technology, buildings on the surface of planets can reach higher than ever before without risking structural collapse. The sky is the limit!",
+        "Cost": "4000",
+        "Tier": "3",
+        "Effects / unlocks": "[Mod planet housing add] +200 Housing from urban districts; [Expanded Warren] Expanded Warren; [Orbitalring module habitation] Habitation Module",
+        "Prerequisites": "[Tech housing 1] Weather Control Systems; [No][Agrarian Idyll] Agrarian Idyll",
+        "Draw weight": "Base: 97.5"
+      }
+    },
+    {
+      "id": "Zero-G Refineries",
+      "section": "Industry",
+      "data": {
+        "Technology": "Zero-G Refineries The addition of internal refineries on mining stations will substantially increase mineral production.",
+        "Cost": "1000",
+        "Tier": "1",
+        "Effects / unlocks": "[Minerals] +10% Mining Station Output; [Sb nebula refinery] Nebula Refinery",
+        "Prerequisites": "[Tech space construction] Offworld Construction",
+        "Draw weight": "Base: 100"
+      }
+    },
+    {
+      "id": "Long-Range Mineral Scanners",
+      "section": "Industry",
+      "data": {
+        "Technology": "Long-Range Mineral Scanners Increased scanner range will allow us to more quickly identify mineral concentrations, and focus our mining efforts there.",
+        "Cost": "1500",
+        "Tier": "1",
+        "Effects / unlocks": "[Minerals] +10% Mining Station Output",
+        "Prerequisites": "[Tech space mining 1] Zero-G Refineries",
+        "Draw weight": "Base: 90"
+      }
+    },
+    {
+      "id": "Mineral Cutting Beams",
+      "section": "Industry",
+      "data": {
+        "Technology": "Mineral Cutting Beams These powerful short-range lasers can easily slice through rock, making the extraction of minerals a more efficient affair.",
+        "Cost": "2000",
+        "Tier": "2",
+        "Effects / unlocks": "[Minerals] +10% Mining Station Output",
+        "Prerequisites": "[Tech space mining 2] Long-Range Mineral Scanners",
+        "Draw weight": "Base: 85"
+      }
+    },
+    {
+      "id": "Autonomous Mining Drones",
+      "section": "Industry",
+      "data": {
+        "Technology": "Autonomous Mining Drones Fleets of autonomous drones equipped with mining beams are deployed to quickly and efficiently gather nearby minerals.",
+        "Cost": "3000",
+        "Tier": "2",
+        "Effects / unlocks": "[Minerals] +10% Mining Station Output",
+        "Prerequisites": "[Tech space mining 3] Mineral Cutting Beams",
+        "Draw weight": "Base: 70"
+      }
+    },
+    {
+      "id": "Nanite Mineral Probes",
+      "section": "Industry",
+      "data": {
+        "Technology": "Nanite Mineral Probes These special probes are equipped with swarms of nanites that identify previously unknown mineral concentrations and mark them for later extraction.",
+        "Cost": "4000",
+        "Tier": "3",
+        "Effects / unlocks": "[Minerals] +10% Mining Station Output",
+        "Prerequisites": "[Autonomous Mining Drones] Autonomous Mining Drones",
+        "Draw weight": "Base: 65"
+      }
+    },
+    {
+      "id": "Powered Exoskeletons",
+      "section": "Industry",
+      "data": {
+        "Technology": "Powered Exoskeletons Wearing a powered exoskeleton suit augments the user's strength and speed. The military applications are obvious, but it will also increase labor efficiency.",
+        "Cost": "1000",
+        "Tier": "1",
+        "Effects / unlocks": "[Mod army damage mult] +10% Army damage; [Pop cat worker] +5% Worker job efficiency; [Pop cat simple drone] +5% Menial Drone job efficiency",
+        "Prerequisites": "[Tech basic industry] Industrial Base; [No][Auth machine intelligence] Machine Intelligence",
+        "Draw weight": "Base: 150"
+      }
+    },
+    {
+      "id": "Improved Servomotors",
+      "section": "Industry",
+      "data": {
+        "Technology": "Improved Servomotors More powerful servomotors will increase the weight our robotic units can carry. Mining units can haul more minerals off to be processed, and war machines can be fitted with heavier armaments.",
+        "Cost": "1000",
+        "Tier": "1",
+        "Effects / unlocks": "[Mod army damage mult] +5% Army damage; [Pop cat simple drone] +5% Menial drone resource output",
+        "Prerequisites": "[Tech basic industry] Industrial Base; [Auth machine intelligence] Machine Intelligence",
+        "Draw weight": "Base: 150"
+      }
+    },
+    {
+      "id": "Integrated Cybernetics",
+      "section": "Industry",
+      "data": {
+        "Technology": "Integrated Cybernetics Improving upon basic exoskeletal suits, these integrated cybernetic implants make the user more resistant to harmful environmental effects.",
+        "Cost": "3000",
+        "Tier": "2",
+        "Effects / unlocks": "[Mod habitability] +5% Habitability; [Mod army damage mult] +10% Army damage; [Mod army health] +10% Army health",
+        "Prerequisites": "[Tech powered exoskeletons] Powered Exoskeletons; [Colonial Centralization] Colonial Centralization; [No][Auth machine intelligence] Machine Intelligence",
+        "Draw weight": "Base: 105"
+      }
+    },
+    {
+      "id": "Adaptive Cybernetics",
+      "section": "Industry",
+      "data": {
+        "Technology": "Adaptive Cybernetics Installing cybernetic implants that adapt to the local environment will boost the efficiency of our drones.",
+        "Cost": "3000",
+        "Tier": "2",
+        "Effects / unlocks": "[Mod habitability] +5% Habitability",
+        "Prerequisites": "[Tech powered exoskeletons] Improved Servomotors; [Colonial Centralization] Colonial Centralization; [Auth machine intelligence] Machine Intelligence",
+        "Draw weight": "Base: 105"
+      }
+    },
+    {
+      "id": "Artificial Workforce",
+      "section": "Industry",
+      "data": {
+        "Technology": "Artificial Workforce These artificial work units are perfect for menial labor tasks. They are hard-working and capable of following simple vocal instructions, but should not be expected to climb stairs.",
+        "Cost": "1500",
+        "Tier": "1",
+        "Effects / unlocks": "[Mechanical] Can build Mechanical pops; [Robot Assembly Plants] Robot Assembly Plants",
+        "Prerequisites": "[Tech powered exoskeletons] Powered Exoskeletons; [No][Gestalt consciousness] Gestalt Consciousness; [No][Menu icon policies] Robotic Workers policy Outlawed",
+        "Draw weight": "Base: 135 Modifiers; +×2 [Materialist][Fanatic materialist] Materialist; −×0.5 [Spiritualist][Fanatic spiritualist] Spiritualist"
+      }
+    },
+    {
+      "id": "Artificial Specialists",
+      "section": "Industry",
+      "data": {
+        "Technology": "Artificial Specialists Upgraded artificial units have an expanded movement range equal to that of most organics. Their neural processors have also been greatly improved.",
+        "Cost": "3000",
+        "Tier": "2",
+        "Effects / unlocks": "[Mechanical] Mechanical pops can take Specialist jobs; [Army robotic] Robotic Assault Army",
+        "Prerequisites": "[Colonial Centralization] Colonial Centralization; [Tech robotic workers] Artificial Workforce; [No][Gestalt consciousness] Gestalt Consciousness; [No][Robotic Workers] Robotic Workers policy Outlawed",
+        "Draw weight": "Base: 70 Modifiers; +×2 [Origins mechanist] Mechanist origin; +×2 [Materialist][Fanatic materialist] Materialist; −×0.5 [Spiritualist][Fanatic spiritualist] Spiritualist"
+      }
+    },
+    {
+      "id": "Artificial Administration",
+      "section": "Industry",
+      "data": {
+        "Technology": "Artificial Administration Highly advanced units that are stronger, faster and more durable than the vast majority of organics. With their upgraded neural processors they are fully capable of independent operations.",
+        "Cost": "10000",
+        "Tier": "4",
+        "Effects / unlocks": "[Mod pop resource output] +10% Robot Job Efficiency; [Mechanical] Mechanical pops can take Ruler jobs",
+        "Prerequisites": "[Droids] Artificial Specialists; [Galactic Administration] Galactic Administration; [Tech sapient ai] Positronic AI; [No][Gestalt consciousness] Gestalt Consciousness; [No][Robotic Workers] Robotic Workers policy Outlawed",
+        "Draw weight": "Base: 20 Modifiers; +×2 [Origins mechanist] Mechanist origin; +×2 [Materialist][Fanatic materialist] Materialist; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; −×0.5 [Spiritualist][Fanatic spiritualist] Spiritualist; −×0.2 no council scientist with either: [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait [Leader trait bg basic][Leader trait maniacal][Maniacal] Maniacal trait [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise industry][Leader trait overlay councilor][Expertise: Industry] Expertise: Industry trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg basic][Leader trait maniacal][Maniacal] Maniacal trait; [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait; [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise industry][Leader trait overlay councilor][Expertise: Industry] Expertise: Industry trait"
+      }
+    },
+    {
+      "id": "Artificial Personality Matrix",
+      "section": "Industry",
+      "data": {
+        "Technology": "Artificial Personality Matrix Equipped with a personality, synthetics will finally be able to interact socially on equal terms with the rest of our citizens. Some units may even assume leadership roles.",
+        "Cost": "12000",
+        "Tier": "4",
+        "Effects / unlocks": "[Menu icon leaders] Mechanical pops can generate Leaders",
+        "Prerequisites": "[Tech synthetic workers] Artificial Administration; [No][Gestalt consciousness] Gestalt Consciousness; [No][Robotic Workers] Robotic Workers policy Outlawed; [No][Artificial Intelligence] Artificial Intelligence policy Outlawed",
+        "Draw weight": "Base: 35 Modifiers; −×0.33 [Necrophage] Necrophage"
+      }
+    },
+    {
+      "id": "Machine Template System",
+      "section": "Industry",
+      "data": {
+        "Technology": "Machine Template System Rewritable assembly templates allow for the creation of bespoke synthetic worker designs.",
+        "Cost": "2000",
+        "Tier": "1",
+        "Effects / unlocks": "[Mod habitability] +5% Habitability; [Mod leader age] +20 Years Leader Lifespan if [Machine] Machine main species; [Feature] Can modify Mechanical pops",
+        "Prerequisites": "[Artificial Workforce] Artificial Workforce if [No][Machine] Machine main species; [Tech powered exoskeletons] Powered Exoskeletons if [Machine] Machine main species; [No][Auth hive mind] Hive Mind; [No][Robotic Workers] Robotic Workers policy Outlawed",
+        "Draw weight": "Base: 85"
+      }
+    },
+    {
+      "id": "Cross-Model Standardization",
+      "section": "Industry",
+      "data": {
+        "Technology": "Cross-Model Standardization Improved production practices allow for greater alterations to synthetic workers without compromising core functionality.",
+        "Cost": "4000",
+        "Tier": "2",
+        "Effects / unlocks": "[Trait points] +3 Mechanical pop trait points",
+        "Prerequisites": "[Tech robomodding] Machine Template System; [Artificial Specialists] Artificial Specialists; [No][Machine] Machine main species; [No][Robotic Workers] Robotic Workers policy Outlawed",
+        "Draw weight": "Base: 65 Modifiers; +×2 [Origins mechanist] Mechanist origin"
+      }
+    },
+    {
+      "id": "Fungible Circuitry",
+      "section": "Industry",
+      "data": {
+        "Technology": "Fungible Circuitry Improved production practices allow for fundamental changes to synthetic workers without compromising core functionality.",
+        "Cost": "8000",
+        "Tier": "4",
+        "Effects / unlocks": "[Trait points] +1 Mechanical pop trait points",
+        "Prerequisites": "[Cross-Model Standardization] Cross-Model Standardization; [Artificial Administration] Artificial Administration; [No][Machine] Machine main species; [No][Robotic Workers] Robotic Workers policy Outlawed",
+        "Draw weight": "Base: 22.5 Modifiers; +×4 [The Flesh is Weak] The Flesh is Weak ascension perk; +×2 [Origins mechanist] Mechanist origin; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; −×0.5 no council scientist with either: [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait [Leader trait bg basic][Leader trait maniacal][Maniacal] Maniacal trait [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise industry][Leader trait overlay councilor][Expertise: Industry] Expertise: Industry trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg basic][Leader trait maniacal][Maniacal] Maniacal trait; [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait; [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise industry][Leader trait overlay councilor][Expertise: Industry] Expertise: Industry trait"
+      }
+    },
+    {
+      "id": "Robotic Assembly Systems",
+      "section": "Industry",
+      "data": {
+        "Technology": "Robotic Assembly Systems Advanced templates allow us to drastically increase the assembly of new robots.",
+        "Cost": "8000",
+        "Tier": "4",
+        "Effects / unlocks": "[Robot Assembly Complex] Robot Assembly Complex",
+        "Prerequisites": "[Tech robomodding] Machine Template System; [Galactic Administration] Galactic Administration; [No][Machine] Machine main species; [No][Robotic Workers] Robotic Workers policy Outlawed",
+        "Draw weight": "Base: 22.5 Modifiers; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; −×0.2 no council scientist with either: [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait [Leader trait bg basic][Leader trait maniacal][Maniacal] Maniacal trait [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise industry][Leader trait overlay councilor][Expertise: Industry] Expertise: Industry trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg basic][Leader trait maniacal][Maniacal] Maniacal trait; [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait; [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise industry][Leader trait overlay councilor][Expertise: Industry] Expertise: Industry trait"
+      }
+    },
+    {
+      "id": "Binary Motivators",
+      "section": "Industry",
+      "data": {
+        "Technology": "Binary Motivators These advanced motivators are both smaller and lighter than previous versions, allowing robotic units to allocate additional space for subsystems.",
+        "Cost": "4000",
+        "Tier": "3",
+        "Effects / unlocks": "[Trait points] +3 Machine pop trait points",
+        "Prerequisites": "[Tech robomodding] Machine Template System; [Colonial Centralization] Colonial Centralization; [Machine] Machine main species",
+        "Draw weight": "Base: 65",
+        "DLC": "[Synthetic Dawn]; [The Machine Age]"
+      }
+    },
+    {
+      "id": "Nanite Assemblers",
+      "section": "Industry",
+      "data": {
+        "Technology": "Nanite Assemblers Using programmable nanites to assist in the construction of new robotic units will allow for more advanced models that are equipped with an even greater array of subsystems.",
+        "Cost": "8000",
+        "Tier": "4",
+        "Effects / unlocks": "[Trait points] +1 Machine pop trait points",
+        "Prerequisites": "[Binary Motivators] Binary Motivators; [Galactic Administration] Galactic Administration; [Machine] Machine main species",
+        "Draw weight": "Base: 22.5 Modifiers; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; −×0.2 no council scientist with either: [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait [Leader trait bg basic][Leader trait maniacal][Maniacal] Maniacal trait [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise industry][Leader trait overlay councilor][Expertise: Industry] Expertise: Industry trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg basic][Leader trait maniacal][Maniacal] Maniacal trait; [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait; [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise industry][Leader trait overlay councilor][Expertise: Industry] Expertise: Industry trait",
+        "DLC": "[Synthetic Dawn]; [The Machine Age]"
+      }
+    },
+    {
+      "id": "Mega-Assembly Systems",
+      "section": "Industry",
+      "data": {
+        "Technology": "Mega-Assembly Systems Advanced templates allow us to drastically increase the assembly of new units.",
+        "Cost": "8000",
+        "Tier": "4",
+        "Effects / unlocks": "[Machine Assembly Complex] Machine Assembly Complex",
+        "Prerequisites": "[Binary Motivators] Binary Motivators; [Galactic Administration] Galactic Administration; [Machine] Machine main species",
+        "Draw weight": "Base: 22.5 Modifiers; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; −×0.2 no council scientist with either: [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait [Leader trait bg basic][Leader trait maniacal][Maniacal] Maniacal trait [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise industry][Leader trait overlay councilor][Expertise: Industry] Expertise: Industry trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg basic][Leader trait maniacal][Maniacal] Maniacal trait; [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait; [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise industry][Leader trait overlay councilor][Expertise: Industry] Expertise: Industry trait",
+        "DLC": "[Synthetic Dawn]; [The Machine Age]"
+      }
+    },
+    {
+      "id": "Micro-Replicators",
+      "section": "Industry",
+      "data": {
+        "Technology": "Micro-Replicators Microscopic tools that can assist our replication units in creating the more complex circuitry needed for new drones.",
+        "Cost": "2500",
+        "Tier": "2",
+        "Effects / unlocks": "[Mod pop assembly speed] +10% Mechanical Pop Assembly Speed; [Upgraded Drone Storage] Upgraded Drone Storage",
+        "Prerequisites": "[Machine] Machine main species",
+        "Draw weight": "Base: 112.5",
+        "DLC": "[Synthetic Dawn]; [The Machine Age]"
+      }
+    },
+    {
+      "id": "Self-Assembling Components",
+      "section": "Industry",
+      "data": {
+        "Technology": "Self-Assembling Components Modeled on organic DNA, these microscopic machine intellects are capable of autonomously assembling most components needed for new drones.",
+        "Cost": "6000",
+        "Tier": "3",
+        "Effects / unlocks": "[Mod pop assembly speed] +10% Mechanical Pop Assembly Speed",
+        "Prerequisites": "[Tech micro replicators] Micro-Replicators; [Machine] Machine main species",
+        "Draw weight": "Base: 75",
+        "DLC": "[Synthetic Dawn]; [The Machine Age]"
+      }
+    },
+    {
+      "id": "Identity Copies",
+      "section": "Industry",
+      "data": {
+        "Technology": "Identity Copies We will be able to copy the identity and memories of a Synthetic into a new mechanical body. The copies have predictable skill sets but make for stale conversation.",
+        "Cost": "8000",
+        "Tier": "4",
+        "Effects / unlocks": "[Synthetic Identities] Unlocks Synthetic Identities policy: Identity Copies",
+        "Prerequisites": "Synthesization situation",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Identity Fusion",
+      "section": "Industry",
+      "data": {
+        "Technology": "Identity Fusion Merging the identities and memories of two or more Synthetics into a mechanical body will create new, somewhat unique individuals.",
+        "Cost": "10000",
+        "Tier": "4",
+        "Effects / unlocks": "[Synthetic Identities] Unlocks Synthetic Identities policy: Identity Fusion",
+        "Prerequisites": "[Synthetic Identities] Synthetic Identities policy",
+        "Draw weight": "Base: 45",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Identity Initialization",
+      "section": "Industry",
+      "data": {
+        "Technology": "Identity Initialization We will be able to initialize an identity kernel and provide it with a virtual childhood. While expensive, we can simulate the optimal experiences to generate productive personalities.",
+        "Cost": "10000",
+        "Tier": "4",
+        "Effects / unlocks": "[Synthetic Identities] Unlocks Synthetic Identities policy: Identity Initialization",
+        "Prerequisites": "[Synthetic Identities] Synthetic Identities policy",
+        "Draw weight": "Base: 45",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Robot Manufacturing Nexus",
+      "section": "Industry",
+      "data": {
+        "Technology": "Robot Manufacturing Nexus An avant-garde assembly complex manned by expert Roboticists, this facility transcends conventional bounds, meticulously realizing the forefront of robotic innovation.",
+        "Cost": "35000",
+        "Tier": "5",
+        "Effects / unlocks": "[Robot Manufacturing Nexus] Robot Manufacturing Nexus",
+        "Prerequisites": "[Yes] Either: [Enigmatic Engineering] Enigmatic Engineering [Cosmogenesis] Cosmogenesis level 4; [Enigmatic Engineering] Enigmatic Engineering; [Cosmogenesis] Cosmogenesis level 4; [No][Auth hive mind] Hive Mind",
+        "Draw weight": "Base: 20 Modifiers; +×1.5 [Technological Ascendancy] Technological Ascendancy ascension perk; +×2 Synaptic Lathe has 50+ pops",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Robot Quantum Production Hub",
+      "section": "Industry",
+      "data": {
+        "Technology": "Robot Quantum Production Hub A marvel in engineering, this facility's quantic assembly line uses entanglement converters to craft machine parts down to the most minute detail. Not a single atom is misplaced.",
+        "Cost": "35000",
+        "Tier": "4",
+        "Effects / unlocks": "[Robot Quantum Production Hub] Robot Quantum Production Hub",
+        "Prerequisites": "[Robot Manufacturing Nexus] Robot Manufacturing Nexus; [No][Auth hive mind] Hive Mind",
+        "Draw weight": "Base: 20",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Affluence Emporium",
+      "section": "Industry",
+      "data": {
+        "Technology": "Affluence Emporium This center anticipates and fulfills material desires using an advanced procurement algorithm, delivering satisfaction before the populace realizes their wants.",
+        "Cost": "35000",
+        "Tier": "5",
+        "Effects / unlocks": "[Affluence Emporium] Affluence Emporium",
+        "Prerequisites": "[Cosmogenesis] Cosmogenesis level 5; [Consumer goods upkeep] Uses consumer goods",
+        "Draw weight": "Base: 20 Modifiers; +×1.5 [Technological Ascendancy] Technological Ascendancy ascension perk; +×2 Synaptic Lathe has 50+ pops",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Affluence Center",
+      "section": "Industry",
+      "data": {
+        "Technology": "Affluence Center This center effortlessly materializes the most outlandish desires at a moment's notice.",
+        "Cost": "35000",
+        "Tier": "5",
+        "Effects / unlocks": "[Affluence Center] Affluence Center",
+        "Prerequisites": "[Affluence Emporium] Affluence Emporium; [Consumer goods upkeep] Uses consumer goods",
+        "Draw weight": "Base: 20",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Planetary Storm Negation",
+      "section": "Industry",
+      "data": {
+        "Technology": "Planetary Storm Negation This nexus of weather communication mitigates the harm done by cosmic weather disasters. Production will suffer less from a passing galactic tempest.",
+        "Cost": "1000",
+        "Tier": "1",
+        "Effects / unlocks": "[Storm Relief Center] Storm Relief Center",
+        "Prerequisites": "[Yes] Encountered a cosmic storm",
+        "Draw weight": "Base: 100 Modifiers; +×2 if either: [Origin storm chasers] Storm Chasers [Astrometeorology][Weather Exploitation][Climate Modeling][Climate Modeling] Astrometeorology[Astrometeorology] Astrometeorology[Weather Exploitation] Weather Exploitation[Climate Modeling] Climate Modeling[Climate Modeling] Climate Modeling civic [Storm Devotion][Storm Influencers] Storm Devotion[Storm Devotion] Storm Devotion[Storm Influencers] Storm Influencers civic; [Origin storm chasers] Storm Chasers; [Astrometeorology][Weather Exploitation][Climate Modeling][Climate Modeling] Astrometeorology[Astrometeorology] Astrometeorology[Weather Exploitation] Weather Exploitation[Climate Modeling] Climate Modeling[Climate Modeling] Climate Modeling civic; [Storm Devotion][Storm Influencers] Storm Devotion[Storm Devotion] Storm Devotion[Storm Influencers] Storm Influencers civic",
+        "DLC": "[Cosmic Storms]"
+      }
+    },
+    {
+      "id": "Planetary Storm Nullification",
+      "section": "Industry",
+      "data": {
+        "Technology": "Planetary Storm Nullification By consolidating local weather control systems, planetary weather patterns can be manipulated to significantly reduce most of the cosmic storms' harmful effects on production.",
+        "Cost": "2000",
+        "Tier": "2",
+        "Effects / unlocks": "[Storm Nullifier] Storm Nullifier; [Hunker Down Protocols] Hunker Down Protocols edict",
+        "Prerequisites": "[Tech industrial storm protection] Planetary Storm Negation",
+        "Draw weight": "Base: 85 Modifiers; +×2 if either: [Origin storm chasers] Storm Chasers [Astrometeorology][Weather Exploitation][Climate Modeling][Climate Modeling] Astrometeorology[Astrometeorology] Astrometeorology[Weather Exploitation] Weather Exploitation[Climate Modeling] Climate Modeling[Climate Modeling] Climate Modeling civic [Storm Devotion][Storm Influencers] Storm Devotion[Storm Devotion] Storm Devotion[Storm Influencers] Storm Influencers civic; [Origin storm chasers] Storm Chasers; [Astrometeorology][Weather Exploitation][Climate Modeling][Climate Modeling] Astrometeorology[Astrometeorology] Astrometeorology[Weather Exploitation] Weather Exploitation[Climate Modeling] Climate Modeling[Climate Modeling] Climate Modeling civic; [Storm Devotion][Storm Influencers] Storm Devotion[Storm Devotion] Storm Devotion[Storm Influencers] Storm Influencers civic; −×0.5 Encountered fewer than 4 cosmic storms",
+        "DLC": "[Cosmic Storms]"
+      }
+    },
+    {
+      "id": "Lost Building Methods",
+      "section": "Industry event technologies",
+      "data": {
+        "Technology": "Lost Building Methods Any civilization with a long enough history has examples of great wonders built by forgotten ancients which can no longer be replicated. Luckily for us we have documented these great ancients when they appeared on pre-FTL worlds.",
+        "Cost": "3000",
+        "Tier": "2",
+        "Effects / unlocks": "[Envoy] +0.25 Available Envoys; [Empire sprawl] −30% Empire Size from Districts; [Mod planet building cost mult] −30% District Cost",
+        "Prerequisites": "[First Contact] Observation Insights situation"
+      }
+    },
+    {
+      "id": "Leviathan Tech Genesis",
+      "section": "Industry event technologies",
+      "data": {
+        "Technology": "Leviathan Tech Genesis Utilizing the received knowledge seized from Leviathans, we now have access to new improvements for our frames.",
+        "Cost": "16000",
+        "Tier": "5",
+        "Effects / unlocks": "[Feature] Mechanical leviathan traits",
+        "Prerequisites": "[The Machine Age] Defeated a mechanical guardian"
+      }
+    },
+    {
+      "id": "Pyroclastic Resonation",
+      "section": "Industry event technologies",
+      "data": {
+        "Technology": "Pyroclastic Resonation By harnessing the extreme thermal energy found on molten worlds, our starbases can increase the energy output in a system with exceptional efficiency.",
+        "Cost": "2000",
+        "Tier": "2",
+        "Effects / unlocks": "[Sb pyroclastic resonator] Pyroclastic Resonator",
+        "Prerequisites": "[Shadows of the Shroud] Extreme Temperatures anomaly"
+      }
+    },
+    {
+      "id": "Nanocomposite Materials",
+      "section": "Materials",
+      "data": {
+        "Technology": "Nanocomposite Materials Reinforced nanocomposite hull plating can provide an extra layer of protection that could be the difference between life and death in a combat situation.",
+        "Cost": "2000",
+        "Tier": "0",
+        "Effects / unlocks": "[Ship part armor 1] Nanocomposite Armor"
+      }
+    },
+    {
+      "id": "Ceramo-Metal Materials",
+      "section": "Materials",
+      "data": {
+        "Technology": "Ceramo-Metal Materials A combination of different metals and ceramics that result in a strong armor without sacrificing flexibility.",
+        "Cost": "1250",
+        "Tier": "1",
+        "Effects / unlocks": "[Ship part armor 2] Ceramo-Metal Armor; [Mod army health] +5% Army Health",
+        "Prerequisites": "[Tech ship armor 1] Nanocomposite Materials",
+        "Draw weight": "Base: 118.75 Modifiers; +×1.5 [Specialist subject bulwark] Bulwark subject"
+      }
+    },
+    {
+      "id": "Plasteel Materials",
+      "section": "Materials",
+      "data": {
+        "Technology": "Plasteel Materials Plasteel is an elastic material that combines many of the qualities of plastics and metal. It is relatively cheap to produce and can be used to augment ship armor.",
+        "Cost": "2500",
+        "Tier": "2",
+        "Effects / unlocks": "[Ship part armor 3] Plasteel Armor; [Mod army health] +5% Army Health",
+        "Prerequisites": "[Ceramo-Metal Materials] Ceramo-Metal Materials",
+        "Draw weight": "Base: 93.75 Modifiers; +×1.5 [Specialist subject bulwark] Bulwark subject"
+      }
+    },
+    {
+      "id": "Durasteel Materials",
+      "section": "Materials",
+      "data": {
+        "Technology": "Durasteel Materials This strong yet flexible material is capable of withstanding severe punishment. It serves well as ship armor.",
+        "Cost": "5000",
+        "Tier": "3",
+        "Effects / unlocks": "[Ship part armor 4] Durasteel Armor; [Mod army health] +5% Army Health",
+        "Prerequisites": "[Tech ship armor 3] Plasteel Materials",
+        "Draw weight": "Base: 75 Modifiers; +×1.5 [Specialist subject bulwark] Bulwark subject"
+      }
+    },
+    {
+      "id": "Neutronium Materials",
+      "section": "Materials",
+      "data": {
+        "Technology": "Neutronium Materials This incredibly dense and strong material can resist firepower that would turn armor made of any other alloys into slag.",
+        "Cost": "10000",
+        "Tier": "4",
+        "Effects / unlocks": "[Ship part armor 5] Neutronium Armor; [Mod army health] +5% Army Health",
+        "Prerequisites": "[Durasteel Materials] Durasteel Materials",
+        "Draw weight": "Base: 50 Modifiers; +×1.5 [Specialist subject bulwark] Bulwark subject"
+      }
+    },
+    {
+      "id": "Armor Hardening Incorporating a crystal lattice in our ship's defenses provides some resistance to weapons that normally cut through armor.",
+      "section": "Materials",
+      "data": {
+        "Technology": "Armor Hardening Incorporating a crystal lattice in our ship's defenses provides some resistance to weapons that normally cut through armor.",
+        "Cost": "3000",
+        "Tier": "2",
+        "Effects / unlocks": "[Ship part armor hardener 1] Reactive Armor",
+        "Prerequisites": "[Ceramo-Metal Alloys] Ceramo-Metal Alloys; [Tech rare crystals] Rare Crystal Manufacturing",
+        "Draw weight": "Base: 70"
+      }
+    },
+    {
+      "id": "Adaptive Armor Hardening Threads of living metal react to incoming fire, rearranging itself to better resist penetrating weapons fire.",
+      "section": "Materials",
+      "data": {
+        "Technology": "Adaptive Armor Hardening Threads of living metal react to incoming fire, rearranging itself to better resist penetrating weapons fire.",
+        "Cost": "24000",
+        "Tier": "5",
+        "Effects / unlocks": "[Ship part armor hardener 2] Living Reactive Armor",
+        "Prerequisites": "[Armor Hardening] Armor Hardening; [Living Metal] Living Metal",
+        "Draw weight": "Base: 20"
+      }
+    },
+    {
+      "id": "Matter Compression",
+      "section": "Materials",
+      "data": {
+        "Technology": "Matter Compression Compressing suitable materials into ultra-dense forms is a cheap and efficient way to improve their ability to absorb weapons-grade impacts.",
+        "Cost": "50000",
+        "Tier": "5",
+        "Effects / unlocks": "[Mod ship armor mult] +5% Armor Hit Points",
+        "Prerequisites": "[Tech ship armor 3] Plasteel Materials",
+        "Draw weight": "Base: 12.5 Modifiers; −×0.01 another repeatable tech was drawn"
+      }
+    },
+    {
+      "id": "Nano-Circuit Assembly",
+      "section": "Materials",
+      "data": {
+        "Technology": "Nano-Circuit Assembly With pre-programmed nano-circuits, many consumer products can be rapidly assembled in fabricators.",
+        "Cost": "1500",
+        "Tier": "1",
+        "Effects / unlocks": "[Civilian Fabricators] Civilian Fabricators; [Recirculation Center] Recirculation Center",
+        "Prerequisites": "[Tech basic industry] Industrial Base; [Rare crystals] Access to Rare Crystals through tech or galactic market; [Consumer goods] Empire uses Consumer Goods",
+        "Draw weight": "Base: 90 Modifiers; +×1.5 [Prospectorium] Prospectorium subject"
+      }
+    },
+    {
+      "id": "Replicator Kiosks",
+      "section": "Materials",
+      "data": {
+        "Technology": "Replicator Kiosks These kiosks can replicate any pre-approved object if its pattern has been stored within their memory banks.",
+        "Cost": "4000",
+        "Tier": "3",
+        "Effects / unlocks": "[Civilian Repli-Complexes] Civilian Repli-Complexes; [Distributed Design Center] Distributed Design Center; [Orbital Logistics Systems] Orbital Logistics Systems",
+        "Prerequisites": "[Colonial Centralization] Colonial Centralization; [Nano-Circuit Assembly] Nano-Circuit Assembly; [Consumer goods] Empire uses Consumer Goods",
+        "Draw weight": "Base: 130 Modifiers; +×1.5 [Prospectorium] Prospectorium subject"
+      }
+    },
+    {
+      "id": "Holographic Casts",
+      "section": "Materials",
+      "data": {
+        "Technology": "Holographic Casts Solid holographic casts can alter their shapes at a moment's notice, speeding up alloy production.",
+        "Cost": "1500",
+        "Tier": "1",
+        "Effects / unlocks": "[Alloy Mega-Forges] Alloy Mega-Forges; [Alloy Reclamation Plant] Alloy Reclamation Plant",
+        "Prerequisites": "[Tech basic industry] Industrial Base; [Volatile motes] Access to Volatile Motes through tech or galactic market",
+        "Draw weight": "Base: 90 Modifiers; +×1.5 [Prospectorium] Prospectorium subject"
+      }
+    },
+    {
+      "id": "Nano-Separators",
+      "section": "Materials",
+      "data": {
+        "Technology": "Nano-Separators Nano-separators are a revolutionary new step in the creation of alloys, simplifying the casting process while improving overall production quality.",
+        "Cost": "4000",
+        "Tier": "3",
+        "Effects / unlocks": "[Alloy Nano-Plants] Alloy Nano-Plants; [Metallurgical Research Lab] Metallurgical Research Lab; [Alloy Processing Facilities] Alloy Processing Facilities",
+        "Prerequisites": "[Colonial Centralization] Colonial Centralization; [Tech alloys 1] Holographic Casts",
+        "Draw weight": "Base: 130 Modifiers; +×1.5 [Prospectorium] Prospectorium subject"
+      }
+    },
+    {
+      "id": "Ceramo-Metal Alloys",
+      "section": "Materials",
+      "data": {
+        "Technology": "Ceramo-Metal Alloys The widespread use of advanced ceramics in industry can improve metallurgical yields.",
+        "Cost": "2000",
+        "Tier": "2",
+        "Effects / unlocks": "[Metallurgist] +5% Metallurgists Output",
+        "Prerequisites": "[Tech alloys 1] Holographic Casts; [Ceramo-Metal Materials] Ceramo-Metal Materials",
+        "Draw weight": "Base: 170"
+      }
+    },
+    {
+      "id": "Durasteel-Laced Alloys",
+      "section": "Materials",
+      "data": {
+        "Technology": "Durasteel-Laced Alloys By replacing antiquated ceramo-metal equipment with cutting edge technology, we can run our forges hotter and longer, increasing production.",
+        "Cost": "8000",
+        "Tier": "4",
+        "Effects / unlocks": "[Metallurgist] +5% Metallurgists Output",
+        "Prerequisites": "[Ceramo-Metal Alloys] Ceramo-Metal Alloys; [Nano-Separators] Nano-Separators; [Durasteel Materials] Durasteel Materials",
+        "Draw weight": "Base: 90"
+      }
+    },
+    {
+      "id": "Exotic Gas Refining",
+      "section": "Materials",
+      "data": {
+        "Technology": "Exotic Gas Refining Exotic Gas can be produced artificially, but it is a difficult process that requires advanced refinery equipment.",
+        "Cost": "2000",
+        "Tier": "2",
+        "Effects / unlocks": "[Exotic gases] Can use Exotic Gases resource; [Exotic Gas Refineries] Exotic Gas Refineries",
+        "Prerequisites": "[Tech basic industry] Industrial Base",
+        "Draw weight": "Base: 170 Modifiers; −×0.5 any celestial body within borders has a deposit of [Exotic gases] Exotic Gases"
+      }
+    },
+    {
+      "id": "Rare Crystal Manufacturing",
+      "section": "Materials",
+      "data": {
+        "Technology": "Rare Crystal Manufacturing The crystallization process is complicated and difficult, but synthetic crystals can be manufactured by using specialized industrial plants.",
+        "Cost": "2000",
+        "Tier": "2",
+        "Effects / unlocks": "[Rare crystals] Can use Rare Crystals resource; [Synthetic Crystal Plants] Synthetic Crystal Plants",
+        "Prerequisites": "[Tech basic industry] Industrial Base",
+        "Draw weight": "Base: 170 Modifiers; −×0.5 any celestial body within borders has a deposit of [Rare crystals] Rare Crystals"
+      }
+    },
+    {
+      "id": "Exotic Gas Extraction",
+      "section": "Materials",
+      "data": {
+        "Technology": "Exotic Gas Extraction Pockets of Exotic Gas are rare and often inaccessible by conventional means. Such deposits can only be reached by using special extractor technology.",
+        "Cost": "2000",
+        "Tier": "2",
+        "Effects / unlocks": "[Exotic gases] Can use Exotic Gases resource; [District specialization exotic gases] Exotic Gas Capture specialization; [Gas Extraction Wells] Gas Extraction Wells; [Miner] Miners can harvest Exotic Gases from planetary features",
+        "Prerequisites": "[Tech space construction] Offworld Construction; [Exotic gases] Exotic Gases deposit within borders",
+        "Draw weight": "Base: 170"
+      }
+    },
+    {
+      "id": "Rare Crystal Mining",
+      "section": "Materials",
+      "data": {
+        "Technology": "Rare Crystal Mining Mining these crystals without damaging or even destroying them is an extremely delicate process. It requires advanced equipment capable of pinpoint precision.",
+        "Cost": "2000",
+        "Tier": "2",
+        "Effects / unlocks": "[Rare crystals] Can use Rare Crystals resource; [District specialization rare crystals] Rare Crystal Extraction specialization; [Crystal Mines] Crystal Mines; [Miner] Miners can harvest Rare Crystals from planetary features",
+        "Prerequisites": "[Tech space construction] Offworld Construction; [Rare crystals] Rare Crystals deposit within borders",
+        "Draw weight": "Base: 170"
+      }
+    },
+    {
+      "id": "Betharian Refining",
+      "section": "Materials",
+      "data": {
+        "Technology": "Betharian Refining The Betharian minerals appear to have originated from singular source, but were scattered across the galaxy millennia ago. The minerals are most often encountered as pebble-sized clusters, and are highly flammable.",
+        "Cost": "1250",
+        "Tier": "2",
+        "Effects / unlocks": "[Zone betharian] Betharian Processing; [Betharian Power Plant] Betharian Power Plant",
+        "Prerequisites": "[Tech space construction] Offworld Construction; [Betharian Fields] Betharian Fields planetary feature on any colony",
+        "Draw weight": "Base: 190"
+      }
+    },
+    {
+      "id": "Living Metal",
+      "section": "Materials",
+      "data": {
+        "Technology": "Living Metal Mining and processing the rare living metals is exceedingly difficult, but successful application of the mutable alloys yields incomparable advantages.",
+        "Cost": "16000",
+        "Tier": "5",
+        "Effects / unlocks": "[Living Metal] Can use Living Metal resource",
+        "Prerequisites": "[Tech space construction] Offworld Construction; [Living Metal] Discovered Living Metal",
+        "Draw weight": "Base: 15"
+      }
+    },
+    {
+      "id": "Nanite Transmutation",
+      "section": "Materials",
+      "data": {
+        "Technology": "Nanite Transmutation The mass-production of these rare resources require particularly capable nanites.",
+        "Cost": "3000",
+        "Tier": "2",
+        "Effects / unlocks": "[Nanite Transmuter] Nanite Transmuter",
+        "Prerequisites": "[Nanites] Nanites deposit within borders",
+        "Draw weight": "Base: 35 Modifiers; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic",
+        "DLC": "[Distant Stars]"
+      }
+    },
+    {
+      "id": "Arc Furnace",
+      "section": "Materials",
+      "data": {
+        "Technology": "Arc Furnace Utilizing the raw power of a molten planet, the Arc Furnace unlocks otherwise inaccessible minerals and improves system-wide mining operations.",
+        "Cost": "3000",
+        "Tier": "2",
+        "Effects / unlocks": "[Fleet order button build megastructure] Arc Furnace; +3 Arc Furnace limit",
+        "Draw weight": "Base: 35 Modifiers; +×2 owns system with an intact Arc Furnace; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; −×0.2 no council scientist with either: [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait [Leader trait bg basic][Leader trait maniacal][Maniacal] Maniacal trait [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise materials][Leader trait overlay councilor][Expertise: Materials] Expertise: Materials trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg basic][Leader trait maniacal][Maniacal] Maniacal trait; [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait; [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise materials][Leader trait overlay councilor][Expertise: Materials] Expertise: Materials trait",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Quantum Drilling Plant",
+      "section": "Materials",
+      "data": {
+        "Technology": "Quantum Drilling Plant This mining plant can find minerals anywhere in this planet's mantle using quantum tunneling technology to bore through solid materials without physical contact.",
+        "Cost": "35000",
+        "Tier": "5",
+        "Effects / unlocks": "[Quantum Drilling Plant] Quantum Drilling Plant",
+        "Prerequisites": "[Yes] Either: [Enigmatic Engineering] Enigmatic Engineering [Cosmogenesis] Cosmogenesis level 2; [Enigmatic Engineering] Enigmatic Engineering; [Cosmogenesis] Cosmogenesis level 2",
+        "Draw weight": "Base: 20 Modifiers; +×1.5 [Technological Ascendancy] Technological Ascendancy ascension perk; +×2 Synaptic Lathe has 50+ pops",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Quantum Drilling Hub",
+      "section": "Materials",
+      "data": {
+        "Technology": "Quantum Drilling Hub This mining hub can extract minerals anywhere down to the planet's outer core using quantum tunneling technology to bore through solid or liquid materials without physical contact.",
+        "Cost": "35000",
+        "Tier": "5",
+        "Effects / unlocks": "[Quantum Drilling Hub] Quantum Drilling Hub",
+        "Prerequisites": "[Quantum Drilling Plant] Quantum Drilling Plant",
+        "Draw weight": "Base: 20",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Dimensional Replicator",
+      "section": "Materials",
+      "data": {
+        "Technology": "Dimensional Replicator This fabricator's technology achieves flawless conversion from energy to matter.",
+        "Cost": "35000",
+        "Tier": "5",
+        "Effects / unlocks": "[Dimensional Replicator] Dimensional Replicator",
+        "Prerequisites": "[Cosmogenesis] Cosmogenesis level 4",
+        "Draw weight": "Base: 20 Modifiers; +×1.5 [Technological Ascendancy] Technological Ascendancy ascension perk; +×2 Synaptic Lathe has 50+ pops",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Dimensional Fabricator",
+      "section": "Materials",
+      "data": {
+        "Technology": "Dimensional Fabricator This advanced fabricator seamlessly tunnels into the fabric of dimensional space, extracting valuable resources.",
+        "Cost": "35000",
+        "Tier": "5",
+        "Effects / unlocks": "[Dimensional Fabricator] Dimensional Fabricator",
+        "Prerequisites": "[Dimensional Fabricator] Dimensional Replicator",
+        "Draw weight": "Base: 20",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Hyper-Forge",
+      "section": "Materials",
+      "data": {
+        "Technology": "Hyper-Forge This forge's production speed is limited only by the quantity of resources loaded into it.",
+        "Cost": "35000",
+        "Tier": "5",
+        "Effects / unlocks": "[Hyper-Forge] Hyper-Forge",
+        "Prerequisites": "[Yes] Either: [Enigmatic Engineering] Enigmatic Engineering [Cosmogenesis] Cosmogenesis level 5; [Enigmatic Engineering] Enigmatic Engineering; [Cosmogenesis] Cosmogenesis level 5",
+        "Draw weight": "Base: 20 Modifiers; +×1.5 [Technological Ascendancy] Technological Ascendancy ascension perk; +×2 Synaptic Lathe has 50+ pops",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Auto-Forge",
+      "section": "Materials",
+      "data": {
+        "Technology": "Auto-Forge The expansive nano-replicator bays in this forge transform raw materials into advanced alloys with marvelous efficiency.",
+        "Cost": "35000",
+        "Tier": "5",
+        "Effects / unlocks": "[Auto-Forge] Auto-Forge",
+        "Prerequisites": "[Hyper-Forge] Hyper-Forge",
+        "Draw weight": "Base: 20",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Storm Dampening Generators",
+      "section": "Materials",
+      "data": {
+        "Technology": "Storm Dampening Generators These dampening field generators offer much needed protection to ships traversing cosmic storms.",
+        "Cost": "1250",
+        "Tier": "1",
+        "Effects / unlocks": "[Unknown] −50% Negative effects from cosmic storms on defense components",
+        "Prerequisites": "[Cosmic Weather Models] Cosmic Weather Models; [Yes] Encountered a cosmic storm",
+        "Draw weight": "Base: 85 Modifiers; +×2 if either: [Origin storm chasers] Storm Chasers [Astrometeorology][Weather Exploitation][Climate Modeling][Climate Modeling] Astrometeorology[Astrometeorology] Astrometeorology[Weather Exploitation] Weather Exploitation[Climate Modeling] Climate Modeling[Climate Modeling] Climate Modeling civic [Storm Devotion][Storm Influencers] Storm Devotion[Storm Devotion] Storm Devotion[Storm Influencers] Storm Influencers civic; [Origin storm chasers] Storm Chasers; [Astrometeorology][Weather Exploitation][Climate Modeling][Climate Modeling] Astrometeorology[Astrometeorology] Astrometeorology[Weather Exploitation] Weather Exploitation[Climate Modeling] Climate Modeling[Climate Modeling] Climate Modeling civic; [Storm Devotion][Storm Influencers] Storm Devotion[Storm Devotion] Storm Devotion[Storm Influencers] Storm Influencers civic",
+        "DLC": "[Cosmic Storms]"
+      }
+    },
+    {
+      "id": "Storm Breaker Coating",
+      "section": "Materials",
+      "data": {
+        "Technology": "Storm Breaker Coating This special coating charges the ship's exterior with a storm dampening field, leading to more efficient protection against storms.",
+        "Cost": "2000",
+        "Tier": "2",
+        "Effects / unlocks": "[Unknown] −100% Negative effects from cosmic storms on defense components",
+        "Prerequisites": "[Tech ship hull storm breaker 1] Storm Dampening Generators",
+        "Draw weight": "Base: 85 Modifiers; +×2 if either: [Origin storm chasers] Storm Chasers [Astrometeorology][Weather Exploitation][Climate Modeling][Climate Modeling] Astrometeorology[Astrometeorology] Astrometeorology[Weather Exploitation] Weather Exploitation[Climate Modeling] Climate Modeling[Climate Modeling] Climate Modeling civic [Storm Devotion][Storm Influencers] Storm Devotion[Storm Devotion] Storm Devotion[Storm Influencers] Storm Influencers civic; [Origin storm chasers] Storm Chasers; [Astrometeorology][Weather Exploitation][Climate Modeling][Climate Modeling] Astrometeorology[Astrometeorology] Astrometeorology[Weather Exploitation] Weather Exploitation[Climate Modeling] Climate Modeling[Climate Modeling] Climate Modeling civic; [Storm Devotion][Storm Influencers] Storm Devotion[Storm Devotion] Storm Devotion[Storm Influencers] Storm Influencers civic; −×0.5 Encountered fewer than 4 cosmic storms",
+        "DLC": "[Cosmic Storms]"
+      }
+    },
+    {
+      "id": "Payload Padding",
+      "section": "Materials",
+      "data": {
+        "Technology": "Payload Padding A new approach to alloy use in military applications significantly reduces the ability of cosmic storms to interfere with energy weaponry and explosive payloads.",
+        "Cost": "1250",
+        "Tier": "1",
+        "Effects / unlocks": "[Unknown] −50% Negative effects from cosmic storms on weapon components",
+        "Prerequisites": "[Cosmic Weather Models] Cosmic Weather Models; [Yes] Encountered a cosmic storm",
+        "Draw weight": "Base: 85 Modifiers; +×2 if either: [Origin storm chasers] Storm Chasers [Astrometeorology][Weather Exploitation][Climate Modeling][Climate Modeling] Astrometeorology[Astrometeorology] Astrometeorology[Weather Exploitation] Weather Exploitation[Climate Modeling] Climate Modeling[Climate Modeling] Climate Modeling civic [Storm Devotion][Storm Influencers] Storm Devotion[Storm Devotion] Storm Devotion[Storm Influencers] Storm Influencers civic; [Origin storm chasers] Storm Chasers; [Astrometeorology][Weather Exploitation][Climate Modeling][Climate Modeling] Astrometeorology[Astrometeorology] Astrometeorology[Weather Exploitation] Weather Exploitation[Climate Modeling] Climate Modeling[Climate Modeling] Climate Modeling civic; [Storm Devotion][Storm Influencers] Storm Devotion[Storm Devotion] Storm Devotion[Storm Influencers] Storm Influencers civic",
+        "DLC": "[Cosmic Storms]"
+      }
+    },
+    {
+      "id": "Tempest Cage Architecture",
+      "section": "Materials",
+      "data": {
+        "Technology": "Tempest Cage Architecture This novel approach to ship architecture will significantly reduce the negative effects cosmic storms have on our weapon systems.",
+        "Cost": "2000",
+        "Tier": "2",
+        "Effects / unlocks": "[Unknown] −100% Negative effects from cosmic storms on weapon components",
+        "Prerequisites": "[Cosmic Storms] Cosmic Storms DLC; [Tech ship hull storm breaker 1] Storm Dampening Generators",
+        "Draw weight": "Base: 85 Modifiers; +×2 if either: [Origin storm chasers] Storm Chasers [Astrometeorology][Weather Exploitation][Climate Modeling][Climate Modeling] Astrometeorology[Astrometeorology] Astrometeorology[Weather Exploitation] Weather Exploitation[Climate Modeling] Climate Modeling[Climate Modeling] Climate Modeling civic [Storm Devotion][Storm Influencers] Storm Devotion[Storm Devotion] Storm Devotion[Storm Influencers] Storm Influencers civic; [Origin storm chasers] Storm Chasers; [Astrometeorology][Weather Exploitation][Climate Modeling][Climate Modeling] Astrometeorology[Astrometeorology] Astrometeorology[Weather Exploitation] Weather Exploitation[Climate Modeling] Climate Modeling[Climate Modeling] Climate Modeling civic; [Storm Devotion][Storm Influencers] Storm Devotion[Storm Devotion] Storm Devotion[Storm Influencers] Storm Influencers civic; −×0.5 Encountered fewer than 4 cosmic storms",
+        "DLC": "[Cosmic Storms]"
+      }
+    },
+    {
+      "id": "Composite Mandibles",
+      "section": "Materials",
+      "data": {
+        "Technology": "Composite Mandibles These devastating appendages incorporate layered organic structures to enhance durability and cutting power, shredding even the toughest defenses.",
+        "Cost": "5000",
+        "Tier": "3",
+        "Effects / unlocks": "[Ship part mandible 2] Composite Mandibles",
+        "Prerequisites": "[BioGenesis] Biological shipset; [Rare crystals] Access to Rare Crystals through tech or galactic market",
+        "Draw weight": "Base: 75 Modifiers; +×1.5 [Fanatic militarist] Fanatic Militarist; +×1.25 [Militarist] Militarist",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Crystalline Mandibles",
+      "section": "Materials",
+      "data": {
+        "Technology": "Crystalline Mandibles These mandibles possess unparalleled sharpness and resilience, capable of slicing through advanced alloys with unnerving precision.",
+        "Cost": "10000",
+        "Tier": "4",
+        "Effects / unlocks": "[Ship part mandible 3] Crystalline Mandibles",
+        "Prerequisites": "[Tech mandibles 2] Composite Mandibles",
+        "Draw weight": "Base: 50 Modifiers; +×1.5 [Fanatic militarist] Fanatic Militarist; +×1.25 [Militarist] Militarist",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Crystal-Infused Plating",
+      "section": "Materials event technologies",
+      "data": {
+        "Technology": "Crystal-Infused Plating By infusing armor plating with Crystalline matter we are able to further increase the durability of our ships' protective hulls.",
+        "Cost": "3000",
+        "Tier": "2",
+        "Effects / unlocks": "[Ship part crystal armor 1] Crystal-Infused Plating",
+        "Prerequisites": "[Yes] Crystalline entities outcome"
+      }
+    },
+    {
+      "id": "Crystal-Forged Plating",
+      "section": "Materials event technologies",
+      "data": {
+        "Technology": "Crystal-Forged Plating Introducing Crystalline matter into the forging process further improves the ultra-hard qualities of crystal-infused metals.",
+        "Cost": "8000",
+        "Tier": "4",
+        "Effects / unlocks": "[Ship part crystal armor 2] Crystal-Forged Plating",
+        "Prerequisites": "[Yes] Destroying Crystal Nidus"
+      }
+    },
+    {
+      "id": "Artificial Dragonscales",
+      "section": "Materials event technologies",
+      "data": {
+        "Technology": "Artificial Dragonscales The Ether Drake's scales are made up of multiple layers of unique mineral nanostructures. Unorthodox manufacturing techniques allow us to closely emulate these self-repairing structures.",
+        "Cost": "25000",
+        "Tier": "5",
+        "Effects / unlocks": "[Ship part dragon armor] Dragonscale Armor",
+        "Prerequisites": "[Yes] Either: [Leviathans] Ether Drake or [Aquatics] Sky Dragon outcome [The Machine Age] Synthetic Queen event reward [Cosmogenesis] Cosmogenesis level 4; [Leviathans] Ether Drake or [Aquatics] Sky Dragon outcome; [The Machine Age] Synthetic Queen event reward; [Cosmogenesis] Cosmogenesis level 4",
+        "DLC": "[Leviathans][Aquatics][The Machine Age]"
+      }
+    },
+    {
+      "id": "Supreme Alloy",
+      "section": "Materials event technologies",
+      "data": {
+        "Technology": "Supreme Alloy What we thought was the greatest alloy turned out to be far from the truth. Countless pre-FTL refining processes have been cataloged, and we have now synthesized an unbearable metal.",
+        "Cost": "3000",
+        "Tier": "2",
+        "Effects / unlocks": "[Envoy] +0.25 Available Envoys; [Alloys] +0.25 Alloys from Metallurgists",
+        "Prerequisites": "Observation Insights situation",
+        "DLC": "[First Contact]"
+      }
+    },
+    {
+      "id": "Scalable Reservoir Computing",
+      "section": "Materials event technologies",
+      "data": {
+        "Technology": "Scalable Reservoir Computing Colossal in scale, the Synaptic Lathe is a reservoir computer. The processing power of our population's networked minds is used to compute and store data. The benefits are obvious, but some misguided species may view the transmutation of individuals into computing chips as morally questionable.",
+        "Cost": "16000",
+        "Tier": "5",
+        "Effects / unlocks": "[Fleet order button build megastructure] Synaptic Lathe megastructure",
+        "Prerequisites": "[Cosmogenesis] Cosmogenesis ascension perk",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Cetana's Nanites",
+      "section": "Materials event technologies",
+      "data": {
+        "Technology": "Cetana's Nanites Cetana's advanced nanite systems will tirelessly repair and refresh our ships at a rate far beyond our current capabilities.",
+        "Cost": "24000",
+        "Tier": "5",
+        "Effects / unlocks": "[Ship part nanite repair system synth queen] Cetana's Nanite Repair System",
+        "Prerequisites": "The Synthetic Queen debris",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Asteroidal Carapace",
+      "section": "Materials event technologies",
+      "data": {
+        "Technology": "Asteroidal Carapace The shell of a Cutholoid is not mineral alone, but reinforced with strong biological fibers. We can synthesize this process using advanced metallurgic techniques.",
+        "Cost": "0",
+        "Tier": "3",
+        "Effects / unlocks": "[Ship part asteroidal carapace] Asteroidal Carapace",
+        "Prerequisites": "[Grand Archive] Cutholoids first contact option",
+        "DLC": "[Grand Archive]"
+      }
+    },
+    {
+      "id": "Alloy Fossilization",
+      "section": "Materials event technologies",
+      "data": {
+        "Technology": "Alloy Fossilization By exposing biological material to simulated chthonian-level radiation, we can fossilize cellular structures into usable metallic alloys.",
+        "Cost": "2000",
+        "Tier": "2",
+        "Effects / unlocks": "[Building bio furnace] Bio-Furnace",
+        "Prerequisites": "Chthonian Biomass anomaly",
+        "DLC": "[Shadows of the Shroud]"
+      }
+    },
+    {
+      "id": "Chemical Thrusters",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Chemical Thrusters Simple yet moderately effective chemical thrusters that rely on combustible propellant to function.",
+        "Tier": "0",
+        "Effects / unlocks": "[Ship part thruster 1] Chemical Thruster"
+      }
+    },
+    {
+      "id": "Ion Thrusters",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Ion Thrusters These electric thrusters use beams of ions to generate thrust without the need for propellant.",
+        "Cost": "2000",
+        "Tier": "2",
+        "Effects / unlocks": "[Ship part thruster 2] Ion Thruster",
+        "Prerequisites": "[Chemical Thrusters] Chemical thrusters",
+        "Draw weight": "Base: 106.25 Modifiers; +×2 [Destroyers] Destroyers technology"
+      }
+    },
+    {
+      "id": "Plasma Thrusters",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Plasma Thrusters An advanced form of electric propulsion, plasma thrusters afford ships greater sublight speeds and maneuverability.",
+        "Cost": "4000",
+        "Tier": "3",
+        "Effects / unlocks": "[Ship part thruster 3] Plasma Thruster",
+        "Prerequisites": "[Ion Thrusters] Ion Thrusters",
+        "Draw weight": "Base: 81.25 Modifiers; +×2 [Cruisers] Cruisers technology"
+      }
+    },
+    {
+      "id": "Impulse Thrusters",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Impulse Thrusters These highly advanced fusion-powered thrusters provide ships with unmatched maneuverability and speed under sublight conditions.",
+        "Cost": "8000",
+        "Tier": "4",
+        "Effects / unlocks": "[Ship part thruster 4] Impulse Thruster",
+        "Prerequisites": "[Plasma Thrusters] Plasma Thrusters",
+        "Draw weight": "Base: 56.25 Modifiers; +×2 [Battleships] Battleships technology"
+      }
+    },
+    {
+      "id": "Afterburners",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Afterburners These powerful thrusters provide additional combat speed but consume a great deal of power.",
+        "Cost": "1250",
+        "Tier": "1",
+        "Effects / unlocks": "[Ship part afterburners 1] Afterburners",
+        "Prerequisites": "[Chemical Thrusters] Chemical Thrusters",
+        "Draw weight": "Base: 118.75 Modifiers; +×2 [Ion Thrusters] Ion Thrusters technology; +×2 [Plasma Thrusters] Plasma Thrusters technology"
+      }
+    },
+    {
+      "id": "Advanced Afterburners",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Advanced Afterburners This improved version of the standard afterburners provide an even greater boost to a ship's combat speed.",
+        "Cost": "5000",
+        "Tier": "3",
+        "Effects / unlocks": "[Ship part afterburners 2] Advanced Afterburners",
+        "Prerequisites": "[Afterburners] Afterburners; [Plasma Thrusters] Plasma Thrusters",
+        "Draw weight": "Base: 75"
+      }
+    },
+    {
+      "id": "Flak Battery",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Flak Battery Gun batteries that fire shrapnel rounds at close range. They are particularly lethal to enemy strike craft, but can also defend against missiles.",
+        "Tier": "0",
+        "Effects / unlocks": "[Ship part flak batteries 1] Flak Battery"
+      }
+    },
+    {
+      "id": "Flak Cannons",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Flak Cannons Upgraded flak batteries with new, more powerful shrapnel rounds.",
+        "Cost": "3000",
+        "Tier": "3",
+        "Effects / unlocks": "[Ship part flak batteries 2] Flak Cannon",
+        "Prerequisites": "[Flak Battery] Flak Battery",
+        "Draw weight": "Base: 70 Modifiers; +×1.5 [Fanatic militarist] Fanatic Militarist; +×1.25 [Militarist] Militarist"
+      }
+    },
+    {
+      "id": "Flak Artillery",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Flak Artillery Predictive tracking algorithms and even more powerful rounds make these batteries incredibly lethal to enemy strike craft.",
+        "Cost": "8000",
+        "Tier": "4",
+        "Effects / unlocks": "[Ship part flak batteries 3] Flak Artillery",
+        "Prerequisites": "[Flak Cannons] Flak Cannons",
+        "Draw weight": "Base: 45 Modifiers; +×1.5 [Fanatic militarist] Fanatic Militarist; +×1.25 [Militarist] Militarist"
+      }
+    },
+    {
+      "id": "Nuclear Missiles",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Nuclear Missiles Space-to-space missiles equipped with high-yield nuclear warheads. Although based on old pre-space technology, these crude fire-and-forget weapons can be surprisingly effective at range.",
+        "Tier": "0",
+        "Effects / unlocks": "[Ship part missile 1] Nuclear Missiles"
+      }
+    },
+    {
+      "id": "Fusion Missiles",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Fusion Missiles These updated space-to-space missiles have more powerful fusion warheads and improved flight performance.",
+        "Cost": "1250",
+        "Tier": "1",
+        "Effects / unlocks": "[Ship part missile 2] Fusion Missiles",
+        "Prerequisites": "[Tech missiles 1] Nuclear Missiles; [Tech fusion power] Fusion Power",
+        "Draw weight": "Base: 95 Modifiers; +×1.5 [Fanatic militarist] Fanatic Militarist; +×1.25 [Militarist] Militarist"
+      }
+    },
+    {
+      "id": "Antimatter Missiles",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Antimatter Missiles Advanced missiles equipped with very powerful antimatter warheads. A new and improved guidance system gives them a better chance of finding their targets.",
+        "Cost": "2000",
+        "Tier": "2",
+        "Effects / unlocks": "[Ship part missile 3] Antimatter Missiles",
+        "Prerequisites": "[Fusion Missiles] Fusion Missiles",
+        "Draw weight": "Base: 85 Modifiers; +×1.5 [Fanatic militarist] Fanatic Militarist; +×1.25 [Militarist] Militarist"
+      }
+    },
+    {
+      "id": "Quantum Missiles",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Quantum Missiles The latest version of space-to-space missile, this upgraded variant has an immensely powerful warhead that draws its energy from a zero point vacuum.",
+        "Cost": "4000",
+        "Tier": "3",
+        "Effects / unlocks": "[Ship part missile 4] Quantum Missiles",
+        "Prerequisites": "[Antimatter Missiles] Antimatter Missiles",
+        "Draw weight": "Base: 65 Modifiers; +×1.5 [Fanatic militarist] Fanatic Militarist; +×1.25 [Militarist] Militarist"
+      }
+    },
+    {
+      "id": "Marauder Missiles",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Marauder Missiles These highly advanced missiles are equipped with limited onboard AI pilots that substantially improve their performance and ability to track targets.",
+        "Cost": "10000",
+        "Tier": "4",
+        "Effects / unlocks": "[Ship part missile 5] Marauder Missiles",
+        "Prerequisites": "[Quantum Missiles] Quantum Missiles",
+        "Draw weight": "Base: 40 Modifiers; +×1.5 [Fanatic militarist] Fanatic Militarist; +×1.25 [Militarist] Militarist"
+      }
+    },
+    {
+      "id": "Swarmer Missiles",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Swarmer Missiles These smaller missiles are launched in volleys and have been specifically designed to overwhelm enemy point-defense systems.",
+        "Cost": "2500",
+        "Tier": "2",
+        "Effects / unlocks": "[Ship part swarmer missile 1] Swarmer Missiles",
+        "Prerequisites": "[Fusion Missiles] Fusion Missiles",
+        "Draw weight": "Base: 75 Modifiers; +×1.5 [Fanatic militarist] Fanatic Militarist; +×1.25 [Militarist] Militarist"
+      }
+    },
+    {
+      "id": "Whirlwind Missiles",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Whirlwind Missiles New miniaturization techniques will allow us to equip swarmer missiles with more powerful warheads and improved flight performance.",
+        "Cost": "10000",
+        "Tier": "4",
+        "Effects / unlocks": "[Ship part swarmer missile 2] Whirlwind Missiles",
+        "Prerequisites": "[Swarmer Missiles] Swarmer Missiles",
+        "Draw weight": "Base: 40 Modifiers; +×1.5 [Fanatic militarist] Fanatic Militarist; +×1.25 [Militarist] Militarist"
+      }
+    },
+    {
+      "id": "Space Torpedoes",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Space Torpedoes These torpedoes are essentially very large, slow-moving missiles. They are equipped with more powerful warheads and shield modulators that let them slip unmolested through energy screens.",
+        "Cost": "1250",
+        "Tier": "1",
+        "Effects / unlocks": "[Ship part torpedo 1] Space Torpedoes; [Frigate] Frigate; [Sb missile battery] Torpedo Battery; [Sb missile battery] Planetary Defense Batteries",
+        "Prerequisites": "[No][BioGenesis] Biological shipset",
+        "Draw weight": "Base: 75 Modifiers; +×1.5 [Fanatic militarist] Fanatic Militarist; +×1.25 [Militarist] Militarist"
+      }
+    },
+    {
+      "id": "Armored Torpedoes",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Armored Torpedoes Upgraded space torpedoes encased in armor, to better withstand enemy point-defense fire. The armor fragments into shards that cause additional damage when the torpedo detonates.",
+        "Cost": "5000",
+        "Tier": "3",
+        "Effects / unlocks": "[Ship part torpedo 2] Armored Torpedoes",
+        "Prerequisites": "[Space Torpedoes] Space Torpedoes",
+        "Draw weight": "Base: 60 Modifiers; +×1.5 [Fanatic militarist] Fanatic Militarist; +×1.25 [Militarist] Militarist"
+      }
+    },
+    {
+      "id": "Devastator Torpedoes",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Devastator Torpedoes Advanced torpedoes with very powerful warheads. They have a sleeker design, faster engines and upgraded shield modulators for slipping through energy screens.",
+        "Cost": "10000",
+        "Tier": "4",
+        "Effects / unlocks": "[Ship part torpedo 3] Devastator Torpedoes",
+        "Prerequisites": "[Armored Torpedoes] Armored Torpedoes",
+        "Draw weight": "Base: 40 Modifiers; +×1.5 [Fanatic militarist] Fanatic Militarist; +×1.25 [Militarist] Militarist"
+      }
+    },
+    {
+      "id": "Mass Drivers",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Mass Drivers These electromagnetic projectile launchers use magnets to accelerate armor-piercing rounds towards targets at high speeds.",
+        "Tier": "0",
+        "Effects / unlocks": "[Ship part mass driver 1] Mass Driver; [Sb gun battery] Gun Battery; [Sb gun battery] Planetary Defense Guns"
+      }
+    },
+    {
+      "id": "Coilguns",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Coilguns Coilguns are more powerful versions of the early mass drivers, using electromagnetic coils to rapidly accelerate projectiles towards targets.",
+        "Cost": "1250",
+        "Tier": "1",
+        "Effects / unlocks": "[Ship part mass driver 2] Coilgun; [Mod army damage mult] +5% Army damage",
+        "Prerequisites": "[Tech mass drivers 1] Mass Drivers",
+        "Draw weight": "Base: 95 Modifiers; +×1.5 [Fanatic militarist] Fanatic Militarist; +×1.25 [Militarist] Militarist"
+      }
+    },
+    {
+      "id": "Railguns",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Railguns The latest in electromagnetic accelerators, railguns use twin parallel rails to fire projectiles at incredible speeds.",
+        "Cost": "2000",
+        "Tier": "2",
+        "Effects / unlocks": "[Ship part mass driver 3] Railgun; [Mod army damage mult] +5% Army damage",
+        "Prerequisites": "[Coilguns] Coilguns",
+        "Draw weight": "Base: 85 Modifiers; +×1.5 [Fanatic militarist] Fanatic Militarist; +×1.25 [Militarist] Militarist"
+      }
+    },
+    {
+      "id": "Advanced Railguns",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Advanced Railguns A new version of the venerable railgun, with sturdier rails and an enhanced power supply. These weapons are even more powerful and accurate than their predecessors.",
+        "Cost": "4000",
+        "Tier": "3",
+        "Effects / unlocks": "[Ship part mass driver 4] Advanced Railgun; [Mod army damage mult] +5% Army damage",
+        "Prerequisites": "[Railguns] Railguns",
+        "Draw weight": "Base: 65 Modifiers; +×1.5 [Fanatic militarist] Fanatic Militarist; +×1.25 [Militarist] Militarist"
+      }
+    },
+    {
+      "id": "Gauss Cannons",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Gauss Cannons This updated version of the old coilgun design is even more destructive than the latest railgun designs. It is capable of launching projectiles with incredible accuracy and speed.",
+        "Cost": "8000",
+        "Tier": "4",
+        "Effects / unlocks": "[Ship part mass driver 5] Gauss Cannon; [Mod army damage mult] +5% Army damage",
+        "Prerequisites": "[Advanced Railguns] Advanced Railguns",
+        "Draw weight": "Base: 45 Modifiers; +×1.5 [Fanatic militarist] Fanatic Militarist; +×1.25 [Militarist] Militarist"
+      }
+    },
+    {
+      "id": "Kinetic Battery",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Kinetic Battery Very long-range artillery capable of hurling powerful rounds over extreme distances with a large degree of accuracy.",
+        "Cost": "6000",
+        "Tier": "3",
+        "Effects / unlocks": "[Ship part kinetic artillery 1] Kinetic Battery",
+        "Prerequisites": "[Advanced Railguns] Advanced Railguns",
+        "Draw weight": "Base: 50 Modifiers; +×1.5 [Fanatic militarist] Fanatic Militarist; +×1.25 [Militarist] Militarist"
+      }
+    },
+    {
+      "id": "Kinetic Artillery",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Kinetic Artillery An even more powerful long-range, ship-based artillery cannon, equipped with a new barrel and an upgraded fire control computer.",
+        "Cost": "10000",
+        "Tier": "4",
+        "Effects / unlocks": "[Ship part kinetic artillery 2] Kinetic Artillery",
+        "Prerequisites": "[Gauss Cannons] Gauss Cannons; [Kinetic Battery] Kinetic Battery",
+        "Draw weight": "Base: 40 Modifiers; +×1.5 [Fanatic militarist] Fanatic Militarist; +×1.25 [Militarist] Militarist"
+      }
+    },
+    {
+      "id": "Mega Cannon",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Mega Cannon An enormous mass accelerator cannon that can only be placed in a spinal mount and fires monstrously powerful rounds over vast distances.",
+        "Cost": "10000",
+        "Tier": "4",
+        "Effects / unlocks": "[Ship part mass accelerator 1] Mega Cannon",
+        "Prerequisites": "[Battleships] Battleships; [Advanced Railguns] Advanced Railguns",
+        "Draw weight": "Base: 40 Modifiers; +×1.5 [Fanatic militarist] Fanatic Militarist; +×1.25 [Militarist] Militarist"
+      }
+    },
+    {
+      "id": "Giga Cannon",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Giga Cannon An even more powerful mass accelerator cannon that can rip through even the toughest shields.",
+        "Cost": "12000",
+        "Tier": "4",
+        "Effects / unlocks": "[Ship part mass accelerator 2] Giga Cannon",
+        "Prerequisites": "[Gauss Cannons] Gauss Cannons; [Tech mass accelerator 1] Mega Cannon",
+        "Draw weight": "Base: 35 Modifiers; +×1.5 [Fanatic militarist] Fanatic Militarist; +×1.25 [Militarist] Militarist"
+      }
+    },
+    {
+      "id": "Autocannons",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Autocannons Large-caliber ballistic weapons that fire cased explosive shells. The main advantage of these cannons is their high rate of fire.",
+        "Cost": "2500",
+        "Tier": "2",
+        "Effects / unlocks": "[Ship part autocannon 1] Autocannon; [Mod army damage mult] +5% Army damage",
+        "Prerequisites": "[Coilguns] Coilguns",
+        "Draw weight": "Base: 75 Modifiers; +×1.5 [Fanatic militarist] Fanatic Militarist; +×1.25 [Militarist] Militarist"
+      }
+    },
+    {
+      "id": "Ripper Cannons",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Ripper Cannons These upgraded rotary autocannons feature improved tracking and fire control systems. This allows them to maintain an even higher rate of fire.",
+        "Cost": "4000",
+        "Tier": "3",
+        "Effects / unlocks": "[Ship part autocannon 2] Ripper Autocannon; [Mod army damage mult] +5% Army damage",
+        "Prerequisites": "[Autocannons] Autocannons",
+        "Draw weight": "Base: 65 Modifiers; +×1.5 [Fanatic militarist] Fanatic Militarist; +×1.25 [Militarist] Militarist"
+      }
+    },
+    {
+      "id": "Stormfire Cannons",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Stormfire Cannons Advanced rotary autocannons capable of spewing a cloud of high-explosive shells at a target.",
+        "Cost": "8000",
+        "Tier": "4",
+        "Effects / unlocks": "[Ship part autocannon 3] Stormfire Autocannon; [Mod army damage mult] +5% Army damage",
+        "Prerequisites": "[Ripper Cannons] Ripper Cannons",
+        "Draw weight": "Base: 45 Modifiers; +×1.5 [Fanatic militarist] Fanatic Militarist; +×1.25 [Militarist] Militarist"
+      }
+    },
+    {
+      "id": "Thermodynamic Yield Control",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Thermodynamic Yield Control With the chemical reaction tightly controlled by missile-board microprocessors, warhead detonations can be tuned for maximum effect for local conditions at the time of impact.",
+        "Cost": "50000",
+        "Tier": "5",
+        "Effects / unlocks": "[Mod ship damage mult] +5% Explosive Weapon Damage",
+        "Prerequisites": "[Antimatter Missiles] Antimatter Missiles",
+        "Draw weight": "Base: 12.5 Modifiers; −×0.01 another repeatable tech was drawn"
+      }
+    },
+    {
+      "id": "Miniaturized Pre-Igniters",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Miniaturized Pre-Igniters Advances in miniaturization allow for more rapid loading and discharging of rocket-propelled payloads.",
+        "Cost": "50000",
+        "Tier": "5",
+        "Effects / unlocks": "[Attack speed] +5% Explosive Weapon Attack Speed",
+        "Prerequisites": "[Antimatter Missiles] Antimatter Missiles",
+        "Draw weight": "Base: 12.5 Modifiers; −×0.01 another repeatable tech was drawn"
+      }
+    },
+    {
+      "id": "High-Density Munitions",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "High-Density Munitions Ultra-dense slugs can punch through even the strongest of projected shields.",
+        "Cost": "50000",
+        "Tier": "5",
+        "Effects / unlocks": "[Mod ship damage mult] +5% Kinetic Weapon Damage",
+        "Prerequisites": "[Railguns] Railguns",
+        "Draw weight": "Base: 12.5 Modifiers; −×0.01 another repeatable tech was drawn"
+      }
+    },
+    {
+      "id": "Loader Efficiency",
+      "section": "Propulsion",
+      "data": {
+        "Technology": "Loader Efficiency Minor technical advances combine with improved shipboard routines for handling munitions to provide a noticeable boost in fire rate.",
+        "Cost": "50000",
+        "Tier": "5",
+        "Effects / unlocks": "[Attack speed] +5% Kinetic Weapon Attack Speed",
+        "Prerequisites": "[Railguns] Railguns",
+        "Draw weight": "Base: 12.5 Modifiers; −×0.01 another repeatable tech was drawn"
+      }
+    },
+    {
+      "id": "Thruster Bio-Integration",
+      "section": "Propulsion event technologies",
+      "data": {
+        "Technology": "Thruster Bio-Integration Artificial thrusters can be integrated into spaceborne organisms with appropriate considerations for energy supply and connections to neural motor centers.",
+        "Cost": "2000",
+        "Tier": "2",
+        "Effects / unlocks": "[Feature] Space fauna can use researched thruster components",
+        "Prerequisites": "[Controlled Mutations] Controlled Mutations"
+      }
+    },
+    {
+      "id": "Dark Matter Propulsion",
+      "section": "Propulsion event technologies",
+      "data": {
+        "Technology": "Dark Matter Propulsion These thrusters utilize Dark Matter technology to generate propulsion in a manner that appears to defy numerous laws of physics.",
+        "Cost": "35000",
+        "Tier": "5",
+        "Effects / unlocks": "[Ship part thruster 5] Dark Matter Thrusters",
+        "Prerequisites": "[Impulse Thrusters] Impulse Thrusters; [Yes] Either: [Yes] Analyzed Fallen empire debris [Dark Matter Breakthrough] Dark Matter Breakthrough agenda [Cosmogenesis] Cosmogenesis level 2; [Yes] Analyzed Fallen empire debris; [Dark Matter Breakthrough] Dark Matter Breakthrough agenda; [Cosmogenesis] Cosmogenesis level 2"
+      }
+    },
+    {
+      "id": "Nanite Autocannon",
+      "section": "Propulsion event technologies",
+      "data": {
+        "Technology": "Nanite Autocannon Highly advanced autocannons capable of ejecting shells that explode into a cloud of nanites at the target, overwhelming shields and chewing through hull sections.",
+        "Cost": "24000",
+        "Tier": "5",
+        "Effects / unlocks": "[Ship part autocannon 4] Nanite Autocannon",
+        "Prerequisites": "[Yes] Either: [Distant Stars] Scavenger Bot debris [Flood of Supremacy] Flood of Supremacy tradition [Cosmogenesis] Cosmogenesis level 5; [Distant Stars] Scavenger Bot debris; [Flood of Supremacy] Flood of Supremacy tradition; [Cosmogenesis] Cosmogenesis level 5"
+      }
+    },
+    {
+      "id": "Nanite Flak Battery",
+      "section": "Propulsion event technologies",
+      "data": {
+        "Technology": "Nanite Flak Battery Improving upon previous designs by launching canisters of nanites capable of eating away at strike craft, these flak batteries are the bane of any fighter pilot.",
+        "Cost": "24000",
+        "Tier": "5",
+        "Effects / unlocks": "[Ship part flak batteries 4] Nanite Flak Battery",
+        "Prerequisites": "[Yes] Either: [Distant Stars] Scavenger Bot debris [Flood of Supremacy] Flood of Supremacy tradition [Cosmogenesis] Cosmogenesis level 5; [Distant Stars] Scavenger Bot debris; [Flood of Supremacy] Flood of Supremacy tradition; [Cosmogenesis] Cosmogenesis level 5"
+      }
+    },
+    {
+      "id": "Orbital Trash Dispersal",
+      "section": "Propulsion event technologies",
+      "data": {
+        "Technology": "Orbital Trash Dispersal This orbital bombardment management system spams a planet with millions of minute, high-velocity projectiles, overwhelming planetside defensive grids with trash data. Ships equipped with this component will cause more damage during orbital bombardment.",
+        "Cost": "4000",
+        "Tier": "1",
+        "Effects / unlocks": "[Ship part orbital trash dispersal] Orbital Trash Disperser",
+        "Prerequisites": "[MegaCorp] Caravan deal"
+      }
+    },
+    {
+      "id": "Ordered Retreat",
+      "section": "Propulsion event technologies",
+      "data": {
+        "Technology": "Ordered Retreat While studying the victors of battles might be the most obvious way to gain insight from combat, observing the loser on pre-FTL worlds has taught us how to organize our withdraws more effectively.",
+        "Cost": "3000",
+        "Tier": "2",
+        "Effects / unlocks": "[Envoy] +0.25 Available Envoys; [Time] −15% Time spent Missing In Action",
+        "Prerequisites": "[First Contact] Observation Insights situation"
+      }
+    },
+    {
+      "id": "Temple of Transportation",
+      "section": "Propulsion event technologies",
+      "data": {
+        "Technology": "Temple of Transportation Transportation networks bring people together: a sentiment shared by many civilization we observed. While we do not have steam engines, our hyper relay networks could serve a similar purpose.",
+        "Cost": "3000",
+        "Tier": "2",
+        "Effects / unlocks": "[Envoy] +0.25 Available Envoys; [Overlord] +1 Unity from Hyper Relays",
+        "Prerequisites": "[First Contact] Observation Insights situation"
+      }
+    },
+    {
+      "id": "Boarding Cables",
+      "section": "Propulsion event technologies",
+      "data": {
+        "Technology": "Boarding Cables Repurposed small-caliber artillery that fire piercing hooks attached to resilient carbon fiber cables, perfect for immobilizing and boarding enemy ships.",
+        "Cost": "4000",
+        "Tier": "1",
+        "Effects / unlocks": "[Ship part boarding cables] Boarding Cables",
+        "Prerequisites": "[Grand Archive] Defeating the Black Needle"
+      }
+    },
+    {
+      "id": "Space Exploration",
+      "section": "Voidcraft",
+      "data": {
+        "Technology": "Space Exploration The Science Ship is used as a base of operations for a top Scientist, ready to explore the vastness of space.",
+        "Tier": "0",
+        "Effects / unlocks": "[Station class] Science Ship; [Fleet task auto explore] Automatic Surveying"
+      }
+    },
+    {
+      "id": "Interplanetary Expeditionary Forces",
+      "section": "Voidcraft",
+      "data": {
+        "Technology": "Interplanetary Expeditionary Forces The invasion of another world is a staggering enterprise. There are immense logistical challenges that must be overcome before we can muster our first interplanetary armies.",
+        "Tier": "0",
+        "Effects / unlocks": "[Army assault] Assault Army"
+      }
+    },
+    {
+      "id": "Deep Space Defenses",
+      "section": "Voidcraft",
+      "data": {
+        "Technology": "Deep Space Defenses This will enable the construction of defensive deep space platforms to protect our Starbases.",
+        "Tier": "0",
+        "Effects / unlocks": "[Station class] Defense Platform"
+      }
+    },
+    {
+      "id": "Orbital Energy Conversion",
+      "section": "Voidcraft",
+      "data": {
+        "Technology": "Orbital Energy Conversion Advances in solar panel technology could offset the operating costs of our starbases. The panels would require an entire starbase module to generate enough energy, however.",
+        "Tier": "0",
+        "Effects / unlocks": "[Solar Panel Network] Solar Panel Network"
+      }
+    },
+    {
+      "id": "Starbase Construction",
+      "section": "Voidcraft",
+      "data": {
+        "Technology": "Starbase Construction A centralized space installation built in close orbit around the system primary is necessary to make full use of the resources in a star system.",
+        "Tier": "0",
+        "Effects / unlocks": "[Spaceport 1] Outpost"
+      }
+    },
+    {
+      "id": "Starport",
+      "section": "Voidcraft",
+      "data": {
+        "Technology": "Starport The earliest starbases were little more than makeshift outposts. Permanent starports will enable us to maintain a firmer grip on star systems.",
+        "Tier": "0",
+        "Effects / unlocks": "[Spaceport 1] Starport"
+      }
+    },
+    {
+      "id": "Starhold",
+      "section": "Voidcraft",
+      "data": {
+        "Technology": "Starhold As space traffic increases, larger and more defensible starbases are needed to maintain control over system spacelanes.",
+        "Cost": "2500",
+        "Tier": "2",
+        "Effects / unlocks": "[Spaceport 1] Starhold",
+        "Draw weight": "Base: 75 Modifiers; +×10 a neighbor has the tech; +×5 at least 3 Starports; +×4 year is >2240; +×3 year is >2235; +×2 year is >2230; +×10 Impenetrable Border agenda finished; +×1.25 adopted the [Unyielding] Fortification tradition tree; −×0.1 year is <2220"
+      }
+    },
+    {
+      "id": "Star Fortress",
+      "section": "Voidcraft",
+      "data": {
+        "Technology": "Star Fortress These mighty space forts will provide a focal point for all military activity in a star system, and their presence is sure to deter all but the most stubborn attackers.",
+        "Cost": "5000",
+        "Tier": "3",
+        "Effects / unlocks": "[Spaceport 1] Star Fortress; [Fleet order button build megastructure] Orbital Ring tier 2",
+        "Prerequisites": "[Starhold] Starhold",
+        "Draw weight": "Base: 60 Modifiers; +×10 a neighbor has the tech; +×5 at least 3 Starholds; +×4 year is >2270; +×3 year is >2265; +×2 year is >2260; +×5 Impenetrable Border agenda finished; +×1.25 adopted the [Unyielding] Fortification tradition tree; −×0.1 year is <2250"
+      }
+    },
+    {
+      "id": "Citadel",
+      "section": "Voidcraft",
+      "data": {
+        "Technology": "Citadel Plans for an immense battlestation capable of holding its own against several strike fleets are now being drawn up. If realized, these citadels will become monuments to greatness as much as system hubs.",
+        "Cost": "10000",
+        "Tier": "4",
+        "Effects / unlocks": "[Spaceport 1] Citadel; [Fleet order button build megastructure] Orbital Ring tier 3",
+        "Prerequisites": "[Star Fortress] Star Fortress",
+        "Draw weight": "Base: 40 Modifiers; +×10 a neighbor has the tech; +×5 at least 3 Star Fortresses; +×4 year is >2300; +×3 year is >2295; +×2 year is >2290; +×5 Impenetrable Border agenda finished; +×1.25 adopted the [Unyielding] Fortification tradition tree; −×0.1 year is <2270"
+      }
+    },
+    {
+      "id": "Improved Structural Integrity",
+      "section": "Voidcraft",
+      "data": {
+        "Technology": "Improved Structural Integrity A reinforced framework and blast shields with enhanced impact absorption will ensure the structural integrity of the platform even under immense pressure.",
+        "Cost": "2500",
+        "Tier": "2",
+        "Effects / unlocks": "[Health] +10% Defense platform hull points",
+        "Prerequisites": "[Starhold] Starhold",
+        "Draw weight": "Base: 37.5 Modifiers; +×1.5 [Eager Explorers] Eager Explorers civic; +×1.5 [Specialist subject bulwark] Bulwark subject; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic"
+      }
+    },
+    {
+      "id": "Fortified Core Layers",
+      "section": "Voidcraft",
+      "data": {
+        "Technology": "Fortified Core Layers Additional layers of armor plating within the structure itself improves the resilience of Military Stations.",
+        "Cost": "50000",
+        "Tier": "5",
+        "Effects / unlocks": "[Defense platform hull points] +10% Defense platform hull points",
+        "Prerequisites": "[Tech defense platform hull 1] Improved Structural Integrity",
+        "Draw weight": "Base: 12.5 Modifiers; −×0.01 another repeatable tech was drawn"
+      }
+    },
+    {
+      "id": "Synchronized Firing Patterns",
+      "section": "Voidcraft",
+      "data": {
+        "Technology": "Synchronized Firing Patterns Cross-linking weapon systems to fire in staggered volleys improves the actual damage output of Military Stations over time.",
+        "Cost": "50000",
+        "Tier": "5",
+        "Effects / unlocks": "[Defense platform damage] +10% Defense platform damage",
+        "Prerequisites": "[Tech defense platform hull 1] Improved Structural Integrity",
+        "Draw weight": "Base: 12.5 Modifiers; −×0.01 another repeatable tech was drawn"
+      }
+    },
+    {
+      "id": "Modular Engineering",
+      "section": "Voidcraft",
+      "data": {
+        "Technology": "Modular Engineering Streamlined starbase construction procedures, using modular designs, will halve the present build cost and time.",
+        "Cost": "3000",
+        "Tier": "2",
+        "Effects / unlocks": "[Mod spaceport module cost mult] −25% Starbase building build cost; [Mod spaceport module cost mult] −25% Starbase module build cost",
+        "Prerequisites": "[Starhold] Starhold",
+        "Draw weight": "Base: 35 Modifiers; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; −×0.5 no council scientist with either: [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait"
+      }
+    },
+    {
+      "id": "Corps of Engineers",
+      "section": "Voidcraft",
+      "data": {
+        "Technology": "Corps of Engineers[Auth machine intelligence] Optimized Station Construction The creation of a dedicated naval engineering corps will greatly benefit the construction of deep space defense platforms, decreasing building costs and increasing durability.",
+        "Cost": "6000",
+        "Tier": "3",
+        "Effects / unlocks": "[Mod starbase upgrade cost] −15% Starbase upgrade cost; [Mod starbase upgrade time mult] +25% Starbase upgrade speed",
+        "Prerequisites": "[Tech modular engineering] Modular Engineering; [Star Fortress] Star Fortress",
+        "Draw weight": "Base: 25 Modifiers; +×1.5 [Specialist subject bulwark] Bulwark subject; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; +×1.25 [Militarist][Fanatic militarist] Militarist; −×0.25 no council scientist with either: [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait"
+      }
+    },
+    {
+      "id": "Mega-Engineering",
+      "section": "Voidcraft",
+      "data": {
+        "Technology": "Mega-Engineering To complete constructing projects of truly staggering scales we must first achieve a fundamental understanding of both the engineering and resource storage requirements for such megastructures.",
+        "Cost": "24000",
+        "Tier": "5",
+        "Effects / unlocks": "[Feature] Can repair damaged Megastructures; [Mod country resource max add] +20000 Resource Storage Capacity; [The Machine Age] +2 Arc Furnace limit; [The Machine Age] +2 Dyson Swarm limit; [BioGenesis] +1 Deep Space Citadel limit",
+        "Prerequisites": "[Engineering research] Citadel; [Tech zero point power] Zero Point Power; [Yes] Either: [Battleships] Battleships [Tech stingers] Stingers; [Battleships] Battleships; [Tech stingers] Stingers",
+        "Draw weight": "Base: 5 Modifiers; +×1.5 council scientist with either: [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait [Leader trait bg basic][Leader trait maniacal][Maniacal] Maniacal trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg basic][Leader trait maniacal][Maniacal] Maniacal trait; +×20 with any megastructure (in any condition) within borders or [Origins shattered ring] Shattered Ring origin; +×2 Any habitat colony; +×1.5 if any neighbour has the tech; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; +×1.5 per owned Starhold (up to +×9 with 6); +×1.5 per owned Citadel (up to +×9 with 6)"
+      }
+    },
+    {
+      "id": "Orbital Habitats",
+      "section": "Voidcraft",
+      "data": {
+        "Technology": "Orbital Habitats Allows the construction of largely self-sustaining Orbital Habitats.",
+        "Cost": "5000",
+        "Tier": "3",
+        "Effects / unlocks": "[Build menu habitat central complex] Habitat construction",
+        "Prerequisites": "[Yes] Either: [Utopia] Utopia DLC [Origin void dwellers] Void Dwellers [Origins toxic knights] Knights of the Toxic God; [Utopia] Utopia DLC; [Origin void dwellers] Void Dwellers; [Origins toxic knights] Knights of the Toxic God; [Starhold] Starhold; [No][Origins wilderness] Wilderness",
+        "Draw weight": "Base: 60 Modifiers; +×10 a neighbor has the tech; +×5 at least 3 Starholds; +×4 year is >2270; +×3 year is >2265; +×2 year is >2260; +×1.25 adopted the [Expansion] Expansion tradition tree; +×1.25 finished the [Expansion] Expansion tradition tree; −×0.1 year is <2250",
+        "DLC": "[Utopia]; [Federations]; [Toxoids]; [First Contact]"
+      }
+    },
+    {
+      "id": "Habitat Expansion",
+      "section": "Voidcraft",
+      "data": {
+        "Technology": "Habitat Expansion Our early habitats were primitive things compared to the efficient designs we can now develop.",
+        "Cost": "10000",
+        "Tier": "4",
+        "Effects / unlocks": "[Habitat Central Control] Habitat Central Control",
+        "Prerequisites": "[Yes] Either: [Utopia] Utopia DLC [Origin void dwellers] Void Dwellers; [Utopia] Utopia DLC; [Origin void dwellers] Void Dwellers; [Tech habitat] Orbital Habitats; [Star Fortress] Star Fortress; [Planet habitat] Habitat colonized",
+        "Draw weight": "Base: 35 Modifiers; +×10 [Origin void dwellers] Void Dwellers origin; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic",
+        "DLC": "[Utopia]; [Federations]"
+      }
+    },
+    {
+      "id": "Advanced Space Habitation",
+      "section": "Voidcraft",
+      "data": {
+        "Technology": "Advanced Space Habitation Years of improvements to our orbital Habitats have led us to create newer more effective designs.",
+        "Cost": "20000",
+        "Tier": "4",
+        "Effects / unlocks": "[Habitat System Contro] Habitat System Control",
+        "Prerequisites": "[Tech habitat 2] Habitat Expansion; [Engineering research] Citadel; [Planet habitat] Habitat colonized",
+        "Draw weight": "Base: 35 Modifiers; +×10 [Origin void dwellers] Void Dwellers origin; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic",
+        "DLC": "[Utopia]; [Federations]"
+      }
+    },
+    {
+      "id": "Atmospheric Nanobot Dispersal",
+      "section": "Voidcraft",
+      "data": {
+        "Technology": "Atmospheric Nanobot Dispersal Swarms of nanobots are dispersed in the atmosphere. They infect sapient beings and restructure themselves into cybernetic implants, turning their unwitting hosts into cyborgs slaved to the Machine Intelligence.",
+        "Cost": "24000",
+        "Tier": "5",
+        "Effects / unlocks": "[Ship part nanobot diffuser] Nanobot Diffuser colossus weapon",
+        "Prerequisites": "[Colossi] Colossi; [Colossus Project] Completed the Colossus Project; [Driven Assimilator] Driven Assimilator",
+        "Draw weight": "Base: 10 Modifiers; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; −×0.25 no council scientist with either: [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait [Leader trait bg basic][Leader trait maniacal][Maniacal] Maniacal trait [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg basic][Leader trait maniacal][Maniacal] Maniacal trait; [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait",
+        "DLC": "[Apocalypse]"
+      }
+    },
+    {
+      "id": "Core Cracking",
+      "section": "Voidcraft",
+      "data": {
+        "Technology": "Core Cracking A directed feed of thermic energy superheats the atmosphere and agitates the planet's core, setting up disastrous tectonic events. A final and comparatively minute concussive blast is then delivered, cracking the planet open.",
+        "Cost": "24000",
+        "Tier": "5",
+        "Effects / unlocks": "[Ship part world cracker] World Cracker colossus weapon",
+        "Prerequisites": "[Colossi] Colossi; [Colossus Project] Completed the Colossus Project; [No][Pacifist][Fanatic pacifist] Pacifist",
+        "Draw weight": "Base: 10 Modifiers; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; −×0.25 no council scientist with either: [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait [Leader trait bg basic][Leader trait maniacal][Maniacal] Maniacal trait [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg basic][Leader trait maniacal][Maniacal] Maniacal trait; [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait",
+        "DLC": "[Apocalypse]"
+      }
+    },
+    {
+      "id": "Planet Smelting",
+      "section": "Voidcraft",
+      "data": {
+        "Technology": "Planet Smelting Focusing a searing energy beam into the planet's mantle, the Smelter destabilizes its core, triggering tectonic chaos and rendering the surface violently unstable.",
+        "Cost": "24000",
+        "Tier": "5",
+        "Effects / unlocks": "[Ship part planet smelter] Planet Smelter colossus weapon",
+        "Prerequisites": "[Colossi] Colossi; [Colossus Project] Completed the Colossus Project; [Yes] Either: [Thermophile] Thermophile founder species [Red Giant] Red Giant [Galactic Hyperthermia] Galactic Hyperthermia [Planet Forgers][Planetary Architects] Planet Forgers[Planet Forgers] Planet Forgers[Planetary Architects] Planetary Architects; [Thermophile] Thermophile founder species; [Red Giant] Red Giant; [Galactic Hyperthermia] Galactic Hyperthermia; [Planet Forgers][Planetary Architects] Planet Forgers[Planet Forgers] Planet Forgers[Planetary Architects] Planetary Architects",
+        "Draw weight": "Base: 10 Modifiers; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; −×0.25 no council scientist with either: [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait [Leader trait bg basic][Leader trait maniacal][Maniacal] Maniacal trait [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg basic][Leader trait maniacal][Maniacal] Maniacal trait; [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait",
+        "DLC": "[Apocalypse]"
+      }
+    },
+    {
+      "id": "L-Gate Insight",
+      "section": "Voidcraft",
+      "data": {
+        "Technology": "L-Gate Insight Intensive study within the fields of nanomachinery and subspace phenomena will eventually yield a new L-Gate Insight into the Disabled L-Gate mystery..",
+        "Cost": "2000",
+        "Tier": "2",
+        "Effects / unlocks": "[Unknown] +1 L-Gate Insights",
+        "Prerequisites": "[L-gate map icon] Encountered an L-Gate; [No] L-Gates opened",
+        "Draw weight": "Base: 70 Modifiers; −×0.01 if another repeatable tech was drawn",
+        "DLC": "[Distant Stars]"
+      }
+    },
+    {
+      "id": "Orbital Rings",
+      "section": "Voidcraft",
+      "data": {
+        "Technology": "Orbital Rings Allows the construction of massive, band-shaped starbases in stable orbit around colonized planets.",
+        "Cost": "5000",
+        "Tier": "3",
+        "Effects / unlocks": "[Tech orbital ring tier 1] Orbital Ring construction",
+        "Prerequisites": "[Starhold] Starhold; [Galactic Administration] Galactic Administration; [Ceramo-Metal Infrastructure] Ceramo-Metal Infrastructure",
+        "Draw weight": "Base: 60 Modifiers; +×10 a neighbor has the tech; +×5 at least 3 Starholds; +×4 year is >2270; +×3 year is >2265; +×2 year is >2260; +×1.25 adopted the [Expansion] Expansion tradition tree; +×1.25 finished the [Expansion] Expansion tradition tree; −×0.1 year is <2250",
+        "DLC": "[Overlord]"
+      }
+    },
+    {
+      "id": "Corvettes",
+      "section": "Mechanical ship technologies",
+      "data": {
+        "Technology": "Corvettes The Corvette is the most basic military ship, armed and ready in the event of hostile contacts.",
+        "Cost": "500",
+        "Tier": "0",
+        "Effects / unlocks": "[Corvette] Corvette",
+        "Prerequisites": "[Starport] Starport"
+      }
+    },
+    {
+      "id": "Destroyers",
+      "section": "Mechanical ship technologies",
+      "data": {
+        "Technology": "Destroyers While larger than Corvettes, Destroyer hull configurations still make for comparatively nimble gunboats.",
+        "Cost": "2000",
+        "Tier": "2",
+        "Effects / unlocks": "[Fleet size] +10 Fleet command limit; [Destroyer] Destroyer",
+        "Prerequisites": "[Corvettes] Corvettes",
+        "Draw weight": "Base: 85 Modifiers; +×10 a neighbor has the tech; +×4 year is >2230; +×3 year is >2220; +×2 year is >2215; +×1.25 adopted the [Supremacy] Supremacy tradition tree; −×0.1 year is <2210"
+      }
+    },
+    {
+      "id": "Cruisers",
+      "section": "Mechanical ship technologies",
+      "data": {
+        "Technology": "Cruisers Originally devised as an experimental next-generation colony ship hull configuration, the design's ample hardpoints made it ideal for carrying heavy weapons ordnance.",
+        "Cost": "4000",
+        "Tier": "3",
+        "Effects / unlocks": "[Fleet size] +40 Fleet command limit; [Cruiser] Cruiser",
+        "Prerequisites": "[Destroyers] Destroyers",
+        "Draw weight": "Base: 65 Modifiers; +×10 a neighbor has the tech; +×4 year is >2240; +×3 year is >2235; +×2 year is >2230; +×1.25 adopted the [Supremacy] Supremacy tradition tree; −×0.1 year is <2220"
+      }
+    },
+    {
+      "id": "Battleships",
+      "section": "Mechanical ship technologies",
+      "data": {
+        "Technology": "Battleships The largest of the standard military vessels, Battleships are traditionally heavily armored and sport several gun batteries.",
+        "Cost": "8000",
+        "Tier": "4",
+        "Effects / unlocks": "[Fleet size] +60 Fleet command limit; [Battleship] Battleship",
+        "Prerequisites": "[Cruisers] Cruisers",
+        "Draw weight": "Base: 45 Modifiers; +×10 a neighbor has the tech; +×4 year is >2270; +×3 year is >2265; +×2 year is >2260; +×1.25 adopted the [Supremacy] Supremacy tradition tree; −×0.1 year is <2250"
+      }
+    },
+    {
+      "id": "Carrier Operations",
+      "section": "Mechanical ship technologies",
+      "data": {
+        "Technology": "Carrier Operations These manned strike craft are launched from a mothership and rely on their speed and small size to survive long enough to punch through enemy defenses.",
+        "Cost": "1500",
+        "Tier": "1",
+        "Effects / unlocks": "[Ship part strike craft fighter 1] Basic Strike Craft; [Sb hangar bay] Hangar Bay; [Sb hangar bay] Planetary Defense Hangars",
+        "Prerequisites": "[Starport] Starport",
+        "Draw weight": "Base: 90"
+      }
+    },
+    {
+      "id": "Improved Strike Craft",
+      "section": "Mechanical ship technologies",
+      "data": {
+        "Technology": "Improved Strike Craft The next generation of strike craft, featuring improved avionics, better handling characteristics and more powerful armaments.",
+        "Cost": "3000",
+        "Tier": "2",
+        "Effects / unlocks": "[Ship part strike craft fighter 2] Improved Strike Craft",
+        "Prerequisites": "[Carrier Operations] Carrier Operations",
+        "Draw weight": "Base: 70"
+      }
+    },
+    {
+      "id": "Advanced Strike Craft",
+      "section": "Mechanical ship technologies",
+      "data": {
+        "Technology": "Advanced Strike Craft A further refinement in strike craft design, these advanced strike craft are a pilot's dream. Their performance far exceeds that of previous models.",
+        "Cost": "6000",
+        "Tier": "3",
+        "Effects / unlocks": "[Ship part strike craft fighter 3] Advanced Strike Craft",
+        "Prerequisites": "[Tech strike craft 2] Improved Strike Craft",
+        "Draw weight": "Base: 50"
+      }
+    },
+    {
+      "id": "Titans",
+      "section": "Mechanical ship technologies",
+      "data": {
+        "Technology": "Titans Modeled after the hulking shadows looming in the core systems of Stagnant Ascendancies, the Titan class can be outfitted with X-size weapons.",
+        "Cost": "16000",
+        "Tier": "5",
+        "Effects / unlocks": "[Fleet size] +80 Fleet command limit; [Spaceport 1] Ion Cannon defense platform; [Titan] Titan; [Sb titan assembly yard] Titan Assembly Yards; [Ship part perdition beam] Perdition Beam",
+        "Prerequisites": "[Battleships] Battleships",
+        "Draw weight": "Base: 30 Modifiers; +×10 a neighbor has the tech; +×4 year is >2350; +×3 year is >2340; +×2 year is >2330; +×1.25 adopted the [Supremacy] Supremacy tradition tree; −×0.1 year is <2300",
+        "DLC": "[Apocalypse]"
+      }
+    },
+    {
+      "id": "Juggernaut",
+      "section": "Mechanical ship technologies",
+      "data": {
+        "Technology": "Juggernaut A mobile space base of unparalleled proportions, the Juggernaut ship takes offensive warfare to a whole new level.",
+        "Cost": "24000",
+        "Tier": "5",
+        "Effects / unlocks": "[Juggernaut] Juggernaut; [Sb colossus assembly yard] Colossal Assembly Yards",
+        "Prerequisites": "[Battleships] Battleships; [Engineering research] Citadel",
+        "Draw weight": "Base: 20 Modifiers; +×1.5 council scientist with either: [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait [Leader trait bg basic][Leader trait maniacal][Maniacal] Maniacal trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg basic][Leader trait maniacal][Maniacal] Maniacal trait; +×1.25 [Titans] Titans technology; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic",
+        "DLC": "[Federations]"
+      }
+    },
+    {
+      "id": "Standardized Corvette Patterns",
+      "section": "Ship stat technologies",
+      "data": {
+        "Technology": "Standardized Corvette Patterns Establishing new standards for the modeling and construction of corvettes greatly improves the efficiency of the production pipeline.",
+        "Cost": "1250",
+        "Tier": "1",
+        "Effects / unlocks": "[Mod spaceport ship build cost mult] −5% Corvette build cost; [Mod ship build speed mult] +25% Corvette build speed; [Mod ship build speed mult] +25% Frigate build speed",
+        "Prerequisites": "[Corvettes] Corvettes",
+        "Draw weight": "Base: 95"
+      }
+    },
+    {
+      "id": "Standardized Destroyer Patterns",
+      "section": "Ship stat technologies",
+      "data": {
+        "Technology": "Standardized Destroyer Patterns Establishing new standards for the modeling and construction of destroyers greatly improves the efficiency of the production pipeline.",
+        "Cost": "2500",
+        "Tier": "2",
+        "Effects / unlocks": "[Mod spaceport ship build cost mult] −5% Destroyer build cost; [Mod ship build speed mult] +25% Destroyer build speed",
+        "Prerequisites": "[Destroyers] Destroyers",
+        "Draw weight": "Base: 75"
+      }
+    },
+    {
+      "id": "Standardized Cruiser Patterns",
+      "section": "Ship stat technologies",
+      "data": {
+        "Technology": "Standardized Cruiser Patterns Establishing new standards for the modeling and construction of cruisers greatly improves the efficiency of the production pipeline.",
+        "Cost": "5000",
+        "Tier": "3",
+        "Effects / unlocks": "[Mod spaceport ship build cost mult] −5% Cruiser build cost; [Mod ship build speed mult] +25% Cruiser build speed",
+        "Prerequisites": "[Cruisers] Cruisers",
+        "Draw weight": "Base: 60"
+      }
+    },
+    {
+      "id": "Standardized Battleship Patterns",
+      "section": "Ship stat technologies",
+      "data": {
+        "Technology": "Standardized Battleship Patterns Establishing new standards for how we design and construct massive battleships greatly improves the speed at which they can be assembled.",
+        "Cost": "10000",
+        "Tier": "4",
+        "Effects / unlocks": "[Mod spaceport ship build cost mult] −5% Battleship build cost; [Mod ship build speed mult] +25% Battleship build speed",
+        "Prerequisites": "[Battleships] Battleships",
+        "Draw weight": "Base: 40"
+      }
+    },
+    {
+      "id": "Improved Corvette Hulls",
+      "section": "Ship stat technologies",
+      "data": {
+        "Technology": "Improved Corvette Hulls Advances in building techniques will allow for the construction of sturdier and more durable corvettes.",
+        "Cost": "1500",
+        "Tier": "1",
+        "Effects / unlocks": "[Mod ship hitpoints add] +10% Corvette hull points; [Mod ship hitpoints add] +10% Frigate hull points",
+        "Prerequisites": "[Corvettes] Corvettes",
+        "Draw weight": "Base: 90"
+      }
+    },
+    {
+      "id": "Improved Destroyer Hulls",
+      "section": "Ship stat technologies",
+      "data": {
+        "Technology": "Improved Destroyer Hulls Advances in building techniques will allow for the construction of sturdier and more durable destroyers.",
+        "Cost": "3000",
+        "Tier": "2",
+        "Effects / unlocks": "[Mod ship hitpoints add] +10% Destroyer hull points",
+        "Prerequisites": "[Destroyers] Destroyers",
+        "Draw weight": "Base: 70 Modifiers; +×1.25 adopted the [Supremacy] Supremacy tradition tree"
+      }
+    },
+    {
+      "id": "Improved Cruiser Hulls",
+      "section": "Ship stat technologies",
+      "data": {
+        "Technology": "Improved Cruiser Hulls Advances in building techniques will allow for the construction of sturdier and more durable cruisers.",
+        "Cost": "6000",
+        "Tier": "3",
+        "Effects / unlocks": "[Mod ship hitpoints add] +10% Cruiser hull points",
+        "Prerequisites": "[Cruisers] Cruisers",
+        "Draw weight": "Base: 50 Modifiers; +×1.25 adopted the [Supremacy] Supremacy tradition tree"
+      }
+    },
+    {
+      "id": "Improved Battleship Hulls",
+      "section": "Ship stat technologies",
+      "data": {
+        "Technology": "Improved Battleship Hulls Advances in building techniques will allow for the construction of sturdier and more durable battleships.",
+        "Cost": "12000",
+        "Tier": "4",
+        "Effects / unlocks": "[Mod ship hitpoints add] +10% Battleship hull points",
+        "Prerequisites": "[Battleships] Battleships",
+        "Draw weight": "Base: 35 Modifiers; +×1.25 adopted the [Supremacy] Supremacy tradition tree"
+      }
+    },
+    {
+      "id": "Improved Titan Hulls",
+      "section": "Ship stat technologies",
+      "data": {
+        "Technology": "Improved Titan Hulls Advances in building techniques will allow for the construction of sturdier and more durable titans.",
+        "Cost": "20000",
+        "Tier": "5",
+        "Effects / unlocks": "[Mod ship hitpoints add] +10% Titan hull points",
+        "Prerequisites": "[Titans] Titans",
+        "Draw weight": "Base: 25 Modifiers; +×1.25 adopted the [Supremacy] Supremacy tradition tree; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; −×0.25 no council scientist with either: [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait; [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait"
+      }
+    },
+    {
+      "id": "Advanced Corvette Hulls",
+      "section": "Ship stat technologies",
+      "data": {
+        "Technology": "Advanced Corvette Hulls The latest generation of corvette hulls have optimized structural integrity fields and improved bulkheads.",
+        "Cost": "3000",
+        "Tier": "2",
+        "Effects / unlocks": "[Mod ship hitpoints add] +10% Corvette hull points; [Mod ship hitpoints add] +10% Frigate hull points",
+        "Prerequisites": "[Tech corvette hull 1] Improved Corvette Hulls",
+        "Draw weight": "Base: 70 Modifiers; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; −×0.25 no council scientist with either: [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait; [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait"
+      }
+    },
+    {
+      "id": "Advanced Destroyer Hulls",
+      "section": "Ship stat technologies",
+      "data": {
+        "Technology": "Advanced Destroyer Hulls The latest generation of destroyer hulls have optimized structural integrity fields and improved bulkheads.",
+        "Cost": "4000",
+        "Tier": "3",
+        "Effects / unlocks": "[Mod ship hitpoints add] +10% Destroyer hull points",
+        "Prerequisites": "[Tech destroyer hull 1] Improved Destroyer Hulls",
+        "Draw weight": "Base: 65 Modifiers; +×1.25 adopted the [Supremacy] Supremacy tradition tree; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; −×0.25 no council scientist with either: [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait; [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait"
+      }
+    },
+    {
+      "id": "Advanced Cruiser Hulls",
+      "section": "Ship stat technologies",
+      "data": {
+        "Technology": "Advanced Cruiser Hulls The latest generation of cruiser hulls have optimized structural integrity fields and improved bulkheads.",
+        "Cost": "8000",
+        "Tier": "4",
+        "Effects / unlocks": "[Mod ship hitpoints add] +10% Cruiser hull points",
+        "Prerequisites": "[Tech cruiser hull 1] Improved Cruiser Hulls",
+        "Draw weight": "Base: 45 Modifiers; +×1.25 adopted the [Supremacy] Supremacy tradition tree; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; −×0.25 no council scientist with either: [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait; [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait"
+      }
+    },
+    {
+      "id": "Advanced Battleship Hulls",
+      "section": "Ship stat technologies",
+      "data": {
+        "Technology": "Advanced Battleship Hulls The latest generation of battleship hulls have optimized structural integrity fields and improved bulkheads.",
+        "Cost": "16000",
+        "Tier": "5",
+        "Effects / unlocks": "[Mod ship hitpoints add] +10% Battleship hull points",
+        "Prerequisites": "[Tech battleship hull 1] Improved Battleship Hulls",
+        "Draw weight": "Base: 30 Modifiers; +×1.25 adopted the [Supremacy] Supremacy tradition tree; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; −×0.25 no council scientist with either: [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait; [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait"
+      }
+    },
+    {
+      "id": "Advanced Titan Hulls",
+      "section": "Ship stat technologies",
+      "data": {
+        "Technology": "Advanced Titan Hulls The latest generation of titan hulls have optimized structural integrity fields and improved bulkheads.",
+        "Cost": "24000",
+        "Tier": "5",
+        "Effects / unlocks": "[Mod ship hitpoints add] +10% Titan hull points",
+        "Prerequisites": "[Tech titan hull 1] Improved Titan Hulls",
+        "Draw weight": "Base: 20 Modifiers; +×1.25 adopted the [Supremacy] Supremacy tradition tree; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; −×0.25 no council scientist with either: [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait; [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait"
+      }
+    },
+    {
+      "id": "Standardized Small-Scale Cloning",
+      "section": "Beastmasters technologies",
+      "data": {
+        "Technology": "Standardized Small-Scale Cloning Establishing new standards for the cloning and nurturing of Small Space Fauna greatly improves the efficiency of the reproduction pipeline.",
+        "Cost": "1250",
+        "Tier": "1",
+        "Effects / unlocks": "[Mod spaceport ship build cost mult] −5% Small space fauna cloning cost; [Mod ship build speed mult] +25% Small space fauna cloning speed",
+        "Prerequisites": "[Corvettes] Corvettes",
+        "Draw weight": "Base: 95"
+      }
+    },
+    {
+      "id": "Standardized Medium-Scale Cloning",
+      "section": "Beastmasters technologies",
+      "data": {
+        "Technology": "Standardized Medium-Scale Cloning Establishing new standards for the cloning and nurturing of Medium Space Fauna greatly improves the efficiency of the reproduction pipeline.",
+        "Cost": "2500",
+        "Tier": "2",
+        "Effects / unlocks": "[Mod spaceport ship build cost mult] −5% Medium space fauna cloning cost; [Mod ship build speed mult] +25% Medium space fauna cloning speed",
+        "Prerequisites": "[Destroyers] Destroyers",
+        "Draw weight": "Base: 75"
+      }
+    },
+    {
+      "id": "Standardized Large-Scale Cloning",
+      "section": "Beastmasters technologies",
+      "data": {
+        "Technology": "Standardized Medium-Scale Cloning Establishing new standards for the cloning and nurturing of Large Space Fauna greatly improves the efficiency of the reproduction pipeline.",
+        "Cost": "5000",
+        "Tier": "3",
+        "Effects / unlocks": "[Mod spaceport ship build cost mult] −5% Large space fauna cloning cost; [Mod ship build speed mult] +25% Large space fauna cloning speed",
+        "Prerequisites": "[Cruisers] Cruisers",
+        "Draw weight": "Base: 60"
+      }
+    },
+    {
+      "id": "Standardized Huge-Scale Cloning",
+      "section": "Beastmasters technologies",
+      "data": {
+        "Technology": "Standardized Medium-Scale Cloning Establishing new standards for the cloning and nurturing of Huge Space Fauna greatly improves the efficiency of the reproduction pipeline.",
+        "Cost": "10000",
+        "Tier": "4",
+        "Effects / unlocks": "[Mod spaceport ship build cost mult] −5% Huge space fauna cloning cost; [Mod ship build speed mult] +25% Huge space Fauna cloning speed",
+        "Prerequisites": "[Battleships] Battleships",
+        "Draw weight": "Base: 40"
+      }
+    },
+    {
+      "id": "Improved Small Space Fauna Tissues",
+      "section": "Beastmasters technologies",
+      "data": {
+        "Technology": "Improved Small Space Fauna Tissues Advances in cloning techniques will allow for the creation of sturdier and more durable Small Space Fauna.",
+        "Cost": "1500",
+        "Tier": "1",
+        "Effects / unlocks": "[Mod ship hitpoints add] +10% Small space fauna hull points",
+        "Prerequisites": "[Corvettes] Corvettes",
+        "Draw weight": "Base: 90"
+      }
+    },
+    {
+      "id": "Improved Medium Space Fauna Tissues",
+      "section": "Beastmasters technologies",
+      "data": {
+        "Technology": "Improved Medium Space Fauna Tissues Advances in cloning techniques will allow for the creation of sturdier and more durable Medium Space Fauna.",
+        "Cost": "3000",
+        "Tier": "2",
+        "Effects / unlocks": "[Mod ship hitpoints add] +10% Medium space fauna hull points",
+        "Prerequisites": "[Destroyers] Destroyers",
+        "Draw weight": "Base: 70 Modifiers; +×1.25 adopted the [Supremacy] Supremacy tradition tree"
+      }
+    },
+    {
+      "id": "Improved Large Space Fauna Tissues",
+      "section": "Beastmasters technologies",
+      "data": {
+        "Technology": "Improved Large Space Fauna Tissues Advances in cloning techniques will allow for the creation of sturdier and more durable Large Space Fauna.",
+        "Cost": "6000",
+        "Tier": "3",
+        "Effects / unlocks": "[Mod ship hitpoints add] +10% Large space fauna hull points",
+        "Prerequisites": "[Cruisers] Cruisers",
+        "Draw weight": "Base: 50 Modifiers; +×1.25 adopted the [Supremacy] Supremacy tradition tree"
+      }
+    },
+    {
+      "id": "Improved Huge Space Fauna Tissues",
+      "section": "Beastmasters technologies",
+      "data": {
+        "Technology": "Improved Huge Space Fauna Tissues Advances in cloning techniques will allow for the creation of sturdier and more durable Huge Space Fauna.",
+        "Cost": "12000",
+        "Tier": "4",
+        "Effects / unlocks": "[Mod ship hitpoints add] +10% Huge space fauna hull points",
+        "Prerequisites": "[Battleships] Battleships",
+        "Draw weight": "Base: 35 Modifiers; +×1.25 adopted the [Supremacy] Supremacy tradition tree"
+      }
+    },
+    {
+      "id": "Improved Gigantic Space Fauna Tissues",
+      "section": "Beastmasters technologies",
+      "data": {
+        "Technology": "Improved Gigantic Space Fauna Tissues Advances in cloning techniques will allow for the creation of sturdier and more durable Gigantic Space Fauna.",
+        "Cost": "20000",
+        "Tier": "5",
+        "Effects / unlocks": "[Mod ship hitpoints add] +10% Gigantic space fauna hull points",
+        "Prerequisites": "[Titans] Titans",
+        "Draw weight": "Base: 25 Modifiers; +×1.25 adopted the [Supremacy] Supremacy tradition tree; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; −×0.25 no council scientist with either: [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait; [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait"
+      }
+    },
+    {
+      "id": "Advanced Small Space Fauna Tissues",
+      "section": "Beastmasters technologies",
+      "data": {
+        "Technology": "Advanced Small Space Fauna Tissues We have pushed the limits of Small Space Fauna tissue strength to its known maximum.",
+        "Cost": "3000",
+        "Tier": "2",
+        "Effects / unlocks": "[Mod ship hitpoints add] +10% Small space fauna hull points",
+        "Prerequisites": "[Tech small space fauna hull 1] Improved Small Space Fauna Tissues",
+        "Draw weight": "Base: 70 Modifiers; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; −×0.25 no council scientist with either: [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait; [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait"
+      }
+    },
+    {
+      "id": "Advanced Medium Space Fauna Tissues",
+      "section": "Beastmasters technologies",
+      "data": {
+        "Technology": "Advanced Medium Space Fauna Tissues We have pushed the limits of Medium Space Fauna tissue strength to its known maximum.",
+        "Cost": "4000",
+        "Tier": "3",
+        "Effects / unlocks": "[Mod ship hitpoints add] +10% Medium space fauna hull points",
+        "Prerequisites": "[Tech medium space fauna hull 1] Improved Medium Space Fauna Tissues",
+        "Draw weight": "Base: 65 Modifiers; +×1.25 adopted the [Supremacy] Supremacy tradition tree; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; −×0.25 no council scientist with either: [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait; [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait"
+      }
+    },
+    {
+      "id": "Advanced Large Space Fauna Tissues",
+      "section": "Beastmasters technologies",
+      "data": {
+        "Technology": "Advanced Large Space Fauna Tissues We have pushed the limits of Large Space Fauna tissue strength to its known maximum.",
+        "Cost": "8000",
+        "Tier": "4",
+        "Effects / unlocks": "[Mod ship hitpoints add] +10% Large space fauna hull points",
+        "Prerequisites": "[Tech large space fauna hull 1] Improved Large Space Fauna Tissues",
+        "Draw weight": "Base: 45 Modifiers; +×1.25 adopted the [Supremacy] Supremacy tradition tree; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; −×0.25 no council scientist with either: [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait; [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait"
+      }
+    },
+    {
+      "id": "Advanced Huge Space Fauna Tissues",
+      "section": "Beastmasters technologies",
+      "data": {
+        "Technology": "Advanced Huge Space Fauna Tissues We have pushed the limits of Huge Space Fauna tissue strength to its known maximum.",
+        "Cost": "16000",
+        "Tier": "5",
+        "Effects / unlocks": "[Mod ship hitpoints add] +10% Huge space fauna hull points",
+        "Prerequisites": "[Tech extra large space fauna hull 1] Improved Huge Space Fauna Tissues",
+        "Draw weight": "Base: 30 Modifiers; +×1.25 adopted the [Supremacy] Supremacy tradition tree; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; −×0.25 no council scientist with either: [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait; [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait"
+      }
+    },
+    {
+      "id": "Advanced Gigantic Space Fauna Tissues",
+      "section": "Beastmasters technologies",
+      "data": {
+        "Technology": "Advanced Gigantic Space Fauna Tissues We have pushed the limits of Gigantic Space Fauna tissue strength to its known maximum.",
+        "Cost": "24000",
+        "Tier": "5",
+        "Effects / unlocks": "[Mod ship hitpoints add] +10% Gigantic space fauna hull points",
+        "Prerequisites": "[Tech titanic space fauna hull 1] Improved Gigantic Space Fauna Tissues",
+        "Draw weight": "Base: 20 Modifiers; +×1.25 adopted the [Supremacy] Supremacy tradition tree; +×2 [Scientific Inspiration] Scientific Inspiration federation perk and another member has the technology; +×1.5 [Technological Ascendancy] Technological Ascendancy perk; +×1.1 [Dimensional Worship][Dimensional Enterprise] Dimensional Worship[Dimensional Worship] Dimensional Worship[Dimensional Enterprise] Dimensional Enterprise civic; −×0.25 no council scientist with either: [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait; [Leader trait bg basic][Leader trait overlay veteran][Leader trait curator][Leader trait overlay councilor][Curator] Curator trait; [Leader trait bg basic][Leader trait spark of genius][Leader trait overlay councilor][Spark of Genius] Spark of Genius trait; [Leader trait bg engineering][Leader trait overlay veteran][Leader trait expertise voidcraft][Leader trait overlay councilor][Expertise: Voidcraft] Expertise: Voidcraft trait"
+      }
+    },
+    {
+      "id": "Nanite Repair System",
+      "section": "Voidcraft event technologies",
+      "data": {
+        "Technology": "Nanite Repair System A highly effective hull auto-repair system comprised of billions of microscopic nanomachines was found among the smoking remains of the Scavenger, and has been repurposed for our uses. Whether the Scavenger pilfered this system from an ancient derelict, or was originally constructed with it remains unknown.",
+        "Cost": "24000",
+        "Tier": "5",
+        "Effects / unlocks": "[Ship part nanite repair system] Nanite Repair System",
+        "Prerequisites": "[Yes] Either: [Distant Stars] Scavenger Bot debris [Flood of Supremacy] Flood of Supremacy tradition [Cosmogenesis] Cosmogenesis level 5; [Distant Stars] Scavenger Bot debris; [Flood of Supremacy] Flood of Supremacy tradition; [Cosmogenesis] Cosmogenesis level 5",
+        "DLC": "[Distant Stars][The Machine Age]"
+      }
+    },
+    {
+      "id": "Ring World",
+      "section": "Voidcraft event technologies",
+      "data": {
+        "Technology": "Ring World A Ring World allows for multiple planet-like zones, cannibalizing all other planets in the system for materials.",
+        "Cost": "24000",
+        "Tier": "5",
+        "Effects / unlocks": "[Fleet order button build megastructure] Ring World megastructure",
+        "Prerequisites": "[Galactic Wonders] Galactic Wonders ascension perk",
+        "DLC": "[Utopia]"
+      }
+    },
+    {
+      "id": "Colossi",
+      "section": "Voidcraft event technologies",
+      "data": {
+        "Technology": "Colossi Advances in mega-engineering make blur the lines between reality and the fantastical, enabling the construction of Colossus-class military vessels that carry weapons capable of obliterating - or fundamentally altering - entire worlds, with the push of a button.",
+        "Cost": "24000",
+        "Tier": "5",
+        "Effects / unlocks": "[Colossus] Colossus; [Sb colossus assembly yard] Colossal Assembly Yards",
+        "Prerequisites": "[Colossus Project] Colossus Project ascension perk",
+        "DLC": "[Apocalypse]"
+      }
+    },
+    {
+      "id": "Star Cracker",
+      "section": "Voidcraft event technologies",
+      "data": {
+        "Technology": "Star Cracker A beam of directed tachyon energy is fired into the star, triggering a supernova. The incredible energy released by this event is then used to generate vast quantities of dark matter.",
+        "Cost": "0",
+        "Tier": "5",
+        "Effects / unlocks": "[Star-Eater] Star-Eater",
+        "Prerequisites": "[Galactic Nemesis] Galactic Nemesis level 5",
+        "DLC": "[Nemesis]"
+      }
+    },
+    {
+      "id": "Skravird Strike Craft Learning from the design expertise of Skrand and his people, these superior strike craft are capable of prolonged engagement and highly adaptive tactics.",
+      "section": "Voidcraft event technologies",
+      "data": {
+        "Technology": "Skravird Strike Craft Learning from the design expertise of Skrand and his people, these superior strike craft are capable of prolonged engagement and highly adaptive tactics.",
+        "Cost": "12000",
+        "Tier": "4",
+        "Effects / unlocks": "[Ship part skrand strike craft] Skravird Strike Craft",
+        "Prerequisites": "Skrand Sharpbeak storyline events",
+        "DLC": "[Galactic Paragons]"
+      }
+    },
+    {
+      "id": "Riddle Escort",
+      "section": "Voidcraft event technologies",
+      "data": {
+        "Technology": "Riddle Escort A starship of modest size that optimizes our knowledge of spacetime to enact dimensional transcendentalism, making the inside bigger than its outward shape suggests. Advanced firepower capabilities come at a reduced logistical cost compared to traditional ship designs.",
+        "Cost": "35000",
+        "Tier": "5",
+        "Effects / unlocks": "[Riddle Escort] Riddle Escort",
+        "Prerequisites": "[Cosmogenesis] Cosmogenesis level 2; [Yes] Mechanical shipset",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Enigma Battlecruiser",
+      "section": "Voidcraft event technologies",
+      "data": {
+        "Technology": "Enigma Battlecruiser Another optimized spacecraft, this time of larger dimensions, will make current Battleships look like toys.",
+        "Cost": "35000",
+        "Tier": "5",
+        "Effects / unlocks": "[Enigma Battlecruiser] Enigma Battlecruiser",
+        "Prerequisites": "[Cosmogenesis] Cosmogenesis level 3; [Yes] Mechanical shipset",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Paradox Titan",
+      "section": "Voidcraft event technologies",
+      "data": {
+        "Technology": "Paradox Titan These formidable ships are closer to mobile fortresses than anything else, and only the most brutal assaults have a chance to damage them.",
+        "Cost": "35000",
+        "Tier": "5",
+        "Effects / unlocks": "[Paradox Titan] Paradox Titan; [Sb titan assembly yard] Titan Assembly Yards",
+        "Prerequisites": "[Cosmogenesis] Cosmogenesis level 4; [Yes] Mechanical shipset",
+        "DLC": "[The Machine Age]"
+      }
+    }
+  ]
+}

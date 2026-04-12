@@ -1,0 +1,360 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sovereign-template-v1",
+  "title": "Sovereign AI Template",
+  "description": "Defines a complete empire archetype for the Sovereign AI Overhaul mod. All downstream consumers — mod files, simulator, agents, validators — read from these templates.",
+  "type": "object",
+  "required": [
+    "$schema", "id", "name", "description",
+    "identity", "behavior", "economy", "gates",
+    "origins", "starting_state", "build_priority", "phase_overrides"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Schema identifier. Either the schema ID or a relative path to the schema file."
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z_]+$",
+      "description": "Snake_case identifier matching the template filename (without .json)"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable display name"
+    },
+    "description": {
+      "type": "string",
+      "description": "One-sentence summary of the archetype's playstyle"
+    },
+    "identity": {
+      "type": "object",
+      "required": ["personality_key", "archetype", "ethics_match", "authority_match", "civic_affinity"],
+      "additionalProperties": false,
+      "properties": {
+        "personality_key": {
+          "type": "string",
+          "description": "Exact key used in mod/common/personalities/00_personalities.txt"
+        },
+        "archetype": {
+          "type": "string",
+          "enum": ["expansionist", "diplomat", "isolationist", "technologist", "propagator", "purifier", "devourer"],
+          "description": "Behavioral archetype from the personality definition"
+        },
+        "ethics_match": {
+          "type": "object",
+          "required": ["required", "preferred", "forbidden"],
+          "additionalProperties": false,
+          "properties": {
+            "required": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "Ethics that must be present (from allow block)"
+            },
+            "preferred": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "Ethics that increase weight_modifier (positive factor modifiers)"
+            },
+            "forbidden": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "Ethics that are hard-blocked (factor 0 or NOT in allow)"
+            }
+          }
+        },
+        "authority_match": {
+          "type": "object",
+          "required": ["preferred", "forbidden"],
+          "additionalProperties": false,
+          "properties": {
+            "preferred": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "Authority types that increase spawn weight"
+            },
+            "forbidden": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "Authority types that are blocked"
+            }
+          }
+        },
+        "civic_affinity": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Civics that increase spawn weight or define the archetype"
+        }
+      }
+    },
+    "origins": {
+      "type": "object",
+      "required": ["default", "preferred", "compatible", "forbidden"],
+      "additionalProperties": false,
+      "description": "Origin affinity — which origins this personality naturally gravitates toward or avoids. The 'default' origin is used when no specific origin is selected.",
+      "properties": {
+        "default": {
+          "type": "string",
+          "description": "The default origin for this personality when generating empires (e.g. 'origin_default', 'origin_void_dwellers')"
+        },
+        "preferred": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["origin", "reason"],
+            "additionalProperties": false,
+            "properties": {
+              "origin": { "type": "string" },
+              "reason": { "type": "string", "description": "Why this origin synergizes with this personality" },
+              "starting_state_overrides": {
+                "type": "object",
+                "description": "Overrides to starting_state when this origin is active",
+                "additionalProperties": true
+              },
+              "economy_overrides": {
+                "type": "object",
+                "description": "Overrides to economy weight_factors or thresholds when this origin is active",
+                "additionalProperties": true
+              }
+            }
+          },
+          "description": "Origins that strongly synergize with this personality's strategy"
+        },
+        "compatible": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Origins that work fine but don't specifically synergize"
+        },
+        "forbidden": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Origins blocked by this personality's ethics/authority requirements"
+        }
+      }
+    },
+    "behavior": {
+      "type": "object",
+      "required": [
+        "aggressiveness", "trade_willingness", "bravery",
+        "military_spending", "colony_spending",
+        "threat_modifier", "friction_modifier",
+        "alliance_acceptance", "federation_acceptance", "flags"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "aggressiveness": { "type": "number", "minimum": 0, "maximum": 2.0 },
+        "trade_willingness": { "type": "number", "minimum": 0, "maximum": 1.0 },
+        "bravery": { "type": "number", "minimum": 0.5, "maximum": 1.5 },
+        "military_spending": { "type": "number", "minimum": 0.5, "maximum": 2.0 },
+        "colony_spending": { "type": "number", "minimum": 0.5, "maximum": 2.0 },
+        "threat_modifier": { "type": "number" },
+        "friction_modifier": { "type": "number" },
+        "alliance_acceptance": { "type": "integer" },
+        "federation_acceptance": { "type": "integer" },
+        "flags": {
+          "type": "object",
+          "required": [
+            "conqueror", "subjugator", "liberator", "opportunist",
+            "slaver", "uplifter", "purger", "dominator",
+            "infiltrator", "robot_exploiter", "robot_liberator", "migrator"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "conqueror": { "type": "boolean" },
+            "subjugator": { "type": "boolean" },
+            "liberator": { "type": "boolean" },
+            "opportunist": { "type": "boolean" },
+            "slaver": { "type": "boolean" },
+            "uplifter": { "type": "boolean" },
+            "purger": { "type": "boolean" },
+            "dominator": { "type": "boolean" },
+            "infiltrator": { "type": "boolean" },
+            "robot_exploiter": { "type": "boolean" },
+            "robot_liberator": { "type": "boolean" },
+            "migrator": { "type": "boolean" }
+          }
+        }
+      }
+    },
+    "economy": {
+      "type": "object",
+      "required": ["weight_factors", "deficit_thresholds", "surplus_thresholds"],
+      "additionalProperties": false,
+      "properties": {
+        "weight_factors": {
+          "type": "object",
+          "required": ["alloy", "research", "unity", "military", "expansion", "trade"],
+          "additionalProperties": false,
+          "properties": {
+            "alloy": { "type": "number", "minimum": 0 },
+            "research": { "type": "number", "minimum": 0 },
+            "unity": { "type": "number", "minimum": 0 },
+            "military": { "type": "number", "minimum": 0 },
+            "expansion": { "type": "number", "minimum": 0 },
+            "trade": { "type": "number", "minimum": 0 }
+          }
+        },
+        "deficit_thresholds": {
+          "type": "object",
+          "required": ["minerals", "energy", "alloys", "consumer_goods", "food", "research", "unity"],
+          "additionalProperties": false,
+          "properties": {
+            "minerals": { "type": "number", "minimum": 0 },
+            "energy": { "type": "number", "minimum": 0 },
+            "alloys": { "type": "number", "minimum": 0 },
+            "consumer_goods": { "type": "number", "minimum": 0 },
+            "food": { "type": "number", "minimum": 0 },
+            "research": { "type": "number", "minimum": 0 },
+            "unity": { "type": "number", "minimum": 0 }
+          }
+        },
+        "surplus_thresholds": {
+          "type": "object",
+          "required": ["minerals", "energy", "food", "alloys", "consumer_goods", "research", "unity"],
+          "additionalProperties": false,
+          "properties": {
+            "minerals": { "type": "number", "minimum": 0 },
+            "energy": { "type": "number", "minimum": 0 },
+            "food": { "type": "number", "minimum": 0 },
+            "alloys": { "type": "number", "minimum": 0 },
+            "consumer_goods": { "type": "number", "minimum": 0 },
+            "research": { "type": "number", "minimum": 0 },
+            "unity": { "type": "number", "minimum": 0 }
+          }
+        }
+      }
+    },
+    "gates": {
+      "type": "object",
+      "required": [
+        "G1_mineral", "G2_consumer_goods", "G3_mineral_strict",
+        "G4_strategic", "G5_alloy_expansion", "G6_energy_high_upkeep"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "G1_mineral": { "$ref": "#/definitions/gate" },
+        "G2_consumer_goods": { "$ref": "#/definitions/gate" },
+        "G3_mineral_strict": { "$ref": "#/definitions/gate" },
+        "G4_strategic": { "$ref": "#/definitions/gate" },
+        "G5_alloy_expansion": { "$ref": "#/definitions/gate" },
+        "G6_energy_high_upkeep": { "$ref": "#/definitions/gate" }
+      }
+    },
+    "starting_state": {
+      "type": "object",
+      "required": [
+        "template", "stockpiles", "pops", "districts",
+        "planet_size", "max_buildings", "capital_tier", "starting_techs"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "template": {
+          "type": "string",
+          "enum": ["regular", "hive_mind", "machine", "corporate", "purifier"]
+        },
+        "stockpiles": {
+          "type": "object",
+          "required": ["minerals", "energy", "food", "alloys", "consumer_goods"],
+          "additionalProperties": false,
+          "properties": {
+            "minerals": { "type": "integer", "minimum": 0 },
+            "energy": { "type": "integer", "minimum": 0 },
+            "food": { "type": "integer", "minimum": 0 },
+            "alloys": { "type": "integer", "minimum": 0 },
+            "consumer_goods": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "pops": { "type": "integer", "minimum": 1 },
+        "districts": {
+          "type": "object",
+          "required": ["mining", "generator", "agriculture", "city"],
+          "additionalProperties": false,
+          "properties": {
+            "mining": { "type": "integer", "minimum": 0 },
+            "generator": { "type": "integer", "minimum": 0 },
+            "agriculture": { "type": "integer", "minimum": 0 },
+            "city": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "planet_size": { "type": "integer", "minimum": 1 },
+        "max_buildings": { "type": "integer", "minimum": 1 },
+        "capital_tier": { "type": "integer", "minimum": 0, "maximum": 3 },
+        "starting_techs": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "build_priority": {
+      "type": "object",
+      "required": ["early", "mid", "late"],
+      "additionalProperties": false,
+      "properties": {
+        "early": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Prioritized build order for years 2200-2230"
+        },
+        "mid": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Prioritized build order for years 2230-2300"
+        },
+        "late": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Prioritized build order for years 2300+"
+        }
+      }
+    },
+    "phase_overrides": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "early": { "$ref": "#/definitions/phase_override" },
+        "mid": { "$ref": "#/definitions/phase_override" },
+        "late": { "$ref": "#/definitions/phase_override" }
+      }
+    }
+  },
+  "definitions": {
+    "gate": {
+      "type": "object",
+      "required": ["threshold", "factor"],
+      "additionalProperties": false,
+      "properties": {
+        "threshold": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Monthly income threshold below which the gate activates"
+        },
+        "factor": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Weight multiplier applied when gate is active (0.1 = harsh, 0.25 = soft)"
+        }
+      }
+    },
+    "phase_override": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "weight_factors": {
+          "type": "object",
+          "additionalProperties": { "type": "number" }
+        },
+        "deficit_thresholds": {
+          "type": "object",
+          "additionalProperties": { "type": "number" }
+        },
+        "surplus_thresholds": {
+          "type": "object",
+          "additionalProperties": { "type": "number" }
+        },
+        "gates": {
+          "type": "object",
+          "additionalProperties": { "$ref": "#/definitions/gate" }
+        }
+      }
+    }
+  }
+}

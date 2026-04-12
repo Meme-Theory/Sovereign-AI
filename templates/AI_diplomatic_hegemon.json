@@ -1,0 +1,135 @@
+{
+  "$schema": "sovereign-template-v1.json",
+  "id": "AI_diplomatic_hegemon",
+  "name": "Diplomatic Hegemon",
+  "description": "Uses diplomacy and federations to project power. Prefers allies, pacts, and economic leverage over direct conquest.",
+
+  "identity": {
+    "personality_key": "sovereign_diplomatic_hegemon",
+    "archetype": "diplomat",
+    "ethics_match": {
+      "required": [],
+      "preferred": ["xenophile", "fanatic_xenophile"],
+      "forbidden": ["fanatic_xenophobe"]
+    },
+    "authority_match": {
+      "preferred": [],
+      "forbidden": ["auth_hive_mind", "auth_machine_intelligence"]
+    },
+    "civic_affinity": ["civic_diplomatic_corps"]
+  },
+
+  "origins": {
+    "default": "origin_default",
+    "preferred": [
+      {
+        "origin": "origin_common_ground",
+        "reason": "Starts in a federation; perfectly matches the federation-builder strategy"
+      },
+      {
+        "origin": "origin_hegemon",
+        "reason": "Starts as federation president with subjects; immediate diplomatic power"
+      },
+      {
+        "origin": "origin_lost_colony",
+        "reason": "Connection to an advanced empire provides diplomatic leverage and protection"
+      }
+    ],
+    "compatible": ["origin_default", "origin_galactic_doorstep", "origin_ocean_paradise"],
+    "forbidden": ["origin_doomsday", "origin_tree_of_life", "origin_primal_calling", "origin_resource_consolidation"]
+  },
+
+  "behavior": {
+    "aggressiveness": 0.25,
+    "trade_willingness": 1.0,
+    "bravery": 0.6,
+    "military_spending": 0.75,
+    "colony_spending": 1.0,
+    "threat_modifier": 1.5,
+    "friction_modifier": 0.25,
+    "alliance_acceptance": 50,
+    "federation_acceptance": 75,
+    "flags": {
+      "conqueror": false,
+      "subjugator": true,
+      "liberator": true,
+      "opportunist": false,
+      "slaver": false,
+      "uplifter": true,
+      "purger": false,
+      "dominator": false,
+      "infiltrator": false,
+      "robot_exploiter": false,
+      "robot_liberator": true,
+      "migrator": true
+    }
+  },
+
+  "economy": {
+    "weight_factors": {
+      "alloy": 1.0,
+      "research": 1.5,
+      "unity": 1.5,
+      "military": 0.75,
+      "expansion": 1.0,
+      "trade": 1.5
+    },
+    "deficit_thresholds": {
+      "minerals": 25,
+      "energy": 10,
+      "alloys": 12,
+      "consumer_goods": 5,
+      "food": 5,
+      "research": 15,
+      "unity": 15
+    },
+    "surplus_thresholds": {
+      "minerals": 100,
+      "energy": 50,
+      "food": 30,
+      "alloys": 50,
+      "consumer_goods": 25,
+      "research": 80,
+      "unity": 50
+    }
+  },
+
+  "gates": {
+    "G1_mineral": { "threshold": 15, "factor": 0.1 },
+    "G2_consumer_goods": { "threshold": 2, "factor": 0.1 },
+    "G3_mineral_strict": { "threshold": 25, "factor": 0.1 },
+    "G4_strategic": { "threshold": 1, "factor": 0.1 },
+    "G5_alloy_expansion": { "threshold": 5, "factor": 0.1 },
+    "G6_energy_high_upkeep": { "threshold": 5, "factor": 0.25 }
+  },
+
+  "starting_state": {
+    "template": "regular",
+    "stockpiles": {
+      "minerals": 200, "energy": 200, "food": 100,
+      "alloys": 100, "consumer_goods": 100
+    },
+    "pops": 52,
+    "districts": { "mining": 2, "generator": 2, "agriculture": 2, "city": 2 },
+    "planet_size": 20,
+    "max_buildings": 4,
+    "capital_tier": 0,
+    "starting_techs": 31
+  },
+
+  "build_priority": {
+    "early": ["mining_district", "generator_district", "civilian_industries", "capital_upgrade", "research_lab", "admin_office"],
+    "mid": ["research_lab", "commercial_zone", "city_district", "admin_office"],
+    "late": ["research_lab", "megastructure", "commercial_zone"]
+  },
+
+  "phase_overrides": {
+    "early": {},
+    "mid": {
+      "weight_factors": { "trade": 2.0 }
+    },
+    "late": {
+      "gates": { "G1_mineral": { "threshold": 5, "factor": 0.25 } }
+    }
+  }
+}

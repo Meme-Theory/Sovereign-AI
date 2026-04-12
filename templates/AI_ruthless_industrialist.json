@@ -1,0 +1,133 @@
+{
+  "$schema": "sovereign-template-v1.json",
+  "id": "AI_ruthless_industrialist",
+  "name": "Ruthless Industrialist",
+  "description": "Out-produce everyone. Economic supremacy leads to military supremacy.",
+
+  "identity": {
+    "personality_key": "sovereign_ruthless_industrialist",
+    "archetype": "expansionist",
+    "ethics_match": {
+      "required": ["materialist"],
+      "preferred": ["fanatic_materialist"],
+      "forbidden": ["fanatic_spiritualist"]
+    },
+    "authority_match": {
+      "preferred": ["auth_oligarchic", "auth_dictatorial"],
+      "forbidden": []
+    },
+    "civic_affinity": ["civic_mining_guilds", "civic_functional_architecture"]
+  },
+
+  "origins": {
+    "default": "origin_default",
+    "preferred": [
+      {
+        "origin": "origin_prosperous_unification",
+        "reason": "Extra starting pops and districts give production head start",
+        "starting_state_overrides": { "pops": 56, "districts": { "mining": 3, "generator": 3 } }
+      },
+      {
+        "origin": "origin_mechanists",
+        "reason": "Robot assembly from day 1 doubles pop growth, feeding the production machine",
+        "economy_overrides": { "weight_factors": { "alloy": 3.0 } }
+      }
+    ],
+    "compatible": ["origin_default", "origin_galactic_doorstep", "origin_syncretic_evolution"],
+    "forbidden": ["origin_tree_of_life", "origin_primal_calling"]
+  },
+
+  "behavior": {
+    "aggressiveness": 0.75,
+    "trade_willingness": 0.9,
+    "bravery": 0.8,
+    "military_spending": 1.0,
+    "colony_spending": 1.8,
+    "threat_modifier": 0.75,
+    "friction_modifier": 0.5,
+    "alliance_acceptance": 0,
+    "federation_acceptance": 10,
+    "flags": {
+      "conqueror": true,
+      "subjugator": true,
+      "liberator": false,
+      "opportunist": true,
+      "slaver": false,
+      "uplifter": false,
+      "purger": false,
+      "dominator": false,
+      "infiltrator": false,
+      "robot_exploiter": true,
+      "robot_liberator": false,
+      "migrator": true
+    }
+  },
+
+  "economy": {
+    "weight_factors": {
+      "alloy": 2.5,
+      "research": 1.0,
+      "unity": 1.0,
+      "military": 1.0,
+      "expansion": 1.5,
+      "trade": 1.0
+    },
+    "deficit_thresholds": {
+      "minerals": 20,
+      "energy": 10,
+      "alloys": 8,
+      "consumer_goods": 5,
+      "food": 5,
+      "research": 20,
+      "unity": 15
+    },
+    "surplus_thresholds": {
+      "minerals": 100,
+      "energy": 50,
+      "food": 30,
+      "alloys": 50,
+      "consumer_goods": 25,
+      "research": 80,
+      "unity": 50
+    }
+  },
+
+  "gates": {
+    "G1_mineral": { "threshold": 15, "factor": 0.1 },
+    "G2_consumer_goods": { "threshold": 2, "factor": 0.1 },
+    "G3_mineral_strict": { "threshold": 25, "factor": 0.1 },
+    "G4_strategic": { "threshold": 1, "factor": 0.1 },
+    "G5_alloy_expansion": { "threshold": 5, "factor": 0.1 },
+    "G6_energy_high_upkeep": { "threshold": 5, "factor": 0.25 }
+  },
+
+  "starting_state": {
+    "template": "regular",
+    "stockpiles": {
+      "minerals": 200, "energy": 200, "food": 100,
+      "alloys": 100, "consumer_goods": 100
+    },
+    "pops": 52,
+    "districts": { "mining": 2, "generator": 2, "agriculture": 2, "city": 2 },
+    "planet_size": 20,
+    "max_buildings": 4,
+    "capital_tier": 0,
+    "starting_techs": 31
+  },
+
+  "build_priority": {
+    "early": ["mining_district", "alloy_foundry", "mining_district", "civilian_industries", "capital_upgrade", "alloy_foundry"],
+    "mid": ["research_lab", "city_district", "alloy_foundry", "admin_office"],
+    "late": ["megastructure", "research_lab", "alloy_foundry"]
+  },
+
+  "phase_overrides": {
+    "early": {},
+    "mid": {
+      "weight_factors": { "research": 1.5 }
+    },
+    "late": {
+      "gates": { "G1_mineral": { "threshold": 5, "factor": 0.25 } }
+    }
+  }
+}

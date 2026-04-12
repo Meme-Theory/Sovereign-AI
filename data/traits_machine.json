@@ -1,0 +1,309 @@
+{
+  "category": "traits_machine",
+  "source": "Stellaris Wiki (4.x)",
+  "extracted": "2026-04-12",
+  "count": 84,
+  "items": [
+    {
+      "id": "Adaptive Frames",
+      "section": "Positive traits",
+      "data": {
+        "Effect": "Enables Auto-Modding"
+      }
+    },
+    {
+      "id": "Efficient Processors",
+      "section": "Positive traits",
+      "data": {
+        "Effect": "+5% Job efficiency"
+      }
+    },
+    {
+      "id": "Harvesters",
+      "section": "Positive traits",
+      "data": {
+        "Effect": "+15% Farming job efficiency"
+      }
+    },
+    {
+      "id": "Power Drills",
+      "section": "Positive traits",
+      "data": {
+        "Effect": "+15% Mining job efficiency"
+      }
+    },
+    {
+      "id": "Superconductive",
+      "section": "Positive traits",
+      "data": {
+        "Effect": "+15% Technician job efficiency"
+      }
+    },
+    {
+      "id": "Double-Jointed",
+      "section": "Positive traits",
+      "data": {
+        "Effect": "-10% Pop housing usage"
+      }
+    },
+    {
+      "id": "Durable",
+      "section": "Positive traits",
+      "data": {
+        "Effect": "-10% Pop upkeep"
+      }
+    },
+    {
+      "id": "Emotion Emulators",
+      "section": "Positive traits",
+      "data": {
+        "Effect": "+20% Influential job efficiency"
+      }
+    },
+    {
+      "id": "Mass-Produced",
+      "section": "Positive traits",
+      "data": {
+        "Effect": "+15% Pop assembly speed"
+      }
+    },
+    {
+      "id": "Recycled",
+      "section": "Positive traits",
+      "data": {
+        "Effect": "+20% Replicator job efficiency"
+      }
+    },
+    {
+      "id": "Streamlined Protocols",
+      "section": "Positive traits",
+      "data": {
+        "Effect": "-10% Empire size from pops"
+      }
+    },
+    {
+      "id": "Domestic Protocols",
+      "section": "Positive traits",
+      "data": {
+        "Effect": "Can work Servant jobs; +20% Influential job efficiency"
+      }
+    },
+    {
+      "id": "Logic Engines",
+      "section": "Positive traits",
+      "data": {
+        "Effect": "+10% Researcher job efficiency"
+      }
+    },
+    {
+      "id": "Trading Algorithms",
+      "section": "Positive traits",
+      "data": {
+        "Effect": "+25% Trader job efficiency"
+      }
+    },
+    {
+      "id": "Eternal Machine",
+      "section": "Positive traits",
+      "data": {
+        "Effect": "+Immortal"
+      }
+    },
+    {
+      "id": "Loyalty Circuits",
+      "section": "Positive traits",
+      "data": {
+        "Effect": "+10% Happiness"
+      }
+    },
+    {
+      "id": "Propaganda Machines",
+      "section": "Positive traits",
+      "data": {
+        "Effect": "+15% Bureaucrat job efficiency"
+      }
+    },
+    {
+      "id": "Enhanced Memory",
+      "section": "Positive traits",
+      "data": {
+        "Effect": "-25% Leader upkeep; -1 max negative traits"
+      }
+    },
+    {
+      "id": "Learning Algorithms",
+      "section": "Positive traits",
+      "data": {
+        "Effect": "+10% Leader experience gain"
+      }
+    },
+    {
+      "id": "Engineering Core",
+      "section": "Positive traits",
+      "data": {
+        "Effect": "+15% Engineer job efficiency",
+        "DLC": "The Machine Age"
+      }
+    },
+    {
+      "id": "Physics Core",
+      "section": "Positive traits",
+      "data": {
+        "Effect": "+15% Physicist job efficiency",
+        "DLC": "The Machine Age"
+      }
+    },
+    {
+      "id": "Sociology Core",
+      "section": "Positive traits",
+      "data": {
+        "Effect": "+15% Biologist job efficiency",
+        "DLC": "The Machine Age"
+      }
+    },
+    {
+      "id": "Integrated Weaponry",
+      "section": "Positive traits",
+      "data": {
+        "Effect": "+100% Army damage; +20% Enforcer efficiency",
+        "DLC": "The Machine Age"
+      }
+    },
+    {
+      "id": "Assembly Slag",
+      "section": "Positive traits",
+      "data": {
+        "Effect": "+0.005 Living metal per 100 pops",
+        "DLC": "Infernals"
+      }
+    },
+    {
+      "id": "Bulky",
+      "section": "Negative traits",
+      "data": {
+        "Effect": "+10% Pop housing usage"
+      }
+    },
+    {
+      "id": "Custom-Made",
+      "section": "Negative traits",
+      "data": {
+        "Effect": "-15% Pop assembly speed"
+      }
+    },
+    {
+      "id": "High Bandwidth",
+      "section": "Negative traits",
+      "data": {
+        "Effect": "+10% Empire size from pops"
+      }
+    },
+    {
+      "id": "High Maintenance",
+      "section": "Negative traits",
+      "data": {
+        "Effect": "+10% Pop upkeep"
+      }
+    },
+    {
+      "id": "Luxurious",
+      "section": "Negative traits",
+      "data": {
+        "Effect": "-20% Replicator job efficiency"
+      }
+    },
+    {
+      "id": "Uncanny",
+      "section": "Negative traits",
+      "data": {
+        "Effect": "-20% Influential job efficiency"
+      }
+    },
+    {
+      "id": "Decadent",
+      "section": "Negative traits",
+      "data": {
+        "Effect": "-10% Worker/Slave happiness"
+      }
+    },
+    {
+      "id": "Deviants",
+      "section": "Negative traits",
+      "data": {
+        "Effect": "-15% Governing ethics attraction"
+      }
+    },
+    {
+      "id": "Quarrelsome",
+      "section": "Negative traits",
+      "data": {
+        "Effect": "-10% Bureaucrat job efficiency"
+      }
+    },
+    {
+      "id": "Wasteful",
+      "section": "Negative traits",
+      "data": {
+        "Effect": "+10% Pop consumer goods upkeep"
+      }
+    },
+    {
+      "id": "Repurposed Hardware",
+      "section": "Negative traits",
+      "data": {
+        "Effect": "-10% Leader experience gain"
+      }
+    },
+    {
+      "id": "Delicate Chassis",
+      "section": "Negative traits",
+      "data": {
+        "Effect": "-50% Army damage; -5% Worker output",
+        "DLC": "The Machine Age"
+      }
+    },
+    {
+      "id": "Scarcity Subroutines",
+      "section": "Negative traits",
+      "data": {
+        "Effect": "-25% Trader job efficiency",
+        "DLC": "The Machine Age"
+      }
+    },
+    {
+      "id": "Waterproof",
+      "section": "Special traits",
+      "data": {
+        "Effects": "+20% Habitability on Ocean Worlds; -20% on Dry/Cold"
+      }
+    },
+    {
+      "id": "Virtual",
+      "section": "Ascension traits",
+      "data": {
+        "Effects": "+Immortal; -90% Pop housing usage; +25% min habitability"
+      }
+    },
+    {
+      "id": "Latent Psionic",
+      "section": "Ascension traits",
+      "data": {
+        "Effects": "+10% Researcher efficiency; +5% Bureaucrat/Enforcer efficiency"
+      }
+    },
+    {
+      "id": "Psionic",
+      "section": "Ascension traits",
+      "data": {
+        "Effects": "+10% Researcher efficiency; +10% Bureaucrat/Enforcer efficiency; +5% Happiness"
+      }
+    },
+    {
+      "id": "Suppressed",
+      "section": "Modularity traits",
+      "data": {
+        "Effects": "Not sapient; +10% Job efficiency; Cannot generate leaders"
+      }
+    }
+  ]
+}

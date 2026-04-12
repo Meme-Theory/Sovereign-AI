@@ -1,0 +1,178 @@
+{
+  "category": "ethics",
+  "source": "Stellaris Wiki (4.x)",
+  "extracted": "2026-04-12",
+  "count": 17,
+  "items": [
+    {
+      "id": "ethic_authoritarian",
+      "section": "regular",
+      "data": {
+        "name": "Authoritarian",
+        "tier": "regular",
+        "axis": "authority",
+        "effects": "+0.5 Monthly influence; +5% Worker job efficiency"
+      }
+    },
+    {
+      "id": "ethic_fanatic_authoritarian",
+      "section": "fanatic",
+      "data": {
+        "name": "Fanatic Authoritarian",
+        "tier": "fanatic",
+        "axis": "authority",
+        "effects": "+1 Monthly influence; +10% Worker job efficiency"
+      }
+    },
+    {
+      "id": "ethic_egalitarian",
+      "section": "regular",
+      "data": {
+        "name": "Egalitarian",
+        "tier": "regular",
+        "axis": "authority",
+        "effects": "+15% Faction resource output; +5% Specialist job efficiency"
+      }
+    },
+    {
+      "id": "ethic_fanatic_egalitarian",
+      "section": "fanatic",
+      "data": {
+        "name": "Fanatic Egalitarian",
+        "tier": "fanatic",
+        "axis": "authority",
+        "effects": "+30% Faction resource output; +10% Specialist job efficiency"
+      }
+    },
+    {
+      "id": "ethic_materialist",
+      "section": "regular",
+      "data": {
+        "name": "Materialist",
+        "tier": "regular",
+        "axis": "knowledge",
+        "effects": "-10% Robot upkeep; +5% Research speed"
+      }
+    },
+    {
+      "id": "ethic_fanatic_materialist",
+      "section": "fanatic",
+      "data": {
+        "name": "Fanatic Materialist",
+        "tier": "fanatic",
+        "axis": "knowledge",
+        "effects": "-20% Robot upkeep; +10% Research speed"
+      }
+    },
+    {
+      "id": "ethic_spiritualist",
+      "section": "regular",
+      "data": {
+        "name": "Spiritualist",
+        "tier": "regular",
+        "axis": "knowledge",
+        "effects": "+10% Monthly unity; -10% Edict cost and upkeep"
+      }
+    },
+    {
+      "id": "ethic_fanatic_spiritualist",
+      "section": "fanatic",
+      "data": {
+        "name": "Fanatic Spiritualist",
+        "tier": "fanatic",
+        "axis": "knowledge",
+        "effects": "+20% Monthly unity; -20% Edict cost and upkeep"
+      }
+    },
+    {
+      "id": "ethic_militarist",
+      "section": "regular",
+      "data": {
+        "name": "Militarist",
+        "tier": "regular",
+        "axis": "war",
+        "effects": "-10% Claim influence cost; +10% Ship fire rate"
+      }
+    },
+    {
+      "id": "ethic_fanatic_militarist",
+      "section": "fanatic",
+      "data": {
+        "name": "Fanatic Militarist",
+        "tier": "fanatic",
+        "axis": "war",
+        "effects": "-20% Claim influence cost; +20% Ship fire rate"
+      }
+    },
+    {
+      "id": "ethic_pacifist",
+      "section": "regular",
+      "data": {
+        "name": "Pacifist",
+        "tier": "regular",
+        "axis": "war",
+        "effects": "-10% Empire size from pops; +5 Stability"
+      }
+    },
+    {
+      "id": "ethic_fanatic_pacifist",
+      "section": "fanatic",
+      "data": {
+        "name": "Fanatic Pacifist",
+        "tier": "fanatic",
+        "axis": "war",
+        "effects": "-20% Empire size from pops; +10 Stability"
+      }
+    },
+    {
+      "id": "ethic_xenophobe",
+      "section": "regular",
+      "data": {
+        "name": "Xenophobe",
+        "tier": "regular",
+        "axis": "diplomacy",
+        "effects": "-20% Starbase influence cost; +10% Pop growth/assembly speed"
+      }
+    },
+    {
+      "id": "ethic_fanatic_xenophobe",
+      "section": "fanatic",
+      "data": {
+        "name": "Fanatic Xenophobe",
+        "tier": "fanatic",
+        "axis": "diplomacy",
+        "effects": "-40% Starbase influence cost; +20% Pop growth/assembly speed"
+      }
+    },
+    {
+      "id": "ethic_xenophile",
+      "section": "regular",
+      "data": {
+        "name": "Xenophile",
+        "tier": "regular",
+        "axis": "diplomacy",
+        "effects": "+10% Trade from jobs; +1 Available envoys"
+      }
+    },
+    {
+      "id": "ethic_fanatic_xenophile",
+      "section": "fanatic",
+      "data": {
+        "name": "Fanatic Xenophile",
+        "tier": "fanatic",
+        "axis": "diplomacy",
+        "effects": "+20% Trade from jobs; +2 Available envoys"
+      }
+    },
+    {
+      "id": "ethic_gestalt_consciousness",
+      "section": "gestalt",
+      "data": {
+        "name": "Gestalt Consciousness",
+        "tier": "gestalt",
+        "axis": "gestalt",
+        "effects": "-20% War exhaustion gain; +1 Monthly influence; +2 Encryption"
+      }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "$schema": "sovereign-template-v1.json",
+  "id": "AI_fortress_guardian",
+  "name": "Fortress Guardian",
+  "description": "Defensive-focused empire. Builds strong starbases, turtles behind borders, and retaliates fiercely when attacked.",
+
+  "identity": {
+    "personality_key": "sovereign_fortress_guardian",
+    "archetype": "isolationist",
+    "ethics_match": {
+      "required": [],
+      "preferred": ["pacifist", "fanatic_pacifist", "xenophobe"],
+      "forbidden": ["fanatic_militarist"]
+    },
+    "authority_match": {
+      "preferred": [],
+      "forbidden": []
+    },
+    "civic_affinity": ["civic_citizen_service"]
+  },
+
+  "origins": {
+    "default": "origin_default",
+    "preferred": [
+      {
+        "origin": "origin_void_dwellers",
+        "reason": "Habitat-based empire is inherently defensive; small territory, hard to invade",
+        "starting_state_overrides": { "planet_size": 6 },
+        "economy_overrides": { "weight_factors": { "expansion": 0.25 } }
+      },
+      {
+        "origin": "origin_shattered_ring",
+        "reason": "Single powerful ring world segment; turtle on one excellent planet"
+      },
+      {
+        "origin": "origin_subterranean",
+        "reason": "Underground empire with defensive bonuses"
+      }
+    ],
+    "compatible": ["origin_default", "origin_galactic_doorstep"],
+    "forbidden": ["origin_doomsday", "origin_hegemon"]
+  },
+
+  "behavior": {
+    "aggressiveness": 0.1,
+    "trade_willingness": 0.3,
+    "bravery": 1.5,
+    "military_spending": 1.5,
+    "colony_spending": 0.6,
+    "threat_modifier": 1.75,
+    "friction_modifier": 1.25,
+    "alliance_acceptance": -25,
+    "federation_acceptance": -50,
+    "flags": {
+      "conqueror": false,
+      "subjugator": false,
+      "liberator": false,
+      "opportunist": false,
+      "slaver": false,
+      "uplifter": false,
+      "purger": false,
+      "dominator": false,
+      "infiltrator": false,
+      "robot_exploiter": true,
+      "robot_liberator": false,
+      "migrator": false
+    }
+  },
+
+  "economy": {
+    "weight_factors": {
+      "alloy": 1.5,
+      "research": 0.75,
+      "unity": 1.0,
+      "military": 2.0,
+      "expansion": 0.5,
+      "trade": 0.5
+    },
+    "deficit_thresholds": {
+      "minerals": 25,
+      "energy": 10,
+      "alloys": 10,
+      "consumer_goods": 5,
+      "food": 5,
+      "research": 20,
+      "unity": 15
+    },
+    "surplus_thresholds": {
+      "minerals": 100,
+      "energy": 50,
+      "food": 30,
+      "alloys": 50,
+      "consumer_goods": 25,
+      "research": 80,
+      "unity": 50
+    }
+  },
+
+  "gates": {
+    "G1_mineral": { "threshold": 15, "factor": 0.1 },
+    "G2_consumer_goods": { "threshold": 2, "factor": 0.1 },
+    "G3_mineral_strict": { "threshold": 25, "factor": 0.1 },
+    "G4_strategic": { "threshold": 1, "factor": 0.1 },
+    "G5_alloy_expansion": { "threshold": 5, "factor": 0.1 },
+    "G6_energy_high_upkeep": { "threshold": 5, "factor": 0.25 }
+  },
+
+  "starting_state": {
+    "template": "regular",
+    "stockpiles": {
+      "minerals": 200, "energy": 200, "food": 100,
+      "alloys": 100, "consumer_goods": 100
+    },
+    "pops": 52,
+    "districts": { "mining": 2, "generator": 2, "agriculture": 2, "city": 2 },
+    "planet_size": 20,
+    "max_buildings": 4,
+    "capital_tier": 0,
+    "starting_techs": 31
+  },
+
+  "build_priority": {
+    "early": ["mining_district", "generator_district", "stronghold", "alloy_foundry", "capital_upgrade", "civilian_industries"],
+    "mid": ["stronghold", "alloy_foundry", "research_lab", "city_district"],
+    "late": ["stronghold", "alloy_foundry", "megastructure"]
+  },
+
+  "phase_overrides": {
+    "early": {},
+    "mid": {
+      "weight_factors": { "military": 2.5 }
+    },
+    "late": {
+      "gates": { "G1_mineral": { "threshold": 5, "factor": 0.25 } }
+    }
+  }
+}

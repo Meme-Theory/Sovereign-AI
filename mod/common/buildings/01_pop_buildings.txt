@@ -70,6 +70,20 @@ building_research_lab_1 = {
 			owner = { has_civic = civic_technocracy }
 		}
 
+		# Knowledge Seekers prioritize research
+		modifier = {
+			factor = 2.5
+			owner = { has_personality = sovereign_knowledge_seeker }
+		}
+
+		# Can't afford CG upkeep for researchers
+		modifier = {
+			factor = 0.1
+			owner = {
+				has_monthly_income = { resource = consumer_goods value < 2 }
+			}
+		}
+
 		# Reduce priority if already have surplus
 		modifier = {
 			factor = @resource_building_surplus_penalty
@@ -125,7 +139,7 @@ building_research_lab_2 = {
 
 		modifier = {
 			factor = 2.0
-			owner = { has_ethic = ethic_materialist }
+			owner = { sovereign_is_materialist = yes }
 		}
 
 		modifier = {
@@ -188,13 +202,31 @@ building_foundry_1 = {
 		# Militarists need more alloys for ships
 		modifier = {
 			factor = 1.5
-			owner = { has_ethic = ethic_militarist }
+			owner = { sovereign_is_militaristic = yes }
 		}
 
 		# At war: alloys are critical
 		modifier = {
 			factor = 2.0
 			owner = { is_at_war = yes }
+		}
+
+		# Personality: Aggressive Expansionists want alloys for fleet
+		modifier = {
+			factor = 2.0
+			owner = { has_personality = sovereign_aggressive_expansionist }
+		}
+
+		# Personality: Ruthless Industrialists prioritize production
+		modifier = {
+			factor = 2.5
+			owner = { has_personality = sovereign_ruthless_industrialist }
+		}
+
+		# Threat detected — build up alloy production
+		modifier = {
+			factor = 1.5
+			owner = { highest_threat > 50 }
 		}
 
 		# Already have good alloy output — reduce priority
@@ -205,6 +237,14 @@ building_foundry_1 = {
 					resource = alloys
 					value > 50
 				}
+			}
+		}
+
+		# Mineral income too low to support more foundries
+		modifier = {
+			factor = 0.1
+			owner = {
+				has_monthly_income = { resource = minerals value < 15 }
 			}
 		}
 
@@ -276,6 +316,14 @@ building_civilian_industries = {
 					resource = consumer_goods
 					value < 0
 				}
+			}
+		}
+
+		# Mineral income too low to support more artisans
+		modifier = {
+			factor = 0.1
+			owner = {
+				has_monthly_income = { resource = minerals value < 15 }
 			}
 		}
 
@@ -378,7 +426,7 @@ building_clinic = {
 		# Xenophiles and bio-focused empires value growth
 		modifier = {
 			factor = 1.5
-			owner = { has_ethic = ethic_xenophile }
+			owner = { sovereign_is_xenophile = yes }
 		}
 
 		modifier = {

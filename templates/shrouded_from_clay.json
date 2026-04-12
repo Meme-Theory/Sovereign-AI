@@ -1,0 +1,141 @@
+{
+  "$schema": "sovereign-template-v1.json",
+  "id": "shrouded_from_clay",
+  "name": "Shrouded From Clay",
+  "description": "Machine Intelligence that transcends its origin — builds a megastructure economy then reaches into the Shroud. Efficiency-first, with late-game psionic pivot.",
+
+  "identity": {
+    "personality_key": "sovereign_adaptive_optimizer",
+    "archetype": "technologist",
+    "ethics_match": {
+      "required": [],
+      "preferred": ["materialist"],
+      "forbidden": ["spiritualist"]
+    },
+    "authority_match": {
+      "preferred": ["auth_machine_intelligence"],
+      "forbidden": []
+    },
+    "civic_affinity": ["civic_machine_builder", "civic_introspective"]
+  },
+
+  "origins": {
+    "default": "origin_default",
+    "preferred": [
+      {
+        "origin": "origin_riftworld",
+        "reason": "Astral rift access on homeworld feeds the Shroud pivot; research and astral thread bonuses",
+        "economy_overrides": { "research": 1.5 }
+      },
+      {
+        "origin": "origin_resource_consolidation",
+        "reason": "Extra districts for machine production base",
+        "starting_state_overrides": { "districts": { "mining": 1, "generator": 1 } }
+      }
+    ],
+    "compatible": ["origin_default", "origin_galactic_doorstep"],
+    "forbidden": ["origin_tree_of_life", "origin_primal_calling", "origin_common_ground"]
+  },
+
+  "behavior": {
+    "aggressiveness": 0.5,
+    "trade_willingness": 0.6,
+    "bravery": 1.0,
+    "military_spending": 1.0,
+    "colony_spending": 1.5,
+    "threat_modifier": 1.0,
+    "friction_modifier": 0.75,
+    "alliance_acceptance": -25,
+    "federation_acceptance": -50,
+    "flags": {
+      "conqueror": false,
+      "subjugator": true,
+      "liberator": false,
+      "opportunist": true,
+      "slaver": false,
+      "uplifter": false,
+      "purger": false,
+      "dominator": false,
+      "infiltrator": true,
+      "robot_exploiter": false,
+      "robot_liberator": false,
+      "migrator": false
+    }
+  },
+
+  "economy": {
+    "weight_factors": {
+      "alloy": 1.5,
+      "research": 2.0,
+      "unity": 1.0,
+      "military": 1.0,
+      "expansion": 1.5,
+      "trade": 0.5
+    },
+    "deficit_thresholds": {
+      "minerals": 20,
+      "energy": 15,
+      "alloys": 10,
+      "consumer_goods": 0,
+      "food": 0,
+      "research": 10,
+      "unity": 15
+    },
+    "surplus_thresholds": {
+      "minerals": 100,
+      "energy": 75,
+      "food": 0,
+      "alloys": 50,
+      "consumer_goods": 0,
+      "research": 100,
+      "unity": 50
+    }
+  },
+
+  "gates": {
+    "G1_mineral": { "threshold": 15, "factor": 0.1 },
+    "G2_consumer_goods": { "threshold": 0, "factor": 1.0 },
+    "G3_mineral_strict": { "threshold": 25, "factor": 0.1 },
+    "G4_strategic": { "threshold": 1, "factor": 0.1 },
+    "G5_alloy_expansion": { "threshold": 5, "factor": 0.1 },
+    "G6_energy_high_upkeep": { "threshold": 10, "factor": 0.25 }
+  },
+
+  "starting_state": {
+    "template": "machine",
+    "stockpiles": { "minerals": 200, "energy": 300, "food": 0, "alloys": 100, "consumer_goods": 0 },
+    "pops": 50,
+    "districts": { "mining": 2, "generator": 3, "agriculture": 0, "city": 2 },
+    "planet_size": 20,
+    "max_buildings": 4,
+    "capital_tier": 0,
+    "starting_techs": 31
+  },
+
+  "build_priority": {
+    "early": ["mining_district", "generator_district", "alloy_foundry", "city_district", "research_lab", "alloy_foundry"],
+    "mid": ["research_lab", "research_lab", "city_district", "alloy_foundry", "megastructure_site"],
+    "late": ["megastructure", "research_lab", "dyson_sphere", "matter_decompressor"]
+  },
+
+  "phase_overrides": {
+    "early": {},
+    "mid": {
+      "weight_factors": { "research": 2.5 }
+    },
+    "late": {
+      "weight_factors": { "research": 3.0, "alloy": 2.0 },
+      "gates": { "G1_mineral": { "threshold": 5, "factor": 0.25 }, "G6_energy_high_upkeep": { "threshold": 0, "factor": 1.0 } }
+    }
+  },
+
+  "_source": {
+    "save": "sorannindex14_-947489411",
+    "year": 2521,
+    "pops": 615832,
+    "military_power": 2772691,
+    "economy_power": 139380,
+    "tech_power": 75535,
+    "notes": "Machine Intelligence with psionic graphical culture. 3,598 empire size. Megastructure economy producing 7,840 energy + 2,000 minerals + 1,000 research with zero pop cost. 598 alloys from orbital deposits. Largest empire in Ryan's save history."
+  }
+}

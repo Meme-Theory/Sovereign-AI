@@ -1,0 +1,1557 @@
+{
+  "category": "megastructures",
+  "source": "Stellaris Wiki (4.x)",
+  "extracted": "2026-04-12",
+  "count": 128,
+  "items": [
+    {
+      "id": "Gateway Site",
+      "section": "Gateways",
+      "data": {
+        "Stage": "Gateway Site",
+        "Time": "3 years",
+        "Mechanical cost": "[Alloys] 2500 Alloys; [Influence] 75 Influence",
+        "Biological cost": "[Alloys] 1250 Alloys; [Food] 4375 Food; [Influence] 75 Influence"
+      }
+    },
+    {
+      "id": "Gateway",
+      "section": "Gateways",
+      "data": {
+        "Stage": "Gateway",
+        "Time": "5 years",
+        "Mechanical cost": "[Alloys] 2500 Alloys; [Energy Credits] 6000 Energy",
+        "Biological cost": "[Alloys] 1250 Alloys; [Food] 4375 Food; [Energy Credits] 6000 Energy"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Habitats",
+      "data": {
+        "Tier": "I",
+        "Building": "[Habitat Administration] Habitat Administration",
+        "Habitability": "40%",
+        "Max districts per planet or star": "+0.25",
+        "Branch Office building slots": "+1",
+        "Required pops": "0",
+        "Required technology": "[Tech habitat] Orbital Habitats"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Habitats",
+      "data": {
+        "Tier": "II",
+        "Building": "[Habitat Central Control] Habitat Central Control",
+        "Habitability": "50%",
+        "Max districts per planet or star": "+0.5",
+        "Branch Office building slots": "+2",
+        "Required pops": "1000",
+        "Required technology": "[Tech habitat 2] Habitat Expansion"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Habitats",
+      "data": {
+        "Tier": "III",
+        "Building": "[Habitat System Contro] Habitat System Control",
+        "Habitability": "+60%",
+        "Max districts per planet or star": "+0.75",
+        "Branch Office building slots": "+3",
+        "Required pops": "2500",
+        "Required technology": "[Advanced Space Habitation] Advanced Space Habitation"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Deep space citadels",
+      "data": {
+        "Tier": "[Deep space citadel 1]",
+        "Buildings": "[Building module slot][Building module locked slot][Building module locked slot][Building module locked slot]",
+        "Weapon slots": "[Large][Large][Large]; [Hangar][Hangar][Hangar]; [Point defense][Point defense][Point defense][Point defense][Point defense][Point defense][Point defense][Point defense][Point defense]",
+        "Utility slots": "[Auxiliary]; [Large][Large][Large][Large][Large][Large]",
+        "Mechanical cost": "[Unity] 2500; [Alloys] 1000",
+        "Biological cost": "[Unity] 2500; [Alloys] 500; [Food] 1750",
+        "Build time": "3 years"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Deep space citadels",
+      "data": {
+        "Tier": "[Deep space citadel 2]",
+        "Buildings": "[Building module slot][Building module slot][Building module locked slot][Building module locked slot]",
+        "Weapon slots": "[Large][Large][Large][Large][Large][Large]; [Hangar][Hangar][Hangar][Hangar][Hangar][Hangar]; [Point defense][Point defense][Point defense][Point defense][Point defense][Point defense][Point defense][Point defense][Point defense]",
+        "Utility slots": "[Auxiliary][Auxiliary]; [Large][Large][Large][Large][Large]; [Large][Large][Large][Large][Large][Large]",
+        "Mechanical cost": "[Unity] 2500; [Alloys] 1250; [Rare crystals] 100",
+        "Biological cost": "[Unity] 2500; [Alloys] 625; [Food] 2188; [Rare crystals] 100",
+        "Build time": "3 years"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Deep space citadels",
+      "data": {
+        "Tier": "[Deep space citadel 3]",
+        "Buildings": "[Building module slot][Building module slot][Building module slot][Building module slot]",
+        "Weapon slots": "[Extra large]; [Large][Large][Large][Large][Large][Large]; [Hangar][Hangar][Hangar][Hangar][Hangar][Hangar][Hangar][Hangar][Hangar]; [Point defense][Point defense][Point defense][Point defense][Point defense][Point defense][Point defense][Point defense][Point defense]",
+        "Utility slots": "[Auxiliary][Auxiliary][Auxiliary]; [Large][Large][Large][Large][Large][Large][Large][Large][Large]; [Large][Large][Large][Large][Large][Large][Large][Large][Large]; [Core]",
+        "Mechanical cost": "[Unity] 5000; [Alloys] 3500; [Rare crystals] 500",
+        "Biological cost": "[Unity] 5000; [Alloys] 1750; [Food] 6125; [Rare crystals] 500",
+        "Build time": "4 years"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Orbital rings",
+      "data": {
+        "Tier": "[Orbital ring 1]",
+        "Mechanical cost": "[Influence] 50; [Alloys] 1000",
+        "Biological cost": "[Influence] 50; [Alloys] 500; [Food] 1750",
+        "Time": "[Time] 720",
+        "Upkeep": "[Energy Credits] −2",
+        "Modules": "[Building module slot][Building module slot][Building module locked slot][Building module locked slot]",
+        "Buildings": "[Building module locked slot][Building module locked slot]",
+        "Platforms": "[Defense platform cap] 2",
+        "Hull": "5000",
+        "Armor": "1000",
+        "Weapons range": "+100%",
+        "Weapons": "[Large]; [Medium][Medium][Medium]",
+        "Utilities": "[Auxiliary]; [Large][Large]",
+        "Requirements": "[Tech orbital ring tier 1] Orbital Rings technology"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Orbital rings",
+      "data": {
+        "Tier": "[Orbital ring 2]",
+        "Mechanical cost": "[Influence] 100; [Alloys] 1500",
+        "Biological cost": "[Influence] 50; [Alloys] 750; [Food] 2625",
+        "Time": "[Time] 900",
+        "Upkeep": "[Energy Credits] −3",
+        "Modules": "[Building module slot][Building module slot][Building module slot][Building module locked slot]",
+        "Buildings": "[Building module slot][Building module locked slot]",
+        "Platforms": "[Defense platform cap] 4",
+        "Hull": "10000",
+        "Armor": "2000",
+        "Weapons range": "+150%",
+        "Weapons": "[Large][Large]; [Medium][Medium][Medium]; [Medium][Medium][Medium]",
+        "Utilities": "[Auxiliary]; [Large][Large]; [Large][Large]",
+        "Requirements": "[Star Fortress] Star Fortress technology; [Planetary Administration] Tier II capital or Planetary Ascension tier 3"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Orbital rings",
+      "data": {
+        "Tier": "[Orbital ring 3]",
+        "Mechanical cost": "[Influence] 150; [Alloys] 2000",
+        "Biological cost": "[Influence] 150; [Alloys] 1000; [Food] 3500",
+        "Time": "[Time] 1080",
+        "Upkeep": "[Energy Credits] −4",
+        "Modules": "[Building module slot][Building module slot][Building module slot][Building module slot]",
+        "Buildings": "[Building module slot][Building module slot]",
+        "Platforms": "[Defense platform cap] 6",
+        "Hull": "20000",
+        "Armor": "2000",
+        "Weapons range": "+200%",
+        "Weapons": "[Large][Large][Large]; [Medium][Medium][Medium]; [Medium][Medium][Medium]; [Medium][Medium][Medium]",
+        "Utilities": "[Auxiliary]; [Large][Large]; [Large][Large]; [Large][Large]",
+        "Requirements": "[Engineering research] Citadel technology; [Planetary Capital] Tier III capital or Planetary Ascension tier 5"
+      }
+    },
+    {
+      "id": "[Orbital Anchorage]Orbital AnchorageFleet anchorages are necessary to support the growth of our navy.",
+      "section": "Modules",
+      "data": {
+        "Module": "[Orbital Anchorage]Orbital AnchorageFleet anchorages are necessary to support the growth of our navy.",
+        "Time": "[Time] 180",
+        "Cost": "[Alloys] 50",
+        "Upkeep": "[Energy Credits] −1[Trade value] −4",
+        "Effects": "[Mod navy size add] +5 Naval capacity [Mod navy size add] +3 with [Naval Logistics Office] Naval Logistics Office building; [Mod navy size add] +3 with [Naval Logistics Office] Naval Logistics Office building",
+        "Orbital Assembly Complex bonus": "[Mod navy size add] +3 Naval capacity"
+      }
+    },
+    {
+      "id": "[Orbital Vivarium Tank]Orbital Vivarium TankExternal tanks partially exposed to space that can safely house captured Space Fauna.",
+      "section": "Modules",
+      "data": {
+        "Module": "[Orbital Vivarium Tank]Orbital Vivarium TankExternal tanks partially exposed to space that can safely house captured Space Fauna.",
+        "Time": "[Time] 180",
+        "Cost": "[Alloys] 50",
+        "Upkeep": "[Energy Credits] −1",
+        "Effects": "[Mod country vivarium max capacity add] +50 Vivarium capacity; [Time] +10% Space fauna growth rate",
+        "Required technology": "[Gravity Snares] Gravity Snares"
+      }
+    },
+    {
+      "id": "[Habitation Module]Habitation ModuleHigh-speed space elevators allow the planet to extend its habitation, resource storage and refinement facilities into orbit.",
+      "section": "Modules",
+      "data": {
+        "Module": "[Habitation Module]Habitation ModuleHigh-speed space elevators allow the planet to extend its habitation, resource storage and refinement facilities into orbit.",
+        "Time": "[Time] 360",
+        "Cost": "[Alloys] 200[Influence] 25",
+        "Upkeep": "[Energy Credits] −2",
+        "Effects": "[Max districts] +1 Max district for the planet",
+        "Orbital Assembly Complex bonus": "[Max districts] +0.5 Max district for the planet",
+        "Required technology": "[Anti-Gravity Engineering] Anti-Gravity Engineering"
+      }
+    },
+    {
+      "id": "[Orbital Shipyard]Orbital ShipyardA Shipyard may build one ship at a time, in parallel with other Shipyards.",
+      "section": "Fleet modules",
+      "data": {
+        "Module": "[Orbital Shipyard]Orbital ShipyardA Shipyard may build one ship at a time, in parallel with other Shipyards.",
+        "Can produce": "[Yes]",
+        "Vivarium capacity": "[Yes]",
+        "Requirements": "[No]"
+      }
+    },
+    {
+      "id": "[Orbital Hatchery]Orbital HatcheryHatcheries incubate Space Fauna Genetic Material we have collected and produce viable new specimens under our control. We can produce more powerful creatures by collecting more advanced genetic samples with our Gravity Snares.",
+      "section": "Fleet modules",
+      "data": {
+        "Module": "[Orbital Hatchery]Orbital HatcheryHatcheries incubate Space Fauna Genetic Material we have collected and produce viable new specimens under our control. We can produce more powerful creatures by collecting more advanced genetic samples with our Gravity Snares.",
+        "Can produce": "[No]",
+        "Vivarium capacity": "[No]",
+        "Requirements": "[Yes]"
+      }
+    },
+    {
+      "id": "[Orbital Beastport]Orbital BeastportBeastports are specially modified Hatcheries that can both clone Space Fauna and construct basic Civilian Ships.",
+      "section": "Fleet modules",
+      "data": {
+        "Module": "[Orbital Beastport]Orbital BeastportBeastports are specially modified Hatcheries that can both clone Space Fauna and construct basic Civilian Ships.",
+        "Can produce": "[Yes]",
+        "Vivarium capacity": "[No]",
+        "Requirements": "[Yes]"
+      }
+    },
+    {
+      "id": "[Planetary Defense Guns]Planetary Defense GunsAdds two medium-size weapon slots to the Orbital Ring.",
+      "section": "Defense modules",
+      "data": {
+        "Module": "[Planetary Defense Guns]Planetary Defense GunsAdds two medium-size weapon slots to the Orbital Ring.",
+        "Weapons added": "[Medium][Medium]",
+        "Other effects": "[Armor] +20% Orbital ring armor hit points; [Health] +20% Orbital ring hull points",
+        "Orbital Assembly Complex bonus": "[Defense platform cap] +1 Defense platform cap"
+      }
+    },
+    {
+      "id": "[Planetary Defense Batteries]Planetary Defense BatteriesAdds two guided weapon slots to the Orbital Ring.",
+      "section": "Defense modules",
+      "data": {
+        "Module": "[Planetary Defense Batteries]Planetary Defense BatteriesAdds two guided weapon slots to the Orbital Ring.",
+        "Weapons added": "[Guided][Guided]",
+        "Other effects": "[Space Torpedoes] Space Torpedoes"
+      }
+    },
+    {
+      "id": "[Planetary Defense Hangars]Planetary Defense HangarsAdds a hangar for Strike Craft to the Orbital Ring.",
+      "section": "Defense modules",
+      "data": {
+        "Module": "[Planetary Defense Hangars]Planetary Defense HangarsAdds a hangar for Strike Craft to the Orbital Ring.",
+        "Weapons added": "[Hangar]",
+        "Other effects": "[Carrier Operations] Carrier Operations"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Buildings",
+      "data": {
+        "Building": "[Climate Optimization Stations]Climate Optimization StationsDetailed monitoring of local conditions means we can influence the planet's climate at a regional level, increasing agricultural yields.",
+        "Cost": "[Alloys] 100[Volatile motes] 100",
+        "Upkeep": "[Energy Credits] −2[Volatile motes] −1",
+        "Planet effects": "[Food] +0.5 Food per 100 [Farmer] Farmers",
+        "Requirements": "[Advanced Food Processing] Advanced Food Processing"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Buildings",
+      "data": {
+        "Building": "[Low Gravity Mega-Refiners]Low Gravity Mega-RefinersCentralizing mineral refining operations on the Orbital Ring allows for novel techniques that increase mining efficiency.",
+        "Cost": "[Alloys] 100[Volatile motes] 100",
+        "Upkeep": "[Energy Credits] −2[Volatile motes] −1",
+        "Planet effects": "[Minerals] +0.5 Minerals per 100 [Miner] Miners",
+        "Requirements": "[Advanced Mineral Purification] Advanced Mineral Purification"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Buildings",
+      "data": {
+        "Building": "[Stratospheric Ionization Elements]Stratospheric Ionization ElementsThese devices dramatically reduce power loss during distribution, increasing overall generator output.",
+        "Cost": "[Alloys] 100[Exotic gases] 100",
+        "Upkeep": "[Alloys] −2[Exotic gases] −1",
+        "Planet effects": "[Energy Credits] +0.5 Energy per 100 [Technician] Technicians",
+        "Requirements": "[Tech power hub 2] Planetary Power Grid"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Buildings",
+      "data": {
+        "Building": "[Alloy Processing Facilities]Alloy Processing FacilitiesAlloys from the surface are further processed in orbit, creating usable materials from what would otherwise be wasted by-products.",
+        "Cost": "[Alloys] 200[Volatile motes] 300",
+        "Upkeep": "[Energy Credits] −5[Volatile motes] −2",
+        "Planet effects": "[Alloys] +0.5 Alloys per 100 [Metallurgist] Metallurgists; [Minerals] −2 Minerals per 100 [Metallurgist] Metallurgists; [Catalytic Processing][Catalytic Recyclers][Organic Reprocessing][Organic Retrofitting] If Catalytic[Catalytic Processing] Catalytic Processing[Catalytic Recyclers] Catalytic Recyclers[Organic Reprocessing] Organic Reprocessing[Organic Retrofitting] Organic Retrofitting, replaced by: [Alloys] +1.25 [Food] −3 per 100 [Metallurgist] Metallurgists; [Alloys] +1.25 [Food] −3 per 100 [Metallurgist] Metallurgists",
+        "Requirements": "[Nano-Separators] Nano-Separators"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Buildings",
+      "data": {
+        "Building": "[Orbital Logistics Systems]Orbital Logistics SystemsTransferring logistics operations to automated systems on the Orbital Ring allows planetside Factories to run continuously at full speed.",
+        "Cost": "[Alloys] 200[Rare crystals] 300",
+        "Upkeep": "[Energy Credits] −5[Rare crystals] −2",
+        "Planet effects": "[Consumer goods] +0.5 Consumer Goods per 100 [Artisan] Artisans; [Minerals] −1 Minerals per 100 [Artisan] Artisans; [Catalytic Processing][Catalytic Recyclers][Organic Reprocessing][Organic Retrofitting] If Catalytic[Catalytic Processing] Catalytic Processing[Catalytic Recyclers] Catalytic Recyclers[Organic Reprocessing] Organic Reprocessing[Organic Retrofitting] Organic Retrofitting, replaced by: [Consumer goods] +1.25 [Food] −1.5 per 100 [Artisan] Artisans; [Consumer goods] +1.25 [Food] −1.5 per 100 [Artisan] Artisans",
+        "Requirements": "[Tech luxuries 2] Replicator Kiosks"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Buildings",
+      "data": {
+        "Building": "[The Giga-Mall]The Giga-MallMoving all shopping and trade facilities to the Orbital Ring means our Clerks can facilitate more business, more effectively than ever before.",
+        "Cost": "[Alloys] 100[Rare crystals] 100",
+        "Upkeep": "[Energy Credits] −2[Rare crystals] −1",
+        "Planet effects": "[Amenities] +1 Amenities per [Trader] Trader; [Trade value] +5% Trade from Jobs",
+        "Requirements": "[Tech interstellar economics] Interstellar Economics"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Buildings",
+      "data": {
+        "Building": "[Orbital Filing System]Orbital Filing SystemEfficiency and progress can be ours once more, now that our Administrators have near instant access to the paperwork that defines their lives.",
+        "Cost": "[Alloys] 200[Rare crystals] 300",
+        "Upkeep": "[Energy Credits] −2[Rare crystals] −1",
+        "Planet effects": "[Unity] +0.5 Unity per 100 [Bureaucrat] Bureaucrats",
+        "Requirements": "[Effective Bureaucracy] Effective Bureaucracy"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Buildings",
+      "data": {
+        "Building": "[Synaptic Relays]Synaptic RelaysPortions of the Orbital Ring have been modified to enhance synaptic signals, improving control over drones on the surface.",
+        "Cost": "[Alloys] 200[Exotic gases] 300",
+        "Upkeep": "[Alloys] −2[Exotic gases] −1",
+        "Planet effects": "[Unity] +0.5 Unity per 100 [Synapse Drone] Synapse Drones",
+        "Requirements": "[Clustered Synapses] Clustered Synapses"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Buildings",
+      "data": {
+        "Building": "[Orbital Maintenance Drops]Orbital Maintenance DropsPrepackaged pods of maintenance material - and the drones necessary to distribute them - can be dropped from orbit anywhere they are needed, at a moment's notice.",
+        "Cost": "[Alloys] 200[Exotic gases] 300",
+        "Upkeep": "[Alloys] −2[Exotic gases] −1",
+        "Planet effects": "[Amenities] +1 Amenities per 100 [Maintenance Drone] Maintenance Drones",
+        "Requirements": "[Tech synthetic thought patterns] Resource Processing Algorithms"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Buildings",
+      "data": {
+        "Building": "[Orbital Garden]Orbital GardenA vacuum garden for our Orbital Ring, blooming with genetically enhanced plantlife designed to attract spaceborne fauna.",
+        "Cost": "[Alloys] 50[Volatile motes] 50",
+        "Upkeep": "[Alloys] −1[Exotic gases] −1",
+        "Planet effects": "[Food] +0.5 Food per 100 [Farmer] Farmers; [Text icon seed] Non-hostile space fauna are attracted and collect Seed Pods; [Feature] Owned organic fleets collect Seed Pods if in orbit",
+        "Requirements": "[Origins gardeners] Fruitful Partnership"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Buildings",
+      "data": {
+        "Building": "[Orbital Shield Generator]Orbital Shield GeneratorHardening the shields of the orbital defenses will interfere with any planetary shields, but will allow them to hold off against more powerful weapons.",
+        "Cost": "[Alloys] 200[Rare crystals] 300",
+        "Upkeep": "[Alloys] −5[Rare crystals] −2",
+        "Planet effects": "[Shield] +25% Orbital ring and defense platform shield hit points; [Shield] +25% Orbital ring and defense platform shield hardening",
+        "Requirements": "[Tech planetary shield generator] Planetary Shields technology; [No][Planetary Shield Generator] Planetary Shield Generator on the planet"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Planetary building replacements",
+      "data": {
+        "Building": "[Orbital Embassy Complex]Orbital Embassy ComplexThis orbital complex is intended to awe the viewer, rendering them more compliant in negotiations.Due to the need to be close to the seat of the government, it can only be built in orbit of our capital.",
+        "Cost": "[Alloys] 200[Rare crystals] 300",
+        "Upkeep": "[Alloys] −5[Rare crystals] −2",
+        "Planet effects": "[Politician] +100 Politician jobs; [Available envoys] +2 Available envoys",
+        "Replaced building": "[Embassy Complex] Embassy Complex; [Grand Embassy Complex] Grand Embassy Complex",
+        "Requirements": "[Tech diplomacy 2] Xeno Relations technology; [Empire Capital] Empire capital"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Planetary building replacements",
+      "data": {
+        "Building": "[Orbital Stock Exchange]Orbital Stock ExchangeBy engaging in free trade of goods and services we allow for a more specialized economy, where an individual can excel in a narrow field and trade for their needs.",
+        "Cost": "[Alloys] 200[Rare crystals] 300",
+        "Upkeep": "[Alloys] −5[Rare crystals] −2",
+        "Planet effects": "[Trader] +400 Trader jobs; [Trade value] +10% Trade from jobs",
+        "Replaced building": "[Galactic Stock Exchange] Galactic Stock Exchange",
+        "Requirements": "[Galactic Markets] Galactic Markets technology; [No][Pm resort planet][Resort World] Resort World; [No][Pm slave colony][Thrall-World] Thrall-World"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Planetary building replacements",
+      "data": {
+        "Building": "[Orbital Psi Corps]Orbital Psi CorpsA segment of the Orbital Ring is devoted to training psi-gifted individuals, allowing the Psi Corps to keep a watchful eye on the planet below.The Psi Corps is your friend. Trust the Corps.",
+        "Cost": "[Alloys] 200[Rare crystals] 300",
+        "Upkeep": "[Alloys] −5[Rare crystals] −2",
+        "Planet effects": "[Telepath] +200 Telepath jobs; [Mod planet stability] +2 Stability",
+        "Replaced building": "[Psi Corps] Psi Corps",
+        "Requirements": "[Psi Corps] Psi Corps tradition; [No][Origins endbringers] Endbringers; [No][Pm resort planet][Resort World] Resort World; [No][Pm slave colony][Thrall-World] Thrall-World"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Planetary building replacements",
+      "data": {
+        "Building": "[Noble Estates]Noble EstatesMagnificent structures that take advantage of reduced gravitational effect in orbit house the local nobility. Significant portions of the ring are dedicated to their every whim.",
+        "Cost": "[Alloys] 200[Exotic gases] 300",
+        "Upkeep": "[Alloys] −5[Exotic gases] −2",
+        "Planet effects": "[Noble] +200 Noble jobs; [Housing] +200 Housing",
+        "Replaced building": "[Noble Estates] Noble Estates",
+        "Requirements": "[Aristocratic Elite] Aristocratic Elite civic; [No][Pm slave colony][Thrall-World] Thrall-World"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Planetary building replacements",
+      "data": {
+        "Building": "[Orbital Slave Processing Hub]Orbital Slave Processing HubAn orbital facility used to process slave labor for the planet below. Those that have been processed have any trace of free will extinguished.",
+        "Cost": "[Alloys] 200[Volatile motes] 300",
+        "Upkeep": "[Alloys] −5[Volatile motes] −2",
+        "Planet effects": "[Mod planet jobs slave produces mult] +5% Slave pop resource output; [Mod pop political power] −25% Slave political power; [Mod planet resettlement unemployed mult] −50% Automatic resettlement chance; [Mod planet migration all pull] Unemployed slaves automatically resettle; [Army slave] Can recruit Slave Armies",
+        "Replaced building": "[Slave Processing Facility] Slave Processing Facility",
+        "Requirements": "[Tech neural implants] Neural Implants technology; [Slavery] Slavery policy set to Allowed; [No][Pm resort planet][Resort World] Resort World"
+      }
+    },
+    {
+      "id": "Science Nexus",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Science Nexus[Evt think tank]",
+        "Stage": "Site",
+        "Production": "None",
+        "Upkeep": "[Energy Credits] −5",
+        "Time": "5 years",
+        "Mechanical cost": "[Unity] −5000[Alloys] −5000",
+        "Biological cost": "[Unity] −5000[Alloys] −2500[Food] −8750",
+        "Notes": "Owning a Science Nexus may trigger the Fountain of Youth event chain and one potential outcome upgrades the Science Nexus one more stage",
+        "Limit": "1",
+        "DLC": "[Utopia]"
+      }
+    },
+    {
+      "id": "[Research] +100 Research[Mod country all tech research speed] +5% Research Speed",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage I(Hub)",
+        "Stage": "[Research] +100 Research[Mod country all tech research speed] +5% Research Speed",
+        "Production": "[Energy Credits] −25",
+        "Upkeep": "10 years",
+        "Time": "[Unity] −5000[Alloys] −15000",
+        "Mechanical cost": "[Unity] −5000[Alloys] −7500[Food] −26250"
+      }
+    },
+    {
+      "id": "[Research] +200 Research[Mod country all tech research speed] +10% Research Speed",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage II(Research Wings)",
+        "Stage": "[Research] +200 Research[Mod country all tech research speed] +10% Research Speed",
+        "Production": "[Energy Credits] −50",
+        "Upkeep": "10 years",
+        "Time": "[Unity] −5000[Alloys] −15000",
+        "Mechanical cost": "[Unity] −5000[Alloys] −7500[Food] −26250"
+      }
+    },
+    {
+      "id": "[Research] +300 Research[Mod country all tech research speed] +15% Research Speed",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage III(Completed)",
+        "Stage": "[Research] +300 Research[Mod country all tech research speed] +15% Research Speed",
+        "Production": "[Energy Credits] −75",
+        "Upkeep": "10 years",
+        "Time": "[Unity] −5000[Alloys] −15000",
+        "Mechanical cost": "[Unity] −5000[Alloys] −7500[Food] −26250"
+      }
+    },
+    {
+      "id": "[Research] +350 Research[Mod country all tech research speed] +15% Research Speed",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage IV(Groik Nexus)",
+        "Stage": "[Research] +350 Research[Mod country all tech research speed] +15% Research Speed",
+        "Production": "[Energy Credits] −100",
+        "Upkeep": "Event",
+        "Time": "[Scientist] Scientist",
+        "Mechanical cost": "[Scientist] Scientist"
+      }
+    },
+    {
+      "id": "Sentry Array",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Sentry Array[Evt Sentry Array]",
+        "Stage": "Site",
+        "Production": "None",
+        "Upkeep": "[Energy Credits] −20",
+        "Time": "5 years",
+        "Mechanical cost": "[Unity] −2500[Alloys] −5000",
+        "Biological cost": "[Unity] −2500[Alloys] −2500[Food] −8750",
+        "Notes": "Until finished, the Sentry Array cannot see through nebulae; As no system will have low intel level, a completed Sentry Array will prevent space creatures from respawning; A completed Sentry Array can be obtained by completing the archaeological site in the Ultima Vigilis system",
+        "Limit": "1",
+        "DLC": "[Utopia]"
+      }
+    },
+    {
+      "id": "[Mod planet sensor range mult] +20 Sensor Range[Mod add base country intel] +10 Base intel level[Time] −5% Hyperdrive charge time",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage I(Sentry Hub)",
+        "Stage": "[Mod planet sensor range mult] +20 Sensor Range[Mod add base country intel] +10 Base intel level[Time] −5% Hyperdrive charge time",
+        "Production": "[Energy Credits] −40",
+        "Upkeep": "5 years",
+        "Time": "[Unity] −2500[Alloys] −10000",
+        "Mechanical cost": "[Unity] −2500[Alloys] −5000[Food] −17500"
+      }
+    },
+    {
+      "id": "[Mod planet sensor range mult] +40 Sensor Range[Mod add base country intel] +20 Base intel level[Time] −10% Hyperdrive charge time[Intel decryption] +1 Codebreaking",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage II(Sentry Spire)",
+        "Stage": "[Mod planet sensor range mult] +40 Sensor Range[Mod add base country intel] +20 Base intel level[Time] −10% Hyperdrive charge time[Intel decryption] +1 Codebreaking",
+        "Production": "[Energy Credits] −60",
+        "Upkeep": "5 years",
+        "Time": "[Unity] −2500[Alloys] −10000",
+        "Mechanical cost": "[Unity] −2500[Alloys] −5000[Food] −17500"
+      }
+    },
+    {
+      "id": "[Mod planet sensor range mult] +60 Sensor Range[Mod add base country intel] +30 Base intel level[Time] −15% Hyperdrive charge time[Intel decryption] +1 Codebreaking",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage III(Sentry Aerials)",
+        "Stage": "[Mod planet sensor range mult] +60 Sensor Range[Mod add base country intel] +30 Base intel level[Time] −15% Hyperdrive charge time[Intel decryption] +1 Codebreaking",
+        "Production": "[Energy Credits] −80",
+        "Upkeep": "5 years",
+        "Time": "[Unity] −2500[Alloys] −10000",
+        "Mechanical cost": "[Unity] −2500[Alloys] −5000[Food] −17500"
+      }
+    },
+    {
+      "id": "[Mod planet sensor range mult] +Entire Galaxy Sensor Range[Mod add base country intel] +40 Base intel level[Time] −20% Hyperdrive charge time[Intel decryption] +2 Codebreaking",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage IV(Completed)",
+        "Stage": "[Mod planet sensor range mult] +Entire Galaxy Sensor Range[Mod add base country intel] +40 Base intel level[Time] −20% Hyperdrive charge time[Intel decryption] +2 Codebreaking",
+        "Production": "[Energy Credits] −100",
+        "Upkeep": "5 years",
+        "Time": "[Unity] −2500[Alloys] −10000",
+        "Mechanical cost": "[Unity] −2500[Alloys] −5000[Food] −17500"
+      }
+    },
+    {
+      "id": "Ring World",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Ring World[Evt Ringworld]",
+        "Stage": "Site",
+        "Production": "None",
+        "Upkeep": "[Energy Credits] −5",
+        "Time": "5 years",
+        "Mechanical cost": "[Influence] −300[Alloys] −5000",
+        "Biological cost": "[Influence] −300[Alloys] −2500[Food] −8750",
+        "Notes": "Cannot be built around a black hole, or in systems with multiple stars or without planets or asteroids; Cannot be built if there are habitable planets or megastructures present; All habitable segments feature [Mod habitability] +100% habitability for all species, can build up to 10 unique districts, and have their own unique designations; Upon completion of the frame, all planets are removed from the system; Multiple segments can be built at the same time if the empire has the capacity to work on more than one megastructure simultaneously; Habitable segments require colonization; Habitable segments can be ruined by a Colossus or crisis",
+        "Limit": "0",
+        "DLC": "[Utopia]"
+      }
+    },
+    {
+      "id": "None",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage I (Frame)",
+        "Stage": "None",
+        "Production": "None",
+        "Upkeep": "13.3 years",
+        "Time": "[Alloys] −10000",
+        "Mechanical cost": "[Alloys] −5000[Food] −17500"
+      }
+    },
+    {
+      "id": "[Planet ringworld] +1 Habitable Segment",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage II (1 Segment)",
+        "Stage": "[Planet ringworld] +1 Habitable Segment",
+        "Production": "None",
+        "Upkeep": "10 years",
+        "Time": "[Alloys] −10000",
+        "Mechanical cost": "[Alloys] −5000[Food] −17500"
+      }
+    },
+    {
+      "id": "[Planet ringworld] +2 Habitable Segments",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage III (2 Segments)",
+        "Stage": "[Planet ringworld] +2 Habitable Segments",
+        "Production": "None",
+        "Upkeep": "10 years",
+        "Time": "[Alloys] −10000",
+        "Mechanical cost": "[Alloys] −5000[Food] −17500"
+      }
+    },
+    {
+      "id": "[Planet ringworld] +3 Habitable Segments",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage IV (3 Segments)",
+        "Stage": "[Planet ringworld] +3 Habitable Segments",
+        "Production": "None",
+        "Upkeep": "10 years",
+        "Time": "[Alloys] −10000",
+        "Mechanical cost": "[Alloys] −5000[Food] −17500"
+      }
+    },
+    {
+      "id": "[Planet ringworld] +4 Habitable Segments",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage V (Completed)",
+        "Stage": "[Planet ringworld] +4 Habitable Segments",
+        "Production": "None",
+        "Upkeep": "10 years",
+        "Time": "[Alloys] −10000",
+        "Mechanical cost": "[Alloys] −5000[Food] −17500"
+      }
+    },
+    {
+      "id": "Mega Art Installation",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Mega Art Installation[Evt Mega Art Installation]",
+        "Stage": "Site",
+        "Production": "None",
+        "Upkeep": "[Energy Credits] −5",
+        "Time": "5 years",
+        "Mechanical cost": "[Unity] −2500[Alloys] −5000",
+        "Biological cost": "[Unity] −2500[Alloys] −2500[Food] −8750",
+        "Notes": "The final stage requires the [Ancient Relics] Ancient Relics DLC; A ruined Mega Art Installation is repaired to stage 3, and can be upgraded to stage 4 as with the constructed version However, this costs [Unity] 3200 and [Minor artifacts] 2000 instead of the standard cost; However, this costs [Unity] 3200 and [Minor artifacts] 2000 instead of the standard cost",
+        "Limit": "1",
+        "DLC": "[MegaCorp]"
+      }
+    },
+    {
+      "id": "[Unity] +100 Unity[Amenities] +5% Amenities[Planetary ascension cost] −5% Planetary ascension cost",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage I(Nascency)",
+        "Stage": "[Unity] +100 Unity[Amenities] +5% Amenities[Planetary ascension cost] −5% Planetary ascension cost",
+        "Production": "[Energy Credits] −10",
+        "Upkeep": "10 years",
+        "Time": "[Unity] −2500[Alloys] −15000",
+        "Mechanical cost": "[Unity] −2500[Alloys] −7500[Food] −26250"
+      }
+    },
+    {
+      "id": "[Unity] +200 Unity[Amenities] +10% Amenities[Planetary ascension cost] −10% Planetary ascension cost",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage II(Maturity)",
+        "Stage": "[Unity] +200 Unity[Amenities] +10% Amenities[Planetary ascension cost] −10% Planetary ascension cost",
+        "Production": "[Energy Credits] −20",
+        "Upkeep": "10 years",
+        "Time": "[Unity] −2500[Alloys] −15000",
+        "Mechanical cost": "[Unity] −2500[Alloys] −7500[Food] −26250"
+      }
+    },
+    {
+      "id": "[Unity] +300 Unity[Amenities] +15% Amenities[Planetary ascension cost] −15% Planetary ascension cost",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage III(Completed)",
+        "Stage": "[Unity] +300 Unity[Amenities] +15% Amenities[Planetary ascension cost] −15% Planetary ascension cost",
+        "Production": "[Energy Credits] −30",
+        "Upkeep": "10 years",
+        "Time": "[Unity] −2500[Alloys] −15000",
+        "Mechanical cost": "[Unity] −2500[Alloys] −7500[Food] −26250"
+      }
+    },
+    {
+      "id": "[Unity] +400 Unity[Amenities] +20% Amenities[Planetary ascension cost] −20% Planetary ascension cost",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage IV(Perfection)",
+        "Stage": "[Unity] +400 Unity[Amenities] +20% Amenities[Planetary ascension cost] −20% Planetary ascension cost",
+        "Production": "[Energy Credits] −30",
+        "Upkeep": "10 years",
+        "Time": "[Unity] −2500[Minor artifacts] −2000",
+        "Mechanical cost": "[Unity] −2500[Minor artifacts] −2000"
+      }
+    },
+    {
+      "id": "Strategic Coordination Center",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Strategic Coordination Center[Evt Strategic Coordination Center]",
+        "Stage": "Site",
+        "Production": "None",
+        "Upkeep": "[Energy Credits] −5",
+        "Time": "5 years",
+        "Mechanical cost": "[Unity] −2500[Alloys] −10000",
+        "Biological cost": "[Unity] −2500[Alloys] −7500[Food] −8750",
+        "Limit": "1",
+        "DLC": "[MegaCorp]"
+      }
+    },
+    {
+      "id": "[Naval capacity] +100 Naval capacity[Mod country starbase capacity add] +2 Starbase capacity[Defense platform cap] +4 Defense Platforms[Mod ship speed mult] +5% Sublight speed",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage I(Hull)",
+        "Stage": "[Naval capacity] +100 Naval capacity[Mod country starbase capacity add] +2 Starbase capacity[Defense platform cap] +4 Defense Platforms[Mod ship speed mult] +5% Sublight speed",
+        "Production": "[Energy Credits] −25",
+        "Upkeep": "10 years",
+        "Time": "[Unity] −2500[Alloys] −15000",
+        "Mechanical cost": "[Unity] −2500[Alloys] −7500[Food] −26250"
+      }
+    },
+    {
+      "id": "[Naval capacity] +200 Naval capacity[Mod country starbase capacity add] +4 Starbase capacity[Defense platform cap] +8 Defense Platforms[Mod ship speed mult] +10% Sublight speed",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage II(Comms)",
+        "Stage": "[Naval capacity] +200 Naval capacity[Mod country starbase capacity add] +4 Starbase capacity[Defense platform cap] +8 Defense Platforms[Mod ship speed mult] +10% Sublight speed",
+        "Production": "[Energy Credits] −50",
+        "Upkeep": "10 years",
+        "Time": "[Unity] −2500[Alloys] −15000",
+        "Mechanical cost": "[Unity] −2500[Alloys] −7500[Food] −26250"
+      }
+    },
+    {
+      "id": "[Naval capacity] +300 Naval capacity[Mod country starbase capacity add] +6 Starbase capacity[Defense platform cap] +12 Defense Platforms[Mod ship speed mult] +15% Sublight speed",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage III(Completed)",
+        "Stage": "[Naval capacity] +300 Naval capacity[Mod country starbase capacity add] +6 Starbase capacity[Defense platform cap] +12 Defense Platforms[Mod ship speed mult] +15% Sublight speed",
+        "Production": "[Energy Credits] −75",
+        "Upkeep": "10 years",
+        "Time": "[Unity] −2500[Alloys] −15000",
+        "Mechanical cost": "[Unity] −2500[Alloys] −7500[Food] −26250"
+      }
+    },
+    {
+      "id": "Interstellar Assembly",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Interstellar Assembly[Evt Interstellar Assembly]",
+        "Stage": "Site",
+        "Production": "None",
+        "Upkeep": "[Energy Credits] −5",
+        "Time": "5 years",
+        "Mechanical cost": "[Unity] −2500[Alloys] −5000",
+        "Biological cost": "[Unity] −2500[Alloys] −2500[Food] −8750",
+        "Notes": "All values stack if multiple Interstellar Assemblies are owned.",
+        "Limit": "1",
+        "DLC": "[MegaCorp]"
+      }
+    },
+    {
+      "id": "[Mod diplo weight mult] +10% Diplomatic weight[Diplomacy opinion] +15 Opinion from all empires",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage I(Locus)",
+        "Stage": "[Mod diplo weight mult] +10% Diplomatic weight[Diplomacy opinion] +15 Opinion from all empires",
+        "Production": "[Energy Credits] −10",
+        "Upkeep": "5 years",
+        "Time": "[Unity] −2500[Alloys] −10000",
+        "Mechanical cost": "[Unity] −2500[Alloys] −5000[Food] −17500"
+      }
+    },
+    {
+      "id": "[Mod diplo weight mult] +20% Diplomatic weight[Diplomacy opinion] +30 Opinion from all empires[Available envoys] +1 Available envoys[Empire sprawl] −5% Empire size",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage II(Consul Ring)",
+        "Stage": "[Mod diplo weight mult] +20% Diplomatic weight[Diplomacy opinion] +30 Opinion from all empires[Available envoys] +1 Available envoys[Empire sprawl] −5% Empire size",
+        "Production": "[Energy Credits] −20",
+        "Upkeep": "5 years",
+        "Time": "[Unity] −2500[Alloys] −10000",
+        "Mechanical cost": "[Unity] −2500[Alloys] −5000[Food] −17500"
+      }
+    },
+    {
+      "id": "[Mod diplo weight mult] +30% Diplomatic weight[Diplomacy opinion] +75 Opinion from all empires[Available envoys] +1 Available envoys[Empire sprawl] −5% Empire size",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage III(Forum Modules)",
+        "Stage": "[Mod diplo weight mult] +30% Diplomatic weight[Diplomacy opinion] +75 Opinion from all empires[Available envoys] +1 Available envoys[Empire sprawl] −5% Empire size",
+        "Production": "[Energy Credits] −30",
+        "Upkeep": "5 years",
+        "Time": "[Unity] −2500[Alloys] −10000",
+        "Mechanical cost": "[Unity] −2500[Alloys] −5000[Food] −17500"
+      }
+    },
+    {
+      "id": "[Mod diplo weight mult] +40% Diplomatic weight[Diplomacy opinion] +150 Opinion from all empires[Available envoys] +2 Available envoys[Empire sprawl] −10% Empire size",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage IV(Completed)",
+        "Stage": "[Mod diplo weight mult] +40% Diplomatic weight[Diplomacy opinion] +150 Opinion from all empires[Available envoys] +2 Available envoys[Empire sprawl] −10% Empire size",
+        "Production": "[Energy Credits] −40",
+        "Upkeep": "5 years",
+        "Time": "[Unity] −2500[Alloys] −10000",
+        "Mechanical cost": "[Unity] −2500[Alloys] −5000[Food] −17500"
+      }
+    },
+    {
+      "id": "Matter Decompressor",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Matter Decompressor[Evt Matter Decompressor]",
+        "Stage": "Site",
+        "Production": "None",
+        "Upkeep": "[Energy Credits] −5",
+        "Time": "5 years",
+        "Mechanical cost": "[Unity] −5000[Alloys] −10000",
+        "Biological cost": "[Unity] −5000[Alloys] −7500[Food] −8750",
+        "Notes": "Can only be constructed around black holes; Cannot be built if there are habitable planets or anomalies present; If the black hole has a research station, it is removed when the megastructure is completed",
+        "Limit": "1",
+        "DLC": "[MegaCorp]"
+      }
+    },
+    {
+      "id": "[Minerals] +500 Minerals",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage I (Anchor)",
+        "Stage": "[Minerals] +500 Minerals",
+        "Production": "[Energy Credits] −25",
+        "Upkeep": "10 years",
+        "Time": "[Unity] −5000[Alloys] −25000",
+        "Mechanical cost": "[Unity] −5000[Alloys] −18750[Food] −21875"
+      }
+    },
+    {
+      "id": "[Minerals] +1000 Minerals",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage II (Lensing)",
+        "Stage": "[Minerals] +1000 Minerals",
+        "Production": "[Energy Credits] −50",
+        "Upkeep": "10 years",
+        "Time": "[Unity] −5000[Alloys] −12500",
+        "Mechanical cost": "[Unity] −5000[Alloys] −6250[Food] −21875"
+      }
+    },
+    {
+      "id": "[Minerals] +1500 Minerals",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage III (Boring)",
+        "Stage": "[Minerals] +1500 Minerals",
+        "Production": "[Energy Credits] −75",
+        "Upkeep": "10 years",
+        "Time": "[Unity] −5000[Alloys] −12500",
+        "Mechanical cost": "[Unity] −5000[Alloys] −6250[Food] −21875"
+      }
+    },
+    {
+      "id": "[Minerals] +2000 Minerals",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage IV (Completed)",
+        "Stage": "[Minerals] +2000 Minerals",
+        "Production": "[Energy Credits] −100",
+        "Upkeep": "10 years",
+        "Time": "[Unity] −5000[Alloys] −12500",
+        "Mechanical cost": "[Unity] −5000[Alloys] −6250[Food] −21875"
+      }
+    },
+    {
+      "id": "Mega Shipyard",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Mega Shipyard[Evt Megashipyard]",
+        "Stage": "Site",
+        "Production": "None",
+        "Upkeep": "[Energy Credits] −5",
+        "Time": "5 years",
+        "Mechanical cost": "[Unity] −2500[Alloys] −3000",
+        "Biological cost": "[Unity] −2500[Alloys] −1500[Food] −5250",
+        "Notes": "All ships start with 100 experience; Can only be built around stars in unary systems; Cannot be built around pulsars, neutron stars or black holes",
+        "Limit": "1",
+        "DLC": "[Federations]"
+      }
+    },
+    {
+      "id": "[Sb shipyard] +5 Shipyard Capacity[Mod ship build speed mult] +33% Empire Ship Build Speed",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage I(Framework)",
+        "Stage": "[Sb shipyard] +5 Shipyard Capacity[Mod ship build speed mult] +33% Empire Ship Build Speed",
+        "Production": "[Energy Credits] −10",
+        "Upkeep": "5 years",
+        "Time": "[Unity] −2500[Alloys] −10000",
+        "Mechanical cost": "[Unity] −2500[Alloys] −5000[Food] −17500"
+      }
+    },
+    {
+      "id": "[Sb shipyard] +10 Shipyard Capacity[Mod ship build speed mult] +66% Empire Ship Build Speed",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage II(Core)",
+        "Stage": "[Sb shipyard] +10 Shipyard Capacity[Mod ship build speed mult] +66% Empire Ship Build Speed",
+        "Production": "[Energy Credits] −20",
+        "Upkeep": "5 years",
+        "Time": "[Unity] −2500[Alloys] −10000",
+        "Mechanical cost": "[Unity] −2500[Alloys] −5000[Food] −17500"
+      }
+    },
+    {
+      "id": "[Sb shipyard] +20 Shipyard Capacity[Mod ship build speed mult] +100% Empire Ship Build Speed[Sb colossus assembly yard] Titan and colossal ship construction",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage III(Complete)",
+        "Stage": "[Sb shipyard] +20 Shipyard Capacity[Mod ship build speed mult] +100% Empire Ship Build Speed[Sb colossus assembly yard] Titan and colossal ship construction",
+        "Production": "[Energy Credits] −40",
+        "Upkeep": "5 years",
+        "Time": "[Unity] −2500[Alloys] −10000",
+        "Mechanical cost": "[Unity] −2500[Alloys] −5000[Food] −17500"
+      }
+    },
+    {
+      "id": "Quantum Catapult",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Quantum Catapult[Evt quantum catapult]",
+        "Stage": "Site",
+        "Production": "None",
+        "Upkeep": "[Energy Credits] −25",
+        "Time": "5 years",
+        "Mechanical cost": "[Influence] −300[Alloys] −4000",
+        "Biological cost": "[Influence] −300[Alloys] −3000[Food] −3500",
+        "Notes": "Can only be constructed around pulsars and neutron stars (including in binary or trinary systems); The accuracy of the catapult decreases with distance and is increased by upgrading the megastructure; Catapulted fleets gain +33% [Mod ship fire rate mult] Fire Rate for 120 days (+50% with [Origins slingshot to the stars] Slingshot to the Stars origin); [Tech quantum catapult] Quantum Catapult technology is required to use it, merely controlling it is not enough; [Hyper Relays] Hyper Relays technology is required for the MIA time reduction to apply; If [Astral Planes] Astral Planes is enabled, the effects of the catapult can be upgraded by the [Astral action insight quantum catapult] Astral Calibration astral action",
+        "Limit": "0",
+        "DLC": "[Overlord]"
+      }
+    },
+    {
+      "id": "[Fleet action button quantum catapult] Can catapult fleets in the system[Mod ship disengagement] −10% Missing in Action time[Tracking] +50 Catapult Spread[Unknown] +300 Catapult Range",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage I(Single Array)",
+        "Stage": "[Fleet action button quantum catapult] Can catapult fleets in the system[Mod ship disengagement] −10% Missing in Action time[Tracking] +50 Catapult Spread[Unknown] +300 Catapult Range",
+        "Production": "[Energy Credits] −50",
+        "Upkeep": "5 years",
+        "Time": "[Alloys] −3000",
+        "Mechanical cost": "[Alloys] −1500[Food] −5250"
+      }
+    },
+    {
+      "id": "[Fleet action button quantum catapult] Can catapult fleets in the system[Time] −25% Catapult windup time[Mod ship disengagement] −20% Missing in Action time[Tracking] +35 Catapult Spread[Unknown] +450 Catapult Range",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage II(Twin Arrays)",
+        "Stage": "[Fleet action button quantum catapult] Can catapult fleets in the system[Time] −25% Catapult windup time[Mod ship disengagement] −20% Missing in Action time[Tracking] +35 Catapult Spread[Unknown] +450 Catapult Range",
+        "Production": "[Energy Credits] −60",
+        "Upkeep": "5 years",
+        "Time": "[Alloys] −3000",
+        "Mechanical cost": "[Alloys] −1500[Food] −5250"
+      }
+    },
+    {
+      "id": "[Fleet action button quantum catapult] Can catapult fleets in the system[Time] −50% Catapult windup time[Mod ship disengagement] −30% Missing in Action time[Tracking] +25 Catapult Spread[Unknown] +750 Catapult Range",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage III(Complete)",
+        "Stage": "[Fleet action button quantum catapult] Can catapult fleets in the system[Time] −50% Catapult windup time[Mod ship disengagement] −30% Missing in Action time[Tracking] +25 Catapult Spread[Unknown] +750 Catapult Range",
+        "Production": "[Energy Credits] −75",
+        "Upkeep": "5 years",
+        "Time": "[Alloys] −10000",
+        "Mechanical cost": "[Alloys] −5000[Food] −17500"
+      }
+    },
+    {
+      "id": "[Fleet action button quantum catapult] Can catapult fleets in the system[Time] −30% Catapult windup time[Mod ship disengagement] −20% Missing in Action time[Tracking] +35 Catapult Spread[Unknown] +450 Catapult Range",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "[Origins slingshot to the stars] Stage I(Twin Arrays)",
+        "Stage": "[Fleet action button quantum catapult] Can catapult fleets in the system[Time] −30% Catapult windup time[Mod ship disengagement] −20% Missing in Action time[Tracking] +35 Catapult Spread[Unknown] +450 Catapult Range",
+        "Production": "[Energy Credits] −30",
+        "Upkeep": "10 years",
+        "Time": "[Alloys] −2500",
+        "Mechanical cost": "[Alloys] −1250[Food] −4375",
+        "Biological cost": "Must be restored from the ruined catapult spawned by the [Origins slingshot to the stars] Slingshot to the Stars origin; Any [Origins slingshot to the stars] Slingshot to the Stars empire can restore the special catapult without [Tech mega engineering] Mega-Engineering, but requires that technology to improve the catapult; Other empires can restore the special catapult with [Tech mega engineering] Mega-Engineering"
+      }
+    },
+    {
+      "id": "[Fleet action button quantum catapult] Can catapult fleets in the system[Time] −60% Catapult windup time[Mod ship disengagement] −30% Missing in Action time[Tracking] +25 Catapult Spread[Unknown] +750 Catapult Range",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "[Origins slingshot to the stars] Stage II(Complete)",
+        "Stage": "[Fleet action button quantum catapult] Can catapult fleets in the system[Time] −60% Catapult windup time[Mod ship disengagement] −30% Missing in Action time[Tracking] +25 Catapult Spread[Unknown] +750 Catapult Range",
+        "Production": "[Energy Credits] −50",
+        "Upkeep": "10 years",
+        "Time": "[Alloys] −10000",
+        "Mechanical cost": "[Alloys] −5000[Food] −17500"
+      }
+    },
+    {
+      "id": "Arc Furnace",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Arc Furnace[Evt arc crucible]",
+        "Stage": "Stage I(Equatorial Band)",
+        "Production": "[Minerals] +25% Mining Station Output in system[Minerals] +1 Minerals on every eligible celestial object in system",
+        "Upkeep": "[Energy Credits] −20",
+        "Time": "1 year",
+        "Mechanical cost": "[Unity] −500[Alloys] −500",
+        "Biological cost": "[Unity] −500[Alloys] −250[Food] −875",
+        "Notes": "Can only be constructed around molten worlds; Cannot be built in systems with a Galactic Crucible; Does not add deposits to stars, astral scars, colonizable planets, and celestial objects with deposits collected by research stations; Researching [Tech mega engineering] Mega-Engineering increases the build limit by 2; Empires with the [Arc Welders] Arc Welders origin start with a stage I Arc Furnace and can build an additional Arc Furnace above the limit; If there are [Trade value] Trade deposits in the system they are removed; Once the empire has the technology to build the megastructure, systems display the number of deposits that may be created by an Arc Furnace; The home system of the Ancient Mining Drones has a 25% chance to spawn with a ruined Arc Furnace if the DLC is enabled; Can be dismantled at the cost of [Energy Credits] 500 Energy per stage as long as the empire has the technology to construct them and is at peace",
+        "Limit": "3",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "[Minerals] +50% Mining Station Output in system[Minerals] +2 Minerals on every eligible celestial object in system",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage II(Borehole Pumps)",
+        "Stage": "[Minerals] +50% Mining Station Output in system[Minerals] +2 Minerals on every eligible celestial object in system",
+        "Production": "[Energy Credits] −40",
+        "Upkeep": "3 years",
+        "Time": "[Unity] −1000[Alloys] −1000",
+        "Mechanical cost": "[Unity] −1000[Alloys] −500[Food] −1750"
+      }
+    },
+    {
+      "id": "[Minerals] +75% Mining Station Output in system[Minerals] +2 Minerals on every eligible celestial object in system[Alloys] +1 Alloys on every eligible celestial object in system",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage III(Mohole Extractors)",
+        "Stage": "[Minerals] +75% Mining Station Output in system[Minerals] +2 Minerals on every eligible celestial object in system[Alloys] +1 Alloys on every eligible celestial object in system",
+        "Production": "[Energy Credits] −80",
+        "Upkeep": "3 years",
+        "Time": "[Unity] −2000[Alloys] −1500",
+        "Mechanical cost": "[Unity] −2000[Alloys] −750[Food] −2625"
+      }
+    },
+    {
+      "id": "[Minerals] +100% Mining Station Output in system[Minerals] +2 Minerals on every eligible celestial object in system[Alloys] +2 Alloys on every eligible celestial object in system",
+      "section": "Multi-stage megastructures",
+      "data": {
+        "Megastructure": "Stage IV(Completed)",
+        "Stage": "[Minerals] +100% Mining Station Output in system[Minerals] +2 Minerals on every eligible celestial object in system[Alloys] +2 Alloys on every eligible celestial object in system",
+        "Production": "[Energy Credits] −100",
+        "Upkeep": "3 years",
+        "Time": "[Unity] −4000[Alloys] −2000",
+        "Mechanical cost": "[Unity] −4000[Alloys] −1000[Food] −3500"
+      }
+    },
+    {
+      "id": "Dyson Swarm",
+      "section": "Dyson Swarms and Dyson Sphere",
+      "data": {
+        "Megastructure": "Dyson Swarm[Evt dyson swarm]",
+        "Stage": "Stage I(Array)",
+        "Production": "[Unknown] +500% Star Output (+×5 extra)",
+        "Upkeep": "[Alloys] −5",
+        "Time": "3 years",
+        "Mechanical cost": "[Unity] −1000[Alloys] −500",
+        "Biological cost": "[Unity] −1000[Alloys] −250[Food] −875",
+        "Notes": "Researching [Tech mega engineering] Mega-Engineering increases the build limit to 5; Can be dismantled at the cost of [Energy Credits] 500 Energy per stage as long as the empire has the technology to construct them",
+        "Limit": "3",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "[Unknown] +1500% Star Output (+×15 extra)",
+      "section": "Dyson Swarms and Dyson Sphere",
+      "data": {
+        "Megastructure": "Stage II(Constellation)",
+        "Stage": "[Unknown] +1500% Star Output (+×15 extra)",
+        "Production": "[Alloys] −10",
+        "Upkeep": "3 years",
+        "Time": "[Unity] −2500[Alloys] −1000",
+        "Mechanical cost": "[Unity] −2500[Alloys] −500[Food] −1750"
+      }
+    },
+    {
+      "id": "[Unknown] +3000% Star Output (+×30 extra)",
+      "section": "Dyson Swarms and Dyson Sphere",
+      "data": {
+        "Megastructure": "Stage III(Completed)",
+        "Stage": "[Unknown] +3000% Star Output (+×30 extra)",
+        "Production": "[Alloys] −20",
+        "Upkeep": "3 years",
+        "Time": "[Unity] −5000[Alloys] −1500",
+        "Mechanical cost": "[Unity] −5000[Alloys] −750[Food] −2625"
+      }
+    },
+    {
+      "id": "Dyson Sphere",
+      "section": "Dyson Swarms and Dyson Sphere",
+      "data": {
+        "Megastructure": "Dyson Sphere[Evt Dyson Sphere]",
+        "Stage": "Site",
+        "Production": "None",
+        "Upkeep": "[Energy Credits] −5",
+        "Time": "5 years",
+        "Mechanical cost": "[Unity] −1000[Alloys] −5000",
+        "Biological cost": "[Unity] −1000[Alloys] −2500[Food] −8750",
+        "Notes": "Cannot be built in systems with a pre-FTL civilization unless the Pre-FTL Interference policy is set to Aggressive Interference; Cannot be built in systems with an Arc Furnace; Prevents the colonization of planets in the system; Upon completion, all rocky planets and moons in the system turn into frozen or cold barren worlds; If the star has a mining station, it is removed when the megastructure is completed; If any planet has the [Pm planet from space][Terraforming Candidate] Terraforming Candidate modifier, it is removed; Once upgraded into a Dyson Sphere, it no longer counts against the Dyson Swarm limit",
+        "Limit": "1",
+        "DLC": "[Utopia]"
+      }
+    },
+    {
+      "id": "None",
+      "section": "Dyson Swarms and Dyson Sphere",
+      "data": {
+        "Megastructure": "Stage I (Frame)",
+        "Stage": "None",
+        "Production": "None",
+        "Upkeep": "10 years",
+        "Time": "[Unity] −5000[Alloys] −10000",
+        "Mechanical cost": "[Unity] −5000[Alloys] −5000[Food] −17500"
+      }
+    },
+    {
+      "id": "[Energy Credits] +1000 Energy",
+      "section": "Dyson Swarms and Dyson Sphere",
+      "data": {
+        "Megastructure": "Stage II (Initial)",
+        "Stage": "[Energy Credits] +1000 Energy",
+        "Production": "None",
+        "Upkeep": "10 years",
+        "Time": "[Unity] −5000[Alloys] −10000",
+        "Mechanical cost": "[Unity] −5000[Alloys] −5000[Food] −17500"
+      }
+    },
+    {
+      "id": "[Energy Credits] +2000 Energy",
+      "section": "Dyson Swarms and Dyson Sphere",
+      "data": {
+        "Megastructure": "Stage III (Medial)",
+        "Stage": "[Energy Credits] +2000 Energy",
+        "Production": "None",
+        "Upkeep": "10 years",
+        "Time": "[Unity] −5000[Alloys] −10000",
+        "Mechanical cost": "[Unity] −5000[Alloys] −5000[Food] −17500"
+      }
+    },
+    {
+      "id": "[Energy Credits] +3000 Energy",
+      "section": "Dyson Swarms and Dyson Sphere",
+      "data": {
+        "Megastructure": "Stage IV (Penultimate)",
+        "Stage": "[Energy Credits] +3000 Energy",
+        "Production": "None",
+        "Upkeep": "10 years",
+        "Time": "[Unity] −5000[Alloys] −10000",
+        "Mechanical cost": "[Unity] −5000[Alloys] −5000[Food] −17500"
+      }
+    },
+    {
+      "id": "[Energy Credits] +4000 Energy",
+      "section": "Dyson Swarms and Dyson Sphere",
+      "data": {
+        "Megastructure": "Stage V (Completed)",
+        "Stage": "[Energy Credits] +4000 Energy",
+        "Production": "None",
+        "Upkeep": "10 years",
+        "Time": "[Unity] −5000[Alloys] −10000",
+        "Mechanical cost": "[Unity] −5000[Alloys] −5000[Food] −17500"
+      }
+    },
+    {
+      "id": "[Unity] +750 Unity[Amenities] +30% Amenities",
+      "section": "Dyson Swarms and Dyson Sphere",
+      "data": {
+        "Megastructure": "Stage VI (Wonder Sphere)",
+        "Stage": "[Unity] +750 Unity[Amenities] +30% Amenities",
+        "Production": "[Energy Credits] −30",
+        "Upkeep": "1 year",
+        "Time": "[Unity] −3000[Rare crystals] −2500",
+        "Mechanical cost": "[Unity] −3000[Rare crystals] −2500"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Ruined megastructures",
+      "data": {
+        "Ruined Megastructure": "[Dyson sphere ruined] Dyson Sphere",
+        "Time": "20 years",
+        "Mechanical cost": "[Unity] 7500; [Alloys] 20000",
+        "Biological cost": "[Unity] 7500; [Alloys] 10000; [Food] 35000",
+        "Repair technology": "[Tech mega engineering] Mega-Engineering",
+        "DLC": "[Utopia]"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Ruined megastructures",
+      "data": {
+        "Ruined Megastructure": "[Think tank ruined] Science Nexus",
+        "Time": "13.3 years",
+        "Mechanical cost": "[Unity] 3200; [Alloys] 15000",
+        "Biological cost": "[Unity] 3200; [Alloys] 7500; [Food] 26250",
+        "Repair technology": "[Tech mega engineering] Mega-Engineering",
+        "DLC": "[Utopia]"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Ruined megastructures",
+      "data": {
+        "Ruined Megastructure": "[Spy orb ruined] Sentry Array",
+        "Time": "13.3 years",
+        "Mechanical cost": "[Unity] 3500; [Alloys] 15000",
+        "Biological cost": "[Unity] 3500; [Alloys] 7500; [Food] 26250",
+        "Repair technology": "[Tech mega engineering] Mega-Engineering",
+        "System notes": "Contains a [Planet nuked] Tomb World",
+        "DLC": "[Utopia]"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Ruined megastructures",
+      "data": {
+        "Ruined Megastructure": "[Interstellar assembly ruined] Interstellar Assembly",
+        "Time": "10 years",
+        "Mechanical cost": "[Unity] 3200; [Alloys] 10000",
+        "Biological cost": "[Unity] 3200; [Alloys] 5000; [Food] 17500",
+        "Repair technology": "[Tech mega engineering] Mega-Engineering",
+        "System notes": "Contains deposits on most celestial objects",
+        "DLC": "[MegaCorp]"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Ruined megastructures",
+      "data": {
+        "Ruined Megastructure": "[Matter decompressor ruined] Matter Decompressor",
+        "Time": "13.3 years",
+        "Mechanical cost": "[Unity] 7500; [Alloys] 20000",
+        "Biological cost": "[Unity] 7500; [Alloys] 10000; [Food] 35000",
+        "Repair technology": "[Tech mega engineering] Mega-Engineering",
+        "DLC": "[MegaCorp]"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Ruined megastructures",
+      "data": {
+        "Ruined Megastructure": "[Mega art installation ruined] Mega Art Installation",
+        "Time": "13.3 years",
+        "Mechanical cost": "[Unity] 3200; [Alloys] 20000",
+        "Biological cost": "[Unity] 3200; [Alloys] 10000; [Food] 35000",
+        "Repair technology": "[Tech mega engineering] Mega-Engineering",
+        "System notes": "Is always a trinary system",
+        "DLC": "[MegaCorp]"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Ruined megastructures",
+      "data": {
+        "Ruined Megastructure": "[Strategic coordination center ruined] Strategic Coordination Center",
+        "Time": "13.3 years",
+        "Mechanical cost": "[Unity] 3200; [Alloys] 15000",
+        "Biological cost": "[Unity] 3200; [Alloys] 7500; [Food] 26250",
+        "Repair technology": "[Tech mega engineering] Mega-Engineering",
+        "DLC": "[MegaCorp]"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Ruined megastructures",
+      "data": {
+        "Ruined Megastructure": "[Mega shipyard ruined] Mega Shipyard",
+        "Time": "10 years",
+        "Mechanical cost": "[Unity] 3200; [Alloys] 10000",
+        "Biological cost": "[Unity] 3200; [Alloys] 5000; [Food] 17500",
+        "Repair technology": "[Tech mega engineering] Mega-Engineering",
+        "DLC": "[Federations]"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Ruined megastructures",
+      "data": {
+        "Ruined Megastructure": "[Orbital ring ruined] Orbital Ring",
+        "Time": "2 years",
+        "Mechanical cost": "[Influence] 50; [Alloys] 500",
+        "Biological cost": "[Influence] 50; [Alloys] 250; [Food] 875",
+        "Repair technology": "[Tech orbital ring tier 1] Orbital Rings",
+        "System notes": "Contains a randomized habitable world which must be colonized to repair the megastructure",
+        "DLC": "[Overlord]"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Ruined megastructures",
+      "data": {
+        "Ruined Megastructure": "[Quantum catapult ruined] Quantum Catapult",
+        "Time": "10 years",
+        "Mechanical cost": "[Alloys] 10000",
+        "Biological cost": "[Alloys] 5000; [Food] 17500",
+        "Repair technology": "[Tech mega engineering] Mega-Engineering[Tech quantum catapult] Quantum Catapult",
+        "System notes": "Is always a pulsar system; A variant that does not have tech requirements and costs 4 times less is found adjacent to the homeworlds of empire with the [Origins slingshot to the stars] Slingshot to the Stars origin",
+        "DLC": "[Overlord]"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Ruined megastructures",
+      "data": {
+        "Ruined Megastructure": "[Orbital arc furnace destroyed] Hyper Relay",
+        "Time": "6 months",
+        "Mechanical cost": "[Energy Credits] 500; [Rare crystals] 100; [Alloys] 500",
+        "Biological cost": "[Energy Credits] 500; [Rare crystals] 100; [Alloys] 250; [Food] 875",
+        "Repair technology": "[Hyper Relays] Hyper Relays",
+        "System notes": "Found in the home system of the Yuht Empire precursors",
+        "DLC": "[Overlord]"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Ruined megastructures",
+      "data": {
+        "Ruined Megastructure": "[Orbital arc furnace destroyed] Arc Furnace",
+        "Time": "2 years",
+        "Mechanical cost": "[Unity] 2000; [Alloys] 3000",
+        "Biological cost": "[Unity] 2000; [Alloys] 3000",
+        "Repair technology": "[Arc Furnace] Arc Furnace",
+        "System notes": "Can be generated in the Ancient Mining Drones home system in addition to a random system",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "I",
+      "section": "Aetherophasic Engine",
+      "data": {
+        "Stage": "I",
+        "Cost": "0",
+        "Reward if conquered( Level 5 Galactic Nemesis)": "[Dark Matter] +10000 Dark matter",
+        "Effects": "None"
+      }
+    },
+    {
+      "id": "II",
+      "section": "Aetherophasic Engine",
+      "data": {
+        "Stage": "II",
+        "Cost": "20000",
+        "Reward if conquered( Level 5 Galactic Nemesis)": "[Dark Matter] +15000 Dark matter",
+        "Effects": "Entering the Shroud displays a new set of messages"
+      }
+    },
+    {
+      "id": "III",
+      "section": "Aetherophasic Engine",
+      "data": {
+        "Stage": "III",
+        "Cost": "30000",
+        "Reward if conquered( Level 5 Galactic Nemesis)": "[Dark Matter] +20000 Dark matter",
+        "Effects": "Within 1-2 years, 5% of the owned systems will be invaded by shroud avatars"
+      }
+    },
+    {
+      "id": "IV",
+      "section": "Aetherophasic Engine",
+      "data": {
+        "Stage": "IV",
+        "Cost": "40000",
+        "Reward if conquered( Level 5 Galactic Nemesis)": "[Dark Matter] +30000 Dark matter",
+        "Effects": "Within 1-2 years, 10% of the owned systems will be invaded by shroud avatars; Up to 600 pops with the [Psionic] psionic trait die; Up to 2 leaders with the [Leader trait bg psionics][Leader trait psionic leader][Psychic] psychic trait die"
+      }
+    },
+    {
+      "id": "V",
+      "section": "Aetherophasic Engine",
+      "data": {
+        "Stage": "V",
+        "Cost": "50000",
+        "Reward if conquered( Level 5 Galactic Nemesis)": "—",
+        "Effects": "+Game victory; −The galaxy is destroyed"
+      }
+    },
+    {
+      "id": "Galactic Crucible Frame",
+      "section": "Galactic Crucible",
+      "data": {
+        "Stage": "Galactic Crucible Frame",
+        "Cost": "[Alloys] 2500; [Entropy crystals] 500",
+        "Time": "2 years"
+      }
+    },
+    {
+      "id": "Galactic Crucible Chasis",
+      "section": "Galactic Crucible",
+      "data": {
+        "Stage": "Galactic Crucible Chasis",
+        "Effects": "[Naval capacity] +150 Naval Capacity",
+        "Cost": "[Entropy crystals] 5000",
+        "Time": "10 years"
+      }
+    },
+    {
+      "id": "Galactic Crucible Core",
+      "section": "Galactic Crucible",
+      "data": {
+        "Stage": "Galactic Crucible Core",
+        "Effects": "[Naval capacity] +225 Naval Capacity",
+        "Cost": "[Entropy crystals] 7500",
+        "Time": "10 years"
+      }
+    },
+    {
+      "id": "Galactic Crucible Hub",
+      "section": "Galactic Crucible",
+      "data": {
+        "Stage": "Galactic Crucible Hub",
+        "Effects": "[Naval capacity] +300 Naval Capacity",
+        "Cost": "[Entropy crystals] 12500",
+        "Time": "10 years",
+        "Notes": "Requires completing the Designated Firestorm special project and is mutually-exclusive with Galactic Crucible Institute"
+      }
+    },
+    {
+      "id": "Galactic Crucible",
+      "section": "Galactic Crucible",
+      "data": {
+        "Stage": "Galactic Crucible",
+        "Effects": "[Naval capacity] +375 Naval Capacity",
+        "Cost": "[Entropy crystals] 15000",
+        "Time": "10 years",
+        "Notes": "Requires completing the Designated Firestorm special project and is mutually-exclusive with Galactic Crucible Institute"
+      }
+    },
+    {
+      "id": "Galactic Crucible Institute",
+      "section": "Galactic Crucible",
+      "data": {
+        "Stage": "Galactic Crucible Institute",
+        "Effects": "[Alloys] +350 Alloys",
+        "Cost": "[Entropy crystals] 15000",
+        "Time": "10 years",
+        "Notes": "Requires completing the Unforeseen Correlation special project and is mutually-exclusive with Galactic Crucible Hub"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Galactic Crucible",
+      "data": {
+        "Mode": "[Overclock gc default] None",
+        "Effect": "[Entropy crystals] +5 Crystallized Entropy",
+        "Upkeep": "[Alloys] −10 Alloys"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Galactic Crucible",
+      "data": {
+        "Mode": "[Overclock gc high] Overcharged",
+        "Effect": "[Mod ship build speed mult] −20 Days Conduit Construction Time",
+        "Upkeep": "[Entropy crystals] −50 Crystallized Entropy"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Galactic Crucible",
+      "data": {
+        "Mode": "[Overclock gc eco] Production",
+        "Effect": "[Entropy crystals] +50 Crystallized Entropy",
+        "Upkeep": "[Alloys] −45 Alloys"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Galactic Crucible",
+      "data": {
+        "Mode": "[Overclock gc war] Coordination Center",
+        "Effect": "[Mod ship fire rate mult] +20% Home Territory Fire Rate[No] Does not build Conduits",
+        "Upkeep": "[Alloys] −35 Energy"
+      }
+    },
+    {
+      "id": "Behemoth Egg",
+      "section": "Behemoth megastructures",
+      "data": {
+        "Megastructure": "Behemoth Egg",
+        "Construction cost": "[Food] 50000; [Influence] 300; [Time] 10 years",
+        "Hatching cost": "[Food] 100000; [Influence] 150; [Time] 10 years",
+        "Hatchling": "Class I Behemoth"
+      }
+    },
+    {
+      "id": "Behemoth Chrysalis (class II)",
+      "section": "Behemoth megastructures",
+      "data": {
+        "Megastructure": "Behemoth Chrysalis (class II)",
+        "Construction cost": "Fully fed class I Behemoth",
+        "Hatching cost": "[Food] 75000; [Time] 3 years",
+        "Hatchling": "Class II Behemoth"
+      }
+    },
+    {
+      "id": "Behemoth Chrysalis (class III)",
+      "section": "Behemoth megastructures",
+      "data": {
+        "Megastructure": "Behemoth Chrysalis (class III)",
+        "Construction cost": "Fully fed class II Behemoth",
+        "Hatching cost": "[Food] 125000; [Time] 3 years",
+        "Hatchling": "Class III Behemoth"
+      }
+    },
+    {
+      "id": "Behemoth Egg (strengthened)",
+      "section": "Behemoth megastructures",
+      "data": {
+        "Megastructure": "Behemoth Egg (strengthened)",
+        "Construction cost": "[Food] 10000; [Time] 2 months; [Time] 1 year cooldown",
+        "Hatching cost": "[Food] 90000; [Time] 2 years",
+        "Hatchling": "Class I Behemoth"
+      }
+    },
+    {
+      "id": "Behemoth Egg (rapid)",
+      "section": "Behemoth megastructures",
+      "data": {
+        "Megastructure": "Behemoth Egg (rapid)",
+        "Construction cost": "[Food] 10000; [Time] 2 months; [Time] 6 months cooldown",
+        "Hatching cost": "[Food] 10000; [Time] 6 months",
+        "Hatchling": "Size 32 fleet (ship size depends of the Egg Development policy)"
+      }
+    },
+    {
+      "id": "Behemoth Egg (large)",
+      "section": "Behemoth megastructures",
+      "data": {
+        "Megastructure": "Behemoth Egg (large)",
+        "Construction cost": "[Food] 10000; [Time] 2 months; [Time] 1 year cooldown",
+        "Hatching cost": "[Food] 40000; [Time] 1 year",
+        "Hatchling": "Size 96 fleet (ship size depends of the Egg Development policy)"
+      }
+    }
+  ]
+}

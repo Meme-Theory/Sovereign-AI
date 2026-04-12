@@ -1,0 +1,2607 @@
+{
+  "category": "traits_biological",
+  "source": "Stellaris Wiki (4.x)",
+  "extracted": "2026-04-12",
+  "count": 243,
+  "items": [
+    {
+      "id": "Arid Preference",
+      "section": "Climate preference traits",
+      "data": {
+        "Preference": "[Trait pc arid preference] Arid",
+        "Dry": "60%",
+        "Wet": "−20%",
+        "Cold": "−20%",
+        "Other": "[Planet arid] Arid World: +20%",
+        "Source": "Empire creation; Genetic modification; Volcanic requires the [Infernals] Infernals DLC"
+      }
+    },
+    {
+      "id": "Desert Preference",
+      "section": "Climate preference traits",
+      "data": {
+        "Preference": "[Trait pc desert preference] Desert",
+        "Dry": "60%",
+        "Wet": "−20%",
+        "Cold": "−20%",
+        "Other": "[Planet desert] Desert World: +20%"
+      }
+    },
+    {
+      "id": "Savanna Preference",
+      "section": "Climate preference traits",
+      "data": {
+        "Preference": "[Trait pc savannah preference] Savanna",
+        "Dry": "60%",
+        "Wet": "−20%",
+        "Cold": "−20%",
+        "Other": "[Planet savannah] Savanna World: +20%"
+      }
+    },
+    {
+      "id": "Continental Preference",
+      "section": "Climate preference traits",
+      "data": {
+        "Preference": "[Trait pc continental preference] Continental",
+        "Dry": "−20%",
+        "Wet": "60%",
+        "Cold": "−20%",
+        "Other": "[Planet continental] Continental World: +20%"
+      }
+    },
+    {
+      "id": "Ocean Preference",
+      "section": "Climate preference traits",
+      "data": {
+        "Preference": "[Trait pc ocean preference] Ocean",
+        "Dry": "−20%",
+        "Wet": "60%",
+        "Cold": "−20%",
+        "Other": "[Planet ocean] Ocean World: +20%"
+      }
+    },
+    {
+      "id": "Tropical Preference",
+      "section": "Climate preference traits",
+      "data": {
+        "Preference": "[Trait pc tropical preference] Tropical",
+        "Dry": "−20%",
+        "Wet": "60%",
+        "Cold": "−20%",
+        "Other": "[Planet tropical] Tropical World: +20%"
+      }
+    },
+    {
+      "id": "Alpine Preference",
+      "section": "Climate preference traits",
+      "data": {
+        "Preference": "[Trait pc alpine preference] Alpine",
+        "Dry": "−20%",
+        "Wet": "−20%",
+        "Cold": "60%",
+        "Other": "[Planet alpine] Alpine World: +20%"
+      }
+    },
+    {
+      "id": "Arctic Preference",
+      "section": "Climate preference traits",
+      "data": {
+        "Preference": "[Trait pc arctic preference] Arctic",
+        "Dry": "−20%",
+        "Wet": "−20%",
+        "Cold": "60%",
+        "Other": "[Planet arctic] Arctic World: +20%"
+      }
+    },
+    {
+      "id": "Tundra Preference",
+      "section": "Climate preference traits",
+      "data": {
+        "Preference": "[Trait pc tundra preference] Tundra",
+        "Dry": "−20%",
+        "Wet": "−20%",
+        "Cold": "60%",
+        "Other": "[Planet tundra] Tundra World: +20%"
+      }
+    },
+    {
+      "id": "Volcanic Preference",
+      "section": "Climate preference traits",
+      "data": {
+        "Preference": "[Trait pc volcanic preference] Volcanic",
+        "Dry": "60%",
+        "Wet": "−20%",
+        "Cold": "−0%",
+        "Other": "[Planet molten] Volcanic World: +60%"
+      }
+    },
+    {
+      "id": "Habitat Preference",
+      "section": "Climate preference traits",
+      "data": {
+        "Preference": "[Trait pc habitat preference] Habitat",
+        "Dry": "−0%",
+        "Wet": "−0%",
+        "Cold": "−0%",
+        "Other": "[Planet habitat] Habitat: +80%",
+        "Source": "[Origin void dwellers] Void Dwellers species; Can be added through genetic modification by [Origin void dwellers] Void Dwellers empires"
+      }
+    },
+    {
+      "id": "Gaia Preference",
+      "section": "Climate preference traits",
+      "data": {
+        "Preference": "[Trait pc gaia preference] Gaia",
+        "Dry": "−0%",
+        "Wet": "−0%",
+        "Cold": "−0%",
+        "Other": "[Planet gaia] Gaia World: +100%",
+        "Source": "[Origins life seeded] Life-Seeded species"
+      }
+    },
+    {
+      "id": "Ring World Preference",
+      "section": "Climate preference traits",
+      "data": {
+        "Preference": "[Trait pc ring preference] Ring World",
+        "Dry": "−0%",
+        "Wet": "−0%",
+        "Cold": "−0%",
+        "Other": "[Ring World] Ring World: +100%",
+        "Source": "[Origins shattered ring] Shattered Ring species"
+      }
+    },
+    {
+      "id": "Machine Preference",
+      "section": "Climate preference traits",
+      "data": {
+        "Preference": "[Trait pc machine preference] Machine",
+        "Dry": "−0%",
+        "Wet": "−0%",
+        "Cold": "−0%",
+        "Other": "[Planet ai] Machine World: +100%",
+        "Source": "[Origins resource consolidation] Resource Consolidation cyborg species if [Driven Assimilator] Driven Assimilator"
+      }
+    },
+    {
+      "id": "Tomb Preference",
+      "section": "Climate preference traits",
+      "data": {
+        "Preference": "[Trait pc nuked preference] Tomb",
+        "Dry": "60%",
+        "Wet": "60%",
+        "Cold": "60%",
+        "Other": "[Planet nuked] Tomb World: +80%",
+        "Source": "Species generated by [Genesis Guides][Astrogenesis Technologies][Genesis Symbiotes][Genesis Architects] Genesis[Genesis Guides] Genesis Guides[Astrogenesis Technologies] Astrogenesis Technologies[Genesis Symbiotes] Genesis Symbiotes[Genesis Architects] Genesis Architects civics on a matching world; Species generated by the [R omnicodex] Omnicodex relic on a matching world"
+      }
+    },
+    {
+      "id": "Relic Preference",
+      "section": "Climate preference traits",
+      "data": {
+        "Preference": "[Trait pc relic preference] Relic",
+        "Dry": "−0%",
+        "Wet": "−0%",
+        "Cold": "−0%",
+        "Other": "[Planet nuked] Relic World: +80%"
+      }
+    },
+    {
+      "id": "Ecumenopolis Preference",
+      "section": "Climate preference traits",
+      "data": {
+        "Preference": "[Trait pc city preference] Ecumenopolis",
+        "Dry": "−0%",
+        "Wet": "−0%",
+        "Cold": "−0%",
+        "Other": "[Planet city] Ecumenopolis: +80%"
+      }
+    },
+    {
+      "id": "Hive Preference",
+      "section": "Climate preference traits",
+      "data": {
+        "Preference": "[Trait pc hive preference] Hive",
+        "Dry": "−0%",
+        "Wet": "−0%",
+        "Cold": "−0%",
+        "Other": "[Planet infested] Hive World: +100%"
+      }
+    },
+    {
+      "id": "Nanite World Preference",
+      "section": "Climate preference traits",
+      "data": {
+        "Preference": "[Trait pc nuked preference] Nanite",
+        "Dry": "60%",
+        "Wet": "60%",
+        "Cold": "60%",
+        "Other": "[Planet toxic] Nanite World: +80%"
+      }
+    },
+    {
+      "id": "Synaptic Lathe Preference",
+      "section": "Climate preference traits",
+      "data": {
+        "Preference": "[Trait pc machine preference] Synaptic Lathe",
+        "Dry": "−0%",
+        "Wet": "−0%",
+        "Cold": "−0%",
+        "Other": "[Planet synaptic lathe] Synaptic Lathe: +100%"
+      }
+    },
+    {
+      "id": "Mutagenic Habitability",
+      "section": "Climate preference traits",
+      "data": {
+        "Preference": "[Trait auto hab preference] Mutagenic Habitability",
+        "Dry": "50%",
+        "Wet": "50%",
+        "Cold": "50%",
+        "Other": "[Planet nuked] Tomb World: +50%[Planet molten] Volcanic World: +50% [Feature] Auto-mods species towards the other habitability traits",
+        "Source": "[Environmental Integration] Environmental Integration tradition"
+      }
+    },
+    {
+      "id": "Dry Climate Mods",
+      "section": "Climate preference traits",
+      "data": {
+        "Preference": "[Trait pc dry preference] Dry Climate Mods",
+        "Dry": "+70%",
+        "Wet": "−0%",
+        "Cold": "−0%",
+        "Other": "[Mod habitability] Habitability capped at +125%; [Mod pop bonus workforce mult] +2.5% Job Efficiency per 10% Habitability above 100%; [Pop housing usage] −2.5% Pop Housing Usage per 10% Habitability above 100%; [Mod pop amenities usage mult] −2.5% Pop Amenities Usage per 10% Habitability above 100%",
+        "Source": "Can be added through genetic modification with [Integrated Anatomy] Integrated Anatomy tradition; Requires the [Cybernetic] Cybernetic trait; Requires the [The Machine Age] The Machine Age DLC"
+      }
+    },
+    {
+      "id": "Wet Climate Mods",
+      "section": "Climate preference traits",
+      "data": {
+        "Preference": "[Trait pc wet preference] Wet Climate Mods",
+        "Dry": "−0%",
+        "Wet": "+70%",
+        "Cold": "−0%"
+      }
+    },
+    {
+      "id": "Cold Climate Mods",
+      "section": "Climate preference traits",
+      "data": {
+        "Preference": "[Trait pc cold preference] Cold Climate Mods",
+        "Dry": "−0%",
+        "Wet": "−0%",
+        "Cold": "+70%"
+      }
+    },
+    {
+      "id": "Aquatic",
+      "section": "Basic characteristics",
+      "data": {
+        "Trait": "[Trait aquatic] Aquatic",
+        "Effects": "[Planet ocean] Ocean Worlds: [Mod habitability] +20% Habitability [Pop housing usage] −10% Pop housing usage [Pop cat worker] +10% Worker job efficiency; [Mod habitability] +20% Habitability; [Pop housing usage] −10% Pop housing usage; [Pop cat worker] +10% Worker job efficiency; Dry and Cold planets: [Mod habitability] −20% Habitability [Pop housing usage] +30% Pop housing usage; [Mod habitability] −20% Habitability; [Pop housing usage] +30% Pop housing usage; [Hydrocentric] Hydrocentric ascension perk boosts this trait's effects by +50%",
+        "Notes": "Requires [Trait pc ocean preference] Ocean Preference; Can be added if either: [Yes] Empire creation [Allelic Expression] Allelic Expression tradition [Exemplary Genetics] Exemplary Genetics tradition [Unnatural Selection] Unnatural Selection tradition; [Yes] Empire creation; [Allelic Expression] Allelic Expression tradition; [Exemplary Genetics] Exemplary Genetics tradition; [Unnatural Selection] Unnatural Selection tradition; Can be removed if [No][Hydrocentric] Hydrocentric and either: [Genetic Resequencing] Genetic Resequencing tradition [Genotype Regeneration] Genotype Regeneration tradition [Unnatural Selection] Unnatural Selection tradition; [Genetic Resequencing] Genetic Resequencing tradition; [Genotype Regeneration] Genotype Regeneration tradition; [Unnatural Selection] Unnatural Selection tradition; [No] Cannot change climate preference without removing the trait",
+        "Description": "This species is perfectly adapted to living in the depths of the ocean. However, on dry land, it is like a fish out of water.",
+        "DLC": "[Aquatics]"
+      }
+    },
+    {
+      "id": "Hive-Minded",
+      "section": "Basic characteristics",
+      "data": {
+        "Trait": "[Trait hive mind] Hive-Minded",
+        "Effects": "[No] Not affected by happiness; [Mod leader age] +20 Years leader lifespan; [Mod leader age] −10 Years leader initial age; [Pop cat simple drone] Can be employed in gestalt jobs; [Species right citizenship] Uses a different set of species rights outside Hive Mind empires",
+        "Conflicts": "[Conformists][Conservationist][Thrifty][Familial][Deviants][Wasteful][Decadent]",
+        "Notes": "Forced for [Auth hive mind] Hive Mind starting species; Can only be added or removed through assimilation; Can assimilate into or out of if either: [Engineered Genesis] Engineered Genesis tradition [Genotype Regeneration] Genotype Regeneration tradition [Planned Polymorphism] Planned Polymorphism tradition [Evolutionary Extrapolation] Evolutionary Extrapolation tradition [Transubstantiation Synthesis] Transubstantiation Synthesis ([Auth hive mind] Hive Mind only) [Inevitable Assimilation] Inevitable Assimilation ([Driven Assimilator] Driven Assimilator only); [Engineered Genesis] Engineered Genesis tradition; [Genotype Regeneration] Genotype Regeneration tradition; [Planned Polymorphism] Planned Polymorphism tradition; [Evolutionary Extrapolation] Evolutionary Extrapolation tradition; [Transubstantiation Synthesis] Transubstantiation Synthesis ([Auth hive mind] Hive Mind only); [Inevitable Assimilation] Inevitable Assimilation ([Driven Assimilator] Driven Assimilator only)",
+        "Description": "This species is made up of semi-autonomous individuals slaved to a single, unfathomably vast consciousness.",
+        "DLC": "[Utopia]; [BioGenesis]"
+      }
+    },
+    {
+      "id": "Adaptive",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait adaptive] Adaptive",
+        "Effects": "[Mod habitability] +10% Habitability",
+        "Conflicts": "[Nonadaptive][Extremely Adaptive]",
+        "Description": "This species is highly adaptive when it comes to foreign environments."
+      }
+    },
+    {
+      "id": "Extremely Adaptive",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait extremely adaptive] Extremely Adaptive",
+        "Effects": "[Mod habitability] +20% Habitability",
+        "Conflicts": "[Nonadaptive][Adaptive][Lithoid]",
+        "Description": "This species is remarkably adept at adapting to any foreign environments."
+      }
+    },
+    {
+      "id": "Agrarian",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait agrarian] Agrarian",
+        "Effects": "[Farmer] +15% Farming job efficiency",
+        "Conflicts": "[Lithoid]",
+        "Can also be removed with": "[Tech gene expressions] Targeted Gene Expressions",
+        "Description": "This species has a deep connection to the land, and make expert farmers and gardeners."
+      }
+    },
+    {
+      "id": "Charismatic",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait charismatic] Charismatic",
+        "Effects": "[Entertainer] +20% Influential job efficiency",
+        "Conflicts": "[Repugnant]",
+        "Can also be removed with": "[Tech gene expressions] Targeted Gene Expressions",
+        "Description": "Members of this species have a special charisma, and are generally considered pleasant to be around."
+      }
+    },
+    {
+      "id": "Communal",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait communal] Communal",
+        "Effects": "[Pop housing usage] −10% Pop housing usage",
+        "Conflicts": "[Solitary][Shelled]",
+        "Description": "Members of this species are highly communal, and quite used to living in close proximity to others."
+      }
+    },
+    {
+      "id": "Conformists",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait conformists] Conformists",
+        "Effects": "[Mod pop government ethic attraction] +30% Governing ethics attraction",
+        "Conflicts": "[Deviants][Hive-Minded]",
+        "Description": "These people always seek consensus and are more likely to conform to the governing ethics."
+      }
+    },
+    {
+      "id": "Conservationist",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait conservationist] Conservationist",
+        "Effects": "[Mod consumer goods upkeep mult] −10% Pop consumer goods upkeep",
+        "Conflicts": "[Wasteful][Hive-Minded]",
+        "Description": "Members of this species believe that resources must be conserved and recycled."
+      }
+    },
+    {
+      "id": "Docile",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait docile] Docile",
+        "Effects": "[Empire sprawl] −10% Empire size from pops",
+        "Conflicts": "[Unruly]",
+        "Description": "Members of this species are easy to manage and organize. They tend to be cooperative and amicable."
+      }
+    },
+    {
+      "id": "Enduring",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait enduring] Enduring",
+        "Effects": "[Mod leader age] +20 Years leader lifespan",
+        "Conflicts": "[Fleeting][Venerable]",
+        "Description": "Lifespans in this species are unusually long."
+      }
+    },
+    {
+      "id": "Venerable",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait venerable] Venerable",
+        "Effects": "[Mod leader age] +80 Years leader lifespan",
+        "Conflicts": "[Fleeting][Enduring]",
+        "Description": "This species can grow to an age that commands dignity and respect."
+      }
+    },
+    {
+      "id": "Industrious",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait industrious] Industrious",
+        "Effects": "[Miner] +15% Mining job efficiency",
+        "Can also be removed with": "[Tech gene expressions] Targeted Gene Expressions",
+        "Description": "Members of this species are known for their diligent and hard-working nature, always going above and beyond."
+      }
+    },
+    {
+      "id": "Ingenious",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait ingenious] Ingenious",
+        "Effects": "[Technician] +15% Technician job efficiency",
+        "Can also be removed with": "[Tech gene expressions] Targeted Gene Expressions",
+        "Description": "Members of this species are good at 'thinking outside the box' and know how to maximize the efficiency of their infrastructure and power grids."
+      }
+    },
+    {
+      "id": "Intelligent",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait intelligent] Intelligent",
+        "Effects": "[Researcher] +10% Researcher job efficiency",
+        "Conflicts": "[Trait cranial hypertrophy][Trait cranial megatrophy]",
+        "Can also be removed with": "[Tech gene expressions] Targeted Gene Expressions",
+        "Description": "This species is highly intelligent, and enjoys faster technological progress."
+      }
+    },
+    {
+      "id": "Natural Engineers",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait natural engineers] Natural Engineers",
+        "Effects": "[Engineer] +15% Engineer job efficiency",
+        "Conflicts": "[Natural Physicists][Natural Sociologists]",
+        "Description": "Members of this species have a natural inclination towards engineering and material sciences."
+      }
+    },
+    {
+      "id": "Natural Physicists",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait natural physicists] Natural Physicists",
+        "Effects": "[Physicist] +15% Physicist job efficiency",
+        "Conflicts": "[Natural Engineers][Natural Sociologists]",
+        "Description": "Members of this species have a natural inclination towards theoretical physics and astral phenomena."
+      }
+    },
+    {
+      "id": "Natural Sociologists",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait natural sociologists] Natural Sociologists",
+        "Effects": "[Biologist] +15% Biologist job efficiency",
+        "Conflicts": "[Natural Physicists][Natural Engineers]",
+        "Description": "Members of this species have a natural inclination towards sociology and biological studies."
+      }
+    },
+    {
+      "id": "Nomadic",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait nomadic] Nomadic",
+        "Effects": "[Mod pop resettlement cost mult] −35% Resettlement cost",
+        "Conflicts": "[Sedentary]",
+        "Description": "This species has a nomadic past, and its members often think nothing of relocating to another world."
+      }
+    },
+    {
+      "id": "Quick Learners",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait quick learners] Quick Learners",
+        "Effects": "[Mod leader species exp gain] +10% Leader experience gain",
+        "Conflicts": "[Slow Learners]",
+        "Description": "Members of this species are quick to learn from their experiences."
+      }
+    },
+    {
+      "id": "Rapid Breeders",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait rapid breeders] Rapid Breeders",
+        "Effects": "[Mod pop growth speed] +10% Pop growth speed",
+        "Conflicts": "[Slow Breeders][Existential Iteroparity][Incubators][Budding][Crystallization][Egg Laying][Pyroclastic Channeling]",
+        "Can also be removed with": "[Somatic Synthesization] Somatic Synthesization",
+        "Description": "This species reproduces at a very rapid rate, increasing population growth."
+      }
+    },
+    {
+      "id": "Resilient",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait resilient] Resilient",
+        "Effects": "[Mod army damage mult] +50% Defense army damage",
+        "Description": "Members of this species are physiologically resilient, and will fight like enraged brood mothers to defend their worlds."
+      }
+    },
+    {
+      "id": "Strong",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait strong] Strong",
+        "Effects": "[Mod army damage mult] +20% Army damage; [Soldier] +10% Soldier efficiency; [Pop cat worker] +2.5% Worker job efficiency; [Pop cat simple drone] +2.5% Menial Drone job efficiency",
+        "Conflicts": "[Very Strong][Weak][Hollow Bones]",
+        "Description": "Members of this species possess great physical strength, making them formidable fighters on the ground."
+      }
+    },
+    {
+      "id": "Very Strong",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait very strong] Very Strong",
+        "Effects": "[Mod army damage mult] +40% Army Damage; [Soldier] +15% Soldier efficiency; [Pop cat worker] +5% Worker job efficiency; [Pop cat simple drone] +5% Menial Drone job efficiency",
+        "Conflicts": "[Strong][Weak][Hollow Bones]",
+        "Description": "Members of this species possess a strength that almost defies the laws of physics."
+      }
+    },
+    {
+      "id": "Talented",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait talented] Talented",
+        "Effects": "[Upkeep] −10% Leader upkeep; [Mod leader negative traits add] −1 Leader maximum negative traits",
+        "Description": "Member of this species are born with a natural aptitude."
+      }
+    },
+    {
+      "id": "Thrifty",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait thrifty] Thrifty",
+        "Effects": "[Trader] +25% Trader job efficiency",
+        "Conflicts": "[Hive-Minded]",
+        "Can also be removed with": "[Tech gene expressions] Targeted Gene Expressions",
+        "Description": "Members of this species are instinctively economical and are always looking to make a good profit, whatever corners need cutting."
+      }
+    },
+    {
+      "id": "Traditional",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait traditional] Traditional",
+        "Effects": "[Bureaucrat] +10% Bureaucrat job efficiency",
+        "Conflicts": "[Quarrelsome]",
+        "Can also be removed with": "[Tech gene expressions] Targeted Gene Expressions",
+        "Description": "Certain aspects of this species' cognition makes it predisposed to especially value historical precedence and group unity."
+      }
+    },
+    {
+      "id": "Existential Iteroparity",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait existential iteroparity] Existential Iteroparity",
+        "Effects": "[Mod pop growth speed] +20% Pop growth during war and crisis",
+        "Conflicts": "[Psychological Infertility][Rapid Breeders][Incubators][Budding][Crystallization][Egg Laying][Pyroclastic Channeling]",
+        "Can also be removed with": "[Somatic Synthesization] Somatic Synthesization",
+        "Description": "This species grew up in hostile conditions where outbreeding your rivals was the key to survival.",
+        "DLC": "[DLC humanoids species pack]"
+      }
+    },
+    {
+      "id": "Incubators",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait incubator] Incubators",
+        "Effects": "[Mod pop growth speed] +30% Pop growth speed [Mod pop growth speed] −1% for every 100 pops above 700, until it reaches the effect of [Mod pop growth speed] −10% at 4700 pops; [Mod pop growth speed] −1% for every 100 pops above 700, until it reaches the effect of [Mod pop growth speed] −10% at 4700 pops",
+        "Conflicts": "[Slow Breeders][Rapid Breeders][Existential Iteroparity][Budding][Crystallization][Egg Laying][Pyroclastic Channeling]",
+        "Can also be removed with": "[Somatic Synthesization] Somatic Synthesization",
+        "Description": "When isolated or few in numbers, a species with this trait naturally adapts and is able to focus on procreation with an intentness others would consider extreme. However, when in large numbers, this effect is reversed, and they find reproduction more difficult.",
+        "DLC": "[Toxoids]"
+      }
+    },
+    {
+      "id": "Noxious",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait noxious] Noxious",
+        "Effects": "[Happiness] +2% Happiness per non-Noxious pop (max +40%); [Happiness] −1% Happiness to non-Noxious pops; [Mod army damage mult] +50% Army damage; [Habitability floor] +30% Species minimum habitability; [Habitability ceiling] −30% Species habitability cap; [Mod pop amenities usage mult] +10% Pop amenities usage; [No] Cannot be set to Livestock slavery",
+        "Description": "Extremely unpleasant to be in the vicinity of, beings with this trait take vindication from being insufferable to everyone else.",
+        "DLC": "[Toxoids]"
+      }
+    },
+    {
+      "id": "Inorganic Breath",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait inorganic breath] Inorganic Breath",
+        "Effects": "[Exotic gases] +0.02 Exotic gases per 100 pops; [Upkeep] +50% Pop upkeep",
+        "Description": "The slightly toxic digestive methods of this species have resulted in a highly exotic breath composition.",
+        "DLC": "[Toxoids]"
+      }
+    },
+    {
+      "id": "Unbreakable Resolve",
+      "section": "Positive traits",
+      "data": {
+        "Trait": "[Trait unbreakable resolve] Unbreakable Resolve",
+        "Effects": "[Mod planet stability] +0.2 Stability per 100 free pops (max +15)",
+        "Description": "Bound by an intricate web of mirror neurons, these individuals possess an innate ability to synchronize their will. Duty is not a burden, but a shared purpose, and hardship is met with unwavering unity.",
+        "DLC": "[Infernals]"
+      }
+    },
+    {
+      "id": "Vocational Genomics",
+      "section": "Vocational Genomics",
+      "data": {
+        "Trait": "[Trait auto mod biological] Vocational Genomics",
+        "Effects": "[Feature] Enables Auto-Modding",
+        "Description": "Advanced genetic strings feature epigenetic triggers that adapt to occupational demands, dynamically optimizing gene expression for the host's work environment."
+      }
+    },
+    {
+      "id": "Phototrophic",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Phototrophic] Phototrophic",
+        "Effects": "[Pop resource energy mult] Replaces half of base pop upkeep with Energy",
+        "Conflicts": "[Radiotrophic][Voidling][Cave Dweller]",
+        "Species class": "Plantoid; Fungoid",
+        "Description": "This species is sustained by a combination of both food and sunlight.",
+        "DLC": "[DLC plantoids species pack]"
+      }
+    },
+    {
+      "id": "Radiotrophic",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Radiotrophic] Radiotrophic",
+        "Effects": "[Pop resource energy mult] Replaces half of base pop upkeep with Energy; [Energy Credits] No Energy upkeep on Tomb Worlds; [Mod pop growth speed] +10% Tomb World pop growth speed; [Mod habitability] +10% Tomb World habitability",
+        "Conflicts": "[Phototrophic][Voidling]",
+        "Species class": "Plantoid; Fungoid; Lithoid; Thermophile",
+        "Description": "This species is sustained by a combination of both food and low-energy radiation, and as such can thrive on the most inhospitable of worlds.",
+        "DLC": "[DLC plantoids species pack]"
+      }
+    },
+    {
+      "id": "Invasive Species",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Invasive Species] Invasive Species",
+        "Effects": "[Mod habitability] +5% Habitability per negative trait; [Mod pop growth speed] +5% Pop growth speed per negative trait",
+        "Conflicts": "All positive non-botanical biological traits",
+        "Species class": "Plantoid; Fungoid",
+        "Description": "Rapid reproduction. High dispersal ability. Zero useful capabilities.",
+        "DLC": "[DLC plantoids species pack]"
+      }
+    },
+    {
+      "id": "Budding",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Budding] Budding",
+        "Effects": "[Pop assembly organic] +0.02 Organic pop assembly per 100 pops",
+        "Conflicts": "[Slow Breeders][Rapid Breeders][Existential Iteroparity][Incubators][Crystallization][Egg Laying][Pyroclastic Channeling][Polymelic]",
+        "Species class": "Plantoid; Fungoid",
+        "Additional portraits": "[Aquatic 07][Necroids 03]",
+        "Description": "This species is capable of reproduction by budding, in addition to the more usual fertilization of seeds or spores.",
+        "DLC": "[DLC plantoids species pack]"
+      }
+    },
+    {
+      "id": "Crystallization",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Crystallization] Crystallization",
+        "Effects": "[Pop assembly organic] +0.02 Organic pop assembly per 100 pops",
+        "Conflicts": "[Slow Breeders][Rapid Breeders][Existential Iteroparity][Incubators][Budding][Egg Laying][Pyroclastic Channeling][Polymelic]",
+        "Species class": "Lithoid",
+        "Description": "With crystalline growths, this species is capable of generating self replicating lattices of themselves, in addition to the more usual reproductive methods.",
+        "DLC": "[DLC plantoids species pack]"
+      }
+    },
+    {
+      "id": "Gaseous Byproducts",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Gaseous Byproducts] Gaseous Byproducts",
+        "Effects": "[Exotic gases] +0.01 Exotic gases per 100 pops",
+        "Conflicts": "[Scintillating Skin][Volatile Excretions][Drake-Scaled]",
+        "Species class": "Lithoid",
+        "Description": "The metabolic processes of this species cause regular venting of gases useful to industry.",
+        "DLC": "[Lithoids]"
+      }
+    },
+    {
+      "id": "Scintillating Skin",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Scintillating Skin] Scintillating Skin",
+        "Effects": "[Rare crystals] +0.01 Rare crystals per 100 pops",
+        "Conflicts": "[Gaseous Byproducts][Volatile Excretions][Pyroclastic Channeling][Drake-Scaled]",
+        "Species class": "Lithoid",
+        "Description": "The outermost layer of this species is studded with sparkling crystals and gemstones that occasionally flake off.",
+        "DLC": "[Lithoids]"
+      }
+    },
+    {
+      "id": "Volatile Excretions",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Volatile Excretions] Volatile Excretions",
+        "Effects": "[Volatile motes] +0.01 Volatile motes per 100 pops",
+        "Conflicts": "[Gaseous Byproducts][Scintillating Skin][Drake-Scaled]",
+        "Species class": "Lithoid",
+        "Description": "The highly compressed spoor created by this species is unstable and contains an unbelievable amount of power.",
+        "DLC": "[Lithoids]"
+      }
+    },
+    {
+      "id": "Familial",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Familial] Familial",
+        "Effects": "[Happiness] +0.1% Happiness per 100 Familial pops (max +20%)",
+        "Conflicts": "[Hive-Minded]",
+        "Species class": "Humanoid; Mammalian; Avian",
+        "Additional portraits": "[Fungoid 04][Fungoid 16][Plantoid 17 female][Lithoid human][Aquatic 05]",
+        "Description": "Bound by deep, enduring relationships with their closest relatives, this species forms highly efficient and cohesive collectives.",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Genetic Memory",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Genetic Memory] Genetic Memory",
+        "Effects": "[Mod habitability] +0.5% Habitability per colony age (max +25%)",
+        "Conflicts": "[Nonadaptive]",
+        "Species class": "Humanoid; Mammalian; Necroid",
+        "Additional portraits": "[Fungoid 04][Fungoid 16][Plantoid 17 female][Lithoid human][Aquatic 05]",
+        "Description": "Passing down knowledge and learnings from one generation to the next has been the start of many civilizations. This species has taken it a step further by encoding survival insights directly into their genetic code, ensuring that each generation is born with the accumulated wisdom of their ancestors.",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Camouflage",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Camouflage] Camouflage",
+        "Effects": "[Physicist] +10% Physicist job efficiency; [Mod army health] +20% Army health",
+        "Conflicts": "[Chromalogs][Natural Physicists][Nerve Stapled]",
+        "Species class": "Arthropoid; Reptilian; Aquatic",
+        "Additional portraits": "[Toxic 12]",
+        "Description": "Masters of disguise, this species seamlessly merges with their surroundings, rendering themselves nearly invisible to predators and prey alike. Their innate understanding of optics gives them an edge in guerilla warfare.",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Chromalogs",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Chromalogs] Chromalogs",
+        "Effects": "[Mod army health] +40% Army health; [Mod pop government ethic attraction] +15% Governing ethics attraction; [Physicist] +20% Physicist job efficiency; [Bureaucrat] +20% Bureaucrat job efficiency",
+        "Conflicts": "[Camouflage][Natural Physicists][Nerve Stapled]",
+        "Species class": "Arthropoid; Reptilian; Aquatic",
+        "Additional portraits": "[Toxic 12][Avian 18]",
+        "Description": "Harnessing the artistry of color, this species has transcended mere camouflage, evolving to communicate through the vibrant and intricate patterns displayed on their bodies.",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Egg Laying",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Egg Laying] Egg Laying",
+        "Effects": "[Mod pop growth speed] +15% Biological growth speed if local surplus of Food; [Mod pop growth speed] +15% Lithoid growth speed if local surplus of Minerals",
+        "Conflicts": "[Slow Breeders][Rapid Breeders][Existential Iteroparity][Incubators][Budding][Crystallization][Pyroclastic Channeling][Polymelic]",
+        "Species class": "Avian; Reptilian; Aquatic",
+        "Additional portraits": "[Mammalian massive 16]",
+        "Description": "The young of this species do not develop inside a parent, but inside the protective shell of an egg. This allows for rapid growth during times of plenty.",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Spare Organs",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Spare Organs] Spare Organs",
+        "Effects": "[Leader trait bg basic][Leader trait second chance][Second Chance] Leaders survive their first death; [Unknown] +20% Chance to replace lost offensive armies; [Livestock] +50% Livestock Output",
+        "Species class": "Molluscoid; Necroid; Toxoid",
+        "Description": "This species evolved redundant organs to survive even the most grievous injuries - a successful adaptation, as evidenced by their continued existence.",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Seasonal Dormancy",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Seasonal Dormancy] Seasonal Dormancy",
+        "Effects": "[Upkeep] −15% Employed pop upkeep; [Upkeep] −75% Unemployed pop upkeep",
+        "Conflicts": "[Wasteful][Conservationist][Low Maintenance]",
+        "Species class": "Mammalian; Reptilian",
+        "Additional portraits": "[Fungoid 04][Fungoid 16]",
+        "Description": "This species has evolved on a planet with cyclical seasons that support hibernation. In the modern age, these seasonal triggers can be artificially simulated to efficiently store less productive members of society.",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Flight",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Flight] Flight",
+        "Effects": "[Mod army damage mult] −30% Army damage taken; [Leader skill levels] +1 Effective commander skill level",
+        "Conflicts": "[Spatial Mastery][Communal][Shelled]",
+        "Species class": "Avian; Arthropoid",
+        "Additional portraits": "[Reptilian 17][Mammalian slender 01][Bio species 10]",
+        "Description": "This species soars above the constraints of the earth, freely navigating the skies. Their cities feature unique, dense layouts, optimized for aerial inhabitants. In conflict, they prove to be elusive and difficult targets.",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Spatial Mastery",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Spatial Mastery] Spatial Mastery",
+        "Effects": "[Mod army damage mult] −50% Army damage taken; [Pop housing usage] −10% Pop housing usage; [Leader skill levels] +1 Effective leader skill level",
+        "Conflicts": "[Flight][Communal][Shelled]",
+        "Species class": "Avian; Arthropoid",
+        "Additional portraits": "[Reptilian 17][Mammalian slender 01][Bio species 10]",
+        "Description": "Not only capable of flight, this species possesses unique cerebral adaptations, enabling them to instinctively process and navigate three-dimensional spaces. These abilities make them unparalleled in planning battles, surveying planets, and managing cities.",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Shelled",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Shelled] Shelled",
+        "Effects": "[Mod habitability] +10% Habitability; [Pop housing usage] −30% Pop housing usage",
+        "Conflicts": "[Spatial Mastery][Communal]",
+        "Species class": "Molluscoid; Necroid",
+        "Additional portraits": "[Reptilian massive 14][Bio species 03]",
+        "Description": "Whether naturally grown or found by chance (or design), this species carries their homes with them. These shells provide a protective sanctuary, ensuring there is always a place to rest for the night.",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Acidic Vascularity",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Acidic Vascularity] Acidic Vascularity",
+        "Effects": "[Mod army damage mult] +250 Army damage dealt when armies die; [Purging] −75% Purged pop resource output",
+        "Species class": "Necroid; Toxoid",
+        "Description": "The internal fluids of this species serve as their most potent defense. Highly corrosive and lethal, these liquids ensure that any enemies regret poking holes.",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Uncanny Intuition",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Uncanny Intuition] Uncanny Intuition",
+        "Effects": "[Leader skill levels] +2 Effective councilor skill level",
+        "Species class": "Psionic",
+        "Description": "This species exhibits an inexplicable ability to navigate through complex problems on its first attempt.",
+        "DLC": "[Shadows of the Shroud]"
+      }
+    },
+    {
+      "id": "Cranial Hypertrophy",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Cranial Hypertrophy] Cranial Hypertrophy",
+        "Effects": "[Researcher] +15% Researcher job efficiency; [Pop cat worker] −10% Worker job efficiency; [Pop cat simple drone] −10% Menial Drone job efficiency",
+        "Conflicts": "[Intelligent][Trait cranial megatrophy]",
+        "Species class": "Psionic",
+        "Additional portraits": "[Mammalian ratling][Fungoid 08][Toxic 13]",
+        "Description": "The frame of this species' neural encasement has inflated to the point where its physical capabilities have become somewhat limited.",
+        "DLC": "[Shadows of the Shroud]"
+      }
+    },
+    {
+      "id": "Cranial Megatrophy",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Cranial Megatrophy] Cranial Megatrophy",
+        "Effects": "[Researcher] +25% Researcher job efficiency; [Pop cat worker] −20% Worker job efficiency; [Pop cat simple drone] −20% Menial Drone job efficiency",
+        "Conflicts": "[Intelligent][Trait cranial hypertrophy]",
+        "Species class": "Psionic",
+        "Additional portraits": "[Mammalian ratling][Fungoid 08][Toxic 13]",
+        "Description": "The frame of this species' neural encasement has inflated to its ultimate biological limit.",
+        "DLC": "[Shadows of the Shroud]"
+      }
+    },
+    {
+      "id": "Crucible Community",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Crucible Community] Crucible Community",
+        "Effects": "[Edict capacity] +0.25 Edict fund per 100 pops",
+        "Species class": "Thermophile",
+        "Description": "Tempered by adversity and bound by shared struggle, this species has been forged into an unbreakable whole. Their collective will fuels governance, each member a vital link in the chain of unity.",
+        "DLC": "[Infernals]"
+      }
+    },
+    {
+      "id": "Pyroclastic Channeling",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Pyroclastic Channeling] Pyroclastic Channeling",
+        "Effects": "[Mod pop growth speed] +10% Pop growth speed on Volcanic worlds",
+        "Conflicts": "[Slow Breeders][Rapid Breeders][Existential Iteroparity][Incubators][Budding][Crystallization][Egg Laying][Polymelic]",
+        "Species class": "Thermophile",
+        "Description": "Shaped by the relentless fury of volcanic worlds, this species does not fear pyroclastic forces - they channel and manipulate them, transforming devastation into a vital source of sustenance and power.",
+        "DLC": "[Infernals]"
+      }
+    },
+    {
+      "id": "Shell Slag",
+      "section": "Positive phenotype traits",
+      "data": {
+        "Trait": "[Shell Slag] Shell Slag",
+        "Effects": "[Living Metal] +0.005 Living metal per 100 pops",
+        "Conflicts": "[Drake-Scaled]",
+        "Species class": "Thermophile",
+        "Description": "An intricate symbiosis with Living Metal allows this species to grow not in the traditional sense, but through the accretion and self-assembly of bio-ferrous structures.",
+        "DLC": "[Infernals]"
+      }
+    },
+    {
+      "id": "Decadent",
+      "section": "Negative traits",
+      "data": {
+        "Trait": "[Trait decadent] Decadent",
+        "Effects": "[Happiness] −10% Worker happiness; [Happiness] −10% Slave happiness",
+        "Conflicts": "[Hive-Minded]",
+        "Description": "This species believes that whenever there is hard work that needs doing, that work is always best done by somebody else."
+      }
+    },
+    {
+      "id": "Deviants",
+      "section": "Negative traits",
+      "data": {
+        "Trait": "[Trait deviants] Deviants",
+        "Effects": "[Mod pop government ethic attraction] −15% Governing ethics attraction",
+        "Conflicts": "[Conformists][Hive-Minded]",
+        "Description": "These people are rebellious in nature and constantly try to challenge the status-quo."
+      }
+    },
+    {
+      "id": "Fleeting",
+      "section": "Negative traits",
+      "data": {
+        "Trait": "[Trait fleeting] Fleeting",
+        "Effects": "[Mod leader age] −10 Years leader lifespan if biological; [Mod leader age] −25 Years leader lifespan if lithoid",
+        "Conflicts": "[Enduring][Venerable]",
+        "Description": "Time is fleeting for this species. What they lack in longevity, they have to make up in other ways."
+      }
+    },
+    {
+      "id": "Nonadaptive",
+      "section": "Negative traits",
+      "data": {
+        "Trait": "[Trait nonadaptive] Nonadaptive",
+        "Effects": "[Mod habitability] −10% Habitability",
+        "Conflicts": "[Adaptive][Extremely Adaptive][Lithoid]",
+        "Description": "This species does not adapt well to foreign environments."
+      }
+    },
+    {
+      "id": "Sedentary",
+      "section": "Negative traits",
+      "data": {
+        "Trait": "[Trait sedentary] Sedentary",
+        "Effects": "[Mod pop resettlement cost mult] +35% Resettlement cost",
+        "Conflicts": "[Nomadic]",
+        "Description": "This species has a sedentary past, and its members are reluctant to migrate away from where they grew up."
+      }
+    },
+    {
+      "id": "Quarrelsome",
+      "section": "Negative traits",
+      "data": {
+        "Trait": "[Trait quarrelsome] Quarrelsome",
+        "Effects": "[Bureaucrat] −10% Bureaucrat job efficiency",
+        "Conflicts": "[Traditional][Propaganda Machines]",
+        "Description": "While not inherently distrustful, members of this species are often socially combative."
+      }
+    },
+    {
+      "id": "Repugnant",
+      "section": "Negative traits",
+      "data": {
+        "Trait": "[Trait repugnant] Repugnant",
+        "Effects": "[Entertainer] −20% Influential job efficiency",
+        "Conflicts": "[Charismatic]",
+        "Description": "The physical appearance and customs of this species are considered offensive to most others, and few appreciate them as neighbors."
+      }
+    },
+    {
+      "id": "Slow Breeders",
+      "section": "Negative traits",
+      "data": {
+        "Trait": "[Trait slow breeders] Slow Breeders",
+        "Effects": "[Mod pop growth speed] −10% Pop growth speed",
+        "Conflicts": "[Nascent Stage][Rapid Breeders][Existential Iteroparity][Incubators][Budding][Crystallization][Egg Laying][Pyroclastic Channeling][Lithoid]",
+        "Description": "This species reproduces at a slow rate, lowering population growth."
+      }
+    },
+    {
+      "id": "Slow Learners",
+      "section": "Negative traits",
+      "data": {
+        "Trait": "[Trait slow learners] Slow Learners",
+        "Effects": "[Mod leader species exp gain] −10% Leader experience gain",
+        "Conflicts": "[Quick Learners]",
+        "Description": "Members of this species are slow to learn from their experiences."
+      }
+    },
+    {
+      "id": "Solitary",
+      "section": "Negative traits",
+      "data": {
+        "Trait": "[Trait solitary] Solitary",
+        "Effects": "[Pop housing usage] +10% Pop housing usage",
+        "Conflicts": "[Communal]",
+        "Description": "Members of this species tend to be solitary and territorial, often becoming agitated in crowded conditions."
+      }
+    },
+    {
+      "id": "Unruly",
+      "section": "Negative traits",
+      "data": {
+        "Trait": "[Trait unruly] Unruly",
+        "Effects": "[Empire sprawl] +10% Empire size from pops",
+        "Conflicts": "[Docile]",
+        "Description": "Unruly species are difficult to manage and organize. They do not like being told what to do, and are often quarrelsome or questioning."
+      }
+    },
+    {
+      "id": "Wasteful",
+      "section": "Negative traits",
+      "data": {
+        "Trait": "[Trait wasteful] Wasteful",
+        "Effects": "[Mod consumer goods upkeep mult] +10% Pop consumer goods upkeep",
+        "Conflicts": "[Conservationist][Hive-Minded]",
+        "Description": "Members of this species seemingly have no concept of frugality and are prone to useless consumption."
+      }
+    },
+    {
+      "id": "Weak",
+      "section": "Negative traits",
+      "data": {
+        "Trait": "[Trait weak] Weak",
+        "Effects": "[Mod army damage mult] −20% Army Damage; [Soldier] −10% Soldier job efficiency; [Pop cat worker] −2.5% Worker job efficiency; [Pop cat simple drone] −2.5% Menial Drone job efficiency",
+        "Conflicts": "[Strong][Very Strong][Hollow Bones][Trait tankbound]",
+        "Description": "Members of this species are physically weaker than average, making them poor fighters on the ground."
+      }
+    },
+    {
+      "id": "Jinxed",
+      "section": "Negative traits",
+      "data": {
+        "Trait": "[Trait jinxed] Jinxed",
+        "Effects": "[Mod leader negative traits add] +1 Leader maximum negative traits",
+        "Description": "Leaders from this species seem clumsier and more prone to accidents or vices than average, as if cursed from birth.",
+        "DLC": "[DLC humanoids species pack]"
+      }
+    },
+    {
+      "id": "Psychological Infertility",
+      "section": "Negative traits",
+      "data": {
+        "Trait": "[Trait psychological infertility] Psychological Infertility",
+        "Effects": "[Mod pop growth speed] −30% Pop growth during war and crisis",
+        "Conflicts": "[Existential Iteroparity][Nascent Stage]",
+        "Description": "Members of this species are extremely sensitive to the rigors of conflict with the resulting stress taking over the more primal urges.",
+        "DLC": "[DLC humanoids species pack]"
+      }
+    },
+    {
+      "id": "Nascent Stage",
+      "section": "Negative phenotype traits",
+      "data": {
+        "Trait": "[Nascent Stage] Nascent Stage",
+        "Effects": "[Pre-sapient] New pops are pre-sapient for the first 5 years",
+        "Conflicts": "[Slow Breeders][Psychological Infertility][Pathogenic Genes]",
+        "Species class": "Humanoid; Mammalian; Reptilian; Arthropoid",
+        "Additional portraits": "[Fungoid 04][Fungoid 16][Plantoid 17 female][Lithoid human][Aquatic 05]",
+        "Description": "This species gives birth at an early stage of development, resulting in a prolonged period where the young are incapable of contributing to society. During this time, they remain blissfully unaware of the responsibilities and burdens that come with sapience.",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Permeable Skin",
+      "section": "Negative phenotype traits",
+      "data": {
+        "Trait": "[Permeable Skin] Permeable Skin",
+        "Effects": "[Mod habitability] −20% Habitability on worlds with a different climate category",
+        "Conflicts": "[Adaptive][Extremely Adaptive]; All non-standard climate preference traits",
+        "Species class": "Molluscoid; Aquatic",
+        "Description": "Specially developed skin that requires ideal conditions coats this species. As long as this species does not stray far from their home climate that shouldn't be a problem.",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Hollow Bones",
+      "section": "Negative phenotype traits",
+      "data": {
+        "Trait": "[Brittle] Hollow Bones",
+        "Effects": "[Pop cat worker] −0.67% Worker job efficiency per planet size; [Pop cat simple drone] −0.67% Menial Drone job efficiency per planet size; [Soldier] −0.67% Soldier job efficiency per planet size",
+        "Conflicts": "[Strong][Very Strong][Weak][Trait tankbound]",
+        "Species class": "Avian; Toxoid",
+        "Description": "Plagued by inherent fragility, this species must exercise extreme caution in daily activities to avoid cracking up during even the most mundane tasks.",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Rooted",
+      "section": "Negative phenotype traits",
+      "data": {
+        "Trait": "[Brittle] Rooted",
+        "Effects": "[Mod pop resettlement cost mult] +200% Resettlement cost; [No] −Pops will not resettle automatically",
+        "Conflicts": "[Nomadic][Sedentary]",
+        "Species class": "Fungoid; Plantoid",
+        "Additional portraits": "[Aquatic 07][Lithoid 06][Necroids 03]",
+        "Description": "This species literally takes root in whichever environment they find themselves, making removal a highly traumatic experience.",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Brittle",
+      "section": "Negative phenotype traits",
+      "data": {
+        "Trait": "[Brittle] Brittle",
+        "Effects": "[Mod pop amenities usage mult] +0.5 Pop amenities usage",
+        "Species class": "Lithoid; Necroid",
+        "Description": "Plagued by inherent fragility, this species must exercise extreme caution in daily activities to avoid cracking up during even the most mundane tasks.",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Haunting Visions",
+      "section": "Negative phenotype traits",
+      "data": {
+        "Trait": "[Haunting Visions] Haunting Visions",
+        "Effects": "[Pop cat ruler] −10% Elite job efficiency; [Pop cat specialist] −10% Specialist job efficiency; [Pop cat complex drone] −10% Complex Drone job efficiency",
+        "Species class": "Psionic",
+        "Description": "Entities from other dimensions send maddening visions into the minds of this species, affecting their ability to perform complex tasks.",
+        "DLC": "[Shadows of the Shroud]"
+      }
+    },
+    {
+      "id": "Stargazer",
+      "section": "Civic traits",
+      "data": {
+        "Trait": "[Trait stargazer] Stargazer",
+        "Effects": "[Mod habitability] +10% Habitability; [Mod pop resettlement cost mult] −50% Resettlement cost",
+        "Conflicts": "[Sedentary][Starborn][Earthbound]",
+        "Civic": "[Stargazers] Stargazers",
+        "Description": "This species has always, consciously or not, longed to traverse the void between the stars.",
+        "DLC": "[First Contact]"
+      }
+    },
+    {
+      "id": "Storm Touched",
+      "section": "Civic traits",
+      "data": {
+        "Trait": "[Trait storm touched] Storm Touched",
+        "Effects": "[Mod pop bonus workforce mult] +10% Job efficiency in a cosmic storm; [Mod pop amenities usage mult] −10% Pop amenities usage in a cosmic storm",
+        "Civic": "[Storm Devotion][Storm Influencers] Storm Devotion[Storm Devotion] Storm Devotion[Storm Influencers] Storm Influencers",
+        "Description": "Being inside a cosmic storm fills the Storm Touched with devotional aspiration.",
+        "DLC": "[Cosmic Storms]"
+      }
+    },
+    {
+      "id": "Tankbound",
+      "section": "Civic traits",
+      "data": {
+        "Trait": "[Trait tankbound] Tankbound",
+        "Effects": "[Upkeep] −50% Pop upkeep; [Mod pop amenities usage mult] +50% Pop amenities usage; [Mod pop growth speed] −25% Pop growth speed; [No] Cannot be employed in Worker jobs; [No] Cannot be recruited in armies",
+        "Conflicts": "[Weak][Hollow Bones]",
+        "Civic": "[Tankbound][Corporate Thinktank] Tankbound[Tankbound] Tankbound[Corporate Thinktank] Corporate Thinktank",
+        "Description": "This species lives out its existence suspended in a vat of specialized bio-fluids. As such, they are heavily reliant on assistive equipment and incapable of engaging directly in physical work.",
+        "DLC": "[Shadows of the Shroud]"
+      }
+    },
+    {
+      "id": "Serviles",
+      "section": "Origin traits",
+      "data": {
+        "Trait": "[Trait presapient] Serviles",
+        "Effects": "[Happiness] +10% Happiness; [Pop cat worker] +10% Worker job efficiency; [Pop cat worker] Cannot be employed in elite or specialist jobs; [No] Cannot generate leaders",
+        "Conflicts": "[Intelligent][Erudite][Natural Engineers][Natural Physicists][Natural Sociologists][Talented][Quick Learners][Slow Learners][Enduring][Venerable][Fleeting][Jinxed][Decadent][Elevated Synapses][Gene Mentorship][Augmented Intelligence]",
+        "Origin": "[Origins syncretic evolution] Syncretic Evolution(secondary species)",
+        "Notes": "[No] Cannot be removed",
+        "Description": "This species evolved alongside a second, more advanced civilization. Never particularly intelligent to begin with, selective breeding for physical prowess and docility has reduced them to servile proles.",
+        "DLC": "[Utopia]"
+      }
+    },
+    {
+      "id": "Survivor",
+      "section": "Origin traits",
+      "data": {
+        "Trait": "[Trait survivor] Survivor",
+        "Effects": "[Mod leader age] +10 Years leader lifespan; [Mod habitability] +70% Tomb World habitability; [Pop housing usage] −10% Pop housing usage; [Mod pop amenities usage mult] −15% Pop amenities usage",
+        "Origin": "[Origins post apocalyptic] Post-Apocalyptic",
+        "Notes": "[Yes] Can be removed",
+        "Description": "This species has survived the horrors of a nuclear apocalypse. Their capacity for thriving in the most inhospitable of circumstances should not be underestimated.",
+        "DLC": "[Apocalypse]"
+      }
+    },
+    {
+      "id": "Void Dweller",
+      "section": "Origin traits",
+      "data": {
+        "Trait": "[Trait void dweller positive] Void Dweller",
+        "Effects": "[Mod pop bonus workforce mult] +15% Job efficiency on habitats; [Mod pop bonus workforce mult] −15% Job efficiency on planets; [Happiness] −30% Pop happiness on planets",
+        "Origin": "[Origin void dwellers] Void Dwellers",
+        "Notes": "Can be added if: [Origin void dwellers] Void Dwellers origin [Habitat Preference] Habitat Preference; [Origin void dwellers] Void Dwellers origin; [Habitat Preference] Habitat Preference; Can be removed if either: [Genetic Resequencing] Genetic Resequencing tradition [Genotype Regeneration] Genotype Regeneration tradition; [Genetic Resequencing] Genetic Resequencing tradition; [Genotype Regeneration] Genotype Regeneration tradition",
+        "Description": "This species thrives in orbital habitats, with an inherent ability to efficiently navigate their maze-like corridors and complicated architecture. They are at ease in zero gravity but do not respond well to a planetary environment.",
+        "DLC": "[Federations]"
+      }
+    },
+    {
+      "id": "Necrophage",
+      "section": "Origin traits",
+      "data": {
+        "Trait": "[Trait necrophage] Necrophage",
+        "Effects": "[Mod leader age] +80 Years leader lifespan; [Upkeep] −50% Pop upkeep; [Pop cat ruler] +5% Elite job efficiency; [Pop cat specialist] +5% Specialist job efficiency; [Pop cat worker] −10% Worker job efficiency; [Mod pop growth speed] −50% Pop growth speed; [Mod pop growth speed] −50% Organic pop growth multiplier",
+        "Conflicts": "[Budding][Crystallization][Psychological Infertility][Vat-Grown][Polymelic]",
+        "Origin": "[Necrophage] Necrophage",
+        "Notes": "[No] Cannot be removed",
+        "Description": "This species of near-immortals procreates by consuming pops of other species.",
+        "DLC": "[Necroids]"
+      }
+    },
+    {
+      "id": "Cave Dweller",
+      "section": "Origin traits",
+      "data": {
+        "Trait": "[Trait cave dweller] Cave Dweller",
+        "Effects": "[Habitability floor] +50% Species minimum habitability; [Miner] +15% Mining job efficiency; [Empire sprawl] +10% Empire size from pops; [Mod pop growth speed] −10% Biological pop growth speed",
+        "Conflicts": "[Phototrophic][Aquatic]",
+        "Origin": "[Origins subterranean] Subterranean",
+        "Notes": "[No] Cannot be removed",
+        "Description": "This species thrives under the surface of any planet they can inhabit.",
+        "DLC": "[Overlord]"
+      }
+    },
+    {
+      "id": "Perfected Genes",
+      "section": "Origin traits",
+      "data": {
+        "Trait": "[Trait perfected genes] Perfected Genes",
+        "Effects": "[Mod leader age] +25 Years leader lifespan; [Mod leader species exp gain] −20% Leader experience gain",
+        "Conflicts": "[Fleeting][Weak]",
+        "Origin": "[Origins under one rule] Under One Rule",
+        "Notes": "[No] Cannot be removed",
+        "Description": "Millennia of genetic experimentation and war have led to the creation of a highly resilient species.",
+        "DLC": "[Galactic Paragons]"
+      }
+    },
+    {
+      "id": "Pathogenic Genes",
+      "section": "Origin traits",
+      "data": {
+        "Trait": "[Trait pathogenic genes] Pathogenic Genes",
+        "Effects": "[Mod pop decline speed] −Pops decline naturally; [Mod pop growth speed] −Cannot reproduce naturally; [No] −Cannot colonize or be resettled",
+        "Conflicts": "[Rapid Breeders][Existential Iteroparity][Incubators][Budding][Crystallization][Egg Laying][Nomadic][Adaptive][Extremely Adaptive][Slow Breeders][Psychological Infertility][Sedentary][Nonadaptive][Nascent Stage]",
+        "Origin": "[Origin synthetic fertility] Synthetic Fertility",
+        "Notes": "[No] Cannot be removed",
+        "Description": "A novel genetic disease prevents this species from producing offspring. It has resisted all known gene therapy methods.",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Malleable Genes",
+      "section": "Origin traits",
+      "data": {
+        "Trait": "[Trait malleable genes] Malleable Genes",
+        "Effects": "[Feature] Enables Auto-Modding; [No] −Cannot be genetically modified",
+        "Conflicts": "[Adaptive Mutations]",
+        "Origin": "[Origin evolutionary predators] Evolutionary Predators",
+        "Notes": "[No] Cannot be removed",
+        "Description": "This species does not stick as rigidly to identifiable features and organs as most other species do. Instead they grow the best appendage for the job. However this instability has some drawbacks.",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Wilderness",
+      "section": "Origin traits",
+      "data": {
+        "Trait": "[Trait wilderness] Wilderness",
+        "Effects": "[No] Cannot colonize megastructures; [No] Cannot colonize artificial worlds; [Mod pop decline speed] Will slowly die in non-Wilderness empires",
+        "Conflicts": "[Vocational Genomics][Nomadic][Vat-Grown][Sedentary][Nascent Stage][Vocational Genomics]",
+        "Origin": "[Origins wilderness] Wilderness",
+        "Notes": "Can only be added or removed through assimilation if either: [Engineered Genesis] Engineered Genesis tradition [Genotype Regeneration] Genotype Regeneration tradition [Planned Polymorphism] Planned Polymorphism tradition [Evolutionary Extrapolation] Evolutionary Extrapolation tradition [Transubstantiation Synthesis] Transubstantiation Synthesis ([Auth hive mind] Hive Mind only) [Inevitable Assimilation] Inevitable Assimilation ([Driven Assimilator] Driven Assimilator only); [Engineered Genesis] Engineered Genesis tradition; [Genotype Regeneration] Genotype Regeneration tradition; [Planned Polymorphism] Planned Polymorphism tradition; [Evolutionary Extrapolation] Evolutionary Extrapolation tradition; [Transubstantiation Synthesis] Transubstantiation Synthesis ([Auth hive mind] Hive Mind only); [Inevitable Assimilation] Inevitable Assimilation ([Driven Assimilator] Driven Assimilator only)",
+        "Description": "This species exists as part of a mutualistic entity, made indistiguishable from its environment in its thoughts and productive output.",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Blind",
+      "section": "Origin traits",
+      "data": {
+        "Trait": "[Trait blindness] Blind",
+        "Effects": "[Happiness] +10% Happiness; [Bureaucrat] +25% Bureaucrat job efficiency; [Mod pop bonus workforce mult] −50% Job efficiency",
+        "Origin": "[Origins endbringers] Endbringers(situation approach)",
+        "Notes": "[No] Cannot be removed",
+        "Description": "Where we are going, we won't need eyes to see.",
+        "DLC": "[Shadows of the Shroud]"
+      }
+    },
+    {
+      "id": "Cyber Commandos",
+      "section": "Hard Reset traits",
+      "data": {
+        "Positive trait": "[Trait unplugged positive 3] Cyber Commandos",
+        "Negative trait": "[Trait unplugged positive 3] Commanders have the Cyber Commando III trait; [Mod army damage mult] +75% Army damage; [Soldier] +15% Soldier job efficiency; [Happiness] +30% Happiness when at war or crisis; [Mod pop growth speed] −20% Pop growth speed"
+      }
+    },
+    {
+      "id": "Cyber Shock Troops",
+      "section": "Hard Reset traits",
+      "data": {
+        "Positive trait": "[Trait unplugged positive 2] Cyber Shock Troops",
+        "Negative trait": "[Trait unplugged positive 2] Commanders have the Cyber Commando II trait; [Mod army damage mult] +50% Army damage; [Soldier] +10% Soldier job efficiency; [Mod pop growth speed] −10% Pop growth speed"
+      }
+    },
+    {
+      "id": "Cyber Soldiers",
+      "section": "Hard Reset traits",
+      "data": {
+        "Positive trait": "[Trait unplugged positive 1] Cyber Soldiers",
+        "Negative trait": "[Trait unplugged positive 1] Commanders have the Cyber Commando trait; [Mod army damage mult] +25% Army damage; [Soldier] +5% Soldier job efficiency"
+      }
+    },
+    {
+      "id": "De-Cyberized",
+      "section": "Hard Reset traits",
+      "data": {
+        "Positive trait": "[Trait unplugged decyberized] De-Cyberized",
+        "Negative trait": "[Happiness] +5% Happiness; [Mod pop government ethic attraction] +20% Governing ethics attraction; [Biologist] +10% Biologist job efficiency; [Bureaucrat] +10% Bureaucrat job efficiency"
+      }
+    },
+    {
+      "id": "Neuro-Calmed",
+      "section": "Hard Reset traits",
+      "data": {
+        "Trait": "[Trait unplugged neurocalmed] Neuro-Calmed",
+        "Effects": "[Empire sprawl] −5% Empire size from pops; [Mod pop government ethic attraction] +15% Governing ethics attraction",
+        "Description": "These cyborgs have their Neuroxene levels downregulated, reducing impulsivity and aggression, driving individuals to de-prioritize personal gain in favor of societal norms."
+      }
+    },
+    {
+      "id": "Neuro-Savant",
+      "section": "Hard Reset traits",
+      "data": {
+        "Trait": "[Trait unplugged neurocalmed] Neuro-Savant",
+        "Effects": "[Mod leader species exp gain] +10% Leader experience gain; [Mod leader negative traits add] −1 Leader maximum negative traits",
+        "Description": "These cyborgs have their Cognivex levels upregulated, enhancing synaptic plasticity, information retention, and problem-solving abilities."
+      }
+    },
+    {
+      "id": "Regen-Optimized",
+      "section": "Hard Reset traits",
+      "data": {
+        "Trait": "[Trait unplugged neurocalmed] Regen-Optimized",
+        "Effects": "[Mod habitability] +10% Habitability; [Mod pop growth speed] +10% Pop growth speed",
+        "Description": "These cyborgs have their Regenol-X levels upregulated, harmonizing biological and synthetic systems, allowing cybernetic implants to self-repair at the molecular level."
+      }
+    },
+    {
+      "id": "Clone Soldier",
+      "section": "Clone Army traits",
+      "data": {
+        "Trait": "[Trait clone soldier] Clone Soldier",
+        "Effects": "[Mod pop government ethic attraction] +50% Governing ethics attraction; [Mod army damage mult] +50% Army damage; [Upkeep] +25% Pop upkeep; [Mod leader age] −40 Years leader lifespan; [Mod pop growth speed] −Cannot reproduce naturally; [Mod pop decline speed] −Decline without sufficient Clone Vat buildings",
+        "Commander trait": "[Leader trait bg basic][Leader trait clone soldier][Clone Army Commander] Clone Army Commander",
+        "Conflicts": "[Rapid Breeders][Existential Iteroparity][Budding][Crystallization][Egg Laying][Slow Breeders][Psychological Infertility][Polymelic]",
+        "Description": "Engineered for compliance and war: short-lived, unable to reproduce naturally, and very efficient."
+      }
+    },
+    {
+      "id": "Clone Soldier Ascendant",
+      "section": "Clone Army traits",
+      "data": {
+        "Trait": "[Trait clone soldier ascendant] Clone Soldier Ascendant",
+        "Effects": "[Mod pop government ethic attraction] +50% Governing ethics attraction; [Mod habitability] +20% Habitability; [Pop cat ruler] +40% Elite job efficiency; [Pop cat specialist] +25% Specialist job efficiency; [Mod army damage mult] +75% Army damage; [Mod army health] +25% Army health; [Upkeep] +30% Pop upkeep; [Mod pop growth speed] −Cannot reproduce naturally; [Mod pop decline speed] −Decline without sufficient Clone Vat buildings",
+        "Commander trait": "[Leader trait bg basic][Leader trait clone soldier ascendant][Ascendant Clone Army Commander] Ascendant Clone Army Commander",
+        "Conflicts": "[Rapid Breeders][Existential Iteroparity][Budding][Crystallization][Egg Laying][Slow Breeders][Psychological Infertility][Polymelic]",
+        "Description": "Clones at their genetically-engineered peak, with further improved strength, efficiency, durability, and longevity - but forever infertile."
+      }
+    },
+    {
+      "id": "Clone Soldier Descendant",
+      "section": "Clone Army traits",
+      "data": {
+        "Trait": "[Trait clone soldier descendant] Clone Soldier Descendant",
+        "Effects": "[Mod pop government ethic attraction] +20% Governing ethics attraction; [Mod army damage mult] +20% Army damage; [Upkeep] +10% Pop upkeep",
+        "Commander trait": "[Leader trait bg basic][Leader trait clone soldier descendant][Descendant Clone Army Commander] Descendant Clone Army Commander",
+        "Conflicts": "[Vat-Grown][Polymelic]",
+        "Description": "Once infertile, engineered for compliance and war. Their genetic edge diminished, they are now stable enough for natural reproduction."
+      }
+    },
+    {
+      "id": "Augmented Intelligence",
+      "section": "Overtuned traits",
+      "data": {
+        "Trait": "[Augmented Intelligence] Augmented Intelligence",
+        "Effects": "[Researcher] +10% Researcher job efficiency",
+        "Lifespan": "−10 years",
+        "Growth Speed": "−1.5%",
+        "Description": "More brains equals more brain power. Extra thinking organs have been added in strategic areas of the recipient's body to ensure maximum cognitive capacity. Even if they don't always agree."
+      }
+    },
+    {
+      "id": "Commercial Genius",
+      "section": "Overtuned traits",
+      "data": {
+        "Trait": "[Commercial Genius] Commercial Genius",
+        "Effects": "[Trader] +25% Trader job efficiency",
+        "Lifespan": "−10 years",
+        "Growth Speed": "−1.5%",
+        "Description": "By tweaking agreeability and dialing down empathy, anyone can be turned into a trading genius. The pursuit of unmatched commercial dominance outweighs any potential side effects."
+      }
+    },
+    {
+      "id": "Crafted Smiles",
+      "section": "Overtuned traits",
+      "data": {
+        "Trait": "[Crafted Smiles] Crafted Smiles",
+        "Effects": "[Entertainer] +15% Influential job efficiency",
+        "Lifespan": "−10 years",
+        "Growth Speed": "−1.5%",
+        "Description": "Slightly shifted facial features, a mix of enhanced and slackened muscular development - and of course outside chemicals - have created the perfect smile. Forever."
+      }
+    },
+    {
+      "id": "Dedicated Miner",
+      "section": "Overtuned traits",
+      "data": {
+        "Trait": "[Dedicated Miner] Dedicated Miner",
+        "Effects": "[Miner] +15% Mining job efficiency",
+        "Lifespan": "−10 years",
+        "Growth Speed": "−1.5%",
+        "Description": "Supreme hand-eye coordination, near endless endurance and self-purifying lungs have created entire crack teams of miners. Sadly they get brittle without sunlight."
+      }
+    },
+    {
+      "id": "Expressed Tradition",
+      "section": "Overtuned traits",
+      "data": {
+        "Trait": "[Expressed Tradition] Expressed Tradition",
+        "Effects": "[Bureaucrat] +10% Bureaucrat job efficiency",
+        "Lifespan": "−10 years",
+        "Growth Speed": "−1.5%",
+        "Description": "Fanaticism on demand: faith is merely a cocktail of hormones, one we have perfected. Where that faith eventually leads is a matter of subsequent guidance."
+      }
+    },
+    {
+      "id": "Farm Appendages",
+      "section": "Overtuned traits",
+      "data": {
+        "Trait": "[Farm Appendages] Farm Appendages",
+        "Effects": "[Farmer] +15% Farming job efficiency",
+        "Lifespan": "−10 years",
+        "Growth Speed": "−1.5%",
+        "Description": "The more appendages, the higher the farming output. Some appendages can even operate while their host is asleep. Rumors of hosts strangled by their new limbs have been deemed unfounded in our latest investigation."
+      }
+    },
+    {
+      "id": "Gene Mentorship",
+      "section": "Overtuned traits",
+      "data": {
+        "Trait": "[Gene Mentorship] Gene Mentorship",
+        "Effects": "[Mod leader species exp gain] +30% Leader experience gain",
+        "Lifespan": "−10 years",
+        "Growth Speed": "−1.5%",
+        "Description": "By combining genetically redesigned 'instinctive knowledge' and outside chemical stimuli, we have succeeded in vastly accelerating our learning capacities. Although it has resulted in some extremely paranoid individuals."
+      }
+    },
+    {
+      "id": "Juiced Power",
+      "section": "Overtuned traits",
+      "data": {
+        "Trait": "[Juiced Power] Juiced Power",
+        "Effects": "[Mod army damage mult] +40% Army damage; [Pop cat worker] +5% Worker job efficiency; [Pop cat simple drone] +5% Menial Drone job efficiency; [Soldier] +5% Soldier job efficiency",
+        "Lifespan": "−10 years",
+        "Growth Speed": "−1.5%",
+        "Description": "Adrenaline released on demand and hyper-potent growth hormones have led to a massive increase in strength. Just ignore the occasional internal tearing."
+      }
+    },
+    {
+      "id": "Low Maintenance",
+      "section": "Overtuned traits",
+      "data": {
+        "Trait": "[Low Maintenance] Low Maintenance",
+        "Effects": "[Mod consumer goods upkeep mult] −10% Pop consumer goods upkeep",
+        "Lifespan": "−10 years",
+        "Growth Speed": "−1.5%",
+        "Description": "Reduced consumption, excretion, and rest rates have resulted in twice the beings for half the price. However, demand for protein-rich meals has increased."
+      }
+    },
+    {
+      "id": "Spliced Adaptability",
+      "section": "Overtuned traits",
+      "data": {
+        "Trait": "[Spliced Adaptability] Spliced Adaptability",
+        "Effects": "[Mod habitability] +20% Habitability",
+        "Lifespan": "−10 years",
+        "Growth Speed": "−1.5%",
+        "Description": "A few genetic snips and slices here and there and they can survive nearly anywhere. The process comes with an acceptable number of deaths from side effects."
+      }
+    },
+    {
+      "id": "Technical Talent",
+      "section": "Overtuned traits",
+      "data": {
+        "Trait": "[Technical Talent] Technical Talent",
+        "Effects": "[Technician] +15% Technician job efficiency",
+        "Lifespan": "−10 years",
+        "Growth Speed": "−1.5%",
+        "Description": "Extra internal organs grant a vastly increased innate sensitivity to electricity and magnetic fields. Reports of recipients hearing screams and voices from the reactors should be ignored."
+      }
+    },
+    {
+      "id": "Fleeting Excellence",
+      "section": "Overtuned traits",
+      "data": {
+        "Trait": "[Fleeting Excellence] Fleeting Excellence",
+        "Effects": "[Feature] Enables Auto-Modding",
+        "Lifespan": "−20 years",
+        "Description": "Advanced epigenetic triggers boost physical and cognitive performance in the workplace, dramatically shortening life expectancy. After all, fading away is never as much fun as burning out."
+      }
+    },
+    {
+      "id": "Elevated Synapses",
+      "section": "Overtuned traits",
+      "data": {
+        "Trait": "[Elevated Synapses] Elevated Synapses",
+        "Effects": "[Researcher] +20% Researcher job efficiency; [Upkeep] −25% Leader upkeep; [Mod leader negative traits add] −1 Leader maximum negative traits",
+        "Lifespan": "−30 years",
+        "Growth Speed": "−5%",
+        "Description": "As a computational device, a brain does not run at 100% capacity. However, we have gone beyond the standard usage. If issues are encountered, try turning it off and on again."
+      }
+    },
+    {
+      "id": "Pre-Planned Growth",
+      "section": "Overtuned traits",
+      "data": {
+        "Trait": "[Pre-Planned Growth] Pre-Planned Growth",
+        "Effects": "[Pop housing usage] −10% Pop housing usage; [Upkeep] +15% Pop upkeep",
+        "Lifespan": "−30 years",
+        "Growth Speed": "+30%",
+        "Description": "Scheduled fertility, scheduled interest, scheduled compatibility. Population growth on demand for a strong and stable population - with a few minor edits here and there. Jealous individuals are to be directed to the nearest Fertility Center for mandatory training."
+      }
+    },
+    {
+      "id": "Excessive Endurance",
+      "section": "Overtuned traits",
+      "data": {
+        "Trait": "[Excessive Endurance] Excessive Endurance",
+        "Effects": "[Mod pop bonus workforce mult] +5% Job efficiency; [Mod habitability] +30% Habitability",
+        "Lifespan": "−30 years",
+        "Growth Speed": "−5%",
+        "Description": "The greatest in adaptability genes have been hyper-expressed in these specimens. Mutation rates around 30% indicate a somewhat stable and successful experiment."
+      }
+    },
+    {
+      "id": "Ritualistic Implants",
+      "section": "Cybernetic Creed traits",
+      "data": {
+        "Trait": "[Trait cyborg ritualistic implants] Ritualistic Implants",
+        "Effects": "[Bureaucrat] +5% Bureaucrat job efficiency; [Metallurgist] +5% Metallurgist job efficiency; [Artisan] +5% Artisan job efficiency; [Soldier] +5% Soldier job efficiency; [Engineer] +5% Engineer job efficiency; [Pop cat worker] +5% Worker job efficiency; [Mod army damage mult] +5% Army damage",
+        "Creed": "[Unknown] None selected; [Mod cyber creed creedless] The United Creeds",
+        "Description": "These implants are proudly adorned by the faithful. Their dedication to the divine is an inspiration to all."
+      }
+    },
+    {
+      "id": "Augmentations of the Choir",
+      "section": "Cybernetic Creed traits",
+      "data": {
+        "Trait": "[Trait cyborg creed of research] Augmentations of the Choir",
+        "Effects": "[Bureaucrat] +10% Bureaucrat job efficiency; [Researcher] +10% Researcher job efficiency",
+        "Creed": "[Mod cyber creed research] The Choir of the Mind",
+        "Description": "The Choir of the Mind's semi-interlinked consciousness allows instant communication between researchers."
+      }
+    },
+    {
+      "id": "Augmentations of the Commune",
+      "section": "Cybernetic Creed traits",
+      "data": {
+        "Trait": "[Trait cyborg creed of labor] Augmentations of the Commune",
+        "Effects": "[Bureaucrat] +10% Bureaucrat job efficiency; [Pop cat worker] +10% Worker job efficiency",
+        "Creed": "[Mod cyber creed labor] The Commune of Toil",
+        "Description": "The Commune of Toil's divine augmentations surpass traditional tools in every respect."
+      }
+    },
+    {
+      "id": "Augmentations of the Fellowship",
+      "section": "Cybernetic Creed traits",
+      "data": {
+        "Trait": "[Trait cyborg creed of construction] Augmentations of the Fellowship",
+        "Effects": "[Bureaucrat] +10% Bureaucrat job efficiency; [Metallurgist] +10% Metallurgist job efficiency; [Artisan] +10% Artisan job efficiency",
+        "Creed": "[Mod cyber creed construction] The Fellowship of the Hammer",
+        "Description": "The Fellowship of the Hammer uses divine augmentation to create everything the faithful need."
+      }
+    },
+    {
+      "id": "Augmentations of the Templars",
+      "section": "Cybernetic Creed traits",
+      "data": {
+        "Trait": "[Trait cyborg creed of war] Augmentations of the Templars",
+        "Effects": "[Bureaucrat] +10% Bureaucrat job efficiency; [Soldier] +10% Soldier job efficiency; [Mod army health] +10% Army health; [Mod army damage mult] +10% Army damage",
+        "Creed": "[Mod cyber creed war] The Templars of Steel",
+        "Description": "The divine augmentations of the Templars of Steel make our holy warriors unstoppable in battle."
+      }
+    },
+    {
+      "id": "Conservative",
+      "section": "Pre-sapient traits",
+      "data": {
+        "Trait": "[Trait presapient conservative] Conservative",
+        "Effects": "[Happiness] +5% Happiness; [Mod pop government ethic attraction] +25% Governing ethics attraction; [Mod leader species exp gain] −33% Leader experience gain",
+        "Description": "Members of this species often prefer old wisdom over new experiences."
+      }
+    },
+    {
+      "id": "Earthbound",
+      "section": "Pre-sapient traits",
+      "data": {
+        "Trait": "[Trait presapient earthbound] Earthbound",
+        "Effects": "[Technician] +10% Technician job efficiency; [Mod army damage mult] +50% Defense army damage",
+        "Conflicts": "[Starborn][Nomadic][Stargazer]",
+        "Description": "Members of this species are very possessive of the planets they call home."
+      }
+    },
+    {
+      "id": "Natural Intellectuals",
+      "section": "Pre-sapient traits",
+      "data": {
+        "Trait": "[Trait presapient natural intellectuals] Natural Intellectuals",
+        "Effects": "[Bureaucrat] +5% Bureaucrat job efficiency; [Researcher] +10% Research job efficiency; [Miner] −10% Mining job efficiency",
+        "Conflicts": "[Proles]",
+        "Description": "Members of this species are more philosophically inclined than most."
+      }
+    },
+    {
+      "id": "Proles",
+      "section": "Pre-sapient traits",
+      "data": {
+        "Trait": "[Trait presapient proles] Proles",
+        "Effects": "[Mod army damage mult] +10% Army damage; [Miner] +10% Mining job efficiency; [Farmer] +10% Farming job efficiency; [Researcher] −15% Research job efficiency",
+        "Conflicts": "[Natural Intellectuals]",
+        "Description": "This species has traditionally shunned intellectual pursuits in favor of physical labor."
+      }
+    },
+    {
+      "id": "Starborn",
+      "section": "Pre-sapient traits",
+      "data": {
+        "Trait": "[Trait presapient starborn] Starborn",
+        "Effects": "[Mod pop resettlement cost mult] −50% Resettlement cost; [Mod habitability] +10% Habitability",
+        "Conflicts": "[Earthbound][Sedentary][Stargazer]",
+        "Description": "This species has always, consciously or not, longed to traverse the void between the stars."
+      }
+    },
+    {
+      "id": "Irradiated",
+      "section": "Pre-sapient traits",
+      "data": {
+        "Trait": "[Trait presapient irradiated] Irradiated",
+        "Effects": "[Mod habitability] +100% Tomb World habitability; [Mod leader age] +30 Years leader lifespan",
+        "Notes": "Species generated by [Genesis Guides][Astrogenesis Technologies][Genesis Symbiotes][Genesis Architects] Genesis Guides[Genesis Guides] Genesis Guides[Astrogenesis Technologies] Astrogenesis Technologies[Genesis Symbiotes] Genesis Symbiotes[Genesis Architects] Genesis Architects civics can only have this trait if generated on a [Planet nuked] Tomb World or their homeworld",
+        "Description": "This species has evolved to thrive in environments subject to extremely high levels of background radiation."
+      }
+    },
+    {
+      "id": "Forcefully Devolved",
+      "section": "Pre-sapient traits",
+      "data": {
+        "Trait": "[Trait presapient] Forcefully Devolved",
+        "Effects": "[Mod army damage mult] −10% Army damage; [Mod pop bonus workforce mult] −10% Job efficiency; [Mod pop growth speed] −10% Pop growth speed; [Mod leader species exp gain] −25% Leader experience gain",
+        "Notes": "Added by the [Ship part devolution beam] Devolving Beam colossus weapon; Pre-FTL civilization species have a 1% chance to have the trait",
+        "Description": "The brutal devolution process endured by this species had a strong negative impact upon their abilities."
+      }
+    },
+    {
+      "id": "Docile Livestock",
+      "section": "Pre-sapient traits",
+      "data": {
+        "Trait": "[Trait presapient] Docile Livestock",
+        "Effects": "[Mod pop growth speed] +30% Pop growth speed; [Bureaucrat] +10% Bureaucrat job efficiency; [Technician] −50% Technician job efficiency; [Researcher] −75% Researcher job efficiency",
+        "Conflicts": "[Intelligent][Natural Engineers][Natural Physicists][Natural Sociologists][Erudite]",
+        "Notes": "Only found through the Overgrown Ruins anomaly, or added by the Composer of Strands",
+        "Description": "Docile and delicious, this species has had its higher brain functions genetically altered to create a kind of harmless livestock that can care for itself, without the pesky need for social interaction or self-determination."
+      }
+    },
+    {
+      "id": "Unintelligent",
+      "section": "Pre-sapient traits",
+      "data": {
+        "Trait": "[Trait presapient] Unintelligent",
+        "Effects": "[Mod pop growth speed] +20% Pop growth speed; [Technician] −100% Technician job efficiency; [Researcher] −100% Researcher job efficiency",
+        "Conflicts": "[Intelligent][Natural Engineers][Natural Physicists][Natural Sociologists][Erudite]",
+        "Notes": "Only found through the Rapid Desertification anomaly",
+        "Description": "This species is unable to complete even the simplest tasks. Their only skill is the incredible speed at which they reproduce."
+      }
+    },
+    {
+      "id": "Pre-Sapient",
+      "section": "Pre-sapient traits",
+      "data": {
+        "Trait": "[Trait presapient] Pre-Sapient",
+        "Effects": "[Time] Becomes sapient after 5 years; [No] Cannot be uplifted; [No] Cannot be purged regardless of Pre-Sapients policy",
+        "Notes": "Added to new pops with the [Nascent Stage] Nascent Stage trait",
+        "Description": "Spending a brief time bereft of conscious thought, this species will soon grow up to be a fully sapient being."
+      }
+    },
+    {
+      "id": "Not of this World",
+      "section": "Acquired traits",
+      "data": {
+        "Trait": "[Trait notofthisworld] Not of this World",
+        "Effects": "[Mod leader age] −10 Years leader lifespan; [Upkeep] +10% Pop upkeep; [Physics research] +0.5 Physics research per 100 pops",
+        "Source": "[Plight of the Beta-Universe] Plight of the Beta-Universe situation mirror species",
+        "Can be removed": "[No]",
+        "Description": "This species is not from this universe and is degrading slowly."
+      }
+    },
+    {
+      "id": "Brain Slug Host",
+      "section": "Acquired traits",
+      "data": {
+        "Trait": "[Trait brainslugged] Brain Slug Host",
+        "Effects": "[Researcher] +10% Researcher job efficiency; [Bureaucrat] +10% Bureaucrat job efficiency; [Mod pop growth speed] −25% Pop growth speed",
+        "Source": "Abandoned Settlements anomaly",
+        "Can be removed": "[No]",
+        "Description": "This species is enjoying the presence of a neural symbiont: a helpful slug that attaches itself to the brain stem of its host.",
+        "DLC": "[Distant Stars]"
+      }
+    },
+    {
+      "id": "Unlifted",
+      "section": "Acquired traits",
+      "data": {
+        "Trait": "[Trait uplifted] Unlifted",
+        "Effects": "[Researcher] −60% Researcher job efficiency",
+        "Conflicts": "[Intelligent]",
+        "Source": "Enigmatic Cache",
+        "Can be removed": "[Epigenetic Triggers] Epigenetic Triggers technology; [Genetic Resequencing] Genetic Resequencing tradition; [Genotype Regeneration] Genotype Regeneration tradition",
+        "Description": "This species has suffered the tragic consequences of an uplifting gone wrong.",
+        "DLC": "[Distant Stars]"
+      }
+    },
+    {
+      "id": "Somewhat Uplifted",
+      "section": "Acquired traits",
+      "data": {
+        "Trait": "[Trait uplifted] Somewhat Uplifted",
+        "Effects": "[Researcher] +10% Researcher job efficiency",
+        "Conflicts": "[Intelligent]",
+        "Source": "Enigmatic Cache",
+        "Can be removed": "This species was partially uplifted by a benevolent extragalactic intellect and has left some of its pre-sapient origins behind.",
+        "Description": "[Distant Stars]"
+      }
+    },
+    {
+      "id": "Uplifted",
+      "section": "Acquired traits",
+      "data": {
+        "Trait": "[Trait uplifted] Uplifted",
+        "Effects": "[Researcher] +10% Researcher job efficiency; [Mod leader species exp gain] +10% Leader experience gain",
+        "Conflicts": "[Slow Learners][Erudite][Nerve Stapled]",
+        "Source": "Enigmatic Cache",
+        "Can be removed": "This species was uplifted by a benevolent extragalactic intellect and has left its pre-sapient origins behind.",
+        "Description": "[Distant Stars]"
+      }
+    },
+    {
+      "id": "Bloomed",
+      "section": "Acquired traits",
+      "data": {
+        "Trait": "[Trait plantoid bloomed] Bloomed",
+        "Effects": "[Mod pop bonus workforce mult] +10% Job efficiency on Gaia Worlds; [Mod pop growth speed] +10% Pop growth speed on Gaia Worlds; [Mod pop amenities usage mult] −10% Pop amenities usage on Gaia Worlds; [Pop housing usage] −10% Pop housing usage on Gaia Worlds",
+        "Source": "[Gaia Seeders - Final Phase] Gaia Seeders final phase building; Plantoid or Fungoid species or empire has [Unnatural Selection] Unnatural Selection tradition",
+        "Can be removed": "[Genetic Resequencing] Genetic Resequencing tradition; [Genotype Regeneration] Genotype Regeneration tradition",
+        "Description": "This species has been exposed to the transformational effects of a Gaia Seeder, causing it to sprout mutualistic blooms of lichen when living on Gaia Worlds.",
+        "DLC": "[DLC plantoids species pack]"
+      }
+    },
+    {
+      "id": "Zombie",
+      "section": "Acquired traits",
+      "data": {
+        "Trait": "[Trait zombie] Zombie",
+        "Effects": "[No] Not sapient; [Upkeep] −100% Pop upkeep; [Mod pop bonus workforce mult] −25% Job efficiency; [No] Cannot generate leaders [No] Cannot be employed in elite or specialist jobs [No] Cannot be employed in complex drone jobs [No] Not affected by happiness [No] Cannot be used in colony ships [No] Cannot join factions [No] Cannot be the founder species in a released sector; [No] Cannot generate leaders; [No] Cannot be employed in elite or specialist jobs; [No] Cannot be employed in complex drone jobs; [No] Not affected by happiness; [No] Cannot be used in colony ships; [No] Cannot join factions; [No] Cannot be the founder species in a released sector; [No] Cannot colonize; [No] Cannot reproduce naturally",
+        "Conflicts": "[Serviles][Nerve Stapled]",
+        "Source": "Pop was either:; [Reassigner] Assembled with a Reassigner employed on planet; [Mechromancy] Purged with Mechromancy ascension perk (33% chance)",
+        "Can be removed": "[No]",
+        "Description": "The remains of a once-proud sapient being, this husk is not suitable for much more than the simplest tasks.",
+        "DLC": "[Necroids]"
+      }
+    },
+    {
+      "id": "Plasmic",
+      "section": "Acquired traits",
+      "data": {
+        "Trait": "[Trait plasmic] Plasmic",
+        "Effects": "[Mod habitability] +15% Habitability; [Mod pop growth speed] +15% Pop growth speed; [Pop housing usage] −10% Pop housing usage",
+        "Source": "[R plasmic core] Plasmic Core relic activation",
+        "Can be removed": "[Yes]",
+        "Description": "The external membrane and amorphous body of this species allows them to adapt to any environment and renders them immune to a wide variety of diseases.",
+        "DLC": "[Astral Planes]"
+      }
+    },
+    {
+      "id": "Storm Fused",
+      "section": "Acquired traits",
+      "data": {
+        "Trait": "[Trait storm fused] Storm Fused",
+        "Effects": "[Mod pop bonus workforce mult] +10% Job efficiency in a cosmic storm; [Happiness] +5% Happiness in a cosmic storm",
+        "Source": "[Patriotic Institute of Celebration] Patriotic Institute of Celebration building",
+        "Can be removed": "[Yes]",
+        "Description": "The Storm Fused learned to cultivate their Inner Storm as they strain for enlightenment.",
+        "DLC": "[Cosmic Storms]"
+      }
+    },
+    {
+      "id": "Geleboric Mutations",
+      "section": "Acquired traits",
+      "data": {
+        "Trait": "[Trait geleboric mutations] Geleboric Mutations",
+        "Effects": "[Biologist] +25% Biologist job efficiency; [Happiness] −10% Happiness; [Mod leader age] −20% Leader lifespan; [Mod pop growth speed] −20% Pop growth speed",
+        "Source": "Fatal Mutations event",
+        "Can be removed": "[No]",
+        "Description": "Unfortunate reactions to experimentation drastically altered this species' physiology.",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Inner Darkness",
+      "section": "Acquired traits",
+      "data": {
+        "Trait": "[Trait inner darkness] Inner Darkness",
+        "Effects": "[Dark Matter] +0.1 Dark Matter per 100 pops",
+        "Source": "Dark Matter Contamination event",
+        "Can be removed": "[No]",
+        "Description": "Their bodies enhanced following saturation in Dark Matter, they now vent trace amounts of non-baryonic particles at regular intervals but will burn through their expected lifespan more quickly.",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Psionic Ephapse",
+      "section": "Acquired traits",
+      "data": {
+        "Trait": "[Trait psionic ephapse] Psionic Ephapse",
+        "Effects": "[Happiness] +5% Happiness; [Mod pop bonus workforce mult] +5% Job efficiency; [Unity] +5% Unity from jobs if Psionic or Latent Psionic; [Research] +5% Research from jobs if Psionic or Latent Psionic",
+        "Source": "Emergent Abilities event",
+        "Can be removed": "[No]",
+        "Description": "After long-term exposure to mind-altering bacteria, this species' digestive system produces psionic probiotics that promote telepathic communication between affected individuals.",
+        "DLC": "[BioGenesis]"
+      }
+    },
+    {
+      "id": "Marked",
+      "section": "Acquired traits",
+      "data": {
+        "Trait": "[Trait marked] Marked",
+        "Effects": "[Unity] +0.06 Unity per 100 pops; [Mod army morale] +6% Army morale damage; [Mod army health] −6% Army health",
+        "Source": "Psionic Ascension situation event; [Origins endbringers] Endbringers origin",
+        "Can be removed": "[No]",
+        "Description": "In a gruesome display of devotion, this species has branded its flesh with the mark of 'The End'.",
+        "DLC": "[Shadows of the Shroud]"
+      }
+    },
+    {
+      "id": "Limited Cybernetic",
+      "section": "Assimilation traits",
+      "data": {
+        "Trait": "[Trait limited cybernetic] Limited Cybernetic",
+        "Effects": "[Mod pop bonus workforce mult] +5% Job efficiency; [Pop resource energy mult] Replaces half of base pop upkeep with Energy; [Leader trait bg basic][Leader trait limited cyborg][Limited Cyborg] Leaders have the Limited Cyborg trait",
+        "Primary sources": "[Limited Cyberization] Limited Cyberization policy",
+        "Description": "This species has the least amount of implants necessary to function in a cybernetic society."
+      }
+    },
+    {
+      "id": "Cybernetic",
+      "section": "Assimilation traits",
+      "data": {
+        "Trait": "[Trait cybernetic] Cybernetic",
+        "Effects": "[Mod army damage mult] +10% Army damage; [Mod habitability] +20% Habitability; [Mod leader age] +40 Years leader lifespan; [Pop resource energy mult] Replaces half of base pop upkeep with Energy; [Leader trait bg basic][Leader trait cyborg][Cyborg] Leaders have the Cyborg trait",
+        "Primary sources": "[Cybernetics] Cybernetics tradition tree; [Transubstantiation Synthesis] Transubstantiation Synthesis tradition; [Driven Assimilator] Driven Assimilator civic",
+        "Secondary sources": "Keepers of Knowledge fallen empire pops; [MegaCorp] Racket Industrial Enterprise pops",
+        "Description": "This species has embraced cybernetics on such a scale that its members may be considered cyborgs. They routinely replace their organic body parts with more advanced mechanical versions."
+      }
+    },
+    {
+      "id": "Latent Psionic",
+      "section": "Assimilation traits",
+      "data": {
+        "Trait": "[Trait latent psionic species] Latent Psionic",
+        "Effects": "[Researcher] +10% Researcher job efficiency; [Bureaucrat] +5% Bureaucrat job efficiency; [Enforcer] +5% Enforcer job efficiency; [Leader trait bg psionics][Leader trait psionic leader][Psychic] Leaders may start with the Psychic trait",
+        "Primary sources": "[Psionics] Psionics tradition tree; [Origins teachers of the shroud] Teachers of the Shroud origin",
+        "Secondary sources": "[Leader trait bg basic][Leader trait overlay destiny][Leader trait shroud preacher][Shroud Preacher] Shroud Preacher governor trait",
+        "Description": "This species has latent psionic abilities, which are dormant in most of its members. Although quite rare, these powers will manifest in some leaders."
+      }
+    },
+    {
+      "id": "Psionic",
+      "section": "Assimilation traits",
+      "data": {
+        "Trait": "[Trait psionic species] Psionic",
+        "Effects": "[Researcher] +10% Researcher job efficiency; [Bureaucrat] +10% Bureaucrat job efficiency; [Enforcer] +10% Enforcer job efficiency; [Happiness] +5% Happiness; [Leader trait bg psionics][Leader trait psionic leader][Psychic] Leaders have the Psychic trait",
+        "Primary sources": "[Great Awakening] Great Awakening tradition",
+        "Secondary sources": "Holy Guardians fallen empire pops; [Distant Stars] Ketling Star Pack pops; [Astral Planes] Extradimensional species; [Psi-Inoculate Pops] Psi-Inoculate Pops decision",
+        "Description": "All members of this species possess powerful psionic abilities. They typically communicate with each other through telepathy."
+      }
+    },
+    {
+      "id": "Delicious",
+      "section": "Advanced genetic traits",
+      "data": {
+        "Trait": "[Trait delicious] Delicious",
+        "Effects": "[Livestock] +100% Livestock job efficiency",
+        "Notes": "[Trait organic] Organic species only",
+        "Description": "This species has the curious evolutionary adaptation of being highly nutritious when eaten."
+      }
+    },
+    {
+      "id": "Felsic",
+      "section": "Advanced genetic traits",
+      "data": {
+        "Trait": "[Trait felsic] Felsic",
+        "Conflicts": "−2",
+        "Notes": "This species has been engineered to be especially mineral-rich."
+      }
+    },
+    {
+      "id": "Ductile",
+      "section": "Advanced genetic traits",
+      "data": {
+        "Trait": "[Trait ductile] Ductile",
+        "Conflicts": "−2",
+        "Notes": "This species has been engineered to grow reusable alloy compounds."
+      }
+    },
+    {
+      "id": "Natural Machinist",
+      "section": "Advanced genetic traits",
+      "data": {
+        "Trait": "[Trait natural machinist] Natural Machinist",
+        "Effects": "[Metallurgist] +25% Metallurgist job efficiency; [Artisan] +25% Artisan job efficiency",
+        "Description": "This species has been engineered to have an incredible knack at working with machinery."
+      }
+    },
+    {
+      "id": "Nerve Stapled",
+      "section": "Advanced genetic traits",
+      "data": {
+        "Trait": "[Trait nerve stapled] Nerve Stapled",
+        "Effects": "[No] Not sapient; [Empire sprawl] −15% Empire size from pops; [Mod pop bonus workforce mult] +15% Job efficiency; [Civilian] −90% Civilian job efficiency; [No] Cannot generate leaders [No] Cannot be employed in elite or specialist jobs [No] Cannot be employed in complex drone jobs [No] Not affected by happiness [No] Cannot be used in colony ships [No] Cannot join factions [No] Cannot be the founder species in a released sector; [No] Cannot generate leaders; [No] Cannot be employed in elite or specialist jobs; [No] Cannot be employed in complex drone jobs; [No] Not affected by happiness; [No] Cannot be used in colony ships; [No] Cannot join factions; [No] Cannot be the founder species in a released sector",
+        "Conflicts": "[Intelligent][Natural Physicists][Natural Sociologists][Natural Engineers][Talented][Camouflage][Chromalogs][Erudite][Zombie]",
+        "Description": "Unessential neural pathways relating to self-preservation and free-will are severed, creating a docile and obedient client species."
+      }
+    },
+    {
+      "id": "Vat-Grown",
+      "section": "Advanced genetic traits",
+      "data": {
+        "Trait": "[Trait vat grown] Vat-Grown",
+        "Effects": "[Mod pop assembly speed] +25% Organic pop growth multiplier; [Pop housing usage] −5% Pop housing usage; [Mod pop amenities usage mult] −10% Pop amenities usage; [Mod pop growth speed] −Cannot reproduce naturally",
+        "Conflicts": "[Rapid Breeders][Existential Iteroparity][Egg Laying][Slow Breeders][Psychological Infertility][Fertile][Clone Soldier Descendant][Necrophage]",
+        "Notes": "Can also be added or removed with: [Somatic Synthesization] Somatic Synthesization tradition(Cost reduced to 0); [Somatic Synthesization] Somatic Synthesization tradition(Cost reduced to 0)",
+        "Description": "Artificially grown in cloning vats, the natural reproductive abilities of this species have been negatively impacted."
+      }
+    },
+    {
+      "id": "Erudite",
+      "section": "Advanced genetic traits",
+      "data": {
+        "Trait": "[Erudite] Erudite",
+        "Effects": "[Researcher] +20% Researcher job efficiency; [Upkeep] −10% Leader upkeep; [Mod leader negative traits add] −1 Leader maximum negative traits; [Leader trait bg basic][Leader trait erudite][Erudite] Leaders have the Erudite trait",
+        "Conflicts": "[Intelligent][Nerve Stapled][Uplifted][Serviles][Unintelligent][Docile Livestock]",
+        "Description": "Biological engineering has unlocked previously dormant parts of this species' brains, greatly increasing mental acuity."
+      }
+    },
+    {
+      "id": "Fertile",
+      "section": "Advanced genetic traits",
+      "data": {
+        "Trait": "[Fertile] Fertile",
+        "Effects": "[Mod pop growth speed] +20% Pop growth speed; [Pop housing usage] −5% Pop housing usage; [Happiness] +10% Happiness",
+        "Conflicts": "[Rapid Breeders][Existential Iteroparity][Incubators][Egg Laying][Slow Breeders][Polymelic][Vat-Grown]",
+        "Notes": "Can also be removed with: [Somatic Synthesization] Somatic Synthesization tradition; [Somatic Synthesization] Somatic Synthesization tradition",
+        "Description": "The natural fecundity of this species has been dramatically enhanced through aggressive physical and behaviorial sculpting."
+      }
+    },
+    {
+      "id": "Robust",
+      "section": "Advanced genetic traits",
+      "data": {
+        "Trait": "[Robust] Robust",
+        "Effects": "[Mod habitability] +30% Habitability; [Mod pop bonus workforce mult] +5% Job efficiency; [Mod leader age] +50 Years leader lifespan",
+        "Conflicts": "[Adaptive][Extremely Adaptive][Shelled][Nonadaptive]",
+        "Description": "Bio-Optimized organs with redundant functions have made this species extraordinarily resistant to environmental hazards and disease."
+      }
+    },
+    {
+      "id": "Exotic Metabolism",
+      "section": "Advanced genetic traits",
+      "data": {
+        "Trait": "[Trait exotic metabolism] Exotic Metabolism",
+        "Effects": "[Mod leader age] +50 Years leader lifespan; [Exotic gases] +0.125 Exotic gas upkeep per 100 pops; [Mod pop growth speed] +25% Pop growth speed; [Mod habitability] +25% Habitability",
+        "Notes": "[Toxoids] Toxoids DLC; Can also be removed with: [Somatic Synthesization] Somatic Synthesization tradition; [Somatic Synthesization] Somatic Synthesization tradition",
+        "Description": "A metabolism based on exotic - and expensive - gases has vastly enhanced this species' abilities."
+      }
+    },
+    {
+      "id": "Adaptive Mutations",
+      "section": "Adaptive Mutations",
+      "data": {
+        "Trait": "[Trait adaptive mutations] Adaptive Mutations",
+        "Effects": "[Feature] Enables Auto-Modding",
+        "Conflicts": "[Malleable Genes]",
+        "Description": "By introducing hyper-adaptive nucleotides into the genetic structure of this species, they are capable of evolutionary changes in real time."
+      }
+    },
+    {
+      "id": "Bioadaptability",
+      "section": "Nucleotide Isolation traits",
+      "data": {
+        "Trait": "[Bioadaptability] Bioadaptability",
+        "Effects": "[Mod pop amenities usage mult] −5% Pop amenities usage; [Mod pop growth speed] +5% Pop growth speed; [Habitability floor] +30% Species minimum habitability",
+        "Alien Box solution": "+Green",
+        "Description": "This species has been modified to be slightly more adaptive and can now better endure harsh climates."
+      }
+    },
+    {
+      "id": "Limited Regeneration",
+      "section": "Nucleotide Isolation traits",
+      "data": {
+        "Trait": "[Limited Regeneration] Limited Regeneration",
+        "Effects": "[Mod pop amenities usage mult] −5% Pop amenities usage; [Mod pop growth speed] +5% Pop growth speed; [Mod army damage mult] +15% Army damage; [Mod leader age] +10% Years leader lifespan",
+        "Alien Box solution": "Blue",
+        "Description": "This species has been modified to heal faster, making them more dangerous in battle and somewhat longer-lived in general."
+      }
+    },
+    {
+      "id": "Social Pheromones",
+      "section": "Nucleotide Isolation traits",
+      "data": {
+        "Trait": "[Social Pheromones] Social Pheromones",
+        "Effects": "[Mod pop amenities usage mult] −10% Pop amenities usage; [Mod pop growth speed] +5% Pop growth speed; [Pop housing usage] −15% Pop housing usage",
+        "Alien Box solution": "−Red",
+        "Description": "This species has been modified to be more social and accepting of crowded conditions."
+      }
+    },
+    {
+      "id": "Drake-Scaled",
+      "section": "Biological leviathan traits",
+      "data": {
+        "Trait": "[Trait drake scaled] Drake-Scaled",
+        "Effects": "[Mod army health] +100% Army health; [Alloys] +0.5 Alloys per 100 pops",
+        "Conflicts": "[Gaseous Byproducts][Scintillating Skin][Volatile Excretions][Trait shell slag]",
+        "Guardians": "[Leviathans] Ether Drake; [Ancient Relics] Shard; [Aquatics] Sky Dragon",
+        "Description": "This species has the genetic material from a stellar dragon spliced into its DNA. As such, they shed scales which can be recycled into useful alloys."
+      }
+    },
+    {
+      "id": "Polymelic",
+      "section": "Biological leviathan traits",
+      "data": {
+        "Trait": "[Trait tiyanki] Polymelic",
+        "Effects": "[Pop assembly organic] +0.1 Organic pop assembly per 100 pops",
+        "Conflicts": "[Rapid Breeders][Budding][Crystallization][Egg Laying][Slow Breeders][Fertile][Clone Soldier][Clone Soldier Ascendant][Clone Soldier Descendant][Necrophage]",
+        "Guardians": "[Distant Stars] Tiyanki Matriarch",
+        "Description": "This species has added genetic material from the Tiyanki Matriarch into their DNA sequence. This has granted them rapid asexual reproduction, as well as a few unexpected tentacles."
+      }
+    },
+    {
+      "id": "Voidling",
+      "section": "Biological leviathan traits",
+      "data": {
+        "Trait": "[Trait voidling] Voidling",
+        "Effects": "[Habitability floor] +80% Species minimum habitability; [Energy Credits] Uses Energy upkeep instead of Food or Minerals",
+        "Conflicts": "[Phototrophic][Radiotrophic]",
+        "Guardians": "[Distant Stars] Voidspawn",
+        "Description": "This species has the genetic material from the Voidspawn spliced into its DNA. Subsisting off cosmic radiation, they are highly resistant to hostile environments."
+      }
+    },
+    {
+      "id": "Universal Augmentations",
+      "section": "Positive cyborg traits",
+      "data": {
+        "Trait": "[Universal Augmentations] Universal Augmentations",
+        "Effects": "[Feature] Enables Auto-Modding",
+        "Description": "Universal plug-and-play connection ports allow augmentations to be replaced as needed, aligning their capabilities with current operational demands."
+      }
+    },
+    {
+      "id": "Efficient Processors",
+      "section": "Positive cyborg traits",
+      "data": {
+        "Trait": "[Efficient Processors] Efficient Processors",
+        "Effects": "[Mod pop bonus workforce mult] +5% Job efficiency",
+        "Description": "These highly efficient processors increase the both workload and endurance."
+      }
+    },
+    {
+      "id": "Harvesters",
+      "section": "Positive cyborg traits",
+      "data": {
+        "Trait": "[Harvesters] Harvesters",
+        "Effects": "[Farmer] +10% Farming job efficiency",
+        "Can also be added or removed with": "[Augmentation Bazaars] Augmentation Bazaars civic",
+        "Description": "A suite of tools, from nutrient solution diagnostics and on-site balancing to per-stalk micro-threshing, enables cybernetic workers to increase produce yields."
+      }
+    },
+    {
+      "id": "Power Drills",
+      "section": "Positive cyborg traits",
+      "data": {
+        "Trait": "[Power Drills] Power Drills",
+        "Effects": "[Miner] +10% Mining job efficiency",
+        "Can also be added or removed with": "[Augmentation Bazaars] Augmentation Bazaars civic",
+        "Description": "Outfit a cyborg with a battery of power drills, and suddenly everything looks like a mineral deposit."
+      }
+    },
+    {
+      "id": "Superconductive",
+      "section": "Positive cyborg traits",
+      "data": {
+        "Trait": "[Superconductive] Superconductive",
+        "Effects": "[Technician] +10% Technician job efficiency",
+        "Can also be added or removed with": "[Augmentation Bazaars] Augmentation Bazaars civic",
+        "Description": "The use of superconductive materials in units have cut energy transmission losses to zero percent."
+      }
+    },
+    {
+      "id": "Double Jointed",
+      "section": "Positive cyborg traits",
+      "data": {
+        "Trait": "[Double Jointed] Double Jointed",
+        "Effects": "[Pop housing usage] −10% Pop housing Usage; [Mod pop resettlement cost mult] −35% Resettlement cost",
+        "Conflicts": "[Bulky]",
+        "Description": "Collapsible labor units with flexible joints enable them to fold neatly into stacks during transportation, then self-assemble on site."
+      }
+    },
+    {
+      "id": "Durable",
+      "section": "Positive cyborg traits",
+      "data": {
+        "Trait": "[Durable] Durable",
+        "Effects": "[Mod pop amenities usage mult] −0.5 Pop amenities usage",
+        "Conflicts": "[High Maintenance]",
+        "Can also be added or removed with": "[Origins unplugged] Hard Reset origin",
+        "Description": "Protected by exoskeletons of chrome-plated titanium, these heavy-duty machines were designed to excel under harsh conditions and require less maintenance."
+      }
+    },
+    {
+      "id": "Enhanced Memory",
+      "section": "Positive cyborg traits",
+      "data": {
+        "Trait": "[Enhanced Memory] Enhanced Memory",
+        "Effects": "[Upkeep] −25% Leader upkeep; [Mod leader negative traits add] −1 Leader maximum negative traits",
+        "Conflicts": "[Limited Memory]",
+        "Can also be added or removed with": "[Origins unplugged] Hard Reset origin",
+        "Description": "A revolutionary technique fits autonomous units with memory cells using a revolutionary, new technique for magnetic induction, improving their performance significantly."
+      }
+    },
+    {
+      "id": "Learning Algorithms",
+      "section": "Positive cyborg traits",
+      "data": {
+        "Trait": "[Learning Algorithms] Learning Algorithms",
+        "Effects": "[Mod leader species exp gain] +25% Leader experience gain; [Leader skill levels] +1 Effective leader skill level",
+        "Conflicts": "[Neural Limiters]",
+        "Can also be added or removed with": "[Origins unplugged] Hard Reset origin",
+        "Description": "Sophisticated, self-learning algorithms that stimulate the rapid evolution of a unit's neural clusters."
+      }
+    },
+    {
+      "id": "Logic Engines",
+      "section": "Positive cyborg traits",
+      "data": {
+        "Trait": "[Logic Engines] Logic Engines",
+        "Effects": "[Researcher] +10% Researcher job efficiency",
+        "Can also be added or removed with": "[Augmentation Bazaars] Augmentation Bazaars civic",
+        "Description": "Efficiently navigating the increasingly complex frontiers of science requires parallel processors to augment organic brains."
+      }
+    },
+    {
+      "id": "Loyalty Circuits",
+      "section": "Positive cyborg traits",
+      "data": {
+        "Trait": "[Loyalty Circuits] Loyalty Circuits",
+        "Effects": "[Happiness] +10% Happiness",
+        "Conflicts": "[Abrasive Implants][Hive-Minded]",
+        "Can also be added or removed with": "[Origins unplugged] Hard Reset origin; [Augmentation Bazaars] Augmentation Bazaars civic",
+        "Description": "Loyalty as an ideal is a distinctly organic concept. It is much more efficient to simply program compliance."
+      }
+    },
+    {
+      "id": "Streamlined Protocols",
+      "section": "Positive cyborg traits",
+      "data": {
+        "Trait": "[Streamlined Protocols] Streamlined Protocols",
+        "Effects": "[Empire sprawl] −10% Empire size from pops",
+        "Conflicts": "[High Bandwidth]",
+        "Can also be added or removed with": "[Origins unplugged] Hard Reset origin",
+        "Description": "Extensively batched AI processes allow these units to scale greatly with minimal loss of efficiency."
+      }
+    },
+    {
+      "id": "Trading Algorithms",
+      "section": "Positive cyborg traits",
+      "data": {
+        "Trait": "[Trading Algorithms] Trading Algorithms",
+        "Effects": "[Trader] +25% Trader job efficiency",
+        "Conflicts": "[Scarcity Algorithms][Hive-Minded]",
+        "Can also be added or removed with": "[Augmentation Bazaars] Augmentation Bazaars civic",
+        "Description": "Predictive algorithms allow for maximum optimization. Infinitesimal market fluctuations in currency rates, stock availability, and the emotional response of organic partners are accounted for."
+      }
+    },
+    {
+      "id": "Embellished Augments",
+      "section": "Positive cyborg traits",
+      "data": {
+        "Trait": "[Embellished Augments] Embellished Augments",
+        "Effects": "[Entertainer] +20% Influential job efficiency",
+        "Conflicts": "[Utilitarian Augments]",
+        "Can also be added or removed with": "[Augmentation Bazaars] Augmentation Bazaars civic",
+        "Description": "This species favors custom engravings, aftermarket components and paint schemes to maximize visual impact. Sometimes the only choice is to flash that chrome.",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Compliance Filters",
+      "section": "Positive cyborg traits",
+      "data": {
+        "Trait": "[Compliance Filters] Compliance Filters",
+        "Effects": "[Bureaucrat] +10% Bureaucrat job efficiency",
+        "Conflicts": "[Quarrelsome]",
+        "Can also be added or removed with": "[Augmentation Bazaars] Augmentation Bazaars civic",
+        "Description": "Cortical analysis units can jolt down users at the inception of seditious thiking, or dispense hormonal rewards to exemplar citizens.",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Integrated Weaponry",
+      "section": "Positive cyborg traits",
+      "data": {
+        "Trait": "[Integrated Weaponry] Integrated Weaponry",
+        "Effects": "[Mod army damage mult] +100% Army damage; [Enforcer] +15% Enforcer job efficiency; [Soldier] +15% Soldier job efficiency",
+        "Conflicts": "[Delicate Frames]",
+        "Can also be added or removed with": "[Origins unplugged] Hard Reset origin",
+        "Description": "Fusing armaments with cybernetic limbs offers instant firepower for the army and law enforcement officials alike.",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Refurbished Implants",
+      "section": "Positive cyborg traits",
+      "data": {
+        "Trait": "[Refurbished Implants] Refurbished Implants",
+        "Effects": "[Mod pop growth speed] +10% Pop growth speed",
+        "Can also be added or removed with": "[Origins unplugged] Hard Reset origin",
+        "Description": "The enforced backwards compatibility of mandatory implants greatly reduces the cost of outfitting newborn citizens.",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Bionic Engineers",
+      "section": "Positive cyborg traits",
+      "data": {
+        "Trait": "[Bionic Engineers] Bionic Engineers",
+        "Effects": "[Engineer] +15% Engineer job efficiency",
+        "Conflicts": "[Bionic Physicists][Bionic Sociologists]",
+        "Can also be added or removed with": "[Origins unplugged] Hard Reset origin",
+        "Description": "Precision-crafted tools and implant modifications have been created specifically to assist in demanding engineering tasks.",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Bionic Physicists",
+      "section": "Positive cyborg traits",
+      "data": {
+        "Trait": "[Bionic Physicists] Bionic Physicists",
+        "Effects": "[Physicist] +15% Physicist job efficiency",
+        "Conflicts": "[Bionic Engineers][Bionic Sociologists]",
+        "Description": "Integrated multi-modal processing produces physics calculations on the fly without requiring a connection to an external computing unit.",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Bionic Sociologists",
+      "section": "Positive cyborg traits",
+      "data": {
+        "Trait": "[Bionic Sociologists] Bionic Sociologists",
+        "Effects": "[Biologist] +15% Biologist job efficiency",
+        "Conflicts": "[Bionic Engineers][Bionic Physicists]",
+        "Description": "Empathy drivers and behavioral heuristics open a fast track to sociological research, handling complex analytics like a second brain.",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Power Intensive",
+      "section": "Negative cyborg traits",
+      "data": {
+        "Trait": "[Power Intensive] Power Intensive",
+        "Effects": "[Pop resource energy mult] +1 Energy upkeep",
+        "Description": "These cybernetic components require frequent recharging from an external power source."
+      }
+    },
+    {
+      "id": "Bulky",
+      "section": "Negative cyborg traits",
+      "data": {
+        "Trait": "[Bulky] Bulky",
+        "Effects": "[Pop housing usage] +10% Pop housing usage; [Mod pop resettlement cost mult] +35% Resettlement cost",
+        "Conflicts": "[Double-Jointed]",
+        "Description": "These highly advanced mega-machines were not designed to traverse the universe in a box."
+      }
+    },
+    {
+      "id": "High Bandwidth",
+      "section": "Negative cyborg traits",
+      "data": {
+        "Trait": "[High Bandwidth] High Bandwidth",
+        "Effects": "[Empire sprawl] +10% Empire size from pops",
+        "Conflicts": "[Streamlined Protocols]",
+        "Can also be added or removed with": "[Origins unplugged] Hard Reset origin",
+        "Description": "Individual units send and receive a vast amount of largely duplicate data, causing exponential lag as the number of units attached to each central processing hub increases."
+      }
+    },
+    {
+      "id": "High Maintenance",
+      "section": "Negative cyborg traits",
+      "data": {
+        "Trait": "[High Maintenance] High Maintenance",
+        "Effects": "[Mod pop amenities usage mult] +0.5 Pop amenities usage",
+        "Conflicts": "[Durable]",
+        "Can also be added or removed with": "[Origins unplugged] Hard Reset origin",
+        "Description": "These machines were designed with a complete disregard for longevity and are prone to malfunction. They will require frequent maintenance."
+      }
+    },
+    {
+      "id": "Neural Limiters",
+      "section": "Negative cyborg traits",
+      "data": {
+        "Trait": "[Neural Limiters] Neural Limiters",
+        "Effects": "[Mod leader species exp gain] −20% Leader experience gain; [Leader skill levels] −1 Effective councilor skill level",
+        "Conflicts": "[Learning Algorithms]",
+        "Can also be added or removed with": "[Origins unplugged] Hard Reset origin",
+        "Description": "By limiting the cognitive abilities of our workers we can encourage them to focus on more menial tasks."
+      }
+    },
+    {
+      "id": "Abrasive Implants",
+      "section": "Negative cyborg traits",
+      "data": {
+        "Trait": "[Abrasive Implants] Abrasive Implants",
+        "Effects": "[Happiness] −10% Happiness",
+        "Conflicts": "[Loyalty Circuits][Hive-Minded]",
+        "Description": "The implants on these cyborgs are rough and ill-fitting, resulting in subdermal irritation and regular malfunctions. Not bad on the body, but terrible on the mind.",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Delicate Frames",
+      "section": "Negative cyborg traits",
+      "data": {
+        "Trait": "[Delicate Frames] Delicate Frames",
+        "Effects": "[Mod army damage mult] −50% Army damage; [Pop cat worker] −5% Worker job efficiency; [Pop cat simple drone] −5% Menial Drone job efficiency; [Soldier] −15% Soldier job efficiency",
+        "Conflicts": "[Integrated Weaponry]",
+        "Description": "Subpar components and installation have resulted in a fragile cyborg chassis. Basic operations are not compromised, but the users are advised to avoid situations with high likelihood of physical trauma.",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Scarcity Algorithms",
+      "section": "Negative cyborg traits",
+      "data": {
+        "Trait": "[Scarcity Algorithms] Scarcity Algorithms",
+        "Effects": "[Trader] −25% Trader job efficiency",
+        "Conflicts": "[Trading Algorithms][Thrifty][Hive-Minded]",
+        "Description": "Aggressively cost-aware coding hampers risk-taking and therefore denies opportunities for greater profits.",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Limited Memory",
+      "section": "Negative cyborg traits",
+      "data": {
+        "Trait": "[Limited Memory] Limited Memory",
+        "Effects": "[Mod leader species exp gain] −40% Leader experience gain",
+        "Conflicts": "[Enhanced Memory]",
+        "Can also be added or removed with": "[Origins unplugged] Hard Reset origin",
+        "Description": "Insufficient operational memory has bottle-necked the capacity for learning, leaving the user unable to process the entirety of their experiences.",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Utilitarian Augments",
+      "section": "Negative cyborg traits",
+      "data": {
+        "Trait": "[Utilitarian Augments] Utilitarian Augments",
+        "Effects": "[Entertainer] −20% Influential job efficiency",
+        "Conflicts": "[Embellished Augments]",
+        "Description": "These cyborgs employ crude but functional parts with minimal consideration for aesthetics. Sometimes the job just has to get done.",
+        "DLC": "[The Machine Age]"
+      }
+    },
+    {
+      "id": "Ancient Dreadnought",
+      "section": "Mechanical leviathan traits",
+      "data": {
+        "Trait": "[Ancient Dreadnought] Ancient Dreadnought",
+        "Effects": "[Mod army damage mult] +500% Army damage; [Metallurgist] +15% Metallurgist job efficiency",
+        "Description": "Equipped with miniaturized energy modules, there is a marked enhancement in industrial productivity and an increase in frame-integrated weaponry damage."
+      }
+    },
+    {
+      "id": "Enigmatic Fortress",
+      "section": "Mechanical leviathan traits",
+      "data": {
+        "Trait": "[Enigmatic Fortress] Enigmatic Fortress",
+        "Effects": "[Mod pop amenities usage mult] −50% Pop amenities usage",
+        "Description": "Enigmatic self-repair routines can source materials directly from subspace, dramatically lowering the material expenses associated with repairs."
+      }
+    },
+    {
+      "id": "Infinity Sphere",
+      "section": "Mechanical leviathan traits",
+      "data": {
+        "Trait": "[Infinity Sphere] Infinity Sphere",
+        "Effects": "[Researcher] +25% Researcher job efficiency",
+        "Description": "Hyperefficient, gravity-resistant processing circuits that minimize energy waste and substantially cut processing costs."
+      }
+    },
+    {
+      "id": "Scavenger Bot",
+      "section": "Mechanical leviathan traits",
+      "data": {
+        "Trait": "[Scavenger Bot] Scavenger Bot",
+        "Effects": "[Mod pop growth speed] +100% Pop growth speed",
+        "Description": "Advanced molecular scavenging can transform any substance into the required materials for constructing robotic frames."
+      }
+    },
+    {
+      "id": "Malleable Claws",
+      "section": "Auto-modding only traits",
+      "data": {
+        "Trait": "[Trait malleable minerals] Malleable Claws",
+        "Effects": "[Miner] +5% / +15% Mining job efficiency",
+        "Description": "With diamond-hard digits, this adaptation allows for easier extraction of minerals."
+      }
+    },
+    {
+      "id": "Adaptive Claws",
+      "section": "Auto-modding only traits",
+      "data": {
+        "Trait": "[Trait adaptive minerals] Adaptive Claws"
+      }
+    },
+    {
+      "id": "Malleable Insulators",
+      "section": "Auto-modding only traits",
+      "data": {
+        "Trait": "[Trait malleable energy] Malleable Insulators",
+        "Effects": "[Technician] +5% / +15% Technician job efficiency",
+        "Description": "A thick insulating layer safeguards against accidents, especially in high-energy environments."
+      }
+    },
+    {
+      "id": "Adaptive Insulators",
+      "section": "Auto-modding only traits",
+      "data": {
+        "Trait": "[Trait adaptive energy] Adaptive Insulators"
+      }
+    },
+    {
+      "id": "Malleable Plows",
+      "section": "Auto-modding only traits",
+      "data": {
+        "Trait": "[Trait malleable food] Malleable Plows",
+        "Effects": "[Farmer] +5% / +15% Farming job efficiency",
+        "Description": "An extra appendage with a hardened shovel-like digit speeds up tilling and planting. Adapting to various terrain types, these malleable plows are always the right tool for the job."
+      }
+    },
+    {
+      "id": "Adaptive Plows",
+      "section": "Auto-modding only traits",
+      "data": {
+        "Trait": "[Trait adaptive food] Adaptive Plows"
+      }
+    },
+    {
+      "id": "Malleable Cortex",
+      "section": "Auto-modding only traits",
+      "data": {
+        "Trait": "[Trait malleable research] Malleable Cortex",
+        "Effects": "[Researcher] +5% / +15% Research job efficiency",
+        "Description": "While an engorged central cortex is slightly uncomfortable, it dramatically accelerates problem-solving and innovation."
+      }
+    },
+    {
+      "id": "Adaptive Cortex",
+      "section": "Auto-modding only traits",
+      "data": {
+        "Trait": "[Trait adaptive research] Adaptive Cortex"
+      }
+    },
+    {
+      "id": "Malleable Sense Organs",
+      "section": "Auto-modding only traits",
+      "data": {
+        "Trait": "[Trait malleable unity] Malleable Sense Organs",
+        "Effects": "[Bureaucrat] +5% / +15% Bureaucrat job efficiency",
+        "Description": "Enhanced sensory organs facilitate a deeper understanding and appreciation of diverse perspectives. Before you can thrive, you must first observe."
+      }
+    },
+    {
+      "id": "Adaptive Sense Organs",
+      "section": "Auto-modding only traits",
+      "data": {
+        "Trait": "[Trait adaptive unity] Adaptive Sense Organs"
+      }
+    },
+    {
+      "id": "Malleable Calluses",
+      "section": "Auto-modding only traits",
+      "data": {
+        "Trait": "[Trait malleable forge] Malleable Calluses",
+        "Effects": "[Metallurgist] +5% / +15% Metallurgist job efficiency; [Artisan] +5% / +15% Artisan job efficiency",
+        "Description": "When handling scalding or corrosive materials, extra-thick calluses can be invaluable."
+      }
+    },
+    {
+      "id": "Adaptive Calluses",
+      "section": "Auto-modding only traits",
+      "data": {
+        "Trait": "[Trait adaptive forge] Adaptive Calluses"
+      }
+    },
+    {
+      "id": "Malleable Pheromones",
+      "section": "Auto-modding only traits",
+      "data": {
+        "Trait": "[Trait malleable trade] Malleable Pheromones",
+        "Effects": "[Trader] +5% / +15% Trader job efficiency",
+        "Description": "Highly adaptive pheromones can be incredibly persuasive during negotiations."
+      }
+    },
+    {
+      "id": "Adaptive Pheromones",
+      "section": "Auto-modding only traits",
+      "data": {
+        "Trait": "[Trait adaptive trade] Adaptive Pheromones"
+      }
+    },
+    {
+      "id": "Malleable Harmonics",
+      "section": "Auto-modding only traits",
+      "data": {
+        "Trait": "[Trait malleable ameneties] Malleable Harmonics",
+        "Effects": "[Entertainer] +5% / +15% Influential job efficiency",
+        "Description": "A series of highly-calibrated holes allows this species to produce soothing, and harmonious sounds simply by moving about."
+      }
+    },
+    {
+      "id": "Adaptive Harmonics",
+      "section": "Auto-modding only traits",
+      "data": {
+        "Trait": "[Trait adaptive ameneties] Adaptive Harmonics"
+      }
+    },
+    {
+      "id": "Nivlac",
+      "section": "Unique species traits",
+      "data": {
+        "Trait": "[Trait extremely adaptive] Nivlac",
+        "Effects": "[Mod habitability] +50% Habitability; [Mod pop growth speed] +15% Pop growth speed",
+        "Species source": "Impossible Organism event chain",
+        "Description": "This species possesses perplexing adaptability, allowing it to thrive in most environments and survive virtually everywhere."
+      }
+    },
+    {
+      "id": "Numistic Administration",
+      "section": "Unique species traits",
+      "data": {
+        "Trait": "[Trait nuumismatic administration] Numistic Administration",
+        "Effects": "[Trader] +25% Trader job efficiency; [Trade value] +33% Trade from living standards",
+        "Species source": "[MegaCorp] Numistic Order caravan deal",
+        "Description": "This species has been trained in the holy art of Numistic administration."
+      }
+    },
+    {
+      "id": "Slimespawn",
+      "section": "Unique species traits",
+      "data": {
+        "Trait": "[Trait slimeborn] Slimespawn",
+        "Effects": "[Mod pop growth speed] +10% Pop growth speed; [Upkeep] −10% Pop upkeep",
+        "Species source": "[Shadows of the Shroud] Toxic Pools archaeological site",
+        "Description": "This species spawns rapidly from a thick and mucilaginous slime with the aid of a gestational catalyst."
+      }
+    }
+  ]
+}

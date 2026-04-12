@@ -1,0 +1,1182 @@
+{
+  "category": "diplomatic_actions",
+  "source": "Stellaris Wiki (4.x)",
+  "extracted": "2026-04-12",
+  "count": 118,
+  "items": [
+    {
+      "id": "Base",
+      "section": "Trust",
+      "data": {
+        "Trust cap source": "Base"
+      }
+    },
+    {
+      "id": "Varies by agreement",
+      "section": "Trust",
+      "data": {
+        "Trust cap source": "Varies by agreement"
+      }
+    },
+    {
+      "id": "[Direct Diplomacy] Direct Diplomacy tradition",
+      "section": "Trust",
+      "data": {
+        "Trust cap source": "[Direct Diplomacy] Direct Diplomacy tradition"
+      }
+    },
+    {
+      "id": "[Universal Compatibility] Universal Compatibility tradition",
+      "section": "Trust",
+      "data": {
+        "Trust cap source": "[Universal Compatibility] Universal Compatibility tradition"
+      }
+    },
+    {
+      "id": "[Federation default] Galactic Union member (level 5)Per [Official] official assigned to federation",
+      "section": "Trust",
+      "data": {
+        "Trust cap source": "[Federation default] Galactic Union member (level 5)Per [Official] official assigned to federation"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Trust",
+      "data": {
+        "Trust growth modifier source": "[Direct Diplomacy] Direct Diplomacy tradition"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Trust",
+      "data": {
+        "Trust growth modifier source": "[Federation default] Galactic Union member (level 3)Per [Official] official assigned to federation"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Trust",
+      "data": {
+        "Trust growth modifier source": "[Minor artifacts] Management Insights application"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Trust",
+      "data": {
+        "Trust growth modifier source": "[Menu icon edicts] Master's Teachings: Diplomatic Trust edict"
+      }
+    },
+    {
+      "id": "[Diplomatic embassy] Embassy",
+      "section": "General diplomacy",
+      "data": {
+        "Agreement": "[Diplomatic embassy] Embassy",
+        "Effects": "Envoys [Envoy action improving relations] improve relations 3 time faster [Intel] +20 Intel cap from diplomatic sources [Trust growth] +0.10 Trust growth; [Intel] +20 Intel cap from diplomatic sources; [Trust growth] +0.10 Trust growth; Enables most other agreements without requiring the [Diplomatic Networking] Diplomatic Networking tradition",
+        "Requirements": "No [Diplomacy war] war or [Diplomacy rivalry] rivalry between proposer and recipient"
+      }
+    },
+    {
+      "id": "[Diplomacy non aggression pact] Non-Aggression Pact",
+      "section": "General diplomacy",
+      "data": {
+        "Agreement": "[Diplomacy non aggression pact] Non-Aggression Pact",
+        "Effects": "Neither empire can declare war upon each other [Intel] 20 Minimum intel cap [Trust growth] +0.50 Trust growth and [Trust cap] 75 trust cap [Monthly influence] −0.25 Monthly influence upkeep; [Intel] 20 Minimum intel cap; [Trust growth] +0.50 Trust growth and [Trust cap] 75 trust cap; [Monthly influence] −0.25 Monthly influence upkeep",
+        "Requirements": "Both Neutral or better relations or [Diplomacy trust] +10 trust Embassy or proposer is [Envoy action improving relations] improving relations with recipient Not at war with each other Independent Not in a [Diplomacy federation] federation; Neutral or better relations or [Diplomacy trust] +10 trust; Embassy or proposer is [Envoy action improving relations] improving relations with recipient; Not at war with each other; Independent; Not in a [Diplomacy federation] federation"
+      }
+    },
+    {
+      "id": "[Diplomacy commercial pact] Commercial Pact",
+      "section": "General diplomacy",
+      "data": {
+        "Agreement": "[Diplomacy commercial pact] Commercial Pact",
+        "Effects": "Each empire gains +10% of the other's [Trade value] trade value without losing any for itself [Intel] 20 Minimum intel cap [Trust growth] +0.25 Trust growth [Monthly influence] −0.25 Monthly influence upkeep; [Intel] 20 Minimum intel cap; [Trust growth] +0.25 Trust growth; [Monthly influence] −0.25 Monthly influence upkeep",
+        "Requirements": "Both +Positive or better relations or [Diplomacy trust] +20 trust Either: Embassy Proposer has [Diplomatic Networking] Diplomatic Networking tradition Proposer has [Universal Transactions] Universal Transactions ascension perk Not at war with each other Independent [Diplomacy federation] Federation allows separate treaties or in the same federation or not in a federation Neither: [Gestalt consciousness] Gestalt Consciousness [Criminal Heritage] Criminal Heritage [Inward Perfection] Inward Perfection; +Positive or better relations or [Diplomacy trust] +20 trust; Either: Embassy Proposer has [Diplomatic Networking] Diplomatic Networking tradition Proposer has [Universal Transactions] Universal Transactions ascension perk; Embassy; Proposer has [Diplomatic Networking] Diplomatic Networking tradition; Proposer has [Universal Transactions] Universal Transactions ascension perk; Not at war with each other; Independent; [Diplomacy federation] Federation allows separate treaties or in the same federation or not in a federation; in the same federation or not in a federation; Neither: [Gestalt consciousness] Gestalt Consciousness [Criminal Heritage] Criminal Heritage [Inward Perfection] Inward Perfection; [Gestalt consciousness] Gestalt Consciousness; [Criminal Heritage] Criminal Heritage; [Inward Perfection] Inward Perfection"
+      }
+    },
+    {
+      "id": "[Diplomacy research agreement] Research Agreement",
+      "section": "General diplomacy",
+      "data": {
+        "Agreement": "[Diplomacy research agreement] Research Agreement",
+        "Effects": "[Mod country all tech research speed] +25% Research speed for technologies already researched by the other empire [Intel] 30 Minimum intel cap [Trust growth] +0.10 Trust growth [Monthly influence] −0.25 Monthly influence upkeep; [Intel] 30 Minimum intel cap; [Trust growth] +0.10 Trust growth; [Monthly influence] −0.25 Monthly influence upkeep",
+        "Requirements": "Both +Positive or better relations or [Diplomacy trust] +20 trust Embassy or proposer has [Diplomatic Networking] Diplomatic Networking tradition Not at war with each other Independent [Diplomacy federation] Federation allows separate treaties or in the same federation or not in a federation Not [Inward Perfection] Inward Perfection; +Positive or better relations or [Diplomacy trust] +20 trust; Embassy or proposer has [Diplomatic Networking] Diplomatic Networking tradition; Not at war with each other; Independent; [Diplomacy federation] Federation allows separate treaties or in the same federation or not in a federation; in the same federation or not in a federation; Not [Inward Perfection] Inward Perfection"
+      }
+    },
+    {
+      "id": "[Diplomacy migration pact] Migration Treaty",
+      "section": "General diplomacy",
+      "data": {
+        "Agreement": "[Diplomacy migration pact] Migration Treaty",
+        "Effects": "Pops from either empire can grow or be used in colony ships in the other empire [Intel] 30 Minimum intel cap [Trust growth] +0.25 Trust growth [Monthly influence] −0.25 Monthly influence upkeep; [Intel] 30 Minimum intel cap; [Trust growth] +0.25 Trust growth; [Monthly influence] −0.25 Monthly influence upkeep",
+        "Requirements": "Both +Positive or better relations or [Diplomacy trust] +20 trust Embassy or proposer has [Diplomatic Networking] Diplomatic Networking tradition Not at war with each other Independent [Diplomacy federation] Federation allows separate treaties or in the same federation or not in a federation Neither: [Gestalt consciousness] Gestalt Consciousness [Barbaric Despoilers] Barbaric Despoilers [Inward Perfection] Inward Perfection; +Positive or better relations or [Diplomacy trust] +20 trust; Embassy or proposer has [Diplomatic Networking] Diplomatic Networking tradition; Not at war with each other; Independent; [Diplomacy federation] Federation allows separate treaties or in the same federation or not in a federation; in the same federation or not in a federation; Neither: [Gestalt consciousness] Gestalt Consciousness [Barbaric Despoilers] Barbaric Despoilers [Inward Perfection] Inward Perfection; [Gestalt consciousness] Gestalt Consciousness; [Barbaric Despoilers] Barbaric Despoilers; [Inward Perfection] Inward Perfection; Proposer is not [Pompous Purists] Pompous Purists"
+      }
+    },
+    {
+      "id": "[Diplomacy guarantee] Guarantee Independence",
+      "section": "General diplomacy",
+      "data": {
+        "Agreement": "[Diplomacy guarantee] Guarantee Independence",
+        "Effects": "Proposer joins recipient's defensive wars; Recipient gains [Diplomacy opinion] +10 opinion towards proposer [Intel] 20 Minimum intel cap [Trust growth] +0.25 Trust growth [Monthly influence] −0.25 Monthly influence upkeep for proposer; [Intel] 20 Minimum intel cap; [Trust growth] +0.25 Trust growth; [Monthly influence] −0.25 Monthly influence upkeep for proposer",
+        "Requirements": "Both Neutral or better relations or [Diplomacy trust] +10 trust Embassy or proposer is [Envoy action improving relations] improving relations with recipient Not at war with each other Independent Not in a [Diplomacy federation] federation Not [Inward Perfection] Inward Perfection No [Diplomacy defensive pact] defensive pact; Neutral or better relations or [Diplomacy trust] +10 trust; Embassy or proposer is [Envoy action improving relations] improving relations with recipient; Not at war with each other; Independent; Not in a [Diplomacy federation] federation; Not [Inward Perfection] Inward Perfection; No [Diplomacy defensive pact] defensive pact"
+      }
+    },
+    {
+      "id": "[Diplomacy defensive pact] Defensive Pact",
+      "section": "General diplomacy",
+      "data": {
+        "Agreement": "[Diplomacy defensive pact] Defensive Pact",
+        "Effects": "Each empire joins defensive wars of the other; Mutual [Diplomacy opinion] +20 opinion [Intel] 40 Minimum intel cap [Trust growth] +0.75 Trust growth and [Trust cap] 100 trust cap [Monthly influence] −1.00 Monthly influence upkeep; [Intel] 40 Minimum intel cap; [Trust growth] +0.75 Trust growth and [Trust cap] 100 trust cap; [Monthly influence] −1.00 Monthly influence upkeep",
+        "Requirements": "Both +Positive relations or [Diplomacy trust] +20 trust Embassy or proposer has [Diplomatic Networking] Diplomatic Networking tradition At peace Independent Not in a [Diplomacy federation] federation Not [Inward Perfection] Inward Perfection; +Positive relations or [Diplomacy trust] +20 trust; Embassy or proposer has [Diplomatic Networking] Diplomatic Networking tradition; At peace; Independent; Not in a [Diplomacy federation] federation; Not [Inward Perfection] Inward Perfection"
+      }
+    },
+    {
+      "id": "[Diplomacy rivalry] Rivalry",
+      "section": "General diplomacy",
+      "data": {
+        "Agreement": "[Diplomacy rivalry] Rivalry",
+        "Effects": "Proposer gains: [Monthly influence] +0.5 Monthly influence Automatic [Diplomacy closed borders] closed borders against recipient except during a truce [Diplomacy status casus belli holder] Animosity casus belli against recipient [Mod country claim influence cost] −20% Claim influence cost against recipient; [Monthly influence] +0.5 Monthly influence; Automatic [Diplomacy closed borders] closed borders against recipient except during a truce; [Diplomacy status casus belli holder] Animosity casus belli against recipient; [Mod country claim influence cost] −20% Claim influence cost against recipient; Mutual [Diplomacy opinion] −100 opinion and [Trust growth] −2 trust growth",
+        "Requirements": "Proposer is not [Inward Perfection] Inward Perfection; Either: −Terrible relations Proposer is [Envoy action harming relations] harming relations Proposer is at war with recipient Either has [Supremacist] supremacist diplomatic stance Either has [Antagonistic] antagonistic diplomatic stance Either is fallen empire unless proposer is a [Diplomacy isvassal] subject Recipient has declared proposer a [Diplomacy rivalry] rival; −Terrible relations; Proposer is [Envoy action harming relations] harming relations; Proposer is at war with recipient; Either has [Supremacist] supremacist diplomatic stance; Either has [Antagonistic] antagonistic diplomatic stance; Either is fallen empire unless proposer is a [Diplomacy isvassal] subject; Recipient has declared proposer a [Diplomacy rivalry] rival"
+      }
+    },
+    {
+      "id": "[Diplomatic embassy] Recall Embassy",
+      "section": "General diplomacy",
+      "data": {
+        "Action": "[Diplomatic embassy] Recall Embassy",
+        "Effects": "Recalls embassy",
+        "Requirements": "Proposer has an embassy with recipient"
+      }
+    },
+    {
+      "id": "[Diplomacy non aggression pact] Break Non-Aggression Pact",
+      "section": "General diplomacy",
+      "data": {
+        "Action": "[Diplomacy non aggression pact] Break Non-Aggression Pact",
+        "Effects": "Ends non-aggression pact; Creates 10-year truce between proposer and recipient; Recipient gains decaying [Diplomacy opinion] −25 opinion of proposer",
+        "Requirements": "Proposer has non-aggression pact with recipient"
+      }
+    },
+    {
+      "id": "[Diplomacy commercial pact] Break Commercial Pact",
+      "section": "General diplomacy",
+      "data": {
+        "Action": "[Diplomacy commercial pact] Break Commercial Pact",
+        "Effects": "Ends commercial pact; Creates 10-year truce between proposer and recipient; Recipient gains decaying [Diplomacy opinion] −25 opinion of proposer",
+        "Requirements": "Proposer has commercial pact with recipient"
+      }
+    },
+    {
+      "id": "[Diplomacy research agreement] Break Research Agreement",
+      "section": "General diplomacy",
+      "data": {
+        "Action": "[Diplomacy research agreement] Break Research Agreement",
+        "Effects": "Ends research agreement; Recipient gains decaying [Diplomacy opinion] −25 opinion of proposer",
+        "Requirements": "Proposer has research agreement with recipient"
+      }
+    },
+    {
+      "id": "[Diplomacy migration pact] Break Migration Treaty",
+      "section": "General diplomacy",
+      "data": {
+        "Action": "[Diplomacy migration pact] Break Migration Treaty",
+        "Effects": "Ends migration treaty; Recipient gains decaying [Diplomacy opinion] −15 opinion of proposer",
+        "Requirements": "Proposer has migration treaty with recipient"
+      }
+    },
+    {
+      "id": "[Diplomacy guarantee] Revoke Guarantee",
+      "section": "General diplomacy",
+      "data": {
+        "Action": "[Diplomacy guarantee] Revoke Guarantee",
+        "Effects": "Ends guarantee independence; Creates 10-year truce from proposer toward recipient; Recipient gains decaying [Diplomacy opinion] −15 opinion of proposer",
+        "Requirements": "Proposer has guarantees recipient's independence"
+      }
+    },
+    {
+      "id": "[Diplomacy defensive pact] Break Defensive Pact",
+      "section": "General diplomacy",
+      "data": {
+        "Action": "[Diplomacy defensive pact] Break Defensive Pact",
+        "Effects": "Ends defensive pact; Creates 10-year truce between proposer and recipient; Recipient gains decaying [Diplomacy opinion] −100 opinion of proposer",
+        "Requirements": "Proposer is at peace and has defensive pact with recipient"
+      }
+    },
+    {
+      "id": "[Diplomacy rivalry] End Rivalry",
+      "section": "General diplomacy",
+      "data": {
+        "Action": "[Diplomacy rivalry] End Rivalry",
+        "Effects": "Ends proposer's rivalry of recipient",
+        "Requirements": "Proposer has had recipient as a [Diplomacy rivalry] rival for at least 10 years"
+      }
+    },
+    {
+      "id": "[Envoy action improving relations] Improve Relations",
+      "section": "General diplomacy",
+      "data": {
+        "Action": "[Envoy action improving relations] Improve Relations",
+        "Effects": "[Diplomacy opinion] +0.25 Opinion monthly, up to +100 max; Requires an assigned [Envoy] envoy; If the envoy is recalled or reassigned, [Diplomacy opinion] opinion decays by −1 monthly to 0",
+        "Requirements": "Proposer Not at war or [Envoy action harming relations] harming relations with recipient Has an available envoy to assign; Not at war or [Envoy action harming relations] harming relations with recipient; Has an available envoy to assign"
+      }
+    },
+    {
+      "id": "[Envoy action harming relations] Harm Relations",
+      "section": "General diplomacy",
+      "data": {
+        "Action": "[Envoy action harming relations] Harm Relations",
+        "Effects": "[Diplomacy opinion] −0.5 Opinion monthly, up to −100 max; Requires an assigned [Envoy] envoy; If the envoy is recalled or reassigned, [Diplomacy opinion] opinion decays by +1 monthly to 0",
+        "Requirements": "Proposer Not at war or [Envoy action improving relations] improving relations with recipient Has an available envoy to assign; Not at war or [Envoy action improving relations] improving relations with recipient; Has an available envoy to assign"
+      }
+    },
+    {
+      "id": "[Spy network] Build Spy Network",
+      "section": "General diplomacy",
+      "data": {
+        "Action": "[Spy network] Build Spy Network",
+        "Effects": "Builds a Spy Network in recipient; Requires an assigned [Envoy] envoy",
+        "Requirements": "Proposer Not already building a spy network in recipient Has an available envoy to assign; Not already building a spy network in recipient; Has an available envoy to assign"
+      }
+    },
+    {
+      "id": "[Menu icon claims] Make Claims",
+      "section": "General diplomacy",
+      "data": {
+        "Action": "[Menu icon claims] Make Claims",
+        "Effects": "Switches to the Claims interface.",
+        "Requirements": "Proposer is allowed to make claims"
+      }
+    },
+    {
+      "id": "[Diplomacy war] Declare War",
+      "section": "General diplomacy",
+      "data": {
+        "Action": "[Diplomacy war] Declare War",
+        "Effects": "Enters the Wargoals menu to declare a war; Mutual [Diplomacy opinion] −50 opinion and [Trust growth] −2 trust growth while at war",
+        "Requirements": "Proposer Is not at war with recipient Does not have a [Diplomacy truce] truce, pact, or federation with recipient Does not have any branch offices on recipient's planets; Is not at war with recipient; Does not have a [Diplomacy truce] truce, pact, or federation with recipient; Does not have any branch offices on recipient's planets"
+      }
+    },
+    {
+      "id": "[Diplomacy open borders] Open Borders",
+      "section": "General diplomacy",
+      "data": {
+        "Action": "[Diplomacy open borders] Open Borders",
+        "Effects": "Allows recipient's ships access to owned systems; Borders are opened automatically: After a peace treaty, during 10-year truce between all war participants Between overlords and their subjects By certain resolutions in the Galactic Community or Galactic Imperium; After a peace treaty, during 10-year truce between all war participants; Between overlords and their subjects; By certain resolutions in the Galactic Community or Galactic Imperium",
+        "Requirements": "Proposer has not declared recipient a [Diplomacy rivalry] rival"
+      }
+    },
+    {
+      "id": "[Diplomacy closed borders] Close Borders",
+      "section": "General diplomacy",
+      "data": {
+        "Action": "[Diplomacy closed borders] Close Borders",
+        "Effects": "Prevents recipient's ships access to owned systems while at peace; Borders automatically closed for rivals; Recipient gains [Diplomacy opinion] −20 opinion towards proposer",
+        "Requirements": "Proposer does not have a [Diplomacy truce] truce with recipient; Not available between overlords and subjects"
+      }
+    },
+    {
+      "id": "[Insult] Insult",
+      "section": "General diplomacy",
+      "data": {
+        "Action": "[Insult] Insult",
+        "Effects": "Recipient gains decaying [Diplomacy opinion] −200 opinion towards proposer; With the [Tech satisfying insults] Satisfying Insults technology, instead: Recipient gains −300 [Diplomacy opinion] Opinion towards proposer Proposer gains +50 [Influence] Influence (5 years cooldown); Recipient gains −300 [Diplomacy opinion] Opinion towards proposer; Proposer gains +50 [Influence] Influence (5 years cooldown)",
+        "Requirements": "Either: −Tense or worse relations Proposer is [Envoy action harming relations] harming relations Proposer is at war with recipient Either is fallen empire; −Tense or worse relations; Proposer is [Envoy action harming relations] harming relations; Proposer is at war with recipient; Either is fallen empire"
+      }
+    },
+    {
+      "id": "[Diplomacy seize council seat] Add to Imperial Council",
+      "section": "General diplomacy",
+      "data": {
+        "Action": "[Diplomacy seize council seat] Add to Imperial Council",
+        "Effects": "Adds recipient to the Imperial Council at a cost of [Influence] 100 influence",
+        "Requirements": "Proposer Has [Influence] 100 influence Is Galactic Emperor; Has [Influence] 100 influence; Is Galactic Emperor; Recipient is a member of the [GalacticEmpire mainButton] Galactic Imperium; By Appointment Imperial Council resolution is enacted; There is an empty seat on the Imperial Council"
+      }
+    },
+    {
+      "id": "[Diplomacy seize council seat] Kick from Imperial Council",
+      "section": "General diplomacy",
+      "data": {
+        "Action": "[Diplomacy seize council seat] Kick from Imperial Council",
+        "Effects": "Removes recipient from the Imperial Council at a cost of [Influence] 100 influence",
+        "Requirements": "Proposer Has [Influence] 100 influence Is Galactic Emperor; Has [Influence] 100 influence; Is Galactic Emperor; Recipient is a member of the Imperial Council; By Appointment Imperial Council resolution is enacted"
+      }
+    },
+    {
+      "id": "[GalacticEmpire mainButton] Join the Galactic Imperium",
+      "section": "General diplomacy",
+      "data": {
+        "Action": "[GalacticEmpire mainButton] Join the Galactic Imperium",
+        "Effects": "Proposer joins the [GalacticEmpire mainButton] Galactic Imperium",
+        "Requirements": "Proposer is not a member of the Galactic Imperium; Recipient is the Galactic Emperor"
+      }
+    },
+    {
+      "id": "[Diplomacy hasvassal] Propose Subjugation",
+      "section": "Subject empire diplomacy",
+      "data": {
+        "Agreement": "[Diplomacy hasvassal] Propose Subjugation",
+        "Effects": "Enters the terms menu to propose becoming overlord of recipient",
+        "Requirements": "Proposer Not [Diplomacy guarantee] guaranteeing recipient's independence; Not [Diplomacy guarantee] guaranteeing recipient's independence; Recipient Not a member of the [GalacticEmpire mainButton] Galactic Imperium Unless proposer also is a member; Not a member of the [GalacticEmpire mainButton] Galactic Imperium Unless proposer also is a member; Unless proposer also is a member; Both Excellent relations or [Diplomacy trust] +50 trust Embassy or proposer has [Diplomatic Networking] Diplomatic Networking tradition Independent and at peace; Excellent relations or [Diplomacy trust] +50 trust; Embassy or proposer has [Diplomatic Networking] Diplomatic Networking tradition; Independent and at peace"
+      }
+    },
+    {
+      "id": "[Diplomacy isvassal] Ask to be their Subject",
+      "section": "Subject empire diplomacy",
+      "data": {
+        "Agreement": "[Diplomacy isvassal] Ask to be their Subject",
+        "Effects": "Enters the terms menu to propose becoming subject of recipient",
+        "Requirements": "Proposer Not asking another empire already Not [Pompous Purists] Pompous Purists; Not asking another empire already; Not [Pompous Purists] Pompous Purists; Both Excellent relations or [Diplomacy trust] +50 trust Embassy or proposer has [Diplomatic Networking] Diplomatic Networking tradition Independent and at peace Members or not of [GalacticEmpire mainButton] Galactic Imperium [Diplomacy federation] Federation allows separate treaties or in the same federation or not in a federation; Excellent relations or [Diplomacy trust] +50 trust; Embassy or proposer has [Diplomatic Networking] Diplomatic Networking tradition; Independent and at peace; Members or not of [GalacticEmpire mainButton] Galactic Imperium; [Diplomacy federation] Federation allows separate treaties or in the same federation or not in a federation; in the same federation or not in a federation"
+      }
+    },
+    {
+      "id": "[Diplomacy isvassal] Ask to be Released",
+      "section": "Subject empire diplomacy",
+      "data": {
+        "Agreement": "[Diplomacy isvassal] Ask to be Released",
+        "Effects": "Grants independence to the subject and sets a 10-year Truce",
+        "Requirements": "Proposer is [Diplomacy isvassal] subject of recipient"
+      }
+    },
+    {
+      "id": "[Diplomacy secret fealty] Propose Secret Fealty",
+      "section": "Subject empire diplomacy",
+      "data": {
+        "Agreement": "[Diplomacy secret fealty] Propose Secret Fealty",
+        "Effects": "Proposer gains [Diplomacy status casus belli holder] Allegiance War casus belli against recipient's overlord",
+        "Requirements": "Proposer Not a [Diplomacy isvassal] subject Not [Diplomacy hasvassal] overlord of recipient; Not a [Diplomacy isvassal] subject; Not [Diplomacy hasvassal] overlord of recipient; Recipient Is a [Diplomacy isvassal] subject Has not lost Allegiance War war in last 5 years; Is a [Diplomacy isvassal] subject; Has not lost Allegiance War war in last 5 years; Both Excellent relations or [Diplomacy trust] +50 trust Embassy or proposer has [Diplomatic Networking] Diplomatic Networking tradition; Excellent relations or [Diplomacy trust] +50 trust; Embassy or proposer has [Diplomatic Networking] Diplomatic Networking tradition"
+      }
+    },
+    {
+      "id": "[Diplomacy hasvassal] Release Subject",
+      "section": "Subject empire diplomacy",
+      "data": {
+        "Action": "[Diplomacy hasvassal] Release Subject",
+        "Effects": "Grants independence to the subject and sets a 10-year Truce",
+        "Requirements": "Proposer is [Diplomacy hasvassal] overlord of recipient"
+      }
+    },
+    {
+      "id": "[Diplomacy being integrated] Integrate Subject",
+      "section": "Subject empire diplomacy",
+      "data": {
+        "Action": "[Diplomacy being integrated] Integrate Subject",
+        "Effects": "Integrates the subject into the overlord empire.",
+        "Requirements": "Proposer [Diplomacy hasvassal] Overlord of recipient for at least 10 years Has Integration Permitted agreement term with recipient Not currently [Diplomacy being integrated] integrating a subject; [Diplomacy hasvassal] Overlord of recipient for at least 10 years; Has Integration Permitted agreement term with recipient; Not currently [Diplomacy being integrated] integrating a subject"
+      }
+    },
+    {
+      "id": "[Diplomacy being integrated] Cancel Integration",
+      "section": "Subject empire diplomacy",
+      "data": {
+        "Action": "[Diplomacy being integrated] Cancel Integration",
+        "Effects": "Stops current integration",
+        "Requirements": "Proposer is [Diplomacy being integrated] integrating recipient"
+      }
+    },
+    {
+      "id": "[Diplomacy support independence] Support independence",
+      "section": "Subject empire diplomacy",
+      "data": {
+        "Action": "[Diplomacy support independence] Support independence",
+        "Effects": "Proposer joins recipient if they declare an [Diplomacy status casus belli holder] Independence War; Adds proposer's power for relative power of subjects opinion modifier",
+        "Requirements": "Proposer Not [Inward Perfection] Inward Perfection Not [Diplomacy hasvassal] overlord of recipient; Not [Inward Perfection] Inward Perfection; Not [Diplomacy hasvassal] overlord of recipient; Recipient is a [Diplomacy isvassal] subject; Both Neutral or better relations or [Diplomacy trust] +10 trust Embassy or proposer is [Envoy action improving relations] improving relations with recipient; Neutral or better relations or [Diplomacy trust] +10 trust; Embassy or proposer is [Envoy action improving relations] improving relations with recipient"
+      }
+    },
+    {
+      "id": "[Diplomacy support independence] Cancel support independence",
+      "section": "Subject empire diplomacy",
+      "data": {
+        "Action": "[Diplomacy support independence] Cancel support independence",
+        "Effects": "Ends [Diplomacy support independence] support independence of recipient",
+        "Requirements": "Proposer is [Diplomacy support independence] supporting independence of recipient"
+      }
+    },
+    {
+      "id": "[Diplomacy secret fealty] Pledge Secret Fealty",
+      "section": "Subject empire diplomacy",
+      "data": {
+        "Action": "[Diplomacy secret fealty] Pledge Secret Fealty",
+        "Effects": "Recipient gains [Diplomacy status casus belli holder] Allegiance War casus belli against proposer's overlord",
+        "Requirements": "Proposer Is a [Diplomacy isvassal] subject Has not lost Allegiance War war in last 5 years; Is a [Diplomacy isvassal] subject; Has not lost Allegiance War war in last 5 years; Recipient Not a [Diplomacy isvassal] subject Not [Diplomacy hasvassal] overlord of proposer; Not a [Diplomacy isvassal] subject; Not [Diplomacy hasvassal] overlord of proposer; Both Excellent relations or [Diplomacy trust] +50 trust Embassy or proposer has [Diplomatic Networking] Diplomatic Networking tradition; Excellent relations or [Diplomacy trust] +50 trust; Embassy or proposer has [Diplomatic Networking] Diplomatic Networking tradition"
+      }
+    },
+    {
+      "id": "[Diplomacy secret fealty] End Secret Fealty",
+      "section": "Subject empire diplomacy",
+      "data": {
+        "Action": "[Diplomacy secret fealty] End Secret Fealty",
+        "Effects": "Ends secret fealty status with recipient",
+        "Requirements": "Proposer has pledged or received secret fealty with the recipient"
+      }
+    },
+    {
+      "id": "[Diplomacy federation] Form Federation",
+      "section": "Federation diplomacy",
+      "data": {
+        "Agreement": "[Diplomacy federation] Form Federation",
+        "Effect": "Creates federation with recipient",
+        "Federation vote": "None",
+        "Requirements": "Proposer has [The Federation] The Federation tradition; Both Not in a [Diplomacy federation] Federation Not a [Diplomacy isvassal] subject Excellent relations or [Diplomacy trust] +30 trust Embassy or proposer has [Diplomatic Networking] Diplomatic Networking tradition; Not in a [Diplomacy federation] Federation; Not a [Diplomacy isvassal] subject; Excellent relations or [Diplomacy trust] +30 trust; Embassy or proposer has [Diplomatic Networking] Diplomatic Networking tradition"
+      }
+    },
+    {
+      "id": "[Diplomacy federation] Invite to Federation",
+      "section": "Federation diplomacy",
+      "data": {
+        "Agreement": "[Diplomacy federation] Invite to Federation",
+        "Effect": "Invites recipient to join the Federation",
+        "Federation vote": "By Invite Members law",
+        "Requirements": "Proposer is a [Diplomacy federation] Federation member; Recipient Not in a [Diplomacy federation] Federation Independent or [Diplomacy isvassal] subject of proposer; Not in a [Diplomacy federation] Federation; Independent or [Diplomacy isvassal] subject of proposer; Both Excellent relations or [Diplomacy trust] +30 trust Embassy or proposer has [Diplomatic Networking] Diplomatic Networking tradition; Excellent relations or [Diplomacy trust] +30 trust; Embassy or proposer has [Diplomatic Networking] Diplomatic Networking tradition"
+      }
+    },
+    {
+      "id": "[Diplomacy federation] Ask to join Federation",
+      "section": "Federation diplomacy",
+      "data": {
+        "Agreement": "[Diplomacy federation] Ask to join Federation",
+        "Effect": "Requests to join an already existing Federation",
+        "Federation vote": "By Invite Members law",
+        "Requirements": "Proposer Not in a [Diplomacy federation] Federation Independent or [Diplomacy isvassal] subject of recipient; Not in a [Diplomacy federation] Federation; Independent or [Diplomacy isvassal] subject of recipient; Recipient is a [Diplomacy federation] Federation member; Both Excellent relations or [Diplomacy trust] +30 trust Embassy or proposer has [Diplomatic Networking] Diplomatic Networking tradition; Excellent relations or [Diplomacy trust] +30 trust; Embassy or proposer has [Diplomatic Networking] Diplomatic Networking tradition"
+      }
+    },
+    {
+      "id": "[Diplomacy federation] Kick from Federation",
+      "section": "Federation diplomacy",
+      "data": {
+        "Agreement": "[Diplomacy federation] Kick from Federation",
+        "Effect": "Starts a vote to kick the member from the Federation; Recipient gains decaying [Diplomacy opinion] −100 opinion of proposer; Gains decaying [Diplomacy opinion] −200 opinion of federation members if kicked",
+        "Federation vote": "By Kick Members law",
+        "Requirements": "Both members of same [Diplomacy federation] Federation; Proposer is not [Diplomacy isvassal] subject of recipient; At least three members in Federation"
+      }
+    },
+    {
+      "id": "[Diplomacy federation] Ask to leave Federation",
+      "section": "Federation diplomacy",
+      "data": {
+        "Agreement": "[Diplomacy federation] Ask to leave Federation",
+        "Effect": "Requests to leave the Federation; Refusing grants the [Diplomacy status casus belli holder] Secession casus belli and a decaying [Diplomacy opinion] −45 opinion.",
+        "Federation vote": "President only",
+        "Requirements": "Proposer is [Federation hegemony] Hegemony member; Recipient is [Federation hegemony] Hegemony president"
+      }
+    },
+    {
+      "id": "[Diplomatic embassy] Offer Association Status",
+      "section": "Federation diplomacy",
+      "data": {
+        "Agreement": "[Diplomatic embassy] Offer Association Status",
+        "Effect": "The empire and the federation will not be able to declare war upon each other.",
+        "Federation vote": "Unanimous",
+        "Requirements": "Proposer is a [Diplomacy federation] Federation member; Recipient is not in a [Diplomacy federation] Federation; Both +Positive or better relations or [Diplomacy trust] +20 trust Embassy or proposer has [Diplomatic Networking] Diplomatic Networking tradition; +Positive or better relations or [Diplomacy trust] +20 trust; Embassy or proposer has [Diplomatic Networking] Diplomatic Networking tradition"
+      }
+    },
+    {
+      "id": "[Diplomatic embassy] Request Association Status",
+      "section": "Federation diplomacy",
+      "data": {
+        "Agreement": "[Diplomatic embassy] Request Association Status",
+        "Effect": "The empire and the federation will not be able to declare war upon each other.",
+        "Federation vote": "Unanimous",
+        "Requirements": "Proposer is not in a [Diplomacy federation] Federation; Recipient is a [Diplomacy federation] Federation member; Both +Positive or better relations or [Diplomacy trust] +20 trust Embassy or proposer has [Diplomatic Networking] Diplomatic Networking tradition; +Positive or better relations or [Diplomacy trust] +20 trust; Embassy or proposer has [Diplomatic Networking] Diplomatic Networking tradition"
+      }
+    },
+    {
+      "id": "[Diplomacy federation] Leave Federation",
+      "section": "Federation diplomacy",
+      "data": {
+        "Action": "[Diplomacy federation] Leave Federation",
+        "Effect": "Leaves the Federation; Creates a truce between the federation and former member; Federation members gain decaying [Diplomacy opinion] −200 opinion with former member",
+        "Federation vote": "None",
+        "Requirements": "Proposer Not a [Diplomacy isvassal] subject Not [Federation hegemony] Hegemony member; Not a [Diplomacy isvassal] subject; Not [Federation hegemony] Hegemony member"
+      }
+    },
+    {
+      "id": "[Diplomatic embassy] Revoke Association Status",
+      "section": "Federation diplomacy",
+      "data": {
+        "Action": "[Diplomatic embassy] Revoke Association Status",
+        "Effect": "Creates a truce between the federation and former associate; Recipient gains decaying [Diplomacy opinion] −25 opinion with federation members if association status is revoked",
+        "Federation vote": "Majority",
+        "Requirements": "Proposer is a [Diplomacy federation] Federation member; Recipient is a [Diplomatic embassy] Federation associate"
+      }
+    },
+    {
+      "id": "[Diplomatic embassy] End Association Status",
+      "section": "Federation diplomacy",
+      "data": {
+        "Action": "[Diplomatic embassy] End Association Status",
+        "Effect": "Creates a truce between the federation and former associate; Federation members gain decaying [Diplomacy opinion] −25 opinion with former associate",
+        "Federation vote": "None",
+        "Requirements": "Proposer is a [Diplomatic embassy] Federation associate"
+      }
+    },
+    {
+      "id": "[Diplomatic embassy] Embassy",
+      "section": "Acceptance",
+      "data": {
+        "Agreement": "[Diplomatic embassy] Embassy",
+        "Attitude": "+100",
+        "Relative power": "+40",
+        "Scaling per": "−25",
+        "Other factors": "+20"
+      }
+    },
+    {
+      "id": "[Diplomacy non aggression pact] Non-Aggression Pact",
+      "section": "Acceptance",
+      "data": {
+        "Agreement": "[Diplomacy non aggression pact] Non-Aggression Pact",
+        "Attitude": "+100",
+        "Relative power": "+50",
+        "Scaling per": "0",
+        "Other factors": "+100"
+      }
+    },
+    {
+      "id": "[Diplomacy commercial pact] Commercial Pact",
+      "section": "Acceptance",
+      "data": {
+        "Agreement": "[Diplomacy commercial pact] Commercial Pact",
+        "Attitude": "+100",
+        "Relative power": "+50",
+        "Scaling per": "0",
+        "Other factors": "0"
+      }
+    },
+    {
+      "id": "[Diplomacy research agreement] Research Agreement",
+      "section": "Acceptance",
+      "data": {
+        "Agreement": "[Diplomacy research agreement] Research Agreement",
+        "Attitude": "+100",
+        "Relative power": "+50",
+        "Scaling per": "0",
+        "Other factors": "0"
+      }
+    },
+    {
+      "id": "[Diplomacy migration pact] Migration Treaty",
+      "section": "Acceptance",
+      "data": {
+        "Agreement": "[Diplomacy migration pact] Migration Treaty",
+        "Attitude": "+10",
+        "Relative power": "0",
+        "Scaling per": "0",
+        "Other factors": "0"
+      }
+    },
+    {
+      "id": "[Diplomacy defensive pact] Defensive Pact",
+      "section": "Acceptance",
+      "data": {
+        "Agreement": "[Diplomacy defensive pact] Defensive Pact",
+        "Attitude": "+50",
+        "Relative power": "+20",
+        "Scaling per": "−50",
+        "Other factors": "+20"
+      }
+    },
+    {
+      "id": "[Diplomacy federation] Federation",
+      "section": "Acceptance",
+      "data": {
+        "Agreement": "[Diplomacy federation] Federation",
+        "Attitude": "+30",
+        "Relative power": "0",
+        "Scaling per": "−50",
+        "Other factors": "+20"
+      }
+    },
+    {
+      "id": "[Diplomacy hasvassal] Demand Subjugation",
+      "section": "Acceptance",
+      "data": {
+        "Agreement": "[Diplomacy hasvassal] Demand Subjugation",
+        "Attitude": "+20",
+        "Relative power": "0",
+        "Scaling per": "−20",
+        "Other factors": "+100"
+      }
+    },
+    {
+      "id": "+20",
+      "section": "Personality",
+      "data": {
+        "AI personality": "Decadent Hierarchy",
+        "Agreement": "+20",
+        "Federation": "−10",
+        "Trade Willingness": "0"
+      }
+    },
+    {
+      "id": "0",
+      "section": "Personality",
+      "data": {
+        "AI personality": "Democratic Crusaders",
+        "Agreement": "0",
+        "Federation": "+20",
+        "Trade Willingness": "0"
+      }
+    },
+    {
+      "id": "+5",
+      "section": "Personality",
+      "data": {
+        "AI personality": "Erudite Explorers",
+        "Agreement": "+5",
+        "Federation": "+5",
+        "Trade Willingness": "+50"
+      }
+    },
+    {
+      "id": "0",
+      "section": "Personality",
+      "data": {
+        "AI personality": "Evangelizing Zealots",
+        "Agreement": "0",
+        "Federation": "0",
+        "Trade Willingness": "−20"
+      }
+    },
+    {
+      "id": "+25",
+      "section": "Personality",
+      "data": {
+        "AI personality": "Federation Builders",
+        "Agreement": "+25",
+        "Federation": "+25",
+        "Trade Willingness": "+15"
+      }
+    },
+    {
+      "id": "+20",
+      "section": "Personality",
+      "data": {
+        "AI personality": "Harmonious Collective",
+        "Agreement": "+20",
+        "Federation": "0",
+        "Trade Willingness": "+10"
+      }
+    },
+    {
+      "id": "−10",
+      "section": "Personality",
+      "data": {
+        "AI personality": "Hegemonic Imperialists",
+        "Agreement": "−10",
+        "Federation": "+10",
+        "Trade Willingness": "−10"
+      }
+    },
+    {
+      "id": "−100",
+      "section": "Personality",
+      "data": {
+        "AI personality": "Honorbound Warriors",
+        "Agreement": "−100",
+        "Federation": "+20",
+        "Trade Willingness": "0"
+      }
+    },
+    {
+      "id": "+20",
+      "section": "Personality",
+      "data": {
+        "AI personality": "Migratory Flock",
+        "Agreement": "+20",
+        "Federation": "0",
+        "Trade Willingness": "+20"
+      }
+    },
+    {
+      "id": "+20",
+      "section": "Personality",
+      "data": {
+        "AI personality": "Peaceful Traders",
+        "Agreement": "+20",
+        "Federation": "0",
+        "Trade Willingness": "+10"
+      }
+    },
+    {
+      "id": "−10",
+      "section": "Personality",
+      "data": {
+        "AI personality": "Ruthless Capitalists",
+        "Agreement": "−10",
+        "Federation": "0",
+        "Trade Willingness": "+10"
+      }
+    },
+    {
+      "id": "−20",
+      "section": "Personality",
+      "data": {
+        "AI personality": "Slaving Despots",
+        "Agreement": "−20",
+        "Federation": "0",
+        "Trade Willingness": "0"
+      }
+    },
+    {
+      "id": "+20",
+      "section": "Personality",
+      "data": {
+        "AI personality": "Spiritual Seekers",
+        "Agreement": "+20",
+        "Federation": "+10",
+        "Trade Willingness": "+10"
+      }
+    },
+    {
+      "id": "+20",
+      "section": "Personality",
+      "data": {
+        "AI personality": "Xenophobic Isolationists",
+        "Agreement": "+20",
+        "Federation": "−20",
+        "Trade Willingness": "−20"
+      }
+    },
+    {
+      "id": "+50",
+      "section": "Personality",
+      "data": {
+        "AI personality": "Fanatical Befrienders",
+        "Agreement": "+50",
+        "Federation": "+50",
+        "Trade Willingness": "+50"
+      }
+    },
+    {
+      "id": "0",
+      "section": "Personality",
+      "data": {
+        "AI personality": "Fanatical Purifiers",
+        "Agreement": "0",
+        "Federation": "0",
+        "Trade Willingness": "0"
+      }
+    },
+    {
+      "id": "−10",
+      "section": "Personality",
+      "data": {
+        "AI personality": "[Auth hive mind] Hive Mind",
+        "Agreement": "−10",
+        "Federation": "−10",
+        "Trade Willingness": "0"
+      }
+    },
+    {
+      "id": "0",
+      "section": "Personality",
+      "data": {
+        "AI personality": "[Auth machine intelligence] Machine Intelligence",
+        "Agreement": "0",
+        "Federation": "0",
+        "Trade Willingness": "0"
+      }
+    },
+    {
+      "id": "0",
+      "section": "Personality",
+      "data": {
+        "AI personality": "[Rogue Servitor] Rogue Servitors",
+        "Agreement": "0",
+        "Federation": "0",
+        "Trade Willingness": "0"
+      }
+    },
+    {
+      "id": "0",
+      "section": "Personality",
+      "data": {
+        "AI personality": "[Driven Assimilator] Driven Assimilators",
+        "Agreement": "0",
+        "Federation": "0",
+        "Trade Willingness": "0"
+      }
+    },
+    {
+      "id": "0",
+      "section": "Personality",
+      "data": {
+        "AI personality": "[Determined Exterminator] Determined Exterminators",
+        "Agreement": "0",
+        "Federation": "0",
+        "Trade Willingness": "0"
+      }
+    },
+    {
+      "id": "0",
+      "section": "Personality",
+      "data": {
+        "AI personality": "[Galactic Nemesis] Crisis Aspirant",
+        "Agreement": "0",
+        "Federation": "0",
+        "Trade Willingness": "0"
+      }
+    },
+    {
+      "id": "0",
+      "section": "Personality",
+      "data": {
+        "AI personality": "[Imperial Liege] Indolent Overlord",
+        "Agreement": "0",
+        "Federation": "0",
+        "Trade Willingness": "0"
+      }
+    },
+    {
+      "id": "+20",
+      "section": "Personality",
+      "data": {
+        "AI personality": "[Origins slavers] Benevolent Corporation",
+        "Agreement": "+20",
+        "Federation": "−10",
+        "Trade Willingness": "+10"
+      }
+    },
+    {
+      "id": "Bulwark trades",
+      "section": "Timed trade actions",
+      "data": {
+        "Subject type": "[Specialist subject bulwark] Bulwark",
+        "Trade action": "Bulwark Prefabs",
+        "Effect": "[Spaceport 1] Defense Platform",
+        "Overlord": "[Defense platform build cost] Build cost; [Upkeep] Upkeep",
+        "Subject": "−25%/−50%/−75%",
+        "Multiplied by tier": "+25%/+50%/+75%"
+      }
+    },
+    {
+      "id": "Prospectorium trades",
+      "section": "Timed trade actions",
+      "data": {
+        "Subject type": "[Prospectorium] Prospectorium",
+        "Trade action": "Prospectorium Techniques",
+        "Effect": "[Volatile motes][Exotic gases][Rare crystals] Monthly strategic resources",
+        "Overlord": "+5%/+10%/+15%",
+        "Subject": "−5%/−10%/−15%",
+        "Multiplied by tier": "[Yes]"
+      }
+    },
+    {
+      "id": "Scholarium trades",
+      "section": "Timed trade actions",
+      "data": {
+        "Subject type": "[Specialist subject scholarium] Scholarium",
+        "Trade action": "Scholarium Processors",
+        "Effect": "[Research] Research station output",
+        "Overlord": "+20%/+30%/+40%",
+        "Subject": "−10%/−15%/−20%",
+        "Multiplied by tier": "[Yes]"
+      }
+    },
+    {
+      "id": "Unknown",
+      "section": "Timed trade actions",
+      "data": {
+        "Subject type": "Scholarium Hypotheses",
+        "Trade action": "[Mod num tech alternatives add] Research alternatives",
+        "Effect": "+1",
+        "Overlord": "−1",
+        "Subject": "[No]"
+      }
+    },
+    {
+      "id": "Bulwark technology sharing",
+      "section": "Technology sharing",
+      "data": {
+        "Subject type": "[Specialist subject bulwark] Bulwark",
+        "Trade action": "Bulwark Technology",
+        "Effect": "Researched Bulwark technologies given as options to Overlord; Subject gets Bulwark Technology Sharing modifier for [Time] 1 year: [Engineering research] −10% Engineering research if sharing: [Starhold][Star Fortress][Engineering research][Tech modular engineering] [Physics research] −10% Physics research if sharing: [Tech planetary shield generator]; [Engineering research] −10% Engineering research if sharing: [Starhold][Star Fortress][Engineering research][Tech modular engineering]; [Physics research] −10% Physics research if sharing: [Tech planetary shield generator]"
+      }
+    },
+    {
+      "id": "Prospectorium technology sharing",
+      "section": "Technology sharing",
+      "data": {
+        "Subject type": "[Prospectorium] Prospectorium",
+        "Trade action": "Prospectorium Technology",
+        "Effect": "Researched Prospectorium technologies given as options to Overlord; Subject gets Prospectorium Technology Sharing modifier for [Time] 1 year: [Engineering research] −10% Engineering research if sharing: [Exotic Gas Extraction][Tech mine rare crystals][Living Metal] [Physics research] −10% Physics research if sharing: [Tech volatile motes][Dark Matter Drawing] [Society research] −10% Society research if sharing: [Tech mine zro]; [Engineering research] −10% Engineering research if sharing: [Exotic Gas Extraction][Tech mine rare crystals][Living Metal]; [Physics research] −10% Physics research if sharing: [Tech volatile motes][Dark Matter Drawing]; [Society research] −10% Society research if sharing: [Tech mine zro]; Subject pays [Menu icon strategic resource] −100 strategic resources by technology shared"
+      }
+    },
+    {
+      "id": "Neutral",
+      "section": "Attitude",
+      "data": {
+        "Attitude": "Neutral",
+        "Trade & Pacts": "[Yes]",
+        "Prefer peace": "[Yes]",
+        "Other Effects": "none",
+        "Requirements": "none below",
+        "Description": "This Empire does not consider us relevant to their interests."
+      }
+    },
+    {
+      "id": "Wary",
+      "section": "Attitude",
+      "data": {
+        "Attitude": "Wary",
+        "Trade & Pacts": "[Yes]",
+        "Prefer peace": "[Yes]",
+        "Other Effects": "none",
+        "Requirements": "inferior relative power and shared border",
+        "Description": "This Empire maintains a cautious attitude towards us."
+      }
+    },
+    {
+      "id": "Receptive",
+      "section": "Attitude",
+      "data": {
+        "Attitude": "+Receptive",
+        "Trade & Pacts": "[Yes]",
+        "Prefer peace": "[Yes]",
+        "Other Effects": "more inclined to accept diplomatic pacts",
+        "Requirements": "diplomatic AI personalities",
+        "Description": "'This Empire is interested in closer relations with us."
+      }
+    },
+    {
+      "id": "Cordial",
+      "section": "Attitude",
+      "data": {
+        "Attitude": "+Cordial",
+        "Trade & Pacts": "[Yes]",
+        "Prefer peace": "[Yes]",
+        "Other Effects": "more inclined to accept diplomatic pacts",
+        "Requirements": "high opinion",
+        "Description": "This Empire is amenable to peaceful coexistence and trading with us."
+      }
+    },
+    {
+      "id": "Friendly",
+      "section": "Attitude",
+      "data": {
+        "Attitude": "+Friendly",
+        "Trade & Pacts": "[Yes]",
+        "Prefer peace": "[Yes]",
+        "Other Effects": "more inclined to accept diplomatic pacts and join a federation",
+        "Requirements": "high opinion and successful past diplomacy",
+        "Description": "'This Empire views us as a friend and may be willing to form an alliance with us."
+      }
+    },
+    {
+      "id": "Protective",
+      "section": "Attitude",
+      "data": {
+        "Attitude": "+Protective",
+        "Trade & Pacts": "[Yes]",
+        "Prefer peace": "[Yes]",
+        "Other Effects": "more inclined to accept diplomatic pacts and may propose subjugation",
+        "Requirements": "high opinion and superior relative power",
+        "Description": "This Empire believes that we are weak and need their protection."
+      }
+    },
+    {
+      "id": "Suspicious",
+      "section": "Attitude",
+      "data": {
+        "Attitude": "−Suspicious",
+        "Trade & Pacts": "[No]",
+        "Prefer peace": "[Yes]",
+        "Other Effects": "none",
+        "Requirements": "low opinion",
+        "Description": "This Empire views us with suspicion and mistrust."
+      }
+    },
+    {
+      "id": "Rival",
+      "section": "Attitude",
+      "data": {
+        "Attitude": "−Rival",
+        "Trade & Pacts": "[No]",
+        "Prefer peace": "[Yes]",
+        "Other Effects": "none",
+        "Requirements": "rival with low opinion",
+        "Description": "This Empire views us as their rival."
+      }
+    },
+    {
+      "id": "Hostile",
+      "section": "Attitude",
+      "data": {
+        "Attitude": "−Hostile",
+        "Trade & Pacts": "[No]",
+        "Prefer peace": "[No]",
+        "Other Effects": "none",
+        "Requirements": "very low opinion",
+        "Description": "This Empire views us as their enemy. They are likely to attack us if they think they can win."
+      }
+    },
+    {
+      "id": "Domineering",
+      "section": "Attitude",
+      "data": {
+        "Attitude": "−Domineering",
+        "Trade & Pacts": "[No]",
+        "Prefer peace": "[No]",
+        "Other Effects": "only uses the Subjugation Casus Belli",
+        "Requirements": "low opinion and Subjugator AI",
+        "Description": "This Empire believes that we would make a fine vassal."
+      }
+    },
+    {
+      "id": "Threatened",
+      "section": "Attitude",
+      "data": {
+        "Attitude": "−Threatened",
+        "Trade & Pacts": "[No]",
+        "Prefer peace": "[No]",
+        "Other Effects": "none",
+        "Requirements": "50 or higher threat rating",
+        "Description": "This Empire views us as a threatening menace."
+      }
+    },
+    {
+      "id": "Overlord",
+      "section": "Attitude",
+      "data": {
+        "Attitude": "Overlord",
+        "Trade & Pacts": "[Yes]",
+        "Prefer peace": "[Yes]",
+        "Other Effects": "none",
+        "Requirements": "overlord",
+        "Description": "This Empire is our overlord."
+      }
+    },
+    {
+      "id": "Loyal",
+      "section": "Attitude",
+      "data": {
+        "Attitude": "+Loyal",
+        "Trade & Pacts": "[Yes]",
+        "Prefer peace": "[Yes]",
+        "Other Effects": "none",
+        "Requirements": "subject with positive loyalty",
+        "Description": "This subject is loyal to us."
+      }
+    },
+    {
+      "id": "Disloyal",
+      "section": "Attitude",
+      "data": {
+        "Attitude": "−Disloyal",
+        "Trade & Pacts": "[No]",
+        "Prefer peace": "[No]",
+        "Other Effects": "considers the relative power of other subjects as well",
+        "Requirements": "subject with negative loyalty",
+        "Description": "This subject resents its subservience to us."
+      }
+    },
+    {
+      "id": "Dismissive",
+      "section": "Attitude",
+      "data": {
+        "Attitude": "Dismissive",
+        "Trade & Pacts": "[No]",
+        "Prefer peace": "[Yes]",
+        "Other Effects": "none",
+        "Requirements": "Fallen Empire",
+        "Description": "This Fallen Empire considers us largely beneath their notice."
+      }
+    },
+    {
+      "id": "Patronizing",
+      "section": "Attitude",
+      "data": {
+        "Attitude": "+Patronizing",
+        "Trade & Pacts": "[Yes]",
+        "Prefer peace": "[Yes]",
+        "Other Effects": "may bestow gifts",
+        "Requirements": "Fallen Empire with high opinion",
+        "Description": "This Fallen Empire views us as errant children in need of their guidance. They may deign to bestow gifts of technology, resources or ships on us."
+      }
+    },
+    {
+      "id": "Angry",
+      "section": "Attitude",
+      "data": {
+        "Attitude": "−Angry",
+        "Trade & Pacts": "[No]",
+        "Prefer peace": "[No]",
+        "Other Effects": "will send a demand which will grant them Casus Belli if refused",
+        "Requirements": "Fallen Empire with low opinion",
+        "Description": "We have angered this Fallen Empire with our actions, and they may declare war to punish us."
+      }
+    },
+    {
+      "id": "Arrogant",
+      "section": "Attitude",
+      "data": {
+        "Attitude": "Arrogant",
+        "Trade & Pacts": "[No]",
+        "Prefer peace": "[Yes]",
+        "Other Effects": "no effect",
+        "Requirements": "distant Awakened Empire",
+        "Description": "This Awakened Empire views us with dismissive arrogance."
+      }
+    },
+    {
+      "id": "Imperious",
+      "section": "Attitude",
+      "data": {
+        "Attitude": "−Imperious",
+        "Trade & Pacts": "[No]",
+        "Prefer peace": "[Yes]",
+        "Other Effects": "will propose subjugation",
+        "Requirements": "neighbor Awakened Empire",
+        "Description": "This Awakened Empire views us as a future subject. They are likely to demand we surrender our independence."
+      }
+    },
+    {
+      "id": "Belligerent",
+      "section": "Attitude",
+      "data": {
+        "Attitude": "−Belligerent",
+        "Trade & Pacts": "[No]",
+        "Prefer peace": "[No]",
+        "Other Effects": "none",
+        "Requirements": "Awakened Empire with low opinion",
+        "Description": "This Awakened Empire views us as a target of conquest. They are likely to attack us."
+      }
+    },
+    {
+      "id": "Custodial",
+      "section": "Attitude",
+      "data": {
+        "Attitude": "+Custodial",
+        "Trade & Pacts": "[Yes]",
+        "Prefer peace": "[Yes]",
+        "Other Effects": "accepts joining a Federation",
+        "Requirements": "Guardian Awakened Empires",
+        "Description": "This Awakened Empire believes that it needs to protect us from the crisis currently threatening the galaxy. They are likely to attempt to ally us."
+      }
+    },
+    {
+      "id": "Enigmatic",
+      "section": "Attitude",
+      "data": {
+        "Attitude": "Enigmatic",
+        "Trade & Pacts": "[Yes]",
+        "Prefer peace": "[Yes]",
+        "Other Effects": "opinion is hidden and has no impact",
+        "Requirements": "Ancient Caretakers",
+        "Description": "This Fallen Empire is an ancient artificial intelligence that behaves in a strange and unpredictable manner. We do not know what to expect from it."
+      }
+    },
+    {
+      "id": "Berserk",
+      "section": "Attitude",
+      "data": {
+        "Attitude": "−Berserk",
+        "Trade & Pacts": "[No]",
+        "Prefer peace": "[No]",
+        "Other Effects": "attacks any empire nearby",
+        "Requirements": "Malfunctioning Custodians",
+        "Description": "This Awakened Empire is an ancient artificial intelligence that has gone berserk. It is likely to attack anything and anyone around it."
+      }
+    }
+  ]
+}

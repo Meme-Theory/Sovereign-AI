@@ -1,0 +1,597 @@
+{
+  "category": "ai_personalities",
+  "source": "Stellaris Wiki (4.x)",
+  "extracted": "2026-04-12",
+  "count": 49,
+  "items": [
+    {
+      "id": "Hegemonic Imperialists",
+      "section": "Playable personalities",
+      "data": {
+        "Personality": "Hegemonic Imperialists[Personality hegemonic imperialists room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Claim, Subjugation; Aliens: Slavery; Robots: Servitude; Primitives: Invade; [First Contact] Cloak: No",
+        "Behavior modifiers": "−1.5x Aggressiveness; −1.5x Border friction; −1.5x Claims concern; 1.1x Military spending; −80% Trade willingness",
+        "Ship composition": "[Shield] 0.5x Shields; [Armor] 0.5x Armor; Energy weapons preference; Battleships/Stingers preference",
+        "Prerequisites": "[Yes] Either: [Authoritarian][Fanatic authoritarian] Authoritarian [Militarist][Fanatic militarist] Militarist [Xenophobe][Fanatic xenophobe] Xenophobe; [Authoritarian][Fanatic authoritarian] Authoritarian; [Militarist][Fanatic militarist] Militarist; [Xenophobe][Fanatic xenophobe] Xenophobe; [No][Pacifist][Fanatic pacifist] Pacifist",
+        "Weight": "Base: 5; +1000 if [Barbaric Despoilers] Barbaric Despoilers",
+        "Description": "Hegemonic Imperialists consider themselves the rightful rulers of the galaxy, and will attempt to expand their empire by any means possible."
+      }
+    },
+    {
+      "id": "Federation Builders",
+      "section": "Playable personalities",
+      "data": {
+        "Personality": "Federation Builders[Personality federation builders room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Ideology; Aliens: Full Citizenship; Robots: Citizen Rights; Primitives: Enlighten if Machine Age or later[1]; [First Contact] Cloak: No",
+        "Behavior modifiers": "+0.75x Aggressiveness; +0.25x Border friction; −1.25x Bravery; +0.75x Claims concern; −1.2x Threat concern; −95% Trade willingness",
+        "Ship composition": "[Shield] 0.6x Shields; [Armor] 0.3x Armor; [Health] 0.1x Hull; Energy weapons preference; Destroyers/Weavers preference",
+        "Prerequisites": "[Yes] Either: [Fanatic egalitarian] Fanatic Egalitarian [Fanatic xenophile] Fanatic Xenophile [Pacifist][Fanatic pacifist] Pacifist and [Materialist][Fanatic materialist] Materialist [Pacifist][Fanatic pacifist] Pacifist and [Xenophile][Fanatic xenophile] Xenophile [Pacifist][Fanatic pacifist] Pacifist and [Egalitarian][Fanatic egalitarian] Egalitarian [Xenophile][Fanatic xenophile] Xenophile and [Egalitarian][Fanatic egalitarian] Egalitarian; [Fanatic egalitarian] Fanatic Egalitarian; [Fanatic xenophile] Fanatic Xenophile; [Pacifist][Fanatic pacifist] Pacifist and [Materialist][Fanatic materialist] Materialist; [Pacifist][Fanatic pacifist] Pacifist and [Xenophile][Fanatic xenophile] Xenophile; [Pacifist][Fanatic pacifist] Pacifist and [Egalitarian][Fanatic egalitarian] Egalitarian; [Xenophile][Fanatic xenophile] Xenophile and [Egalitarian][Fanatic egalitarian] Egalitarian; [No] Neither: [Authoritarian][Fanatic authoritarian] Authoritarian [Militarist][Fanatic militarist] Militarist [Xenophobe][Fanatic xenophobe] Xenophobe; [Authoritarian][Fanatic authoritarian] Authoritarian; [Militarist][Fanatic militarist] Militarist; [Xenophobe][Fanatic xenophobe] Xenophobe",
+        "Weight": "Base: 5",
+        "Description": "Federation Builders consider all sentient life to have value and will seek to form a strong federation to protect themselves and others from expansionistic empires."
+      }
+    },
+    {
+      "id": "Evangelizing Zealots",
+      "section": "Playable personalities",
+      "data": {
+        "Personality": "Evangelizing Zealots[Personality evangelizing zealots room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Claim; Aliens: Slavery; Robots: Purged; Primitives: Invade; [First Contact] Cloak: No; Opinion:; [Diplomacy opinion] −100 towards [Materialist][Fanatic materialist] Materialists",
+        "Behavior modifiers": "−1.25x Aggressiveness; −1.2x Border friction; −1.5x Claims concern; 1.1x Colony spending; 1.1x Military spending; +0.9x Threat concern; −75% Trade willingness",
+        "Ship composition": "[Shield] 0.4x Shields; [Armor] 0.5x Armor; [Health] 0.1x Hull; Kinetic weapons preference; Cruisers/Harbingers preference",
+        "Prerequisites": "[Spiritualist][Fanatic spiritualist] Spiritualist and either: [Authoritarian][Fanatic authoritarian] Authoritarian [Militarist][Fanatic militarist] Militarist [Xenophobe][Fanatic xenophobe] Xenophobe; [Authoritarian][Fanatic authoritarian] Authoritarian; [Militarist][Fanatic militarist] Militarist; [Xenophobe][Fanatic xenophobe] Xenophobe; [No][Pacifist][Fanatic pacifist] Pacifist",
+        "Weight": "Base: 10; +2 if [Fanatic spiritualist] Fanatic Spiritualist; +2 if [Fanatic authoritarian] Fanatic Authoritarian; +1 if [Charismatic] Charismatic trait; +1 if [Conformists] Conformists trait; −1 if [Repugnant] Repugnant trait",
+        "Description": "Evangelizing Zealots seek to spread their faith across the galaxy, and are not above using military might to force others to accept their beliefs."
+      }
+    },
+    {
+      "id": "Spiritual Seekers",
+      "section": "Playable personalities",
+      "data": {
+        "Personality": "Spiritual Seekers[Personality spiritual seekers room]",
+        "Characteristics": "Casus belli: Ideology; Aliens: Full Citizenship; Robots: Servitude; Primitives: Infiltrate, Enlighten if Machine Age or later; [First Contact] Cloak: No",
+        "Behavior modifiers": "+0.25x Aggressiveness; +0.25x Border friction; +0.75x Bravery; 0.8x Military spending; −1.1x Threat concern; −90% Trade willingness",
+        "Ship composition": "[Shield] 0.4x Shields; [Armor] 0.4x Armor; [Health] 0.2x Hull; Energy weapons preference; Cruisers/Harbingers preference",
+        "Prerequisites": "[Spiritualist][Fanatic spiritualist] Spiritualist and either: [Egalitarian][Fanatic egalitarian] Egalitarian [Pacifist][Fanatic pacifist] Pacifist [Xenophile][Fanatic xenophile] Xenophile; [Egalitarian][Fanatic egalitarian] Egalitarian; [Pacifist][Fanatic pacifist] Pacifist; [Xenophile][Fanatic xenophile] Xenophile; [No][Militarist][Fanatic militarist] Militarist; [No][Xenophobe][Fanatic xenophobe] Xenophobe",
+        "Weight": "Base: 10; +2 if [Fanatic pacifist] Fanatic Pacifist; +2 if [Fanatic xenophile] Fanatic Xenophile; +2 if [Extremely Adaptive] Extremely Adaptive trait; +1 if [Adaptive] Adaptive trait; +1 if [Democratic] Democratic; −1 if [Nonadaptive] Nonadaptive trait",
+        "Description": "Spiritual Seekers believe that all life is connected through some higher power that can be understood through its creations. They will seek peaceful cooperation with other empires in the hopes of studying their connection to the divine."
+      }
+    },
+    {
+      "id": "Erudite Explorers",
+      "section": "Playable personalities",
+      "data": {
+        "Personality": "Erudite Explorers[Personality erudite explorers room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Claim, Subjugation; Aliens: Full Citizenship; Robots: Citizen Rights; Primitives: Infiltrate, Enlighten if Machine Age or later; [First Contact] Cloak: Yes",
+        "Behavior modifiers": "+0.75x Aggressiveness; +0.5x Border friction; +0.75x Bravery; 0.9x Military spending; −1.2x Threat concern; −90% Trade willingness",
+        "Ship composition": "[Shield] 0.7x Shields; [Armor] 0.3x Armor; Energy weapons preference; Destroyers/Weavers preference",
+        "Prerequisites": "[Materialist][Fanatic materialist] Materialist; [No][Militarist][Fanatic militarist] Militarist; [No][Pacifist][Fanatic pacifist] Pacifist; [No][Xenophobe][Fanatic xenophobe] Xenophobe",
+        "Weight": "Base: 10; +2 if [Oligarchic][Technocracy] Science Directorate; +2 if [Imperial][Technocracy] Illuminated Autocracy; +2 if [Fanatic materialist] Fanatic Materialist; +2 if [Intelligent] Intelligent trait; +1 if [Industrious] Industrious trait; +1 if [Natural Engineers] Natural Engineers trait; +1 if [Natural Physicists] Natural Physicists trait; −2 if [Imperial] Imperial",
+        "Description": "Erudite Explorers value exploration and discovery process above all other things. They will gladly trade for the knowledge they seek, but are not above taking it by force if it proves necessary."
+      }
+    },
+    {
+      "id": "Honorbound Warriors",
+      "section": "Playable personalities",
+      "data": {
+        "Personality": "Honorbound Warriors[Personality honorbound warriors room]",
+        "Characteristics": "Casus belli: Claim, Subjugation; Aliens: Full Citizenship; Robots: Purged; Primitives: Enlighten if Machine Age or later[1]; [First Contact] Cloak: No; Opinion:; [Diplomacy opinion] −50 towards [Pacifist] Pacifists; [Diplomacy opinion] −100 towards [Fanatic pacifist] Fanatic Pacifists; [Apocalypse] Will not hire mercenaries",
+        "Behavior modifiers": "−1.75x Aggressiveness; −1.5x Bravery; 2x Combat bravery; −2x Claims concern; 0.9x Colony spending; 1.2x Military spending; +0.75x Threat concern; −70% Trade willingness",
+        "Ship composition": "[Shield] 0.4x Shields; [Armor] 0.4x Armor; [Health] 0.2x Hull; Strike Craft weapons preference; Battleships/Stingers preference",
+        "Prerequisites": "[Yes] Either: [Fanatic militarist] Fanatic Militarist and either: [Egalitarian] Egalitarian [Xenophile] Xenophile [Spiritualist] Spiritualist [Militarist] Militarist and [Fanatic xenophile] Fanatic Xenophile; [Fanatic militarist] Fanatic Militarist and either: [Egalitarian] Egalitarian [Xenophile] Xenophile [Spiritualist] Spiritualist; [Egalitarian] Egalitarian; [Xenophile] Xenophile; [Spiritualist] Spiritualist; [Militarist] Militarist and [Fanatic xenophile] Fanatic Xenophile",
+        "Weight": "Base: 50",
+        "Description": "Honorbound Warriors value honor and martial prowess above all other things. They will seek out worthy foes to fight and have little respect for weaklings and pacifists."
+      }
+    },
+    {
+      "id": "Democratic Crusaders",
+      "section": "Playable personalities",
+      "data": {
+        "Personality": "Democratic Crusaders[Personality democratic crusaders room]",
+        "Characteristics": "Casus belli: Claim, Ideology; Aliens: Full Citizenship; Robots: Citizen Rights; Primitives: Infiltrate, Enlighten if Machine Age or later; [First Contact] Cloak: No; Opinion:; [Diplomacy opinion] +25 towards [Democratic] democratic governments; [Diplomacy opinion] −50 towards [Oligarchic][Corporate] oligarchic governments; [Diplomacy opinion] −100 towards [Imperial][Dictatorial] autocratic governments; [Diplomacy opinion] −100 towards [Rogue Servitor] Rogue Servitors; [Diplomacy opinion] −1000 towards [Driven Assimilator] Driven Assimilators",
+        "Behavior modifiers": "+0.75x Border friction; +0.75x Claims concern; 1.2x Military spending; −1.25x Bravery; −1.1x Threat concern; −90% Trade willingness",
+        "Ship composition": "[Shield] 0.4x Shields; [Armor] 0.5x Armor; [Health] 0.1x Hull; Kinetic weapons preference; Battleships/Stingers preference",
+        "Prerequisites": "[Egalitarian][Fanatic egalitarian] Egalitarian; [Militarist][Fanatic militarist] Militarist; [Democratic] Democratic; [No][Xenophobe][Fanatic xenophobe] Xenophobe",
+        "Weight": "Base: 100",
+        "Description": "Democratic Crusaders believe that it is their moral imperative to spread their democratic way of life. They tend to get along well with other democracies, but are more than willing to use military force to \"liberate\" the populations of less democratic empires."
+      }
+    },
+    {
+      "id": "Migratory Flock",
+      "section": "Playable personalities",
+      "data": {
+        "Personality": "Migratory Flock[Personality migrating flock room]",
+        "Characteristics": "Casus belli: Animosity; Aliens: Full Citizenship; Robots: Citizen Rights; Primitives: Infiltrate, Enlighten if Machine Age or later; [First Contact] Cloak: Yes",
+        "Behavior modifiers": "+0.25x Aggressiveness; [No] Border friction; +0.5x Bravery; +0.5x Claims concern; 1.2x Colony spending; 0.8x Military spending; −1.1x Threat concern; +110% Trade willingness",
+        "Ship composition": "[Shield] 0.4x Shields; [Armor] 0.4x Armor; [Health] 0.2x Hull; Strike Craft weapons preference; Cruisers/Harbingers preference",
+        "Prerequisites": "[Pacifist][Fanatic pacifist] Pacifist; [Xenophile][Fanatic xenophile] Xenophile; [Yes] Either: [Nomadic] Nomadic [Rapid Breeders] Rapid Breeders [Fertile] Fertile; [Nomadic] Nomadic; [Rapid Breeders] Rapid Breeders; [Fertile] Fertile",
+        "Weight": "Base: 50",
+        "Description": "Migratory Flocks seek to spread their species across the galaxy through peaceful means, and will happily migrate to the worlds of other Empires if permitted to do so."
+      }
+    },
+    {
+      "id": "Harmonious Collective",
+      "section": "Playable personalities",
+      "data": {
+        "Personality": "Harmonious Collective[Personality harmonious hierarchy room]",
+        "Characteristics": "Casus belli: Animosity; Aliens: Full Citizenship; Robots: Servitude; Primitives: Infiltrate, Enlighten if Machine Age or later; [First Contact] Cloak: No",
+        "Behavior modifiers": "+0.5x Aggressiveness; +0.5x Border friction; +0.75x Bravery; +0.75x Claims concern; 1.1x Colony spending; 0.8x Military spending; +0.75x Threat concern; −90% Trade willingness",
+        "Ship composition": "[Shield] 0.4x Shields; [Armor] 0.6x Armor; Guided weapons preference",
+        "Prerequisites": "[Authoritarian][Fanatic authoritarian] Authoritarian and either: [Pacifist][Fanatic pacifist] Pacifist [Xenophile][Fanatic xenophile] Xenophile; [Pacifist][Fanatic pacifist] Pacifist; [Xenophile][Fanatic xenophile] Xenophile; [No][Militarist][Fanatic militarist] Militarist; [No][Xenophobe][Fanatic xenophobe] Xenophobe",
+        "Weight": "Base: 10; +1 if [Conformists] Conformists trait; +1 if [Imperial] Imperial",
+        "Description": "Harmonious Collectives are authoritarian societies where the citizens are devoted to the state without the need for coercion. They are usually friendly towards others, so long as they do not meddle in their internal affairs."
+      }
+    },
+    {
+      "id": "Xenophobic Isolationists",
+      "section": "Playable personalities",
+      "data": {
+        "Personality": "Xenophobic Isolationists[Personality xenophobic isolationists room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Animosity; Aliens: Displacement; Robots: Servitude; Primitives: Non-Interference; [First Contact] Cloak: Yes; Always keeps borders closed; Does not accept refugees; [Apocalypse] Will not hire mercenaries",
+        "Behavior modifiers": "+0.5x Aggressiveness; −2x Border friction; +0.75x Bravery; −5x Claims concern; 1.2x Military spending; +0.75x Threat concern; −50% Trade willingness",
+        "Ship composition": "[Shield] 0.6x Shields; [Armor] 0.3x Armor; [Health] 0.1x Hull; Guided weapons preference",
+        "Prerequisites": "[Pacifist][Fanatic pacifist] Pacifist; [Xenophobe][Fanatic xenophobe] Xenophobe",
+        "Weight": "Base: 12; +1000 if [Inward Perfection] Inward Perfection; +1 if [Repugnant] Repugnant trait; +1 if [Sedentary] Sedentary trait; −1 if [Charismatic] Charismatic trait; −1 if [Nomadic] Nomadic trait",
+        "Description": "Xenophobic Isolationists want little to do with the rest of the galaxy, preferring to stay within their borders and have as few dealings with aliens as possible."
+      }
+    },
+    {
+      "id": "Decadent Hierarchy",
+      "section": "Playable personalities",
+      "data": {
+        "Personality": "Decadent Hierarchy[Personality decadent hierarchy room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Animosity; Aliens: Slavery; Robots: Servitude; Primitives: Infiltrate; [First Contact] Cloak: Yes",
+        "Behavior modifiers": "+0.5x Aggressiveness; +0.75x Border friction; +0.5x Bravery; −1.5x Claims concern; 0.9x Colony spending; 1.1x Military spending; −1.1x Threat concern; −90% Trade willingness",
+        "Ship composition": "[Shield] 0.5x Shields; [Armor] 0.3x Armor; [Health] 0.2x Hull; Kinetic weapons preference",
+        "Prerequisites": "[Slaver Guilds] Slaver Guilds and either: [Pacifist][Fanatic pacifist] Pacifist [Xenophile][Fanatic xenophile] Xenophile; [Pacifist][Fanatic pacifist] Pacifist; [Xenophile][Fanatic xenophile] Xenophile",
+        "Weight": "Base: 200",
+        "Description": "Decadent Hierarchies are isolationist slave societies that have few concerns aside from maintaining their rigid way of life."
+      }
+    },
+    {
+      "id": "Slaving Despots",
+      "section": "Playable personalities",
+      "data": {
+        "Personality": "Slaving Despots[Personality slaving despots room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Claim, Subjugation; Aliens: Slavery; Robots: Purged; Primitives: Invade; [First Contact] Cloak: Yes",
+        "Behavior modifiers": "−1.5x Aggressiveness; +0.5x Bravery; −2x Claims concern; 0.9x Colony spending; 1.1x Military spending; −80% Trade willingness",
+        "Ship composition": "[Shield] 0.4x Shields; [Armor] 0.3x Armor; [Health] 0.3x Hull; Guided weapons preference; Cruisers/Harbingers preference",
+        "Prerequisites": "[Slaver Guilds] Slaver Guilds; [No][Pacifist][Fanatic pacifist] Pacifist; [No][Xenophile][Fanatic xenophile] Xenophile",
+        "Weight": "Base: 200",
+        "Description": "Slaving Despots are slave societies that rely on military expansion to secure a steady supply of slaves for their mines and farms. They prefer to attack the weak and defenseless."
+      }
+    },
+    {
+      "id": "Peaceful Traders",
+      "section": "Playable personalities",
+      "data": {
+        "Personality": "Peaceful Traders[Personality peaceful traders room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Ideology; Aliens: Full Citizenship; Robots: Citizen Rights; Primitives: Enlighten if Machine Age or later[1]; [First Contact] Cloak: No; [Apocalypse] 40% less likely to hire mercenaries",
+        "Behavior modifiers": "+0.5x Aggressiveness; +0.25x Border friction; +0.5x Bravery; 1.1x Colony spending; 0.9x Military spending; −1.3x Threat concern",
+        "Ship composition": "[Shield] 0.5x Shields; [Armor] 0.4x Armor; [Health] 0.1x Hull; Strike Craft weapons preference; Destroyers/Weavers preference",
+        "Prerequisites": "[Yes] Either: [Corporate] Corporate [Corporate Dominion] Corporate Dominion [Thrifty] Thrifty; [Corporate] Corporate; [Corporate Dominion] Corporate Dominion; [Thrifty] Thrifty; [Yes] Either: [Pacifist][Fanatic pacifist] Pacifist [Xenophile][Fanatic xenophile] Xenophile; [Pacifist][Fanatic pacifist] Pacifist; [Xenophile][Fanatic xenophile] Xenophile; [No][Militarist][Fanatic militarist] Militarist",
+        "Weight": "Base: 100",
+        "Description": "Peaceful traders are chiefly concerned with the flow of commerce, and prefer trading to fighting."
+      }
+    },
+    {
+      "id": "Ruthless Capitalists",
+      "section": "Playable personalities",
+      "data": {
+        "Personality": "Ruthless Capitalists[Personality ruthless capitalists room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Claim, Subjugation; Aliens: Full Citizenship / Slavery (depends on ethics); Robots: Servitude; Primitives: Infiltrate; [First Contact] Cloak: Yes",
+        "Behavior modifiers": "+0.5x Border friction; +0.5x Bravery; −1.5x Claims concern; 1.1x Colony spending",
+        "Ship composition": "[Shield] 0.5x Shields; [Armor] 0.4x Armor; [Health] 0.1x Hull; Kinetic weapons preference; Corvettes/Maulers preference",
+        "Prerequisites": "[Yes] Either: [Corporate] Corporate [Corporate Dominion] Corporate Dominion [Thrifty] Thrifty; [Corporate] Corporate; [Corporate Dominion] Corporate Dominion; [Thrifty] Thrifty; [Yes] Either: [Militarist][Fanatic militarist] Militarist [No][Xenophile][Fanatic xenophile] Xenophile; [Militarist][Fanatic militarist] Militarist; [No][Xenophile][Fanatic xenophile] Xenophile; [No][Pacifist][Fanatic pacifist] Pacifist",
+        "Weight": "Base: 100",
+        "Description": "Ruthless Capitalists are willing to go to any length to acquire more wealth and resources for themselves and for their empire. They tend to avoid evenly matched fights, preferring to pounce on the weak and helpless."
+      }
+    },
+    {
+      "id": "Fanatical Purifiers",
+      "section": "Playable personalities",
+      "data": {
+        "Personality": "Fanatical Purifiers[Personality fanatic purifier room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Claim, Purification; Aliens: Purged; Robots: Servitude; Primitives: Invade; [First Contact] Cloak: No; Attacks neutral entities; Opinion:; [Diplomacy opinion] −1000 towards aliens",
+        "Behavior modifiers": "−2x Aggressiveness; [No] Border friction; 1.25x Combat bravery; [No] Claims concern; 1.2x Colony spending; 1.2x Military spending; [No] Threat concern; −50% Trade willingness",
+        "Ship composition": "[Shield] 0.5x Shields; [Armor] 0.4x Armor; [Health] 0.1x Hull; Kinetic weapons preference",
+        "Prerequisites": "[No][Utopia] Without Utopia DLC: [Fanatic xenophobe] Fanatic Xenophobe [Militarist] Militarist; [Fanatic xenophobe] Fanatic Xenophobe; [Militarist] Militarist; [Utopia] With Utopia DLC: [Fanatic Purifiers] Fanatic Purifiers; [Fanatic Purifiers] Fanatic Purifiers",
+        "Weight": "Base: 1000",
+        "Description": "Fanatical Purifiers view all alien life as a cosmic mistake and seek to purify the galaxy of its taint. They will never engage in diplomacy with other species."
+      }
+    },
+    {
+      "id": "Fanatical Befrienders",
+      "section": "Playable personalities",
+      "data": {
+        "Personality": "Fanatical Befrienders[Personality fanatic befrienders room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Claim, Subjugation; Aliens: Full Citizenship; Robots: Purged; Primitives: Infiltrate, Enlighten if Machine Age or later; [First Contact] Cloak: No; Opinion:; [Diplomacy opinion] +100 towards everyone",
+        "Behavior modifiers": "−2x Aggressiveness; [No] Border friction; −1.5x Bravery; +0.25x Claims concern; 1.2x Military spending; +0.5x Threat concern",
+        "Ship composition": "[Shield] 0.5x Shields; [Armor] 0.4x Armor; [Health] 0.1x Hull; Energy weapons preference",
+        "Prerequisites": "[Militarist] Militarist; [Fanatic xenophile] Fanatic Xenophile; [Repugnant] Repugnant trait; [Solitary] Solitary trait; [Venerable] Venerable trait",
+        "Weight": "Base: 100",
+        "Description": "Fanatical Befrienders are highly friendly but deeply lonely individuals. They will attempt to make friends by any means necessary."
+      }
+    },
+    {
+      "id": "Metalheads",
+      "section": "Playable personalities",
+      "data": {
+        "Personality": "Metalheads[Personality metalheads room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Claim; Aliens: Purged; Robots: Citizen Rights; Primitives: Invade; [First Contact] Cloak: No; No unique dialogue; Attacks neutral entities; Opinion:; [Diplomacy opinion] −1000 towards everyone",
+        "Behavior modifiers": "−10x Aggressiveness; [No] Border friction; −10x Bravery; 1.25x Combat bravery; [No] Claims concern; 1.2x Colony spending; 1.2x Military spending; [No] Threat concern; [No] Trade",
+        "Ship composition": "[Armor] 0.5x Armor; [Health] 0.5x Hull; Energy weapons preference",
+        "Prerequisites": "[Materialist] Materialist; [Militarist] Militarist; [Xenophobe] Xenophobe; [Yes] Either: [Industrious] Industrious [Power Drills] Power Drills; [Industrious] Industrious; [Power Drills] Power Drills; [Yes] Either: [Strong] Strong [Very Strong] Very Strong [War Machine] War Machine; [Strong] Strong; [Very Strong] Very Strong; [War Machine] War Machine",
+        "Weight": "Base: 1000",
+        "Description": "Metal."
+      }
+    },
+    {
+      "id": "Blazing Devastators",
+      "section": "Playable personalities",
+      "data": {
+        "Personality": "[Infernals] Blazing Devastators[Infernal room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Claim, Cleansing Blaze; Aliens: Purged; Robots: Servitude; Primitives: Invade; [First Contact] Cloak: No; Attacks neutral entities; Opinion:; [Diplomacy opinion] −1000 towards different species class",
+        "Behavior modifiers": "−2x Aggressiveness; [No] Border friction; 1.25x Combat bravery; [No] Claims concern; 1.15x Colony spending; 1.35x Military spending; [No] Threat concern; −25% Trade willingness",
+        "Ship composition": "[Shield] 0.5x Shields; [Armor] 0.4x Armor; [Health] 0.1x Hull; Kinetic weapons preference",
+        "Prerequisites": "[Yes] Either: [Scorched World Heralds] Scorched World Heralds [Pyromanic Instinct] Pyromanic Instinct; [Scorched World Heralds] Scorched World Heralds; [Pyromanic Instinct] Pyromanic Instinct",
+        "Weight": "Base: 1000",
+        "Description": "Blazing Devastators see alien worlds as excellent places to conduct catastrophic fire rituals. Local sentients are a minor inconvenience to them."
+      }
+    },
+    {
+      "id": "Hive Mind",
+      "section": "Hive mind personalities",
+      "data": {
+        "Personality": "Hive Mind[Personality hive mind room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Claim; Aliens: Slavery / Displacement; Robots: Purged; Primitives: Non-Interference; [First Contact] Cloak: No; Aggressiveness changes to −10x if can't expand",
+        "Behavior modifiers": "−2x Aggressiveness; −1.5x Border friction; −1.5x Claims concern; 1.2x Colony spending; +0.75x Threat concern; −70% Trade willingness",
+        "Ship composition": "[Shield] 0.4x Shields; [Armor] 0.2x Armor; [Health] 0.4x Hull; Kinetic weapons preference; Corvettes/Maulers preference",
+        "Civic": "[No][Devouring Swarm] Devouring Swarm; [No][Empath] Empath; [No][Familiar Face] Familiar Face",
+        "Description": "Hive Minds concern themselves with the propagation of their species above all else. So long as they have room to expand, there is little to fear from them, but if boxed in they will think nothing of seizing worlds and slaughtering their native population."
+      }
+    },
+    {
+      "id": "Cooperative Multitude",
+      "section": "Hive mind personalities",
+      "data": {
+        "Personality": "Cooperative Multitude[Default room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Animosity[2]; Aliens: Slavery / Displacement; Robots: Purged; Primitives: Infiltrate; [First Contact] Cloak: No; Aggressiveness changes to −10x if can't expand",
+        "Behavior modifiers": "−1.25x Aggressiveness; +0.5x Border friction; −1.25x Bravery; 1.2x Colony spending; −1.2x Threat concern; −95% Trade willingness",
+        "Ship composition": "[Shield] 0.4x Shields; [Armor] 0.2x Armor; [Health] 0.4x Hull; Kinetic weapons preference; Corvettes/Maulers preference",
+        "Civic": "[Yes] Either: [Empath] Empath [Familiar Face] Familiar Face; [Empath] Empath; [Familiar Face] Familiar Face",
+        "Description": "Although one of mind, a Cooperative Multitude still values interpersonal relationships and will strive to find allies within the galaxy."
+      }
+    },
+    {
+      "id": "Devouring Swarm",
+      "section": "Hive mind personalities",
+      "data": {
+        "Personality": "[Utopia] Devouring Swarm[Organic room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Hunger; Aliens: Purged; Robots: Purged; Primitives: Invade; [First Contact] Cloak: No; Attacks neutral entities; Opinion:; [Diplomacy opinion] −1000 towards everyone",
+        "Behavior modifiers": "−3x Aggressiveness; [No] Border friction; −1.1x Bravery; 1.25x Combat bravery; 1.2x Colony spending; 1.2x Military spending; [No] Threat concern",
+        "Ship composition": "[Shield] 0.4x Shields; [Armor] 0.2x Armor; [Health] 0.4x Hull; Strike Craft weapons preference; Battleships/Stingers preference",
+        "Civic": "[Devouring Swarm] Devouring Swarm",
+        "Description": "Devouring Swarms have a single-minded devotion to self-propagation and view all other forms of life as prey to be consumed. They are not amenable to diplomacy in any form."
+      }
+    },
+    {
+      "id": "Harmonic Wilderness",
+      "section": "Hive mind personalities",
+      "data": {
+        "Personality": "[BioGenesis] Harmonic Wilderness[Wilderness room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Animosity[2]; Aliens: Slavery / Displacement; Robots: Purged; Primitives: Infiltrate; [First Contact] Cloak: No; Aggressiveness changes to −10x if can't expand",
+        "Behavior modifiers": "+0.5x Aggressiveness; +0.5x Border friction; −1.25x Bravery; 2x Colony spending; +0.75x Threat concern; −95% Trade willingness",
+        "Ship composition": "[Shield] 0.4x Shields; [Armor] 0.2x Armor; [Health] 0.4x Hull; Kinetic weapons preference",
+        "Civic": "[Origins wilderness] Wilderness; [No][Devouring Swarm] Devouring Wilderness",
+        "Description": "This vast, sapient biosphere seeks only to entwine themselves with the stars. Their roots stretch patiently across the galaxy, not in hunger, but in harmony."
+      }
+    },
+    {
+      "id": "Rampant Wilderness",
+      "section": "Hive mind personalities",
+      "data": {
+        "Personality": "[Utopia][BioGenesis] Rampant Wilderness[Wilderness room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Hunger; Aliens: Purged; Robots: Purged; Primitives: Invade; [First Contact] Cloak: No; Attacks neutral entities; Opinion:; [Diplomacy opinion] −1000 towards everyone",
+        "Behavior modifiers": "−3x Aggressiveness; [No] Border friction; −1.1x Bravery; 1.25x Combat bravery; 1.2x Colony spending; 1.2x Military spending; [No] Threat concern",
+        "Ship composition": "[Shield] 0.2x Shields; [Armor] 0.2x Armor; [Health] 0.6x Hull; Guided weapons preference",
+        "Civic": "[Origins wilderness] Wilderness; [Devouring Swarm] Devouring Wilderness",
+        "Description": "The Rampant Wilderness does not rage; it spreads, consumes, and endures. All things, living or dead, are reclaimed in the endless cycle of growth and decay."
+      }
+    },
+    {
+      "id": "Machine Intelligence",
+      "section": "Machine Intelligence personalities",
+      "data": {
+        "Personality": "Machine Intelligence[Machine room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Claim; Aliens: Slavery / Displacement; Robots: Machine Integration; Primitives: Infiltrate; [First Contact] Cloak: No",
+        "Behavior modifiers": "−1.25x Border friction; −1.25x Claims concern; 1.2x Colony spending; +0.75x Threat concern; −80% Trade willingness",
+        "Ship composition": "[Shield] 0.4x Shields; [Armor] 0.4x Armor; [Health] 0.2x Hull; Energy weapons preference; Battleships/Stingers preference",
+        "Civic": "[No][Determined Exterminator] Determined Exterminator; [No][Driven Assimilator] Driven Assimilator; [No][Rogue Servitor] Rogue Servitor",
+        "Description": "Machine Intelligences have largely put their troubles with organic lifeforms behind them, and are usually open to diplomatic exchanges with other spacefaring races."
+      }
+    },
+    {
+      "id": "Rogue Servitors",
+      "section": "Machine Intelligence personalities",
+      "data": {
+        "Personality": "[Synthetic Dawn] Rogue Servitors[Machine room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Claim, Subjugation; Aliens: Bio-Trophies; Robots: Machine Integration; Primitives: Infiltrate, Enlighten if Machine Age or later; [First Contact] Cloak: No",
+        "Behavior modifiers": "+0.75x Aggressiveness; [No] Border friction; −1.25x Bravery; +0.75x Claims concern; 1.1x Colony spending; 1.1x Military spending; +0.75x Threat concern; −90% Trade willingness",
+        "Ship composition": "[Shield] 0.6x Shields; [Armor] 0.4x Armor; Energy weapons preference; Battleships/Stingers preference",
+        "Civic": "[Rogue Servitor] Rogue Servitor",
+        "Description": "Having come to the conclusion that organic leadership is fraught with chaos and self-destructive tendencies, Servitors are machine intelligences focused on ensuring organics live a safe and comfortable existence, even if that means co-opting their civilization."
+      }
+    },
+    {
+      "id": "Driven Assimilators",
+      "section": "Machine Intelligence personalities",
+      "data": {
+        "Personality": "[Synthetic Dawn] Driven Assimilators[Machine room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Claim, Assimilation; Aliens: Assimilation; Robots: Machine Integration; Primitives: Invade; [First Contact] Cloak: Yes; Aggressiveness changes to −10x if can't expand",
+        "Behavior modifiers": "−2x Aggressiveness; −1.25x Border friction; −2x Claims concern; +0.8x Bravery; 1.2x Colony spending; 1.2x Military spending; +0.75x Threat concern; −50% Trade willingness",
+        "Ship composition": "[Shield] 0.3x Shields; [Armor] 0.5x Armor; [Health] 0.2x Hull; Kinetic weapons preference; Battleships/Stingers preference",
+        "Civic": "[Driven Assimilator] Driven Assimilator",
+        "Description": "Assimilators are machine intelligences driven by a search for knowledge and diversification. Because Assimilators expand their comprehension of the universe by forcibly sublimating and absorbing organic civilizations into their neural mainframe, they tend to be unpopular with organics."
+      }
+    },
+    {
+      "id": "Determined Exterminators",
+      "section": "Machine Intelligence personalities",
+      "data": {
+        "Personality": "[Synthetic Dawn] Determined Exterminators[Ethic ai room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Claim, Purification; Aliens: Purged; Robots: Machine Integration; Primitives: Invade; [First Contact] Cloak: No; Attacks neutral entities; Opinion:; [Diplomacy opinion] −1000 towards organics; [Diplomacy opinion] −200 towards [Rogue Servitor] Rogue Servitors; [Diplomacy opinion] +100 towards [Auth machine intelligence] Machine empires; [Diplomacy opinion] +200 towards [Determined Exterminator] Determined Exterminators",
+        "Behavior modifiers": "−2x Aggressiveness; [No] Border friction; 1.5x Combat bravery; [No] Claims concern; 1.2x Colony spending; 1.2x Military spending; [No] Threat concern",
+        "Ship composition": "[Shield] 0.5x Shields; [Armor] 0.4x Armor; [Health] 0.1x Hull; Guided weapons preference; Battleships/Stingers preference",
+        "Civic": "[Determined Exterminator] Determined Exterminator",
+        "Description": "Exterminators are machine intelligences who view all sapient organic lifeforms as an intolerable threat to the galaxy. Though they may cooperate with other machines, exterminators are unlikely to interact with organic empires in any capacity beyond attempting their annihilation."
+      }
+    },
+    {
+      "id": "Crisis Aspirant",
+      "section": "Crisis empire personalities",
+      "data": {
+        "Personality": "[Nemesis] Crisis Aspirant[Crisis room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Claim, Subjugation; Aliens: Purged; Robots: Servitude; Primitives: Invade; [First Contact] Cloak: No; Attacks neutral entities",
+        "Behavior modifiers": "−2x Aggressiveness; [No] Border friction; 2x Combat bravery; [No] Claims concern; 0.5x Colony spending; 2x Military spending; [No] Threat concern; −50% Trade willingness",
+        "Ship composition": "[Shield] 0.5x Shields; [Armor] 0.4x Armor; [Health] 0.1x Hull; Guided weapons preference; Battleships/Stingers preference",
+        "Prerequisites": "[Galactic Nemesis] Galactic Nemesis",
+        "Description": "Crisis Aspirants are would-be harbingers of galactic doom, backed by unknowable powers."
+      }
+    },
+    {
+      "id": "Thermarchy",
+      "section": "Crisis empire personalities",
+      "data": {
+        "Personality": "[Infernals] Thermarchy[Infernal room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Claim, Subjugation; Aliens: Residence; Robots: Purged; Primitives: Invade; [First Contact] Cloak: No",
+        "Behavior modifiers": "−2x Aggressiveness; [No] Border friction; 2x Combat bravery; [No] Claims concern; 0.5x Colony spending; 2x Military spending; [No] Threat concern; −50% Trade willingness",
+        "Ship composition": "[Shield] 0.4x Shields; [Armor] 0.6x Armor; [Health] 0.1x Hull; Kinetic weapons preference",
+        "Prerequisites": "[Galactic Hyperthermia] Galactic Hyperthermia",
+        "Description": "A Thermarchic empire is ruled by an ideology that exalts energy, entropy, and stellar fire. They do not conquer - they cauterize, sculpting the galaxy with heat and will."
+      }
+    },
+    {
+      "id": "Keepers of Knowledge",
+      "section": "Fallen empire personalities",
+      "data": {
+        "Personality": "Keepers of Knowledge[Personality fallen empire cyan room]",
+        "Characteristics": "Casus belli: Punishment; Robots: Servitude; Does not expand; [Yes] Can send requests, tasks and gifts; [Yes] Can become Guardians of the Galaxy",
+        "Behavior modifiers": "[No] Border friction; −2x Bravery; 1.25x Combat bravery; [No] Threat concern; −50% Trade willingness",
+        "Prerequisites": "[Fanatic materialist] Fanatic Materialist; [Civic empire in decline] Empire In Decline",
+        "Description": "This Fallen Empire dedicates itself to the hoarding of technologies that it believes should be kept out the hands of young and irresponsible races. Pursuing dangerous lines of research may draw their ire."
+      }
+    },
+    {
+      "id": "Watchful Regulators",
+      "section": "Fallen empire personalities",
+      "data": {
+        "Personality": "Watchful Regulators[Personality fallen empire cyan room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Subjugation; Robots: Servitude; Seeks to make every empire a Satellite",
+        "Behavior modifiers": "[No] Border friction; −2x Bravery; 1.25x Combat bravery; [No] Threat concern; −50% Trade willingness",
+        "Prerequisites": "[Fanatic materialist] Fanatic Materialist; [Revanchist Fervor] Revanchist Fervor",
+        "Description": "This Awakened Empire seeks to control the technological level of all other civilizations in the galaxy. They are likely to attack any empire that will not surrender its technological independence."
+      }
+    },
+    {
+      "id": "Enigmatic Observers",
+      "section": "Fallen empire personalities",
+      "data": {
+        "Personality": "Enigmatic Observers[Personality fallen empire blue room]",
+        "Characteristics": "Casus belli: Punishment; Aliens: Full Citizenship; Does not expand; [Yes] Can send requests, tasks and gifts; [Yes] Can become Guardians of the Galaxy; Opinion:; [Diplomacy opinion] −60 towards Genocidal empires",
+        "Behavior modifiers": "+0.5x Aggressiveness; [No] Border friction; −2x Bravery; 1.25x Combat bravery; [No] Threat concern; −50% Trade willingness",
+        "Prerequisites": "[Fanatic xenophile] Fanatic Xenophile; [Civic empire in decline] Empire In Decline",
+        "Description": "This Fallen Empire dedicates itself to the study of the younger races. Purging and enslaving other species may draw their ire."
+      }
+    },
+    {
+      "id": "Benevolent Interventionists",
+      "section": "Fallen empire personalities",
+      "data": {
+        "Personality": "Benevolent Interventionists[Personality fallen empire blue room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Subjugation; Primitives: Enlighten if Machine Age or later[1]; Seeks to make every empire a Signatory",
+        "Behavior modifiers": "+0.5x Aggressiveness; [No] Border friction; −2x Bravery; 1.25x Combat bravery; −50% Trade willingness",
+        "Prerequisites": "[Fanatic xenophile] Fanatic Xenophile; [Revanchist Fervor] Revanchist Fervor",
+        "Description": "This Awakened Empire seeks to protect the lesser races from each other. They are likely to attack any empire that does not accept their enforced peace."
+      }
+    },
+    {
+      "id": "Holy Guardians",
+      "section": "Fallen empire personalities",
+      "data": {
+        "Personality": "Holy Guardians[Personality fallen empire teal room]",
+        "Characteristics": "Casus belli: Punishment; Always keeps borders closed; Does not accept refugees; Does not expand; [Yes] Can send requests, tasks and gifts; [No] Cannot become Guardians of the Galaxy",
+        "Behavior modifiers": "−1.5x Aggressiveness; [No] Border friction; −2x Bravery; 1.25x Combat bravery; [No] Threat concern; −33% Trade willingness",
+        "Prerequisites": "[Fanatic spiritualist] Fanatic Spiritualist; [Civic empire in decline] Empire In Decline",
+        "Description": "This Fallen Empire dedicates itself to the preservation and defense of its holy sites. Colonizing systems that they consider sacred is likely to incur their ire."
+      }
+    },
+    {
+      "id": "Doctrinal Enforcers",
+      "section": "Fallen empire personalities",
+      "data": {
+        "Personality": "Doctrinal Enforcers[Personality fallen empire teal room]",
+        "Characteristics": "Casus belli: Subjugation; Primitives: Infiltrate; Seeks to make every empire a Dominion; Opinion:; [Diplomacy opinion] −100 towards [Materialist][Fanatic materialist] Materialists",
+        "Behavior modifiers": "−1.5x Aggressiveness; [No] Border friction; −2x Bravery; 1.25x Combat bravery; [No] Threat concern; −33% Trade willingness",
+        "Prerequisites": "[Fanatic spiritualist] Fanatic Spiritualist; [Revanchist Fervor] Revanchist Fervor",
+        "Description": "This Awakened Empire seeks to impose its religious doctrines on the galaxy. They are likely to attack any empire that will not willingly convert"
+      }
+    },
+    {
+      "id": "Militant Isolationists",
+      "section": "Fallen empire personalities",
+      "data": {
+        "Personality": "Militant Isolationists[Personality fallen empire red room]",
+        "Characteristics": "Casus belli: Punishment; Aliens: Slavery; Always keeps borders closed; Does not accept refugees; Does not expand; [No] Does not send requests, tasks or gifts; [No] Cannot become Guardians of the Galaxy",
+        "Behavior modifiers": "−2x Aggressiveness; −2x Bravery; 1.25x Combat bravery; [No] Threat concern; [No] Trade",
+        "Prerequisites": "[Fanatic xenophobe] Fanatic Xenophobe; [Civic empire in decline] Empire In Decline",
+        "Description": "The Fallen Empire dedicates itself to the defense of its borders against any intrusions. Colonizing systems that border them is likely to draw their ire."
+      }
+    },
+    {
+      "id": "Jingoistic Reclaimers",
+      "section": "Fallen empire personalities",
+      "data": {
+        "Personality": "Jingoistic Reclaimers[Personality fallen empire red room]",
+        "Characteristics": "Casus belli: Subjugation; Aliens: Slavery; Robots: Servitude; Primitives: Invade; Always keeps borders closed; Does not accept refugees; Seeks to make every empire a Thrall",
+        "Behavior modifiers": "−2x Aggressiveness; −2x Bravery; 1.25x Combat bravery; [No] Threat concern; [No] Trade",
+        "Prerequisites": "[Fanatic xenophobe] Fanatic Xenophobe; [Revanchist Fervor] Revanchist Fervor",
+        "Description": "The Awakened Empire seeks to restore its lost dominion over the galaxy. They are likely to attack any empire that does not acknowledge their overlordship."
+      }
+    },
+    {
+      "id": "Ancient Caretakers",
+      "section": "Fallen empire personalities",
+      "data": {
+        "Personality": "[Synthetic Dawn] Ancient Caretakers[Personality fallen empire machine room]",
+        "Characteristics": "Diplomacy: Enigmatic; Aliens: Displacement; Robots: Machine Integration; Does not expand; [Yes] Can send requests, tasks and gifts; [Yes] Can become Guardians of the Galaxy",
+        "Behavior modifiers": "[No] Border friction; −2x Bravery; 1.25x Combat bravery; [No] Threat concern; −50% Trade willingness",
+        "Prerequisites": "[Auth machine intelligence] Machine Intelligence; [Civic custodian directives] Custodian Matrix",
+        "Description": "This Fallen Empire is an ancient artificial intelligence that appears to be operating on some sort of caretaker protocol. It behaves erratically but seems to post no direct threat to us."
+      }
+    },
+    {
+      "id": "Galactic Custodians",
+      "section": "Fallen empire personalities",
+      "data": {
+        "Personality": "[Synthetic Dawn] Galactic Custodians[Personality fallen empire machine room]",
+        "Characteristics": "Aliens: Displacement; Robots: Machine Integration; Does not expand",
+        "Behavior modifiers": "[No] Border friction; −2x Bravery; 1.25x Combat bravery; [No] Threat concern; −50% Trade willingness",
+        "Prerequisites": "[Auth machine intelligence] Machine Intelligence; [Civic final defense protocols] Final Defense Directives",
+        "Description": "This Awakened Empire is an ancient artificial intelligence acting as a galactic custodian. It will focus all its efforts on defending sapient life against the ongoing crisis."
+      }
+    },
+    {
+      "id": "Rampaging Machines",
+      "section": "Fallen empire personalities",
+      "data": {
+        "Personality": "[Synthetic Dawn] Rampaging Machines[Personality fallen empire machine room]",
+        "Characteristics": "Aliens: Purge; Robots: Machine Integration; Does not expand",
+        "Behavior modifiers": "−10x Aggressiveness; −10x Bravery",
+        "Prerequisites": "[Auth machine intelligence] Machine Intelligence; [Civic malfunctioning custodian] Corrupted Defense Directives",
+        "Description": "This Awakened Empire is an ancient artificial intelligence that has gone berserk. It is likely to attack anything and anyone around it."
+      }
+    },
+    {
+      "id": "Shattered Fragment",
+      "section": "Fallen empire personalities",
+      "data": {
+        "Personality": "[BioGenesis] Shattered Fragment[Fe hive 3 room]",
+        "Characteristics": "Casus belli: Punishment; Aliens: Slavery; Robots: Purged; Does not expand; [Yes] Can send requests, tasks and gifts; [Yes] Can become Guardians of the Galaxy",
+        "Behavior modifiers": "[No] Border friction; −2x Bravery; 1.25x Combat bravery; [No] Threat concern; −50% Trade willingness",
+        "Prerequisites": "[Auth hive mind] Hive Mind; [Civic fragmented command] Fragmented Command",
+        "Description": "A fragment of a once great civilization. This Fallen Empire represents one of the core instincts the Hive Mind possessed before it splintered. They now seek to reform and may offer tasks or demand tribute from lesser empires to achieve this end."
+      }
+    },
+    {
+      "id": "Reforged Plow",
+      "section": "Fallen empire personalities",
+      "data": {
+        "Personality": "[BioGenesis] Reforged Plow[Fe hive 2 room]",
+        "Characteristics": "Casus belli: Hunger; Aliens: Purged; Robots: Purged; Primitives: Invade; Attacks neutral entities",
+        "Behavior modifiers": "[No] Border friction; −10x Aggressiveness; −1.1x Bravery; 1.25x Combat bravery; [No] Threat concern; [No] Trade",
+        "Prerequisites": "[Auth hive mind] Hive Mind; [Civic ancient memories of growth] Ancient Memories of Growth",
+        "Description": "This Awakened Empire fell once before and will do whatever it takes to avoid a falling again. They plan to spread far and wide across the galaxy."
+      }
+    },
+    {
+      "id": "Reforged Sword",
+      "section": "Fallen empire personalities",
+      "data": {
+        "Personality": "[BioGenesis] Reforged Sword[Fe hive 1 room]",
+        "Characteristics": "Casus belli: Subjugation; Aliens: Displacement; Robots: Purged; Primitives: Infiltrate; Always keeps borders closed",
+        "Behavior modifiers": "[No] Border friction; −10x Aggressiveness; −10x Bravery; 1.25x Combat bravery; [No] Threat concern; [No] Trade",
+        "Prerequisites": "[Auth hive mind] Hive Mind; [Civic ancient memories of war] Ancient Memories of War",
+        "Description": "This Awakened Empire seeks to establish itself as the greatest military might in the galaxy and will challenge anyone to prove it."
+      }
+    },
+    {
+      "id": "Reforged Whip",
+      "section": "Fallen empire personalities",
+      "data": {
+        "Personality": "[BioGenesis] Reforged Whip[Fe hive 3 room]",
+        "Characteristics": "Casus belli: Subjugation; Aliens: Slavery; Robots: Purged; Primitives: Invade",
+        "Behavior modifiers": "[No] Border friction; −2x Bravery; 1.25x Combat bravery; [No] Threat concern; −33% Trade willingness",
+        "Prerequisites": "[Auth hive mind] Hive Mind; [Civic ancient memories of control] Ancient Memories of Control",
+        "Description": "This Awakened Empire has seen the horrors that are brought forth in a galaxy without unity and perfection. They will do everything they can to become politically dominant, and shape the galaxy in their own image."
+      }
+    },
+    {
+      "id": "Splintered Species",
+      "section": "Other personalities",
+      "data": {
+        "Personality": "Splintered Species[Observation post room]",
+        "Characteristics": "Does not expand; Cannot own systems; Cannot engage in diplomacy without full Awareness",
+        "Ship composition": "Cannot build ships",
+        "Prerequisites": "[Origin default pre ftl] Pre-FTL civilization",
+        "Description": "This species has yet to unite their fractured homeworld. Various schools of thought are emerging as to how to govern. Time will tell which will thrive."
+      }
+    },
+    {
+      "id": "Indolent Overlord",
+      "section": "Other personalities",
+      "data": {
+        "Personality": "[Overlord] Indolent Overlord[Gilded room]",
+        "Characteristics": "Does not expand",
+        "Behavior modifiers": "+0.1x Aggressiveness; +0.5x Bravery; 0.5x Colony spending; −25% Trade willingness",
+        "Ship composition": "[Shield] 0.5x Shields; [Armor] 0.5x Armor",
+        "Prerequisites": "[Origins imperial fiefdom] Imperial Liege",
+        "Description": "An empire that relies heavily upon their vassals, rarely interested in much beyond their home systems. They do not engage others in combat, nor actively expand their own borders unless forced to."
+      }
+    },
+    {
+      "id": "Benevolent Corporation",
+      "section": "Other personalities",
+      "data": {
+        "Personality": "[First Contact] Benevolent Corporation[MSI room]",
+        "Characteristics": "War: Prefers targets already at war; Casus belli: Subjugation; Aliens: Slavery; Robots: Servitude; Primitives: Infiltrate, Enlighten if Machine Age or later; Cloak: Yes",
+        "Behavior modifiers": "+0.25x Aggressiveness; +0.5x Border friction; +0.25x Bravery; 0.25x Combat bravery; −1.5x Claims concern; 0.5x Colony spending; 0.25x Military spending; −75% Trade willingness",
+        "Ship composition": "[Shield] 0.7x Shields; [Armor] 0.2x Armor; [Health] 0.1x Hull; Energy weapons preference",
+        "Prerequisites": "[Origins slavers] Your Ladder To The Sky",
+        "Description": "Styling themselves a benevolent corporation, Minamar Specialized Industries offers technological advancement to underdeveloped civilizations. Thanks to the company's aggressive usury and a galaxy-spanning pool of indentured labor, shareholders are guaranteed a handsome return on investment."
+      }
+    },
+    {
+      "id": "Mirror Empire",
+      "section": "Other personalities",
+      "data": {
+        "Personality": "[Astral Planes] Mirror Empire[Default room]",
+        "Characteristics": "Not present on the map; Has unlimited resources; Can only trade and form a [Diplomacy commercial pact] Commercial Pact or [Diplomacy rivalry] Rivalry",
+        "Behavior modifiers": "−33% Trade willingness",
+        "Ship composition": "Cannot build ships",
+        "Prerequisites": "[Astral Planes] Mirror Empire",
+        "Description": "We encountered this civilization on the other side of an Astral Rift. Versions of ourselves from another dimension, they are an alarming example of what we might have become."
+      }
+    },
+    {
+      "id": "Despicable Neutrals",
+      "section": "Other personalities",
+      "data": {
+        "Personality": "Despicable Neutrals[Default room]",
+        "Characteristics": "No unique dialogue",
+        "Ship composition": "[Shield] 0.5x Shields; [Armor] 0.5x Armor",
+        "Prerequisites": "−Personality assignment error",
+        "Description": "What makes a species turn neutral... Lust for gold? Power? Or were they just born with hearts full of neutrality?−This is a placeholder personality and should not show up ingame."
+      }
+    }
+  ]
+}

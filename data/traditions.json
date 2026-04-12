@@ -1,0 +1,224 @@
+{
+  "category": "traditions",
+  "source": "Stellaris Wiki (4.x)",
+  "extracted": "2026-04-12",
+  "count": 24,
+  "items": [
+    {
+      "id": "Adaptability",
+      "section": "Standard trees",
+      "data": {
+        "Gestalt variant": "Versatility",
+        "Focus": "Planet efficiency and empire bonuses",
+        "Traditions": "Enhanced Recycling; Environmental Diversification; Survival of the Fittest; Adaptive Ecology; Appropriation"
+      }
+    },
+    {
+      "id": "Harmony",
+      "section": "Standard trees",
+      "data": {
+        "Gestalt variant": "Synchronicity",
+        "Focus": "Empire management and stability",
+        "Traditions": "Mind and Body; Kinship; The Greater Good; Harmonious Directives; Utopian Dream"
+      }
+    },
+    {
+      "id": "Commerce",
+      "section": "Standard trees",
+      "data": {
+        "Gestalt variant": "Logistics",
+        "Focus": "Trade and commercial bonuses",
+        "Traditions": "Trickle Up Economics; Adaptive Economic Policies; Commercial Enterprise; Marketplace of Better Ideas; Insider Trading"
+      }
+    },
+    {
+      "id": "Diplomacy",
+      "section": "Standard trees",
+      "data": {
+        "Gestalt variant": "None (unavailable to Gestalt)",
+        "Focus": "Diplomatic relations and federations",
+        "Traditions": "The Federation; Diplomatic Networking; Entente Coordination; Direct Diplomacy; Eminent Diplomats"
+      }
+    },
+    {
+      "id": "Discovery",
+      "section": "Standard trees",
+      "data": {
+        "Gestalt variant": "Same (with naming variants)",
+        "Focus": "Exploration and research",
+        "Traditions": "To Boldly Go; Science Division; Database Uplinks; Polytechnic Education; Faith in Science"
+      }
+    },
+    {
+      "id": "Domination",
+      "section": "Standard trees",
+      "data": {
+        "Gestalt variant": "Same (with different effects)",
+        "Focus": "Planet management and worker output",
+        "Traditions": "Colonial Viceroys; Imperious Architecture; Judgment Corps; Privy Council; Workplace Motivators"
+      }
+    },
+    {
+      "id": "Expansion",
+      "section": "Standard trees",
+      "data": {
+        "Gestalt variant": "Same (with variants)",
+        "Focus": "Territory expansion and colonization",
+        "Traditions": "Reach for the Stars; Colonization Fever; Courier Network; Galactic Ambition; A New Life"
+      }
+    },
+    {
+      "id": "Prosperity",
+      "section": "Standard trees",
+      "data": {
+        "Gestalt variant": "Same (with naming variants)",
+        "Focus": "Empire-wide economic bonuses",
+        "Traditions": "Administrative Operations; Standard Construction Templates; The Pursuit of Profit; Interstellar Franchising; Public Works Division"
+      }
+    },
+    {
+      "id": "Supremacy",
+      "section": "Standard trees",
+      "data": {
+        "Gestalt variant": "Same",
+        "Focus": "Fleets and military",
+        "Traditions": "Master Shipwrights; Fleet Logistics Corps; Overwhelming Force; War Games; The Great Game"
+      }
+    },
+    {
+      "id": "Fortification",
+      "section": "DLC trees",
+      "data": {
+        "DLC": "Apocalypse/Overlord",
+        "Focus": "Defensive starbases and war",
+        "Traditions": "Resistance is Frugal; Defensive Zeal; Never Surrender; Fortress Doctrine; Bulwark of Harmony"
+      }
+    },
+    {
+      "id": "Enmity",
+      "section": "DLC trees",
+      "data": {
+        "DLC": "Humanoids",
+        "Focus": "Rivalry bonuses",
+        "Traditions": "Rise to the Occasion; Match; Consummate Contrarian; Outpace; Eclipse"
+      }
+    },
+    {
+      "id": "Politics",
+      "section": "DLC trees",
+      "data": {
+        "DLC": "Federations",
+        "Focus": "Galactic Community power",
+        "Traditions": "Political Savvy; Committee Networking; Insider Knowledge; Diplomatic Corps; Galactic Mediation"
+      }
+    },
+    {
+      "id": "Subterfuge",
+      "section": "DLC trees",
+      "data": {
+        "DLC": "Nemesis",
+        "Focus": "Espionage and covert operations",
+        "Traditions": "Varies"
+      }
+    },
+    {
+      "id": "Mercantile",
+      "section": "DLC trees",
+      "data": {
+        "DLC": "MegaCorp",
+        "Focus": "Internal market and trade policy",
+        "Traditions": "Varies"
+      }
+    },
+    {
+      "id": "Psionics",
+      "section": "Ascension path trees",
+      "data": {
+        "Focus": "Psionic abilities and Shroud",
+        "Requirements": "Mind Over Matter ascension perk",
+        "DLC": "Utopia/Shadows of the Shroud"
+      }
+    },
+    {
+      "id": "Cybernetics",
+      "section": "Ascension path trees",
+      "data": {
+        "Focus": "Cybernetic augmentation",
+        "Requirements": "The Flesh is Weak ascension perk",
+        "DLC": "Utopia/The Machine Age"
+      }
+    },
+    {
+      "id": "Genetics",
+      "section": "Ascension path trees",
+      "data": {
+        "Focus": "Genetic modification",
+        "Requirements": "Biomorphosis ascension perk",
+        "DLC": "Utopia/BioGenesis"
+      }
+    },
+    {
+      "id": "Cloning",
+      "section": "Ascension path trees (BioGenesis)",
+      "data": {
+        "Focus": "Clone growth and replication",
+        "Requirements": "Biomorphosis ascension perk",
+        "DLC": "BioGenesis"
+      }
+    },
+    {
+      "id": "Mutation",
+      "section": "Ascension path trees (BioGenesis)",
+      "data": {
+        "Focus": "Mutagenic habitability and adaptation",
+        "Requirements": "Biomorphosis ascension perk",
+        "DLC": "BioGenesis"
+      }
+    },
+    {
+      "id": "Purity",
+      "section": "Ascension path trees (BioGenesis)",
+      "data": {
+        "Focus": "Genetic perfection and optimization",
+        "Requirements": "Biomorphosis ascension perk",
+        "DLC": "BioGenesis"
+      }
+    },
+    {
+      "id": "Synthetics",
+      "section": "Ascension path trees",
+      "data": {
+        "Focus": "Synthetic evolution",
+        "Requirements": "Synthetic Evolution ascension perk",
+        "DLC": "Utopia/The Machine Age"
+      }
+    },
+    {
+      "id": "Modularity",
+      "section": "Ascension path trees (Machine Age)",
+      "data": {
+        "Focus": "Machine modularity",
+        "Requirements": "Synthetic Age ascension perk",
+        "DLC": "The Machine Age"
+      }
+    },
+    {
+      "id": "Nanotech",
+      "section": "Ascension path trees (Machine Age)",
+      "data": {
+        "Focus": "Nanotechnology",
+        "Requirements": "Synthetic Age ascension perk",
+        "DLC": "The Machine Age"
+      }
+    },
+    {
+      "id": "Virtuality",
+      "section": "Ascension path trees (Machine Age)",
+      "data": {
+        "Focus": "Virtual existence",
+        "Requirements": "Synthetic Age ascension perk",
+        "DLC": "The Machine Age"
+      }
+    }
+  ]
+}

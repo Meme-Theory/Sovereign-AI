@@ -127,7 +127,7 @@ district_mining = {
 			owner = {
 				has_monthly_income = {
 					resource = minerals
-					value < 20
+					value < 25
 				}
 			}
 		}
@@ -213,7 +213,7 @@ district_generator = {
 			owner = {
 				has_monthly_income = {
 					resource = energy
-					value < 20
+					value < 10
 				}
 			}
 		}
@@ -241,7 +241,7 @@ district_generator = {
 			owner = {
 				has_monthly_income = {
 					resource = energy
-					value > 100
+					value > 50
 				}
 			}
 		}
@@ -299,7 +299,7 @@ district_farming = {
 			owner = {
 				has_monthly_income = {
 					resource = food
-					value < 10
+					value < 5
 				}
 			}
 		}
@@ -323,11 +323,11 @@ district_farming = {
 
 		# Don't over-produce food
 		modifier = {
-			factor = @district_surplus_penalty
+			factor = 0.1
 			owner = {
 				has_monthly_income = {
 					resource = food
-					value > 50
+					value > 30
 				}
 			}
 		}

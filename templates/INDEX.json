@@ -1,0 +1,191 @@
+{
+  "$schema": "sovereign-template-v1.json",
+  "version": "2.0.0",
+  "generated": "2026-04-12",
+  "description": "Registry of all Sovereign AI empire archetype templates. AI_ prefixed templates were derived from baseline save game AI empires. Unprefixed templates were derived from player playthroughs.",
+  "template_count": 17,
+  "schema_file": "sovereign-template-v1.json",
+
+  "ai_templates": [
+    {
+      "id": "AI_aggressive_expansionist",
+      "file": "AI_aggressive_expansionist.json",
+      "name": "Aggressive Expansionist",
+      "personality_key": "aggressive_expansionist",
+      "archetype": "expansionist",
+      "empire_type": "regular",
+      "key_trait": "Alloy rush, early wars, military dominance",
+      "simulator_preset": "militarist"
+    },
+    {
+      "id": "AI_ruthless_industrialist",
+      "file": "AI_ruthless_industrialist.json",
+      "name": "Ruthless Industrialist",
+      "personality_key": "sovereign_ruthless_industrialist",
+      "archetype": "expansionist",
+      "empire_type": "regular",
+      "key_trait": "Production supremacy, economic snowball",
+      "simulator_preset": "industrialist"
+    },
+    {
+      "id": "AI_diplomatic_hegemon",
+      "file": "AI_diplomatic_hegemon.json",
+      "name": "Diplomatic Hegemon",
+      "personality_key": "sovereign_diplomatic_hegemon",
+      "archetype": "diplomat",
+      "empire_type": "regular",
+      "key_trait": "Federation builder, trade-focused diplomacy",
+      "simulator_preset": "diplomat"
+    },
+    {
+      "id": "AI_fortress_guardian",
+      "file": "AI_fortress_guardian.json",
+      "name": "Fortress Guardian",
+      "personality_key": "sovereign_fortress_guardian",
+      "archetype": "isolationist",
+      "empire_type": "regular",
+      "key_trait": "Defensive turtle, high bravery, low expansion",
+      "simulator_preset": "pacifist"
+    },
+    {
+      "id": "AI_knowledge_seeker",
+      "file": "AI_knowledge_seeker.json",
+      "name": "Knowledge Seeker",
+      "personality_key": "sovereign_knowledge_seeker",
+      "archetype": "technologist",
+      "empire_type": "regular",
+      "key_trait": "Tech rush, research agreements, first lab by 2205",
+      "simulator_preset": "materialist"
+    },
+    {
+      "id": "AI_evangelizing_zealot",
+      "file": "AI_evangelizing_zealot.json",
+      "name": "Evangelizing Zealot",
+      "personality_key": "sovereign_evangelizing_zealot",
+      "archetype": "propagator",
+      "empire_type": "regular",
+      "key_trait": "Unity rush, liberation wars, temple before lab",
+      "simulator_preset": "spiritualist"
+    },
+    {
+      "id": "AI_xenophobic_purifier",
+      "file": "AI_xenophobic_purifier.json",
+      "name": "Xenophobic Purifier",
+      "personality_key": "sovereign_xenophobic_purifier",
+      "archetype": "purifier",
+      "empire_type": "regular",
+      "key_trait": "Total war, maximum aggression, no diplomacy",
+      "simulator_preset": "purifier"
+    },
+    {
+      "id": "AI_devouring_swarm",
+      "file": "AI_devouring_swarm.json",
+      "name": "Devouring Swarm",
+      "personality_key": "sovereign_devouring_swarm",
+      "archetype": "devourer",
+      "empire_type": "hive_mind",
+      "key_trait": "Consume everything, biological total war",
+      "simulator_preset": "hive"
+    },
+    {
+      "id": "AI_adaptive_optimizer",
+      "file": "AI_adaptive_optimizer.json",
+      "name": "Adaptive Optimizer",
+      "personality_key": "sovereign_adaptive_optimizer",
+      "archetype": "technologist",
+      "empire_type": "machine",
+      "key_trait": "Efficient expansion, no food/CG economy",
+      "simulator_preset": "machine"
+    }
+  ],
+
+  "player_templates": [
+    {
+      "id": "shrouded_from_clay",
+      "file": "shrouded_from_clay.json",
+      "name": "Shrouded From Clay",
+      "source_empire": "Sorann Index",
+      "empire_type": "machine",
+      "key_trait": "Machine Intelligence → psionic megastructure economy",
+      "source_save": "sorannindex14"
+    },
+    {
+      "id": "pax_romana",
+      "file": "pax_romana.json",
+      "name": "Pax Romana",
+      "source_empire": "Holy Roman Colonies",
+      "empire_type": "regular",
+      "key_trait": "Trade-dominant federation builder, economic peace",
+      "source_save": "holyromancolonies4"
+    },
+    {
+      "id": "cooked_well_done",
+      "file": "cooked_well_done.json",
+      "name": "Cooked Well Done",
+      "source_empire": "Thernyx Order",
+      "empire_type": "regular",
+      "key_trait": "Infernal tech-dense volcano, quality over quantity",
+      "source_save": "thernyxorder"
+    },
+    {
+      "id": "burning_crusade",
+      "file": "burning_crusade.json",
+      "name": "Burning Crusade",
+      "source_empire": "Order of Stebbnar",
+      "empire_type": "regular",
+      "key_trait": "Unity-rushing zealot, traditions before anyone else",
+      "source_save": "orderofstebbnar"
+    },
+    {
+      "id": "dead_hand_economics",
+      "file": "dead_hand_economics.json",
+      "name": "Dead Hand Economics",
+      "source_empire": "Provisioners of Suulan",
+      "empire_type": "regular",
+      "key_trait": "Necrophage trade-industrial machine",
+      "source_save": "provisionersofsuulan2"
+    },
+    {
+      "id": "cathedral_of_stars",
+      "file": "cathedral_of_stars.json",
+      "name": "Cathedral of Stars",
+      "source_empire": "Lishian Kingdom",
+      "empire_type": "regular",
+      "key_trait": "Starbase unity maximizer, the galaxy is the church",
+      "source_save": "lishiankingdom5"
+    },
+    {
+      "id": "church_militant",
+      "file": "church_militant.json",
+      "name": "Church Militant",
+      "source_empire": "Darhesh Church of Other Worlds",
+      "empire_type": "regular",
+      "key_trait": "Psionic trade-church, faith meets commerce",
+      "source_save": "darheshchurchofotherworlds6"
+    },
+    {
+      "id": "silent_king",
+      "file": "silent_king.json",
+      "name": "Silent King",
+      "source_empire": "Kingdom of Vartivar",
+      "empire_type": "regular",
+      "key_trait": "Patient generalist, quiet accumulation",
+      "source_save": "kingdomofvartivar6"
+    }
+  ],
+
+  "empire_type_summary": {
+    "regular": ["AI_aggressive_expansionist", "AI_ruthless_industrialist", "AI_diplomatic_hegemon", "AI_fortress_guardian", "AI_knowledge_seeker", "AI_evangelizing_zealot", "AI_xenophobic_purifier", "pax_romana", "cooked_well_done", "burning_crusade", "dead_hand_economics", "cathedral_of_stars", "church_militant", "silent_king"],
+    "hive_mind": ["AI_devouring_swarm"],
+    "machine": ["AI_adaptive_optimizer", "shrouded_from_clay"]
+  },
+
+  "gate_registry": {
+    "G1_mineral": { "threshold": 15, "factor": 0.1, "applies_to": "All mineral-consuming buildings (foundries, factories, refineries)" },
+    "G2_consumer_goods": { "threshold": 2, "factor": 0.1, "applies_to": "All CG-consuming buildings (research labs, admin offices, temples)" },
+    "G3_mineral_strict": { "threshold": 25, "factor": 0.1, "applies_to": "Strategic resource refineries (10 mineral drain per 100 WF)" },
+    "G4_strategic": { "threshold": 1, "factor": 0.1, "applies_to": "T2/T3 buildings requiring strategic resource upkeep" },
+    "G5_alloy_expansion": { "threshold": 5, "factor": 0.1, "applies_to": "Expansion decisions (colony ships, starbases, habitats)" },
+    "G6_energy_high_upkeep": { "threshold": 5, "factor": 0.25, "applies_to": "T2/T3 buildings with 5-8 EC upkeep" }
+  }
+}

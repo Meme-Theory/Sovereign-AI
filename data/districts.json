@@ -1,0 +1,439 @@
+{
+  "category": "districts",
+  "source": "Stellaris Wiki (4.x)",
+  "extracted": "2026-04-12",
+  "count": 49,
+  "items": [
+    {
+      "id": "City District",
+      "section": "Primary districts",
+      "data": {
+        "Effects": "+1000 Housing",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 480; Minerals 500",
+        "Requirements": "Individualist"
+      }
+    },
+    {
+      "id": "Central Nexus",
+      "section": "Primary districts",
+      "data": {
+        "Effects": "+1000 Housing",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 480; Minerals 500",
+        "Requirements": "Machine Intelligence"
+      }
+    },
+    {
+      "id": "Hive Cluster",
+      "section": "Primary districts",
+      "data": {
+        "Effects": "+1200 Housing",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 480; Minerals 500",
+        "Requirements": "Hive Mind; No Wilderness"
+      }
+    },
+    {
+      "id": "Communal Biome",
+      "section": "Primary districts",
+      "data": {
+        "Effects": "+100 Housing",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 480; Minerals 500; Biomass 50",
+        "Requirements": "Wilderness"
+      }
+    },
+    {
+      "id": "Habitation District",
+      "section": "Planet class primary districts",
+      "data": {
+        "Effects": "+1000 Housing",
+        "Upkeep": "Energy Credits -2; Alloys -0.5",
+        "Cost": "Time 360; Alloys 300",
+        "Requirements": "Habitat"
+      }
+    },
+    {
+      "id": "Residential Arcology",
+      "section": "Planet class primary districts",
+      "data": {
+        "Effects": "+1500 Housing",
+        "Upkeep": "Energy Credits -5",
+        "Cost": "Time 480; Minerals 1000",
+        "Requirements": "Ecumenopolis"
+      }
+    },
+    {
+      "id": "City Segment",
+      "section": "Planet class primary districts",
+      "data": {
+        "Effects": "+2500 Housing",
+        "Upkeep": "Energy Credits -5",
+        "Cost": "Time 360; Minerals 1000",
+        "Requirements": "Ring World; Individualist"
+      }
+    },
+    {
+      "id": "Hive Segment",
+      "section": "Planet class primary districts",
+      "data": {
+        "Effects": "+3000 Housing",
+        "Upkeep": "Energy Credits -5",
+        "Cost": "Time 360; Minerals 1000",
+        "Requirements": "Ring World; Hive Mind"
+      }
+    },
+    {
+      "id": "Nexus Segment",
+      "section": "Planet class primary districts",
+      "data": {
+        "Effects": "+2500 Housing",
+        "Upkeep": "Energy Credits -5",
+        "Cost": "Time 360; Minerals 1000",
+        "Requirements": "Ring World; Machine Intelligence"
+      }
+    },
+    {
+      "id": "Prison District",
+      "section": "Specialized primary districts",
+      "data": {
+        "Effects": "+300 Housing; +200 Enforcers",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 480; Minerals 500",
+        "Requirements": "Penal Colony"
+      }
+    },
+    {
+      "id": "Slave Domicile District",
+      "section": "Specialized primary districts",
+      "data": {
+        "Effects": "+1000 Housing; +200 Overseers",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 480; Minerals 500",
+        "Requirements": "Thrall-World"
+      }
+    },
+    {
+      "id": "Accommodation District",
+      "section": "Specialized primary districts",
+      "data": {
+        "Effects": "+500 Housing; +300 Resort Workers",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 480; Minerals 500",
+        "Requirements": "Resort World"
+      }
+    },
+    {
+      "id": "Order's Demesne",
+      "section": "Other primary districts",
+      "data": {
+        "Effects": "+1000 Housing",
+        "Upkeep": "Energy Credits -2; Alloys -0.5",
+        "Cost": "Time 360; Alloys 300",
+        "Requirements": "Order's Hall specialization"
+      }
+    },
+    {
+      "id": "Scavenger Site",
+      "section": "Other primary districts",
+      "data": {
+        "Effects": "+1000 Housing; Cannot be built/demolished",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "None",
+        "Requirements": "Crashed Slaver Ship feature"
+      }
+    },
+    {
+      "id": "Mindlink Metropolis",
+      "section": "Other primary districts",
+      "data": {
+        "Effects": "+3000 Housing; +1500 Transference Volunteers",
+        "Upkeep": "Food -2",
+        "Cost": "Time 720; Food 1500",
+        "Requirements": "Mind Meld crisis perk; Empire Capital"
+      }
+    },
+    {
+      "id": "Attraction District",
+      "section": "Secondary urban districts",
+      "data": {
+        "Effects": "+500 Housing",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 480; Minerals 500",
+        "Requirements": "Resort World"
+      }
+    },
+    {
+      "id": "Unspecialized Arcology",
+      "section": "Secondary urban districts",
+      "data": {
+        "Effects": "+1500 Housing",
+        "Upkeep": "Energy Credits -5",
+        "Cost": "Time 480; Alloys 500",
+        "Requirements": "Ecumenopolis"
+      }
+    },
+    {
+      "id": "Unspecialized Segment",
+      "section": "Secondary urban districts",
+      "data": {
+        "Effects": "+2500 Housing",
+        "Upkeep": "Energy Credits -5",
+        "Cost": "Time 360; Minerals 1000",
+        "Requirements": "Ring World"
+      }
+    },
+    {
+      "id": "Unspecialized Cluster",
+      "section": "Secondary urban districts",
+      "data": {
+        "Effects": "+1800 Housing",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 480; Minerals 500",
+        "Requirements": "Hive World"
+      }
+    },
+    {
+      "id": "Unspecialized Nexus",
+      "section": "Secondary urban districts",
+      "data": {
+        "Effects": "+1000 Housing",
+        "Upkeep": "Energy Credits -2",
+        "Cost": "Time 480; Minerals 500",
+        "Requirements": "Machine World; Nanite World"
+      }
+    },
+    {
+      "id": "Generator District",
+      "section": "Planetary resource districts",
+      "data": {
+        "Effects": "+200 Housing; +200 Technicians",
+        "Upkeep": "Energy Credits -1",
+        "Cost": "Time 240; Minerals 300"
+      }
+    },
+    {
+      "id": "Mining District",
+      "section": "Planetary resource districts",
+      "data": {
+        "Effects": "+200 Housing; +200 Miners",
+        "Upkeep": "Energy Credits -1",
+        "Cost": "Time 240; Minerals 300"
+      }
+    },
+    {
+      "id": "Agriculture District",
+      "section": "Planetary resource districts",
+      "data": {
+        "Effects": "+200 Housing; +200 Farmers",
+        "Upkeep": "Energy Credits -1",
+        "Cost": "Time 240; Minerals 300"
+      }
+    },
+    {
+      "id": "Reactor District",
+      "section": "Habitat resource districts",
+      "data": {
+        "Effects": "+300 Housing; +100 Technicians",
+        "Upkeep": "Energy Credits -2; Alloys -0.5",
+        "Cost": "Time 360; Alloys 300"
+      }
+    },
+    {
+      "id": "Astro-Mining Bay",
+      "section": "Habitat resource districts",
+      "data": {
+        "Effects": "+300 Housing; +100 Miners",
+        "Upkeep": "Energy Credits -2; Alloys -0.5",
+        "Cost": "Time 360; Alloys 300"
+      }
+    },
+    {
+      "id": "Research District",
+      "section": "Habitat resource districts",
+      "data": {
+        "Effects": "+300 Housing; +30 each researcher type",
+        "Upkeep": "Energy Credits -2; Alloys -0.5",
+        "Cost": "Time 360; Alloys 300"
+      }
+    },
+    {
+      "id": "Geothermal Powerplant",
+      "section": "Volcanic resource districts",
+      "data": {
+        "Effects": "+200 Housing; +200 Technicians",
+        "Upkeep": "Energy Credits -1",
+        "Cost": "Time 240; Minerals 300"
+      }
+    },
+    {
+      "id": "Magma Conduit",
+      "section": "Volcanic resource districts",
+      "data": {
+        "Effects": "+200 Housing; +200 Miners",
+        "Upkeep": "Energy Credits -1",
+        "Cost": "Time 240; Minerals 300"
+      }
+    },
+    {
+      "id": "Thermotechnic Forum",
+      "section": "Volcanic resource districts",
+      "data": {
+        "Effects": "+200 Housing; +200 Thermotechnic Mentors",
+        "Upkeep": "Energy Credits -3",
+        "Cost": "Time 250; Minerals 450"
+      }
+    },
+    {
+      "id": "Photosynthesis Field",
+      "section": "Wilderness resource districts",
+      "data": {
+        "Effects": "+100 Housing; +200 Photosymbionts",
+        "Upkeep": "Energy Credits -1",
+        "Cost": "Time 240; Minerals 300; Biomass 50"
+      }
+    },
+    {
+      "id": "Hollow Mountain",
+      "section": "Wilderness resource districts",
+      "data": {
+        "Effects": "+100 Housing; +200 Grubsymbionts",
+        "Upkeep": "Energy Credits -1",
+        "Cost": "Time 240; Minerals 300; Biomass 50"
+      }
+    },
+    {
+      "id": "Orchard Forest",
+      "section": "Wilderness resource districts",
+      "data": {
+        "Effects": "+100 Housing; +200 Pollinosymbiont",
+        "Upkeep": "Energy Credits -1",
+        "Cost": "Time 240; Minerals 300; Biomass 50"
+      }
+    },
+    {
+      "id": "Neural Gate",
+      "section": "Synaptic Lathe districts",
+      "data": {
+        "Effects": "+1 Building Slot; +1500 Housing; +0.75 Research per 100 Neural Chips",
+        "Upkeep": "Energy Credits -50",
+        "Cost": "Time 250; Alloys 800; Advanced logic 400"
+      }
+    },
+    {
+      "id": "Ampliative Speculator",
+      "section": "Synaptic Lathe districts",
+      "data": {
+        "Effects": "+1 Building Slot; +1500 Housing; +0.02 Advanced Logic per 100 Neural Chips",
+        "Upkeep": "Energy Credits -50",
+        "Cost": "Time 250; Alloys 800; Advanced logic 400"
+      }
+    },
+    {
+      "id": "Industrial District Swap (Mixed Industry)",
+      "section": "Secondary urban district swaps",
+      "data": {
+        "Specialization": "Mixed Industry"
+      }
+    },
+    {
+      "id": "Foundry District Swap (Heavy Industry)",
+      "section": "Secondary urban district swaps",
+      "data": {
+        "Specialization": "Heavy Industry"
+      }
+    },
+    {
+      "id": "Factory District Swap (Civilian Industry)",
+      "section": "Secondary urban district swaps",
+      "data": {
+        "Specialization": "Civilian Industry"
+      }
+    },
+    {
+      "id": "Research District Swap (Research Enclave)",
+      "section": "Secondary urban district swaps",
+      "data": {
+        "Specialization": "Research Enclave"
+      }
+    },
+    {
+      "id": "Physics District Swap",
+      "section": "Secondary urban district swaps",
+      "data": {
+        "Specialization": "Physics Research Specialization"
+      }
+    },
+    {
+      "id": "Biology District Swap",
+      "section": "Secondary urban district swaps",
+      "data": {
+        "Specialization": "Society Research Specialization"
+      }
+    },
+    {
+      "id": "Engineering District Swap",
+      "section": "Secondary urban district swaps",
+      "data": {
+        "Specialization": "Engineering Research Specialization"
+      }
+    },
+    {
+      "id": "Administrative District Swap",
+      "section": "Secondary urban district swaps",
+      "data": {
+        "Specialization": "Administrative Hub"
+      }
+    },
+    {
+      "id": "Ecclesiastical District Swap",
+      "section": "Secondary urban district swaps",
+      "data": {
+        "Specialization": "Spiritual Enclave"
+      }
+    },
+    {
+      "id": "Sanctuary District Swap",
+      "section": "Secondary urban district swaps",
+      "data": {
+        "Specialization": "Sanctuary Enclave"
+      }
+    },
+    {
+      "id": "Fortress District Swap",
+      "section": "Secondary urban district swaps",
+      "data": {
+        "Specialization": "Planetary Defenses"
+      }
+    },
+    {
+      "id": "Commercial District Swap",
+      "section": "Secondary urban district swaps",
+      "data": {
+        "Specialization": "Commercial Nexus"
+      }
+    },
+    {
+      "id": "Generator District Swap",
+      "section": "Secondary urban district swaps",
+      "data": {
+        "Specialization": "Energy Generation; Volatile Motes Harvesting"
+      }
+    },
+    {
+      "id": "Mining District Swap",
+      "section": "Secondary urban district swaps",
+      "data": {
+        "Specialization": "Mineral Extraction; Rare Crystal Extraction; Betharian Processing"
+      }
+    },
+    {
+      "id": "Agricultural District Swap",
+      "section": "Secondary urban district swaps",
+      "data": {
+        "Specialization": "Agricultural Focus; Exotic Gas Capture"
+      }
+    }
+  ]
+}

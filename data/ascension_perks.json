@@ -1,0 +1,393 @@
+{
+  "category": "ascension_perks",
+  "source": "Stellaris Wiki (4.x)",
+  "extracted": "2026-04-12",
+  "count": 42,
+  "items": [
+    {
+      "id": "Executive Vigor",
+      "section": "Tier 0",
+      "data": {
+        "Effects": "+100 Edict fund; +15% Council agenda speed",
+        "AI weight": 30
+      }
+    },
+    {
+      "id": "Interstellar Dominion",
+      "section": "Tier 0",
+      "data": {
+        "Effects": "-20% Claim influence cost; -20% Starbase influence cost; -25% Empire size from systems",
+        "AI weight": 10
+      }
+    },
+    {
+      "id": "Technological Ascendancy",
+      "section": "Tier 0",
+      "data": {
+        "Effects": "Unlocks Research Focus policies; +50% Rare technology chance",
+        "AI weight": 40
+      }
+    },
+    {
+      "id": "Transcendent Learning",
+      "section": "Tier 0",
+      "data": {
+        "Effects": "+2 Scientist capacity; +25% Leader experience gain; -15% Leader upkeep",
+        "AI weight": 10
+      }
+    },
+    {
+      "id": "Imperial Prerogative",
+      "section": "Tier 0",
+      "data": {
+        "Effects": "-25% Empire size from planets; +2 Official capacity",
+        "AI weight": 15
+      }
+    },
+    {
+      "id": "Mastery of Nature",
+      "section": "Tier 0",
+      "data": {
+        "Effects": "-33% Clear Blocker cost; Mastery of Nature decision",
+        "AI weight": 10
+      }
+    },
+    {
+      "id": "One Vision",
+      "section": "Tier 0",
+      "data": {
+        "Effects": "+10% Monthly unity; +50% Governing ethics attraction",
+        "AI weight": 10
+      }
+    },
+    {
+      "id": "Shared Destiny",
+      "section": "Tier 0",
+      "data": {
+        "Effects": "+2 Available envoys; +1 exempt from Divided Patronage",
+        "AI weight": 5
+      }
+    },
+    {
+      "id": "Consecrated Worlds",
+      "section": "Tier 0",
+      "data": {
+        "Effects": "Consecrate World decision",
+        "Requirements": "Spiritualist",
+        "AI weight": 10
+      }
+    },
+    {
+      "id": "Eternal Vigilance",
+      "section": "Tier 0",
+      "data": {
+        "Effects": "+1 Commander capacity; +25% Starbase hull/damage; +20% Home territory fire rate",
+        "AI weight": 2
+      }
+    },
+    {
+      "id": "Universal Transactions",
+      "section": "Tier 0",
+      "data": {
+        "Effects": "+1 Official capacity; -15% Branch office cost; Free commercial pacts",
+        "Requirements": "Corporate",
+        "AI weight": 20,
+        "DLC": "MegaCorp"
+      }
+    },
+    {
+      "id": "Nihilistic Acquisition",
+      "section": "Tier 0",
+      "data": {
+        "Effects": "Unlocks Raiding bombardment",
+        "Requirements": "Authoritarian/Xenophobe or Gestalt",
+        "AI weight": 10,
+        "DLC": "Apocalypse"
+      }
+    },
+    {
+      "id": "Lord of War",
+      "section": "Tier 0",
+      "data": {
+        "Effects": "+1 Enclave Capacity; +25% Diplomatic weight from fleet",
+        "AI weight": 5,
+        "DLC": "Overlord"
+      }
+    },
+    {
+      "id": "Mechromancy",
+      "section": "Tier 0",
+      "data": {
+        "Effects": "+15% L/XL/T slot weapon damage; Zombie resurrection",
+        "Requirements": "Machine Intelligence",
+        "AI weight": 4,
+        "DLC": "Necroids"
+      }
+    },
+    {
+      "id": "Archaeo-Engineers",
+      "section": "Tier 0",
+      "data": {
+        "Effects": "+1 Scientist capacity; +33% Archaeotech weapon damage; Enhanced archaeo buildings",
+        "AI weight": 4.5,
+        "DLC": "Ancient Relics"
+      }
+    },
+    {
+      "id": "Xeno-Compatibility",
+      "section": "Tier 0",
+      "data": {
+        "Effects": "+20% Pop growth with 2+ species; +100% Refugee attraction",
+        "Requirements": "Xenophile; Gene Tailoring",
+        "AI weight": 10,
+        "DLC": "MegaCorp"
+      }
+    },
+    {
+      "id": "Hydrocentric",
+      "section": "Tier 0",
+      "data": {
+        "Effects": "-25% Ocean terraforming cost; Deluge Machine colossus",
+        "Requirements": "Aquatic founder species",
+        "AI weight": 80,
+        "DLC": "Aquatics"
+      }
+    },
+    {
+      "id": "Detox",
+      "section": "Tier 0",
+      "data": {
+        "Effects": "Can terraform Toxic worlds",
+        "Requirements": "Climate Restoration tech",
+        "AI weight": 20,
+        "DLC": "Toxoids"
+      }
+    },
+    {
+      "id": "Voidborne",
+      "section": "Tier 0",
+      "data": {
+        "Effects": "-20% Habitat build cost; +2 Habitat max districts; +50% Habitat district jobs",
+        "Requirements": "Orbital Habitats tech",
+        "AI weight": 10,
+        "DLC": "Utopia"
+      }
+    },
+    {
+      "id": "Galactic Wonders",
+      "section": "Tier 0",
+      "data": {
+        "Effects": "Ring World, Dyson Sphere, Matter Decompressor research options",
+        "Requirements": "Built/repaired a megastructure; Mega-Engineering tech",
+        "AI weight": 10,
+        "DLC": "Utopia; MegaCorp"
+      }
+    },
+    {
+      "id": "Grasp the Void",
+      "section": "Tier 1",
+      "data": {
+        "Effects": "+50% FTL tech chance; +5 Starbase capacity; Unlocks many FTL techs",
+        "AI weight": 3
+      }
+    },
+    {
+      "id": "World Shaper",
+      "section": "Tier 1",
+      "data": {
+        "Effects": "-25% Terraforming cost; Gaia World terraforming",
+        "Requirements": "Climate Restoration tech",
+        "AI weight": 5
+      }
+    },
+    {
+      "id": "Enigmatic Engineering",
+      "section": "Tier 1",
+      "data": {
+        "Effects": "+2 Encryption; +2 Cloaking; No debris; Block Steal Technology",
+        "AI weight": 2,
+        "DLC": "Apocalypse"
+      }
+    },
+    {
+      "id": "Galactic Weather Control",
+      "section": "Tier 1",
+      "data": {
+        "Effects": "Create cosmic storms; Storm weapon research",
+        "Requirements": "Advanced Storm Manipulation",
+        "AI weight": 0,
+        "DLC": "Cosmic Storms"
+      }
+    },
+    {
+      "id": "Galactic Force Projection",
+      "section": "Tier 2",
+      "data": {
+        "Effects": "+1 Commander capacity; +2 Max influence from power projection; +20% Fleet command limit; +150 Naval capacity",
+        "AI weight": 10
+      }
+    },
+    {
+      "id": "Arcology Project",
+      "section": "Tier 2",
+      "data": {
+        "Effects": "Arcology Project decision",
+        "Requirements": "Anti-Gravity Engineering; No Agrarian Idyll",
+        "AI weight": 10,
+        "DLC": "MegaCorp"
+      }
+    },
+    {
+      "id": "Hive Worlds",
+      "section": "Tier 2",
+      "data": {
+        "Effects": "Hive World terraforming",
+        "Requirements": "Hive Mind; Climate Restoration",
+        "AI weight": 100,
+        "DLC": "Utopia"
+      }
+    },
+    {
+      "id": "Machine Worlds",
+      "section": "Tier 2",
+      "data": {
+        "Effects": "Machine World terraforming; Double output from resource districts",
+        "Requirements": "Machine Intelligence",
+        "AI weight": 100,
+        "DLC": "Synthetic Dawn"
+      }
+    },
+    {
+      "id": "Master Builders",
+      "section": "Tier 2",
+      "data": {
+        "Effects": "+50% Megastructure build speed; +1 Megastructure build capacity",
+        "Requirements": "Mega-Engineering tech",
+        "AI weight": 10,
+        "DLC": "Utopia"
+      }
+    },
+    {
+      "id": "Defender of the Galaxy",
+      "section": "Tier 3",
+      "data": {
+        "Effects": "+50% Damage to endgame crisis; +200 Opinion from all empires",
+        "AI weight": 5
+      }
+    },
+    {
+      "id": "Galactic Contender",
+      "section": "Tier 3",
+      "data": {
+        "Effects": "+20% Diplomatic weight; +33% Damage to Fallen/Awakened Empires",
+        "AI weight": 4
+      }
+    },
+    {
+      "id": "Colossus Project",
+      "section": "Tier 3",
+      "data": {
+        "Effects": "Colossus ship type; -5% Ship upkeep; -15% War exhaustion",
+        "Requirements": "Titans tech",
+        "AI weight": 10,
+        "DLC": "Apocalypse"
+      }
+    },
+    {
+      "id": "Mind Over Matter",
+      "section": "Ascension paths",
+      "data": {
+        "Effects": "Unlocks Psionics tradition tree",
+        "Requirements": "Organic founder species",
+        "AI weight": 100,
+        "DLC": "Utopia; Shadows of the Shroud"
+      }
+    },
+    {
+      "id": "Synthetic Evolution",
+      "section": "Ascension paths",
+      "data": {
+        "Effects": "Unlocks Synthetics tradition tree",
+        "Requirements": "Organic founder species",
+        "AI weight": 100,
+        "DLC": "Utopia; The Machine Age"
+      }
+    },
+    {
+      "id": "The Flesh is Weak",
+      "section": "Ascension paths",
+      "data": {
+        "Effects": "Unlocks Cybernetics tradition tree",
+        "Requirements": "Organic founder species or Driven Assimilator",
+        "AI weight": 100,
+        "DLC": "Utopia; The Machine Age"
+      }
+    },
+    {
+      "id": "Biomorphosis",
+      "section": "Ascension paths",
+      "data": {
+        "Effects": "Unlocks Genetics/Cloning/Mutation/Purity trees",
+        "Requirements": "Organic founder species",
+        "AI weight": 100,
+        "DLC": "Utopia; BioGenesis"
+      }
+    },
+    {
+      "id": "Synthetic Age",
+      "section": "Ascension paths",
+      "data": {
+        "Effects": "Unlocks Modularity/Nanotech/Virtuality trees",
+        "Requirements": "Machine founder species",
+        "AI weight": 100,
+        "DLC": "Synthetic Dawn; The Machine Age"
+      }
+    },
+    {
+      "id": "Interdimensional Processing",
+      "section": "Ascension paths",
+      "data": {
+        "Effects": "Unlocks Psionics tradition tree (machines)",
+        "Requirements": "Machine founder species",
+        "AI weight": 100,
+        "DLC": "Shadows of the Shroud"
+      }
+    },
+    {
+      "id": "Galactic Nemesis",
+      "section": "Crisis perks",
+      "data": {
+        "Effects": "Unlocks Menace; Galactic Nemesis crisis progression",
+        "AI weight": 7.5,
+        "DLC": "Nemesis"
+      }
+    },
+    {
+      "id": "Cosmogenesis",
+      "section": "Crisis perks",
+      "data": {
+        "Effects": "Unlocks Advanced Logic; Cosmogenesis crisis progression",
+        "AI weight": 7.5,
+        "DLC": "The Machine Age"
+      }
+    },
+    {
+      "id": "Behemoth Fury",
+      "section": "Crisis perks",
+      "data": {
+        "Effects": "Unlocks Feral Insight; Behemoth Fury crisis progression",
+        "AI weight": 7.5,
+        "DLC": "BioGenesis"
+      }
+    },
+    {
+      "id": "Galactic Hyperthermia",
+      "section": "Crisis perks",
+      "data": {
+        "Effects": "Unlocks Crystallized Entropy; Galactic Hyperthermia crisis progression",
+        "AI weight": 7.5,
+        "DLC": "Infernals"
+      }
+    }
+  ]
+}
