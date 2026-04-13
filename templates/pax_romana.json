@@ -20,19 +20,20 @@
   },
 
   "origins": {
-    "default": "origin_default",
+    "default": "origin_shroudwalker_apprentice",
     "preferred": [
       {
-        "origin": "origin_hegemon",
-        "reason": "Start as federation president — immediate trade network and diplomatic leverage, the Roman way",
-        "economy_overrides": { "trade": 2.0 }
+        "origin": "origin_shroudwalker_apprentice",
+        "reason": "Actual origin — 25 rare crystals at start, Psionic Theory always available, free Psionics tradition tree. Mid-game snowball through psionic trade amplification",
+        "economy_overrides": { "research": 1.25 }
       },
       {
-        "origin": "origin_common_ground",
-        "reason": "Federation from day 1 with mutual defense and commercial pacts"
+        "origin": "origin_hegemon",
+        "reason": "Alternative federation-first path with immediate trade network",
+        "economy_overrides": { "trade": 2.0 }
       }
     ],
-    "compatible": ["origin_default", "origin_galactic_doorstep", "origin_ocean_paradise", "origin_lost_colony"],
+    "compatible": ["origin_common_ground", "origin_default", "origin_galactic_doorstep"],
     "forbidden": ["origin_doomsday", "origin_tree_of_life", "origin_primal_calling"]
   },
 

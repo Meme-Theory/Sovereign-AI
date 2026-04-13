@@ -20,12 +20,17 @@
   },
 
   "origins": {
-    "default": "origin_teachers_of_the_shroud",
+    "default": "origin_ocean_paradise",
     "preferred": [
       {
-        "origin": "origin_teachers_of_the_shroud",
-        "reason": "Shroud access amplifies psionic unity generation and late-game ascension",
-        "economy_overrides": { "unity": 2.0 }
+        "origin": "origin_ocean_paradise",
+        "reason": "Actual origin — size 30 ocean world (largest standard start) with Crystal Reef, Submerged Ore Veins, Underwater Vents, and Teeming Reef features. Massive pop capacity scales starbase unity production through sheer empire size",
+        "starting_state_overrides": { "planet_size": 30, "planet_class": "pc_ocean" },
+        "economy_overrides": { "expansion": 1.5 }
+      },
+      {
+        "origin": "origin_shroudwalker_apprentice",
+        "reason": "Alternative psionic path — free Psionics tradition accelerates unity-focused ascension"
       }
     ],
     "compatible": ["origin_default", "origin_fear_of_the_dark"],

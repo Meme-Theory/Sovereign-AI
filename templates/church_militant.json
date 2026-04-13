@@ -20,19 +20,19 @@
   },
 
   "origins": {
-    "default": "origin_default",
+    "default": "origin_riftworld",
     "preferred": [
       {
-        "origin": "origin_teachers_of_the_shroud",
-        "reason": "Psionic foundation gives shroud access and unity bonuses for the church theme",
-        "economy_overrides": { "unity": 1.5 }
+        "origin": "origin_riftworld",
+        "reason": "Actual origin — +10% physics from jobs in rift systems, +25% astral rift exploration speed, -50% rift fail chance. Starts with Astral Harvesting tech and Ruined Planet rift. Physics research multiplier feeds the church's scholarly bureaucrats",
+        "economy_overrides": { "research": 1.5 }
       },
       {
-        "origin": "origin_common_ground",
-        "reason": "Start in a faith-based federation — church militant spreads through allies"
+        "origin": "origin_shroudwalker_apprentice",
+        "reason": "Alternative psionic-first path — free Psionics tradition tree for the church theme"
       }
     ],
-    "compatible": ["origin_default", "origin_galactic_doorstep", "origin_fear_of_the_dark"],
+    "compatible": ["origin_default", "origin_fear_of_the_dark"],
     "forbidden": ["origin_mechanists"]
   },
 

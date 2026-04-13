@@ -20,16 +20,17 @@
   },
 
   "origins": {
-    "default": "origin_default",
+    "default": "origin_red_giant",
     "preferred": [
       {
-        "origin": "origin_teachers_of_the_shroud",
-        "reason": "Psionic origin with shroud access from day 1 — the zealot's dream",
-        "economy_overrides": { "unity": 2.5 }
+        "origin": "origin_red_giant",
+        "reason": "Actual origin — volcanic homeworld with rich deposits feeds early alloy/mineral income. The doomed star creates urgency that matches the zealot's burning crusade theme. Red Giant Expansion situation drives early colonization",
+        "starting_state_overrides": { "planet_size": 20, "planet_class": "pc_volcanic" },
+        "economy_overrides": { "alloy": 1.25 }
       },
       {
-        "origin": "origin_imperial_fiefdom",
-        "reason": "Break free from overlord then spread the faith through liberation wars"
+        "origin": "origin_shroudwalker_apprentice",
+        "reason": "Alternative psionic path — free Psionics tradition tree without AP slot accelerates unity snowball"
       }
     ],
     "compatible": ["origin_default", "origin_fear_of_the_dark"],

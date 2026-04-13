@@ -20,19 +20,16 @@
   },
 
   "origins": {
-    "default": "origin_default",
+    "default": "origin_endbringers",
     "preferred": [
       {
-        "origin": "origin_subterranean",
-        "reason": "Underground empire matches the silent king's hidden power theme",
-        "economy_overrides": { "military": 1.5 }
-      },
-      {
-        "origin": "origin_fear_of_the_dark",
-        "reason": "Archaeological secrets for a king who watches from the shadows"
+        "origin": "origin_endbringers",
+        "reason": "Actual origin — starts with Zro deposit and archaeological site. Severe happiness penalties (-0.9%/year, caps -50%) offset by Shroud delve events. Cannot join federations. Matches the isolationist patient-builder archetype — economy penalized until mid-game Shroud progression fires",
+        "economy_overrides": { "unity": 0.75 },
+        "starting_state_overrides": { "strategic_resources": { "sr_zro": true } }
       }
     ],
-    "compatible": ["origin_default", "origin_galactic_doorstep"],
+    "compatible": [],
     "forbidden": ["origin_common_ground", "origin_hegemon"]
   },
 

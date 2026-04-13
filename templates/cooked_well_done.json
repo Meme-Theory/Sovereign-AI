@@ -20,27 +20,22 @@
   },
 
   "origins": {
-    "default": "origin_default",
+    "default": "origin_red_giant",
     "preferred": [
       {
-        "origin": "origin_volcanic",
-        "reason": "Volcanic homeworld matches infernal theme; volcanic forge bonuses feed alloy production",
-        "starting_state_overrides": { "districts": { "mining": 3 } },
-        "economy_overrides": { "alloy": 1.5 }
-      },
-      {
-        "origin": "origin_remnants",
-        "reason": "Relic world research bonuses compound with tech-rush strategy",
-        "economy_overrides": { "research": 2.0 }
+        "origin": "origin_red_giant",
+        "reason": "Actual origin — size 20 volcanic homeworld with rich mineral/alloy/energy deposits nearby (Shattered World +10 minerals, Broken World +5 alloys, +10 energy from capital star). Compressed pop capacity forces quality-over-quantity",
+        "starting_state_overrides": { "planet_size": 20, "planet_class": "pc_volcanic" },
+        "economy_overrides": { "alloy": 1.25, "expansion": 0.75 }
       },
       {
         "origin": "origin_shattered_ring",
-        "reason": "Ring world research segment gives massive early research output on a single world",
+        "reason": "Alternative tech-rush path — ring world research segment for massive early output",
         "starting_state_overrides": { "planet_size": 10 },
         "economy_overrides": { "research": 2.5, "expansion": 0.5 }
       }
     ],
-    "compatible": ["origin_default", "origin_galactic_doorstep", "origin_mechanists"],
+    "compatible": ["origin_remnants", "origin_default"],
     "forbidden": ["origin_tree_of_life", "origin_primal_calling"]
   },
 

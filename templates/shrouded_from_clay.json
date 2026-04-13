@@ -20,21 +20,18 @@
   },
 
   "origins": {
-    "default": "origin_default",
+    "default": "origin_shroud_forged",
+    "exclusive": true,
     "preferred": [
       {
-        "origin": "origin_riftworld",
-        "reason": "Astral rift access on homeworld feeds the Shroud pivot; research and astral thread bonuses",
-        "economy_overrides": { "research": 1.5 }
-      },
-      {
-        "origin": "origin_resource_consolidation",
-        "reason": "Extra districts for machine production base",
-        "starting_state_overrides": { "districts": { "mining": 1, "generator": 1 } }
+        "origin": "origin_shroud_forged",
+        "reason": "Exclusive Machine Intelligence origin — Shroud-touched homeworld with Zro Distillation from day 1, Shroud Observation Tower, and Pierce the Shroud decision",
+        "economy_overrides": { "research": 1.5 },
+        "starting_state_overrides": { "strategic_resources": { "sr_zro": true } }
       }
     ],
-    "compatible": ["origin_default", "origin_galactic_doorstep"],
-    "forbidden": ["origin_tree_of_life", "origin_primal_calling", "origin_common_ground"]
+    "compatible": [],
+    "forbidden": ["all_others"]
   },
 
   "behavior": {
